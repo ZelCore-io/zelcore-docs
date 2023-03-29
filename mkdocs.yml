@@ -1,3 +1,100 @@
 site_name: Zelcore Knowledgebase
 theme:
   name: material
+  font:
+    text: Montserrat
+    code: Montserrat-LightItalic
+  logo: assets/branding/LogoTextDarkBG.png
+  favicon: assets/branding/favicon.png
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.indexes
+    - toc.integrate
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  language: en
+  palette:
+      # palette toggle for light mode, reads user's OS default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+      primary: purple
+      accent: deep purple 
+
+      # palette toggle for dark mode, reads user's OS default
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode    
+      primary: purple
+      accent: deep purple
+
+nav:
+  - Home: index.md
+  - FAQ: FAQ.md
+  - Supported Assets: supported_assets.md
+  - Guides:
+    - guides/hw_wallets.md
+    - guides/create_account.md
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - git-revision-date
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/ZelCore-io/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/zelcore_io
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/zelcore-technologies-inc
+  analytics:
+    provider: google
+    property: G-xxx
+    feedback:
+      title: Was this helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: unhelpful
+          data: 0
+          note: >-
+            Thanks for your feedback!
+
+markdown_extensions:
+#  - pymdownx.highlight:
+#      anchor_linenums: true
+#  - pymdownx.inlinehilite
+#  - pymdownx.snippets
+#  - admonition
+#  - pymdownx.arithmatex:
+#      generic: true
+#  - footnotes
+#  - pymdownx.details
+#  - pymdownx.superfences
+#  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/ZelCore-io/"  target="_blank" rel="noopener">Zelcore Technologies, Inc.</a>
