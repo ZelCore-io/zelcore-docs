@@ -1,4 +1,16 @@
 site_name: Zelcore Knowledgebase
+site_url: https://docs.zelcore.io
+site_author: Zelcore Technologies Inc.
+site_description: >-
+  Multi-asset cryptocurrency wallet for Windows, MacOS, Linux, iOS & Android.
+  Store BTC, ETH, LTC, BSC/BNB & 60+ other mainnet & token chains
+
+# Github repository
+repo_name: trial123Zel/zelcore-docs
+repo_url: https://github.com/trial123Zel/zelcore-docs
+
+# Copywrite information for footer
+copyright: Copyright &copy; 2023 <a href="https://zelcore.io"  target="_blank" rel="noopener">Zelcore Technologies Inc</a>
 theme:
   name: material
   font:
@@ -21,14 +33,20 @@ theme:
     - content.tabs.link
   language: en
   palette:
+      # palette toggle for automatic mode via OS
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    
       # palette toggle for light mode, reads user's OS default
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/weather-night 
         name: Switch to dark mode
-      primary: purple
-      accent: deep purple 
+      primary: blue grey
+      accent: black 
 
       # palette toggle for dark mode, reads user's OS default
     - media: "(prefers-color-scheme: dark)"
@@ -36,16 +54,19 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode    
-      primary: purple
-      accent: deep purple
+      primary: blue grey
+      accent: black
 
 nav:
   - Home: index.md
   - FAQ: FAQ.md
   - Supported Assets: supported_assets.md
   - Guides:
-    - guides/hw_wallets.md
-    - guides/create_account.md
+    - 'Hardware Wallets': guides/hw_wallets.md
+    - 'Create an account': guides/create_account.md
+    - 'Set up extra security': guides/security_setup.md
+    - 'Trade Crypto': guides/quickswap.md
+    - 'Buy Crypto': guides/fiat_on.md
 
 plugins:
   - search:
@@ -83,18 +104,15 @@ markdown_extensions:
 #  - pymdownx.highlight:
 #      anchor_linenums: true
 #  - pymdownx.inlinehilite
-#  - pymdownx.snippets
-#  - admonition
+  - pymdownx.snippets
+  - admonition
 #  - pymdownx.arithmatex:
 #      generic: true
-#  - footnotes
-#  - pymdownx.details
-#  - pymdownx.superfences
-#  - pymdownx.mark
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-
-copyright: |
-  &copy; 2023 <a href="https://github.com/ZelCore-io/"  target="_blank" rel="noopener">Zelcore Technologies, Inc.</a>
