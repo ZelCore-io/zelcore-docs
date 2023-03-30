@@ -38,6 +38,13 @@
 
 ## Steps in pictures
 
+
+=== "Enable"
+    <figure markdown>
+        ![HW_wallet_enable](../assets/guides/hw_wallet/hw_wallet_enable.png){ width="600" }
+        <figcaption>Enable Experimental Features in Settings</figcaption>
+    </figure>
+    
 === "Step 2"
     <figure markdown>
         ![HW_wallet_step2](../assets/guides/hw_wallet/hw_wallet_menu.png){ width="600" }
