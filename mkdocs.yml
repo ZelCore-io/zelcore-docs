@@ -59,14 +59,16 @@ theme:
 
 nav:
   - Home: index.md
-  - FAQ: FAQ.md
-  - Supported Assets: supported_assets.md
+  - Features:
+    - 'Security by Default': features/security_feature.md
   - Guides:
     - 'Hardware Wallets': guides/hw_wallets.md
     - 'Create an account': guides/create_account.md
     - 'Set up extra security': guides/security_setup.md
     - 'Trade Crypto': guides/quickswap.md
     - 'Buy Crypto': guides/fiat_on.md
+  - FAQ: FAQ.md
+  - Supported Assets: supported_assets.md
 
 plugins:
   - search:
@@ -85,7 +87,7 @@ extra:
       link: https://www.linkedin.com/company/zelcore-technologies-inc
   analytics:
     provider: google
-    property: G-xxx
+    property: G-7TKFDEBL1D
     feedback:
       title: Was this helpful?
       ratings:
@@ -101,18 +103,18 @@ extra:
             Thanks for your feedback!
 
 markdown_extensions:
-#  - pymdownx.highlight:
-#      anchor_linenums: true
-#  - pymdownx.inlinehilite
-  - pymdownx.snippets
   - admonition
-#  - pymdownx.arithmatex:
-#      generic: true
   - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
