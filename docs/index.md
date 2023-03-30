@@ -1,6 +1,4 @@
-# Home
-
-## __Zelcore Features__
+<h1> Zelcore Features </h1>
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-basket-shopping:{ .lg .middle } __Securely store your crypto__
@@ -23,7 +21,7 @@
 
     :material-cellphone-arrow-down: __iOS | Android__
 
-    [:octicons-arrow-right-24: Go to Downloads page](#)
+    [:octicons-arrow-right-24: Go to Downloads page](https://zelcore.io/download)
 
 -   :simple-expertsexchange:{ .lg .middle } __Buy & Trade crypto__
 
@@ -35,7 +33,7 @@
 
     :simple-binance: Trade on Binance, Kraken, and more
 
-    [:octicons-arrow-right-24: See how to swap](#)
+    [:octicons-arrow-right-24: See how to swap](http://127.0.0.1:8000/guides/)
 
 -   :material-scale-balance:{ .lg middle } __Keep track of your portfolios__
 
@@ -47,7 +45,7 @@
 
     :material-wallet-plus-outline: Ledger & Trezor devices supported
 
-    [:octicons-arrow-right-24: Set up your hardware wallet](#)
+    [:octicons-arrow-right-24: Set up your hardware wallet](http://127.0.0.1:8000/guides/hw_wallets)
 
 </div>
 

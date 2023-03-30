@@ -1,19 +1,21 @@
 !!! tip "Zelcore now supports Ledger & Trezor"
 !!! danger "Hardware wallet support is experimental. Use at your own discretion"
 
-# Supported Hardware Wallets
+<hr>
+<h1> Supported Hardware Wallets </h1>
 
-#### Ledger
+<h2> Ledger  </h2>
 
 - [Nano S Plus](https://shop.ledger.com/pages/ledger-nano-s-plus)
 - [Nano X](https://shop.ledger.com/pages/ledger-nano-x)
 
 
-#### Trezor
+<h2> Trezor </h2>
 
 * [Model One](https://trezor.io/trezor-model-one)
 * [Model T](https://trezor.io/trezor-model-t)
-
+<hr>
+<br>
 # Add your HW Wallet to Zelcore
 
 !!! warning "Hardware wallet support must be enabled since it's an experimental feature"
@@ -36,7 +38,7 @@
 !!! note "Imported Address Not Showing Up?"
     If you do not see your coin after importing a HW wallet address, select "Show Zero Sum" button. This happens if the address is empty.
 
-## Steps in pictures
+<h2> Steps in pictures </h2>
 
 
 === "Enable"
@@ -44,7 +46,7 @@
         ![HW_wallet_enable](../assets/guides/hw_wallet/hw_wallet_enable.png){ width="600" }
         <figcaption>Enable Experimental Features in Settings</figcaption>
     </figure>
-    
+
 === "Step 2"
     <figure markdown>
         ![HW_wallet_step2](../assets/guides/hw_wallet/hw_wallet_menu.png){ width="600" }

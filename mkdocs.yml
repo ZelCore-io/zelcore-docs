@@ -1,6 +1,7 @@
 site_name: Zelcore Knowledgebase
 site_url: https://docs.zelcore.io
 site_author: Zelcore Technologies Inc.
+site_dir: /home/parker/zelcore-docs-build
 site_description: >-
   Multi-asset cryptocurrency wallet for Windows, MacOS, Linux, iOS & Android.
   Store BTC, ETH, LTC, BSC/BNB & 60+ other mainnet & token chains
@@ -26,6 +27,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.indexes
+    - navigation.path
     - toc.integrate
     - toc.follow
     - search.suggest
@@ -59,23 +61,39 @@ theme:
 
 nav:
   - Home: index.md
-  - Features:
-    - 'Security by Default': features/security_feature.md
+#  - Features:
+#    - 'Security by Default': features/security_feature.md
   - Guides:
     - 'Hardware Wallets': guides/hw_wallets.md
     - 'Create an account': guides/create_account.md
-    - 'Set up extra security': guides/security_setup.md
+#    - 'Security Practices': guides/security_setup.md
     - 'Trade Crypto': guides/quickswap.md
     - 'Buy Crypto': guides/fiat_on.md
   - FAQ: FAQ.md
-  - Supported Assets: supported_assets.md
+#  - Supported Assets: supported_assets.md
 
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - git-revision-date
+  - git-revision-date-localized
   - minify:
       minify_html: true
+  - glightbox:
+      touchNavigation: true
+      effect: zoom
+      slide_effect: zoom
+      width: 200%
+      height: auto
+
+
+#  - optimize:
+#      concurrency: 4
+#      optimize_png: true
+#      optimize_png_speed: 9
+#      optimize_png_strip: true
+#      optimize_jpg_quality: 90
+#      optimize_jpg_progressive: true
+#      cache: false
 
 extra:
   social:
