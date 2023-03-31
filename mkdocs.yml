@@ -12,6 +12,8 @@ repo_url: https://github.com/trial123Zel/zelcore-docs
 
 # Copywrite information for footer
 copyright: Copyright &copy; 2023 <a href="https://zelcore.io"  target="_blank" rel="noopener">Zelcore Technologies Inc</a>
+extra_css:
+  - stylesheets/extra.css
 theme:
   name: material
   font:
@@ -64,11 +66,14 @@ nav:
 #  - Features:
 #    - 'Security by Default': features/security_feature.md
   - Guides:
-    - 'Hardware Wallets': guides/hw_wallets.md
     - 'Create an account': guides/create_account.md
-#    - 'Security Practices': guides/security_setup.md
+    - 'Security Notes': guides/security_setup.md
+    - 'Hardware Wallets': guides/hw_wallets.md
     - 'Trade Crypto': guides/quickswap.md
     - 'Buy Crypto': guides/fiat_on.md
+  - Help:
+    - 'Where are my coins?': help/where_assets.md
+    - 'Zelcore + HW Wallets': help/hw_wallets_zelcore.md
   - FAQ: FAQ.md
 #  - Supported Assets: supported_assets.md
 
