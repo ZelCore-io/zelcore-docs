@@ -1,4 +1,7 @@
 <h1> Zelcore Features </h1>
+
+![mobile_montage](./assets/branding/zelcore_mobile_montage1.png)
+
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-basket-shopping:{ .lg .middle } __Securely store your crypto__
@@ -9,7 +12,7 @@
 
     :material-dots-circle: Support for 500+ Tokens & Import even more
 
-    [:octicons-arrow-right-24: Create an account](http://127.0.0.1:8000/guides/create_account/)
+    [:octicons-arrow-right-24: Create an account](http://localhost:8000/guides/create_account/)
 
 -   :material-devices:{ .lg .middle } __Access your crypto anywhere__
 
@@ -33,7 +36,7 @@
 
     :simple-binance: Trade on Binance, Kraken, and more
 
-    [:octicons-arrow-right-24: See how to swap](http://127.0.0.1:8000/guides/)
+    [:octicons-arrow-right-24: See how to swap](http://localhost:8000/guides/)
 
 -   :material-scale-balance:{ .lg middle } __Keep track of your portfolios__
 
@@ -45,7 +48,7 @@
 
     :material-wallet-plus-outline: Ledger & Trezor devices supported
 
-    [:octicons-arrow-right-24: Set up your hardware wallet](http://127.0.0.1:8000/guides/hw_wallets)
+    [:octicons-arrow-right-24: Set up your hardware wallet](http://localhost:8000/guides/hw_wallets)
 
 </div>
 
