@@ -71,8 +71,8 @@ nav:
     - 'Create an account': guides/create_account.md
     - 'Security Notes': guides/security_setup.md
     - 'Hardware Wallets': guides/hw_wallets.md
-    - 'Trade Crypto': guides/quickswap.md
     - 'Buy Crypto': guides/fiat_on.md
+    - 'Trade Crypto': guides/quickswap.md
   - Help:
     - 'Where are my coins?': help/where_assets.md
     - 'Zelcore + HW Wallets': help/hw_wallets_zelcore.md
