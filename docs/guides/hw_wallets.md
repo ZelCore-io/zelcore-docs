@@ -42,36 +42,36 @@
 
 === "Enable"
     <figure markdown>
-        ![HW_wallet_enable](../assets/guides/hw_wallet/hw_wallet_enable.png){ width="600" }
+        ![HW_wallet_enable](../assets/guides/hw_wallet/hw_wallet_enable.png)
         <figcaption>Enable Experimental Features in Settings</figcaption>
     </figure>
 
 === "Step 2"
     <figure markdown>
-        ![HW_wallet_step2](../assets/guides/hw_wallet/hw_wallet_menu.png){ width="600" }
+        ![HW_wallet_step2](../assets/guides/hw_wallet/hw_wallet_menu.png)
         <figcaption>Tap the "See More Wallets" button in the upper middle of Porfolio Overview</figcaption>
     </figure>
 
 === "Step 4"
     <figure markdown>
-        ![HW_wallet_step4](../assets/guides/hw_wallet/hw_wallet_import.png){ width="600" }
+        ![HW_wallet_step4](../assets/guides/hw_wallet/hw_wallet_import.png)
         <figcaption>Select the "Hardware Wallet" icon</figcaption>
     </figure>
 
 === "Step 5"
     <figure markdown>
-        ![HW_wallet_step5](../assets/guides/hw_wallet/hw_wallet_select_device.png){ width="600" }
+        ![HW_wallet_step5](../assets/guides/hw_wallet/hw_wallet_select_device.png)
         <figcaption>Choose either "Ledger" or "Trezor"</figcaption>
     </figure>
 
 === "Step 6"
     <figure markdown>
-        ![HW_wallet_step6](../assets/guides/hw_wallet/hw_wallet_name.png){ width="600" }
+        ![HW_wallet_step6](../assets/guides/hw_wallet/hw_wallet_name.png)
         <figcaption>Name your wallet (e.g. "Ledger Wallet") and select which asset to import</figcaption>
     </figure>
 
 === "Step 7"
     <figure markdown>
-        ![HW_wallet_step7](../assets/guides/hw_wallet/hw_wallet_instructions.png){ width="600" }
+        ![HW_wallet_step7](../assets/guides/hw_wallet/hw_wallet_instructions.png)
         <figcaption>Follow the directions on-screen to import your HW wallet addresses</figcaption>
     </figure>
