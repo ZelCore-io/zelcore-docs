@@ -1,4 +1,3 @@
-!!! tip "Zelcore now supports Ledger & Trezor"
 !!! danger "Hardware wallet support is experimental. Use at your own discretion"
 
 <hr>

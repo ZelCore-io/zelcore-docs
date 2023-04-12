@@ -35,7 +35,7 @@
     You must type your username and password exactly as you registered. A different letter/number, space, character, etc. will result in a different account
 
 <hr>
-<h1> Steps in pictures </h1>
+## Steps in pictures
 
 === "Step 1"
     <figure markdown>

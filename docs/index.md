@@ -12,7 +12,7 @@
 
     :material-dots-circle: Support for 500+ Tokens & Import even more
 
-    [:octicons-arrow-right-24: Create an account](http://localhost:8000/guides/create_account/)
+    [:octicons-arrow-right-24: Create an account](/guides/create_account/)
 
 -   :material-devices:{ .lg .middle } __Access your crypto anywhere__
 
@@ -36,7 +36,7 @@
 
     :simple-binance: Trade on Binance, Kraken, and more
 
-    [:octicons-arrow-right-24: See how to swap](http://localhost:8000/guides/)
+    [:octicons-arrow-right-24: See how to swap](/guides/quickswap)
 
 -   :material-scale-balance:{ .lg middle } __Keep track of your portfolios__
 
@@ -48,7 +48,7 @@
 
     :material-wallet-plus-outline: Ledger & Trezor devices supported
 
-    [:octicons-arrow-right-24: Set up your hardware wallet](http://localhost:8000/guides/hw_wallets)
+    [:octicons-arrow-right-24: Set up your hardware wallet](/guides/hw_wallets)
 
 </div>
 

@@ -1,6 +1,6 @@
 # Best Security Practices
 
-???+ "These security tips should be practiced everywhere"
+???+ "These security tips can and should be used for all software"
 
     * Any system that requires you to log in
     * Banking, email, utility providers, social media, etc.

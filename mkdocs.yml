@@ -7,8 +7,8 @@ site_description: >-
   Store BTC, ETH, LTC, BSC/BNB & 60+ other mainnet & token chains
 
 # Github repository
-repo_name: trial123Zel/zelcore-docs
-repo_url: https://github.com/trial123Zel/zelcore-docs
+#repo_name: trial123Zel/zelcore-docs
+#repo_url: https://github.com/trial123Zel/zelcore-docs
 
 # Copywrite information for footer
 copyright: Copyright &copy; 2023 <a href="https://zelcore.io"  target="_blank" rel="noopener">Zelcore Technologies Inc</a>
@@ -73,9 +73,9 @@ nav:
     - 'Hardware Wallets': guides/hw_wallets.md
     - 'Buy Crypto': guides/fiat_on.md
     - 'Trade Crypto': guides/quickswap.md
-  - Help:
-    - 'Where are my coins?': help/where_assets.md
-    - 'Zelcore + HW Wallets': help/hw_wallets_zelcore.md
+#  - Help:
+#    - 'Where are my coins?': help/where_assets.md
+#    - 'Zelcore + HW Wallets': help/hw_wallets_zelcore.md
   - FAQ: FAQ.md
 #  - Supported Assets: supported_assets.md
 
