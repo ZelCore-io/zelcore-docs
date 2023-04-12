@@ -1,7 +1,7 @@
 site_name: Zelcore Knowledgebase
 site_url: https://docs.zelcore.io
 site_author: Zelcore Technologies Inc.
-site_dir: /home/parker/zelcore-docs-build
+site_dir: /var/www/zelcore-docs
 site_description: >-
   Multi-asset cryptocurrency wallet for Windows, MacOS, Linux, iOS & Android.
   Store BTC, ETH, LTC, BSC/BNB & 60+ other mainnet & token chains
