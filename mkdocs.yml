@@ -67,9 +67,10 @@ nav:
   - Home: index.md
 #  - Features:
 #    - 'Security by Default': features/security_feature.md
+  - Be Secure: guides/security_setup.md
   - Guides:
     - 'Create an account': guides/create_account.md
-    - 'Security Notes': guides/security_setup.md
+#    - 'Security Notes': guides/security_setup.md
     - 'Hardware Wallets': guides/hw_wallets.md
     - 'Buy Crypto': guides/fiat_on.md
     - 'Trade Crypto': guides/quickswap.md
