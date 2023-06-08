@@ -74,6 +74,7 @@ nav:
     - 'Hardware Wallets': guides/hw_wallets.md
     - 'Buy Crypto': guides/fiat_on.md
     - 'Trade Crypto': guides/quickswap.md
+    - 'Contacts': guides/contacts.md
 #  - Help:
 #    - 'Where are my coins?': help/where_assets.md
 #    - 'Zelcore + HW Wallets': help/hw_wallets_zelcore.md
