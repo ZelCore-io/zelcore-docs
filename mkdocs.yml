@@ -70,6 +70,7 @@ nav:
   - Be Secure: guides/security_setup.md
   - Guides:
     - 'Create an account': guides/create_account.md
+    - 'Fusion Stable Bridge - zUSD': guides/fusion_bridge.md
 #    - 'Security Notes': guides/security_setup.md
     - 'Hardware Wallets': guides/hw_wallets.md
     - 'Buy Crypto': guides/fiat_on.md
