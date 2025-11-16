@@ -15,11 +15,15 @@ const config: Config = {
   },
 
   // Production URL
-  url: 'https://docs.zelcore.io',
-  baseUrl: '/',
+  // url: 'https://docs.zelcore.io',
+  // baseUrl: '/',
+
+  // Static deployment config
+  url: 'https://ZelCore-io.github.io',
+  baseUrl: '/zelcore-docs/',
 
   // GitHub deployment config
-  organizationName: 'zelcore-io',
+  organizationName: 'ZelCore-io',
   projectName: 'zelcore-docs',
 
   trailingSlash: true,
@@ -44,7 +48,7 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/zelcore-io/zelcore-docs/tree/main/',
+          editUrl: 'https://github.com/ZelCore-io/zelcore-docs/tree/main/',
         },
         blog: false,
         theme: {
