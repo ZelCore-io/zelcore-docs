@@ -1,0 +1,174 @@
+/**
+ * Zelcore Documentation Custom Styles
+ * Color scheme inspired by zelcore.io
+ */
+
+/* Zelcore Brand Colors */
+:root {
+  /* Primary Blue - Zelcore brand color */
+  --ifm-color-primary: #1B63EF;
+  --ifm-color-primary-dark: #1656d6;
+  --ifm-color-primary-darker: #1451ca;
+  --ifm-color-primary-darkest: #1143a6;
+  --ifm-color-primary-light: #3575f1;
+  --ifm-color-primary-lighter: #4281f2;
+  --ifm-color-primary-lightest: #5d92f4;
+
+  /* Background colors */
+  --ifm-background-color: #ffffff;
+  --ifm-navbar-background-color: #ffffff;
+
+  /* Code and syntax highlighting */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(27, 99, 239, 0.1);
+
+  /* Hero/Header gradient */
+  --ifm-hero-background-color: linear-gradient(135deg, #1B63EF 0%, #4461F2 100%);
+}
+
+/* Dark mode - Zelcore's dark theme */
+[data-theme='dark'] {
+  /* Primary Blue - adjusted for dark mode */
+  --ifm-color-primary: #4461F2;
+  --ifm-color-primary-dark: #2a4cf0;
+  --ifm-color-primary-darker: #1d41ef;
+  --ifm-color-primary-darkest: #0a2ee0;
+  --ifm-color-primary-light: #5e76f4;
+  --ifm-color-primary-lighter: #7188f5;
+  --ifm-color-primary-lightest: #97a7f8;
+
+  /* Dark backgrounds - Zelcore navy theme */
+  --ifm-background-color: #080D20;
+  --ifm-background-surface-color: #0E1739;
+  --ifm-navbar-background-color: #080D20;
+  --ifm-footer-background-color: #080D20;
+  --ifm-card-background-color: #141C39;
+
+  /* Text colors */
+  --ifm-font-color-base: #ffffff;
+  --ifm-color-content-secondary: #b4b9c9;
+
+  /* Borders and dividers */
+  --ifm-color-emphasis-300: #2A3A5F;
+  --ifm-hr-border-color: rgba(255, 255, 255, 0.1);
+
+  /* Code blocks */
+  --docusaurus-highlighted-code-line-bg: rgba(68, 97, 242, 0.15);
+  --ifm-code-background: #141C39;
+}
+
+/* Hero section styling */
+.hero {
+  background: linear-gradient(135deg, #1B63EF 0%, #4461F2 100%);
+  color: white;
+}
+
+.hero--primary {
+  --ifm-hero-text-color: white;
+}
+
+/* Navbar enhancements */
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Footer styling */
+.footer--dark {
+  background-color: var(--ifm-footer-background-color);
+}
+
+.footer__links {
+  margin-bottom: 2rem;
+}
+
+.footer__col {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.footer__title {
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--ifm-footer-title-color);
+}
+
+.footer__item {
+  line-height: 2;
+}
+
+/* Center copyright on smaller screens */
+.footer__copyright {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 996px) {
+  .footer__links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .footer__col {
+    margin-bottom: 0;
+  }
+}
+
+/* Card and container backgrounds in dark mode */
+[data-theme='dark'] .card {
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Link colors */
+a {
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] a {
+  color: var(--ifm-color-primary-lighter);
+}
+
+/* Button styles */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+/* Admonitions (tips, warnings, etc.) */
+.admonition {
+  border-left-width: 4px;
+}
+
+/* Table of contents */
+.table-of-contents {
+  border-left: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* Scrollbar styling for dark mode */
+[data-theme='dark'] ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-track {
+  background: var(--ifm-background-color);
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-primary);
+}
