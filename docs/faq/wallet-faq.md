@@ -1,0 +1,1534 @@
+---
+sidebar_position: 1
+---
+
+# Wallet FAQ
+
+## Why aren't my balances showing in ZelCore even though they appear on the blockchain explorer?
+
+**Answer:**
+
+Balance display issues typically occur due to backend node synchronization problems, outdated app versions, or local client sync issues. Your cryptocurrency is safe on the blockchain - this is purely a display issue in the wallet interface.
+
+**Quick Fix:**
+
+The fastest solution is to run **Smartify**, which refreshes your wallet's connection to blockchain nodes:
+
+1. Open ZelCore (desktop or mobile)
+2. Go to **Settings**
+3. Tap/click **Smartify**
+4. Wait for the process to complete (1-3 minutes)
+5. Check your balances
+
+**If Smartify doesn't work:**
+
+Try these additional solutions in order:
+1. **Change Backend/Proxy Settings** - Switch to a different backend server in Settings
+2. **Update ZelCore** - Download the latest version from zelcore.io or your app store
+3. **Clear Cache** - Clear the app cache (mobile) or local cache folder (desktop)
+
+**Related:**
+- [Comprehensive Troubleshooting Guide for Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+
+---
+
+## What is Smartify and when should I use it?
+
+**Answer:**
+
+Smartify is ZelCore's built-in maintenance tool that refreshes your wallet's connection to blockchain nodes and resyncs all your account balances. It clears cached data and reconnects to backend servers to fetch the latest blockchain information.
+
+**When to use Smartify:**
+
+- Your balances aren't displaying correctly
+- Recent transactions aren't showing up
+- Your wallet appears out of sync
+- After recovering or importing a wallet
+- As preventive maintenance (recommended weekly)
+
+**How to access Smartify:**
+
+Go to **Settings** in ZelCore (available on both desktop and mobile) and click/tap the **Smartify** button. The process typically takes 1-3 minutes.
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+
+---
+
+## My balance was showing correctly, but now it's zero. What happened?
+
+**Answer:**
+
+Don't panic - your crypto is safe on the blockchain. This is almost always a temporary sync issue, not a loss of funds.
+
+**Immediate steps:**
+
+1. **Verify on blockchain explorer** - Check your wallet address on the appropriate block explorer to confirm your funds are still there
+2. **Run Smartify** - Go to Settings and run Smartify to resync your wallet
+3. **Check your internet connection** - Ensure you have a stable connection
+4. **Try a different backend** - Change your backend/proxy settings in Settings
+
+If your funds are visible on the blockchain explorer, they're safe. The issue is with ZelCore's display, not with the blockchain itself.
+
+**Prevention:**
+
+- Keep ZelCore updated to the latest version
+- Run Smartify regularly (weekly recommended)
+- Use stable internet connections
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+
+---
+
+## How do I change my backend or proxy settings in ZelCore?
+
+**Answer:**
+
+Changing your backend or proxy settings can resolve connection issues by switching to a more reliable node server.
+
+**Desktop:**
+
+1. Open ZelCore
+2. Click the **Settings** icon (gear icon in top right)
+3. Scroll to find **Backend** or **Proxy** settings
+4. Select a different server from the dropdown (try different regions: US, EU, Asia)
+5. Click **Save** or **Apply**
+6. Run **Smartify** to refresh connections
+
+**Mobile:**
+
+1. Open ZelCore app
+2. Tap the **Menu** icon
+3. Go to **Settings**
+4. Look for **Backend** or **Network Settings**
+5. Choose a different backend server
+6. Save changes
+7. Run **Smartify**
+
+**Tip:** If you're using a specific proxy, try switching to "Auto" mode, or vice versa.
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+
+---
+
+## I updated ZelCore and my balances disappeared. Is this normal?
+
+**Answer:**
+
+Yes, this is normal and temporary. After updating ZelCore, the app needs to resync with the blockchain networks to fetch your current balances.
+
+**What to do:**
+
+1. **Wait 2-5 minutes** - Give the app time to automatically sync
+2. **Run Smartify** - Speed up the process by manually running Smartify in Settings
+3. **Check internet connection** - Ensure you have a stable connection
+4. **Restart the app** - If balances still don't appear after 5 minutes, close and reopen ZelCore
+
+Your cryptocurrency is secure on the blockchain. The update doesn't affect your actual funds, only the wallet interface that displays them.
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+- [ZelCore Installation & Updates](/docs/getting-started/installation)
+
+---
+
+## Only some of my assets are showing. Why can't I see all of them?
+
+**Answer:**
+
+This usually indicates that specific blockchain nodes are experiencing sync issues, while others are working fine.
+
+**Solutions:**
+
+1. **Run Smartify** - This resyncs all blockchain connections
+2. **Check blockchain status** - The specific blockchain may be undergoing maintenance or experiencing network issues
+3. **Remove and re-add the asset:**
+   - Go to your asset list
+   - Remove the missing asset
+   - Re-add it from the available assets
+   - Run Smartify again
+4. **Verify on block explorer** - Confirm the assets exist at your wallet address on the blockchain explorer
+
+**If one specific blockchain consistently has issues:**
+
+- Try changing your backend server
+- Check ZelCore's official channels (Discord, Twitter) for announced maintenance
+- The blockchain network itself may be experiencing high load
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+
+---
+
+## How do I verify my balance on a blockchain explorer?
+
+**Answer:**
+
+Blockchain explorers are independent websites that show the true state of the blockchain, regardless of what your wallet displays.
+
+**Steps:**
+
+1. **Get your wallet address:**
+   - In ZelCore, select the asset you want to verify
+   - Tap/click on the wallet address to copy it
+
+2. **Visit the appropriate explorer:**
+   - **Bitcoin:** blockchain.com or blockchair.com
+   - **Ethereum:** etherscan.io
+   - **Flux:** explorer.runonflux.io
+   - **Other chains:** Search "[blockchain name] explorer"
+
+3. **Search your address:**
+   - Paste your wallet address in the explorer's search bar
+   - Press Enter/Search
+
+4. **Verify:**
+   - Check the balance displayed
+   - Review recent transactions
+   - Confirm transaction confirmations
+
+If your balance shows correctly on the explorer but not in ZelCore, the issue is with wallet sync, not your actual funds.
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+
+---
+
+## Smartify keeps failing or won't complete. What should I do?
+
+**Answer:**
+
+If Smartify fails to complete, there may be connectivity issues or the app needs additional troubleshooting.
+
+**Try these steps:**
+
+1. **Check internet connection:**
+   - Ensure you have a stable connection
+   - On mobile, try switching between WiFi and mobile data
+
+2. **Restart ZelCore:**
+   - Close the app completely
+   - Reopen and try Smartify again
+
+3. **Clear cache:**
+   - **Mobile:** Go to device Settings > Apps > ZelCore > Storage > Clear Cache
+   - **Desktop:** Navigate to your ZelCore data folder and delete cache folders
+
+4. **Update ZelCore:**
+   - Download the latest version from zelcore.io or your app store
+   - Install the update and try Smartify again
+
+5. **Change backend:**
+   - Switch to a different backend server in Settings
+   - Then try Smartify
+
+6. **Check firewall/antivirus:**
+   - Ensure ZelCore isn't being blocked by security software
+   - Add ZelCore to your firewall's allowed applications
+
+**If the issue persists:**
+Contact ZelCore support with details about when the error occurs and any error messages you see.
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+
+---
+
+## Is my cryptocurrency safe when ZelCore shows incorrect balances?
+
+**Answer:**
+
+**Yes, your cryptocurrency is completely safe.** Balance display issues are purely cosmetic and only affect the wallet interface, not the blockchain itself.
+
+**Understanding the issue:**
+
+- Your crypto is stored on the blockchain, not in ZelCore
+- ZelCore is a display interface that shows blockchain data
+- When ZelCore shows incorrect balances, it's a sync issue with how the app is reading the blockchain
+- Your private keys still control your assets, regardless of what displays
+
+**To verify your funds are safe:**
+
+1. Check your wallet address on a blockchain explorer
+2. Your balance on the explorer is the true, authoritative balance
+3. If it shows correctly there, your funds are secure
+
+**What causes display issues:**
+
+- Backend nodes falling out of sync
+- Local cache containing outdated data
+- Network connectivity problems
+- App needing updates
+
+All of these are temporary and fixable through Smartify, backend changes, or updates.
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+- [Wallet Security Best Practices](/docs/security/best-practices)
+
+---
+
+## How often should I run Smartify?
+
+**Answer:**
+
+**Recommended frequency:** Once per week as preventive maintenance.
+
+**Run Smartify immediately if:**
+
+- Balances aren't displaying correctly
+- Recent transactions aren't showing
+- You just updated ZelCore
+- You imported or recovered a wallet
+- You haven't opened ZelCore in several days
+- You switched devices or reinstalled the app
+
+**Why regular Smartify helps:**
+
+- Keeps blockchain connections fresh
+- Clears outdated cached data
+- Prevents accumulation of sync issues
+- Ensures you're seeing real-time balances
+
+Smartify is a quick process (1-3 minutes) and can prevent many common balance display problems before they occur.
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+
+---
+
+## I'm getting "not enough spendables" or "insufficient funds" errors when trying to send, but I have enough balance. What's wrong?
+
+**Answer:**
+
+This error typically occurs due to **UTXO fragmentation**, which is especially common for miners and users who receive many small payments. Even though your total balance is sufficient, your wallet can't construct a valid transaction because your funds are split across too many small pieces (UTXOs).
+
+**Common error messages:**
+- "Not enough spendables"
+- "Insufficient spendables"
+- "Insufficient funds for gas + price"
+- "Axios 413" or "HTTP 413 Error"
+- "Request Entity Too Large"
+- "Transaction too large"
+
+**Who is affected:**
+- Cryptocurrency miners (especially RTM, RVN, FLUX)
+- Users receiving frequent micro-payments
+- Pool mining participants
+- Anyone receiving many small transactions
+
+**Quick explanation:**
+
+Each time you receive a payment, it creates a UTXO (Unspent Transaction Output) - think of it like individual bills in your physical wallet. If you have 500 small UTXOs instead of one large one, your wallet must combine many of them to create a transaction, which can exceed size limits or cause processing errors.
+
+**Solution: UTXO Consolidation**
+
+You need to consolidate (combine) your many small UTXOs into fewer larger ones:
+
+1. **Send cryptocurrency to yourself:**
+   - Go to the **Send** tab in ZelCore
+   - Send 25-50% of your balance to your own receiving address
+   - This combines multiple UTXOs into one
+
+2. **Wait for confirmation:**
+   - Allow the transaction to confirm on the blockchain
+
+3. **Repeat as needed:**
+   - Do multiple consolidation rounds over time
+   - Continue until you can send normally
+
+4. **Prevent future issues:**
+   - Increase your mining pool's minimum payout threshold
+   - Reduce payout frequency (weekly instead of daily)
+   - Consolidate regularly as preventive maintenance
+
+**Related:**
+- [Complete UTXO Consolidation Guide](/docs/guides/utxo-consolidation-guide)
+
+---
+
+## What is a UTXO and why does it matter for my wallet?
+
+**Answer:**
+
+UTXO stands for "Unspent Transaction Output." It's how certain cryptocurrencies (like Bitcoin, Ravencoin, Raptoreum, Litecoin, Flux, and others) track your balance.
+
+**Simple explanation:**
+
+Think of UTXOs like physical money in your wallet:
+- Your $100 might be: five $20 bills (5 UTXOs)
+- Or it might be: one hundred $1 bills (100 UTXOs)
+- Both equal $100, but they're structured very differently
+
+**How UTXOs work:**
+
+- Every time you **receive** cryptocurrency, a new UTXO is created
+- When you **send** cryptocurrency, your wallet combines multiple UTXOs together
+- After sending, the old UTXOs are destroyed and new ones are created
+
+**Why miners have UTXO problems:**
+
+Miners receive frequent small payments (pool payouts), which creates many small UTXOs:
+- Mining for 30 days with 2 payouts/day = 60 UTXOs
+- Mining for 6 months = 360 UTXOs
+- Mining for a year = 700+ UTXOs
+
+When you try to send, your wallet may need to combine hundreds of tiny UTXOs, which:
+- Creates very large transactions
+- Exceeds transaction size limits
+- Triggers "not enough spendables" or HTTP 413 errors
+- Results in high transaction fees
+
+**Which cryptocurrencies use UTXOs?**
+
+UTXO-based chains include:
+- Bitcoin (BTC)
+- Litecoin (LTC)
+- Dogecoin (DOGE)
+- Ravencoin (RVN)
+- Raptoreum (RTM)
+- Flux (FLUX)
+- Most Bitcoin-derived blockchains
+
+**Which cryptocurrencies DON'T use UTXOs?**
+
+Account-based chains (no UTXO issues):
+- Ethereum (ETH)
+- Binance Smart Chain (BNB)
+- Polygon (MATIC)
+- Most ERC-20 tokens
+
+**Solution:**
+
+If you have too many UTXOs, perform UTXO consolidation by sending cryptocurrency to yourself in multiple transactions. This combines many small UTXOs into fewer large ones.
+
+**Related:**
+- [UTXO Consolidation Guide](/docs/guides/utxo-consolidation-guide)
+
+---
+
+## What does "Axios 413" or "HTTP 413 Error" mean when sending cryptocurrency?
+
+**Answer:**
+
+The "Axios 413" or "HTTP 413 Request Entity Too Large" error means your transaction is too large for ZelCore's backend servers to process. This almost always happens due to severe UTXO fragmentation.
+
+**Why this error occurs:**
+
+1. **Too many UTXOs:** Your wallet is trying to spend hundreds of small UTXOs at once
+2. **Transaction size exceeds limits:** The resulting transaction is larger than server/protocol limits
+3. **Backend rejection:** ZelCore's backend servers reject oversized transactions
+
+**Common for:**
+- Miners who haven't consolidated UTXOs
+- Users with months of small pool payouts
+- Wallets with 300+ UTXOs
+
+**Technical details:**
+
+- HTTP 413 is a standard web error: "Request Entity Too Large"
+- Transaction size limits: typically 100 KB for Bitcoin-based chains
+- Practical UTXO limit per transaction: ~100-200 UTXOs
+- Your transaction probably exceeds these limits
+
+**Solution:**
+
+Perform UTXO consolidation in small increments:
+
+1. **Send small amounts to yourself first:**
+   - Try sending just 5-10% of your balance
+   - This uses fewer UTXOs and creates smaller transactions
+
+2. **Multiple consolidation rounds:**
+   - Do 5-10 small consolidations over time
+   - Each round reduces your UTXO count
+
+3. **Gradually increase amounts:**
+   - As UTXO count decreases, you can send larger amounts
+   - Eventually you'll be able to send normally
+
+4. **Try different backend servers:**
+   - Go to Settings > Backend
+   - Switch to a different server
+   - Some backends may have higher size limits
+
+**Prevention:**
+
+- Increase mining pool minimum payout threshold
+- Consolidate regularly (every 2-4 weeks for active miners)
+- Reduce payout frequency from pools
+
+**Related:**
+- [UTXO Consolidation Guide](/docs/guides/utxo-consolidation-guide)
+
+---
+
+## How do I consolidate UTXOs to fix sending errors?
+
+**Answer:**
+
+UTXO consolidation combines many small transaction outputs into fewer large ones, fixing "not enough spendables" and other UTXO-related errors.
+
+**Quick consolidation process:**
+
+**Step 1: Get your receiving address**
+1. Open ZelCore
+2. Select the affected cryptocurrency (e.g., RTM, RVN)
+3. Go to the **Receive** tab
+4. Copy your receiving address
+
+**Step 2: Send to yourself**
+1. Go to the **Send** tab
+2. Paste your own address as the recipient
+3. Send 25-50% of your balance to yourself
+4. Confirm and send the transaction
+
+**Step 3: Wait for confirmation**
+- Allow the transaction to confirm (usually 5-60 minutes)
+- The funds will return to your wallet as a consolidated UTXO
+
+**Step 4: Repeat as needed**
+- Wait for the first consolidation to confirm
+- Repeat the process with another 25-50%
+- Continue until you've consolidated most of your balance
+
+**How many consolidation rounds do I need?**
+
+- **Light fragmentation** (50-100 UTXOs): 2-3 rounds
+- **Moderate fragmentation** (100-300 UTXOs): 4-6 rounds
+- **Heavy fragmentation** (300+ UTXOs): 6-10+ rounds
+
+**If you still get errors:**
+
+- Send even smaller amounts (try 5-10% instead of 50%)
+- Wait for network fees to decrease (consolidate during off-peak hours)
+- Change backend server in Settings
+- Update ZelCore to the latest version
+
+**Cost:**
+
+Consolidation requires transaction fees:
+- Light consolidation: typically $0.10 - $2.00
+- Heavy consolidation (multiple rounds): $2 - $10
+- Fees vary based on blockchain and network congestion
+
+**Prevention for miners:**
+
+1. Increase mining pool minimum payout (e.g., from 1 RTM to 10 RTM)
+2. Reduce payout frequency (weekly instead of daily)
+3. Consolidate regularly as preventive maintenance (every 2-4 weeks)
+
+**Related:**
+- [Complete UTXO Consolidation Guide](/docs/guides/utxo-consolidation-guide)
+
+---
+
+## I'm a miner and keep getting errors when trying to send my mined coins. How do I prevent this?
+
+**Answer:**
+
+Mining creates UTXO fragmentation because you receive many small, frequent payouts. This eventually causes "not enough spendables" and other sending errors. Prevention is easier than fixing severe fragmentation.
+
+**Best prevention strategies:**
+
+**1. Adjust Mining Pool Payout Settings**
+
+The most effective prevention method:
+- **Increase minimum payout threshold:**
+  - Instead of 1 RTM minimum, set to 10-50 RTM
+  - Fewer payouts = fewer UTXOs = fewer problems
+
+- **Reduce payout frequency:**
+  - Change from daily to weekly payouts
+  - Larger, less frequent payouts reduce UTXO count
+
+- **Example impact:**
+  - Before: 0.5 RTM every 12 hours = 60 UTXOs per month
+  - After: 15 RTM once per month = 1 UTXO per month
+
+**2. Regular Consolidation Maintenance**
+
+Proactively consolidate before problems occur:
+- **Every 2 weeks:** Quick consolidation round for active miners
+- **Monthly:** Full consolidation maintenance for moderate miners
+- **Before large withdrawals:** Always consolidate first
+
+**3. Use a Dedicated Mining Wallet**
+
+Separate your mining and storage:
+- **Mining wallet:** Receives all pool payouts
+  - Consolidate regularly in this wallet
+  - Keep only active mining funds
+
+- **Storage wallet:** For long-term holding
+  - Transfer consolidated funds periodically
+  - Cleaner UTXO structure
+
+**4. Choose UTXO-Friendly Pools**
+
+Some pools are better for UTXO management:
+- Pools with higher minimum payout options
+- Pools offering flexible payout scheduling
+- Pools with built-in consolidation features
+
+**5. Monitor Warning Signs**
+
+Watch for early indicators:
+- Transactions taking longer to create
+- Increasing transaction fees
+- Wallet slowing down when preparing sends
+- Any "insufficient" errors appearing
+
+**Take action immediately when you notice these signs.**
+
+**What to do if you already have problems:**
+
+If you're already experiencing errors:
+1. Stop mining to this wallet temporarily
+2. Perform UTXO consolidation (send to yourself multiple times)
+3. Implement prevention strategies above
+4. Resume mining with better settings
+
+**Recommended mining pool settings:**
+
+- **Minimum payout:** 2-4 weeks worth of mining earnings
+- **Payout frequency:** Weekly or bi-weekly
+- **Balance threshold:** As high as comfortable for your risk tolerance
+
+**Related:**
+- [UTXO Consolidation Guide](/docs/guides/utxo-consolidation-guide)
+
+---
+
+## I'm trying to transfer from Trust Wallet (or another external wallet) to ZelCore but getting "invalid address" errors. Why?
+
+**Answer:**
+
+"Invalid address" errors when transferring from external wallets to ZelCore usually happen because you're trying to use an address from the wrong blockchain network. This is especially common with assets that exist on multiple chains.
+
+**Common scenario:**
+
+You want to send FLUX to ZelCore, but:
+- Trust Wallet shows "Flux" on Ethereum (ERC20 token)
+- ZelCore has multiple FLUX options: native FLUX, Flux-ETH, Flux-BSC, Flux-BASE, etc.
+- You try to use the native FLUX address for an ERC20 transfer
+- Result: "Invalid address" error
+
+**Understanding the issue:**
+
+Many cryptocurrencies exist on multiple blockchains:
+- **Native tokens:** The original blockchain (e.g., FLUX on Flux blockchain)
+- **Wrapped/parallel tokens:** Same asset on different chains (e.g., Flux-ETH on Ethereum, Flux-BSC on Binance Smart Chain)
+
+Each blockchain has a different address format. An Ethereum address won't work for a native FLUX transaction, and vice versa.
+
+**How to fix this:**
+
+**Step 1: Identify which chain you're sending FROM**
+
+In Trust Wallet or your external wallet:
+1. Look at the asset name carefully
+2. Check for chain indicators like "ERC20", "BEP20", "BSC", "ETH"
+3. Note which blockchain it's actually on
+
+**Step 2: Select the matching chain IN ZelCore**
+
+1. Open ZelCore
+2. Go to your asset list
+3. Find the version that matches your source chain:
+   - If sending FLUX (ERC20) from Trust Wallet → Use **Flux-ETH** in ZelCore
+   - If sending FLUX (BEP20) from Trust Wallet → Use **Flux-BSC** in ZelCore
+   - If sending native FLUX → Use **FLUX** (native) in ZelCore
+
+**Step 3: Get the correct receiving address**
+
+1. Select the matching asset in ZelCore
+2. Go to **Receive** tab
+3. Copy the address for that specific blockchain
+4. This address will be compatible with your source wallet
+
+**Step 4: Verify before sending**
+
+- Double-check the chain matches on both sides
+- Send a small test amount first ($5-10 worth)
+- Verify test transaction arrives before sending more
+
+**Common chain matching examples:**
+
+| External Wallet Shows | Use This in ZelCore |
+|----------------------|---------------------|
+| FLUX (ERC20) | Flux-ETH |
+| FLUX (BEP20 / BSC) | Flux-BSC |
+| FLUX (on Base) | Flux-BASE |
+| FLUX (on Solana) | Flux-SOL |
+| FLUX (native) | FLUX (native) |
+| ETH (Ethereum) | ETH (Ethereum network) |
+| ETH (on Base) | ETH (Base network) |
+| BNB (BSC) | BNB (BNB Smart Chain) |
+| USDT (Ethereum) | USDT-ETH |
+| USDT (Tron) | USDT-TRX |
+
+**If you need to change chains:**
+
+If you already have the asset on the wrong chain in your external wallet:
+
+1. **Option A: Use Fusion to bridge**
+   - In ZelCore, use Fusion feature to swap between chains
+   - Example: Flux-ETH → native FLUX
+
+2. **Option B: Use external bridge**
+   - Official Flux bridge for FLUX tokens
+   - Chain-specific bridges for other assets
+
+3. **Option C: Use exchange**
+   - Send to exchange from external wallet
+   - Withdraw to ZelCore on desired chain
+   - Exchange supports chain selection
+
+**Related:**
+- [Flux Fusion Bridge Guide](/docs/guides/flux-fusion-bridge-guide) - How to bridge between Flux parallel chains
+
+---
+
+## How do I transfer cryptocurrency from Coinbase/Binance/KuCoin to ZelCore?
+
+**Answer:**
+
+Transferring from centralized exchanges to ZelCore is straightforward, but you must select the correct blockchain network on the exchange to match ZelCore's receiving address.
+
+**Step-by-step process:**
+
+**Step 1: Decide which blockchain to use**
+
+Many assets support multiple networks (Ethereum, BSC, Tron, etc.). Consider:
+- **Transaction fees:** BSC and Tron are cheaper than Ethereum
+- **Speed:** BSC, Tron, and Solana are faster than Ethereum
+- **Availability:** Not all exchanges support all networks
+- **Your needs:** What will you do with the crypto after receiving it?
+
+**Recommended networks for common assets:**
+- **USDT:** Tron (TRX) network (lowest fees, fastest)
+- **FLUX:** Native FLUX or BSC (depending on your plans)
+- **ETH:** Ethereum network (or Base for lower fees)
+- **BNB:** BNB Smart Chain (BSC)
+
+**Step 2: Get receiving address from ZelCore**
+
+1. Open ZelCore
+2. Find the asset on the network you chose
+   - For USDT on Tron: Find "USDT-TRX"
+   - For FLUX on BSC: Find "Flux-BSC"
+   - Make sure you select the right network version
+3. Tap/click on the asset
+4. Go to **Receive** tab
+5. **Copy the address** (or screenshot QR code)
+6. Verify the address copied correctly
+
+**Step 3: Initiate withdrawal on exchange**
+
+**On Coinbase:**
+1. Go to "Send & Receive" or "Withdraw"
+2. Select the cryptocurrency
+3. Enter amount
+4. Paste your ZelCore address
+5. **Select network** (this is critical!)
+   - Choose the network that matches your ZelCore asset
+   - Example: If using USDT-TRX address, select "Tron (TRC20)"
+6. Review fees and details
+7. Complete verification (2FA, email confirmation)
+8. Confirm withdrawal
+
+**On Binance:**
+1. Go to Wallet > Fiat and Spot > Withdraw
+2. Select cryptocurrency
+3. Paste ZelCore address
+4. **Select network dropdown**
+   - Example: For FLUX, choose "FLUX" (native), "BEP20" (BSC), or "ERC20" (Ethereum)
+   - Network must match your ZelCore receiving address
+5. Enter amount
+6. Review fee and arrival time estimate
+7. Complete security verification
+8. Confirm withdrawal
+
+**On KuCoin:**
+1. Go to Assets > Withdraw
+2. Select cryptocurrency
+3. Paste ZelCore address
+4. **Select chain/network**
+   - Chain selection dropdown shows available networks
+   - Must match ZelCore's receiving network
+5. Enter amount
+6. Add remark/memo if required (usually not needed for ZelCore)
+7. Complete verification
+8. Confirm withdrawal
+
+**Step 4: Wait for confirmations**
+
+- **Ethereum:** 10-20 minutes (can be longer during high traffic)
+- **BSC:** 1-3 minutes
+- **Tron:** 1-3 minutes
+- **Solana:** Seconds to 1 minute
+- **Bitcoin:** 30-60 minutes
+- **Native FLUX:** 5-15 minutes
+
+**Step 5: Verify arrival in ZelCore**
+
+1. Wait for blockchain confirmations
+2. Check ZelCore balance
+3. If not showing immediately, run **Smartify** (Settings > Smartify)
+4. Check transaction on blockchain explorer if needed
+
+**Critical warnings:**
+
+1. **Network mismatch = lost funds**
+   - Sending to wrong network may result in permanent loss
+   - ALWAYS verify network selection matches ZelCore
+   - When in doubt, send small test first
+
+2. **Unsupported networks**
+   - Some exchanges offer networks ZelCore doesn't support
+   - Example: Some exchanges have "Polygon" USDT, verify ZelCore supports it
+   - Check ZelCore has the specific network version before withdrawing
+
+3. **Memos/Tags**
+   - Most ZelCore withdrawals don't need memos
+   - Exception: Some exchange-to-exchange transfers
+   - If exchange asks for memo and it's to personal ZelCore wallet, usually leave blank
+   - Verify in ZelCore if memo is needed (rare)
+
+**Common mistakes to avoid:**
+
+- Selecting "Ethereum" when you meant "BSC" (both use similar address formats)
+- Using native FLUX address for Flux-ETH (ERC20) withdrawal
+- Not checking network fees before withdrawing (Ethereum can be expensive)
+- Withdrawing entire balance without accounting for exchange withdrawal fees
+- Not doing test transaction first with large amounts
+
+**Network selection examples:**
+
+| What You're Withdrawing | Exchange Network Selection | ZelCore Asset to Use |
+|------------------------|---------------------------|---------------------|
+| FLUX from Binance | "FLUX" (native) | FLUX (native) |
+| FLUX from Binance | "BEP20" | Flux-BSC |
+| USDT from Binance | "TRX" or "TRC20" | USDT-TRX |
+| USDT from Binance | "ETH" or "ERC20" | USDT-ETH |
+| ETH from Coinbase | "Ethereum" | ETH (Ethereum) |
+| ETH from Coinbase | "Base" | ETH (Base network) |
+
+**If withdrawal doesn't arrive:**
+
+1. **Check transaction status on exchange**
+   - Most show "Processing", "Completed", or "Pending"
+   - Get transaction hash (TxID) if available
+
+2. **Verify on blockchain explorer**
+   - Use appropriate explorer for network
+   - Search for transaction hash or your address
+   - Confirm transaction succeeded
+
+3. **Check ZelCore**
+   - Run Smartify to refresh
+   - Verify you're looking at correct asset/network
+   - Check blockchain explorer shows funds at your address
+
+4. **Contact exchange support if needed**
+   - Provide transaction hash
+   - Explain issue (e.g., "withdrawal completed but not received")
+   - Include screenshots
+
+**Best practices:**
+
+1. **Always test with small amount first** ($10-20 worth) when using new route
+2. **Screenshot everything** - network selection, confirmation, addresses
+3. **Verify address character-by-character** or use QR code scan
+4. **Choose low-fee networks** when possible (BSC, Tron vs Ethereum)
+5. **Check withdrawal minimums** - some exchanges have minimum withdrawal amounts
+6. **Withdrawal fees vary by network** - exchange shows fee before confirming
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+
+---
+
+## What does "unsupported chain" mean when I try to receive crypto in ZelCore?
+
+**Answer:**
+
+"Unsupported chain" means the blockchain network you're trying to use isn't available for that specific cryptocurrency in ZelCore. This happens when an exchange or external wallet offers a network that ZelCore doesn't support for that asset.
+
+**Why this happens:**
+
+- New blockchain networks are constantly emerging
+- Exchanges add support for new chains before wallets do
+- Some low-volume chains aren't worth supporting in every wallet
+- ZelCore may not have integrated a specific wrapped/bridged version
+- The chain might be too new or experimental
+
+**Common examples:**
+
+**USDT "unsupported chain" scenarios:**
+- Exchange offers "Polygon (MATIC)" USDT → ZelCore might not support USDT on Polygon
+- Exchange offers "Arbitrum" USDT → Check if ZelCore has USDT-Arbitrum
+- Exchange offers "Optimism" USDT → Verify ZelCore supports this network
+
+**FLUX "unsupported chain" scenarios:**
+- You have Flux on a DEX-specific chain ZelCore doesn't support
+- Wrapped FLUX on a new Layer 2 not yet integrated
+- Experimental Flux parallel chain not in ZelCore yet
+
+**How to check what ZelCore supports:**
+
+1. Open ZelCore
+2. Go to asset list
+3. Search for your cryptocurrency (e.g., "USDT")
+4. See all available network versions:
+   - USDT-ETH (Ethereum)
+   - USDT-TRX (Tron)
+   - USDT-BSC (Binance Smart Chain)
+   - Etc.
+
+If the network you need isn't listed, ZelCore doesn't support it yet.
+
+**Solutions:**
+
+**Option 1: Use a supported network instead**
+
+Best solution if you haven't sent yet:
+1. Check which networks ZelCore DOES support for your asset
+2. Select one of those networks on your exchange/external wallet
+3. Use the corresponding ZelCore address
+4. Complete transfer on supported network
+
+**Option 2: Use intermediary exchange**
+
+If you already have crypto on unsupported network:
+1. Send to exchange that supports both networks
+2. Trade or convert if needed
+3. Withdraw to ZelCore using supported network
+
+**Option 3: Use network-specific wallet**
+
+For assets on unsupported networks:
+1. Use a wallet that supports that specific network
+2. Examples:
+   - MetaMask for EVM chains (Polygon, Arbitrum, Optimism)
+   - Phantom for Solana
+   - Keplr for Cosmos ecosystem
+3. Transfer there, then bridge or swap to supported network
+
+**Option 4: Bridge to supported network**
+
+If you have crypto on unsupported network:
+1. Use official bridge for that blockchain
+2. Bridge to a network ZelCore supports
+3. Then send to ZelCore
+
+Examples:
+- Polygon USDT → Bridge to Ethereum → Send USDT-ETH to ZelCore
+- Arbitrum ETH → Bridge to Ethereum mainnet → Send to ZelCore
+
+**Option 5: Wait for ZelCore support**
+
+- ZelCore regularly adds new network support
+- Follow official announcements for new integrations
+- Join ZelCore Discord/Twitter for updates
+
+**How to avoid this issue:**
+
+**Before receiving/withdrawing:**
+
+1. **Check ZelCore first**
+   - See which networks are available for your asset
+   - Choose one that's supported
+
+2. **Choose popular networks**
+   - Ethereum, BSC, Tron are almost always supported
+   - More popular = more likely to be supported
+
+3. **Match networks**
+   - Verify sending and receiving wallets support same network
+   - Don't assume all networks work everywhere
+
+4. **Ask in ZelCore Discord**
+   - If unsure, ask if specific network is supported
+   - Community or support can confirm quickly
+
+**Currently well-supported networks in ZelCore:**
+
+- Ethereum (ETH)
+- BNB Smart Chain (BSC)
+- Tron (TRX)
+- Solana (SOL)
+- Avalanche (AVAX)
+- Base
+- Native Flux
+- Most major Layer 1 blockchains
+
+**Less commonly supported or newer:**
+- Polygon (check per asset)
+- Arbitrum (check per asset)
+- Optimism (check per asset)
+- zkSync (limited support)
+- Various new Layer 2s
+
+**Important:** Never send crypto to ZelCore on an unsupported network. You won't be able to access it, and recovery may be difficult or impossible.
+
+**Related:**
+- [Blockchain-Specific FAQ](/docs/faq/blockchain-specific-faq) - Chain-specific guidance
+
+---
+
+## I'm getting "Failed to obtain nonce" errors when trying to send transactions. What does this mean?
+
+**Answer:**
+
+The "Failed to obtain nonce" error means ZelCore cannot retrieve the transaction counter (nonce) from the blockchain network. This is an RPC/backend connection issue, not a problem with your wallet or funds.
+
+**What is a nonce?**
+
+A nonce is a transaction counter that ensures transactions are processed in the correct order. Every account-based blockchain (Ethereum, BSC, Polygon, etc.) uses nonces to prevent transaction replay and maintain order.
+
+**Why this error occurs:**
+
+1. **RPC backend server not responding** - ZelCore's backend node is temporarily down or overloaded
+2. **Network connectivity issues** - Your internet connection is unstable
+3. **Blockchain network congestion** - The blockchain network itself is experiencing high load
+4. **Rate limiting** - Too many requests sent to backend server
+5. **Firewall/VPN interference** - Security software blocking RPC connections
+
+**Common affected blockchains:**
+- Ethereum (ETH)
+- BNB Smart Chain (BSC)
+- Polygon (MATIC)
+- Avalanche (AVAX)
+- Other EVM-compatible chains
+
+**Quick solutions:**
+
+**Solution 1: Wait and retry (5-10 minutes)**
+
+Most nonce errors resolve automatically:
+1. Wait 5-10 minutes
+2. Try sending again
+3. Backend servers usually recover quickly
+
+**Solution 2: Run Smartify**
+
+Refresh your wallet's backend connections:
+1. Go to Settings in ZelCore
+2. Tap/click Smartify
+3. Wait for completion (1-3 minutes)
+4. Try sending transaction again
+
+**Solution 3: Change backend server**
+
+Switch to a different backend:
+1. Open ZelCore Settings
+2. Find Backend or Proxy settings
+3. Select a different server region (US, EU, Asia)
+4. Save changes
+5. Run Smartify
+6. Try transaction again
+
+**Solution 4: Check internet connection**
+
+Verify stable connection:
+1. Test your internet speed and stability
+2. Try switching networks (WiFi to mobile data, or vice versa)
+3. Restart router if on WiFi
+4. Disable VPN temporarily if using one
+5. Try transaction again
+
+**Solution 5: Restart ZelCore**
+
+Fresh app start can resolve connection issues:
+1. Close ZelCore completely
+2. Wait 30 seconds
+3. Reopen ZelCore
+4. Try sending transaction
+
+**Solution 6: Update ZelCore**
+
+Outdated versions may have backend connection bugs:
+1. Check for ZelCore updates
+2. Download latest version from zelcore.io or app store
+3. Install update
+4. Open and try transaction
+
+**Solution 7: Try different time**
+
+If blockchain network congestion:
+1. Wait for off-peak hours
+2. Try late evening or early morning (UTC)
+3. Weekends often have lower network load
+4. Retry transaction during quieter period
+
+**Prevention:**
+
+1. **Keep ZelCore updated** - Latest versions have improved RPC handling
+2. **Use stable internet** - Avoid public WiFi for important transactions
+3. **Run Smartify regularly** - Weekly maintenance prevents connection issues
+4. **Monitor blockchain status** - Check network status before large transactions
+
+**If error persists:**
+
+After trying all solutions, if nonce errors continue:
+
+1. **Check blockchain network status:**
+   - Ethereum: etherscan.io/gastracker
+   - BSC: bscscan.com
+   - Polygon: polygonscan.com
+   - Look for network issues or maintenance announcements
+
+2. **Try desktop version:**
+   - If on mobile, try desktop ZelCore
+   - Desktop may have more stable backend connections
+   - Same wallet works across platforms
+
+3. **Contact ZelCore support:**
+   - Discord: Official ZelCore server
+   - Provide details:
+     - Which blockchain (ETH, BSC, etc.)
+     - Error message exactly as shown
+     - When error started
+     - Solutions tried
+     - Your region/location
+
+**Important:** Your funds are safe. Nonce errors prevent transactions from being sent, they don't affect your balance. This is purely a connection issue between ZelCore and blockchain RPC nodes.
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+- [What is Smartify and when should I use it?](#what-is-smartify-and-when-should-i-use-it)
+
+---
+
+## What does "RPC error" or "Backend error" mean in ZelCore?
+
+**Answer:**
+
+RPC (Remote Procedure Call) and backend errors indicate that ZelCore cannot communicate with the blockchain network's nodes. These are connectivity issues, not problems with your wallet or cryptocurrency.
+
+**What RPC/backend does:**
+
+- ZelCore connects to blockchain nodes (servers) to read balances
+- These nodes broadcast your transactions to the network
+- They provide real-time blockchain data to your wallet
+- Backend/RPC is the bridge between your wallet and the blockchain
+
+**Common RPC error messages:**
+
+- "RPC error"
+- "Backend error"
+- "Failed to fetch balance"
+- "Network request failed"
+- "Timeout connecting to backend"
+- "Backend unavailable"
+- "Failed to obtain nonce"
+- "Error fetching transaction history"
+- "Cannot connect to RPC server"
+
+**Why RPC errors happen:**
+
+**1. Backend server issues:**
+- ZelCore's backend nodes temporarily down
+- Server maintenance
+- Server overload during high traffic
+- DDoS attacks on infrastructure
+
+**2. Blockchain network problems:**
+- Network congestion
+- Chain reorganization
+- Node synchronization issues
+- Network upgrades or hard forks
+
+**3. Connectivity issues:**
+- Your internet connection unstable
+- Firewall blocking connections
+- VPN interference
+- ISP routing problems
+
+**4. App-level issues:**
+- Outdated ZelCore version
+- Cached data corruption
+- Backend server selection problems
+
+**Quick fixes for RPC/backend errors:**
+
+**Fix 1: Change backend server**
+
+Most effective solution:
+
+1. Open ZelCore Settings
+2. Find Backend or Proxy settings
+3. Try different server:
+   - If using US server, switch to EU or Asia
+   - If using Auto, try manual server selection
+4. Save changes
+5. Run Smartify
+6. Check if issue resolved
+
+**Fix 2: Run Smartify**
+
+Refresh all connections:
+
+1. Go to Settings
+2. Tap Smartify
+3. Wait for completion
+4. Balances and connectivity should refresh
+
+**Fix 3: Restart ZelCore**
+
+Clean restart:
+
+1. Close ZelCore completely (force close on mobile)
+2. Wait 30-60 seconds
+3. Reopen app
+4. Wait for sync to complete
+
+**Fix 4: Check internet connection**
+
+Verify connectivity:
+
+1. Test internet speed
+2. Switch networks if possible (WiFi ↔ mobile data)
+3. Restart router
+4. Disable VPN temporarily
+5. Check firewall settings
+
+**Fix 5: Update ZelCore**
+
+Get latest fixes:
+
+1. Check for updates (Settings or app store)
+2. Download latest version
+3. Install and restart
+4. Test connection
+
+**Fix 6: Wait it out**
+
+If backend servers are down:
+
+1. Wait 15-30 minutes
+2. ZelCore team typically resolves server issues quickly
+3. Check ZelCore Discord or Twitter for announcements
+4. Retry after wait period
+
+**Fix 7: Try desktop version**
+
+If on mobile with persistent errors:
+
+1. Install desktop ZelCore
+2. Restore wallet with seed phrase
+3. Desktop may have more stable connections
+4. Try transaction/view balance there
+
+**For specific blockchain RPC errors:**
+
+**Ethereum RPC errors:**
+- Check etherscan.io for network status
+- Ethereum can have congestion during high gas periods
+- Try different backend server
+- Consider waiting for lower network activity
+
+**BSC RPC errors:**
+- Check bscscan.com for network status
+- BSC occasionally has node synchronization issues
+- Change backend to different region
+- Usually resolves within 30 minutes
+
+**Polygon RPC errors:**
+- Polygon RPC can be unstable during high usage
+- Try multiple backend servers
+- Desktop version may work better
+- Check polygonscan.com for network issues
+
+**Other chains:**
+- Each blockchain has its own node network
+- Check respective blockchain explorer for status
+- Backend servers vary in reliability per chain
+
+**What RPC errors DON'T mean:**
+
+- **Your crypto is NOT lost** - Funds are on blockchain, not in app
+- **Your wallet is NOT compromised** - This is a display/connectivity issue
+- **You don't need to restore wallet** - Just connection problems
+- **Balances are NOT actually zero** - Just can't be displayed currently
+
+**Verification during RPC errors:**
+
+Even with RPC errors, you can verify funds:
+
+1. **Check blockchain explorer:**
+   - Get your wallet address from ZelCore
+   - Visit appropriate blockchain explorer
+   - Search your address
+   - See real balance and transactions
+
+2. **Your actual balance is on the blockchain:**
+   - Explorer shows truth
+   - ZelCore just displays blockchain data
+   - RPC errors are display problems only
+
+**Prevention tips:**
+
+1. **Keep ZelCore updated** - New versions improve backend handling
+2. **Run Smartify weekly** - Preventive maintenance
+3. **Use stable internet** - Avoid public WiFi for wallet use
+4. **Have backup plan** - Know how to check blockchain explorers
+5. **Be patient during network issues** - Don't panic, wait for resolution
+
+**When to contact support:**
+
+Contact ZelCore support if:
+
+- RPC errors persist for 24+ hours
+- Affect multiple blockchains simultaneously
+- Prevent critical transactions for extended time
+- Occur after trying all solutions above
+
+**Include in support request:**
+- Exact error message
+- Which blockchain(s) affected
+- Your region/location
+- Internet connection type
+- Solutions you've tried
+- How long issue has persisted
+
+**Related:**
+- [Why aren't my balances showing?](#why-arent-my-balances-showing-in-zelcore-even-though-they-appear-on-the-blockchain-explorer)
+- [How do I change my backend settings?](#how-do-i-change-my-backend-or-proxy-settings-in-zelcore)
+- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+
+---
+
+## My transaction keeps failing with "Error sending transaction" or "Backend proxy error." What should I do?
+
+**Answer:**
+
+"Error sending transaction" and "backend proxy error" messages indicate ZelCore cannot successfully broadcast your transaction to the blockchain network. This is usually a temporary backend connectivity issue.
+
+**Why transaction sending fails:**
+
+**1. Backend/RPC connection issues:**
+- Backend server not responding
+- Connection timeout
+- Server overload
+- Network request failed
+
+**2. Blockchain network issues:**
+- Network congestion
+- High gas prices (auto-reject)
+- Mempool full
+- Node synchronization problems
+
+**3. Transaction-specific problems:**
+- Insufficient gas
+- Nonce issues
+- Invalid transaction parameters
+- Slippage too low (for swaps)
+
+**4. Technical issues:**
+- Outdated ZelCore version
+- Cached data problems
+- Internet connectivity unstable
+
+**Step-by-step solutions:**
+
+**Step 1: Verify you have sufficient balance**
+
+Before troubleshooting backend:
+
+1. Check you have enough crypto for:
+   - Amount you're sending
+   - Network gas fees
+   - Example: Sending 1 ETH requires >1 ETH (need extra for gas)
+
+2. Check on blockchain explorer:
+   - Get your address from ZelCore
+   - Search on appropriate explorer
+   - Verify actual balance
+
+**Step 2: Change backend server**
+
+Most common fix:
+
+1. Go to Settings in ZelCore
+2. Find Backend or Proxy settings
+3. Select different server:
+   - Try US, EU, Asia regions
+   - If using Auto, try manual selection
+4. Save changes
+5. Run Smartify
+6. Retry transaction
+
+**Step 3: Increase gas limit/fees**
+
+For EVM chains (Ethereum, BSC, Polygon, etc.):
+
+1. In send screen, look for Advanced or Gas settings
+2. Increase gas limit by 10-20%
+3. Or use "Fast" gas price option
+4. Retry sending
+5. Higher gas = higher priority in congested networks
+
+**Step 4: Restart ZelCore completely**
+
+Fresh start often helps:
+
+1. Close ZelCore fully (force close on mobile)
+2. Wait 60 seconds
+3. Reopen ZelCore
+4. Wait for wallet to fully load
+5. Retry transaction
+
+**Step 5: Check internet connection**
+
+Stable connection required:
+
+1. Test your internet speed
+2. Try switching networks:
+   - WiFi to mobile data (or vice versa)
+3. Restart router if on WiFi
+4. Disable VPN if using one
+5. Retry transaction
+
+**Step 6: Wait and retry**
+
+If network/backend congestion:
+
+1. Wait 15-30 minutes
+2. Check blockchain status:
+   - Ethereum: etherscan.io/gastracker
+   - BSC: bscscan.com
+   - Look for network congestion indicators
+3. Try during off-peak hours
+4. Retry transaction
+
+**Step 7: Update ZelCore**
+
+Ensure latest version:
+
+1. Check for updates in app or app store
+2. Download and install latest version
+3. Restart app
+4. Retry transaction
+
+**Step 8: Try desktop version**
+
+If mobile has persistent issues:
+
+1. Install ZelCore desktop
+2. Restore wallet with seed phrase
+3. Desktop often has more stable backend connections
+4. Try sending transaction from desktop
+
+**For specific error scenarios:**
+
+**"Backend proxy error" specifically:**
+
+This indicates the proxy/backend server ZelCore uses cannot reach the blockchain:
+
+1. **Definitely change backend server** - Primary solution
+2. Run Smartify after changing
+3. Try 2-3 different backend servers if first doesn't work
+4. Check ZelCore Discord for backend outage announcements
+
+**"Error sending transaction" with EVM chains:**
+
+For Ethereum, BSC, Polygon, Avalanche:
+
+1. Could be nonce issue - Run Smartify
+2. Check gas settings - Increase if needed
+3. Network congestion - Wait or increase gas
+4. Change backend server
+
+**"Transaction underpriced" error:**
+
+Network is congested, your gas price too low:
+
+1. Increase gas price to "Fast" or "Rapid"
+2. Or manually set higher gas price in Advanced settings
+3. Or wait for network to be less busy
+
+**"Insufficient funds for gas + amount":**
+
+You don't have enough for both:
+
+1. Reduce send amount
+2. Leave buffer for gas fees
+3. Add more native token for gas (ETH on Ethereum, BNB on BSC, etc.)
+
+**What to avoid:**
+
+1. **Don't spam retry** - Rapidly retrying can make issues worse
+2. **Don't send all balance** - Always leave room for gas
+3. **Don't panic and restore wallet** - That won't fix backend issues
+4. **Don't change settings randomly** - Follow systematic approach
+
+**Verification your funds are safe:**
+
+During transaction send errors:
+
+1. **Check blockchain explorer** - Your balance is unchanged
+2. **No pending transactions** - Failed sends don't create pending txs
+3. **Funds remain in wallet** - Nothing deducted until tx succeeds
+4. **Safe to retry** - Failed attempts don't consume gas
+
+**Prevention:**
+
+1. **Always test with small amount first** - Before large sends
+2. **Use desktop for large transactions** - Generally more stable
+3. **Check network status before sending** - Avoid congested times
+4. **Keep ZelCore updated** - Latest backend improvements
+5. **Have backup backend** - Know how to change servers
+6. **Monitor gas prices** - Don't send during extreme spikes
+
+**When all else fails:**
+
+If transaction sending consistently fails after all solutions:
+
+**Option 1: Export private key and use alternative wallet**
+
+For critical/urgent transactions:
+
+1. Export private key for that address from ZelCore (Settings)
+2. Import to MetaMask or other compatible wallet
+3. Send transaction from alternative wallet
+4. Return to ZelCore once backend issues resolved
+
+**Option 2: Wait for backend recovery**
+
+If non-urgent:
+
+1. Wait 24 hours
+2. ZelCore backend issues typically resolve quickly
+3. Check official channels for updates
+4. Retry after announced resolution
+
+**Option 3: Contact support**
+
+If urgent and nothing works:
+
+1. Join ZelCore Discord
+2. Describe issue in support channel
+3. Provide:
+   - Exact error message
+   - Blockchain you're using
+   - Backend server you tried
+   - Solutions attempted
+   - How long issue persists
+4. Support may provide alternative backend servers or workarounds
+
+**Important reminders:**
+
+- **Your crypto is safe** - Failed sends don't lose funds
+- **Backend errors are temporary** - Usually resolve within hours
+- **Don't rush** - Take time to try solutions systematically
+- **Change backend first** - Most effective solution for proxy/backend errors
+
+**Related:**
+- [Failed to obtain nonce errors](#im-getting-failed-to-obtain-nonce-errors-when-trying-to-send-transactions-what-does-this-mean)
+- [RPC/Backend error explanation](#what-does-rpc-error-or-backend-error-mean-in-zelcore)
+- [How to change backend settings](#how-do-i-change-my-backend-or-proxy-settings-in-zelcore)
