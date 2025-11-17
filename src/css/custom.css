@@ -57,60 +57,134 @@
   --ifm-code-background: #141C39;
 }
 
-/* Hero section styling */
+/* Hero section styling - Enhanced gradient */
 .hero {
   background: linear-gradient(135deg, #1B63EF 0%, #4461F2 100%);
   color: white;
+  padding: 5rem 2rem;
 }
 
 .hero--primary {
   --ifm-hero-text-color: white;
 }
 
+.hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 996px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.1rem;
+  }
+}
+
 /* Navbar enhancements */
 .navbar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 0.75rem 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 [data-theme='dark'] .navbar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Footer styling */
+.navbar__brand {
+  height: 40px;
+}
+
+.navbar__logo {
+  height: 32px;
+}
+
+.navbar__title {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.navbar__link {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* Footer styling - Enhanced to match zelcore.io */
 .footer--dark {
   background-color: var(--ifm-footer-background-color);
+  padding: 3rem 0 1.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
 }
 
 .footer__links {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .footer__col {
   margin-bottom: 1.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .footer__title {
   font-weight: 700;
-  margin-bottom: 0.75rem;
-  color: var(--ifm-footer-title-color);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary-lighter);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .footer__item {
-  line-height: 2;
+  line-height: 2.2;
+  font-size: 0.9rem;
+}
+
+.footer__link-item {
+  color: var(--ifm-color-content-secondary);
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-lighter);
+  text-decoration: none;
 }
 
 /* Center copyright on smaller screens */
 .footer__copyright {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.85rem;
 }
 
 @media (min-width: 996px) {
   .footer__links {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto 2.5rem;
   }
 
   .footer__col {
@@ -118,10 +192,28 @@
   }
 }
 
-/* Card and container backgrounds in dark mode */
+/* Card and container backgrounds in dark mode - Enhanced */
 [data-theme='dark'] .card {
   background-color: var(--ifm-card-background-color);
   border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .card:hover {
+  border-color: rgba(68, 97, 242, 0.3);
+  box-shadow: 0 8px 24px rgba(68, 97, 242, 0.15);
+  transform: translateY(-2px);
+}
+
+.card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px rgba(27, 99, 239, 0.1);
+  transform: translateY(-2px);
 }
 
 /* Link colors */
@@ -133,15 +225,39 @@ a {
   color: var(--ifm-color-primary-lighter);
 }
 
-/* Button styles */
+/* Button styles - Enhanced */
 .button--primary {
   background-color: var(--ifm-color-primary);
   border-color: var(--ifm-color-primary);
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
 
 .button--primary:hover {
   background-color: var(--ifm-color-primary-dark);
   border-color: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(27, 99, 239, 0.3);
+}
+
+.button--secondary {
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  background-color: transparent;
+  transition: all 0.2s ease;
+}
+
+.button--secondary:hover {
+  background-color: white;
+  color: var(--ifm-color-primary);
+  transform: translateY(-1px);
+}
+
+.button--lg {
+  font-size: 1.1rem;
+  padding: 0.875rem 2rem;
+  border-radius: 8px;
 }
 
 /* Admonitions (tips, warnings, etc.) */
@@ -171,4 +287,64 @@ a {
 
 [data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
   background: var(--ifm-color-primary);
+}
+
+/* General typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced main content area */
+main {
+  /* Removed excessive min-height that pushes footer too far down */
+}
+
+/* Improved readability */
+article {
+  line-height: 1.8;
+}
+
+/* Doc page headings */
+.markdown h1:first-child {
+  margin-bottom: 1.5rem;
+}
+
+/* Sidebar improvements */
+.menu__link {
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.menu__link--active {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-color-primary-lighter);
+  color: white;
+}
+
+[data-theme='dark'] .menu__link:hover {
+  background-color: var(--ifm-color-primary-dark);
 }

@@ -97,16 +97,50 @@ const config: Config = {
           title: 'Product',
           items: [
             {
-              label: 'Zelcore Wallet',
-              href: 'https://zelcore.io',
+              label: 'Desktop',
+              href: 'https://zelcore.io/download#desktop',
             },
             {
-              label: 'Download',
-              href: 'https://zelcore.io/download',
+              label: 'Mobile',
+              href: 'https://zelcore.io/download#mobile',
             },
+            {
+              label: 'Browser Extension',
+              href: 'https://zelcore.io/download#extension',
+            },
+          ],
+        },
+        {
+          title: 'Ecosystem',
+          items: [
             {
               label: 'Features',
               href: 'https://zelcore.io/features',
+            },
+            {
+              label: 'Supported Assets',
+              href: 'https://zelcore.io/assets',
+            },
+            {
+              label: 'Token Listing',
+              href: 'https://zelcore.io/token-listing',
+            },
+          ],
+        },
+        {
+          title: 'Learning',
+          items: [
+            {
+              label: 'Knowledge Base',
+              href: 'https://zelcore.io/knowledge-base',
+            },
+            {
+              label: 'Glossary',
+              href: 'https://zelcore.io/glossary',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/c/ZelCore',
             },
           ],
         },
@@ -122,25 +156,12 @@ const config: Config = {
               href: 'https://twitter.com/zelcore_io',
             },
             {
-              label: 'YouTube',
-              href: 'https://www.youtube.com/c/ZelCore',
-            },
-          ],
-        },
-        {
-          title: 'Resources',
-          items: [
-            {
               label: 'GitHub',
               href: 'https://github.com/zelcore-io',
             },
             {
               label: 'Support',
               href: 'https://zelcore.io/support',
-            },
-            {
-              label: 'Blog',
-              href: 'https://zelcore.io/blog',
             },
           ],
         },

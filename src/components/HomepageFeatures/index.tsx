@@ -1,18 +1,19 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  icon: string;
+  svgPath: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Self-Custody & Secure',
-    icon: '🔐',
+    svgPath: 'img/self-custody.svg',
     description: (
       <>
         Your private keys, your crypto. Zelcore never stores or shares your keys.
@@ -21,32 +22,43 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Multi-Chain Support',
-    icon: '⛓️',
+    title: 'Decentralized 2FA',
+    svgPath: 'img/d2fa.svg',
     description: (
       <>
-        Access 80+ blockchains and 100,000+ tokens from one wallet.
-        Manage Bitcoin, Ethereum, Solana, and more all in one place.
+        Advanced security with decentralized two-factor authentication.
+        Protect your assets with an extra layer of blockchain-based security.
       </>
     ),
   },
   {
-    title: 'Cross-Platform',
-    icon: '📱',
+    title: 'Privacy Protection',
+    svgPath: 'img/privacy-protection.svg',
     description: (
       <>
-        Seamlessly sync across desktop, mobile, and browser extension.
-        Access your wallet anywhere with consistent features across all platforms.
+        Your data stays private. No tracking, no data collection, no third parties.
+        Complete control over your financial privacy.
+      </>
+    ),
+  },
+  {
+    title: 'Secure Login',
+    svgPath: 'img/secure-login.svg',
+    description: (
+      <>
+        Multiple authentication methods to keep your wallet secure.
+        Biometric support and encrypted password protection.
       </>
     ),
   },
 ];
 
-function Feature({title, icon, description}: FeatureItem) {
+function Feature({title, svgPath, description}: FeatureItem) {
+  const imgUrl = useBaseUrl(svgPath);
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
-        <div className={styles.featureIcon}>{icon}</div>
+        <img src={imgUrl} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
