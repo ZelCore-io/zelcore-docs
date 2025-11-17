@@ -27,8 +27,8 @@ No. We understand this is extremely difficult to hear, but cryptocurrency transa
 5. Document the theft with transaction IDs and screenshots
 
 **Related:**
-- [Responding to Wallet Compromise](/docs/guides/responding-to-wallet-compromise) - Step-by-step incident response
-- [Security Best Practices](/docs/guides/security-best-practices) - Prevent future compromises
+- [Responding to Wallet Compromise](/guides/responding-to-wallet-compromise/) - Step-by-step incident response
+- [Security Best Practices](/guides/security-best-practices/) - Prevent future compromises
 
 ---
 
@@ -59,7 +59,7 @@ While all cryptocurrency transactions are publicly visible on blockchain explore
 - Expect limited success - most cryptocurrency theft goes unsolved
 
 **Related:**
-- [Responding to Wallet Compromise](/docs/guides/responding-to-wallet-compromise)
+- [Responding to Wallet Compromise](/guides/responding-to-wallet-compromise/)
 
 ---
 
@@ -94,8 +94,8 @@ ZelCore support will NEVER ask for your seed phrase, private keys, or passwords.
 - Report to law enforcement if significant funds were stolen
 
 **Related:**
-- [Responding to Wallet Compromise](/docs/guides/responding-to-wallet-compromise)
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Responding to Wallet Compromise](/guides/responding-to-wallet-compromise/)
+- [Security Best Practices](/guides/security-best-practices/)
 
 ---
 
@@ -139,7 +139,7 @@ Your seed phrase is the master key to all your cryptocurrency. Proper storage is
 - Never test recovery on a device you don't fully trust
 
 **Related:**
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Security Best Practices](/guides/security-best-practices/)
 
 ---
 
@@ -175,7 +175,7 @@ After a wallet compromise, scammers often target victims with fake "recovery ser
 - Never respond to unsolicited DMs claiming to offer help
 
 **Related:**
-- [Responding to Wallet Compromise](/docs/guides/responding-to-wallet-compromise)
+- [Responding to Wallet Compromise](/guides/responding-to-wallet-compromise/)
 
 ---
 
@@ -215,7 +215,7 @@ After a wallet compromise, scammers often target victims with fake "recovery ser
 For significant cryptocurrency holdings, keep your seed phrase completely offline. The inconvenience is far less painful than losing your funds to a digital breach.
 
 **Related:**
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Security Best Practices](/guides/security-best-practices/)
 
 ---
 
@@ -253,8 +253,8 @@ Screenshots of seed phrases are one of the most common ways wallets get compromi
 - Write it on paper and store it securely offline
 
 **Related:**
-- [Security Best Practices](/docs/guides/security-best-practices)
-- [Responding to Wallet Compromise](/docs/guides/responding-to-wallet-compromise)
+- [Security Best Practices](/guides/security-best-practices/)
+- [Responding to Wallet Compromise](/guides/responding-to-wallet-compromise/)
 
 ---
 
@@ -305,7 +305,7 @@ Screenshots of seed phrases are one of the most common ways wallets get compromi
 - Never share sensitive information via DM
 
 **Related:**
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Security Best Practices](/guides/security-best-practices/)
 
 ---
 
@@ -351,7 +351,7 @@ Unfortunately, cryptocurrency transactions are permanent and irreversible. If yo
 - **Take your time** - Rushing leads to mistakes
 
 **Related:**
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Security Best Practices](/guides/security-best-practices/)
 
 ---
 
@@ -409,7 +409,7 @@ It depends on your security settings, but potentially yes - this is why device s
 - Keep seed phrase offline and separate from devices
 
 **Related:**
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Security Best Practices](/guides/security-best-practices/)
 
 ---
 
@@ -463,8 +463,8 @@ Yes, your funds are safe on the blockchain. Inactivity doesn't affect your crypt
 - Run Smartify regularly even if not actively trading
 
 **Related:**
-- [Security Best Practices](/docs/guides/security-best-practices)
-- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+- [Security Best Practices](/guides/security-best-practices/)
+- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -514,7 +514,7 @@ Yes, your funds are safe on the blockchain. Inactivity doesn't affect your crypt
 - Save non-urgent transactions for when you're on a secure network
 
 **Related:**
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Security Best Practices](/guides/security-best-practices/)
 
 ---
 
@@ -548,7 +548,7 @@ Monitor for these warning signs of wallet compromise:
 
 **If you suspect compromise:**
 
-**Act immediately** - Time is critical. See [Responding to Wallet Compromise](/docs/guides/responding-to-wallet-compromise) for detailed steps:
+**Act immediately** - Time is critical. See [Responding to Wallet Compromise](/guides/responding-to-wallet-compromise/) for detailed steps:
 
 1. Verify the compromise on blockchain explorer
 2. Use a clean device to create a new wallet
@@ -576,8 +576,8 @@ Sometimes what looks like compromise is actually:
 Always verify on blockchain explorer before assuming compromise.
 
 **Related:**
-- [Responding to Wallet Compromise](/docs/guides/responding-to-wallet-compromise)
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Responding to Wallet Compromise](/guides/responding-to-wallet-compromise/)
+- [Security Best Practices](/guides/security-best-practices/)
 
 ---
 
@@ -638,7 +638,7 @@ This balances security with convenience.
 Following security best practices makes ZelCore very secure for most users. Hardware wallets add an extra layer, but aren't necessary for everyone - especially those with smaller holdings or who need frequent access.
 
 **Related:**
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Security Best Practices](/guides/security-best-practices/)
 
 ---
 
@@ -691,4 +691,4 @@ ZelCore-specific features or services might be lost (like Fusion swap history), 
 Your cryptocurrency truly belongs to you, not to any company. Your seed phrase is your proof of ownership and means of access, regardless of what happens to wallet software companies.
 
 **Related:**
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Security Best Practices](/guides/security-best-practices/)

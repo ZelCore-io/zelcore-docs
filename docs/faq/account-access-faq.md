@@ -33,8 +33,8 @@ ZelCore has two account types with different login methods:
 - If you have a 12/24-word seed phrase → Modern account
 
 **Related:**
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
-- [Migrating to Seed Phrase Account](/docs/guides/migrating-legacy-to-seed-phrase)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
+- [Migrating to Seed Phrase Account](/guides/migrating-legacy-to-seed-phrase/)
 
 ---
 
@@ -63,7 +63,7 @@ ZelCore has two account types with different login methods:
 - Earlier migration is better
 
 **Related:**
-- [Complete Migration Guide](/docs/guides/migrating-legacy-to-seed-phrase)
+- [Complete Migration Guide](/guides/migrating-legacy-to-seed-phrase/)
 
 ---
 
@@ -94,10 +94,10 @@ ZelCore has two account types with different login methods:
 
 **If you have a legacy account without seed phrase:**
 - You need to migrate to generate a seed phrase
-- See [Migration Guide](/docs/guides/migrating-legacy-to-seed-phrase)
+- See [Migration Guide](/guides/migrating-legacy-to-seed-phrase/)
 
 **Related:**
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -132,7 +132,7 @@ This is one of the most common sources of confusion. Understanding the differenc
 - Register = Create brand new email account
 
 **Related:**
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -171,7 +171,7 @@ This is one of the most common sources of confusion. Understanding the differenc
 - Or ignore the empty wallet
 
 **Related:**
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -209,7 +209,7 @@ This is one of the most common sources of confusion. Understanding the differenc
 - Cross-device access (must import on each device)
 
 **Related:**
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -265,7 +265,7 @@ Follow these steps carefully to access your existing account on a new device:
 - ❌ Confusing device PIN with seed phrase
 
 **Related:**
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -310,7 +310,7 @@ Follow these steps carefully to access your existing account on a new device:
 - Custom labels or notes (device-specific)
 
 **Related:**
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -361,7 +361,7 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 - Keep backup device with ZelCore installed
 
 **Related:**
-- [Security Best Practices](/docs/security/best-practices)
+- [Security Best Practices](/security/best-practices/)
 
 ---
 
@@ -407,7 +407,7 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 5. Backup PIN securely
 
 **Related:**
-- [Security Best Practices](/docs/security/best-practices)
+- [Security Best Practices](/security/best-practices/)
 
 ---
 
@@ -458,7 +458,7 @@ You can reset your D2FA PIN using your seed phrase, but the process requires car
 - D2FA adds security but seed phrase is ultimate key
 
 **Related:**
-- [Security Best Practices](/docs/security/best-practices)
+- [Security Best Practices](/security/best-practices/)
 
 ---
 
@@ -520,7 +520,7 @@ D2FA failures usually relate to connectivity, incorrect PIN, or sync issues.
 - Contact support with error messages
 
 **Related:**
-- [Security Best Practices](/docs/security/best-practices)
+- [Security Best Practices](/security/best-practices/)
 
 ---
 
@@ -569,7 +569,7 @@ D2FA failures usually relate to connectivity, incorrect PIN, or sync issues.
 4. Shows your FluxID identifier
 
 **Related:**
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -582,7 +582,7 @@ FluxID migration happens automatically when you migrate from a legacy account to
 **Migration process:**
 
 **Step 1: Migrate to seed phrase account**
-- Follow the [Migration Guide](/docs/guides/migrating-legacy-to-seed-phrase)
+- Follow the [Migration Guide](/guides/migrating-legacy-to-seed-phrase/)
 - This creates a modern seed phrase account
 - Modern FluxID is created automatically
 
@@ -615,8 +615,8 @@ FluxID migration happens automatically when you migrate from a legacy account to
 - Old FluxID will eventually be unsupported
 
 **Related:**
-- [Migrating to Seed Phrase Account](/docs/guides/migrating-legacy-to-seed-phrase)
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Migrating to Seed Phrase Account](/guides/migrating-legacy-to-seed-phrase/)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -686,7 +686,7 @@ Legacy account login issues usually involve credentials, account status, or app 
 - Write down credentials in secure location
 
 **Related:**
-- [Migrating to Seed Phrase Account](/docs/guides/migrating-legacy-to-seed-phrase)
+- [Migrating to Seed Phrase Account](/guides/migrating-legacy-to-seed-phrase/)
 
 ---
 
@@ -793,8 +793,8 @@ Seed phrase errors usually involve typos, wrong words, incorrect order, or wrong
 - Test recovery before storing large amounts
 
 **Related:**
-- [Create a New Wallet](/docs/getting-started/create-wallet)
-- [Security Best Practices](/docs/security/best-practices)
+- [Create a New Wallet](/getting-started/create-wallet/)
+- [Security Best Practices](/security/best-practices/)
 
 ---
 
@@ -868,7 +868,7 @@ Seed phrase errors usually involve typos, wrong words, incorrect order, or wrong
 - Read options carefully before selecting
 
 **Related:**
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -945,8 +945,8 @@ Seed phrase errors usually involve typos, wrong words, incorrect order, or wrong
 - Need to track multiple seed phrases
 
 **Related:**
-- [Create a New Wallet](/docs/getting-started/create-wallet)
-- [Security Best Practices](/docs/security/best-practices)
+- [Create a New Wallet](/getting-started/create-wallet/)
+- [Security Best Practices](/security/best-practices/)
 
 ---
 
@@ -1007,7 +1007,7 @@ This error usually means incorrect credentials or account type mismatch.
 - Contact support for account status
 
 **Related:**
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -1080,7 +1080,7 @@ Server connection errors prevent ZelCore from syncing your account data and bala
 - Contact support with details
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -1120,7 +1120,7 @@ This message indicates you have a legacy account that needs to be migrated to a 
 **How to respond:**
 
 **Option 1: Migrate now (recommended)**
-- Follow [Migration Guide](/docs/guides/migrating-legacy-to-seed-phrase)
+- Follow [Migration Guide](/guides/migrating-legacy-to-seed-phrase/)
 - Takes 30-60 minutes
 - One-time process
 - Future-proofs your account
@@ -1147,7 +1147,7 @@ This message indicates you have a legacy account that needs to be migrated to a 
 - Creating new seed phrase account
 - Transferring funds to new account
 - Securing new seed phrase
-- See [Migration Guide](/docs/guides/migrating-legacy-to-seed-phrase) for details
+- See [Migration Guide](/guides/migrating-legacy-to-seed-phrase/) for details
 
 **Is it safe to migrate:**
 - Yes, well-documented process
@@ -1156,8 +1156,8 @@ This message indicates you have a legacy account that needs to be migrated to a 
 - Take your time and follow guide
 
 **Related:**
-- [Complete Migration Guide](/docs/guides/migrating-legacy-to-seed-phrase)
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Complete Migration Guide](/guides/migrating-legacy-to-seed-phrase/)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -1230,8 +1230,8 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 - Review storage location security annually
 
 **Related:**
-- [Security Best Practices](/docs/security/best-practices)
-- [Create a New Wallet](/docs/getting-started/create-wallet)
+- [Security Best Practices](/security/best-practices/)
+- [Create a New Wallet](/getting-started/create-wallet/)
 
 ---
 
@@ -1327,7 +1327,7 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 - Limit exposure of main holdings
 
 **Related:**
-- [Security Best Practices](/docs/security/best-practices)
+- [Security Best Practices](/security/best-practices/)
 
 ---
 
@@ -1425,8 +1425,8 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 - Then wipe old device
 
 **Related:**
-- [Security Best Practices](/docs/security/best-practices)
-- [Understanding ZelCore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Security Best Practices](/security/best-practices/)
+- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -1545,5 +1545,5 @@ Multiple support channels are available for ZelCore assistance.
 5. Then contact if still stuck
 
 **Related:**
-- All documentation at [docs.zelcore.io](/docs/intro)
-- [Security Best Practices](/docs/security/best-practices)
+- All documentation at [docs.zelcore.io](/intro/)
+- [Security Best Practices](/security/best-practices/)

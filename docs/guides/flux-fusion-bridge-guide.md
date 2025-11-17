@@ -1301,10 +1301,10 @@ Contact Flux team if:
 
 ## Related Documentation
 
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues) - General Fusion troubleshooting
-- [Fusion FAQ](/docs/faq/fusion-faq) - Common Fusion questions
-- [Understanding Blockchain Confirmations](/docs/guides/blockchain-confirmations) - Learn about confirmations
-- [ZelCore Security Best Practices](/docs/security/best-practices) - Keep your assets secure
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/) - General Fusion troubleshooting
+- [Fusion FAQ](/faq/fusion-faq/) - Common Fusion questions
+- Understanding Blockchain Confirmations - Learn about confirmations
+- [ZelCore Security Best Practices](/security/best-practices/) - Keep your assets secure
 
 ## Summary and Best Practices
 

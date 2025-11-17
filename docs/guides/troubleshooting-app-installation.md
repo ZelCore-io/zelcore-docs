@@ -1016,10 +1016,10 @@ Contact ZelCore support if:
 
 ## Related Documentation
 
-- [ZelCore Installation Guide](/docs/get-started/installing-zelcore) (if available)
-- [Troubleshooting Balance and Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
-- [Security Best Practices](/docs/guides/security-best-practices)
-- [Wallet Backup and Recovery](/docs/get-started/backup-and-recovery) (if available)
+- [ZelCore Installation Guide](/getting-started/installation/) (if available)
+- [Troubleshooting Balance and Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Security Best Practices](/guides/security-best-practices/)
+- [Wallet Backup and Recovery](/getting-started/create-wallet/) (if available)
 
 ## Conclusion
 

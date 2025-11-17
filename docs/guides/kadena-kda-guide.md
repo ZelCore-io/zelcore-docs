@@ -492,7 +492,7 @@ In Kadena's history, there were updates to the network protocol and community-le
 5. Change backend server
 6. Clear cache and resync
 
-**Related:** [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+**Related:** [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
 
 ### Issue: Cannot Send KDA - Transaction Fails
 
@@ -662,8 +662,8 @@ Yes. KDA has the same value regardless of which chain it's on. The chain is just
 
 ## Related Documentation
 
-- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
-- [Wallet Security Best Practices](/docs/guides/security-best-practices)
+- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Wallet Security Best Practices](/guides/security-best-practices/)
 - [Understanding Blockchain Explorers](#) (if available)
 
 ---

@@ -525,8 +525,8 @@ If you continue experiencing installation issues:
 
 ## Related Documentation
 
-- [Troubleshooting Flux Node Status Issues](/docs/guides/troubleshooting-flux-node-status-issues) - For nodes that installed but have status/uptime problems
-- [Flux Nodes FAQ](/docs/faq/flux-nodes-faq) - Common questions about running Flux nodes
+- [Troubleshooting Flux Node Status Issues](/guides/troubleshooting-flux-node-status-issues/) - For nodes that installed but have status/uptime problems
+- [Flux Nodes FAQ](/faq/flux-nodes-faq/) - Common questions about running Flux nodes
 
 ---
 

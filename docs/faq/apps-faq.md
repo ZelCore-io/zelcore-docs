@@ -180,8 +180,8 @@ Feature requests for future versions:
 **Current best practice:** Always check Settings > Wallets before any app purchase to confirm correct wallet is active.
 
 **Related:**
-- [Managing Multiple Wallets in ZelCore](/docs/guides/managing-multiple-wallets) (if available)
-- [Wallet FAQ](/docs/faq/wallet-faq)
+- Managing Multiple Wallets in ZelCore (if available)
+- [Wallet FAQ](/faq/wallet-faq/)
 
 ---
 
@@ -310,7 +310,7 @@ ZelCore integrates several apps within the wallet interface, providing access to
 - App availability may vary by region or jurisdiction
 
 **Related:**
-- [FluxNodes FAQ](/docs/faq/flux-nodes-faq)
+- [FluxNodes FAQ](/faq/flux-nodes-faq/)
 - [I sent payment to wrong wallet (app purchases)](#i-sent-payment-for-an-app-purchase-dao-titan-marketplace-presearch-but-it-went-to-the-wrong-wallet-what-happened)
 
 ---
@@ -478,7 +478,7 @@ If ever uncertain which wallet is active:
 
 **Related:**
 - [I sent payment to wrong wallet](#i-sent-payment-for-an-app-purchase-dao-titan-marketplace-presearch-but-it-went-to-the-wrong-wallet-what-happened)
-- [Managing Multiple Wallets in ZelCore](/docs/guides/managing-multiple-wallets) (if available)
+- Managing Multiple Wallets in ZelCore (if available)
 
 ---
 

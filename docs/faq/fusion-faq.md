@@ -37,7 +37,7 @@ The provider's compliance team manually reviews your transaction. This process t
 **Your funds are safe** - the provider has received them and will either complete the swap, request verification, or refund.
 
 **Related:**
-- [Comprehensive Troubleshooting Guide for Fusion Swaps](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Comprehensive Troubleshooting Guide for Fusion Swaps](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -74,7 +74,7 @@ This status means either your source transaction needs more blockchain confirmat
 - **SOL/TRX swaps:** Very fast confirmations, if stuck it's provider-side
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -122,7 +122,7 @@ Don't panic - this is the most common Fusion issue and almost always gets resolv
 **Important:** Contact the swap provider, not ZelCore support initially. The provider controls the funds and must resolve payout issues.
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -160,7 +160,7 @@ Based on support tickets, the most frequently affected chains in Fusion swaps ar
 - **Less common chains:** Start with small test swaps first
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -216,7 +216,7 @@ You must contact the specific provider handling your swap, not ZelCore. Here's h
 - Your destination address
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -269,7 +269,7 @@ Providers typically request:
 - Ensure source wallet has transaction history (not brand new)
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -323,7 +323,7 @@ This means the provider marked the order as complete on their end, but either th
 **This issue is always on the provider side** - they must correct the payout problem.
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -394,7 +394,7 @@ Swap timing depends on the blockchains involved and the provider's processing sp
 - Any status unchanged for 24+ hours
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -438,7 +438,7 @@ These are all ZelCore's swap aggregation features - they use the same underlying
 3. Following provider-specific support steps
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -497,7 +497,7 @@ The third-party exchange providers (ChangeHero, ChangeNow, SimpleSwap, Changelly
 - Twitter: @zelcore (for announcements)
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -563,8 +563,8 @@ Thousands of Fusion swaps complete successfully every day. Most stuck swaps are 
 **Best practice:** Only swap amounts you're comfortable having in a third party's control for 24-48 hours.
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
-- [ZelCore Security Best Practices](/docs/security/best-practices)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
+- [ZelCore Security Best Practices](/security/best-practices/)
 
 ---
 
@@ -603,7 +603,7 @@ Flux parallel chains are wrapped versions of FLUX tokens deployed on different b
 **Why this matters:** You cannot send Flux parallel assets without the correct gas token, and you cannot use received assets on the destination chain without gas there.
 
 **Related:**
-- [Flux Fusion Bridge Guide](/docs/guides/flux-fusion-bridge-guide) - Complete guide to bridging Flux parallel chains
+- [Flux Fusion Bridge Guide](/guides/flux-fusion-bridge-guide/) - Complete guide to bridging Flux parallel chains
 
 ---
 
@@ -653,7 +653,7 @@ These are the same token (ETH) but on different networks. You must have ETH spec
 **Prevention:** Always check which network a token is on before assuming you have the required gas.
 
 **Related:**
-- [Flux Fusion Bridge Guide](/docs/guides/flux-fusion-bridge-guide) - Detailed guide on gas requirements for all chains
+- [Flux Fusion Bridge Guide](/guides/flux-fusion-bridge-guide/) - Detailed guide on gas requirements for all chains
 
 ---
 
@@ -728,8 +728,8 @@ If "no providers" appears consistently for days:
 **Prevention:** Use well-established routes (Flux-BSC ↔ Flux-ETH) which have consistent provider support and high liquidity.
 
 **Related:**
-- [Flux Fusion Bridge Guide](/docs/guides/flux-fusion-bridge-guide) - Complete guide including provider tips
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues) - General provider troubleshooting
+- [Flux Fusion Bridge Guide](/guides/flux-fusion-bridge-guide/) - Complete guide including provider tips
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/) - General provider troubleshooting
 
 ---
 
@@ -821,8 +821,8 @@ Bridging between Flux parallel chains in ZelCore uses the Fusion swap aggregator
 - Hold/KYC status: 12-48 hours
 
 **Related:**
-- [Flux Fusion Bridge Guide](/docs/guides/flux-fusion-bridge-guide) - Complete step-by-step guide with detailed instructions
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues) - What to do when swaps get stuck
+- [Flux Fusion Bridge Guide](/guides/flux-fusion-bridge-guide/) - Complete step-by-step guide with detailed instructions
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/) - What to do when swaps get stuck
 
 ---
 
@@ -922,8 +922,8 @@ If you prefer to avoid KYC entirely:
 **Your funds are safe:** Provider holds your crypto during KYC review. They will either complete the swap after verification or refund if KYC cannot be completed.
 
 **Related:**
-- [Flux Fusion Bridge Guide](/docs/guides/flux-fusion-bridge-guide) - Includes KYC prevention strategies
-- [Fusion FAQ: Will I need to provide KYC?](/docs/faq/fusion-faq#will-i-need-to-provide-kyc-for-my-fusion-swap) - General KYC information
+- [Flux Fusion Bridge Guide](/guides/flux-fusion-bridge-guide/) - Includes KYC prevention strategies
+- [Fusion FAQ: Will I need to provide KYC?](/faq/fusion-faq/#will-i-need-to-provide-kyc-for-my-fusion-swap) - General KYC information
 
 ---
 
@@ -1090,7 +1090,7 @@ Provider limits aren't static:
 - **Demand-driven:** Popular pairs have higher limits
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -1306,7 +1306,7 @@ The most reliable, legal approach is:
 4. Accept some limitations as part of compliance
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
 
 ---
 
@@ -1501,5 +1501,5 @@ Even the same provider varies limits by pair:
 Provider variation is normal and actually beneficial. It creates competition, provides options, and ensures you usually have at least one path forward. Use Fusion to see what's available for your specific situation, and choose the best option shown.
 
 **Related:**
-- [Troubleshooting Fusion Swap Issues](/docs/guides/troubleshooting-fusion-swap-issues)
-- [How do I contact the exchange provider?](/docs/faq/fusion-faq#how-do-i-contact-the-exchange-provider-handling-my-swap)
+- [Troubleshooting Fusion Swap Issues](/guides/troubleshooting-fusion-swap-issues/)
+- [How do I contact the exchange provider?](/faq/fusion-faq/#how-do-i-contact-the-exchange-provider-handling-my-swap)

@@ -400,9 +400,9 @@ Does NOT apply to:
 
 ## Related Documentation
 
-- [Wallet FAQ](/docs/faq/wallet-faq)
-- [Troubleshooting Balance & Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
-- [Mining Best Practices](/docs/guides/mining-best-practices) (if available)
+- [Wallet FAQ](/faq/wallet-faq/)
+- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- Mining Best Practices (if available)
 
 ## When to Contact Support
 

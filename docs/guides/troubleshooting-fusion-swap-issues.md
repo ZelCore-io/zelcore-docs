@@ -691,8 +691,8 @@ Set up "gas fund" for each blockchain:
 **Always have gas on the destination chain BEFORE swapping TO that chain.** This is not optional - it's essential for managing your crypto effectively.
 
 **Related:**
-- [Understanding Blockchain Confirmations](/docs/guides/blockchain-confirmations)
-- [Multi-Chain Wallet Management](/docs/guides/managing-multiple-chains)
+- Understanding Blockchain Confirmations
+- Multi-Chain Wallet Management
 
 ---
 
@@ -779,10 +779,10 @@ ZelCore Fusion is an aggregator that connects you to third-party exchange provid
 
 ## Related Documentation
 
-- [Using ZelCore Fusion for Crypto Swaps](/docs/features/fusion-swaps)
-- [Understanding Blockchain Confirmations](/docs/guides/blockchain-confirmations)
-- [ZelCore Security Best Practices](/docs/security/best-practices)
-- [Fusion FAQ](/docs/faq/fusion-faq)
+- [Using ZelCore Fusion for Crypto Swaps](/features/overview/)
+- Understanding Blockchain Confirmations
+- [ZelCore Security Best Practices](/security/best-practices/)
+- [Fusion FAQ](/faq/fusion-faq/)
 
 ## Technical Background
 

@@ -32,7 +32,7 @@ DOS (Denial of Service) status means your node has been temporarily banned from 
 6. Monitor to prevent recurrence
 
 **Related:**
-- [Comprehensive Flux Node Troubleshooting Guide](/docs/guides/troubleshooting-flux-node-status-issues)
+- [Comprehensive Flux Node Troubleshooting Guide](/guides/troubleshooting-flux-node-status-issues/)
 
 ---
 
@@ -71,7 +71,7 @@ EXPIRED status indicates your node's confirmation transaction has expired on the
 **Important:** Don't attempt to re-confirm until you've resolved the underlying issue that caused the expiration, or the problem will recur.
 
 **Related:**
-- [Troubleshooting Flux Node Status Issues - Re-confirmation Process](/docs/guides/troubleshooting-flux-node-status-issues#step-8-re-confirming-your-node-for-expirednot-confirmed)
+- [Troubleshooting Flux Node Status Issues - Re-confirmation Process](/guides/troubleshooting-flux-node-status-issues/#step-8-re-confirming-your-node-for-expirednot-confirmed)
 
 ---
 
@@ -113,7 +113,7 @@ EXPIRED status indicates your node's confirmation transaction has expired on the
 **Prevention:** Always ensure daemon is 100% synced before confirming or re-confirming your node.
 
 **Related:**
-- [Troubleshooting Guide - Not Confirmed Scenario](/docs/guides/troubleshooting-flux-node-status-issues#scenario-3-not-confirmed-status-but-benchmark-passes)
+- [Troubleshooting Guide - Not Confirmed Scenario](/guides/troubleshooting-flux-node-status-issues/#scenario-3-not-confirmed-status-but-benchmark-passes)
 
 ---
 
@@ -162,7 +162,7 @@ bash multitoolbox.sh > multitoolbox_output.txt
 Then share the file contents with support team.
 
 **Related:**
-- [Troubleshooting Guide - Step 1: Run Multitoolbox](/docs/guides/troubleshooting-flux-node-status-issues#step-1-run-multitoolbox-diagnostic)
+- [Troubleshooting Guide - Step 1: Run Multitoolbox](/guides/troubleshooting-flux-node-status-issues/#step-1-run-multitoolbox-diagnostic)
 
 ---
 
@@ -219,7 +219,7 @@ Then share the file contents with support team.
 5. Your node stability should improve significantly
 
 **Related:**
-- [Troubleshooting Guide - Port Forwarding Configuration](/docs/guides/troubleshooting-flux-node-status-issues#step-4-configure-port-forwarding-upnp-vs-manual)
+- [Troubleshooting Guide - Port Forwarding Configuration](/guides/troubleshooting-flux-node-status-issues/#step-4-configure-port-forwarding-upnp-vs-manual)
 
 ---
 
@@ -272,7 +272,7 @@ Should show all four ports as ALLOW.
 - Restart router after making changes
 
 **Related:**
-- [Troubleshooting Guide - Port Configuration](/docs/guides/troubleshooting-flux-node-status-issues#step-3-verify-port-configuration)
+- [Troubleshooting Guide - Port Configuration](/guides/troubleshooting-flux-node-status-issues/#step-3-verify-port-configuration)
 
 ---
 
@@ -348,7 +348,7 @@ Benchmark requires internet accessibility. Verify ports:
 4. Run multitoolbox for detailed diagnostics
 
 **Related:**
-- [Troubleshooting Guide - Benchmark Failures](/docs/guides/troubleshooting-flux-node-status-issues#step-6-resolve-benchmark-failures)
+- [Troubleshooting Guide - Benchmark Failures](/guides/troubleshooting-flux-node-status-issues/#step-6-resolve-benchmark-failures)
 
 ---
 
@@ -423,7 +423,7 @@ System updates can affect Docker and services:
 **Prevention tip:** Always run multitoolbox before and after updates to compare states and catch issues early.
 
 **Related:**
-- [Troubleshooting Guide - Post-Update Issues](/docs/guides/troubleshooting-flux-node-status-issues#step-7-post-update-troubleshooting)
+- [Troubleshooting Guide - Post-Update Issues](/guides/troubleshooting-flux-node-status-issues/#step-7-post-update-troubleshooting)
 
 ---
 
@@ -473,8 +473,8 @@ Migration steps:
 **Result:** Better security with same functionality.
 
 **Related:**
-- [Troubleshooting Guide - Router DMZ Issues](/docs/guides/troubleshooting-flux-node-status-issues#step-5-router-dmz-configuration-issues)
-- [Security Best Practices](/docs/guides/security-best-practices)
+- [Troubleshooting Guide - Router DMZ Issues](/guides/troubleshooting-flux-node-status-issues/#step-5-router-dmz-configuration-issues)
+- [Security Best Practices](/guides/security-best-practices/)
 
 ---
 
@@ -552,7 +552,7 @@ fluxd
 **Check sync regularly:** Before confirming node, after updates, and when troubleshooting any issue.
 
 **Related:**
-- [Troubleshooting Guide - Daemon Synchronization](/docs/guides/troubleshooting-flux-node-status-issues#step-2-check-daemon-synchronization)
+- [Troubleshooting Guide - Daemon Synchronization](/guides/troubleshooting-flux-node-status-issues/#step-2-check-daemon-synchronization)
 
 ---
 
@@ -635,8 +635,8 @@ Beyond collateral, factor in:
 - Tier chosen
 
 **Related:**
-- [Flux Node Setup Guide](/docs/get-started/flux-node-setup) (if available)
-- [Troubleshooting Guide - Node Tier Requirements](/docs/guides/troubleshooting-flux-node-status-issues#node-tier-requirements)
+- [Flux Node Setup Guide](/guides/flux-node-installation-guide/) (if available)
+- [Troubleshooting Guide - Node Tier Requirements](/guides/troubleshooting-flux-node-status-issues/#node-tier-requirements)
 
 ---
 
@@ -719,7 +719,7 @@ Power outages and router resets commonly cause DOS states due to extended downti
 **Best practice:** For serious node operations, use VPS hosting with SLA guarantees rather than home hosting vulnerable to power/network issues.
 
 **Related:**
-- [Troubleshooting Guide - EXPIRED After Power Outage](/docs/guides/troubleshooting-flux-node-status-issues#scenario-2-expired-after-router-reset-or-power-outage)
+- [Troubleshooting Guide - EXPIRED After Power Outage](/guides/troubleshooting-flux-node-status-issues/#scenario-2-expired-after-router-reset-or-power-outage)
 
 ---
 
@@ -823,7 +823,7 @@ Some VPS providers offer multiple IPs on one server:
 **Best practice:** One node per VPS/dedicated server with its own public IP.
 
 **Related:**
-- [Troubleshooting Guide - Multiple Nodes Scenario](/docs/guides/troubleshooting-flux-node-status-issues#scenario-6-multiple-nodes-on-same-network)
+- [Troubleshooting Guide - Multiple Nodes Scenario](/guides/troubleshooting-flux-node-status-issues/#scenario-6-multiple-nodes-on-same-network)
 
 ---
 
@@ -1007,7 +1007,7 @@ Monthly (45 min):
 **Best practice:** Set up automated uptime monitoring (free UptimeRobot) + weekly manual review. This balances time investment with reliability.
 
 **Related:**
-- [Troubleshooting Guide - Prevention and Maintenance](/docs/guides/troubleshooting-flux-node-status-issues#prevention-and-maintenance)
+- [Troubleshooting Guide - Prevention and Maintenance](/guides/troubleshooting-flux-node-status-issues/#prevention-and-maintenance)
 
 ---
 
@@ -1285,8 +1285,8 @@ If you have dynamic IP that changes periodically:
    - Cost vs downtime calculation
 
 **Related:**
-- [Troubleshooting Guide - Port Configuration](/docs/guides/troubleshooting-flux-node-status-issues#step-3-verify-port-configuration)
-- [Node Re-confirmation Process](/docs/guides/troubleshooting-flux-node-status-issues#step-8-re-confirming-your-node-for-expirednot-confirmed)
+- [Troubleshooting Guide - Port Configuration](/guides/troubleshooting-flux-node-status-issues/#step-3-verify-port-configuration)
+- [Node Re-confirmation Process](/guides/troubleshooting-flux-node-status-issues/#step-8-re-confirming-your-node-for-expirednot-confirmed)
 
 ---
 
@@ -1382,8 +1382,8 @@ Both should show the same IP address. If they don't, you have an IP detection is
 - Before re-confirming your node
 
 **Related:**
-- [Troubleshooting Guide - IP Detection](/docs/guides/troubleshooting-flux-node-status-issues)
-- [Port Configuration](/docs/guides/troubleshooting-flux-node-status-issues#step-3-verify-port-configuration)
+- [Troubleshooting Guide - IP Detection](/guides/troubleshooting-flux-node-status-issues/)
+- [Port Configuration](/guides/troubleshooting-flux-node-status-issues/#step-3-verify-port-configuration)
 
 ---
 
@@ -1559,4 +1559,4 @@ For issues that remain unsolved:
 **Remember:** The Flux community is helpful, but providing detailed information in your initial request significantly speeds up getting help.
 
 **Related:**
-- [Troubleshooting Guide - When to Seek Help](/docs/guides/troubleshooting-flux-node-status-issues#when-to-seek-help)
+- [Troubleshooting Guide - When to Seek Help](/guides/troubleshooting-flux-node-status-issues/#when-to-seek-help)

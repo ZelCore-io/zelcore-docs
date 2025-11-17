@@ -237,9 +237,9 @@ Contact ZelCore support if:
 
 ## Related Documentation
 
-- [Wallet Security Best Practices](/docs/security/best-practices)
-- [Understanding Blockchain Explorers](/docs/guides/using-block-explorers) (if available)
-- [ZelCore Features Overview](/docs/features/overview)
+- [Wallet Security Best Practices](/security/best-practices/)
+- Understanding Blockchain Explorers (if available)
+- [ZelCore Features Overview](/features/overview/)
 
 ## Technical Background
 
