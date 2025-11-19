@@ -11,8 +11,8 @@ Zelcore is your **secure and simple** multi-chain cryptocurrency wallet. Take co
 Zelcore is a non-custodial, multi-asset wallet that empowers you to:
 
 - **Store** your crypto assets securely with self-custody
-- **Trade** across 1,200+ currency pairs with built-in swaps
-- **Manage** your portfolio across multiple blockchains
+- **Exchange Features** - Trade across 1,200+ currency pairs with built-in swaps
+- **Advanced Features** - Manage your portfolio across multiple blockchains
 - **Connect** to DeFi applications via WalletConnect
 - **Track** your NFTs on Ethereum, Solana, and Polygon
 - **Operate** FluxNodes for the Flux ecosystem
@@ -28,7 +28,8 @@ Access your wallet seamlessly across:
 - **Mobile**: iOS and Android
 - **Browser**: Chrome, Firefox, Edge, Brave
 
-### Enhanced Security
+### Security Features
+- 24-word seed phrase for maximum recovery security
 - Decentralized 2FA (d2FA) with distributed authentication
 - Biometric login support
 - Always-on encryption

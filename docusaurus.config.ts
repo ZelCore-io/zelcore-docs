@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Zelcore Documentation',
-  tagline: 'Your Secure and Simple Crypto Wallet - Multi-chain, Self-custody',
+  tagline: 'Your Secure, Simple Crypto Wallet for All Devices - Multichain & Self-Custodial',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
