@@ -15,12 +15,12 @@ const config: Config = {
   },
 
   // Production URL
-  // url: 'https://docs.zelcore.io',
-  // baseUrl: '/',
+  url: 'https://docs.zelcore.io',
+  baseUrl: '/',
 
   // Static deployment config
-  url: 'https://ZelCore-io.github.io',
-  baseUrl: '/zelcore-docs/',
+  // url: 'https://ZelCore-io.github.io',
+  // baseUrl: '/zelcore-docs/',
 
   // GitHub deployment config
   organizationName: 'ZelCore-io',
