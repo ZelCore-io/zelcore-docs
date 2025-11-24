@@ -98,15 +98,15 @@ const config: Config = {
           items: [
             {
               label: 'Desktop',
-              href: 'https://zelcore.io/download#desktop',
+              href: 'https://zelcore.io/wallet',
             },
             {
               label: 'Mobile',
-              href: 'https://zelcore.io/download#mobile',
+              href: 'https://zelcore.io/mobile-wallet',
             },
             {
               label: 'Browser Extension',
-              href: 'https://zelcore.io/download#extension',
+              href: 'https://zelcore.io/browser-extension',
             },
           ],
         },
@@ -115,15 +115,15 @@ const config: Config = {
           items: [
             {
               label: 'Features',
-              href: 'https://zelcore.io/features',
+              href: 'https://zelcore.io/ecosystem/features',
             },
             {
               label: 'Supported Assets',
-              href: 'https://zelcore.io/assets',
+              href: 'https://zelcore.io/ecosystem/assets',
             },
             {
               label: 'Token Listing',
-              href: 'https://zelcore.io/token-listing',
+              href: 'https://zelcore.io/contact-us',
             },
           ],
         },
@@ -132,15 +132,15 @@ const config: Config = {
           items: [
             {
               label: 'Knowledge Base',
-              href: 'https://zelcore.io/knowledge-base',
+              href: 'https://docs.zelcore.io',
             },
             {
               label: 'Glossary',
-              href: 'https://zelcore.io/glossary',
+              href: 'https://zelcore.io/learn/glossary',
             },
             {
               label: 'YouTube',
-              href: 'https://www.youtube.com/c/ZelCore',
+              href: 'https://www.youtube.com/channel/UCSlYE41UUtcjSD0_Z43pTpw',
             },
           ],
         },
@@ -161,7 +161,7 @@ const config: Config = {
             },
             {
               label: 'Support',
-              href: 'https://zelcore.io/support',
+              href: 'https://support.runonflux.io',
             },
           ],
         },
