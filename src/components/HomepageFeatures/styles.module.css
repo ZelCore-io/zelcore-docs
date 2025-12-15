@@ -14,10 +14,19 @@
 }
 
 [data-theme='dark'] .featureSvg {
-  filter: drop-shadow(0 4px 12px rgba(68, 97, 242, 0.2));
+  filter: drop-shadow(0 4px 12px rgba(27, 99, 239, 0.2));
 }
 
 .featureIcon {
   font-size: 4rem;
   margin-bottom: 1rem;
+}
+
+/* Feature section text hierarchy */
+.features h3 {
+  color: var(--ifm-heading-color);
+}
+
+.features p {
+  color: var(--ifm-color-content-secondary);
 }

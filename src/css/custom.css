@@ -16,7 +16,13 @@
 
   /* Background colors */
   --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8f9fa;
   --ifm-navbar-background-color: #ffffff;
+
+  /* Text colors for light mode - hierarchy */
+  --ifm-font-color-base: #1a1a1a;
+  --ifm-heading-color: #000000;
+  --ifm-color-content-secondary: #5c5c5c;
 
   /* Code and syntax highlighting */
   --ifm-code-font-size: 95%;
@@ -28,14 +34,14 @@
 
 /* Dark mode - Zelcore's dark theme */
 [data-theme='dark'] {
-  /* Primary Blue - adjusted for dark mode */
-  --ifm-color-primary: #4461F2;
-  --ifm-color-primary-dark: #2a4cf0;
-  --ifm-color-primary-darker: #1d41ef;
-  --ifm-color-primary-darkest: #0a2ee0;
-  --ifm-color-primary-light: #5e76f4;
-  --ifm-color-primary-lighter: #7188f5;
-  --ifm-color-primary-lightest: #97a7f8;
+  /* Primary Blue - using consistent brand color */
+  --ifm-color-primary: #1B63EF;
+  --ifm-color-primary-dark: #1656d6;
+  --ifm-color-primary-darker: #1451ca;
+  --ifm-color-primary-darkest: #1143a6;
+  --ifm-color-primary-light: #3575f1;
+  --ifm-color-primary-lighter: #4281f2;
+  --ifm-color-primary-lightest: #5d92f4;
 
   /* Dark backgrounds - Zelcore navy theme */
   --ifm-background-color: #080D20;
@@ -44,16 +50,17 @@
   --ifm-footer-background-color: #080D20;
   --ifm-card-background-color: #141C39;
 
-  /* Text colors */
-  --ifm-font-color-base: #ffffff;
-  --ifm-color-content-secondary: #b4b9c9;
+  /* Text colors - hierarchy with white titles and light gray body */
+  --ifm-font-color-base: #b4b9c9;
+  --ifm-heading-color: #ffffff;
+  --ifm-color-content-secondary: #8a8f9e;
 
   /* Borders and dividers */
   --ifm-color-emphasis-300: #2A3A5F;
   --ifm-hr-border-color: rgba(255, 255, 255, 0.1);
 
   /* Code blocks */
-  --docusaurus-highlighted-code-line-bg: rgba(68, 97, 242, 0.15);
+  --docusaurus-highlighted-code-line-bg: rgba(27, 99, 239, 0.15);
   --ifm-code-background: #141C39;
 }
 
@@ -242,7 +249,7 @@ a {
 
 .button--secondary {
   border: 2px solid white;
-  color: white;
+  color: white !important;
   font-weight: 600;
   background-color: transparent;
   transition: all 0.2s ease;
@@ -250,8 +257,19 @@ a {
 
 .button--secondary:hover {
   background-color: white;
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
   transform: translateY(-1px);
+}
+
+/* Ensure button text is white in dark mode hero */
+[data-theme='dark'] .hero .button--secondary {
+  color: white !important;
+  border-color: white;
+}
+
+[data-theme='dark'] .hero .button--secondary:hover {
+  background-color: white;
+  color: var(--ifm-color-primary) !important;
 }
 
 .button--lg {
@@ -293,6 +311,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: -0.02em;
+  color: var(--ifm-heading-color);
 }
 
 h1 {
@@ -307,6 +326,27 @@ h2 {
 h3 {
   font-size: 1.5rem;
   margin-top: 2rem;
+}
+
+/* Text hierarchy - light mode */
+:root p,
+:root .text--center p {
+  color: var(--ifm-color-content-secondary);
+}
+
+/* Text hierarchy - dark mode */
+[data-theme='dark'] p,
+[data-theme='dark'] .text--center p {
+  color: var(--ifm-color-content-secondary);
+}
+
+/* Feature section specific styling */
+section[class*='features'] h3 {
+  color: var(--ifm-heading-color);
+}
+
+section[class*='features'] p {
+  color: var(--ifm-color-content-secondary);
 }
 
 /* Smooth scrolling */
