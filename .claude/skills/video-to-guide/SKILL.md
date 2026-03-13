@@ -67,6 +67,17 @@ which whisper && whisper ./tmp-audio/audio.wav --model small --output_format jso
 - Output: `./tmp-audio/audio.json` with timestamped segments
 
 **Priority 2 — OpenAI Whisper API (fallback, requires `OPENAI_API_KEY`):**
+
+First, check the API key is available. IMPORTANT: Do NOT use `echo $VAR | head` or pipe-based checks, as these can silently fail in some shell environments. Instead use:
+```bash
+env | grep OPENAI_API_KEY
+```
+If the key is present in the output, proceed. If the `.env` file exists in the project root, you can also source it:
+```bash
+[ -f .env ] && source .env
+```
+
+Then call the API:
 ```bash
 curl -s https://api.openai.com/v1/audio/transcriptions \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
