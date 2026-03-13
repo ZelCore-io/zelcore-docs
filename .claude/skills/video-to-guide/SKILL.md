@@ -60,8 +60,9 @@ Try transcription tools in this priority order:
 
 **Priority 1 — Local `whisper` CLI (preferred, no API cost):**
 ```bash
-which whisper && whisper ./tmp-audio/audio.wav --model small --output_format json --output_dir ./tmp-audio/
+which whisper && whisper ./tmp-audio/audio.wav --model small --language en --output_format json --output_dir ./tmp-audio/
 ```
+- **IMPORTANT:** Always specify `--language en` (or the expected language) to avoid misdetection. Whisper's auto-detection is unreliable and can produce completely wrong transcriptions.
 - Use `small` model for good balance of speed and accuracy
 - Use `medium` or `large` for longer or complex audio (ask user if unsure)
 - Output: `./tmp-audio/audio.json` with timestamped segments
@@ -83,10 +84,12 @@ curl -s https://api.openai.com/v1/audio/transcriptions \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
   -F file=@./tmp-audio/audio.wav \
   -F model=whisper-1 \
+  -F language=en \
   -F response_format=verbose_json \
   -F "timestamp_granularities[]=segment" \
   > ./tmp-audio/audio.json
 ```
+- **IMPORTANT:** Always specify `-F language=en` (or the expected language code) to force the correct language. Whisper's auto-detection frequently misidentifies the language, producing garbage transcriptions. If the user speaks a different language, adjust the language code accordingly (e.g., `es`, `fr`, `de`, `el`).
 - Cost: ~$0.006 per minute of audio
 - Ask user for confirmation before making API call
 - If audio file exceeds 25MB, split it first:
