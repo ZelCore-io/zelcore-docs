@@ -7,7 +7,7 @@ keywords: [zelcore, solana, sol, staking, earn, apy, chorus one, validator]
 
 # How to Stake Solana (SOL) with ZelCore Earn
 
-This guide walks you through staking Solana (SOL) using ZelCore's Earn feature. You'll learn how to navigate to Earn, select Solana as the staking chain, enter a stake amount, and confirm your stake through the Chorus One validator.
+This guide walks you through staking Solana (SOL) using ZelCore's Earn feature. You'll learn how to navigate to Earn, select Solana as the staking chain, enter a stake amount, and confirm your stake through the Chorus One staking provider.
 
 ---
 
@@ -20,13 +20,13 @@ This guide walks you through staking Solana (SOL) using ZelCore's Earn feature. 
 
 ## Step 1: Open the Earn Feature
 
-From your **Portfolio** overview, expand the left sidebar and click **Earn** to open the staking dashboard.
+From your **Portfolio** overview, open the Earn section. The staking function is available from the left side panel through the **Earn** tab, or through the top icon in the navigation bar.
 
 ![Portfolio overview showing wallet holdings including Solana](./images/01-portfolio-overview.jpg)
 
-![Sidebar navigation with Earn option highlighted](./images/02-sidebar-earn-navigation.jpg)
+![Sidebar navigation showing Earn option in the left panel](./images/02-sidebar-earn-navigation.jpg)
 
-The **Earn** section is accessible from the left sidebar navigation, alongside Portfolio, Swap, Apps, Purchase, Sell, and NFTs.
+Click **Earn** in the left sidebar to open the staking dashboard.
 
 ---
 
@@ -40,7 +40,7 @@ On the Earn dashboard, use the **Selected Chain** selector to choose **Solana**.
 - **Total Rewards** — Accumulated staking rewards
 - **Available to Stake** — Your unstaked SOL balance available for staking
 
-Below the summary cards, you can see the staking provider details:
+Below the summary cards, the staking provider details are shown:
 
 | Detail | Value |
 |--------|-------|
@@ -50,7 +50,7 @@ Below the summary cards, you can see the staking provider details:
 | Active Validators | 775 |
 
 :::tip
-You can switch the selected chain at any time to view or manage stakes on different networks.
+You can change the selected wallet or chain at any time to view or manage stakes on different networks.
 :::
 
 ---
@@ -76,7 +76,7 @@ A small amount of SOL (0.00228288 SOL) must remain in your wallet for rent. This
 
 ## Step 4: Enter the Stake Amount
 
-Type the amount of SOL you want to stake. In this example, we enter **0.1 SOL**. Once a valid amount is entered, the **Continue** button becomes active.
+Enter the amount of SOL you want to stake. In this example, we stake **0.1 SOL** through the Chorus One staking provider. Once a valid amount is entered, the **Continue** button becomes active.
 
 ![Stake amount field showing 0.1 SOL entered with Continue button active](./images/05-amount-entered.jpg)
 
@@ -86,7 +86,7 @@ Click **Continue** to proceed to the confirmation step.
 
 ## Step 5: Review and Confirm the Stake
 
-The confirmation screen displays a summary of your staking details. Review the information carefully before confirming.
+The confirmation screen displays a summary of your staking details, including the validator, the staked amount, and the estimated APY. Review the information carefully before confirming.
 
 ![Confirm Stake screen showing validator, staked amount, estimated APY, and commission](./images/06-confirm-stake.jpg)
 
@@ -98,7 +98,11 @@ The confirmation screen displays a summary of your staking details. Review the i
 | Commission | 0% |
 
 :::warning
-Staking activates after ~2 days (1 epoch). Rewards begin after ~4-6 days. Your SOL will be locked during this activation period.
+These values are all estimations and depend on the validator, the network conditions, slashing events, and other factors. Actual rewards may vary.
+:::
+
+:::info
+Staking activates after ~2 days (1 epoch). Rewards begin after ~4-6 days.
 :::
 
 Click **Confirm Stake** to submit the staking transaction.
@@ -107,7 +111,7 @@ Click **Confirm Stake** to submit the staking transaction.
 
 ## Step 6: Verify Your Staking Position
 
-After confirming, you are returned to the Earn dashboard. Your new staking position appears with an **Activating** status while it processes through the current epoch.
+After confirming, you are returned to the Earn dashboard. Your new staking position appears with an **Activating** status. It should be activated in the next epoch.
 
 ![Earn dashboard showing 0.1000 SOL staked with Activating status under Chorus One validator](./images/07-stake-activating.jpg)
 
@@ -118,10 +122,10 @@ The dashboard now reflects your updated staking summary:
 - **Validator** — Chorus One
 - **Est. APY** — ~7.42%
 
-Once the stake activates in the next epoch (~2 days), the status will change to **Active** and you will begin earning rewards.
+Once activated, you will begin earning staking rewards. You can stake again or go back to view your existing positions at any time.
 
 ---
 
 ## Summary
 
-You have successfully staked SOL using ZelCore's Earn feature. Your stake will activate in the next Solana epoch and begin generating rewards shortly after. You can return to the Earn dashboard at any time to monitor your staking position, view accumulated rewards, or create additional stakes.
+You have successfully staked SOL using ZelCore's Earn feature. Your stake will activate in the next Solana epoch and begin generating rewards shortly after. Return to the Earn dashboard at any time to monitor your staking positions, view accumulated rewards, or create additional stakes.
