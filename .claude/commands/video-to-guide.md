@@ -17,6 +17,7 @@ Extract from $ARGUMENTS:
 - `--output` name (optional, default: derive from video filename)
 - `--interval` seconds between frames (optional, default: 5)
 - `--format` md or mdx (optional, default: md)
+- `--audio` flag (optional, default: off) — extract and transcribe audio narration to enhance the guide
 
 ### 2. Validate Video
 ```bash
@@ -36,12 +37,41 @@ mkdir -p ./tmp-frames
 ffmpeg -i "<video-path>" -vf "fps=1/<interval>" -q:v 2 ./tmp-frames/frame_%03d.jpg
 ```
 
+### 4b. Extract and Transcribe Audio (only if `--audio` flag is set)
+
+**Extract audio:**
+```bash
+mkdir -p ./tmp-audio
+ffmpeg -i "<video-path>" -vn -acodec pcm_s16le -ar 16000 -ac 1 ./tmp-audio/audio.wav
+```
+
+**Transcribe** (try local whisper first, then API fallback):
+```bash
+# Option 1: Local whisper CLI
+which whisper && whisper ./tmp-audio/audio.wav --model small --output_format json --output_dir ./tmp-audio/
+
+# Option 2: OpenAI Whisper API (ask user before making API call)
+curl -s https://api.openai.com/v1/audio/transcriptions \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -F file=@./tmp-audio/audio.wav \
+  -F model=whisper-1 \
+  -F response_format=verbose_json \
+  -F "timestamp_granularities[]=segment" \
+  > ./tmp-audio/audio.json
+```
+
+Parse the JSON to get timestamped transcript segments. Align each segment with the corresponding frame based on timestamps (frame N corresponds to time `(N-1) * interval` seconds).
+
+See the SKILL.md "Audio Transcription" and "Using Transcript in Guide Writing" sections for full methodology.
+
 ### 5. Analyze Content
 View each frame sequentially using the `view` tool. Identify:
 - The application or interface being demonstrated
 - Each distinct step or action
 - Important UI elements and interactions
 - Logical groupings of frames into sections
+
+**If audio transcription is available:** Cross-reference each frame with its aligned transcript segments. The narrator's words provide context for what's happening on screen, correct terminology, and explanations of *why* each action is performed.
 
 ### 6. Select Key Frames
 Choose representative frames for each step. Not every frame is needed—select those showing:
@@ -72,7 +102,7 @@ Generate markdown with:
 
 ### 8. Cleanup
 ```bash
-rm -rf ./tmp-frames
+rm -rf ./tmp-frames ./tmp-audio
 ```
 
 ### 9. Present Output
