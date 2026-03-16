@@ -46,4 +46,4 @@ Founded in 2018 by InFlux Technologies Limited, Zelcore has established itself a
 
 ## Get Started
 
-Ready to take control of your crypto? Check out our [Getting Started Guide](/getting-started/installation) to download and set up Zelcore today.
+Ready to take control of your crypto? Check out our [Getting Started Guide](../getting-started/installation) to download and set up Zelcore today.

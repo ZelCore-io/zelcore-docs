@@ -251,7 +251,7 @@ If you hold significant cryptocurrency value:
 
 ## What to Do If Compromised
 
-See our dedicated guide: [Responding to Wallet Compromise](/guides/responding-to-wallet-compromise/)
+See our dedicated guide: [Responding to Wallet Compromise](../../guides/responding-to-wallet-compromise/)
 
 **Immediate steps:**
 
@@ -292,10 +292,10 @@ This is by design - it's what makes cryptocurrency trustless and censorship-resi
 
 ## Related Documentation
 
-- [Responding to Wallet Compromise](/guides/responding-to-wallet-compromise/) - Immediate actions if your wallet is compromised
-- [Security FAQ](/faq/security-faq/) - Common security questions and answers
-- [Wallet FAQ](/faq/wallet-faq/) - General wallet questions
-- [Getting Started with ZelCore](/getting-started/installation/) - Initial setup and installation
+- [Responding to Wallet Compromise](../../guides/responding-to-wallet-compromise/) - Immediate actions if your wallet is compromised
+- [Security FAQ](../../faq/security-faq/) - Common security questions and answers
+- [Wallet FAQ](../../faq/wallet-faq/) - General wallet questions
+- [Getting Started with ZelCore](../../getting-started/installation/) - Initial setup and installation
 
 ## Final Reminder
 

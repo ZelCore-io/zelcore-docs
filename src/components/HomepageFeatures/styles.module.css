@@ -1,32 +1,23 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 4rem 0;
+  padding: 48px 0;
   width: 100%;
-  background: var(--ifm-background-surface-color);
+  background: var(--zel-bg-page, #0A0F1F);
 }
 
 .featureSvg {
-  height: 120px;
-  width: 120px;
-  margin-bottom: 1.5rem;
-  filter: drop-shadow(0 4px 8px rgba(27, 99, 239, 0.1));
+  height: 48px;
+  width: 48px;
+  margin-bottom: 16px;
+  filter: drop-shadow(0 4px 8px rgba(27, 99, 239, 0.15));
 }
 
-[data-theme='dark'] .featureSvg {
-  filter: drop-shadow(0 4px 12px rgba(27, 99, 239, 0.2));
-}
-
-.featureIcon {
-  font-size: 4rem;
-  margin-bottom: 1rem;
-}
-
-/* Feature section text hierarchy */
 .features h3 {
-  color: var(--ifm-heading-color);
+  font-family: 'Inter', -apple-system, sans-serif;
+  color: var(--zel-text, #F8FAFC);
 }
 
 .features p {
-  color: var(--ifm-color-content-secondary);
+  color: var(--zel-text-secondary, #CDD5E0);
 }

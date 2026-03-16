@@ -1,23 +1,279 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+.hero {
   position: relative;
+  padding: 80px 24px;
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroBg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #080D20 0%, #0E1739 50%, rgba(27, 99, 239, 0.2) 100%);
 }
 
-.buttons {
+:global([data-theme='light']) .heroBg {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e8edf5 50%, rgba(27, 99, 239, 0.08) 100%);
+}
+
+.heroBlur {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: rgba(27, 99, 239, 0.3);
+  border-radius: 50%;
+  filter: blur(100px);
+  top: -80px;
+  right: -40px;
+  pointer-events: none;
+}
+
+:global([data-theme='light']) .heroBlur {
+  background: rgba(27, 99, 239, 0.12);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 650px;
+}
+
+.heroTitle {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 16px;
+  color: #F8FAFC;
+}
+
+:global([data-theme='light']) .heroTitle {
+  color: #1a1a1a;
+}
+
+.heroSubtitle {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #CDD5E0;
+  margin-bottom: 32px;
+}
+
+:global([data-theme='light']) .heroSubtitle {
+  color: #4a5568;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, #1B63EF, #4461F2);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+.btnPrimary:hover {
+  opacity: 0.9;
+  color: white;
+  text-decoration: none;
+}
+
+.btnPrimary:focus-visible {
+  box-shadow: 0 0 0 3px rgba(27, 99, 239, 0.25);
+  outline: none;
+}
+
+.btnSecondary {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  color: #F8FAFC;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+:global([data-theme='light']) .btnSecondary {
+  color: #1a1a1a;
+  border-color: #e2e8f0;
+}
+
+.btnSecondary:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #F8FAFC;
+  text-decoration: none;
+}
+
+:global([data-theme='light']) .btnSecondary:hover {
+  background: #f0f2f5;
+  color: #1a1a1a;
+}
+
+.btnSecondary:focus-visible {
+  box-shadow: 0 0 0 3px rgba(27, 99, 239, 0.25);
+  outline: none;
+}
+
+/* Features section */
+.features {
+  padding: 48px 24px;
+  background: var(--zel-bg-page, #0A0F1F);
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.featureCard {
+  background: var(--zel-card, #141C39);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.featureIconWrap {
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgba(27, 99, 239, 0.13);
+  border: 1px solid rgba(27, 99, 239, 0.2);
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.featureIcon {
+  width: 24px;
+  height: 24px;
+  filter: drop-shadow(0 2px 4px rgba(27, 99, 239, 0.15));
+}
+
+.featureCard h3 {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--zel-text, #F8FAFC);
+}
+
+.featureCard p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--zel-text-secondary, #CDD5E0);
+  margin: 0;
+}
+
+/* Doc categories section */
+.categories {
+  padding: 48px 24px;
+  background: var(--zel-bg-page, #0A0F1F);
+}
+
+.categoriesInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.categoriesLabel {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--zel-primary, #1B63EF);
+  margin-bottom: 24px;
+}
+
+.categoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.categoryCard {
+  background: var(--zel-surface, #0E1739);
+  border: 1px solid var(--zel-border, #2E3A5F);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 200ms ease;
+}
+
+.categoryCard:hover {
+  border-color: var(--zel-primary, #1B63EF);
+  transform: translateY(-2px);
+}
+
+.categoryCardLabel {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--zel-primary, #1B63EF);
+  margin-bottom: 10px;
+}
+
+.categoryCard h3 {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--zel-text, #F8FAFC);
+}
+
+.categoryLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categoryLinks li {
+  margin-bottom: 6px;
+}
+
+.categoryLinks a {
+  font-size: 14px;
+  color: var(--zel-text-secondary, #CDD5E0);
+  text-decoration: none;
+  transition: color 200ms ease;
+}
+
+.categoryLinks a:hover {
+  color: var(--zel-primary, #1B63EF);
+}
+
+.categoryLinks a::before {
+  content: '→ ';
+  color: var(--zel-accent, #4461F2);
+}
+
+/* Responsive */
+@media screen and (max-width: 996px) {
+  .heroTitle { font-size: 42px; }
+  .featuresGrid { grid-template-columns: repeat(2, 1fr); }
+  .categoriesGrid { grid-template-columns: repeat(2, 1fr); }
+  .hero { padding: 60px 24px; }
+}
+
+@media screen and (max-width: 576px) {
+  .heroTitle { font-size: 32px; }
+  .featuresGrid { grid-template-columns: 1fr; }
+  .categoriesGrid { grid-template-columns: 1fr; }
+  .hero { padding: 48px 16px; }
+  .features { padding: 32px 16px; }
+  .categories { padding: 32px 16px; }
 }

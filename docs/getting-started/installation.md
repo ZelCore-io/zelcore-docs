@@ -80,8 +80,8 @@ The browser extension is ideal for interacting with DeFi applications and NFT ma
 ## Next Steps
 
 Once you've installed Zelcore, proceed to:
-- [Create a New Wallet](/getting-started/create-wallet) - Set up your first wallet
-- [Import Existing Wallet](/getting-started/import-wallet) - Restore a wallet from seed phrase or private key
+- [Create a New Wallet](../../getting-started/create-wallet) - Set up your first wallet
+- [Import Existing Wallet](../../getting-started/import-wallet) - Restore a wallet from seed phrase or private key
 
 ## Need Help?
 

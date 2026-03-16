@@ -400,8 +400,8 @@ Does NOT apply to:
 
 ## Related Documentation
 
-- [Wallet FAQ](/faq/wallet-faq/)
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Wallet FAQ](../../faq/wallet-faq/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 - Mining Best Practices (if available)
 
 ## When to Contact Support

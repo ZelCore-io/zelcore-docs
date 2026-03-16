@@ -173,7 +173,7 @@ Titan typically has minimum purchase requirements:
 - You cannot easily transfer shares between wallets
 
 **See Apps FAQ for detailed wallet verification steps:**
-- [How do I know which wallet is active?](/faq/apps-faq/#how-do-i-know-which-wallet-is-active-when-using-zelcore-apps)
+- [How do I know which wallet is active?](../../faq/apps-faq/#how-do-i-know-which-wallet-is-active-when-using-zelcore-apps)
 
 #### Step 5: Confirm Purchase
 
@@ -977,7 +977,7 @@ Understand:
 
 **This is a critical issue** - see Apps FAQ for detailed guidance:
 
-- [I sent payment for app purchase to wrong wallet](/faq/apps-faq/#i-sent-payment-for-an-app-purchase-dao-titan-marketplace-presearch-but-it-went-to-the-wrong-wallet-what-happened)
+- [I sent payment for app purchase to wrong wallet](../../faq/apps-faq/#i-sent-payment-for-an-app-purchase-dao-titan-marketplace-presearch-but-it-went-to-the-wrong-wallet-what-happened)
 
 **Quick summary:**
 
@@ -1009,7 +1009,7 @@ Often easier:
 - ALWAYS check Settings > Wallets before purchasing
 - Verify active wallet name
 - Don't rush through purchase
-- See: [How to verify active wallet](/faq/apps-faq/#how-do-i-know-which-wallet-is-active-when-using-zelcore-apps)
+- See: [How to verify active wallet](../../faq/apps-faq/#how-do-i-know-which-wallet-is-active-when-using-zelcore-apps)
 
 ## Best Practices and Tips
 
@@ -1180,8 +1180,8 @@ Before contacting official support:
 
 ## Related Documentation
 
-- [ZelCore Apps FAQ](/faq/apps-faq/) - General app purchase issues, wrong wallet troubleshooting
-- [Flux Nodes FAQ](/faq/flux-nodes-faq/) - Understanding Flux nodes
+- [ZelCore Apps FAQ](../../faq/apps-faq/) - General app purchase issues, wrong wallet troubleshooting
+- [Flux Nodes FAQ](../../faq/flux-nodes-faq/) - Understanding Flux nodes
 - Managing Multiple Wallets in ZelCore (if available)
 
 ## Additional Resources

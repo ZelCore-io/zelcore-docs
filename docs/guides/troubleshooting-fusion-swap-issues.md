@@ -779,10 +779,10 @@ ZelCore Fusion is an aggregator that connects you to third-party exchange provid
 
 ## Related Documentation
 
-- [Using ZelCore Fusion for Crypto Swaps](/features/overview/)
+- [Using ZelCore Fusion for Crypto Swaps](../../features/overview/)
 - Understanding Blockchain Confirmations
-- [ZelCore Security Best Practices](/security/best-practices/)
-- [Fusion FAQ](/faq/fusion-faq/)
+- [ZelCore Security Best Practices](../../security/best-practices/)
+- [Fusion FAQ](../../faq/fusion-faq/)
 
 ## Technical Background
 

@@ -107,9 +107,9 @@ The ZelCore team is continuously evaluating App Store policies and exploring com
 Currently, this limitation is specific to iOS. Android and desktop versions have full swap/exchange functionality available.
 
 **Related:**
-- [ZelCore Installation Guide](/getting-started/installation/) - How to install desktop version
-- [Wallet FAQ](/faq/wallet-faq/) - General wallet questions
-- [Fusion FAQ](/faq/fusion-faq/) - Swap functionality details (desktop/Android)
+- [ZelCore Installation Guide](../../getting-started/installation/) - How to install desktop version
+- [Wallet FAQ](../../faq/wallet-faq/) - General wallet questions
+- [Fusion FAQ](../../faq/fusion-faq/) - Swap functionality details (desktop/Android)
 
 ---
 
@@ -180,7 +180,7 @@ Use mobile for:
 - On-the-go access
 
 **Related:**
-- [Getting Started with ZelCore](/getting-started/installation/)
+- [Getting Started with ZelCore](../../getting-started/installation/)
 
 ---
 
@@ -250,8 +250,8 @@ Evening:
 - Check iOS - balance updated automatically
 
 **Related:**
-- [Security Best Practices](/guides/security-best-practices/)
-- [Wallet Backup and Recovery](/getting-started/create-wallet/)
+- [Security Best Practices](../../guides/security-best-practices/)
+- [Wallet Backup and Recovery](../../getting-started/create-wallet/)
 
 ---
 
@@ -340,8 +340,8 @@ If you delete the app WITHOUT having your seed phrase backed up:
 5. **Verify you can access backup** before deleting app or wiping devices
 
 **Related:**
-- [Security Best Practices](/guides/security-best-practices/)
-- [Wallet Backup Guide](/getting-started/create-wallet/)
+- [Security Best Practices](../../guides/security-best-practices/)
+- [Wallet Backup Guide](../../getting-started/create-wallet/)
 
 ---
 
@@ -432,4 +432,4 @@ You can:
 
 **Related:**
 - [iOS Limitations FAQ](#ios-zelcore-limitations-why-are-swap-and-exchange-features-disabled) (above)
-- [Getting Started Guide](/getting-started/installation/)
+- [Getting Started Guide](../../getting-started/installation/)

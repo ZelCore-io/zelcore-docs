@@ -181,7 +181,7 @@ Feature requests for future versions:
 
 **Related:**
 - Managing Multiple Wallets in ZelCore (if available)
-- [Wallet FAQ](/faq/wallet-faq/)
+- [Wallet FAQ](../../faq/wallet-faq/)
 
 ---
 
@@ -310,7 +310,7 @@ ZelCore integrates several apps within the wallet interface, providing access to
 - App availability may vary by region or jurisdiction
 
 **Related:**
-- [FluxNodes FAQ](/faq/flux-nodes-faq/)
+- [FluxNodes FAQ](../../faq/flux-nodes-faq/)
 - [I sent payment to wrong wallet (app purchases)](#i-sent-payment-for-an-app-purchase-dao-titan-marketplace-presearch-but-it-went-to-the-wrong-wallet-what-happened)
 
 ---

@@ -2344,10 +2344,10 @@ Contact Flux community support if:
 
 ## Related Documentation
 
-- [Flux Node Setup Guide](/guides/flux-node-installation-guide/) (if available)
-- [Flux Nodes FAQ](/faq/flux-nodes-faq/)
-- [Network Security Best Practices](/guides/security-best-practices/)
-- [ZelCore FluxNodes App Guide](/features/overview/) (if available)
+- [Flux Node Setup Guide](../../guides/flux-node-installation-guide/) (if available)
+- [Flux Nodes FAQ](../../faq/flux-nodes-faq/)
+- [Network Security Best Practices](../../guides/security-best-practices/)
+- [ZelCore FluxNodes App Guide](../../features/overview/) (if available)
 
 ## Additional Resources
 

@@ -1,0 +1,149 @@
+.footer {
+  background: linear-gradient(180deg, #0E1739, #080D20);
+  padding: 48px 0 0;
+  color: #CDD5E0;
+}
+
+:global([data-theme='light']) .footer {
+  background: #f8f9fa;
+  color: #4a5568;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.brand {
+  padding-right: 24px;
+}
+
+.brandLogo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.brandName {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #F8FAFC;
+}
+
+:global([data-theme='light']) .brandName {
+  color: #1a1a1a;
+}
+
+.brandTagline {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+}
+
+.socialLink {
+  font-size: 13px;
+  color: #CDD5E0;
+  text-decoration: none;
+  transition: color 200ms ease;
+}
+
+:global([data-theme='light']) .socialLink {
+  color: #4a5568;
+}
+
+.socialLink:hover {
+  color: #1B63EF;
+  text-decoration: none;
+}
+
+.column {
+  min-width: 0;
+}
+
+.columnTitle {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #F8FAFC;
+  margin-bottom: 16px;
+}
+
+:global([data-theme='light']) .columnTitle {
+  color: #1a1a1a;
+}
+
+.columnList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.columnList li {
+  margin-bottom: 10px;
+}
+
+.columnLink {
+  font-size: 14px;
+  color: #CDD5E0;
+  text-decoration: none;
+  transition: color 200ms ease;
+}
+
+:global([data-theme='light']) .columnLink {
+  color: #4a5568;
+}
+
+.columnLink:hover {
+  color: #1B63EF;
+  text-decoration: none;
+}
+
+.copyright {
+  margin-top: 32px;
+  padding: 16px 0;
+  border-top: 1px solid #2E3A5F;
+  text-align: center;
+  font-size: 13px;
+  color: #b4b9c9;
+}
+
+:global([data-theme='light']) .copyright {
+  border-top-color: #e2e8f0;
+  color: #718096;
+}
+
+/* Responsive */
+@media screen and (max-width: 996px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 24px;
+  }
+
+  .brand {
+    grid-column: 1 / -1;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
