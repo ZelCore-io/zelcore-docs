@@ -23,7 +23,7 @@ Kadena uses a unique blockchain design called "Chainweb" with 20 parallel chains
 **Think of it like:** A building with 20 floors. Your KDA might be on floor 3, but someone asking for it is on floor 5. You need to move it between floors (chains) to deliver it to the right place.
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
 
 ---
 
@@ -49,7 +49,7 @@ Kadena uses a unique blockchain design called "Chainweb" with 20 parallel chains
 **Key rule:** Always verify which chain the recipient expects before sending. When in doubt, ask or use Chain 0.
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
 
 ---
 
@@ -79,7 +79,7 @@ There are three ways to check which chain holds your KDA:
 **Pro tip:** Use a block explorer to see all your KDA across all chains at once. You might have KDA on multiple chains without realizing it.
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
 
 ---
 
@@ -122,8 +122,8 @@ There are three ways to check which chain holds your KDA:
    - Keep 0.01-0.1 KDA for transaction fees
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
-- [ERR_BAD_REQUEST Troubleshooting Section](/guides/kadena-kda-guide/#err_bad_request-troubleshooting)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
+- [ERR_BAD_REQUEST Troubleshooting Section](../../guides/kadena-kda-guide/#err_bad_request-troubleshooting)
 
 ---
 
@@ -180,8 +180,8 @@ Exchanges are strict about which Kadena chain they accept. Sending to the wrong 
 - Contact exchange support with transaction hash
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
-- [Exchange Deposits Section](/guides/kadena-kda-guide/#depositing-kda-to-exchanges)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
+- [Exchange Deposits Section](../../guides/kadena-kda-guide/#depositing-kda-to-exchanges)
 
 ---
 
@@ -234,8 +234,8 @@ Moving KDA between Kadena chains (e.g., from Chain 1 to Chain 0) requires a spec
 - Often has clearer UI for multi-chain operations
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
-- [Cross-Chain Transfer Section](/guides/kadena-kda-guide/#cross-chain-transfers-moving-kda-between-chains)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
+- [Cross-Chain Transfer Section](../../guides/kadena-kda-guide/#cross-chain-transfers-moving-kda-between-chains)
 
 ---
 
@@ -278,8 +278,8 @@ A "legacy address" refers to older Kadena address formats that may not be clearl
 **Best practice:** Always specify the chain explicitly when sharing your KDA address. Say "Chain 0: k:address123" instead of just "k:address123".
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
-- [Legacy Addresses Section](/guides/kadena-kda-guide/#legacy-addresses-vs-chain-specific-addresses)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
+- [Legacy Addresses Section](../../guides/kadena-kda-guide/#legacy-addresses-vs-chain-specific-addresses)
 
 ---
 
@@ -332,8 +332,8 @@ Yes! EckoWallet and ZelCore can be used together or as alternatives for managing
 **Important security note:** Only import keys between wallets you trust. Never share private keys with anyone or input them into unknown websites.
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
-- [EckoWallet Integration Section](/guides/kadena-kda-guide/#eckowallet-integration)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
+- [EckoWallet Integration Section](../../guides/kadena-kda-guide/#eckowallet-integration)
 
 ---
 
@@ -396,8 +396,8 @@ If the Kadena block explorer shows your KDA balance but ZelCore doesn't, this is
 **Your KDA is safe:** If it's on the blockchain explorer, your funds are secure. This is purely a display issue with ZelCore.
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -453,8 +453,8 @@ Kadena has evolved over time with protocol improvements. Modern wallets like Zel
 **Key point:** Keep ZelCore updated, and you won't have any fork-related issues.
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
-- [Kadena Community Fork Section](/guides/kadena-kda-guide/#kadena-community-fork-migration)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
+- [Kadena Community Fork Section](../../guides/kadena-kda-guide/#kadena-community-fork-migration)
 
 ---
 
@@ -537,8 +537,8 @@ If an exchange says they didn't receive your KDA deposit, the most common cause 
 - This is why verifying chain requirements is critical
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
-- [Exchange Deposits Section](/guides/kadena-kda-guide/#depositing-kda-to-exchanges)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
+- [Exchange Deposits Section](../../guides/kadena-kda-guide/#depositing-kda-to-exchanges)
 
 ---
 
@@ -631,8 +631,8 @@ Most Kadena issues in ZelCore come from chain confusion or mismatches. Follow th
 **Remember:** Taking 30 seconds to verify the chain can save hours or days of support tickets and stress.
 
 **Related:**
-- [Complete Kadena (KDA) Guide](/guides/kadena-kda-guide/)
-- [Prevention and Best Practices Section](/guides/kadena-kda-guide/#prevention-and-best-practices)
+- [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
+- [Prevention and Best Practices Section](../../guides/kadena-kda-guide/#prevention-and-best-practices)
 
 ---
 
@@ -753,7 +753,7 @@ Monero's 10-confirmation requirement protects privacy:
 - Network-level rule, not wallet-specific
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -898,7 +898,7 @@ If error persists and seems balance-related:
 **Important:** Broadcast errors don't mean you lost funds. Your XMR is safe on the blockchain. The error just means the transaction couldn't be sent to network.
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -1056,7 +1056,7 @@ Contact ZelCore support if:
 - Need help exporting to official wallet
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -1257,7 +1257,7 @@ If ZelCore rescan doesn't work or isn't available:
    - Saves time on future rescans
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -1468,8 +1468,8 @@ Understanding the concept:
 **Remember:** Your keys, your Monero. Protect them like the valuable asset they represent.
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
-- [Wallet Security Best Practices](/guides/security-best-practices/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
+- [Wallet Security Best Practices](../../guides/security-best-practices/)
 
 ---
 
@@ -1762,6 +1762,6 @@ Unlike Bitcoin/Ethereum:
 - Native Solana wallets may handle slightly better
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---

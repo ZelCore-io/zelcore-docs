@@ -28,7 +28,7 @@ Try these additional solutions in order:
 3. **Clear Cache** - Clear the app cache (mobile) or local cache folder (desktop)
 
 **Related:**
-- [Comprehensive Troubleshooting Guide for Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Comprehensive Troubleshooting Guide for Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -51,7 +51,7 @@ Smartify is ZelCore's built-in maintenance tool that refreshes your wallet's con
 Go to **Settings** in ZelCore (available on both desktop and mobile) and click/tap the **Smartify** button. The process typically takes 1-3 minutes.
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -77,7 +77,7 @@ If your funds are visible on the blockchain explorer, they're safe. The issue is
 - Use stable internet connections
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -109,7 +109,7 @@ Changing your backend or proxy settings can resolve connection issues by switchi
 **Tip:** If you're using a specific proxy, try switching to "Auto" mode, or vice versa.
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -129,8 +129,8 @@ Yes, this is normal and temporary. After updating ZelCore, the app needs to resy
 Your cryptocurrency is secure on the blockchain. The update doesn't affect your actual funds, only the wallet interface that displays them.
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
-- [ZelCore Installation & Updates](/getting-started/installation/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
+- [ZelCore Installation & Updates](../../getting-started/installation/)
 
 ---
 
@@ -158,7 +158,7 @@ This usually indicates that specific blockchain nodes are experiencing sync issu
 - The blockchain network itself may be experiencing high load
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -192,7 +192,7 @@ Blockchain explorers are independent websites that show the true state of the bl
 If your balance shows correctly on the explorer but not in ZelCore, the issue is with wallet sync, not your actual funds.
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -232,7 +232,7 @@ If Smartify fails to complete, there may be connectivity issues or the app needs
 Contact ZelCore support with details about when the error occurs and any error messages you see.
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -265,8 +265,8 @@ Contact ZelCore support with details about when the error occurs and any error m
 All of these are temporary and fixable through Smartify, backend changes, or updates.
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
-- [Wallet Security Best Practices](/security/best-practices/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
+- [Wallet Security Best Practices](../../security/best-practices/)
 
 ---
 
@@ -295,7 +295,7 @@ All of these are temporary and fixable through Smartify, backend changes, or upd
 Smartify is a quick process (1-3 minutes) and can prevent many common balance display problems before they occur.
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -345,7 +345,7 @@ You need to consolidate (combine) your many small UTXOs into fewer larger ones:
    - Consolidate regularly as preventive maintenance
 
 **Related:**
-- [Complete UTXO Consolidation Guide](/guides/utxo-consolidation-guide/)
+- [Complete UTXO Consolidation Guide](../../guides/utxo-consolidation-guide/)
 
 ---
 
@@ -405,7 +405,7 @@ Account-based chains (no UTXO issues):
 If you have too many UTXOs, perform UTXO consolidation by sending cryptocurrency to yourself in multiple transactions. This combines many small UTXOs into fewer large ones.
 
 **Related:**
-- [UTXO Consolidation Guide](/guides/utxo-consolidation-guide/)
+- [UTXO Consolidation Guide](../../guides/utxo-consolidation-guide/)
 
 ---
 
@@ -461,7 +461,7 @@ Perform UTXO consolidation in small increments:
 - Reduce payout frequency from pools
 
 **Related:**
-- [UTXO Consolidation Guide](/guides/utxo-consolidation-guide/)
+- [UTXO Consolidation Guide](../../guides/utxo-consolidation-guide/)
 
 ---
 
@@ -521,7 +521,7 @@ Consolidation requires transaction fees:
 3. Consolidate regularly as preventive maintenance (every 2-4 weeks)
 
 **Related:**
-- [Complete UTXO Consolidation Guide](/guides/utxo-consolidation-guide/)
+- [Complete UTXO Consolidation Guide](../../guides/utxo-consolidation-guide/)
 
 ---
 
@@ -598,7 +598,7 @@ If you're already experiencing errors:
 - **Balance threshold:** As high as comfortable for your risk tolerance
 
 **Related:**
-- [UTXO Consolidation Guide](/guides/utxo-consolidation-guide/)
+- [UTXO Consolidation Guide](../../guides/utxo-consolidation-guide/)
 
 ---
 
@@ -688,7 +688,7 @@ If you already have the asset on the wrong chain in your external wallet:
    - Exchange supports chain selection
 
 **Related:**
-- [Flux Fusion Bridge Guide](/guides/flux-fusion-bridge-guide/) - How to bridge between Flux parallel chains
+- [Flux Fusion Bridge Guide](../../guides/flux-fusion-bridge-guide/) - How to bridge between Flux parallel chains
 
 ---
 
@@ -848,7 +848,7 @@ Many assets support multiple networks (Ethereum, BSC, Tron, etc.). Consider:
 6. **Withdrawal fees vary by network** - exchange shows fee before confirming
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 
@@ -976,7 +976,7 @@ Examples:
 **Important:** Never send crypto to ZelCore on an unsupported network. You won't be able to access it, and recovery may be difficult or impossible.
 
 **Related:**
-- [Blockchain-Specific FAQ](/faq/blockchain-specific-faq/) - Chain-specific guidance
+- [Blockchain-Specific FAQ](../../faq/blockchain-specific-faq/) - Chain-specific guidance
 
 ---
 
@@ -1099,7 +1099,7 @@ After trying all solutions, if nonce errors continue:
 **Important:** Your funds are safe. Nonce errors prevent transactions from being sent, they don't affect your balance. This is purely a connection issue between ZelCore and blockchain RPC nodes.
 
 **Related:**
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 - [What is Smartify and when should I use it?](#what-is-smartify-and-when-should-i-use-it)
 
 ---
@@ -1299,7 +1299,7 @@ Contact ZelCore support if:
 **Related:**
 - [Why aren't my balances showing?](#why-arent-my-balances-showing-in-zelcore-even-though-they-appear-on-the-blockchain-explorer)
 - [How do I change my backend settings?](#how-do-i-change-my-backend-or-proxy-settings-in-zelcore)
-- [Troubleshooting Balance & Sync Issues](/guides/troubleshooting-balance-sync-issues/)
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
 

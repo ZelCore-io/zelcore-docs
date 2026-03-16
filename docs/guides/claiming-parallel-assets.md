@@ -320,7 +320,7 @@ The "Claim All" function consolidates all PA credits into native Flux, regardles
    - Resolve node issues first
    - PA accumulation pauses during these states
    - Resume claiming after node is CONFIRMED again
-4. Refer to [Troubleshooting Flux Node Status Issues](/guides/troubleshooting-flux-node-status-issues/)
+4. Refer to [Troubleshooting Flux Node Status Issues](../../guides/troubleshooting-flux-node-status-issues/)
 
 **Solution 3: Wait for accumulation period**
 
@@ -563,7 +563,7 @@ Claim individually if you want:
 
 1. You now have native FLUX from "Claim All"
 2. Use Fusion bridge to convert native FLUX to desired parallel asset
-3. Follow [Flux Fusion Bridge Guide](/guides/flux-fusion-bridge-guide/)
+3. Follow [Flux Fusion Bridge Guide](../../guides/flux-fusion-bridge-guide/)
 4. Bridge to Flux-BASE, Flux-BSC, Flux-ETH, or other parallel chains
 5. Result: Same end goal, just two-step process
 
@@ -758,7 +758,7 @@ Not automatically. PA rewards are earned by FluxNodes participating in parallel 
 
 PA accumulation typically pauses when nodes enter DOS or EXPIRED status. You must resolve your node status issues first:
 
-1. Fix DOS or EXPIRED status (see [Troubleshooting Flux Node Status Issues](/guides/troubleshooting-flux-node-status-issues/))
+1. Fix DOS or EXPIRED status (see [Troubleshooting Flux Node Status Issues](../../guides/troubleshooting-flux-node-status-issues/))
 2. Return node to CONFIRMED status
 3. Wait for PA credits to resume accumulating
 4. Then claim when credits are available
@@ -829,10 +829,10 @@ Most "missing" claims appear after proper sync or waiting for confirmations.
 
 ## Related Documentation
 
-- [Flux Fusion Bridge Guide](/guides/flux-fusion-bridge-guide/) - Bridging between Flux parallel chains
-- [Troubleshooting Flux Node Status Issues](/guides/troubleshooting-flux-node-status-issues/) - Maintaining CONFIRMED node status
-- [Flux Nodes FAQ](/faq/flux-nodes-faq/) - Common FluxNode questions
-- [Parallel Assets FAQ](/faq/parallel-assets-faq/) - Quick answers to PA claim questions
+- [Flux Fusion Bridge Guide](../../guides/flux-fusion-bridge-guide/) - Bridging between Flux parallel chains
+- [Troubleshooting Flux Node Status Issues](../../guides/troubleshooting-flux-node-status-issues/) - Maintaining CONFIRMED node status
+- [Flux Nodes FAQ](../../faq/flux-nodes-faq/) - Common FluxNode questions
+- [Parallel Assets FAQ](../../faq/parallel-assets-faq/) - Quick answers to PA claim questions
 
 ## When to Contact Support
 

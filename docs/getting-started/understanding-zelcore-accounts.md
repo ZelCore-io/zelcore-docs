@@ -112,7 +112,7 @@ You have a legacy account (username/password) but are trying to use modern accou
 1. Look for a "Legacy Account" or "Username/Password" login option
 2. Use your original username and password
 3. After logging in, consider migrating to a seed phrase account
-4. See our [Migration Guide](/guides/migrating-legacy-to-seed-phrase/) for help
+4. See our [Migration Guide](../../guides/migrating-legacy-to-seed-phrase/) for help
 
 ### "I created a new account by accident and can't see my funds"
 
@@ -231,7 +231,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 
 **Step 5: Consider Migration**
 - Legacy accounts are being deprecated
-- Follow our [Migration Guide](/guides/migrating-legacy-to-seed-phrase/)
+- Follow our [Migration Guide](../../guides/migrating-legacy-to-seed-phrase/)
 - Migrate to a seed phrase account for better security and future compatibility
 
 ## Key Differences Summary
@@ -263,7 +263,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 ### Legacy Account Users
 - Legacy accounts still work but are being deprecated
 - Migrate to a seed phrase account as soon as possible
-- See our [Migration Guide](/guides/migrating-legacy-to-seed-phrase/)
+- See our [Migration Guide](../../guides/migrating-legacy-to-seed-phrase/)
 
 ### Backup Your Seed Phrase
 - Write it down on paper (not digitally)
@@ -297,7 +297,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 **For legacy accounts:**
 - Legacy accounts may not have a seed phrase
 - You need to migrate to generate a seed phrase
-- See [Migration Guide](/guides/migrating-legacy-to-seed-phrase/)
+- See [Migration Guide](../../guides/migrating-legacy-to-seed-phrase/)
 
 ### I accidentally created a new account
 
@@ -314,20 +314,20 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 **This is normal:**
 - ZelCore is transitioning away from legacy accounts
 - Migration is highly recommended
-- Follow our [Migration Guide](/guides/migrating-legacy-to-seed-phrase/)
+- Follow our [Migration Guide](../../guides/migrating-legacy-to-seed-phrase/)
 - Your funds will be safe during migration
 
 ## Next Steps
 
-- **New users:** [Create a new wallet](/getting-started/create-wallet/)
-- **Legacy users:** [Migrate to seed phrase account](/guides/migrating-legacy-to-seed-phrase/)
-- **Having trouble accessing your account?** [Account Access FAQ](/faq/account-access-faq/)
-- **Security concerns:** [Security Best Practices](/security/best-practices/)
+- **New users:** [Create a new wallet](../../getting-started/create-wallet/)
+- **Legacy users:** [Migrate to seed phrase account](../../guides/migrating-legacy-to-seed-phrase/)
+- **Having trouble accessing your account?** [Account Access FAQ](../../faq/account-access-faq/)
+- **Security concerns:** [Security Best Practices](../../security/best-practices/)
 
 ## Related Documentation
 
-- [Create a New Wallet](/getting-started/create-wallet/)
-- [Import an Existing Wallet](/getting-started/import-wallet/)
-- [Migrating from Legacy to Seed Phrase](/guides/migrating-legacy-to-seed-phrase/)
-- [Account Access FAQ](/faq/account-access-faq/)
-- [Security Best Practices](/security/best-practices/)
+- [Create a New Wallet](../../getting-started/create-wallet/)
+- [Import an Existing Wallet](../../getting-started/import-wallet/)
+- [Migrating from Legacy to Seed Phrase](../../guides/migrating-legacy-to-seed-phrase/)
+- [Account Access FAQ](../../faq/account-access-faq/)
+- [Security Best Practices](../../security/best-practices/)

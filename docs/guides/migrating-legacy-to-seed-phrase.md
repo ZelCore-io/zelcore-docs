@@ -421,7 +421,7 @@ If you have D2FA enabled on your legacy account:
 
 **UTXO issues (for BTC-based coins):**
 - Too many small UTXOs
-- See [UTXO Consolidation Guide](/guides/utxo-consolidation-guide/)
+- See [UTXO Consolidation Guide](../../guides/utxo-consolidation-guide/)
 
 ### "New account isn't showing transferred funds"
 
@@ -589,7 +589,7 @@ For EACH asset:
 
 1. **Consolidate before migrating:**
    - If you have many small UTXOs
-   - See [UTXO Consolidation Guide](/guides/utxo-consolidation-guide/)
+   - See [UTXO Consolidation Guide](../../guides/utxo-consolidation-guide/)
 
 2. **Monitor network fees:**
    - Use during low congestion times
@@ -669,8 +669,8 @@ For EACH asset:
    - Verify you followed all steps
 
 2. **Check FAQ:**
-   - [Account Access FAQ](/faq/account-access-faq/)
-   - [Wallet FAQ](/faq/wallet-faq/)
+   - [Account Access FAQ](../../faq/account-access-faq/)
+   - [Wallet FAQ](../../faq/wallet-faq/)
 
 3. **Contact support:**
    - ZelCore support: support@zel.network
@@ -766,8 +766,8 @@ With careful attention to detail, migration is straightforward and significantly
 
 ## Related Documentation
 
-- [Understanding ZelCore Accounts](/getting-started/understanding-zelcore-accounts/)
-- [Account Access FAQ](/faq/account-access-faq/)
-- [Security Best Practices](/security/best-practices/)
-- [UTXO Consolidation Guide](/guides/utxo-consolidation-guide/)
-- [Create a New Wallet](/getting-started/create-wallet/)
+- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Account Access FAQ](../../faq/account-access-faq/)
+- [Security Best Practices](../../security/best-practices/)
+- [UTXO Consolidation Guide](../../guides/utxo-consolidation-guide/)
+- [Create a New Wallet](../../getting-started/create-wallet/)

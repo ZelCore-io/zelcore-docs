@@ -19,7 +19,7 @@ Flux Parallel Assets (PA) are rewards distributed to FluxNode operators who part
 - **Distribution:** Can claim to specific parallel chains or use "Claim All" to consolidate to native FLUX
 
 **Related:**
-- [Claiming Flux Parallel Assets: Complete Guide](/guides/claiming-parallel-assets/)
+- [Claiming Flux Parallel Assets: Complete Guide](../../guides/claiming-parallel-assets/)
 
 ---
 
@@ -52,7 +52,7 @@ PA rewards are claimed through the Fusion interface in ZelCore. There are two ma
 **Important:** "Claim All" consolidates all PA credits into native FLUX, not to individual parallel chains.
 
 **Related:**
-- [Step-by-Step Claiming Guide](/guides/claiming-parallel-assets/#step-by-step-claiming-parallel-assets)
+- [Step-by-Step Claiming Guide](../../guides/claiming-parallel-assets/#step-by-step-claiming-parallel-assets)
 
 ---
 
@@ -95,7 +95,7 @@ This error indicates you're attempting to claim more PA credits than allowed in 
 - Smaller, frequent claims avoid hitting limits
 
 **Related:**
-- [Complete Error Solutions Guide](/guides/claiming-parallel-assets/#error-claiming-amount-exceeds-maximum-allowable)
+- [Complete Error Solutions Guide](../../guides/claiming-parallel-assets/#error-claiming-amount-exceeds-maximum-allowable)
 
 ---
 
@@ -132,7 +132,7 @@ Several reasons can cause PA credits to not display in the Fusion interface:
 
 **5. Node status preventing accumulation:**
 - DOS or EXPIRED status pauses PA accumulation
-- Resolve node issues first using [Flux Node Troubleshooting Guide](/guides/troubleshooting-flux-node-status-issues/)
+- Resolve node issues first using [Flux Node Troubleshooting Guide](../../guides/troubleshooting-flux-node-status-issues/)
 - Once node returns to CONFIRMED, PA accumulation resumes
 
 **Verification steps:**
@@ -144,7 +144,7 @@ Several reasons can cause PA credits to not display in the Fusion interface:
 5. Contact Flux support if node is eligible but credits still missing
 
 **Related:**
-- [Troubleshooting PA Claims Not Appearing](/guides/claiming-parallel-assets/#error-pa-claims-not-appearing-or-no-claimable-pa-credits)
+- [Troubleshooting PA Claims Not Appearing](../../guides/claiming-parallel-assets/#error-pa-claims-not-appearing-or-no-claimable-pa-credits)
 
 ---
 
@@ -190,11 +190,11 @@ Claim individually if you want:
 You can bridge your native FLUX to parallel assets:
 1. Use Fusion bridge in ZelCore
 2. Bridge native FLUX to desired parallel chain (Flux-BASE, Flux-BSC, etc.)
-3. Follow [Flux Fusion Bridge Guide](/guides/flux-fusion-bridge-guide/)
+3. Follow [Flux Fusion Bridge Guide](../../guides/flux-fusion-bridge-guide/)
 4. Result: Same end goal, just requires additional bridging step
 
 **Related:**
-- [Understanding "Claim All" Behavior](/guides/claiming-parallel-assets/#issue-claim-all-consolidates-to-native-flux-not-parallel-assets)
+- [Understanding "Claim All" Behavior](../../guides/claiming-parallel-assets/#issue-claim-all-consolidates-to-native-flux-not-parallel-assets)
 
 ---
 
@@ -245,8 +245,8 @@ Gas requirements depend on which parallel asset you're claiming (or if using "Cl
 **Important:** You cannot claim without sufficient gas on the claiming blockchain. Acquire gas before attempting claims.
 
 **Related:**
-- [Gas Acquisition Strategies](/guides/claiming-parallel-assets/#gas-acquisition-strategies-for-pa-claims)
-- [Flux Fusion Bridge Guide: Gas Requirements](/guides/flux-fusion-bridge-guide/#gas-requirements-for-each-chain)
+- [Gas Acquisition Strategies](../../guides/claiming-parallel-assets/#gas-acquisition-strategies-for-pa-claims)
+- [Flux Fusion Bridge Guide: Gas Requirements](../../guides/flux-fusion-bridge-guide/#gas-requirements-for-each-chain)
 
 ---
 
@@ -304,7 +304,7 @@ Whitelisting is a security measure managed by the runonflux snapshot/whitelist s
 - Respond promptly to any Flux team verification requests
 
 **Related:**
-- [Complete Whitelisting Guide](/guides/claiming-parallel-assets/#issue-whitelisting-required)
+- [Complete Whitelisting Guide](../../guides/claiming-parallel-assets/#issue-whitelisting-required)
 
 ---
 
@@ -365,7 +365,7 @@ This balances gas costs, convenience, and avoiding accumulation issues.
 - Use "Claim All" for simplest approach (one monthly claim)
 
 **Related:**
-- [Claiming Best Practices](/guides/claiming-parallel-assets/#summary-and-best-practices)
+- [Claiming Best Practices](../../guides/claiming-parallel-assets/#summary-and-best-practices)
 
 ---
 
@@ -399,7 +399,7 @@ This balances gas costs, convenience, and avoiding accumulation issues.
 
 **For DOS status:**
 1. Identify cause of DOS (port issues, daemon sync, benchmark failures)
-2. Fix underlying problems using [Flux Node Troubleshooting Guide](/guides/troubleshooting-flux-node-status-issues/)
+2. Fix underlying problems using [Flux Node Troubleshooting Guide](../../guides/troubleshooting-flux-node-status-issues/)
 3. Wait for DOS period to expire (24-48 hours)
 4. Verify node returns to CONFIRMED status
 5. PA accumulation resumes automatically
@@ -436,9 +436,9 @@ This balances gas costs, convenience, and avoiding accumulation issues.
 - New credits available: 1-4 weeks depending on activity
 
 **Related:**
-- [Troubleshooting Flux Node Status Issues](/guides/troubleshooting-flux-node-status-issues/)
-- [Flux Nodes FAQ: DOS Status](/faq/flux-nodes-faq/#what-does-it-mean-when-my-flux-node-shows-dos-denial-of-service-status)
-- [Flux Nodes FAQ: EXPIRED Status](/faq/flux-nodes-faq/#why-does-my-node-show-expired-status-and-how-do-i-fix-it)
+- [Troubleshooting Flux Node Status Issues](../../guides/troubleshooting-flux-node-status-issues/)
+- [Flux Nodes FAQ: DOS Status](../../faq/flux-nodes-faq/#what-does-it-mean-when-my-flux-node-shows-dos-denial-of-service-status)
+- [Flux Nodes FAQ: EXPIRED Status](../../faq/flux-nodes-faq/#why-does-my-node-show-expired-status-and-how-do-i-fix-it)
 
 ---
 
@@ -517,8 +517,8 @@ Many users prefer "Claim All" for:
 - Can always bridge later if specific parallel assets needed
 
 **Related:**
-- [Understanding "Claim All" Behavior](/guides/claiming-parallel-assets/#method-2-using-claim-all-to-consolidate-to-native-flux)
-- [Flux Fusion Bridge Guide](/guides/flux-fusion-bridge-guide/)
+- [Understanding "Claim All" Behavior](../../guides/claiming-parallel-assets/#method-2-using-claim-all-to-consolidate-to-native-flux)
+- [Flux Fusion Bridge Guide](../../guides/flux-fusion-bridge-guide/)
 
 ---
 
@@ -593,8 +593,8 @@ Many users prefer "Claim All" for:
 - Verify parallel mining participation upon node setup
 
 **Related:**
-- [Flux Node Status Troubleshooting](/guides/troubleshooting-flux-node-status-issues/)
-- [Flux Nodes FAQ](/faq/flux-nodes-faq/)
+- [Flux Node Status Troubleshooting](../../guides/troubleshooting-flux-node-status-issues/)
+- [Flux Nodes FAQ](../../faq/flux-nodes-faq/)
 - Flux official documentation on parallel mining (external)
 
 ---
@@ -653,7 +653,7 @@ Many users prefer "Claim All" for:
 5. Reduces risk of errors or lost funds
 
 **Related:**
-- [Step-by-Step Claiming Process](/guides/claiming-parallel-assets/#step-by-step-claiming-parallel-assets)
+- [Step-by-Step Claiming Process](../../guides/claiming-parallel-assets/#step-by-step-claiming-parallel-assets)
 
 ---
 
@@ -757,8 +757,8 @@ If gas exceeds PA claim value:
 - For very high ETH gas, may wait weeks for favorable conditions
 
 **Related:**
-- [Fees and Costs for PA Claims](/guides/claiming-parallel-assets/#fees-and-costs-for-pa-claims)
-- [Gas Acquisition Strategies](/guides/claiming-parallel-assets/#gas-acquisition-strategies-for-pa-claims)
+- [Fees and Costs for PA Claims](../../guides/claiming-parallel-assets/#fees-and-costs-for-pa-claims)
+- [Gas Acquisition Strategies](../../guides/claiming-parallel-assets/#gas-acquisition-strategies-for-pa-claims)
 
 ---
 
@@ -852,8 +852,8 @@ If gas exceeds PA claim value:
 - Monitor node status to avoid unexpected shutdowns losing claim opportunity
 
 **Related:**
-- [Claiming Process](/guides/claiming-parallel-assets/#step-by-step-claiming-parallel-assets)
-- [FluxNode Status Issues](/guides/troubleshooting-flux-node-status-issues/)
+- [Claiming Process](../../guides/claiming-parallel-assets/#step-by-step-claiming-parallel-assets)
+- [FluxNode Status Issues](../../guides/troubleshooting-flux-node-status-issues/)
 
 ---
 
@@ -989,7 +989,7 @@ PA claims broken help!!
 
 **Before asking - search first:**
 
-- Review [Claiming Parallel Assets Guide](/guides/claiming-parallel-assets/)
+- Review [Claiming Parallel Assets Guide](../../guides/claiming-parallel-assets/)
 - Search Discord #general-support for similar issues
 - Check if your question is in this FAQ
 - Many questions already answered in documentation
@@ -1012,5 +1012,5 @@ PA claims broken help!!
 - Share solutions when resolved
 
 **Related:**
-- [When to Contact Support](/guides/claiming-parallel-assets/#when-to-contact-support)
-- [Flux Nodes FAQ: Where to Get Help](/faq/flux-nodes-faq/#where-can-i-get-help-if-the-troubleshooting-guide-doesnt-solve-my-issue)
+- [When to Contact Support](../../guides/claiming-parallel-assets/#when-to-contact-support)
+- [Flux Nodes FAQ: Where to Get Help](../../faq/flux-nodes-faq/#where-can-i-get-help-if-the-troubleshooting-guide-doesnt-solve-my-issue)
