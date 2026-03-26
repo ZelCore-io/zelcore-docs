@@ -1,5 +1,8 @@
 ---
 sidebar_position: 10
+title: Claiming Parallel Assets
+description: "How to claim parallel assets in ZelCore. Understand multi-chain token representations and manage your parallel crypto holdings."
+keywords: [parallel assets, claim parallel tokens, zelcore parallel assets]
 ---
 
 # Claiming Flux Parallel Assets: Complete Guide

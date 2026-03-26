@@ -1,5 +1,8 @@
 ---
 sidebar_position: 4
+title: Flux Nodes FAQ
+description: "Common questions about running Flux nodes through ZelCore — node setup, status issues, rewards, and Titan shared nodes."
+keywords: [flux nodes, flux node setup, zelcore flux, flux node rewards]
 ---
 
 # Flux Nodes FAQ

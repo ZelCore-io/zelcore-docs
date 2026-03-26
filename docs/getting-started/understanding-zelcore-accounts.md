@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Understanding ZelCore Accounts
+description: "Learn the difference between ZelCore legacy accounts and seed phrase accounts, and how the multi-wallet system works."
+keywords: [zelcore accounts, seed phrase account, legacy account, multi wallet crypto]
 ---
 
 # Understanding ZelCore Accounts

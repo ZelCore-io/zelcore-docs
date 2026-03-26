@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Security Best Practices
+description: "Protect your crypto assets with ZelCore security best practices. Learn about seed phrase safety, 2FA setup, and self-custodial wallet security."
+keywords: [crypto wallet security, self custodial wallet, private cryptocurrency wallet, seed phrase security]
 ---
 
 # Security Best Practices

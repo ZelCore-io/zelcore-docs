@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+title: Import an Existing Wallet
+description: "Import your existing cryptocurrency wallet into ZelCore using a seed phrase, private key, or legacy account migration."
+keywords: [import wallet, restore crypto wallet, seed phrase recovery, migrate wallet]
 ---
 
 # Import Existing Wallet

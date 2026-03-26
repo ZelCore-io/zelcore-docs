@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Install ZelCore
+description: "Download and install ZelCore wallet on Windows, macOS, Linux, iOS, Android, or as a browser extension. Step-by-step installation guide."
+keywords: [zelcore download, install zelcore, windows wallet, crypto wallet desktop, mobile crypto wallet]
 ---
 
 # Installation

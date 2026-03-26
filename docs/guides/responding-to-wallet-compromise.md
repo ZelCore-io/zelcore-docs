@@ -1,5 +1,8 @@
 ---
 sidebar_position: 11
+title: Responding to a Wallet Compromise
+description: "What to do if your crypto wallet is compromised. Emergency steps to secure your remaining assets and prevent further loss."
+keywords: [wallet compromised, crypto stolen, wallet hacked response, emergency wallet security]
 ---
 
 # Responding to Wallet Compromise

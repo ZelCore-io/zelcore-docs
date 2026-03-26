@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Welcome to Zelcore
+description: "Zelcore is a secure, self-custodial multi-chain crypto wallet for desktop, mobile, and browser. Explore guides, walkthroughs, and FAQs."
+keywords: [zelcore, multi chain wallet, self custodial crypto wallet, crypto wallet app]
 ---
 
 # Welcome to Zelcore

@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+title: Troubleshooting Fusion Swap Issues
+description: "Fix common ZelCore Fusion swap problems — stuck swaps, failed exchanges, hold status, and how to resolve pending transactions."
+keywords: [fusion swap stuck, zelcore swap failed, crypto exchange troubleshooting]
 ---
 
 # Troubleshooting Fusion Swap Issues

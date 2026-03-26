@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+title: Fusion FAQ
+description: "Common questions about ZelCore Fusion swaps — hold status, stuck transactions, swap troubleshooting, and exchange support."
+keywords: [zelcore fusion, crypto swap, token exchange, fusion swap stuck]
 ---
 
 # Fusion FAQ

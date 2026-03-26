@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+title: Security FAQ
+description: "Security questions about ZelCore — what to do if your wallet is compromised, how transactions work on the blockchain, and fund recovery options."
+keywords: [crypto wallet security faq, wallet hacked, stolen crypto, blockchain security]
 ---
 
 # Security FAQ

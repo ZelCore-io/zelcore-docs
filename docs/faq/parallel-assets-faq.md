@@ -1,5 +1,8 @@
 ---
 sidebar_position: 7
+title: Parallel Assets FAQ
+description: "Common questions about ZelCore parallel assets — what they are, how to claim them, and managing multi-chain token representations."
+keywords: [parallel assets, zelcore parallel, multi chain tokens, claiming parallel assets]
 ---
 
 # Parallel Assets FAQ

@@ -1,5 +1,8 @@
 ---
 sidebar_position: 10
+title: Security Best Practices Guide
+description: "Essential security practices for protecting your ZelCore wallet — seed phrase storage, 2FA setup, phishing prevention, and device security."
+keywords: [crypto security best practices, wallet security, seed phrase safety, self custodial security]
 ---
 
 # Security Best Practices for ZelCore Wallet

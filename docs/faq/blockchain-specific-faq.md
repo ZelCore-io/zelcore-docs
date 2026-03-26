@@ -1,5 +1,8 @@
 ---
 sidebar_position: 6
+title: Blockchain-Specific FAQ
+description: "Answers to blockchain-specific questions in ZelCore — chain differences, token standards, network fees, and cross-chain functionality."
+keywords: [blockchain faq, crypto chain differences, token standards, erc20 trc20]
 ---
 
 # Blockchain-Specific FAQ

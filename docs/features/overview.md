@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: ZelCore Features Overview
+description: "Explore ZelCore features including multi-chain support, built-in swaps, staking, decentralized 2FA, and self-custodial security."
+keywords: [zelcore features, multi crypto wallet, crypto software wallet, wallet features]
 ---
 
 # Features Overview
