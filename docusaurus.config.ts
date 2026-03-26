@@ -84,6 +84,10 @@ const config: Config = {
     },
   ],
 
+  plugins: [
+    './src/plugins/seo-validation-plugin.ts',
+  ],
+
   presets: [
     [
       'classic',
