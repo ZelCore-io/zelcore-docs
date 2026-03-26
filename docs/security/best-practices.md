@@ -171,14 +171,14 @@ For maximum security, especially with large holdings:
 - Asking for seed phrases or private keys
 - Offering to "fix" wallet issues
 
-**Protection**: Only contact support through official channels.
+**Protection**: Only contact support through [official channels](https://support.runonflux.io).
 
 #### 2. Phishing Websites
 - Fake Zelcore websites (zelc0re.io, ze1core.io, etc.)
 - Lookalike domains
 - Typosquatting
 
-**Protection**: Bookmark the official zelcore.io URL.
+**Protection**: Always download ZelCore from the official website at [zelcore.io](https://zelcore.io) and bookmark the URL.
 
 #### 3. Fake Giveaways
 - "Send 1 ETH, get 2 ETH back" scams

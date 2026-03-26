@@ -21,11 +21,10 @@ Zelcore Desktop is available for Windows, macOS, and Linux.
 
 ### Download Desktop
 
-1. Visit [zelcore.io](https://zelcore.io)
-2. Click on **Download** in the navigation menu
-3. Select your operating system (Windows, macOS, or Linux)
-4. Run the installer once downloaded
-5. Follow the installation prompts
+1. Visit the [ZelCore desktop wallet](https://zelcore.io/wallet) download page
+2. Select your operating system (Windows, macOS, or Linux)
+3. Run the installer once downloaded
+4. Follow the installation prompts
 
 :::tip
 The desktop version offers the most comprehensive feature set, including FluxNode management and advanced trading tools.
@@ -33,7 +32,7 @@ The desktop version offers the most comprehensive feature set, including FluxNod
 
 ## Mobile
 
-Access Zelcore on the go with our mobile apps for iOS and Android.
+Access Zelcore on the go with the [ZelCore mobile wallet](https://zelcore.io/mobile-wallet) for iOS and Android.
 
 ### iOS
 
@@ -59,7 +58,7 @@ Access Zelcore on the go with our mobile apps for iOS and Android.
 
 ## Browser Extension
 
-Use Zelcore directly in your web browser for seamless Web3 integration.
+Use the [ZelCore browser extension](https://zelcore.io/browser-extension) directly in your web browser for seamless Web3 integration.
 
 ### Supported Browsers
 

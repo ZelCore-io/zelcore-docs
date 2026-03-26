@@ -7,7 +7,7 @@ keywords: [zelcore, multi chain wallet, self custodial crypto wallet, crypto wal
 
 # Welcome to Zelcore
 
-Zelcore is your **secure and simple** multi-chain cryptocurrency wallet. Take complete control of your digital assets with true self-custody across 80+ blockchains and 100,000+ tokens.
+Zelcore is your **secure and simple** [multi-chain crypto wallet](https://zelcore.io) for desktop, mobile, and browser. Take complete control of your digital assets with true self-custody across 80+ blockchains and 100,000+ tokens.
 
 ## What is Zelcore?
 
@@ -40,12 +40,12 @@ Access your wallet seamlessly across:
 
 ### Extensive Blockchain Support
 - 80+ blockchains including Bitcoin, Ethereum, Solana, and more
-- 100,000+ tokens supported
+- 100,000+ [supported assets](https://zelcore.io/ecosystem/assets) across all major networks
 - 100M+ NFTs across major networks
 
 ## Trusted by 500K+ Users
 
-Founded in 2018 by InFlux Technologies Limited, Zelcore has established itself as a reliable and feature-rich cryptocurrency wallet with weekly updates and continuous improvements.
+Founded in 2018 by InFlux Technologies Limited, Zelcore has established itself as a reliable and feature-rich cryptocurrency wallet with weekly updates and continuous improvements. Explore the complete list of [features](https://zelcore.io/ecosystem/features) available across all platforms.
 
 ## Get Started
 
