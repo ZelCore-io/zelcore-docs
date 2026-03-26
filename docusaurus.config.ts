@@ -64,6 +64,24 @@ const config: Config = {
         href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap',
       },
     },
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'ZelCore',
+        url: 'https://zelcore.io',
+        logo: 'https://docs.zelcore.io/img/logo.svg',
+        sameAs: [
+          'https://twitter.com/zelcore_io',
+          'https://github.com/zelcore-io',
+          'https://discord.gg/runonflux',
+        ],
+      }),
+    },
   ],
 
   presets: [
@@ -76,6 +94,12 @@ const config: Config = {
           editUrl: 'https://github.com/ZelCore-io/zelcore-docs/tree/main/',
         },
         blog: false,
+        sitemap: {
+          lastmod: 'date',
+          changefreq: null,
+          priority: null,
+          filename: 'sitemap.xml',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -84,7 +108,13 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/logo.svg',
+    metadata: [
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@zelcore_io' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:site_name', content: 'Zelcore Documentation' },
+    ],
+    image: 'img/og-default.png',
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
