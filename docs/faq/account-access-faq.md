@@ -1,5 +1,8 @@
 ---
 sidebar_position: 5
+title: Account Access FAQ
+description: "Questions about ZelCore account access — login, multi-device sync, seed phrase recovery, legacy vs seed phrase accounts, and wallet migration."
+keywords: [zelcore login, wallet recovery, seed phrase restore, multi device wallet]
 ---
 
 # Account Access FAQ

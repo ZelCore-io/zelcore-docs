@@ -1,5 +1,8 @@
 ---
 sidebar_position: 20
+title: Migrating from Legacy to Seed Phrase
+description: "Migrate your ZelCore legacy account to a modern seed phrase account. Step-by-step guide for upgrading your wallet security."
+keywords: [migrate legacy wallet, seed phrase migration, upgrade zelcore account, legacy to seed phrase]
 ---
 
 # Migrating from Legacy to Seed Phrase Account

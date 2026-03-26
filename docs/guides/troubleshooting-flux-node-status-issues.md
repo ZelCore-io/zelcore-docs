@@ -1,5 +1,8 @@
 ---
 sidebar_position: 5
+title: Troubleshooting Flux Node Status Issues
+description: "Resolve Flux node status problems in ZelCore — node offline, maintenance mode, confirmation issues, and benchmark failures."
+keywords: [flux node offline, node status issues, flux node troubleshooting]
 ---
 
 # Troubleshooting Flux Node Status Issues

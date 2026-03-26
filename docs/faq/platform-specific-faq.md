@@ -1,5 +1,8 @@
 ---
 sidebar_position: 9
+title: Platform-Specific FAQ
+description: "Differences between ZelCore on iOS, Android, and desktop — feature availability, swap limitations, cross-platform sync, and workarounds."
+keywords: [zelcore ios, zelcore android, zelcore desktop, crypto wallet platform differences]
 ---
 
 # Platform-Specific FAQ

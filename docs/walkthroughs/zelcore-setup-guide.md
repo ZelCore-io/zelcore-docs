@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: Zelcore Wallet Setup Guide
 description: Complete guide to setting up a new Zelcore wallet account, from initial registration to accessing your portfolio.
+keywords: [zelcore setup, wallet setup guide, multi coin wallet setup, crypto wallet getting started]
 ---
 
 # Zelcore Wallet Setup Guide

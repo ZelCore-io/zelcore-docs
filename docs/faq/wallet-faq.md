@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Wallet FAQ
+description: "Answers to common ZelCore wallet questions — balance display issues, Smartify usage, backend settings, and wallet sync troubleshooting."
+keywords: [zelcore wallet faq, crypto wallet help, balance not showing, smartify]
 ---
 
 # Wallet FAQ

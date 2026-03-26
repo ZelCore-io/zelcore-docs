@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: ZelCore Features Overview
+description: "Explore ZelCore features including multi-chain support, built-in swaps, staking, decentralized 2FA, and self-custodial security."
+keywords: [zelcore features, multi crypto wallet, crypto software wallet, wallet features]
 ---
 
 # Features Overview
@@ -31,9 +34,9 @@ Track your entire crypto portfolio in one place:
 
 Access your wallet seamlessly across devices:
 
-- Desktop (Windows, macOS, Linux)
-- Mobile (iOS, Android)
-- Browser Extension (Chrome, Firefox, Edge, Brave)
+- [Desktop](https://zelcore.io/wallet) (Windows, macOS, Linux)
+- [Mobile](https://zelcore.io/mobile-wallet) (iOS, Android)
+- [Browser Extension](https://zelcore.io/browser-extension) (Chrome, Firefox, Edge, Brave)
 
 ## Trading & Exchange
 
@@ -199,7 +202,7 @@ Zelcore is constantly evolving with weekly updates. Upcoming features include:
 
 ## Need More Details?
 
-More detailed guides for specific features will be added soon. Stay tuned for comprehensive tutorials on trading, NFTs, WalletConnect, and more.
+More detailed guides for specific features will be added soon. Visit the [full feature list](https://zelcore.io/ecosystem/features) for a complete overview of everything Zelcore offers. Stay tuned for comprehensive tutorials on trading, NFTs, WalletConnect, and more.
 
 ## Questions?
 

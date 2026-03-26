@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Troubleshooting Balance and Sync Issues
+description: "Fix ZelCore balance display and sync issues. Step-by-step troubleshooting for missing balances, stuck syncing, and backend problems."
+keywords: [zelcore balance not showing, wallet sync issues, crypto balance fix, smartify]
 ---
 
 # Troubleshooting Balance and Sync Issues

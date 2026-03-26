@@ -1,0 +1,45 @@
+.faq {
+  margin: 1.5rem 0;
+}
+
+.faqItem {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+}
+
+.faqQuestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  background: var(--ifm-background-surface-color);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.faqQuestion:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.faqQuestionOpen {
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.faqChevron {
+  font-size: 1.25rem;
+  font-weight: 400;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+.faqAnswer {
+  padding: 1rem 1.25rem;
+}

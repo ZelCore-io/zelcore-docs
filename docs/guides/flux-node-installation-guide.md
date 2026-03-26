@@ -1,5 +1,8 @@
 ---
 sidebar_position: 11
+title: Flux Node Installation Guide
+description: "Complete guide to installing and running a Flux node through ZelCore. Hardware requirements, setup steps, and node management."
+keywords: [flux node setup, install flux node, zelcore flux node, run flux node]
 ---
 
 # Flux Node Installation Guide

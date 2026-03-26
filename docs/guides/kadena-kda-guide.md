@@ -1,5 +1,8 @@
 ---
 sidebar_position: 8
+title: Kadena (KDA) Guide
+description: "Complete guide to managing Kadena (KDA) in ZelCore — chain transfers, multi-chain architecture, and KDA wallet features."
+keywords: [kadena wallet, kda guide, kadena chain transfer, zelcore kadena]
 ---
 
 # Kadena (KDA) Complete Guide

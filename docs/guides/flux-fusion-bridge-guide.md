@@ -1,5 +1,8 @@
 ---
 sidebar_position: 9
+title: Flux Fusion Bridge Guide
+description: "Bridge FLUX tokens across chains using ZelCore Fusion feature. Step-by-step guide for cross-chain FLUX transfers."
+keywords: [flux bridge, fusion bridge, cross chain flux, zelcore flux bridge]
 ---
 
 # Flux Fusion Bridge Guide: Bridging Between Flux Parallel Chains

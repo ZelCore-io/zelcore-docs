@@ -1,5 +1,8 @@
 ---
 sidebar_position: 8
+title: ZelCore Apps FAQ
+description: "Questions about ZelCore built-in apps — DAO, Titan nodes, marketplace, Presearch integration, and in-app purchasing."
+keywords: [zelcore apps, zelcore dao, titan nodes, zelcore marketplace]
 ---
 
 # ZelCore Apps FAQ

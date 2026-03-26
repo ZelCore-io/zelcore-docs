@@ -1,5 +1,8 @@
 ---
 sidebar_position: 6
+title: Titan Shared Nodes Guide
+description: "Set up and manage Titan shared Flux nodes through ZelCore. Learn about fractional node ownership, rewards, and shared node management."
+keywords: [titan nodes, flux shared nodes, fractional node ownership, zelcore titan]
 ---
 
 # Titan Shared Nodes Guide
