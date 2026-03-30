@@ -98,6 +98,10 @@ const config: Config = {
           editUrl: 'https://github.com/ZelCore-io/zelcore-docs/tree/main/',
         },
         blog: false,
+        gtag: {
+          trackingID: 'G-ZTCBXNFDHJ',
+          anonymizeIP: true,
+        },
         sitemap: {
           lastmod: 'date',
           changefreq: null,
