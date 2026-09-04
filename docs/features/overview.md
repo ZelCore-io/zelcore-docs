@@ -50,6 +50,16 @@ Exchange cryptocurrencies directly within Zelcore:
 - No account registration required
 - Transparent fee structure
 
+### Tokenized US Stocks (bStocks)
+
+Hold and trade tokenized US equities next to your crypto:
+
+- Dozens of US stocks and ETFs as BEP-20 tokens on BNB Smart Chain, each backed 1:1 by the real share
+- Buy and sell with USDT or BNB through the built-in swap (Binance Web3 provider)
+- Live prices, charts and dividend-adjusted balances
+- Fully self-custodial, no Binance account required
+- Availability depends on your country. See the [bStocks guide](/docs/guides/bstocks-tokenized-stocks-guide)
+
 ### Buy Crypto with Fiat
 
 Purchase cryptocurrency using traditional payment methods:
