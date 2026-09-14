@@ -61,7 +61,7 @@ const config: Config = {
       tagName: 'link',
       attributes: {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap',
       },
     },
     {
@@ -86,6 +86,23 @@ const config: Config = {
 
   plugins: [
     './src/plugins/seo-validation-plugin.ts',
+  ],
+
+  // Offline full-text search. Builds a lunr index at build time and serves it
+  // from our own origin - no Algolia account, no third-party requests.
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        indexBlog: false,
+        docsRouteBasePath: '/docs',
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        searchResultLimits: 10,
+        searchBarShortcutHint: false,
+      },
+    ],
   ],
 
   // Flux AI documentation assistant (self-hosted, https://github.com/RunOnFlux/ownllm).
@@ -141,6 +158,17 @@ const config: Config = {
       { property: 'og:site_name', content: 'Zelcore Documentation' },
     ],
     image: 'img/og-default.png',
+    // Keep the table of contents useful on long walkthroughs.
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 3,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
@@ -158,6 +186,25 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          to: '/docs/getting-started/installation',
+          label: 'Get Started',
+          position: 'left',
+        },
+        {
+          to: '/docs/category/guides',
+          label: 'Guides',
+          position: 'left',
+        },
+        {
+          to: '/docs/category/faq',
+          label: 'FAQ',
+          position: 'left',
+        },
+        {
+          type: 'search',
+          position: 'right',
         },
         {
           href: 'https://zelcore.io',

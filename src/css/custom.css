@@ -12,11 +12,27 @@
   --zel-surface: #f8f9fa;
   --zel-card: #f0f2f5;
   --zel-border: #e2e8f0;
+  --zel-border-strong: #cbd5e1;
   --zel-primary: #1B63EF;
   --zel-accent: #4461F2;
   --zel-text: #1a1a1a;
-  --zel-text-secondary: #4a5568;
-  --zel-text-muted: #718096;
+  --zel-text-secondary: #3d4653;
+  --zel-text-muted: #64748b;
+
+  /* Tinted primary — used for hovers, rings and soft fills */
+  --zel-primary-soft: rgba(27, 99, 239, 0.08);
+  --zel-primary-softer: rgba(27, 99, 239, 0.04);
+  --zel-ring: rgba(27, 99, 239, 0.35);
+
+  /* Elevation */
+  --zel-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --zel-shadow-md: 0 4px 16px rgba(15, 23, 42, 0.08);
+  --zel-shadow-lg: 0 12px 32px rgba(15, 23, 42, 0.12);
+
+  /* Radii */
+  --zel-radius-sm: 6px;
+  --zel-radius: 10px;
+  --zel-radius-lg: 14px;
 
   --ifm-color-primary: #1B63EF;
   --ifm-color-primary-dark: #1656d6;
@@ -32,15 +48,34 @@
   --ifm-heading-color: var(--zel-text);
   --ifm-color-content-secondary: var(--zel-text-muted);
 
-  --ifm-font-family-base: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* Inter reads better for long-form body copy; Space Grotesk is kept as the
+     brand display face for the wordmark, hero and page titles. */
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --ifm-heading-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --zel-font-display: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --ifm-font-size-base: 16px;
   --ifm-line-height-base: 1.7;
 
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: 90%;
+  --ifm-code-padding-vertical: 0.15rem;
+  --ifm-code-padding-horizontal: 0.35rem;
+  --ifm-code-border-radius: var(--zel-radius-sm);
   --docusaurus-highlighted-code-line-bg: rgba(27, 99, 239, 0.1);
   --ifm-navbar-background-color: var(--zel-bg);
+  --ifm-navbar-height: 64px;
   --ifm-color-emphasis-300: var(--zel-border);
+
+  /* Wider content column: the default leaves a lot of dead space on desktop */
+  --ifm-container-width-xl: 1440px;
+  --ifm-toc-border-color: var(--zel-border);
+  --ifm-table-border-color: var(--zel-border);
+  --ifm-table-head-background: var(--zel-surface);
+  --ifm-table-stripe-background: var(--zel-primary-softer);
+  --ifm-blockquote-color: var(--zel-text-secondary);
+  --ifm-blockquote-border-color: var(--zel-primary);
+
+  /* Comfortable reading measure (~80 characters at the base font size) */
+  --zel-measure: 44rem;
 }
 
 /* ============================================
@@ -52,19 +87,29 @@
   --zel-surface: #0E1739;
   --zel-card: #141C39;
   --zel-border: #2E3A5F;
+  --zel-border-strong: #3d4b78;
   --zel-primary: #1B63EF;
   --zel-accent: #4461F2;
   --zel-text: #F8FAFC;
   --zel-text-secondary: #CDD5E0;
-  --zel-text-muted: #b4b9c9;
+  --zel-text-muted: #9aa3bb;
 
-  --ifm-color-primary: #1B63EF;
-  --ifm-color-primary-dark: #1656d6;
-  --ifm-color-primary-darker: #1451ca;
-  --ifm-color-primary-darkest: #1143a6;
-  --ifm-color-primary-light: #3575f1;
-  --ifm-color-primary-lighter: #4281f2;
-  --ifm-color-primary-lightest: #5d92f4;
+  --zel-primary-soft: rgba(69, 130, 255, 0.14);
+  --zel-primary-softer: rgba(69, 130, 255, 0.06);
+  --zel-ring: rgba(93, 146, 244, 0.5);
+
+  --zel-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --zel-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.35);
+  --zel-shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.45);
+
+  /* Lighter primary so links and accents clear contrast minimums on navy */
+  --ifm-color-primary: #6aa2ff;
+  --ifm-color-primary-dark: #4a8cff;
+  --ifm-color-primary-darker: #3a81ff;
+  --ifm-color-primary-darkest: #1B63EF;
+  --ifm-color-primary-light: #8ab8ff;
+  --ifm-color-primary-lighter: #9ac3ff;
+  --ifm-color-primary-lightest: #bfd9ff;
 
   --ifm-background-color: var(--zel-bg);
   --ifm-background-surface-color: var(--zel-surface);
@@ -74,7 +119,11 @@
   --ifm-color-content-secondary: var(--zel-text-muted);
   --ifm-color-emphasis-300: var(--zel-border);
   --ifm-code-background: var(--zel-card);
-  --docusaurus-highlighted-code-line-bg: rgba(27, 99, 239, 0.15);
+  --ifm-toc-border-color: var(--zel-border);
+  --ifm-table-border-color: var(--zel-border);
+  --ifm-table-head-background: var(--zel-surface);
+  --ifm-table-stripe-background: rgba(255, 255, 255, 0.02);
+  --docusaurus-highlighted-code-line-bg: rgba(69, 130, 255, 0.18);
 }
 
 /* ============================================
@@ -82,43 +131,145 @@
    ============================================ */
 html {
   scroll-behavior: smooth;
+  /* Stop anchored headings from hiding under the sticky navbar */
+  scroll-padding-top: calc(var(--ifm-navbar-height) + 16px);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--ifm-heading-font-family);
   letter-spacing: -0.02em;
   color: var(--ifm-heading-color);
+  text-wrap: balance;
 }
 
-h1 { font-size: 32px; font-weight: 700; line-height: 1.2; }
-h2 { font-size: 24px; font-weight: 600; line-height: 1.3; margin-top: 2.5rem; }
-h3 { font-size: 20px; font-weight: 600; line-height: 1.3; margin-top: 2rem; }
+h1 {
+  font-family: var(--zel-font-display);
+  font-size: 2.35rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
 
-article { line-height: 1.7; }
+h2 {
+  font-size: 1.6rem;
+  font-weight: 650;
+  line-height: 1.3;
+  margin-top: 3rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--zel-border);
+}
 
-.markdown h1:first-child { margin-bottom: 1.5rem; }
+h3 { font-size: 1.2rem; font-weight: 650; line-height: 1.35; margin-top: 2.25rem; }
+h4 { font-size: 1.03rem; font-weight: 650; margin-top: 1.75rem; }
+
+article {
+  line-height: 1.75;
+}
+
+/* Comfortable reading measure — long lines are the main readability problem
+   on wide screens. Media (images, tables, code) may still use the full width.
+   A rem value, not ch, so headings and body text share one right edge. */
+.markdown > p,
+.markdown > ul,
+.markdown > ol,
+.markdown > blockquote,
+.markdown > h2,
+.markdown > h3,
+.markdown > h4,
+.markdown > h5 {
+  max-width: var(--zel-measure);
+}
+
+/* Keep the rest of the page on the same measure ... */
+.markdown > hr,
+.markdown > details,
+.markdown .theme-admonition,
+.markdown .admonition {
+  max-width: var(--zel-measure);
+}
+
+/* ... but let screenshots use the full content column: UI detail matters more
+   than line length for an image-only paragraph. */
+.markdown > p:has(> img:only-child),
+.markdown > p:has(> a:only-child > img:only-child) {
+  max-width: none;
+}
+
+.markdown h1:first-child {
+  margin-bottom: 1.25rem;
+}
+
+.markdown li + li {
+  margin-top: 0.35rem;
+}
+
+.markdown > p {
+  margin-bottom: 1.15rem;
+}
+
+.markdown strong {
+  color: var(--zel-text);
+  font-weight: 600;
+}
+
+/* Anchor affordance on hover instead of a permanently visible # */
+.hash-link {
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+
+:is(h2, h3, h4, h5, h6):hover .hash-link,
+.hash-link:focus-visible {
+  opacity: 1;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--zel-border);
+  margin: 2.5rem 0;
+}
+
+/* ============================================
+   FOCUS VISIBILITY (accessibility)
+   ============================================ */
+:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
 
 /* ============================================
    NAVBAR
    ============================================ */
 .navbar {
   border-bottom: 1px solid var(--zel-border);
-  padding: 0.75rem 0;
+  padding: 0 0.5rem;
   box-shadow: none;
+  backdrop-filter: saturate(180%) blur(12px);
+  background: color-mix(in srgb, var(--zel-bg) 85%, transparent);
 }
 
 .navbar__title {
-  font-family: var(--ifm-heading-font-family);
+  font-family: var(--zel-font-display);
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
 }
 
 .navbar__logo {
-  height: 32px;
+  height: 30px;
 }
 
 .navbar__link {
   font-weight: 500;
+  font-size: 0.925rem;
   color: var(--zel-text-secondary);
   transition: color 200ms ease;
 }
@@ -128,7 +279,48 @@ article { line-height: 1.7; }
 }
 
 .navbar__link--active {
-  color: var(--zel-primary);
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+.navbar__items--right > :last-child {
+  padding-right: 0.25rem;
+}
+
+/* ============================================
+   SEARCH
+   ============================================ */
+.navbar__search-input,
+.DocSearch-Button {
+  border: 1px solid var(--zel-border);
+  border-radius: var(--zel-radius);
+  background-color: var(--zel-surface);
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+  height: 38px;
+  min-width: 200px;
+}
+
+.navbar__search-input:hover {
+  border-color: var(--zel-border-strong);
+}
+
+.navbar__search-input:focus {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px var(--zel-ring);
+  outline: none;
+}
+
+/* Local-search dropdown */
+.dropdown-menu,
+.search-result-match {
+  border-radius: var(--zel-radius);
+}
+
+.search-result-match {
+  color: var(--ifm-color-primary);
+  background: var(--zel-primary-soft);
+  padding: 0 2px;
+  border-radius: 3px;
 }
 
 /* ============================================
@@ -136,6 +328,8 @@ article { line-height: 1.7; }
    ============================================ */
 .menu {
   background: var(--zel-bg-page);
+  padding: 1rem 0.75rem 2rem;
+  font-weight: 500;
 }
 
 .theme-doc-sidebar-container {
@@ -143,33 +337,92 @@ article { line-height: 1.7; }
 }
 
 .menu__list-item-collapsible > .menu__link {
-  font-family: var(--ifm-heading-font-family);
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 0.72rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: var(--zel-primary);
+  letter-spacing: 0.09em;
+  color: var(--zel-text-muted);
+}
+
+.menu__list-item-collapsible:hover > .menu__link {
+  color: var(--zel-text);
+  background: transparent;
+}
+
+.menu__list-item-collapsible {
+  border-radius: var(--zel-radius-sm);
+}
+
+.menu__list-item-collapsible:hover {
+  background: transparent;
 }
 
 .menu__link {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  border-radius: 6px;
-  padding: 7px 12px;
-  transition: all 200ms ease;
+  border-radius: var(--zel-radius-sm);
+  padding: 0.45rem 0.7rem;
+  line-height: 1.45;
+  transition: background-color 150ms ease, color 150ms ease;
   color: var(--zel-text-secondary);
 }
 
 .menu__link:hover:not(.menu__link--active) {
-  background-color: rgba(27, 99, 239, 0.08);
-  color: var(--zel-text-secondary);
+  background-color: var(--zel-primary-soft);
+  color: var(--zel-text);
 }
 
+/* Nested items get a hairline rail so deep trees stay scannable */
+.menu__list .menu__list {
+  margin-left: 0.45rem;
+  padding-left: 0.55rem;
+  border-left: 1px solid var(--zel-border);
+}
+
+/* Inset shadow rather than a border: no 3px content shift when active */
 .menu__link--active:not(.menu__link--sublist) {
-  background-color: rgba(27, 99, 239, 0.15);
-  border-left: 3px solid var(--zel-primary);
-  color: var(--zel-text);
+  background-color: var(--zel-primary-soft);
+  box-shadow: inset 3px 0 0 var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
   font-weight: 600;
+}
+
+.menu__caret:before,
+.menu__link--sublist-caret:after {
+  opacity: 0.6;
+}
+
+.theme-doc-sidebar-item-category-level-1 {
+  margin-bottom: 0.35rem;
+}
+
+/* ============================================
+   BREADCRUMBS
+   ============================================ */
+.breadcrumbs {
+  margin-bottom: 1.25rem;
+}
+
+.breadcrumbs__item {
+  font-size: 0.8rem;
+}
+
+.breadcrumbs__link {
+  color: var(--zel-text-muted);
+  background: transparent;
+  padding: 0.25rem 0.45rem;
+  border-radius: var(--zel-radius-sm);
+}
+
+.breadcrumbs__link:hover {
+  background: var(--zel-primary-soft);
+  color: var(--zel-text);
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  background: var(--zel-primary-soft);
+  color: var(--ifm-color-primary);
+  font-weight: 500;
 }
 
 /* ============================================
@@ -177,44 +430,94 @@ article { line-height: 1.7; }
    ============================================ */
 .prism-code {
   border: 1px solid var(--zel-border);
-  border-radius: 8px;
+  border-radius: var(--zel-radius);
+  font-size: 0.875rem;
+}
+
+div[class*='codeBlockContainer'] {
+  border-radius: var(--zel-radius);
+  box-shadow: var(--zel-shadow-sm);
+  margin-bottom: 1.5rem;
 }
 
 [data-theme='dark'] div[class*='codeBlockContainer'] {
   background-color: var(--zel-card);
 }
 
+/* Inline code: distinguish from links and body text */
+.markdown code:not([class*='language-']) {
+  background: var(--zel-primary-softer);
+  border: 1px solid var(--zel-border);
+  color: var(--zel-text);
+  white-space: nowrap;
+}
+
 /* ============================================
    ADMONITIONS
    ============================================ */
+.theme-admonition,
 .admonition {
+  border: 1px solid var(--zel-border);
   border-left-width: 4px;
-  border-radius: 0 8px 8px 0;
+  border-radius: var(--zel-radius);
+  box-shadow: var(--zel-shadow-sm);
+  margin-bottom: 1.5rem;
+}
+
+.theme-admonition .admonitionHeading_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-Layout-styles-module,
+.admonition-heading h5 {
+  text-transform: none;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  font-weight: 650;
+}
+
+.admonition p:last-child,
+.theme-admonition p:last-child {
+  margin-bottom: 0;
 }
 
 /* ============================================
    TABLE OF CONTENTS
    ============================================ */
 .table-of-contents {
-  border-left: 2px solid var(--zel-border);
+  border-left: 1px solid var(--zel-border);
+  font-size: 0.82rem;
+  padding-left: 1rem;
+}
+
+/* Docusaurus renders no heading above the TOC — give it a label so the
+   column reads as navigation rather than a stray list of links. */
+.theme-doc-toc-desktop > .table-of-contents::before {
+  content: 'On this page';
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--zel-text-muted);
+  margin: 0 0 0.65rem 0.5rem;
 }
 
 .table-of-contents__link {
   color: var(--zel-text-muted);
-  transition: color 200ms ease;
+  display: block;
+  padding: 0.2rem 0;
+  transition: color 150ms ease;
 }
 
 .table-of-contents__link:hover {
-  color: var(--zel-text-secondary);
+  color: var(--zel-text);
 }
 
 .table-of-contents__link--active,
 .table-of-contents__link--active code {
-  color: var(--zel-primary);
+  color: var(--ifm-color-primary);
+  font-weight: 600;
 }
 
 .table-of-contents .table-of-contents__link--active {
-  border-left-color: var(--zel-primary);
+  border-left-color: var(--ifm-color-primary);
 }
 
 /* ============================================
@@ -223,41 +526,228 @@ article { line-height: 1.7; }
 .button--primary {
   background: linear-gradient(135deg, #1B63EF, #4461F2);
   border: none;
+  color: #fff;
   font-weight: 600;
-  border-radius: 8px;
-  transition: all 200ms ease;
+  border-radius: var(--zel-radius);
+  transition: transform 150ms ease, box-shadow 150ms ease, filter 150ms ease;
 }
 
 .button--primary:hover {
-  opacity: 0.9;
+  color: #fff;
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+  box-shadow: var(--zel-shadow-md);
 }
 
 .button--primary:focus-visible {
-  box-shadow: 0 0 0 3px rgba(27, 99, 239, 0.25);
+  box-shadow: 0 0 0 3px var(--zel-ring);
 }
 
 .button--lg {
-  font-size: 1.1rem;
-  padding: 0.875rem 2rem;
-  border-radius: 8px;
+  font-size: 1rem;
+  padding: 0.8rem 1.75rem;
+  border-radius: var(--zel-radius);
 }
 
 /* ============================================
-   CARDS
+   CARDS (incl. generated category index pages)
    ============================================ */
 .card {
-  border-radius: 12px;
-  transition: all 200ms ease;
+  border: 1px solid var(--zel-border);
+  border-radius: var(--zel-radius-lg);
+  transition: border-color 200ms ease, transform 200ms ease, box-shadow 200ms ease;
 }
 
 [data-theme='dark'] .card {
   background-color: var(--zel-card);
-  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .card:hover {
+  border-color: var(--ifm-color-primary);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(27, 99, 239, 0.1);
+  box-shadow: var(--zel-shadow-md);
+}
+
+/* Category index grids default to 2 columns and clip long titles to one line.
+   Three columns on wide screens, and titles wrap to two lines instead. */
+@media (min-width: 1200px) {
+  article .row > .col.col--6 {
+    --ifm-col-width: 33.333%;
+  }
+}
+
+article .card h2 {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.35;
+  margin: 0 0 0.4rem;
+  padding: 0;
+  border: 0;
+  letter-spacing: -0.01em;
+  /* Replace the theme's single-line ellipsis with a 2-line clamp */
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+article .card p {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--zel-text-muted);
+  margin: 0;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+article .card a[class*='cardContainer'],
+article a[class*='cardContainer'] {
+  padding: 1.15rem 1.25rem;
+  height: 100%;
+}
+
+/* ============================================
+   PAGINATION (prev / next)
+   ============================================ */
+.pagination-nav__link {
+  border: 1px solid var(--zel-border);
+  border-radius: var(--zel-radius-lg);
+  transition: border-color 200ms ease, box-shadow 200ms ease, transform 200ms ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: var(--zel-shadow-md);
+  transform: translateY(-1px);
+}
+
+.pagination-nav__sublabel {
+  color: var(--zel-text-muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.pagination-nav__label {
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+.markdown table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--zel-border);
+  border-radius: var(--zel-radius);
+  overflow: hidden;
+  font-size: 0.9rem;
+  margin-bottom: 1.75rem;
+}
+
+.markdown table thead {
+  background: var(--ifm-table-head-background);
+}
+
+.markdown table thead th {
+  font-weight: 650;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--zel-text-muted);
+  border-bottom: 1px solid var(--zel-border);
+}
+
+.markdown table th,
+.markdown table td {
+  border: 0;
+  border-bottom: 1px solid var(--zel-border);
+  padding: 0.7rem 0.9rem;
+  vertical-align: top;
+}
+
+.markdown table tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Tables are the usual cause of horizontal page scroll on phones */
+.markdown > table,
+.markdown .tableWrapper {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ============================================
+   IMAGES / SCREENSHOTS
+   ============================================ */
+.markdown img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--zel-border);
+  border-radius: var(--zel-radius);
+  box-shadow: var(--zel-shadow-md);
+  background: var(--zel-surface);
+  display: block;
+  margin: 1.5rem 0;
+}
+
+/* Inline badges/emoji-sized images shouldn't get a frame */
+.markdown img[src*='badge'],
+.markdown p > img[height],
+.markdown a > img[src*='shields.io'] {
+  border: 0;
+  box-shadow: none;
+  display: inline-block;
+  margin: 0;
+}
+
+.markdown figure {
+  margin: 1.5rem 0;
+}
+
+.markdown figcaption,
+.markdown img + em {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--zel-text-muted);
+  margin-top: -0.75rem;
+}
+
+/* ============================================
+   BLOCKQUOTES & KBD
+   ============================================ */
+.markdown blockquote {
+  border-left: 3px solid var(--ifm-color-primary);
+  background: var(--zel-primary-softer);
+  border-radius: 0 var(--zel-radius) var(--zel-radius) 0;
+  padding: 0.9rem 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+.markdown blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+kbd {
+  background: var(--zel-surface);
+  border: 1px solid var(--zel-border);
+  border-bottom-width: 2px;
+  border-radius: var(--zel-radius-sm);
+  font-size: 0.8rem;
+  padding: 0.1rem 0.4rem;
+  color: var(--zel-text);
 }
 
 /* ============================================
@@ -265,10 +755,18 @@ article { line-height: 1.7; }
    ============================================ */
 a {
   color: var(--ifm-color-primary);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 }
 
-[data-theme='dark'] a {
-  color: var(--ifm-color-primary-lighter);
+/* Underline links inside prose so they aren't signalled by colour alone */
+.markdown a:not(.card):not(.button):not(.hash-link) {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--ifm-color-primary) 40%, transparent);
+}
+
+.markdown a:not(.card):not(.button):not(.hash-link):hover {
+  text-decoration-color: currentColor;
 }
 
 /* ============================================
@@ -282,22 +780,22 @@ a {
 
 .footer__title {
   font-family: var(--ifm-heading-font-family);
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 0.7rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.09em;
   color: var(--zel-text);
   margin-bottom: 1rem;
 }
 
 .footer__link-item {
   color: var(--zel-text-secondary);
-  font-size: 14px;
+  font-size: 0.875rem;
   transition: color 200ms ease;
 }
 
 .footer__link-item:hover {
-  color: var(--zel-primary);
+  color: var(--ifm-color-primary);
   text-decoration: none;
 }
 
@@ -307,31 +805,61 @@ a {
   padding-top: 1.5rem;
   border-top: 1px solid var(--zel-border);
   color: var(--zel-text-muted);
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 /* ============================================
    SCROLLBAR (DARK MODE)
    ============================================ */
-[data-theme='dark'] ::-webkit-scrollbar { width: 8px; height: 8px; }
+[data-theme='dark'] ::-webkit-scrollbar { width: 10px; height: 10px; }
 [data-theme='dark'] ::-webkit-scrollbar-track { background: var(--zel-bg); }
-[data-theme='dark'] ::-webkit-scrollbar-thumb { background: var(--zel-border); border-radius: 4px; }
-[data-theme='dark'] ::-webkit-scrollbar-thumb:hover { background: var(--zel-primary); }
+[data-theme='dark'] ::-webkit-scrollbar-thumb { background: var(--zel-border); border-radius: 5px; border: 2px solid var(--zel-bg); }
+[data-theme='dark'] ::-webkit-scrollbar-thumb:hover { background: var(--zel-border-strong); }
+
+/* ============================================
+   MOTION PREFERENCES
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
 
 /* ============================================
    RESPONSIVE
    ============================================ */
 @media screen and (max-width: 996px) {
-  h1 { font-size: 28px; }
-  h2 { font-size: 22px; }
-  h3 { font-size: 18px; }
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.45rem; margin-top: 2.25rem; }
+  h3 { font-size: 1.15rem; }
+
+  .navbar__search-input {
+    min-width: 0;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {
-  h1 { font-size: 24px; }
-  h2 { font-size: 20px; }
-  h3 { font-size: 18px; }
-  :root { --ifm-font-size-base: 15px; }
-  code { font-size: 13px; }
-  .menu__list-item-collapsible .menu__link { font-size: 11px; }
+  :root { --ifm-font-size-base: 16px; }
+
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.1rem; }
+
+  .markdown img { margin: 1.15rem 0; }
+  .markdown table { font-size: 0.82rem; }
+
+  /* Stacked prev/next cards read better than two cramped columns */
+  .pagination-nav {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
 }
