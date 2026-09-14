@@ -1,45 +1,105 @@
 .faq {
-  margin: 1.5rem 0;
+  margin: 1.75rem 0;
+  max-width: var(--zel-measure);
 }
 
 .faqItem {
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 8px;
-  margin-bottom: 0.75rem;
+  border: 1px solid var(--zel-border);
+  border-radius: var(--zel-radius);
+  margin-bottom: 0.6rem;
   overflow: hidden;
+  background: var(--zel-bg);
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+:global([data-theme='dark']) .faqItem {
+  background: var(--zel-surface);
+}
+
+.faqItem:hover {
+  border-color: var(--zel-border-strong);
 }
 
 .faqQuestion {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
   width: 100%;
-  padding: 1rem 1.25rem;
-  background: var(--ifm-background-surface-color);
+  padding: 0.95rem 1.15rem;
+  background: transparent;
   border: none;
   cursor: pointer;
-  font-size: 1rem;
+  font-family: inherit;
+  font-size: 0.975rem;
   font-weight: 600;
+  line-height: 1.45;
   color: var(--ifm-heading-color);
   text-align: left;
-  transition: background 0.2s;
+  transition: background-color 150ms ease, color 150ms ease;
 }
 
 .faqQuestion:hover {
-  background: var(--ifm-color-emphasis-100);
+  background: var(--zel-primary-soft);
+}
+
+.faqQuestion:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: -2px;
 }
 
 .faqQuestionOpen {
-  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-primary);
+  border-bottom: 1px solid var(--zel-border);
 }
 
+/* Chevron drawn in CSS so it animates instead of swapping +/- glyphs */
 .faqChevron {
-  font-size: 1.25rem;
-  font-weight: 400;
-  flex-shrink: 0;
-  margin-left: 1rem;
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transform-origin: center;
+  margin-right: 4px;
+  transition: transform 200ms ease;
+}
+
+.faqChevronOpen {
+  transform: rotate(-135deg);
 }
 
 .faqAnswer {
-  padding: 1rem 1.25rem;
+  padding: 1rem 1.15rem 1.1rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--zel-text-secondary);
+}
+
+.faqAnswer > :last-child {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faqChevron {
+    transition: none;
+  }
+}
+
+/* Wrapper heading keeps FAQ questions in the document outline (and the TOC
+   stays untouched because these are not markdown headings). */
+.faqHeading {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: normal;
+}
+
+/* Browsers that do not support hidden="until-found" fall back to plain hidden. */
+.faqAnswer[hidden] {
+  display: none;
 }

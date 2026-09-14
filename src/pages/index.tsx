@@ -28,35 +28,48 @@ const features = [
   },
 ];
 
+const quickLinks = [
+  {text: 'Install Zelcore', href: '/docs/getting-started/installation'},
+  {text: 'Recover a wallet', href: '/docs/getting-started/import-wallet'},
+  {text: 'Run a FluxNode', href: '/docs/guides/flux-node-installation-guide'},
+  {text: 'Stake crypto', href: '/docs/walkthroughs/staking-flux'},
+];
+
 const docCategories = [
   {
-    label: 'Getting Started',
-    title: 'Quick Setup',
+    label: 'Start here',
+    title: 'Getting Started',
+    blurb: 'Download Zelcore, create or restore a wallet, and learn how accounts work.',
+    browseHref: '/docs/category/getting-started',
     links: [
       {text: 'Installation', href: '/docs/getting-started/installation'},
-      {text: 'Create Wallet', href: '/docs/getting-started/create-wallet'},
-      {text: 'Import Wallet', href: '/docs/getting-started/import-wallet'},
-      {text: 'Understanding Accounts', href: '/docs/getting-started/understanding-zelcore-accounts'},
+      {text: 'Create a wallet', href: '/docs/getting-started/create-wallet'},
+      {text: 'Import a wallet', href: '/docs/getting-started/import-wallet'},
+      {text: 'Understanding accounts', href: '/docs/getting-started/understanding-zelcore-accounts'},
     ],
   },
   {
-    label: 'Guides',
-    title: 'How-To Guides',
+    label: 'Step by step',
+    title: 'Guides & Walkthroughs',
+    blurb: 'Task-focused instructions with screenshots for nodes, swaps, staking and tokens.',
+    browseHref: '/docs/category/guides',
     links: [
-      {text: 'FluxNode Setup', href: '/docs/guides/flux-node-installation-guide'},
-      {text: 'Staking Guides', href: '/docs/walkthroughs/staking-solana'},
-      {text: 'Fusion Bridge', href: '/docs/guides/flux-fusion-bridge-guide'},
-      {text: 'UTXO Consolidation', href: '/docs/guides/utxo-consolidation-guide'},
+      {text: 'FluxNode installation', href: '/docs/guides/flux-node-installation-guide'},
+      {text: 'Stake Solana (SOL)', href: '/docs/walkthroughs/staking-solana'},
+      {text: 'Fusion bridge', href: '/docs/guides/flux-fusion-bridge-guide'},
+      {text: 'UTXO consolidation', href: '/docs/guides/utxo-consolidation-guide'},
     ],
   },
   {
-    label: 'Help',
+    label: 'Get unstuck',
     title: 'FAQ & Security',
+    blurb: 'Answers to common questions, plus how to keep your keys and assets safe.',
+    browseHref: '/docs/category/faq',
     links: [
       {text: 'Wallet FAQ', href: '/docs/faq/wallet-faq'},
-      {text: 'Security Best Practices', href: '/docs/security/best-practices'},
-      {text: 'Account Access', href: '/docs/faq/account-access-faq'},
-      {text: 'Platform-Specific FAQ', href: '/docs/faq/platform-specific-faq'},
+      {text: 'Security best practices', href: '/docs/security/best-practices'},
+      {text: 'Account access', href: '/docs/faq/account-access-faq'},
+      {text: 'Platform-specific FAQ', href: '/docs/faq/platform-specific-faq'},
     ],
   },
 ];
@@ -65,50 +78,60 @@ function Hero(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={styles.hero}>
-      <div className={styles.heroBg} />
-      <div className={styles.heroBlur} />
-      <div className={styles.heroContent}>
-        <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
-        <p className={styles.heroSubtitle}>
-          Your comprehensive guide to the secure, multi-chain crypto wallet.
-          Learn to set up, manage, and get the most out of Zelcore across all
-          your devices.
-        </p>
-        <div className={styles.heroButtons}>
-          <Link className={styles.btnPrimary} to="/docs/intro">
-            Get Started
-          </Link>
-          <Link
-            className={styles.btnSecondary}
-            to="https://github.com/ZelCore-io/zelcore-docs">
-            View on GitHub
-          </Link>
+      <div className={styles.heroBg} aria-hidden="true" />
+      <div className={styles.heroBlur} aria-hidden="true" />
+      <div className={styles.container}>
+        <div className={styles.heroContent}>
+          <p className={styles.heroEyebrow}>Documentation</p>
+          <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
+          <p className={styles.heroSubtitle}>
+            Everything you need to set up, secure and get the most out of Zelcore —
+            the self-custodial multi-chain wallet for desktop, mobile and browser.
+          </p>
+          <div className={styles.heroButtons}>
+            <Link className={styles.btnPrimary} to="/docs/intro">
+              Read the docs
+            </Link>
+            <Link className={styles.btnSecondary} to="/docs/getting-started/installation">
+              Install Zelcore
+            </Link>
+          </div>
+          <div className={styles.quickLinks}>
+            <span className={styles.quickLinksLabel}>Popular:</span>
+            {quickLinks.map((link) => (
+              <Link key={link.text} className={styles.quickLink} to={link.href}>
+                {link.text}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </header>
   );
 }
 
-function FeatureCard({title, icon, description}: typeof features[number]): ReactNode {
+function FeatureCard({title, icon, description}: (typeof features)[number]): ReactNode {
   const iconUrl = useBaseUrl(icon);
   return (
     <div className={styles.featureCard}>
       <div className={styles.featureIconWrap}>
-        <img src={iconUrl} alt={title} className={styles.featureIcon} />
+        <img src={iconUrl} alt="" aria-hidden="true" className={styles.featureIcon} />
       </div>
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <h3 className={styles.featureTitle}>{title}</h3>
+      <p className={styles.featureText}>{description}</p>
     </div>
   );
 }
 
 function Features(): ReactNode {
   return (
-    <section className={styles.features}>
-      <div className={styles.featuresGrid}>
-        {features.map((feature) => (
-          <FeatureCard key={feature.title} {...feature} />
-        ))}
+    <section className={styles.section} aria-label="Why Zelcore">
+      <div className={styles.container}>
+        <div className={styles.featuresGrid}>
+          {features.map((feature) => (
+            <FeatureCard key={feature.title} {...feature} />
+          ))}
+        </div>
       </div>
     </section>
   );
@@ -116,14 +139,18 @@ function Features(): ReactNode {
 
 function DocCategories(): ReactNode {
   return (
-    <section className={styles.categories}>
-      <div className={styles.categoriesInner}>
-        <div className={styles.categoriesLabel}>Browse Documentation</div>
+    <section className={styles.sectionAlt} aria-labelledby="browse-docs">
+      <div className={styles.container}>
+        <p className={styles.sectionEyebrow}>Browse documentation</p>
+        <h2 id="browse-docs" className={styles.sectionTitle}>
+          Find what you need
+        </h2>
         <div className={styles.categoriesGrid}>
           {docCategories.map((cat) => (
-            <div key={cat.label} className={styles.categoryCard}>
+            <div key={cat.title} className={styles.categoryCard}>
               <div className={styles.categoryCardLabel}>{cat.label}</div>
-              <h3>{cat.title}</h3>
+              <h3 className={styles.categoryTitle}>{cat.title}</h3>
+              <p className={styles.categoryBlurb}>{cat.blurb}</p>
               <ul className={styles.categoryLinks}>
                 {cat.links.map((link) => (
                   <li key={link.text}>
@@ -131,8 +158,39 @@ function DocCategories(): ReactNode {
                   </li>
                 ))}
               </ul>
+              <Link className={styles.categoryBrowse} to={cat.browseHref}>
+                Browse all
+                <span aria-hidden="true"> →</span>
+              </Link>
             </div>
           ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Help(): ReactNode {
+  return (
+    <section className={styles.section} aria-labelledby="need-help">
+      <div className={styles.container}>
+        <div className={styles.helpBanner}>
+          <div>
+            <h2 id="need-help" className={styles.helpTitle}>
+              Still stuck?
+            </h2>
+            <p className={styles.helpText}>
+              Ask the community on Discord or open a support ticket — the team responds daily.
+            </p>
+          </div>
+          <div className={styles.helpActions}>
+            <Link className={styles.btnPrimary} href="https://discord.gg/runonflux">
+              Join Discord
+            </Link>
+            <Link className={styles.btnSecondary} href="https://support.runonflux.io">
+              Contact support
+            </Link>
+          </div>
         </div>
       </div>
     </section>
@@ -148,6 +206,7 @@ export default function Home(): ReactNode {
       <Hero />
       <Features />
       <DocCategories />
+      <Help />
     </Layout>
   );
 }

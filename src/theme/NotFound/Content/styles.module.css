@@ -1,0 +1,78 @@
+.wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-block: 2rem 3rem;
+}
+
+.code {
+  font-family: var(--zel-font-display);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.lead {
+  font-size: 1.05rem;
+  color: var(--zel-text-muted);
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--zel-border);
+  border-radius: var(--zel-radius-lg);
+  background: var(--zel-bg);
+  text-decoration: none;
+  transition: border-color 200ms ease, transform 200ms ease, box-shadow 200ms ease;
+}
+
+:global([data-theme='dark']) .card {
+  background: var(--zel-surface);
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--zel-shadow-md);
+  text-decoration: none;
+}
+
+.cardTitle {
+  font-weight: 650;
+  color: var(--zel-text);
+}
+
+.cardText {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--zel-text-muted);
+}
+
+.help {
+  font-size: 0.95rem;
+  color: var(--zel-text-muted);
+}
+
+@media screen and (max-width: 576px) {
+  .grid { grid-template-columns: 1fr; }
+  .code { font-size: 2.5rem; }
+  .title { font-size: 1.6rem; }
+}

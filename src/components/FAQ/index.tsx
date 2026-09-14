@@ -1,4 +1,12 @@
-import React, { type ReactNode, useState, Children, isValidElement } from 'react';
+import React, {
+  type ReactNode,
+  useEffect,
+  useId,
+  useRef,
+  useState,
+  Children,
+  isValidElement,
+} from 'react';
 import Head from '@docusaurus/Head';
 import styles from './styles.module.css';
 
@@ -9,20 +17,52 @@ interface FAQItemProps {
 
 function FAQItem({ question, children }: FAQItemProps): ReactNode {
   const [open, setOpen] = useState(false);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const id = useId();
+  const panelId = `${id}-panel`;
+  const buttonId = `${id}-button`;
+
+  // `hidden="until-found"` lets the browser reveal a collapsed answer when the
+  // user finds it with find-in-page; keep our own state in sync when it does.
+  useEffect(() => {
+    const panel = panelRef.current;
+    if (!panel) return undefined;
+    const onBeforeMatch = () => setOpen(true);
+    panel.addEventListener('beforematch', onBeforeMatch);
+    return () => panel.removeEventListener('beforematch', onBeforeMatch);
+  }, []);
 
   return (
     <div className={styles.faqItem}>
-      <button
-        className={`${styles.faqQuestion} ${open ? styles.faqQuestionOpen : ''}`}
-        onClick={() => setOpen(!open)}
-        aria-expanded={open}
+      <h3 className={styles.faqHeading}>
+        <button
+          id={buttonId}
+          className={`${styles.faqQuestion} ${open ? styles.faqQuestionOpen : ''}`}
+          onClick={() => setOpen(!open)}
+          aria-expanded={open}
+          aria-controls={panelId}
+        >
+          <span>{question}</span>
+          <span
+            className={`${styles.faqChevron} ${open ? styles.faqChevronOpen : ''}`}
+            aria-hidden="true"
+          />
+        </button>
+      </h3>
+      {/*
+        The answer stays in the DOM when collapsed so it is still reachable by
+        find-in-page, by the offline search index, and by crawlers.
+      */}
+      <div
+        ref={panelRef}
+        id={panelId}
+        role="region"
+        aria-labelledby={buttonId}
+        className={styles.faqAnswer}
+        hidden={open ? undefined : ('until-found' as unknown as boolean)}
       >
-        <span>{question}</span>
-        <span className={styles.faqChevron} aria-hidden="true">
-          {open ? '\u2212' : '+'}
-        </span>
-      </button>
-      {open && <div className={styles.faqAnswer}>{children}</div>}
+        {children}
+      </div>
     </div>
   );
 }
