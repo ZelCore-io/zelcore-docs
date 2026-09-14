@@ -88,6 +88,24 @@ const config: Config = {
     './src/plugins/seo-validation-plugin.ts',
   ],
 
+  // Flux AI documentation assistant (self-hosted, https://github.com/RunOnFlux/ownllm).
+  // The script is served by the assistant and uses its own origin as the
+  // endpoint, so this tag is the whole integration. Deferred: it mounts on
+  // DOMContentLoaded and must not block the page.
+  scripts: [
+    {
+      src: 'https://ownllmrouter.app.runonflux.io/widget.js',
+      defer: true,
+      'data-title': 'Ask Zelcore AI',
+      'data-subject': 'Zelcore',
+      'data-launcher-label': 'Ask AI',
+      'data-accent': '#3786fa',
+      'data-logo': 'https://zelcore.io/assets/brand/icon/icon-dark.svg',
+      'data-logo-light': 'https://zelcore.io/assets/brand/icon/icon-light.svg',
+      'data-suggestions': 'What is Zelcore?|How do I restore my Zelcore wallet?|Which assets does Zelcore support?|How do I use Zelcore with Flux?',
+    },
+  ],
+
   presets: [
     [
       'classic',
