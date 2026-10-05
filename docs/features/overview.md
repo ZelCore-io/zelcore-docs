@@ -48,6 +48,7 @@ Exchange cryptocurrencies directly within Zelcore:
 - Multiple liquidity providers for best rates
 - Cross-chain swaps
 - No account registration required
+- Private swaps: InstaSwap can settle a swap privately (PRIVATE badge) or through a zero-knowledge shielded pool (ZK badge). See [Private swaps with InstaSwap](/docs/guides/private-swaps-instaswap)
 - Transparent fee structure
 
 ### Tokenized US Stocks (bStocks)
