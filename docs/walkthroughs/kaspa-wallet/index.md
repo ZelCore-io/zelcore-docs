@@ -110,6 +110,8 @@ When your address holds more than 80 UTXOs, the Kaspa screen shows the count and
 - The network fee, with a choice of fee priority
 - UTXOs afterwards
 
+![Consolidate UTXOs window with the Economy, Normal and Fast fee priorities and the estimate](./images/05-consolidate-utxos.jpg)
+
 Only the network fee leaves your wallet. The merged coins are paid back to the same address.
 
 Consolidation needs a key that ZelCore holds. It is not available for hardware wallets. For the full explanation, see the [UTXO consolidation guide](../../guides/utxo-consolidation-guide).
