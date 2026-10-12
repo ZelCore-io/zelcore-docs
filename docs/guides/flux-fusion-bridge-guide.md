@@ -454,6 +454,32 @@ This example demonstrates the complete process and highlights common pitfalls:
    - Check provider status before large swaps
    - Avoid bridging during known network congestion
 
+## Flux on Ergo: Migrating to the Flux Main Chain
+
+The Flux-Ergo bridge has ended, so Flux on Ergo (FLUX-ERG) is not one of the parallel chains you can bridge between. Since ZelCore 8.39.0, Fusion has a migration option for FLUX-ERG holders.
+
+**Who can claim:**
+- Holders of FLUX-ERG at Ergo block 1,878,291 (September 21, 2026, 22:54:55 UTC)
+- FLUX-ERG acquired after that snapshot carries no claim, so do not buy FLUX on Ergo
+
+**What you get:**
+- Your balance at the snapshot is claimed 1:1 as native FLUX on the Flux main chain
+- The claim has no fee
+- The FLUX is paid to a Flux address, one of your Flux wallets
+
+**How to claim:**
+1. Open **Fusion** and open its menu, then select **Snapshot Claim**.
+2. In the **Snapshot** list, select **Flux on Ergo → Flux Main Chain**.
+3. Select the Ergo address that held the FLUX-ERG.
+4. Choose the Flux wallet that should receive the FLUX.
+5. Review the claim details and confirm.
+
+ZelCore checks that the private key belongs to the Ergo address you chose. If it does not match, the claim is refused before anything is sent.
+
+**Existing claims:** The Flux on Ergo snapshot claim and the Flux on Ergo mining claim now pay out on the Flux main chain too, to one of your Flux wallets. They no longer pay out as FLUX on Ergo.
+
+---
+
 ## Alternative Bridging Methods
 
 If Fusion bridge swaps are unavailable or unsuitable, consider these alternatives:
@@ -1306,6 +1332,7 @@ Contact Flux team if:
 
 - [Troubleshooting Fusion Swap Issues](../../guides/troubleshooting-fusion-swap-issues/) - General Fusion troubleshooting
 - [Fusion FAQ](../../faq/fusion-faq/) - Common Fusion questions
+- [Fusion FAQ: Flux on Ergo migration](../../faq/fusion-faq/#how-do-i-claim-my-flux-on-ergo-flux-erg-on-the-flux-main-chain) - Claiming FLUX-ERG on the Flux main chain
 - Understanding Blockchain Confirmations - Learn about confirmations
 - [ZelCore Security Best Practices](../../security/best-practices/) - Keep your assets secure
 

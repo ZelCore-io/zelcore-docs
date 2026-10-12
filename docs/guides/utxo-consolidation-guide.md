@@ -20,6 +20,7 @@ This comprehensive guide explains what UTXOs are, why they cause problems for mi
 - Litecoin (LTC)
 - Dogecoin (DOGE)
 - Flux (FLUX)
+- Kaspa (KAS)
 - Other Bitcoin-derived blockchains
 
 ## Prerequisites
@@ -200,6 +201,24 @@ If self-sending doesn't work or you prefer a different approach:
 **Example:**
 - **Before:** 0.5 RTM every 12 hours = 60 UTXOs per month
 - **After:** 15 RTM once per month = 1 UTXO per month
+
+## Consolidating Kaspa UTXOs
+
+Kaspa has a built-in tool, so you do not need to send to yourself by hand. When your Kaspa address holds more than 80 UTXOs, the KAS screen shows the number of UTXOs at the address, a hint that a large send will be split into several transactions, and a **Consolidate UTXOs** button.
+
+1. Open the KAS screen and select **Consolidate UTXOs**.
+2. Choose a **Fee priority** (Economy, Normal or Fast). The default is Economy.
+3. Review the estimate before anything is signed. It lists the UTXOs at the address, how many will be merged, the number of transactions, the network fee, and how many UTXOs you will have afterwards.
+4. Select **Consolidate UTXOs** again and confirm. The confirmation repeats the merge count and the total network fee. If d2FA is enabled, ZelCore asks for your PIN before signing.
+5. The transactions are sent one after another and a progress bar shows how far along they are. Your balance and UTXO count update once the network accepts them.
+
+Things to know:
+
+- Each transaction merges up to 88 UTXOs and pays back to the same address. Only the network fee leaves your wallet.
+- At most 4,400 UTXOs are merged per run. If more remain, run it again later.
+- Newly mined UTXOs that cannot be spent yet, and UTXOs worth less than the fee to move them, are left alone. The dialog tells you how many.
+- If the UTXOs at the address change after the estimate, ZelCore asks you to review the new fee and confirm again.
+- Consolidation needs a software key. It is not available for a Kaspa address imported from a hardware wallet.
 
 ## Common Issues During Consolidation
 
@@ -395,7 +414,7 @@ No. When you send to yourself:
 ### Will this work for all cryptocurrencies?
 
 UTXO consolidation applies to:
-- **UTXO-based chains:** BTC, LTC, DOGE, RVN, RTM, FLUX, etc.
+- **UTXO-based chains:** BTC, LTC, DOGE, RVN, RTM, FLUX, KAS, etc.
 
 Does NOT apply to:
 - **Account-based chains:** ETH, BNB, MATIC, most ERC-20 tokens
@@ -403,6 +422,7 @@ Does NOT apply to:
 
 ## Related Documentation
 
+- [Kaspa Wallet Walkthrough](/docs/walkthroughs/kaspa-wallet/)
 - [Wallet FAQ](../../faq/wallet-faq/)
 - [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 - Mining Best Practices (if available)

@@ -1773,3 +1773,61 @@ Unlike Bitcoin/Ethereum:
 - [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 
 ---
+
+## Horizen (ZEN) Questions
+
+### Why can't I send ZEN from my Horizen wallet in ZelCore?
+
+**Answer:**
+
+Horizen's mainchain stopped at block 1,807,300 when ZEN moved to Base. Because that chain no longer produces blocks, **Send** is disabled for mainchain ZEN in ZelCore 8.39.0 and later.
+
+**What you can still do:**
+
+- Your mainchain ZEN balance and history stay visible in ZelCore
+- ZEN on Base is available in ZelCore as **Horizen BASE Token**
+
+**Why was my ZEN balance or history empty for a while?**
+
+The old ZEN explorers now show the Base network, so ZelCore could no longer load the mainchain balance and history. In 8.39.0 ZelCore loads them again from Horizen's legacy explorer.
+
+:::note
+The Horizen mainchain may be removed from ZelCore in a future version. Click the notification in the app to read more.
+:::
+
+---
+
+## Kaspa (KAS) Questions
+
+### Why are my KRC-20 token transfers paused?
+
+**Answer:**
+
+ZelCore pauses KRC-20 transfers while the Kasplex indexer is unavailable. Kasplex asked all wallets to do this, and transfers resume when the indexer is back.
+
+**What this means for you:**
+
+- Your tokens are safe. Try the transfer again later.
+- While the indexer is down, ZelCore shows the last known token balance with its date, or says the balance cannot be loaded until the indexer returns.
+- Token history cannot be loaded either during that time.
+- Your KAS is not affected. Sending KAS continues to work.
+
+KRC-20 balances and history come from the Kasplex indexer, and ZelCore is not responsible for the accuracy of indexer data.
+
+**Related:**
+- [Kaspa walkthrough](/docs/walkthroughs/kaspa-wallet/)
+
+---
+
+## Polkadot (DOT) and Kusama (KSM) Questions
+
+### Why did Polkadot or Kusama show "Error while obtaining Polkadot transactions"?
+
+**Answer:**
+
+Before ZelCore 8.39.0, Polkadot and Kusama transaction history could fail to load with the error "Error while obtaining Polkadot transactions". This is fixed in 8.39.0, and the history loads again. Update ZelCore to the latest version if you still see the error.
+
+**Related:**
+- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
+
+---

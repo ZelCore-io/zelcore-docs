@@ -15,6 +15,8 @@ const items = [
   { question: `How often should I check my Flux Node, and what should I monitor?`, answer: `Regular monitoring prevents issues before they cause DOS or EXPIRED states. Here's a practical monitoring schedule:` },
   { question: `Why is my node showing the wrong IP address or not updating to my current IP?`, answer: `Node IP address issues typically occur when your public IP changes (dynamic IP) or when the node is detecting an internal/private IP instead of your public-facing IP address.` },
   { question: `How do I check what my node's current public IP address is?`, answer: `There are multiple ways to verify your node's public IP address, both from the node itself and externally:` },
+  { question: `How do I delete a FluxNode in ZelCore and free its collateral?`, answer: `Since ZelCore 8.39.0, deleting a FluxNode frees its collateral at once, with no transaction, and the node stays deleted after restarts and logins. The unspent collateral is listed under Available to lock with a Lock button. If you add a node whose collateral is already listed, ZelCore points you to Edit.` },
+  { question: `How do I use the FluxNodes map in ZelCore?`, answer: `Hover over a location to see its nodes, click a country to filter, and turn on Only my nodes to see just yours. The map follows the night or light theme and opens at once from saved data, then refreshes in the background. The tier filter on the Fluxnodes map was fixed in ZelCore 8.39.0.` },
   { question: `Where can I get help if the troubleshooting guide doesn't solve my issue?`, answer: `The Flux community offers multiple support channels. Here's where to get help and what to include in your request:` },
 ];
 

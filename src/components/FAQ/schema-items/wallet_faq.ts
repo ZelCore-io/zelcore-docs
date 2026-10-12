@@ -20,6 +20,8 @@ const items = [
   { question: `I'm getting "Failed to obtain nonce" errors when trying to send transactions. What does this mean?`, answer: `The "Failed to obtain nonce" error means ZelCore cannot retrieve the transaction counter (nonce) from the blockchain network. This is an RPC/backend connection issue, not a problem with your wallet or funds.` },
   { question: `What does "RPC error" or "Backend error" mean in ZelCore?`, answer: `RPC (Remote Procedure Call) and backend errors indicate that ZelCore cannot communicate with the blockchain network's nodes. These are connectivity issues, not problems with your wallet or cryptocurrency.` },
   { question: `My transaction keeps failing with "Error sending transaction" or "Backend proxy error." What should I do?`, answer: `"Error sending transaction" and "backend proxy error" messages indicate ZelCore cannot successfully broadcast your transaction to the blockchain network. This is usually a temporary backend connectivity issue.` },
+  { question: `My Ledger send showed "Unknown error" while the device was waiting for approval. Is this fixed?`, answer: `Yes, it is fixed in ZelCore 8.39.0. In 8.38.0, Ledger sends showed "Unknown error" while the device was still waiting for your approval, and a Ledger could get stuck on "Loading device…". From 8.39.0, sends wait for the device and the wizard notices an app you open on the device later.` },
+  { question: `Why does ZelCore ask for my PIN before Swap Now or a Fusion deposit?`, answer: `If d2FA is enabled, Swap Now and the Fusion deposit ask for your d2FA PIN before signing, the same way Send does. This applies from ZelCore 8.39.0.` },
 ];
 
 export default items;

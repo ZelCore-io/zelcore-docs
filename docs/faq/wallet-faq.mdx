@@ -1540,3 +1540,37 @@ If urgent and nothing works:
 - [Failed to obtain nonce errors](#im-getting-failed-to-obtain-nonce-errors-when-trying-to-send-transactions-what-does-this-mean)
 - [RPC/Backend error explanation](#what-does-rpc-error-or-backend-error-mean-in-zelcore)
 - [How to change backend settings](#how-do-i-change-my-backend-or-proxy-settings-in-zelcore)
+
+---
+
+## My Ledger send showed "Unknown error" while the device was waiting for approval. Is this fixed?
+
+**Answer:**
+
+Yes. It is fixed in ZelCore 8.39.0.
+
+In ZelCore 8.38.0, every Ledger send showed "Unknown error" while the Ledger was still waiting for you to approve it on the device. A Ledger could also get stuck on "Loading device…". From 8.39.0, sends wait for the device, and the wizard notices an app you open on the device later.
+
+**What to do:**
+
+1. Update ZelCore to 8.39.0 or later.
+2. Connect and unlock the Ledger, and open the app for the coin you want to send.
+3. Start the send and approve it on the device. ZelCore waits until you do.
+
+**Related:**
+- [Importing a hardware wallet](../../getting-started/import-wallet/#connect-hardware-wallet)
+
+---
+
+## Why does ZelCore ask for my PIN before Swap Now or a Fusion deposit?
+
+**Answer:**
+
+If d2FA (decentralized 2FA) is enabled, Swap Now and the Fusion deposit now ask for your d2FA PIN before signing, the same way Send does. This applies from ZelCore 8.39.0.
+
+If you are not asked for a PIN, d2FA is not enabled for your account.
+
+**Related:**
+- [Security FAQ](../../faq/security-faq/)
+
+---
