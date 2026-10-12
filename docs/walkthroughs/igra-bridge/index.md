@@ -1,8 +1,8 @@
 ---
 sidebar_position: 5
 title: How to Bridge KAS to Igra L2 Using the Igra Bridge
-description: Step-by-step guide to bridging Kaspa (KAS) to Igra L2 (iKAS) using the built-in Igra Bridge in ZelCore, plus an overview of the ZAP Auction feature.
-keywords: [zelcore, kaspa, igra, igra l2, ikas, bridge, igra bridge, zap auction]
+description: Bridge KAS to Igra L2 (iKAS) and iKAS back to KAS with the Igra Bridge built into ZelCore, plus an overview of the ZAP Auction feature.
+keywords: [zelcore, kaspa, igra, igra l2, ikas, bridge, igra bridge, ikas to kas, zap auction]
 ---
 
 # How to Bridge KAS to Igra L2 Using the Igra Bridge
@@ -74,7 +74,7 @@ Click the **From** field and enter the amount of KAS you want to bridge. The **T
 ![From field selected and highlighted with blue border](./images/04-select-from-field.jpg)
 
 :::tip
-Use the **MAX** button to bridge your entire KAS balance in one transaction. Keep in mind that you may want to retain a small amount for future L1 transaction fees.
+The **MAX** button fills in your KAS balance minus 0.05 KAS. The bridge keeps this small amount free for the network fee, so you cannot bridge your full balance. Keep in mind that you may also want to retain a small amount for future L1 transaction fees. The minimum bridge amount is 10 KAS.
 :::
 
 ---
@@ -136,6 +136,63 @@ The details page also provides access to all available actions for iKAS, includi
 
 ---
 
+## Bridging iKAS Back to KAS
+
+Version 8.39.0 adds the reverse direction. You can move iKAS from Igra L2 back to KAS on Kaspa in the same **Igra Bridge** dialog. The iKAS is burned on Igra, and the same amount of KAS is then sent to a Kaspa address you choose. The KAS typically arrives within 48-72 hours, with no guaranteed time.
+
+:::warning
+The burn cannot be undone. Your iKAS is burned as soon as the transaction confirms on Igra. KAS sent to a wrong address is lost, so check the address character by character.
+:::
+
+### Open the dialog in the iKAS to KAS direction
+
+1. Open the **Kaspa (Igra L2)** details page and select **Igra Bridge** in the **All Actions** menu. When you open the bridge from the iKAS asset, it starts in the iKAS to KAS direction.
+2. If it opens as KAS to iKAS, select the arrow button between the **From** and **To** fields to switch direction. Switching clears the amount.
+
+The **From** field now shows iKAS with your available balance, and the **To** field shows KAS at a 1:1 ratio.
+
+![Igra Bridge dialog in the iKAS to KAS direction with the receiving address and fee details](./images/11-ikas-to-kas-bridge-form.jpg)
+
+### Fill in the exit
+
+1. Enter the amount of iKAS to bridge, or select **MAX**. MAX fills in the largest amount the bridge currently allows: your balance minus a small amount kept for the Igra network fee, limited by the per-exit maximum and by the remaining bridge capacity.
+2. Under **Receive KAS at**, enter the Kaspa address that should receive the KAS. Select **Use my Kaspa address** to fill in your own Kaspa address. Only Kaspa mainnet addresses (starting with `kaspa:q` or `kaspa:p`) are accepted, and ZelCore refuses the Igra bridge's own address.
+3. Review the details that appear under the address:
+
+| Row | Meaning |
+|-----|---------|
+| **Bridge fee** | The fee charged by the bridge, in iKAS |
+| **Igra network fee** | The estimated network fee on Igra, in iKAS |
+| **Per exit** | The minimum and maximum amount for one exit |
+| **Bridge capacity (all users)** | How many exits and how much iKAS are left in the current window, and when it resets |
+
+Limits and fees are read live from the bridge, so they can change. If the fees change after you reviewed them, ZelCore asks you to check the new amounts and confirm again. If the bridge is paused, or the capacity for the current window is used up, the dialog says so and you can try again later.
+
+### Confirm the exit
+
+1. Read the warning and turn on the switch next to **I understand that the iKAS burn is irreversible and that the KAS arrives in 48–72 hours.**
+2. Select **Confirm**. A confirmation asks whether to burn the amount of iKAS on Igra and receive the same amount of KAS at the address. Select **Yes, Initiate!**.
+3. If d2FA is enabled, enter your PIN.
+
+The exit is not available for hardware wallet accounts.
+
+### Track your exits
+
+Exits made from your Igra address are listed under **Your exits** in the dialog, and the list is kept after you restart ZelCore. Each entry shows the amount, the receiving address and one of these statuses:
+
+| Status | Meaning |
+|--------|---------|
+| **Confirming on Igra** | The burn transaction has not confirmed yet |
+| **Burned, KAS in 48–72 h** | The iKAS is burned and the KAS payout is pending |
+| **KAS sent** | The KAS has been sent to your address |
+| **Failed, nothing burned** | The transaction failed and no iKAS was burned |
+| **May have been sent** | Igra did not confirm the exit in time, but it may have been sent |
+| **Not found on Igra** | The transaction could not be found on Igra |
+
+Use **Igra transaction** and **Kaspa transaction** to open each transaction in the explorer, **Refresh** to update the statuses, and **Remove** to delete an entry from the list. Removing an entry does not affect the exit itself. If an exit shows **May have been sent**, check the explorer before trying again, so you do not burn iKAS twice.
+
+---
+
 ## Bonus: ZAP Auction
 
 From the Kaspa (Igra L2) details page, click **ZAP Auction** to access the **Zealous Auctions Protocol** — a fair token launch platform on the Igra Network.
@@ -166,3 +223,4 @@ With iKAS on Igra L2, you can now:
 - **Send** and **Receive** iKAS on the Igra network
 - Participate in **ZAP Auctions** for fair token launches
 - Explore the growing Igra L2 ecosystem directly from ZelCore
+- Bridge iKAS back to KAS at any time (see [Bridging iKAS Back to KAS](#bridging-ikas-back-to-kas))

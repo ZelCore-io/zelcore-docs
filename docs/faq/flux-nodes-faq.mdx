@@ -1395,6 +1395,56 @@ Both should show the same IP address. If they don't, you have an IP detection is
 
 ---
 
+## How do I delete a FluxNode in ZelCore and free its collateral?
+
+**Answer:**
+
+Since ZelCore 8.39.0, deleting a FluxNode in ZelCore frees its collateral at once, with no transaction and no fee. Before this version, a deleted node came back at the next refresh and locked the collateral again.
+
+**What happens when you delete a node:**
+
+- ZelCore asks you to confirm. The prompt reminds you that the collateral becomes spendable on this device right away.
+- The node stays deleted after you restart ZelCore or log in again.
+- If the node is running, the prompt warns you that spending its collateral will stop it.
+
+**Where the collateral goes:**
+
+Unspent collateral from deleted nodes is listed under **Available to lock** in the FluxNodes app. Each row has a **Lock** button.
+
+- **Lock** turns the collateral back into a node on this device. No funds move, so no PIN is asked. Then set the node up under My FluxNodes.
+- **Release** sends the collateral back to your own address, minus the network fee. This frees it on all your devices. Hardware wallets cannot release in the app. Send the collateral to yourself from your Flux wallet instead.
+
+Delete only frees the collateral on the device where you deleted the node. Your other devices still lock it as a node until you release it.
+
+**If you add a node whose collateral is already listed:**
+
+ZelCore tells you the collateral is already on the list and points you to **Edit**. Use Edit to set the node's name and IP instead of adding it again.
+
+**Related:**
+- [Troubleshooting Flux Node Status Issues](../../guides/troubleshooting-flux-node-status-issues/#scenario-12-deleted-a-fluxnode-and-collateral-handling)
+
+---
+
+## How do I use the FluxNodes map in ZelCore?
+
+**Answer:**
+
+The Fluxnodes and Firo maps were rebuilt in ZelCore 8.39.0.
+
+- **Hover** over a location to see its nodes.
+- **Click a country** to filter the list to that country.
+- Turn on **Only my nodes** in the **Map Filter** to see just yours. This includes new nodes that the network list does not show yet. If none of your nodes are listed yet, the map says so. New or unconfirmed nodes appear once the network lists them.
+- The map follows the night or light theme and zooms smoothly.
+- The map opens at once from saved data and refreshes in the background.
+- In narrow windows the map sits under the node table.
+
+Fixes in 8.39.0: the tier filter on the Fluxnodes map now works, your own nodes are no longer missed when their saved IP has no port, and nodes without a known location are no longer drawn in the Gulf of Guinea.
+
+**Related:**
+- [Troubleshooting Flux Node Status Issues](../../guides/troubleshooting-flux-node-status-issues/)
+
+---
+
 ## Where can I get help if the troubleshooting guide doesn't solve my issue?
 
 **Answer:**

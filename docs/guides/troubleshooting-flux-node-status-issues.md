@@ -2236,6 +2236,39 @@ Compare to actual resources.
 
 **Timeline:** Usually corrects within 1-2 hours after benchmark restart. If persists, may need FluxOS update or configuration fix (1-2 days).
 
+### Scenario 12: Deleted a FluxNode and Collateral Handling
+
+**Symptoms:**
+- You deleted a node in ZelCore, but the collateral still appeared locked after a refresh (ZelCore 8.38.0 and earlier)
+- You want to spend, lock again, or move the collateral of a deleted node
+- Adding a node shows that its collateral is already on the list
+
+**How it works in ZelCore 8.39.0 and later:**
+
+1. Deleting a node frees its collateral at once, with no transaction. The node stays deleted after restarts and logins.
+2. The unspent collateral is listed under **Available to lock** in the FluxNodes app, with a **Lock** button. **Lock** turns it back into a node on this device and moves no funds.
+3. **Release** sends the collateral back to your own address, minus the network fee, and frees it on all your devices. Hardware wallets cannot release in the app. Send the collateral to yourself from your Flux wallet instead.
+4. Delete only frees the collateral on the device where you deleted the node. Other devices keep locking it until it is released.
+5. If you add a node whose collateral is already on the list, ZelCore points you to **Edit**. Open the node with Edit and set its name and IP there.
+
+:::note
+A node that is running stops when you spend its collateral. ZelCore warns you before you delete a running node.
+:::
+
+**Related:** [Flux Nodes FAQ: How do I delete a FluxNode and free its collateral?](../../faq/flux-nodes-faq/#how-do-i-delete-a-fluxnode-in-zelcore-and-free-its-collateral)
+
+### Scenario 13: Node Map Shows Fewer Nodes Than Expected
+
+**Symptoms:**
+- The tier filter on the Fluxnodes map showed nothing or the wrong nodes (fixed in 8.39.0)
+- Your own node is missing from the map
+
+**What to check:**
+1. Update to ZelCore 8.39.0 or later. It fixes the tier filter, finds your own nodes when their saved IP has no port, and no longer draws nodes with an unknown location in the Gulf of Guinea.
+2. Turn on **Only my nodes** in the **Map Filter**. It also shows your new nodes that the network list does not show yet.
+3. If the map says none of your nodes are on the network map yet, wait. New or unconfirmed nodes appear once the network lists them.
+4. The map opens from saved data and refreshes in the background, so give it a moment to update.
+
 ## Advanced Diagnostics
 
 ### Enable Debug Logging:

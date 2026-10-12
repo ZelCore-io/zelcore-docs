@@ -114,7 +114,7 @@ Convenient and secure access:
 
 Maximum security for large holdings:
 
-- Ledger support (Nano S, S Plus, X)
+- Ledger support (Nano S, S Plus, X), including Kaspa
 - Trezor support (One, Model T)
 - Sign transactions on hardware device
 - View-only mode for cold storage
@@ -151,12 +151,36 @@ View and manage your digital collectibles:
 
 ## Advanced Features
 
+### Tax & CSV Export
+
+Export your transaction history for tax tools or your accountant:
+
+- One export for every coin, opened from the Export CSV button on a coin's screen or from **Tax & CSV export** in the wallet menu
+- Pick the wallets, coins and period, then save one combined file or one file per coin
+- Fiat values and layouts for Koinly, CoinTracker, CoinLedger, CoinTracking, Blockpit, ZenLedger, TokenTax and more, plus neutral and accountant layouts
+- Save as CSV, XLSX or JSON, with custom column mappings and an address list for tax tools that sync by address
+- See the [Tax & CSV Export walkthrough](/docs/walkthroughs/tax-csv-export/)
+
+### Kaspa
+
+Use Kaspa and its ecosystem from ZelCore:
+
+- Send KAS or KRC-20 tokens to a KNS name such as `alice.kas`
+- Find your KRC-20 tokens, and consolidate UTXOs when an address holds many small ones
+- Import a Kaspa address from a Ledger device and send KAS
+- View Kaspa covenant tokens (KRON and KCC-20) at your address
+- Sign messages with Kaspa addresses
+- Bridge KAS to Igra L2 and iKAS back to KAS
+- See the [Kaspa walkthrough](/docs/walkthroughs/kaspa-wallet/) and the [Igra Bridge walkthrough](/docs/walkthroughs/igra-bridge/)
+
 ### FluxNodes
 
 Operate nodes for the Flux ecosystem:
 
 - Monitor node status
 - Manage multiple nodes
+- Delete a node to free its collateral at once, without a transaction
+- Node map for the Fluxnodes and Firo networks: hover a location for its nodes, click a country to filter, and use **Only my nodes** to see just yours. It follows the night or light theme and opens at once from saved data
 - Earnings tracking
 - One-click setup tools
 - Comprehensive node analytics
