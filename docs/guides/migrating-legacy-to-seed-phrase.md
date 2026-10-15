@@ -676,7 +676,7 @@ For EACH asset:
    - [Wallet FAQ](../../faq/wallet-faq/)
 
 3. **Contact support:**
-   - Zelcore support: support@zel.network
+   - Zelcore support: open a ticket at [support.zelcore.io](https://support.zelcore.io)
    - Discord: discord.gg/runonflux
    - Remember: Support will NEVER ask for your seed phrase
 

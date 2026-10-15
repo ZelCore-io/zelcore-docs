@@ -192,7 +192,7 @@ Sometimes providers experience technical issues or maintenance:
 
 2. **Check Zelcore official channels:**
    - Discord: Official Zelcore server
-   - Twitter: @zelcore
+   - X: [@zelcore_io](https://x.com/zelcore_io)
    - Telegram: Zelcore community
 
 **If provider maintenance is ongoing:** Wait for service restoration, then contact provider support if issue persists.
@@ -730,8 +730,8 @@ Contact Zelcore support (not provider support) if:
 
 **Zelcore Support Resources:**
 - Discord: Official Zelcore Discord server (best for community help)
-- Email: support@zel.network
-- Twitter: @zelcore (for status updates and announcements)
+- Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
+- X: [@zelcore_io](https://x.com/zelcore_io) (for status updates and announcements)
 
 ## Understanding Fusion Architecture
 

@@ -655,7 +655,7 @@ Yes. KDA has the same value regardless of which chain it's on. The chain is just
 5. **Try EckoWallet** as backup/verification tool
 6. **Contact Zelcore Support:**
    - Discord: Official Zelcore server
-   - Email: support@zel.network
+   - Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
    - Include: Transaction hash, chain info, error messages
 
 **Kadena-specific resources:**

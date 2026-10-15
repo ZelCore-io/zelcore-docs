@@ -511,7 +511,7 @@ If you continue experiencing installation issues:
 **Zelcore Support:**
 - For node management within Zelcore app
 - Discord: Official Zelcore channels
-- Email: support@zel.network
+- Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
 
 **What to include in support requests:**
 - Operating system and version

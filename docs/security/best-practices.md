@@ -171,7 +171,7 @@ For maximum security, especially with large holdings:
 - Asking for seed phrases or private keys
 - Offering to "fix" wallet issues
 
-**Protection**: Only contact support through [official channels](https://support.runonflux.io).
+**Protection**: Only contact support through [official channels](https://support.zelcore.io).
 
 #### 2. Phishing Websites
 - Fake Zelcore websites (zelc0re.io, ze1core.io, etc.)

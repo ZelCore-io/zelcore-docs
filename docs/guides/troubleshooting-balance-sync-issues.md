@@ -235,8 +235,8 @@ Contact Zelcore support if:
 
 **Support Resources:**
 - Discord: Official Zelcore Discord server
-- Email: support@zel.network
-- Twitter: @zelcore for status updates
+- Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
+- X: [@zelcore_io](https://x.com/zelcore_io) for status updates
 
 ## Related Documentation
 

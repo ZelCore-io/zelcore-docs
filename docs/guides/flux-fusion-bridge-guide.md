@@ -260,7 +260,7 @@ Before initiating a Flux Fusion bridge swap, verify the following:
 
 4. **Check Zelcore official channels:**
    - Discord: May have announcements about provider issues
-   - Twitter: @zelcore for service updates
+   - X: [@zelcore_io](https://x.com/zelcore_io) for service updates
 
 5. **Consider network/VPN issues:**
    - Some providers may have regional restrictions
@@ -1311,8 +1311,8 @@ Contact Zelcore support if:
 
 **Zelcore Support:**
 - Discord: Official Zelcore Discord server
-- Email: support@zel.network
-- Twitter: @zelcore
+- Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
+- X: [@zelcore_io](https://x.com/zelcore_io)
 
 ### Contact Flux Support
 

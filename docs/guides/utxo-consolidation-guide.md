@@ -439,7 +439,7 @@ Contact Zelcore support if:
 
 **Support Resources:**
 - Discord: Official Zelcore Discord server
-- Email: support@zel.network
+- Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
 - Community: Zelcore community forums
 
 ## Conclusion
