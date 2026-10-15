@@ -7,6 +7,10 @@ keywords: [kadena wallet, kda guide, kadena chain transfer, zelcore kadena]
 
 # Kadena (KDA) Complete Guide
 
+:::warning Kadena organization wound down (October 2025)
+On 21 October 2025 the Kadena organization announced that it was ceasing business operations and active maintenance of the Kadena blockchain. It said the network is run by independent miners and maintainers and would stay online while they support it. Several exchanges, including OKX, removed KDA trading afterwards ([Decrypt, 21 Oct 2025](https://decrypt.co/345276/kadena-token-crashes-company-behind-network-closing); [Decrypt, 22 Oct 2025](https://decrypt.co/345392/crypto-exchanges-delisting-kadena-65-price-plunge-shutdown-plans)). Before you send KDA to an exchange, check that it still supports KDA deposits. The steps below still apply to KDA in Zelcore.
+:::
+
 ## Overview
 
 Kadena is unique among blockchain networks because it uses a multi-chain architecture called "Chainweb." Unlike most blockchains that have a single chain, Kadena has multiple parallel chains (Chain 0, Chain 1, Chain 2, etc.) that work together. This guide explains how Kadena's chain system works, how to manage KDA in Zelcore, and how to resolve common issues related to chain selection and transfers.
