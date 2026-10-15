@@ -81,3 +81,47 @@ test('faq parity: matching questions pass, drift fails both ways', () => {
   const extra = `${ok.slice(0, -2)}\n  { question: 'Gone?', answer: 'x' },\n];`;
   assert.ok(faqParityProblems(mdx, extra, 'demo').some((m) => m.includes('Gone?')));
 });
+
+test('page: search noindex check is attribute-order independent', () => {
+  const swapped = '<meta content="noindex, follow" name="robots">';
+  assert.deepEqual(pageProblems(html({ head: swapped }), 'search/index.html'), []);
+  const split = '<meta name="robots" content="index"><meta name="x" content="noindex">';
+  assert.ok(pageProblems(html({ head: split }), 'search/index.html').some((m) => m.includes('noindex')));
+});
+
+test('sitemap: invalid <loc> is a problem, not a crash', () => {
+  const p = sitemapProblems(sitemap(url('not a url')));
+  assert.ok(p.some((m) => m.includes('invalid <loc>') && m.includes('not a url')));
+});
+
+test('sitemap: banned paths match with or without trailing slash', () => {
+  const p = sitemapProblems(sitemap(url('https://docs.zelcore.io/search'), url('https://docs.zelcore.io/markdown-page')));
+  assert.ok(p.some((m) => m.includes('/search')));
+  assert.ok(p.some((m) => m.includes('/markdown-page')));
+  assert.deepEqual(sitemapProblems(sitemap(url('https://docs.zelcore.io/searching/'))), []);
+});
+
+test('page: breadcrumb items without a string item are ignored', () => {
+  const head = ld({ '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Docs', item: { '@id': 'https://docs.zelcore.io/docs' } },
+    { '@type': 'ListItem', position: 2, name: 'A' }] });
+  assert.deepEqual(pageProblems(html({ head }), 'a/index.html'), []);
+});
+
+test('sitemap: more than 10 URLs and no lastmod is a problem', () => {
+  const urls = Array.from({ length: 12 }, (_, i) => url(`https://docs.zelcore.io/docs/p${i}/`));
+  assert.ok(sitemapProblems(sitemap(...urls)).some((m) => m.includes('no lastmod')));
+  assert.deepEqual(sitemapProblems(sitemap(url('https://docs.zelcore.io/a/'))), []);
+});
+
+test('faq parity: headings inside fenced code are ignored; only \\` \\" \\\' \\\\ are unescaped', () => {
+  const mdx = '## Real?\n\n```bash\n## not a heading?\n```\n';
+  const ts = 'const i = [{ question: `Real?`, answer: `x` }];';
+  assert.deepEqual(faqParityProblems(mdx, ts, 'demo'), []);
+  const escMdx = '## Use \\n here?\n';
+  const escTs = 'const i = [{ question: `Use \\\\n here?`, answer: `x` }];';
+  assert.deepEqual(faqParityProblems(escMdx, escTs, 'demo'), []);
+  const quote = '## Isn\'t "it" ok?\n';
+  const quoteTs = "const i = [{ question: 'Isn\\'t \"it\" ok?', answer: 'x' }];";
+  assert.deepEqual(faqParityProblems(quote, quoteTs, 'demo'), []);
+});
