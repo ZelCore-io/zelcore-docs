@@ -7,7 +7,7 @@ keywords: [crypto wallet security, self custodial wallet, private cryptocurrency
 
 # Security Best Practices
 
-Protecting your cryptocurrency assets requires following security best practices. Zelcore provides multiple layers of security, but your habits play a crucial role in keeping your funds safe.
+Keep your seed phrase offline on paper or metal, never share it with anyone (Zelcore staff will never ask for it) and never store it digitally. Transactions are irreversible and Zelcore cannot recover stolen funds, so also protect your device, use a strong password and authentication, check every address before you send and learn to recognize scams.
 
 **Important:** Cryptocurrency transactions are irreversible by design. Once funds are sent from your wallet, they cannot be recovered, reversed, or traced back by Zelcore or any centralized authority. Prevention is your only protection.
 
