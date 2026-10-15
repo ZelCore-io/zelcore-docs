@@ -12,8 +12,10 @@ type Props = WrapperProps<typeof MetadataType>;
 export default function MetadataWrapper(props: Props): React.ReactNode {
   const {metadata} = useDoc();
   const {siteConfig} = useDocusaurusContext();
+  // Must equal the page canonical, which carries a trailing slash (trailingSlash: true).
+  const permalink = metadata.permalink.endsWith('/') ? metadata.permalink : `${metadata.permalink}/`;
   const jsonLd = buildTechArticle({
-    url: `${siteConfig.url}${metadata.permalink}`,
+    url: `${siteConfig.url}${permalink}`,
     title: metadata.title,
     description: metadata.description,
     lastUpdatedAt: metadata.lastUpdatedAt ?? undefined,
