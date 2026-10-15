@@ -1,6 +1,6 @@
 ---
 sidebar_position: 22
-title: ZelCore for Windows — Download and Setup Guide
+title: "Zelcore for Windows: Download and Setup"
 description: "How to download, install, and set up ZelCore crypto wallet on Windows. Complete guide for Windows 10 and Windows 11 desktop wallet setup."
 keywords: [windows wallet, zelcore windows, crypto wallet desktop, zelcore download windows]
 ---

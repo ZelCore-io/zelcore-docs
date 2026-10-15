@@ -8,6 +8,7 @@ import React, {
   isValidElement,
 } from 'react';
 import Head from '@docusaurus/Head';
+import {jsonLdString} from '@site/src/lib/json-ld';
 import styles from './styles.module.css';
 
 interface FAQItemProps {
@@ -101,7 +102,7 @@ function FAQ({ children }: FAQProps): ReactNode {
   return (
     <div className={styles.faq}>
       <Head>
-        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+        <script type="application/ld+json">{jsonLdString(jsonLd)}</script>
       </Head>
       {children}
     </div>

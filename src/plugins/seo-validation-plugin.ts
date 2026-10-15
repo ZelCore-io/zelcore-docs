@@ -66,10 +66,10 @@ export default function seoValidationPlugin(context: LoadContext): Plugin {
         if (hasTitle) {
           const titleMatch = fmContent.match(/^title:\s*['"]?(.+?)['"]?\s*$/m);
           if (titleMatch) {
-            const title = titleMatch[1];
-            if (title.length > 60) {
+            const rendered = `${titleMatch[1]} | ${context.siteConfig.title}`;
+            if (rendered.length > 60) {
               warnings.push(
-                `[SEO] ${relativePath}: Title too long (${title.length} chars, max 60)`,
+                `[SEO] ${relativePath}: Rendered title too long (${rendered.length} chars, max 60): ${rendered}`,
               );
             }
           }

@@ -3,6 +3,7 @@ sidebar_position: 6
 title: Buy bStocks on ZelCore Desktop
 description: "Step-by-step walkthrough for adding tokenized US stocks (bStocks) to ZelCore Desktop and buying them with USDT through the Binance Web3 swap provider."
 keywords: [zelcore, bstocks, tokenized stocks, buy stocks with usdt, binance web3 swap, bnb smart chain, msftb, desktop walkthrough]
+image: ./images/06-microsoft-bstock-card-chart.webp
 ---
 
 # Buy bStocks on ZelCore Desktop
@@ -26,7 +27,7 @@ If you are new to bStocks, read [bStocks in ZelCore](/docs/guides/bstocks-tokeni
 
 The first time you open a portfolio where bStocks are available, ZelCore shows a one-time banner: **US stocks, now in your wallet**.
 
-![bStocks intro banner over the Portfolio Overview](./images/01-bstocks-intro-banner.jpg)
+![bStocks intro banner over the Portfolio Overview](./images/01-bstocks-intro-banner.webp)
 
 Click **Browse bStocks** to open the Add bStocks dialog directly. **Maybe later** or the **X** closes the banner and it will not appear again for this account on this device.
 
@@ -40,7 +41,7 @@ You can reach the same dialog at any time from **Portfolio → Manage Assets →
 
 The dialog lists every available stock and ETF with its company name, ticker, live USD price and 24h change.
 
-![Add bStocks dialog listing stocks with prices and Add buttons](./images/02-add-bstocks-dialog.jpg)
+![Add bStocks dialog listing stocks with prices and Add buttons](./images/02-add-bstocks-dialog.webp)
 
 - The dropdown at the top selects the **wallet** the stock will be added to (here **Payments**). Choose the wallet that holds your USDT or BNB.
 - The line under the dropdown is the issuer disclosure: *Backed 1:1 by real shares. Issued by BTech Holdings Ltd under an FSRA-approved prospectus (ADGM).*
@@ -54,11 +55,11 @@ Tickers follow the underlying stock plus a **B** suffix: AMDB, AAPLB, AMZNB, GOO
 
 Click **Add** on a row. A green toast confirms the addition and the row switches to **Added**.
 
-![Alphabet added toast and the row marked Added](./images/03-alphabet-added-toast.jpg)
+![Alphabet added toast and the row marked Added](./images/03-alphabet-added-toast.webp)
 
 Scroll to add as many as you like. In the example, Microsoft (MSFTB) is added next.
 
-![Microsoft bStocks added to your Portfolio](./images/04-add-microsoft-bstock.jpg)
+![Microsoft bStocks added to your Portfolio](./images/04-add-microsoft-bstock.webp)
 
 Close the dialog with the **X** when you are done. The portfolio refreshes with the new assets.
 
@@ -68,7 +69,7 @@ Close the dialog with the **X** when you are done. The portfolio refreshes with 
 
 Back on **Portfolio Overview**, click the filter icon next to **Hide Zero Sum** and type `bsto` to show only bStocks. Each entry is named after the company with a *(bStocks)* suffix and carries the BSC badge on its icon.
 
-![Portfolio filtered to Microsoft and Alphabet bStocks](./images/05-portfolio-filter-bstocks.jpg)
+![Portfolio filtered to Microsoft and Alphabet bStocks](./images/05-portfolio-filter-bstocks.webp)
 
 ---
 
@@ -76,7 +77,7 @@ Back on **Portfolio Overview**, click the filter icon next to **Hide Zero Sum** 
 
 Click a bStock row to expand it. The card shows 24h volume, a price chart with **24h / 7d / 1m / 3m / 1yr / all** ranges, and the action buttons **Buy, Swap, Receive, Send** and **Details**.
 
-![Microsoft bStock card with price chart and action buttons](./images/06-microsoft-bstock-card-chart.jpg)
+![Microsoft bStock card with price chart and action buttons](./images/06-microsoft-bstock-card-chart.webp)
 
 Click **Swap** to buy more of this stock, or **Details** to open the full coin page, which includes the **Tokenized US equity** chip with the current share multiplier and a **Learn more** link.
 
@@ -90,7 +91,7 @@ Maximum Supply, Circulating Supply and Market Cap show 0 for bStocks. Those figu
 
 **Swap Tokens** opens with the bStock preselected. The example starts with MSFTB on the *sell* side, so click the **⇄** button in the middle to move MSFTB to the *buy* side.
 
-![Swap Tokens with MSFTB on the buy side and Select token on the sell side](./images/07-swap-tokens-select-token.jpg)
+![Swap Tokens with MSFTB on the buy side and Select token on the sell side](./images/07-swap-tokens-select-token.webp)
 
 Click **Select token** on the left to choose what you pay with.
 
@@ -100,7 +101,7 @@ Click **Select token** on the left to choose what you pay with.
 
 The **Select asset** dialog lists every asset in the selected wallet with its balance. Search for and pick **USDT (BSC)**. BNB (BSC) BEP20 also works.
 
-![Select asset dialog listing wallet balances](./images/08-select-asset-dialog.jpg)
+![Select asset dialog listing wallet balances](./images/08-select-asset-dialog.webp)
 
 :::warning
 Only BSC assets can be swapped directly into a bStock. If your USDT is on another chain (Ethereum, Solana, Tron), swap it to USDT on BSC first.
@@ -112,7 +113,7 @@ Only BSC assets can be swapped directly into a bStock. If your USDT is on anothe
 
 Type the USDT amount, or click **Max**. The example uses 10 USDT. ZelCore fetches quotes while the spinner is showing, then enables **Next step**.
 
-![10 USDT entered on the sell side](./images/09-enter-usdt-amount.jpg)
+![10 USDT entered on the sell side](./images/09-enter-usdt-amount.webp)
 
 **Show Pair Limits** reveals the minimum and maximum amounts for this pair.
 
@@ -122,7 +123,7 @@ Type the USDT amount, or click **Max**. The example uses 10 USDT. ZelCore fetche
 
 **Select Provider** lists every route that can fill the swap. **Binance Web3** is the dedicated bStocks route and is tagged **DEX** and, here, **BEST RATE**. Rango also found the pair through public liquidity pools at a slightly worse rate.
 
-![Select Provider with Binance Web3 marked BEST RATE](./images/10-select-provider-binance-web3.jpg)
+![Select Provider with Binance Web3 marked BEST RATE](./images/10-select-provider-binance-web3.webp)
 
 Both are **Float Rate** providers: the quote is indicative and the received amount can differ slightly. Click Binance Web3 and then **Next step**.
 
@@ -132,7 +133,7 @@ Both are **Float Rate** providers: the quote is indicative and the received amou
 
 Check everything before you sign.
 
-![Transaction Summary showing provider, rate, fee and amount to receive](./images/11-transaction-summary.jpg)
+![Transaction Summary showing provider, rate, fee and amount to receive](./images/11-transaction-summary.webp)
 
 | Field | Meaning |
 |-------|---------|
@@ -151,7 +152,7 @@ Click **Swap Now**. If this wallet has never swapped USDT through this router, Z
 
 On success the top bar shows **Swap transaction sent!** and you land on the swap history page. The new order appears in **Transaction in progress…** with status **NEW**, above the full **Transaction History** table.
 
-![Swap transaction sent with the order in progress and the history table](./images/12-swap-transaction-sent.jpg)
+![Swap transaction sent with the order in progress and the history table](./images/12-swap-transaction-sent.webp)
 
 bStock swaps usually settle within a minute or two. The status changes to **COMPLETE** once the tokens are in your wallet. **Start a new exchange** takes you back to the swap form.
 
@@ -161,7 +162,7 @@ bStock swaps usually settle within a minute or two. The status changes to **COMP
 
 Click any row in the history to open **Transaction Details**: status, amounts, fiat value, provider, purchase rate, your BSC address and the sell transaction ID. **Track Exchange** opens the transaction in a block explorer and **Support** opens the provider's help page.
 
-![Transaction Details for a completed USDT to MSFTB swap](./images/13-transaction-details.jpg)
+![Transaction Details for a completed USDT to MSFTB swap](./images/13-transaction-details.webp)
 
 Your MSFTB balance is now visible on the Portfolio Overview and on the coin card from Step 5.
 

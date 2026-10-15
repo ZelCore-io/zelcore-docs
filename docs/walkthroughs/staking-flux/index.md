@@ -3,6 +3,7 @@ sidebar_position: 2
 title: How to Stake FLUX with ZelCore Earn
 description: Step-by-step guide to staking FLUX using the ZelCore Earn feature, including wallet selection, lockup tiers, and Auto-Reinvest.
 keywords: [zelcore, flux, staking, earn, apy, lockup, auto-reinvest]
+image: ./images/01-earn-dashboard.webp
 ---
 
 # How to Stake FLUX with ZelCore Earn
@@ -29,7 +30,7 @@ The Earn dashboard displays an overview of your staking activity:
 - **Available to Stake** — Your remaining unstaked FLUX balance
 - **Est. APY** — The current estimated annual percentage yield
 
-![Earn Dashboard overview](./images/01-earn-dashboard.jpg)
+![Earn Dashboard overview](./images/01-earn-dashboard.webp)
 
 The dashboard also lists all your active staking positions with their lockup period, status, expiry, and Auto-Reinvest setting.
 
@@ -47,7 +48,7 @@ Before staking, you need to select which wallet to stake from and which blockcha
 
 Click on the **Selected wallet** dropdown to choose the wallet containing your FLUX.
 
-![Select wallet modal showing available wallets and balances](./images/02-select-wallet.jpg)
+![Select wallet modal showing available wallets and balances](./images/02-select-wallet.webp)
 
 Each wallet displays its name and total balance, making it easy to choose the right one.
 
@@ -55,7 +56,7 @@ Each wallet displays its name and total balance, making it easy to choose the ri
 
 Click on the **Selected Chain** dropdown to view supported chains.
 
-![Supported Chains dialog showing Solana, Ethereum, and Flux](./images/03-supported-chains.jpg)
+![Supported Chains dialog showing Solana, Ethereum, and Flux](./images/03-supported-chains.webp)
 
 ZelCore Earn currently supports staking on the following chains:
 
@@ -75,7 +76,7 @@ Click the **Stake** button in the top-right corner to begin the staking process.
 
 Enter the amount of FLUX you want to stake. You can also click **MAX** to stake your full available balance.
 
-![Enter amount to stake screen with 75 FLUX entered](./images/04-enter-stake-amount.jpg)
+![Enter amount to stake screen with 75 FLUX entered](./images/04-enter-stake-amount.webp)
 
 :::tip
 The minimum stake amount is **50 FLUX**. Your available balance is shown below the input field.
@@ -89,7 +90,7 @@ Click **Continue** to proceed.
 
 Choose your preferred lockup period. Longer lockup periods offer lower fees and higher estimated APY.
 
-![Lockup tier options showing 3 months, 6 months, and 1 year](./images/05-lockup-tiers.jpg)
+![Lockup tier options showing 3 months, 6 months, and 1 year](./images/05-lockup-tiers.webp)
 
 | Lockup Period | Fee % | Est. APY |
 |---------------|-------|----------|
@@ -99,7 +100,7 @@ Choose your preferred lockup period. Longer lockup periods offer lower fees and 
 
 Select your preferred tier. In this example, we select **1 year** for the lowest fee and highest APY.
 
-![1 year lockup selected with Auto-Reinvest enabled](./images/06-select-one-year-lockup.jpg)
+![1 year lockup selected with Auto-Reinvest enabled](./images/06-select-one-year-lockup.webp)
 
 ### Auto-Reinvest
 
@@ -117,7 +118,7 @@ Click **Next** to proceed.
 
 Review the summary of your staking configuration before confirming.
 
-![Confirm Stake summary showing all staking details](./images/07-confirm-stake.jpg)
+![Confirm Stake summary showing all staking details](./images/07-confirm-stake.webp)
 
 | Setting | Value |
 |---------|-------|
@@ -143,7 +144,7 @@ Click **Confirm Stake** to submit your staking transaction.
 
 After submitting, the transaction is processed and you'll see a success screen.
 
-![Successfully staked 75 FLUX confirmation screen](./images/08-stake-successful.jpg)
+![Successfully staked 75 FLUX confirmation screen](./images/08-stake-successful.webp)
 
 The confirmation displays:
 - A **TX ID** for your transaction
@@ -156,7 +157,7 @@ The confirmation displays:
 
 After returning to the dashboard, you can see your new staking position in the list. New stakes will initially show a **Confirming** or **Registered** status before transitioning to **Active**.
 
-![Dashboard showing new staking position with Confirming and Registered statuses](./images/09-dashboard-new-position.jpg)
+![Dashboard showing new staking position with Confirming and Registered statuses](./images/09-dashboard-new-position.webp)
 
 | Status | Meaning |
 |--------|---------|

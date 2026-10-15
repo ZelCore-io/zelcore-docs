@@ -1,11 +1,12 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import {jsonLdString} from './src/lib/json-ld';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Zelcore Documentation',
+  title: 'Zelcore Docs',
   tagline: 'Your Secure, Simple Crypto Wallet for All Devices - Multichain & Self-Custodial',
   favicon: 'img/favicon.ico',
 
@@ -45,23 +46,8 @@ const config: Config = {
     {
       tagName: 'link',
       attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.googleapis.com',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-        crossorigin: 'anonymous',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap',
+        rel: 'apple-touch-icon',
+        href: '/img/apple-touch-icon.png',
       },
     },
     {
@@ -69,10 +55,11 @@ const config: Config = {
       attributes: {
         type: 'application/ld+json',
       },
-      innerHTML: JSON.stringify({
+      innerHTML: jsonLdString({
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        name: 'ZelCore',
+        '@id': 'https://zelcore.io/#organization',
+        name: 'Zelcore',
         url: 'https://zelcore.io',
         logo: 'https://docs.zelcore.io/img/logo.svg',
         sameAs: [
@@ -84,8 +71,21 @@ const config: Config = {
     },
   ],
 
+  // GA4 is set up in a client module so the gtag.js library loads after idle.
+  clientModules: ['./src/clientModules/analytics.ts'],
+
   plugins: [
     './src/plugins/seo-validation-plugin.ts',
+    './src/plugins/llms-plugin.mjs',
+    './src/plugins/font-preload-plugin.ts',
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // GitHub Pages cannot send a 301. These pages carry a canonical and a
+        // meta refresh; the owner mirrors each row as a Cloudflare 301.
+        redirects: [{from: '/docs', to: '/docs/intro/'}],
+      },
+    ],
   ],
 
   // Offline full-text search. Builds a lunr index at build time and serves it
@@ -116,7 +116,7 @@ const config: Config = {
       'data-title': 'Ask Zelcore AI',
       'data-subject': 'Zelcore',
       'data-launcher-label': 'Ask AI',
-      'data-accent': '#3786fa',
+      'data-accent': '#1b63ef',
       'data-logo': 'https://zelcore.io/assets/brand/icon/icon-dark.svg',
       'data-logo-light': 'https://zelcore.io/assets/brand/icon/icon-light.svg',
       'data-suggestions': 'What is Zelcore?|How do I restore my Zelcore wallet?|Which assets does Zelcore support?|How do I use Zelcore with Flux?',
@@ -131,17 +131,15 @@ const config: Config = {
           routeBasePath: '/docs',
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/ZelCore-io/zelcore-docs/tree/main/',
+          showLastUpdateTime: true,
         },
         blog: false,
-        gtag: {
-          trackingID: 'G-ZTCBXNFDHJ',
-          anonymizeIP: true,
-        },
         sitemap: {
           lastmod: 'date',
           changefreq: null,
           priority: null,
           filename: 'sitemap.xml',
+          ignorePatterns: ['/search/**', '/markdown-page/**'],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -154,8 +152,7 @@ const config: Config = {
     metadata: [
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@zelcore_io' },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:site_name', content: 'Zelcore Documentation' },
+      { property: 'og:site_name', content: 'Zelcore Docs' },
     ],
     image: 'img/og-default.png',
     // Keep the table of contents useful on long walkthroughs.

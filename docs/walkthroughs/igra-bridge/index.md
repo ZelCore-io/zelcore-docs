@@ -1,8 +1,9 @@
 ---
 sidebar_position: 5
-title: How to Bridge KAS to Igra L2 Using the Igra Bridge
+title: "Bridge KAS to Igra L2 with the Igra Bridge"
 description: Bridge KAS to Igra L2 (iKAS) and iKAS back to KAS with the Igra Bridge built into ZelCore, plus an overview of the ZAP Auction feature.
 keywords: [zelcore, kaspa, igra, igra l2, ikas, bridge, igra bridge, ikas to kas, zap auction]
+image: ./images/03-igra-bridge-modal.webp
 ---
 
 # How to Bridge KAS to Igra L2 Using the Igra Bridge
@@ -23,7 +24,7 @@ This guide walks you through bridging your Kaspa (KAS) tokens to Igra L2 (iKAS) 
 
 Start from the **Portfolio Overview** in ZelCore. Your wallet displays all added assets along with their current balances, 24-hour price changes, and 7-day trends.
 
-![Portfolio overview showing Kaspa assets and total balance](./images/01-portfolio-overview.jpg)
+![Portfolio overview showing Kaspa assets and total balance](./images/01-portfolio-overview.webp)
 
 In this example, the **Scholarship** wallet holds three Kaspa-related assets:
 
@@ -39,7 +40,7 @@ In this example, the **Scholarship** wallet holds three Kaspa-related assets:
 
 Click on **Kaspa (Igra L2)** in your portfolio to expand its details. This reveals market data, a price chart, and action buttons.
 
-![Kaspa Igra L2 expanded view showing price chart and action buttons](./images/02-kaspa-igra-l2-details.jpg)
+![Kaspa Igra L2 expanded view showing price chart and action buttons](./images/02-kaspa-igra-l2-details.webp)
 
 The expanded view shows:
 
@@ -55,7 +56,7 @@ Click **Details** to navigate to the full asset details page where the Igra Brid
 
 On the Kaspa (Igra L2) details page, find **Igra Bridge** in the **All Actions** menu on the left side. Click it to open the bridge modal.
 
-![Igra Bridge modal showing From KAS to iKAS fields](./images/03-igra-bridge-modal.jpg)
+![Igra Bridge modal showing From KAS to iKAS fields](./images/03-igra-bridge-modal.webp)
 
 The Igra Bridge modal displays:
 
@@ -71,7 +72,7 @@ The Igra Bridge modal displays:
 
 Click the **From** field and enter the amount of KAS you want to bridge. The **To** field automatically mirrors the amount since the bridge uses a 1:1 ratio.
 
-![From field selected and highlighted with blue border](./images/04-select-from-field.jpg)
+![From field selected and highlighted with blue border](./images/04-select-from-field.webp)
 
 :::tip
 The **MAX** button fills in your KAS balance minus 0.05 KAS. The bridge keeps this small amount free for the network fee, so you cannot bridge your full balance. Keep in mind that you may also want to retain a small amount for future L1 transaction fees. The minimum bridge amount is 10 KAS.
@@ -88,7 +89,7 @@ A confirmation dialog appears asking **"Proceed with bridging KAS to iKAS?"** wi
 - **No, Back** — Cancel and return to the bridge form
 - **Yes, Initiate!** — Proceed with the bridge transaction
 
-![Bridge form with 20 KAS entered and confirmation dialog](./images/05-enter-amount-and-confirm.jpg)
+![Bridge form with 20 KAS entered and confirmation dialog](./images/05-enter-amount-and-confirm.webp)
 
 Click **Yes, Initiate!** to submit the transaction.
 
@@ -98,7 +99,7 @@ Click **Yes, Initiate!** to submit the transaction.
 
 After confirming, a loading spinner appears while the transaction is being processed and broadcast to the network.
 
-![Loading spinner while transaction is being processed](./images/06-transaction-processing.jpg)
+![Loading spinner while transaction is being processed](./images/06-transaction-processing.webp)
 
 This typically takes just a few seconds.
 
@@ -113,11 +114,11 @@ Once the transaction is successfully sent, a **"Transaction Sent!"** screen appe
 - A **Click to copy** option for the TX ID
 - A **Show in explorer** button to view the transaction on the blockchain explorer
 
-![Transaction Sent screen with QR code and TX ID](./images/07-transaction-sent.jpg)
+![Transaction Sent screen with QR code and TX ID](./images/07-transaction-sent.webp)
 
 Shortly after, you'll receive an **Incoming Transaction** notification confirming that the iKAS has been received in your wallet.
 
-![Incoming Transaction notification for Kaspa Igra L2](./images/08-incoming-transaction-notification.jpg)
+![Incoming Transaction notification for Kaspa Igra L2](./images/08-incoming-transaction-notification.webp)
 
 ---
 
@@ -125,7 +126,7 @@ Shortly after, you'll receive an **Incoming Transaction** notification confirmin
 
 Navigate back to the Kaspa (Igra L2) details page. Your **Scholarship** wallet balance now reflects the bridged amount.
 
-![Updated Kaspa Igra L2 details page showing new balance of 20 iKAS](./images/09-updated-balance-details.jpg)
+![Updated Kaspa Igra L2 details page showing new balance of 20 iKAS](./images/09-updated-balance-details.webp)
 
 In this example, the wallet now shows:
 
@@ -151,7 +152,7 @@ The burn cannot be undone. Your iKAS is burned as soon as the transaction confir
 
 The **From** field now shows iKAS with your available balance, and the **To** field shows KAS at a 1:1 ratio.
 
-![Igra Bridge dialog in the iKAS to KAS direction with the receiving address and fee details](./images/11-ikas-to-kas-bridge-form.jpg)
+![Igra Bridge dialog in the iKAS to KAS direction with the receiving address and fee details](./images/11-ikas-to-kas-bridge-form.webp)
 
 ### Fill in the exit
 
@@ -197,7 +198,7 @@ Use **Igra transaction** and **Kaspa transaction** to open each transaction in t
 
 From the Kaspa (Igra L2) details page, click **ZAP Auction** to access the **Zealous Auctions Protocol** — a fair token launch platform on the Igra Network.
 
-![ZAP Auction modal explaining the Zealous Auctions Protocol](./images/10-zap-auction-modal.jpg)
+![ZAP Auction modal explaining the Zealous Auctions Protocol](./images/10-zap-auction-modal.webp)
 
 ZAP runs timed auctions where tokens are released gradually and everyone pays the same uniform clearing price. No bots, no frontrunning.
 

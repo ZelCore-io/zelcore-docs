@@ -1,6 +1,6 @@
 ---
 sidebar_position: 20
-title: Best Multi-Crypto Wallet — Why ZelCore Stands Out
+title: "Multi-Crypto Wallet Comparison"
 description: "Comparing the best multi-crypto wallets in 2026. See how ZelCore's multi-chain support, security, and features compare to Exodus, Trust Wallet, and others."
 keywords: [best multi crypto wallets, best multi coin wallet, multi chain wallet comparison, best crypto wallet]
 ---

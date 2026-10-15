@@ -3,6 +3,7 @@ sidebar_position: 1
 title: Zelcore Wallet Setup Guide
 description: Complete guide to setting up a new Zelcore wallet account, from initial registration to accessing your portfolio.
 keywords: [zelcore setup, wallet setup guide, multi coin wallet setup, crypto wallet getting started]
+image: ./images/zelcore-setup/01-welcome-screen.webp
 ---
 
 # Zelcore Wallet Setup Guide
@@ -28,7 +29,7 @@ When you open Zelcore for the first time, you'll see the Welcome screen with the
 - **Login using legacy mode** — For existing legacy accounts
 - **Chat with FluxAI** — Access AI assistance
 
-![Welcome Screen](./images/zelcore-setup/01-welcome-screen.jpg)
+![Welcome Screen](./images/zelcore-setup/01-welcome-screen.webp)
 
 Click **"Get Started"** to begin creating a new wallet.
 
@@ -48,7 +49,7 @@ On the Register screen, you can either create a new wallet or sync an existing o
 | 18 Words | Enhanced |
 | 24 Words | Maximum (Recommended) |
 
-![Seed Phrase Options](./images/zelcore-setup/02-seed-phrase-options.jpg)
+![Seed Phrase Options](./images/zelcore-setup/02-seed-phrase-options.webp)
 
 Choose your preferred length, then click either:
 - **Generate Seed Phrase** — Create a new wallet
@@ -68,7 +69,7 @@ Your seed phrase is the master key to all funds in your wallet. Handle it with e
 3. Never share your seed phrase with anyone
 4. Never store it digitally (screenshots, cloud storage, etc.)
 
-![Seed Phrase Display](./images/zelcore-setup/03-seed-phrase-display.jpg)
+![Seed Phrase Display](./images/zelcore-setup/03-seed-phrase-display.webp)
 
 The interface displays each word numbered (Word 1 through Word 24). Use the **Copy** button if needed, but ensure you have a physical backup.
 
@@ -85,7 +86,7 @@ Zelcore requires you to verify your seed phrase by importing it back.
 1. Enter your seed phrase words in the correct order
 2. Click **Verify** to confirm
 
-![Verify Seed Phrase](./images/zelcore-setup/04-verify-seed-phrase.jpg)
+![Verify Seed Phrase](./images/zelcore-setup/04-verify-seed-phrase.webp)
 
 This ensures you have correctly recorded your backup before proceeding.
 
@@ -103,7 +104,7 @@ Now create your login credentials:
 | **Easy Login Passphrase** | Your daily login password |
 | **Confirm Easy Login Passphrase** | Re-enter to confirm |
 
-![Easy Login Setup](./images/zelcore-setup/05-easy-login-setup.jpg)
+![Easy Login Setup](./images/zelcore-setup/05-easy-login-setup.webp)
 
 **Password requirements:**
 - Aim for "Strong" password strength indicator
@@ -123,7 +124,7 @@ After registration, you'll be taken to the Easy Login screen:
 1. Enter your **Easy Login Passphrase**
 2. Click **Login**
 
-![Easy Login Screen](./images/zelcore-setup/06-easy-login-screen.jpg)
+![Easy Login Screen](./images/zelcore-setup/06-easy-login-screen.webp)
 
 The tagline "Your keys, your crypto!" reminds you that Zelcore is a non-custodial wallet.
 
@@ -145,7 +146,7 @@ On first login, Zelcore displays important information:
 - Useful when restoring a wallet on a new device
 - Takes approximately 2 minutes to complete
 
-![Welcome Information](./images/zelcore-setup/07-welcome-info.jpg)
+![Welcome Information](./images/zelcore-setup/07-welcome-info.webp)
 
 ---
 
@@ -163,7 +164,7 @@ The main dashboard shows:
 - Scholarship
 - See More Wallets
 
-![Portfolio Overview](./images/zelcore-setup/08-portfolio-overview.jpg)
+![Portfolio Overview](./images/zelcore-setup/08-portfolio-overview.webp)
 
 **Asset List Columns:**
 | Column | Description |

@@ -1,5 +1,6 @@
 import React, { type ReactNode } from 'react';
 import Head from '@docusaurus/Head';
+import {jsonLdString} from '@site/src/lib/json-ld';
 
 interface FAQJsonLdItem {
   question: string;
@@ -39,7 +40,7 @@ export default function FAQJsonLd({ items }: FAQJsonLdProps): ReactNode {
 
   return (
     <Head>
-      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      <script type="application/ld+json">{jsonLdString(jsonLd)}</script>
     </Head>
   );
 }

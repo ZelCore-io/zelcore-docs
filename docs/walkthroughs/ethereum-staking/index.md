@@ -3,6 +3,7 @@ sidebar_position: 4
 title: Stake Ethereum with ZelCore
 description: How to stake ETH using the ZelCore Earn function with Chorus One Max Vault
 keywords: [ethereum, staking, earn, chorus one, ETH, APY]
+image: ./images/03-earn-dashboard.webp
 ---
 
 # Stake Ethereum with ZelCore
@@ -22,11 +23,11 @@ This guide walks you through staking Ethereum using the **Earn** function in Zel
 
 From the ZelCore **Portfolio** dashboard, expand the left sidebar and click **Earn**.
 
-![ZelCore Portfolio dashboard](./images/01-portfolio-dashboard.jpg)
+![ZelCore Portfolio dashboard](./images/01-portfolio-dashboard.webp)
 
 You can also access Earn through the top navigation icon, but the left panel is the most direct route.
 
-![Left panel showing Earn option](./images/02-left-panel-earn.jpg)
+![Left panel showing Earn option](./images/02-left-panel-earn.webp)
 
 ---
 
@@ -34,7 +35,7 @@ You can also access Earn through the top navigation icon, but the left panel is 
 
 The Earn dashboard displays your current staking overview for the selected chain.
 
-![Earn dashboard for Ethereum](./images/03-earn-dashboard.jpg)
+![Earn dashboard for Ethereum](./images/03-earn-dashboard.webp)
 
 Key information shown:
 
@@ -52,11 +53,11 @@ Key information shown:
 The Earn section currently supports staking on **Ethereum**, **Solana**, and **Flux**. You can switch between chains by clicking the **Selected Chain** dropdown.
 :::
 
-![Supported chains modal showing Solana, Ethereum, and Flux](./images/04-supported-chains.jpg)
+![Supported chains modal showing Solana, Ethereum, and Flux](./images/04-supported-chains.webp)
 
 You can also switch wallets by clicking the **Selected wallet** badge. Each wallet has its own staking positions.
 
-![Select wallet modal](./images/05-select-wallet.jpg)
+![Select wallet modal](./images/05-select-wallet.webp)
 
 ---
 
@@ -66,9 +67,9 @@ Click the **Stake** button in the top-right corner. This opens the staking wizar
 
 Enter the amount of ETH you want to stake. You can also click **MAX** to stake your full available balance.
 
-![Enter amount to stake screen](./images/06-enter-stake-amount.jpg)
+![Enter amount to stake screen](./images/06-enter-stake-amount.webp)
 
-![0.01 ETH entered with Continue button active](./images/07-amount-entered.jpg)
+![0.01 ETH entered with Continue button active](./images/07-amount-entered.webp)
 
 :::tip
 The minimum stake amount is **0.01 ETH**. The available balance shown accounts for gas fees needed for the transaction.
@@ -82,7 +83,7 @@ Click **Continue** to proceed to the confirmation step.
 
 Review the staking details before confirming.
 
-![Confirm Stake screen with vault details](./images/08-confirm-stake.jpg)
+![Confirm Stake screen with vault details](./images/08-confirm-stake.webp)
 
 | Detail | Value |
 |--------|-------|
@@ -104,7 +105,7 @@ Click **Confirm Stake** to submit the transaction. The button will show a loadin
 
 Once the transaction is confirmed on the blockchain, a success screen appears with the transaction details.
 
-![Successfully staked 0.01 ETH confirmation](./images/09-stake-success.jpg)
+![Successfully staked 0.01 ETH confirmation](./images/09-stake-success.webp)
 
 From here you can:
 
@@ -118,7 +119,7 @@ From here you can:
 
 Back on the dashboard, your staking position now reflects the newly staked amount. Rewards will begin accruing shortly.
 
-![Updated Earn dashboard showing increased staked amount](./images/10-updated-dashboard.jpg)
+![Updated Earn dashboard showing increased staked amount](./images/10-updated-dashboard.webp)
 
 Your position status shows as **Active**, and you can track your accumulated rewards in the **Rewards** column.
 

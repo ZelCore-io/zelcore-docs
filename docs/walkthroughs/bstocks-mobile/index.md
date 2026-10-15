@@ -3,6 +3,7 @@ sidebar_position: 7
 title: Buy bStocks on ZelCore Mobile
 description: "Step-by-step walkthrough for adding tokenized US stocks (bStocks) in the ZelCore mobile app and buying them with USDT on BNB Smart Chain via Binance Web3."
 keywords: [zelcore mobile, bstocks, tokenized stocks, buy stocks with usdt, binance web3 swap, bnb smart chain, msftb, android, ios]
+image: ./images/03-microsoft-bstock-details.webp
 ---
 
 # Buy bStocks on ZelCore Mobile
@@ -26,7 +27,7 @@ For background on what bStocks are, dividends, fees, risks and country restricti
 
 On first login where bStocks are available, the Portfolio shows a one-time banner: **US stocks, now in your wallet**.
 
-![bStocks intro banner on the mobile Portfolio](./images/01-bstocks-intro-banner.jpg)
+![bStocks intro banner on the mobile Portfolio](./images/01-bstocks-intro-banner.webp)
 
 Tap **Browse bStocks** to open the Add bStocks screen. **Maybe later** or the **X** dismisses the banner permanently for this account on this device.
 
@@ -40,7 +41,7 @@ The same screen is always available from **Portfolio → Manage Assets → Add b
 
 The **Add bStocks** screen lists every available stock and ETF with its ticker, live USD price and 24h change.
 
-![Add bStocks screen with the wallet selector, search box and stock list](./images/02-add-bstocks-dialog.jpg)
+![Add bStocks screen with the wallet selector, search box and stock list](./images/02-add-bstocks-dialog.webp)
 
 1. Use the dropdown at the top to pick the **wallet** the stock will be added to (here **Income**). Choose the wallet that holds your USDT or BNB.
 2. Use **Search** to filter by company name or ticker.
@@ -55,7 +56,7 @@ The disclosure under the wallet selector reads *Backed 1:1 by real shares. Issue
 
 Tap the new asset in your portfolio to open its **Currency Summary**. You see the live price and 24h change, your balance per wallet, 24h volume, and the **Tokenized US equity** chip.
 
-![Microsoft bStocks currency summary with the Tokenized US equity chip](./images/03-microsoft-bstock-details.jpg)
+![Microsoft bStocks currency summary with the Tokenized US equity chip](./images/03-microsoft-bstock-details.webp)
 
 Tap the **ⓘ** on the chip for the issuer disclosure, the current share multiplier (for example *1 token = 1.002349 shares*, shown only when it differs from 1) and a **Learn more** link to the official bStocks page.
 
@@ -71,7 +72,7 @@ Maximum Supply, Circulating Supply and Market Cap show 0 for bStocks. Those figu
 
 Open **Swap Tokens** from the bottom navigation bar (the ⇄ icon) or from the stock's **Swap** action.
 
-![Swap Tokens with 10 USDT on top and MSFTB below](./images/04-swap-usdt-to-msftb.jpg)
+![Swap Tokens with 10 USDT on top and MSFTB below](./images/04-swap-usdt-to-msftb.webp)
 
 1. Check **Selected wallet** at the top. Tap it to change wallets.
 2. In the upper box tap the token name and choose **USDT (BSC)** as the asset you pay with. **BNB** also works.
@@ -91,7 +92,7 @@ Only assets on BNB Smart Chain can be swapped directly into a bStock. USDT on Et
 
 **Select Provider** shows every route that can fill the swap, tagged **DEX**. **Binance Web3** is the dedicated bStocks route and is marked **BEST RATE** here. Rango also found the pair through public pools at a slightly worse rate.
 
-![Select Provider listing Binance Web3 as best rate and Rango](./images/05-select-provider-binance-web3.jpg)
+![Select Provider listing Binance Web3 as best rate and Rango](./images/05-select-provider-binance-web3.webp)
 
 Both are **Float Rate** providers, so the final amount can differ slightly from the quote. Tap **Binance Web3**, then **Next step**.
 
@@ -101,7 +102,7 @@ Both are **Float Rate** providers, so the final amount can differ slightly from 
 
 The **Transaction Summary** is the last screen before signing.
 
-![Transaction Summary showing provider, rate, fee and amount to receive](./images/06-transaction-summary.jpg)
+![Transaction Summary showing provider, rate, fee and amount to receive](./images/06-transaction-summary.webp)
 
 | Field | Meaning |
 |-------|---------|

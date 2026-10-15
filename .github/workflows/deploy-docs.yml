@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history: per-page "last updated" and sitemap lastmod come from git
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -33,6 +35,12 @@ jobs:
 
       - name: Build Docusaurus site
         run: npm run build
+
+      - name: Script tests
+        run: npm test
+
+      - name: SEO checks
+        run: npm run check:seo
 
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
