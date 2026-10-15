@@ -201,7 +201,7 @@ For maximum security, especially with large holdings:
 
 ### Supported Devices
 
-- **Ledger** and **Trezor**, in Zelcore desktop only. For the models, the coins you can import and send, and the steps, see [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets).
+- **Ledger** and **Trezor**, in Zelcore desktop only. For the coins you can import and send, and the steps, see [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets).
 
 ### Hardware Wallet Best Practices
 
@@ -450,10 +450,7 @@ This is by design - it's what makes cryptocurrency trustless and censorship-resi
 
 Found a security vulnerability?
 
-- **Do not** disclose publicly
-- Email security@zelcore.io (if available)
-- Report through official channels
-- Responsible disclosure is appreciated
+To report a security vulnerability, contact Zelcore support privately through the help center at https://support.zelcore.io, and don't share details publicly until it has been fixed.
 
 ## Conclusion
 

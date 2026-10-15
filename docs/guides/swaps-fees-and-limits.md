@@ -7,7 +7,7 @@ keywords: [zelcore swap, swap crypto, crypto swap fees, swap limits, minimum swa
 
 # Swap Crypto in Zelcore: Fees, Rates and Limits
 
-To swap one asset for another in Zelcore, open **Swap**, choose the asset you sell and the asset you buy, enter an amount, pick an offer, check the **Transaction Summary** and select **Swap Now**. Quotes come from the swap providers shown in the app. The rate, the fees and each provider's minimum and maximum amounts are shown in the app before you confirm.
+To swap one asset for another in Zelcore, open **Swap**, choose the asset you sell and the asset you buy, enter an amount, pick an offer, check the **Transaction Summary** and select **Swap Now**. Zelcore compares offers from several swap providers, including centralized exchange services and DEX and cross-chain routers. The provider list changes over time, and the app shows the ones available for your pair. You can swap between 800+ cryptocurrencies and tokens (October 2026). The rate, the fees and each provider's minimum and maximum amounts are shown in the app before you confirm.
 
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
@@ -44,7 +44,7 @@ The **Transaction Summary** shows every cost before you confirm:
 
 - **Fee** is the network fee for sending your asset to the provider, paid from your wallet.
 - **Network Fee**, when the provider reports one, is paid by the provider to the destination blockchain. It is already deducted from the amount you receive.
-- Any provider margin is already included in the quoted **Rate**.
+- Each offer's **Rate** already includes the provider's fees and any partner fee. The network fee is shown separately in the summary before you confirm.
 
 Fees change with the network and the provider, so this page gives no figures. They are shown in the app before you confirm.
 
@@ -82,7 +82,7 @@ On the **Swap Tokens** screen, select **View Transaction History**. Pick the swa
 
 ## Where swaps are available
 
-Swap availability can change and is shown in the app. If **Swap** does not appear in your menu, it is not available to you at the moment.
+Swaps are available in Zelcore on desktop, Android, iOS and the browser extension. Swaps can't be paid from a hardware wallet. Swap availability can change and is shown in the app. If **Swap** does not appear in your menu, it is not available to you at the moment.
 
 ## Swap error messages
 

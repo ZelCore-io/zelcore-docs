@@ -17,14 +17,14 @@ import faqItems from '@site/src/components/FAQ/schema-items/parallel_assets_faq'
 
 **Answer:**
 
-Flux Parallel Assets (PA) are rewards distributed to FluxNode operators who participate in the Flux parallel mining ecosystem. These assets represent claimable amounts of various Flux parallel chain tokens.
+Flux Parallel Assets (PA) are rewards distributed to FluxNode operators who participate in the Flux parallel mining ecosystem. These assets represent claimable amounts of various Flux parallel chain tokens. FluxNode operators still earn Parallel Assets: each node payout adds to the amount you can claim on each parallel chain. Flux on Ergo is the exception: it's discontinued, and Ergo claims are paid as FLUX on the Flux main chain.
 
 **Key characteristics:**
 
 - **Earned by:** FluxNode operators participating in parallel mining
 - **Types:** Various Flux parallel assets (Flux-BASE, Flux-BSC, Flux-ETH, Flux-SOL, Flux-TRX, Flux-AVAX)
 - **Accumulation:** PA credits build up over time based on node activity
-- **Claiming:** Must be manually claimed through Fusion interface in Zelcore
+- **Claiming:** Must be manually claimed through the Fusion interface in Zelcore, under **Parallel Mining Claim**. Each claim charges a small FLUX fee that depends on the chain, and Fusion shows it before you confirm.
 - **Distribution:** Can claim to specific parallel chains or use "Claim All" to consolidate to native FLUX
 
 **Related:**
@@ -41,7 +41,7 @@ PA rewards are claimed through the Fusion interface in Zelcore. There are two ma
 **Method 1: Claim specific parallel assets**
 
 1. Open Zelcore and navigate to Fusion (or FusionX/SSP)
-2. Find the Parallel Assets or PA Claims section
+2. Open **Parallel Mining Claim**
 3. Select the parallel asset type you want to claim (Flux-BASE, Flux-BSC, etc.)
 4. Enter the amount to claim
 5. Ensure you have gas token for that blockchain (ETH for Base, BNB for BSC, etc.)
@@ -51,7 +51,7 @@ PA rewards are claimed through the Fusion interface in Zelcore. There are two ma
 **Method 2: Use "Claim All" to consolidate to native FLUX**
 
 1. Open Fusion in Zelcore
-2. Find the Parallel Assets section
+2. Open **Parallel Mining Claim**
 3. Click "Claim All" button
 4. Review that ALL PA credits will be converted to native FLUX
 5. Ensure you have native FLUX for transaction gas
@@ -136,7 +136,7 @@ Several reasons can cause PA credits to not display in the Fusion interface:
 - Close and completely restart Zelcore
 - Navigate to Settings → Sync or Refresh
 - Manually sync all wallets
-- Return to Fusion PA Claims section
+- Return to **Parallel Mining Claim** in Fusion
 - Credits should now appear if they exist
 
 **5. Node status preventing accumulation:**
@@ -559,7 +559,7 @@ Many users prefer "Claim All" for:
 
 **Check 3: PA credits accumulation**
 - Open Fusion in Zelcore
-- Navigate to Parallel Assets or PA Claims section
+- Open **Parallel Mining Claim**
 - After 2-4 weeks of eligible operation, should see PA credits
 - If zero after sufficient time, node may not be participating
 

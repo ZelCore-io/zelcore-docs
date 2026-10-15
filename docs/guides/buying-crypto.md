@@ -21,10 +21,10 @@ The **Purchase** screen is titled **Purchase Crypto with Fiat**. You enter how m
 
 The payment itself happens on the provider's checkout, which opens in a separate browser window, not inside Zelcore.
 
-- **Providers, countries and payment methods.** The available providers depend on your country and are shown in the app. The list can change, so this page does not name them.
-- **Fees and limits.** Each offer shows an **Includes Fee** amount. Hover over it to see the network fee and the transaction fee. The rate is a separate line on the card. Fees, limits and payment methods are shown in the app before you confirm.
+- **Providers, countries and payment methods.** Zelcore sends you to third-party providers such as MoonPay, Guardarian, Topper, Onramper and FinchPay (October 2026). The providers, payment methods and limits you see depend on your country and amount, and the list can change. Each provider runs its own identity checks.
+- **Fees and limits.** Fees are included in the quote shown before you continue. Each offer shows an **Includes Fee** amount. Hover over it to see the network fee and the transaction fee. The rate is a separate line on the card. Fees, limits and payment methods are shown in the app before you confirm.
 - **Where the coins go.** You choose one of your own Zelcore wallet addresses, and the coins go there.
-- **Availability.** Purchase can vary by platform and region, and the app shows what is available on your device.
+- **Availability.** Buy and Sell are available on desktop, Android and iOS. Purchase can vary by region, and the app shows what is available on your device.
 
 To sell crypto back to fiat, use the separate **Sell** item in the main menu instead.
 

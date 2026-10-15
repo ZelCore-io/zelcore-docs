@@ -7,7 +7,7 @@ keywords: [zelcore nft, nft gallery, nft portfolio, send nft, receive nft, nft c
 
 # NFT Gallery in Zelcore
 
-The **NFTs** item in the Zelcore main menu opens a gallery that shows your NFTs from different blockchains in one place. You can filter by blockchain or collection, open any NFT to see its properties, and send or receive NFTs from the same screen.
+The **NFTs** item in the Zelcore main menu opens a gallery that shows your NFTs on Ethereum, Polygon and Solana in one place. You can filter by blockchain or collection, hide items flagged as spam, open any NFT to see its properties, and send or receive NFTs from the same screen. The NFT gallery is available on desktop, Android and iOS. On a phone, open it from **Apps**.
 
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026). The steps follow the desktop app.
@@ -17,7 +17,7 @@ Background: [managing NFTs in a multi-chain wallet](https://zelcore.io/academy/n
 
 ## What the gallery shows
 
-The NFT portfolio gives you a common view for all your NFTs, which may sit on different blockchains. Zelcore reads the NFTs held by your wallets and lists them together. The gallery does not publish a fixed list of chains or a count of supported NFTs, so check the **All Blockchains** filter in the app to see which chains it covers for your wallets.
+The NFT portfolio gives you a common view for all your NFTs on Ethereum, Polygon and Solana. Zelcore reads the NFTs held by your wallets and lists them together. Check the **All Blockchains** filter in the app to see which chains your wallets have NFTs on.
 
 The gallery has these views and filters:
 
@@ -46,7 +46,7 @@ On Solana, you may see an **Unnamed Collection**. For Solana this can happen if 
 
 <!-- screenshot: nft-gallery-03-detail-properties -->
 
-Open an NFT to see its detail page with its properties. If the NFT has none, Zelcore shows "No properties for this NFT."
+Open an NFT to see its detail page with its properties. If the NFT has none, Zelcore shows "No properties for this NFT." Where the market data source provides it, the detail page also shows the collection's floor price.
 
 ## Send an NFT
 

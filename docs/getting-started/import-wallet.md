@@ -44,18 +44,20 @@ The most common method for restoring a wallet is using your seed phrase.
 7. Wait for the wallet to sync and restore your assets
 
 :::tip
-If you're importing from another wallet (like MetaMask, Trust Wallet, etc.), make sure you're using the correct seed phrase format. Most wallets use BIP39 standard which is compatible with Zelcore.
+If you're importing from another wallet (like MetaMask, Trust Wallet, etc.), make sure you're using the correct seed phrase format. Zelcore restores standard 12-, 18- or 24-word BIP-39 recovery phrases (English word list). It doesn't support an extra BIP-39 passphrase.
 :::
 
 ### Compatible Wallets
 
-Zelcore can import seed phrases from:
+Bitcoin and Ethereum-style addresses match the first account of most standard wallets, such as MetaMask. Some chains, Solana among them, use different addresses than wallets such as Phantom, so check each balance after restoring and move funds if an address doesn't match.
+
+A phrase from another wallet that does not use an extra BIP-39 passphrase can be restored in Zelcore, for example from:
 - MetaMask
 - Trust Wallet
 - Exodus
 - Atomic Wallet
 - MyEtherWallet
-- Other BIP39-compatible wallets
+- Other BIP-39 wallets
 
 ## Import from Private Key
 
@@ -65,6 +67,8 @@ Import individual blockchain addresses using private keys.
 
 - **WIF** (Wallet Import Format) - Common for Bitcoin-based chains
 - **Hex** - Raw hexadecimal private key (64 characters)
+
+Private keys you import are stored only on that device and are not part of your recovery phrase. Back up each imported private key separately.
 
 ### Steps
 

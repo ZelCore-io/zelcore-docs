@@ -15,9 +15,9 @@ Written for Zelcore 8.39.0 (October 2026).
 ## Before you start
 
 - **Use the desktop app.** Hardware wallets need the desktop app's USB connection. Mobile and the browser extension don't offer the **Hardware Wallet** import.
-- **Ledger (desktop):** unlock the device and open the app for the coin you want to import. Install device apps and firmware with the vendor's current connection software.
-- **Trezor (desktop):** first turn on **Settings** > **Extras** > **Experimental Features**. If Zelcore desktop shows "To allow a secure communication between your Trezor device and Zelcore App, please install" with a **Trezor Bridge** button, install the vendor's current connection software.
-- **Models (desktop):** the app describes the Ledger Nano S/X, and some Trezor coins are marked "Only available on Model T". Zelcore desktop doesn't list other models.
+- **Ledger (desktop):** connect it over USB. Bluetooth isn't supported. Unlock the device and open the app for the coin you want to import. Keep your Ledger firmware and the coin's Ledger app up to date.
+- **Trezor (desktop):** Trezor is experimental. First turn on **Settings** > **Extras** > **Experimental Features**. It needs Trezor Bridge (or the Trezor Suite desktop app, which includes it) running on your computer. If Zelcore desktop shows "To allow a secure communication between your Trezor device and Zelcore App, please install" with a **Trezor Bridge** button, install Trezor Bridge or Trezor Suite.
+- **Models (desktop):** Zelcore desktop doesn't publish a list of supported device models. Some Trezor coins are marked in the app as available only on certain Trezor models.
 
 <!-- screenshot: hardware-wallets-4 (Settings > Extras with the Experimental Features switch) -->
 
@@ -44,11 +44,11 @@ Written for Zelcore 8.39.0 (October 2026).
 
 **Ledger on desktop, import:** Ethereum and EVM networks, Bitcoin, Algorand, Polkadot, Solana, Stellar, Tron, XRP, NEO, EOS, Kusama, Ontology and Kaspa.
 
-**Ledger on desktop, send from Zelcore:** Ethereum, Ethereum Classic, BNB Smart Chain, Polygon and native KAS. KRC-20 tokens on a Ledger aren't supported yet (desktop). Zelcore desktop lists only these for sending from a Ledger (desktop). Before you receive funds on an imported Ledger (desktop) account for any other coin, make sure you can spend from it with the vendor's software.
+**Ledger on desktop, send from Zelcore:** Ethereum, Ethereum Classic, BNB Smart Chain, Polygon and native KAS. Other Ledger accounts on desktop, such as Bitcoin, Solana, XRP and Tron, can view balances and receive, but sends from them aren't supported in Zelcore yet. Use your Ledger's own app for those. KRC-20 tokens on a Ledger (desktop) can't be sent yet. Before you receive funds on an imported Ledger (desktop) account for any other coin, make sure you can spend from it with the vendor's software.
 
 **Trezor on desktop, import and send:** Bitcoin, Bitcoin Cash, Bitcoin Gold, Dash, Litecoin, Ethereum and Ethereum Classic.
 
-**Trezor on desktop, import only:** Bitcore, Cardano, Dogecoin, DigiByte, Firo, Ravencoin, XRP, Vertcoin, Zcash, BNB BEP2, EOS, Komodo, Stellar and Tezos BEP20. Cardano, XRP, BNB BEP2, EOS and Tezos BEP20 are marked "Only available on Model T" (desktop).
+**Trezor on desktop, import only:** Bitcore, Cardano, Dogecoin, DigiByte, Firo, Ravencoin, XRP, Vertcoin, Zcash, BNB BEP2, EOS, Komodo, Stellar and Tezos BEP20. Cardano, XRP, BNB BEP2, EOS and Tezos BEP20 are marked in the app as available only on certain Trezor models (desktop).
 
 ## Send from a hardware wallet
 

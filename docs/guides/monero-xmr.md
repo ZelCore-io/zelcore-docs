@@ -1,16 +1,16 @@
 ---
 sidebar_position: 12
 title: "Monero (XMR) in Zelcore"
-description: "Send and receive Monero (XMR) in Zelcore desktop: the 10-block spendable rule, estimated fees, rescanning for missing transactions and common XMR errors."
+description: "Send and receive Monero (XMR) in Zelcore on desktop and mobile, and receive it in the browser extension: the 10-block spendable rule, estimated fees, rescanning for missing transactions and common XMR errors."
 keywords: [monero wallet, xmr wallet, zelcore monero, send xmr, monero spendable balance, monero rescan, monero light wallet, view key]
 ---
 
 # Monero (XMR) in Zelcore
 
-Zelcore holds Monero (XMR) as a light wallet: a backend server scans the Monero blockchain for your address, and Zelcore builds and signs your transactions. You send and receive XMR from the Monero screen in **Portfolio**. Two things work differently from other coins: only funds older than 10 blocks (about 30 minutes) can be spent, and the fee is an estimate until the transaction is built.
+Zelcore holds Monero (XMR) as a light wallet: a Monero light-wallet server scans the blockchain for your address with your view key, while your spend key stays on your device, and Zelcore builds and signs your transactions. You can send and receive Monero in Zelcore on desktop and mobile. The browser extension can receive Monero but can't send it in 8.39.0. You send and receive XMR from the Monero screen in **Portfolio**. Two things work differently from other coins: only funds older than 10 blocks (about 30 minutes) can be spent, and the fee is an estimate until the transaction is built.
 
 :::info Applies to Zelcore 8.39
-Written for Zelcore 8.39.0 (October 2026). The steps on this page are for the Zelcore desktop app.
+Written for Zelcore 8.39.0 (October 2026). The steps on this page follow the Zelcore desktop app; mobile uses the same Monero screen.
 :::
 
 Background: [Privacy Coins in 2026: Zcash, Monero, and Zelcore](https://zelcore.io/academy/coin-guides/privacy-coins-zec-xmr) on Zelcore Academy.
@@ -59,12 +59,12 @@ If you think your address received XMR before the point the backend started scan
 
 1. Open **Portfolio** and select **Monero**.
 2. In the action row, select the scan status button. It reads **Start Block:** or **Start Trans.:** followed by a number, depending on the backend. After **Start Trans.:** the number is a transaction number, not a block height.
-3. The **Rescan Monero** dialog shows the scan progress. Enter the block height to scan from in **Scanning Start height**. On backends where a rescan needs approval from the Zelcore team, the dialog has no field and says so.
+3. The **Rescan Monero** dialog shows the scan progress. Enter the block height to scan from in **Scanning Start height**. On the default server, a rescan must be approved, and the dialog has no field and says so.
 4. Select **Rescan**.
 
-A rescan can take a couple of hours. On some backends a rescan must first be approved by the Zelcore team and can take up to a week; the dialog says so when this applies. For help with a rescan, contact [Zelcore support](https://support.zelcore.io).
+A rescan on an alternative backend starts straight away and can take a couple of hours. On the default server a rescan must be approved and can take up to a week; the dialog says so when this applies. For help with a rescan, contact [Zelcore support](https://support.zelcore.io).
 
-**Privacy note:** a rescan sends your Monero address and your secret view key to the backend server, so that the server can scan the blockchain for your transactions. This applies on every backend, including those where the Zelcore team approves the rescan. The secret view key shows your incoming transactions; it can't spend your XMR.
+**Privacy note:** a rescan sends your Monero address and your secret view key to the backend server, so that the server can scan the blockchain for your transactions. This applies on every backend, including the default server, where the rescan must be approved. The secret view key shows your incoming transactions; it can't spend your XMR.
 
 <!-- screenshot: monero-3 Rescan dialog with Scanning Start height -->
 

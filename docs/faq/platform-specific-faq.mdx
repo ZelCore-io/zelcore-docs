@@ -2,7 +2,7 @@
 sidebar_position: 9
 title: "Zelcore iOS, Android and Desktop FAQ"
 sidebar_label: "Platform-Specific FAQ"
-description: "Differences between Zelcore on iOS, Android, and desktop — feature availability, swap limitations, cross-platform sync, and workarounds."
+description: "Differences between Zelcore on iOS, Android, and desktop: feature availability, cross-platform sync and moving your wallet between devices."
 keywords: [zelcore ios, zelcore android, zelcore desktop, crypto wallet platform differences]
 ---
 
@@ -13,62 +13,26 @@ import faqItems from '@site/src/components/FAQ/schema-items/platform_specific_fa
 
 # Platform-Specific FAQ
 
-## iOS Zelcore Limitations: Why are swap and exchange features disabled?
+## Can I swap, buy and sell crypto in Zelcore on iOS?
 
 **Answer:**
 
-Swap and exchange features are currently **disabled in the iOS version of Zelcore** due to Apple App Store policies. This is not a bug or technical issue - it's a deliberate restriction required to maintain App Store compliance.
+**Yes.** In Zelcore 8.39.0, swaps are available on desktop, Android, iOS and the browser extension. Buy, Sell and the NFT gallery are available on iOS and Android as well as desktop. On a phone, open the NFT gallery from **Apps**. Swaps can't be paid from a hardware wallet.
 
-**What is affected on iOS:**
+**What you can do on iOS:**
 
-- **Fusion swap feature** - Not available
-- **FusionX** - Not available
-- **SSP (Simple Swap Protocol)** - Not available
-- **In-app exchange/swap functionality** - Disabled
-- **Third-party exchange integrations** - Limited or disabled
-
-**What still works on iOS:**
-
+- **Swap**: open **Swap** from the app menu, pick the assets and choose an offer. See [Swap Crypto in Zelcore](../../guides/swaps-fees-and-limits/).
+- **Buy and Sell**: buy or sell crypto through third-party providers. See [Buy Crypto with Fiat in Zelcore](../../guides/buying-crypto/).
+- **NFT gallery**: open **Apps** and choose the NFT gallery. See [NFT Gallery](../../guides/nft-gallery/).
 - All wallet functions (send, receive, manage assets)
 - Viewing balances and transaction history
 - FluxNodes app and node management
 - Security features (backup, PIN, biometrics)
-- Portfolio tracking
-- Adding/removing assets
-- Address book
-- Settings and customization
-- ZelID functionality
+- Address book, settings and ZelID
 
-**Why this restriction exists:**
+**If an item is missing from your menu:**
 
-Apple's App Store has strict policies regarding cryptocurrency exchange functionality within apps. To comply with these requirements and maintain Zelcore's presence on the App Store, swap/exchange features must be disabled in the iOS version.
-
-**Workarounds for iOS users:**
-
-**Option 1: Use Zelcore Desktop** (Recommended)
-- Download Zelcore desktop version for Mac, Windows, or Linux
-- Access to full swap/exchange functionality
-- Same wallet and seed phrase works across platforms
-- Available at zelcore.io
-
-**Option 2: Use External Exchange or DEX**
-- Send crypto from iOS Zelcore to a centralized exchange
-- Perform swaps on the exchange
-- Withdraw back to Zelcore
-- Examples: Binance, Coinbase, KuCoin
-
-**Option 3: Use Web-Based DEX**
-- Export/import your wallet to a browser-based wallet (MetaMask, TrustWallet web)
-- Use decentralized exchanges (Uniswap, PancakeSwap, etc.)
-- Perform swaps there
-- Send results back to Zelcore iOS
-
-**Option 4: Access Desktop Version Temporarily**
-- If you don't have regular access to desktop
-- Use Zelcore desktop on a friend's computer or library computer
-- Restore your wallet using seed phrase
-- Perform necessary swaps
-- Log out and delete wallet when done (for security)
+Availability can change and is shown in the app. If **Swap**, **Buy**, **Sell** or the NFT gallery does not appear for you, it is not available to you at the moment. Update Zelcore to the latest version, then contact [Zelcore support](https://support.zelcore.io) if it is still missing.
 
 **How to sync between iOS and Desktop:**
 
@@ -98,27 +62,10 @@ Zelcore seed phrase works across:
 - Mac desktop
 - Linux desktop
 
-You can access full functionality by using desktop when needed, while maintaining mobile access for daily wallet operations.
-
-**Will this change in the future?**
-
-The Zelcore team is continuously evaluating App Store policies and exploring compliant solutions to potentially restore swap functionality to iOS. However, there is no confirmed timeline for when or if this will change.
-
-**Recommendations for iOS users:**
-
-1. **For basic wallet needs:** iOS app is fully functional
-2. **For occasional swaps:** Use desktop version when needed
-3. **For frequent trading:** Consider using Android or desktop as primary device
-4. **For emergencies:** Know how to restore wallet on desktop quickly
-
-**Other platform limitations:**
-
-Currently, this limitation is specific to iOS. Android and desktop versions have full swap/exchange functionality available.
-
 **Related:**
 - [Zelcore Installation Guide](../../getting-started/installation/) - How to install desktop version
 - [Wallet FAQ](../../faq/wallet-faq/) - General wallet questions
-- [Fusion FAQ](../../faq/fusion-faq/) - Swap functionality details (desktop/Android)
+- [Fusion FAQ](../../faq/fusion-faq/) - Fusion, Parallel Assets and bridging
 
 ---
 
@@ -129,19 +76,17 @@ Currently, this limitation is specific to iOS. Android and desktop versions have
 While Zelcore strives for feature parity across platforms, there are some differences:
 
 **iOS-Specific Limitations:**
-- Swap/exchange features disabled (see above)
+- Swap, Buy, Sell and the NFT gallery are available (see above); on a phone the NFT gallery opens from **Apps**
 - Some experimental features may arrive later than other platforms
 - Biometric authentication uses Face ID or Touch ID
 
 **Android Advantages:**
-- Full swap/exchange functionality
 - Some features may be tested on Android first
 - Biometric authentication uses fingerprint or face unlock
 - Generally fewer app store restrictions
 
 **Desktop Advantages:**
 - Larger screen for better portfolio visualization
-- Full swap/exchange functionality
 - Advanced features often debut on desktop first
 - Better for managing large portfolios or multiple nodes
 - Easier for complex operations (batch transactions, etc.)
@@ -164,6 +109,7 @@ New features typically roll out in this order:
 **Cross-platform features (available on all):**
 
 - Wallet creation, import, and restore
+- Swap, Buy and Sell (swaps can't be paid from a hardware wallet)
 - Send and receive all supported cryptocurrencies
 - Portfolio balance tracking
 - Transaction history
@@ -177,7 +123,6 @@ New features typically roll out in this order:
 **Best practice for power users:**
 
 Use desktop for:
-- Swaps and exchanges
 - FluxNode setup and management
 - Large transactions
 - Portfolio analysis
@@ -236,7 +181,7 @@ Use mobile for:
 
 Many users maintain:
 - **iOS Zelcore** for mobile access and balance checks
-- **Desktop Zelcore** for swaps, exchanges, and portfolio management
+- **Desktop Zelcore** for portfolio management, FluxNodes and hardware wallets
 - Same wallet, accessed from whichever device is most convenient
 
 **Important notes:**
@@ -244,7 +189,7 @@ Many users maintain:
 1. **Simultaneous access is safe** - You can have the same wallet open on multiple devices
 2. **Transactions made on one device** appear on all devices (after blockchain confirmation)
 3. **No manual syncing required** - Balances update automatically from blockchain
-4. **Platform-specific features** - Some features (like swaps) only work on specific platforms
+4. **Platform-specific features** - Some features (like hardware wallets) only work on specific platforms
 
 **Workflow example:**
 
@@ -255,8 +200,8 @@ Afternoon:
 - Receive payment on iOS (scan QR code)
 
 Evening:
-- Open desktop version to swap tokens (iOS can't do swaps)
-- Check iOS - balance updated automatically
+- Swap tokens on iOS or on desktop
+- Check the other device - balance updated automatically
 
 **Related:**
 - [Security Best Practices](../../security/best-practices/)
@@ -388,8 +333,8 @@ You're not moving your wallet from iOS to Android. You're accessing the same wal
 
 **You can keep both:**
 
-- Keep Zelcore on iOS for basic wallet functions
-- Also use Zelcore on Android for full functionality (including swaps)
+- Keep Zelcore on iOS for everyday use
+- Also use Zelcore on Android
 - Both devices access the same wallet simultaneously
 - Changes on one device reflect on the other
 
@@ -398,18 +343,12 @@ You're not moving your wallet from iOS to Android. You're accessing the same wal
 If you're considering switching from iOS to Android Zelcore:
 
 **Android advantages:**
-- Full swap/exchange functionality (Fusion, FusionX, SSP)
-- No Apple-imposed restrictions
 - Feature updates may arrive sooner
 - More experimental features available
 
-**What you'll gain:**
-- Access to in-app swaps and exchanges
-- Full feature parity with desktop
-- More flexibility for trading
-
 **What remains the same:**
 - All core wallet functions
+- Swap, Buy and Sell
 - Same security features
 - Same assets and balances
 - Same seed phrase controls wallet
@@ -440,5 +379,5 @@ You can:
 - Keep it secure during and after migration
 
 **Related:**
-- [iOS Limitations FAQ](#ios-zelcore-limitations-why-are-swap-and-exchange-features-disabled) (above)
+- [Swap, Buy and Sell on iOS](#can-i-swap-buy-and-sell-crypto-in-zelcore-on-ios) (above)
 - [Getting Started Guide](../../getting-started/installation/)

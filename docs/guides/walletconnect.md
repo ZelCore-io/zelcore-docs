@@ -12,7 +12,7 @@ WalletConnect lets a dApp (a decentralized exchange, an NFT marketplace and so o
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
-Zelcore uses WalletConnect v2 through Reown WalletKit. The desktop app, the mobile app and the browser extension use the same WalletConnect screens. On mobile, scan or paste the pairing link. Hardware wallet accounts can't connect to dApps; see [hardware wallets on Zelcore desktop](./hardware-wallets.md).
+Zelcore uses WalletConnect v2 through Reown WalletKit. The desktop app, the mobile app and the browser extension use the same WalletConnect screens. On mobile, scan the QR code or paste the pairing link. Hardware wallet accounts can't connect to dApps; see [hardware wallets on Zelcore desktop](./hardware-wallets.md).
 
 ## Connect a dApp
 
@@ -31,6 +31,10 @@ Zelcore uses WalletConnect v2 through Reown WalletKit. The desktop app, the mobi
 7. Zelcore confirms with "You have successfully paired with (url)." The dApp now shows your address as connected.
 
 You can also open a `wc:` link directly, and Zelcore opens the same proposal.
+
+### Connect on mobile
+
+On mobile, tap **Scan** and scan the dApp's WalletConnect QR code, or copy the WalletConnect link and paste it into the WalletConnect field. A connection usually stays active for up to 7 days unless the dApp renews it or you disconnect sooner. After that, connect again from the dApp.
 
 ## Check the dApp before you approve
 

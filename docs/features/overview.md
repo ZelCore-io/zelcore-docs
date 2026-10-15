@@ -49,11 +49,12 @@ Access your wallet seamlessly across devices:
 
 Exchange cryptocurrencies directly within Zelcore:
 
-- 1,200+ trading pairs
-- Multiple liquidity providers for best rates
+- Swap between 800+ cryptocurrencies and tokens (October 2026)
+- Offers from several swap providers, including centralized exchange services and DEX and cross-chain routers, so you can compare rates
 - Cross-chain swaps
 - No account registration required
-- Transparent fee structure
+- Each offer's rate already includes the provider's fees and any partner fee; the network fee is shown separately before you confirm
+- Which pairs you can swap, and the minimum and maximum amounts, depend on the providers available when you ask for a quote
 - How to swap, fees and min/max limits: see [Swap Crypto in Zelcore: Fees and Limits](/docs/guides/swaps-fees-and-limits)
 
 ### Tokenized US Stocks (bStocks)
@@ -70,13 +71,11 @@ Hold and trade tokenized US equities next to your crypto:
 
 Purchase cryptocurrency using traditional payment methods:
 
-- Credit/debit card support
-- Bank transfer options
-- Integrated with trusted providers:
-  - MoonPay
-  - Topper
-  - Guardarian
-- Support for multiple fiat currencies
+- Credit/debit card and bank transfer, depending on the provider and your country
+- Third-party providers such as MoonPay, Guardarian, Topper, Onramper and FinchPay (October 2026)
+- The providers, payment methods and limits you see depend on your country and amount
+- Each provider runs its own identity checks, and fees are included in the quote shown before you continue
+- Buy and Sell are available on desktop, Android and iOS
 - Step by step: see [Buy Crypto with Fiat in Zelcore](/docs/guides/buying-crypto)
 
 ### Price Tracking
@@ -121,8 +120,8 @@ Convenient and secure access:
 
 Maximum security for large holdings:
 
-- Ledger support on desktop (Nano S, S Plus, X), including Kaspa
-- Trezor support on desktop (One, Model T)
+- Ledger support on desktop over USB (no Bluetooth), including Kaspa
+- Trezor support on desktop (experimental; needs Trezor Bridge or the Trezor Suite desktop app)
 - Sign transactions on hardware device
 - View-only mode for cold storage
 - Setup and supported coins: see [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets)
@@ -152,11 +151,11 @@ Connect to decentralized applications:
 
 View and manage your digital collectibles:
 
-- Support for Ethereum, Solana, and Polygon NFTs
-- Access to 100M+ NFTs
-- Visual gallery view
+- See your NFTs on Ethereum, Polygon and Solana in one place
+- Filter by blockchain or collection, and hide items flagged as spam
 - Send and receive NFTs
-- Floor price and rarity data (where available)
+- Where the market data source provides it, an NFT's detail page shows the collection's floor price
+- Available on desktop, Android and iOS; on a phone, open the gallery from **Apps**
 - Step by step: see [NFT Gallery in Zelcore](/docs/guides/nft-gallery)
 
 ## Advanced Features
@@ -169,6 +168,7 @@ Export your transaction history for tax tools or your accountant:
 - Pick the wallets, coins and period, then save one combined file or one file per coin
 - Fiat values and layouts for Koinly, CoinTracker, CoinLedger, CoinTracking, Blockpit, ZenLedger, TokenTax and more, plus neutral and accountant layouts
 - Save as CSV, XLSX or JSON, with custom column mappings and an address list for tax tools that sync by address
+- Zelcore classic and Koinly layouts are free. Other tax-tool layouts, fiat values and custom column mappings need Zelcore+, on desktop, mobile and the browser extension.
 - See the [Tax & CSV Export walkthrough](/docs/walkthroughs/tax-csv-export/)
 
 ### Kaspa
@@ -238,8 +238,8 @@ Save frequently used addresses:
 | NFT gallery | ✅ | ✅ | ✅ |
 | WalletConnect | ✅ | ✅ | ✅ |
 | Hardware wallet¹ | ✅ | ❌ | ❌ |
-| FluxNodes | ✅ | ✅ | ❌ |
-| Fusion | ✅ | ✅ | ❌ |
+| FluxNodes | ✅ | ✅ | ✅ |
+| Fusion | ✅ | ✅ | ✅ |
 | Buy crypto | ✅ | ✅ | ✅ |
 
 ¹ Ledger and Trezor: desktop only.
