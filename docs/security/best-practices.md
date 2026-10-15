@@ -150,8 +150,8 @@ For maximum security, especially with large holdings:
 
 ### Supported Devices
 
-- **Ledger**: Nano S, Nano S Plus, Nano X
-- **Trezor**: One, Model T
+- **Ledger** (Zelcore desktop only): Nano S, Nano S Plus, Nano X
+- **Trezor** (Zelcore desktop only): One, Model T
 
 ### Hardware Wallet Best Practices
 

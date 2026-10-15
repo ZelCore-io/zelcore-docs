@@ -1,14 +1,14 @@
 ---
 sidebar_position: 9
 title: "Kaspa (KAS) in Zelcore: KNS and KRC-20"
-description: Kaspa in Zelcore 8.39.0 - send to .kas names, import and verify KRC-20 tokens, consolidate UTXOs, view KCC tokens, use a Ledger and sign messages.
+description: Kaspa in Zelcore 8.39.0 - send to .kas names, import and verify KRC-20 tokens, consolidate UTXOs, view KCC tokens, use a Ledger on desktop and sign messages.
 keywords: [zelcore, kaspa, kas, kns, kaspa names, krc-20, krc20, kasplex, kcc, kron, ledger, utxo consolidation, sign message, kaspa ng, kasware]
 image: ./images/01-kns-send-resolved.webp
 ---
 
-# Kaspa (KAS) in Zelcore: Names, KRC-20 Tokens and Ledger
+# Kaspa (KAS) in Zelcore: Names, KRC-20 Tokens and Ledger (Desktop)
 
-Zelcore 8.39.0 adds several tools for Kaspa. You can send to a `.kas` name, find and import KRC-20 tokens, merge many small coins into a few, load older history, use a Ledger, and sign messages.
+Zelcore 8.39.0 adds several tools for Kaspa. You can send to a `.kas` name, find and import KRC-20 tokens, merge many small coins into a few, load older history, use a Ledger on Zelcore desktop, and sign messages.
 
 This guide covers each one. Bridging KAS to Igra L2 is covered in the [Igra Bridge walkthrough](../igra-bridge).
 
@@ -146,23 +146,23 @@ If the token indexer or the Kaspa network is unavailable, Zelcore shows the last
 
 ---
 
-## Kaspa on Ledger
+## Kaspa on Ledger (Zelcore desktop)
 
-You can import a Kaspa address from a Ledger device and send KAS from it.
+You can import a Kaspa address from a Ledger device in Zelcore desktop and send KAS from it.
 
-1. Connect your Ledger, unlock it, and open the **Kaspa** app on it.
+1. On Zelcore desktop, connect your Ledger, unlock it, and open the **Kaspa** app on it.
 2. In Zelcore, open **See More Wallets**, click **Import a Wallet** and choose **Hardware Wallet**.
 3. Follow the steps: **Select Coin**, **Open App on Device**, **Select Address**, **Confirm & Import**, then **Summary**.
-4. The address is shown on your Ledger. Check it and confirm.
+4. Zelcore desktop shows the address on your Ledger. Check it and confirm.
 
-![Set up a hardware wallet: choose Ledger, then follow the steps to import Kaspa](./images/08-ledger-import-kaspa.webp)
+![Set up a hardware wallet: choose Ledger in Zelcore desktop, then follow the steps to import Kaspa](./images/08-ledger-import-kaspa.webp)
 
 To send, use **Send** as usual and approve the transaction on the device. Nothing is sent until you approve on the device.
 
-- A send that has to combine many small coins first needs more than one approval on the Ledger. Zelcore tells you how many.
-- You cannot attach a message when you send from a Ledger.
-- Part of a balance can be locked in outputs the Ledger Kaspa app cannot spend. These come from transactions with more than 256 outputs, such as some pool payouts. If you see this message, try a smaller amount.
-- **KRC-20 tokens on Ledger are not supported yet.**
+- A send that has to combine many small coins first needs more than one approval on the Ledger (Zelcore desktop). Zelcore tells you how many.
+- You cannot attach a message when you send from a Ledger on Zelcore desktop.
+- Part of a balance can be locked in outputs the Ledger Kaspa app cannot spend (Zelcore desktop). These come from transactions with more than 256 outputs, such as some pool payouts. If you see this message, try a smaller amount.
+- **KRC-20 tokens on Ledger (Zelcore desktop) are not supported yet.**
 - Sign Message and UTXO consolidation are not available for hardware wallets.
 
 ---

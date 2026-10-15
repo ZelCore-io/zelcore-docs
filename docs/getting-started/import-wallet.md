@@ -15,7 +15,7 @@ Zelcore supports multiple import methods:
 
 1. **Seed Phrase (Mnemonic)** - 12, 18, or 24 words
 2. **Private Key** - WIF or hex format
-3. **Hardware Wallet** - Ledger or Trezor devices
+3. **Hardware Wallet** - Ledger or Trezor devices (Zelcore desktop only)
 4. **WalletConnect** - Connect mobile wallet to dApps
 
 ## Import from Seed Phrase
@@ -73,12 +73,12 @@ Only import private keys on devices you trust. Never import private keys on shar
 
 ## Connect Hardware Wallet
 
-Integrate your Ledger or Trezor hardware wallet for enhanced security.
+Integrate your Ledger or Trezor hardware wallet with Zelcore desktop for enhanced security.
 
 ### Supported Devices
 
-- **Ledger**: Nano S, Nano S Plus, Nano X
-- **Trezor**: One, Model T
+- **Ledger** (desktop): Nano S, Nano S Plus, Nano X
+- **Trezor** (desktop): One, Model T
 
 ### Connection Steps
 
@@ -86,7 +86,7 @@ Integrate your Ledger or Trezor hardware wallet for enhanced security.
 1. Connect your hardware wallet to your computer via USB
 2. Unlock the device and open the appropriate blockchain app
 3. In Zelcore, go to **Settings** → **Hardware Wallets**
-4. Select your device type (Ledger or Trezor)
+4. Select your device type (Ledger or Trezor; desktop only)
 5. Follow the on-screen pairing instructions
 6. Approve the connection on your hardware device
 
@@ -100,8 +100,8 @@ Hardware wallet transactions require physical confirmation on the device, provid
 ### Changes in Zelcore 8.39.0
 
 - **Hardware Wallet** appears in the import menu without the **Experimental** label.
-- **Trezor** still needs experimental features turned on in Zelcore before you can use it.
-- **Kaspa** can now be imported from a Ledger device. You can send KAS from it. KRC-20 tokens on Ledger are not supported yet.
+- **Trezor** on Zelcore desktop still needs experimental features turned on in Zelcore before you can use it.
+- **Kaspa** can now be imported from a Ledger device on Zelcore desktop. You can send KAS from it. KRC-20 tokens on Ledger are not supported yet.
 - Actions a hardware wallet cannot sign, such as Swap, Sell, Earn, WalletConnect and Sign Message, are hidden or refused with a clear message. Before this version they could fail part-way or create an exchange order first. If you see such a message, choose a wallet that uses a software key for that action.
 
 ## Import via WalletConnect

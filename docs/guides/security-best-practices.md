@@ -157,7 +157,7 @@ Based on extensive analysis of wallet compromises, attackers typically gain acce
 
 If you hold significant cryptocurrency value:
 
-1. **Use a hardware wallet** - Consider Ledger or Trezor for cold storage of large amounts
+1. **Use a hardware wallet** - Consider Ledger or Trezor (used with Zelcore desktop) for cold storage of large amounts
 2. **Implement multi-signature** - Require multiple keys to authorize transactions
 3. **Maintain a "hot wallet" for daily use** - Keep only small amounts in mobile/desktop wallets
 4. **Use dedicated devices** - Air-gapped computer or dedicated phone for crypto only

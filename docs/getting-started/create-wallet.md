@@ -97,7 +97,7 @@ Your wallet is now ready to use. You can:
 - Set up d2FA for transaction verification
 - Use address whitelisting for frequent recipients
 - Enable transaction confirmations
-- Consider connecting a hardware wallet (Ledger or Trezor)
+- Consider connecting a hardware wallet (Ledger or Trezor, used with Zelcore desktop)
 
 ## Next Steps
 

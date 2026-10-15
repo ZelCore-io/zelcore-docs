@@ -114,8 +114,8 @@ Convenient and secure access:
 
 Maximum security for large holdings:
 
-- Ledger support (Nano S, S Plus, X), including Kaspa
-- Trezor support (One, Model T)
+- Ledger support on desktop (Nano S, S Plus, X), including Kaspa
+- Trezor support on desktop (One, Model T)
 - Sign transactions on hardware device
 - View-only mode for cold storage
 
@@ -167,7 +167,7 @@ Use Kaspa and its ecosystem from Zelcore:
 
 - Send KAS or KRC-20 tokens to a KNS name such as `alice.kas`
 - Find your KRC-20 tokens, and consolidate UTXOs when an address holds many small ones
-- Import a Kaspa address from a Ledger device and send KAS
+- Import a Kaspa address from a Ledger device on Zelcore desktop and send KAS
 - View Kaspa covenant tokens (KRON and KCC-20) at your address
 - Sign messages with Kaspa addresses
 - Bridge KAS to Igra L2 and iKAS back to KAS

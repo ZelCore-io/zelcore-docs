@@ -47,7 +47,7 @@ A non-custodial wallet eliminates third-party risk and gives you several advanta
 | **Transaction limits** | Often imposed by the platform | Limited only by blockchain rules |
 | **Supported assets** | Only what the platform lists | Depends on wallet — Zelcore supports 450+ |
 | **Responsibility for security** | Shared (platform + your login) | Entirely yours |
-| **Example** | Exchange wallet (Coinbase, Binance) | Zelcore, Ledger, Trezor |
+| **Example** | Exchange wallet (Coinbase, Binance) | Zelcore, Ledger, Trezor (the last two with Zelcore desktop) |
 
 :::info
 Self-custody comes with responsibility. You must protect your seed phrase and follow proper security practices. There is no "forgot password" option — if you lose your seed phrase, your funds are unrecoverable.
