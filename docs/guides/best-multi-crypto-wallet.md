@@ -61,11 +61,11 @@ Modern wallets differentiate themselves through integrated features that reduce 
 
 ### Zelcore
 
-Zelcore is a self-custodial multi-chain wallet that supports over 275 assets across numerous blockchain networks. It is available on Windows, macOS, Linux, iOS, and Android.
+Zelcore is a self-custodial multi-chain wallet that supports 80+ blockchains and 100,000+ assets. It is available on Windows, macOS, Linux, iOS, and Android.
 
 **Strengths:**
 
-- **275+ supported assets** across a wide range of blockchains, all managed from a single seed phrase.
+- **80+ blockchains and 100,000+ assets**, all managed from a single seed phrase.
 - **Full self-custody:** Private keys never leave your device.
 - **D2FA (Decentralized Two-Factor Authentication):** A PIN that is stored encrypted on the Flux blockchain rather than with a centralized 2FA service. Zelcore asks for it before you send, swap, view private keys or use Flux ID.
 - **Cross-platform sync:** Access the same wallet seamlessly across desktop and mobile.
@@ -123,7 +123,7 @@ The following table compares key features across these wallets:
 | Self-custodial | Yes | Yes | Yes | Yes |
 | Desktop platforms | Win/Mac/Linux | Win/Mac/Linux | Extension only | Win/Mac/Linux |
 | Mobile platforms | iOS/Android | iOS/Android | iOS/Android | iOS/Android |
-| Asset support | 275+ | 300+ | 8M+ tokens | 500+ |
+| Asset support | 80+ blockchains, 100,000+ assets | 300+ | 8M+ tokens | 500+ |
 | Built-in exchange | Yes | Yes | Yes | Yes |
 | Staking | Yes | Yes | Yes | Yes |
 | Decentralized 2FA | Yes | No | No | No |
@@ -132,7 +132,7 @@ The following table compares key features across these wallets:
 | Open source | Partial | No | Core only | No |
 
 :::info
-Asset counts can be misleading. Some wallets count every custom ERC-20 token as a "supported asset," inflating the number. Zelcore's 275+ count reflects natively integrated and tested assets with full functionality including balance tracking, sending, and receiving.
+Asset counts can be misleading. Some wallets count every custom ERC-20 token as a "supported asset," inflating the number. Zelcore's 100,000+ figure includes importable tokens alongside the natively integrated assets, which have full functionality including balance tracking, sending, and receiving.
 :::
 
 ## Where Zelcore Stands Out

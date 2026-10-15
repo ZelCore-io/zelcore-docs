@@ -12,7 +12,7 @@ This guide walks you through setting up a new Zelcore wallet account, from initi
 
 ## Overview
 
-Zelcore is a multi-currency cryptocurrency wallet that supports thousands of tokens across more than 70 different crypto networks. All user data is stored locally on your device, ensuring no personal information is transmitted to centralized servers.
+Zelcore is a multi-currency cryptocurrency wallet that supports 100,000+ assets on 80+ blockchains. All user data is stored locally on your device, ensuring no personal information is transmitted to centralized servers.
 
 **Version shown:** v8.24.1
 

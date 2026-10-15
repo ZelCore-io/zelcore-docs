@@ -34,7 +34,7 @@ A non-custodial wallet eliminates third-party risk and gives you several advanta
 - **Unrestricted access:** You can send, receive, and manage your crypto at any time, without waiting for approval from a platform.
 - **Privacy:** Self-custodial wallets do not require identity verification to use. Your financial activity remains between you and the blockchain.
 - **Censorship resistance:** No entity can prevent you from making a valid blockchain transaction.
-- **Multi-chain freedom:** Wallets like Zelcore support hundreds of assets across many blockchains, giving you a unified interface without surrendering custody.
+- **Multi-chain freedom:** Wallets like Zelcore support 100,000+ assets on 80+ blockchains, giving you a unified interface without surrendering custody.
 
 ## Custodial vs. Self-Custodial Wallets: A Comparison
 

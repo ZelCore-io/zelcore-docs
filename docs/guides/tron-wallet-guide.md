@@ -9,7 +9,7 @@ keywords: [tron wallet, trx wallet, tron crypto wallet, manage trx]
 
 ## Overview
 
-Zelcore provides full-featured tron wallet support, allowing you to send, receive, and manage TRX alongside hundreds of other cryptocurrencies in a single application. As a TRX wallet integrated into a multi-chain environment, Zelcore makes it easy to work with the TRON blockchain whether you are transferring TRX, interacting with TRC-20 tokens, or exploring the broader TRON crypto ecosystem. This guide covers everything from initial setup to advanced topics like TRON's energy and bandwidth resource model.
+Zelcore provides full-featured tron wallet support, allowing you to send, receive, and manage TRX alongside 100,000+ other assets on 80+ blockchains in a single application. As a TRX wallet integrated into a multi-chain environment, Zelcore makes it easy to work with the TRON blockchain whether you are transferring TRX, interacting with TRC-20 tokens, or exploring the broader TRON crypto ecosystem. This guide covers everything from initial setup to advanced topics like TRON's energy and bandwidth resource model.
 
 ## What Is TRON?
 
@@ -171,7 +171,7 @@ Do not confuse TRON's TRX with tokens on other networks. If someone sends you "T
 
 Zelcore's TRON wallet integration offers several advantages:
 
-- **Unified portfolio:** Manage TRX alongside Bitcoin, Ethereum, and hundreds of other assets in one application.
+- **Unified portfolio:** Manage TRX alongside Bitcoin, Ethereum, and 100,000+ other assets on 80+ blockchains in one application.
 - **Full TRC-20 support:** Access all major TRC-20 tokens without needing a separate TRON-specific wallet.
 - **Cross-platform:** Use the same TRON wallet on desktop, iOS, and Android.
 - **Self-custodial:** Your TRON private keys are generated and stored locally on your device. Zelcore never has access to your funds.

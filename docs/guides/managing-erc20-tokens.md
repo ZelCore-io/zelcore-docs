@@ -9,7 +9,7 @@ keywords: [erc20 wallet, erc20 tokens, ethereum token wallet, manage erc20]
 
 ## Overview
 
-Zelcore functions as a comprehensive ERC20 wallet, giving you full control over your Ethereum-based tokens alongside hundreds of other cryptocurrencies. ERC-20 tokens represent the largest and most diverse token ecosystem in crypto, powering everything from stablecoins and DeFi governance to utility tokens and digital collectibles. This guide walks you through managing ERC-20 tokens in Zelcore, understanding Ethereum gas fees, and navigating the broader Ethereum token landscape — including Layer 2 alternatives that can save you money on transactions.
+Zelcore functions as a comprehensive ERC20 wallet, giving you full control over your Ethereum-based tokens alongside 100,000+ other assets on 80+ blockchains. ERC-20 tokens represent the largest and most diverse token ecosystem in crypto, powering everything from stablecoins and DeFi governance to utility tokens and digital collectibles. This guide walks you through managing ERC-20 tokens in Zelcore, understanding Ethereum gas fees, and navigating the broader Ethereum token landscape — including Layer 2 alternatives that can save you money on transactions.
 
 ## What Are ERC-20 Tokens?
 

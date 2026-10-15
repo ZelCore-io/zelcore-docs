@@ -228,4 +228,4 @@ For platform-specific troubleshooting, consult the [platform-specific FAQ](/docs
 
 ## Summary
 
-Zelcore's mobile crypto wallet app delivers a comprehensive cryptocurrency management experience on both iOS and Android. While there are minor platform differences — particularly around swap availability on iOS — the core functionality of sending, receiving, and managing hundreds of assets is fully available on both platforms. By enabling biometric authentication and D2FA, keeping your device and app updated, and following mobile security best practices, you can confidently manage your crypto portfolio from anywhere.
+Zelcore's mobile crypto wallet app delivers a comprehensive cryptocurrency management experience on both iOS and Android. While there are minor platform differences — particularly around swap availability on iOS — the core functionality of sending, receiving, and managing 100,000+ assets on 80+ blockchains is fully available on both platforms. By enabling biometric authentication and D2FA, keeping your device and app updated, and following mobile security best practices, you can confidently manage your crypto portfolio from anywhere.

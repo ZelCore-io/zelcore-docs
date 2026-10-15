@@ -7,7 +7,7 @@ keywords: [wallet core, zelcore architecture, multi chain wallet, how crypto wal
 
 # Zelcore Architecture — Understanding the Wallet Core
 
-Understanding how a crypto wallet works under the hood helps you make better decisions about security, backup strategies, and asset management. Zelcore's **wallet core** is the engine that powers its **multi chain wallet** capabilities, handling everything from key generation to transaction signing across hundreds of blockchain networks. This guide provides a detailed look at how Zelcore's architecture is designed, what happens when you create a wallet, and why these technical foundations matter for everyday use.
+Understanding how a crypto wallet works under the hood helps you make better decisions about security, backup strategies, and asset management. Zelcore's **wallet core** is the engine that powers its **multi chain wallet** capabilities, handling everything from key generation to transaction signing across 80+ blockchains. This guide provides a detailed look at how Zelcore's architecture is designed, what happens when you create a wallet, and why these technical foundations matter for everyday use.
 
 ## The Foundation: Seed Phrases and Key Derivation
 
@@ -54,9 +54,9 @@ The practical implications of this **crypto wallet architecture** are significan
 
 ## Multi-Chain Support Architecture
 
-### How Zelcore Supports 275+ Assets
+### How Zelcore Supports 100,000+ Assets
 
-Supporting hundreds of blockchains from a single application requires careful architectural planning. Zelcore achieves this through several layers:
+Supporting 80+ blockchains and 100,000+ assets from a single application requires careful architectural planning. Zelcore achieves this through several layers:
 
 **Chain-specific modules:** Each supported blockchain has a dedicated module within Zelcore that understands the network's transaction format, address encoding, signing algorithm, and consensus rules. For example:
 
@@ -157,4 +157,4 @@ You do not need to understand elliptic curve cryptography to use Zelcore effecti
 
 ## Summary
 
-Zelcore's wallet core architecture combines industry-standard key derivation (BIP-39 and BIP-44), chain-specific transaction modules, decentralized backend infrastructure, and robust encryption to deliver a secure multi-chain wallet experience. Every design decision — from hierarchical deterministic key generation to local transaction signing to Flux-powered backend nodes — serves the goal of giving you full control over your assets with minimal complexity. The result is a wallet that manages 275+ assets from a single seed phrase while keeping your private keys firmly in your hands.
+Zelcore's wallet core architecture combines industry-standard key derivation (BIP-39 and BIP-44), chain-specific transaction modules, decentralized backend infrastructure, and robust encryption to deliver a secure multi-chain wallet experience. Every design decision — from hierarchical deterministic key generation to local transaction signing to Flux-powered backend nodes — serves the goal of giving you full control over your assets with minimal complexity. The result is a wallet that manages 100,000+ assets on 80+ blockchains from a single seed phrase while keeping your private keys firmly in your hands.
