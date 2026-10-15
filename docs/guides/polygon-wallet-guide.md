@@ -30,7 +30,7 @@ Polygon achieves this by processing transactions on its own proof-of-stake sidec
 In 2023, the Polygon community approved a governance proposal to migrate from the MATIC token to a new token called POL. This transition was designed to support Polygon's expanded vision as a multi-chain ecosystem. POL serves as the native gas and staking token across Polygon networks.
 
 :::info
-If you hold MATIC, migration to POL is handled at the protocol level. In Zelcore, your balance will reflect the current token standard supported on the Polygon network. You do not need to perform a manual swap.
+On the Polygon network your balance now shows as POL, with no action needed. MATIC held as an ERC-20 on Ethereum isn't converted automatically. Use Polygon's official migration in the Polygon Portal.
 :::
 
 ## Adding Polygon to Your Zelcore Wallet
