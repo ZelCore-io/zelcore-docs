@@ -8,11 +8,11 @@ image: ./images/03-earn-dashboard.webp
 
 # Stake Ethereum with Zelcore
 
+To stake ETH in Zelcore, open **Earn** from the left sidebar, click **Stake**, enter an amount (minimum 0.01 ETH) and confirm. Staking runs through the **Chorus One Max Vault**, a pooled staking solution where Chorus One distributes rewards to participants.
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
-
-This guide walks you through staking Ethereum using the **Earn** function in Zelcore. Staking is done through the **Chorus One Max Vault**, a pooled staking solution where Chorus One distributes rewards to participants.
 
 ---
 

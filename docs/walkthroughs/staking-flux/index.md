@@ -8,11 +8,11 @@ image: ./images/01-earn-dashboard.webp
 
 # How to Stake FLUX with Zelcore Earn
 
+To stake FLUX in Zelcore, open **Earn**, select your wallet and the Flux chain, enter an amount (minimum 50 FLUX), choose a lockup tier, decide on Auto-Reinvest and confirm the stake. Longer lockup periods offer lower fees and higher estimated APY.
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
-
-This guide walks you through staking FLUX using Zelcore's Earn feature. You'll learn how to navigate to Earn, select a wallet and chain, choose a lockup tier, and confirm your stake.
 
 ---
 

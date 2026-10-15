@@ -8,11 +8,13 @@ image: ./images/zelcore-setup/01-welcome-screen.webp
 
 # Zelcore Wallet Setup Guide
 
+To set up a new Zelcore wallet, open the app, click **Get Started**, choose a seed phrase length (24 words is recommended), generate and save your seed phrase, then register and log in to reach your portfolio.
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore 8.39.0 (October 2026). The screenshots on this page come from an earlier version (8.24.1), so some screens may look slightly different.
 :::
 
-This guide walks you through setting up a new Zelcore wallet account with screenshots, from registration to your portfolio. For the same steps as a text-only checklist, including d2FA setup, see [Create a New Wallet](/docs/getting-started/create-wallet).
+Screenshots show each step. For the same steps as a text-only checklist, including d2FA setup, see [Create a New Wallet](/docs/getting-started/create-wallet).
 
 ## Overview
 

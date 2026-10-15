@@ -8,11 +8,11 @@ image: ./images/03-earn-solana-dashboard.webp
 
 # How to Stake Solana (SOL) with Zelcore Earn
 
+To stake SOL in Zelcore, open **Earn**, select Solana as the staking chain, enter an amount (minimum 1.0023 SOL: Solana's 1 SOL minimum plus the stake-account rent) and confirm. The stake goes through the Chorus One staking provider and activates in the next Solana epoch.
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
-
-This guide walks you through staking Solana (SOL) using Zelcore's Earn feature. You'll learn how to navigate to Earn, select Solana as the staking chain, enter a stake amount, and confirm your stake through the Chorus One staking provider.
 
 ---
 
