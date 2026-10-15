@@ -5,11 +5,11 @@ description: "How to send, receive, and manage ERC-20 tokens on Ethereum in your
 keywords: [erc20 wallet, erc20 tokens, ethereum token wallet, manage erc20]
 ---
 
-# Managing ERC-20 Tokens in Your Zelcore ERC20 Wallet
+# Managing ERC-20 Tokens in Zelcore
 
 ## Overview
 
-Zelcore functions as a comprehensive ERC20 wallet, giving you full control over your Ethereum-based tokens alongside 100,000+ other assets on 80+ blockchains (as of October 2026). ERC-20 tokens represent the largest and most diverse token ecosystem in crypto, powering everything from stablecoins and DeFi governance to utility tokens and digital collectibles. This guide walks you through managing ERC-20 tokens in Zelcore, understanding Ethereum gas fees, and navigating the broader Ethereum token landscape — including Layer 2 alternatives that can save you money on transactions.
+Zelcore holds your Ethereum-based (ERC-20) tokens alongside 100,000+ other assets on 80+ blockchains (as of October 2026). ERC-20 tokens represent the largest and most diverse token ecosystem in crypto, powering everything from stablecoins and DeFi governance to utility tokens and digital collectibles. This guide walks you through managing ERC-20 tokens in Zelcore, understanding Ethereum gas fees, and navigating the broader Ethereum token landscape — including Layer 2 alternatives that can save you money on transactions.
 
 ## What Are ERC-20 Tokens?
 
@@ -209,7 +209,7 @@ For more information about Zelcore's Ethereum integration, visit [zelcore.io/eco
 
 ## Summary
 
-Zelcore's ERC20 wallet capabilities make it straightforward to manage the full range of Ethereum-based tokens in a self-custodial environment. The essential points to remember are:
+Zelcore manages Ethereum-based tokens in a self-custodial wallet. The essential points to remember are:
 
 1. **Always hold ETH** in your wallet to pay for gas fees on ERC-20 transactions.
 2. **Select the correct network** when adding tokens or receiving from exchanges — ERC-20 for Ethereum.

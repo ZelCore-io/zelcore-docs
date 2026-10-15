@@ -5,11 +5,11 @@ description: "Send, receive and manage TRON (TRX) and TRC-20 tokens like USDT in
 keywords: [tron wallet, trx wallet, tron crypto wallet, manage trx, trc20 wallet, trc20 tokens, usdt tron wallet, manage trc20]
 ---
 
-# How to Use TRON (TRX) in Your Zelcore Tron Wallet
+# How to Use TRON (TRX) in Zelcore
 
 ## Overview
 
-Zelcore provides full-featured tron wallet support, allowing you to send, receive, and manage TRX and TRC-20 tokens alongside 100,000+ other assets on 80+ blockchains (as of October 2026) in a single application. As a TRX wallet integrated into a multi-chain environment, Zelcore makes it easy to work with the TRON blockchain whether you are transferring TRX, sending TRC-20 tokens such as USDT on TRON, or exploring the broader TRON crypto ecosystem. This guide covers everything from initial setup to TRC-20 token management, troubleshooting, and TRON's energy and bandwidth resource model.
+In Zelcore you can send, receive and manage TRX and TRC-20 tokens (such as USDT on TRON) alongside 100,000+ other assets on 80+ blockchains (as of October 2026). This guide covers everything from initial setup to TRC-20 token management, troubleshooting, and TRON's energy and bandwidth resource model.
 
 ## What Is TRON?
 
@@ -299,7 +299,7 @@ For more information about TRON support and Zelcore's broader ecosystem integrat
 
 ## Summary
 
-TRON is one of the most actively used blockchains in crypto, and Zelcore provides a complete tron crypto wallet experience for managing TRX and TRC-20 tokens. The key points to remember:
+TRON is one of the most actively used blockchains in crypto, and Zelcore manages TRX and TRC-20 tokens. The key points to remember:
 
 1. Always keep TRX in your wallet to cover transaction fees, including for TRC-20 transfers.
 2. Understand the difference between bandwidth and energy.
