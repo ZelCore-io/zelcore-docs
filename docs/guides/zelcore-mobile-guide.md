@@ -53,7 +53,7 @@ The wallet steps are the same on every platform:
 
 - New wallet: [Create a New Wallet](/docs/getting-started/create-wallet) (text) or the [Zelcore Wallet Setup Guide](/docs/walkthroughs/zelcore-setup-guide) (screenshots)
 - Existing seed phrase: [Import an Existing Wallet](/docs/getting-started/import-wallet)
-- d2FA: step 8 of [Create a New Wallet](/docs/getting-started/create-wallet)
+- d2FA: [Set Up d2FA in Zelcore](/docs/security/d2fa)
 
 ### Biometric Authentication
 

@@ -215,13 +215,9 @@ Zelcore recommends these essential steps to secure your account:
 
 ### About d2FA (Decentralized Two-Factor Authentication)
 
-d2FA stores your encrypted PIN on the blockchain, providing:
-- Enhanced security compared to standard 2FA
-- Resistance to hacking attempts
-- Blockchain-based encryption
+d2FA stores your PIN encrypted on the Flux blockchain. Zelcore asks for it at login, before secure tasks such as sending, or both, depending on the options you tick. Zelcore can't reset a lost PIN, so write it down.
 
-**How to receive Flux for d2FA:**
-Simply use your Zelcore wallet, and you will receive the Flux transaction in time.
+**FLUX for d2FA:** the setup transaction needs a small amount of confirmed FLUX (about 0.0002 as of October 2026) in the first Flux address of your account. See [Set Up d2FA in Zelcore](/docs/security/d2fa).
 
 ---
 

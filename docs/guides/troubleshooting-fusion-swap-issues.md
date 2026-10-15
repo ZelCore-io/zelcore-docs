@@ -15,6 +15,8 @@ Written for Zelcore 8.39.0 (October 2026).
 
 Background: [Zelcore Fusion Swap: Aggregator, Slippage, and On-Ramps](https://zelcore.io/academy/defi/zelcore-fusion-swap-aggregator)
 
+For how to make a swap, what it costs, the min/max limits and the error messages shown before you confirm, see [Swap Crypto in Zelcore: Fees and Limits](./swaps-fees-and-limits.md). This page covers swaps that are already under way.
+
 ## Quick fix
 
 1. In Zelcore, open **Fusion** and find your order in the swap history. Note the provider and the **Order ID**.
@@ -796,6 +798,7 @@ Zelcore Fusion is an aggregator that connects you to third-party exchange provid
 
 ## Related Documentation
 
+- [Swap Crypto in Zelcore: Fees and Limits](../swaps-fees-and-limits/)
 - [Using Zelcore Fusion for Crypto Swaps](../../features/overview/)
 - Understanding Blockchain Confirmations
 - [Zelcore Security Best Practices](../../security/best-practices/)

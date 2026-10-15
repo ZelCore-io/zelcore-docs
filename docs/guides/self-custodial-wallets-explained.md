@@ -45,7 +45,7 @@ Zelcore encrypts your wallet data with your password. Someone with access to you
 
 ### d2FA
 
-d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. If you turn on its secure-tasks option, Zelcore asks for it before you send, swap, view private keys or use Flux ID. See step 8 of [Create a New Wallet](/docs/getting-started/create-wallet) to set it up.
+d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. If you turn on its secure-tasks option, Zelcore asks for it before you send, swap, view private keys or use Flux ID. See [Set Up d2FA in Zelcore](/docs/security/d2fa) to set it up.
 
 ### No Server-Side Dependency for Funds
 
@@ -63,7 +63,7 @@ No. Zelcore cannot freeze, restrict, or access your funds. Only you can authoriz
 
 ### Can I use Zelcore alongside a hardware wallet?
 
-Yes, on desktop. Zelcore desktop works with Ledger and Trezor hardware wallets, so the keys for those accounts stay on the hardware device.
+Yes, on desktop. Zelcore desktop works with Ledger and Trezor hardware wallets, so the keys for those accounts stay on the hardware device. See [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets).
 
 ## Next Steps
 

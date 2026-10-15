@@ -2,13 +2,13 @@
 sidebar_position: 3
 title: "Restore or Import a Zelcore Wallet"
 sidebar_label: "Import an Existing Wallet"
-description: "Restore or import a Zelcore wallet from a seed phrase, private key, WalletConnect or a hardware wallet (desktop), or migrate a legacy account."
+description: "Restore or import a Zelcore wallet from a seed phrase (12, 18 or 24 words), a private key or a hardware wallet (desktop), or migrate a legacy account."
 keywords: [import wallet, restore crypto wallet, seed phrase recovery, migrate wallet]
 ---
 
 # Import Existing Wallet
 
-You can import a Zelcore wallet from a seed phrase (12, 18 or 24 words), a private key (WIF or hex), a Ledger or Trezor hardware wallet (Zelcore desktop only) or WalletConnect. A seed phrase is the most common method and restores the whole wallet; a private key imports a single address.
+You can import a Zelcore wallet from a seed phrase (12, 18 or 24 words), a private key (WIF or hex) or a Ledger or Trezor hardware wallet (Zelcore desktop only). A seed phrase is the most common method and restores the whole wallet; a private key imports a single address.
 
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
@@ -23,7 +23,8 @@ Zelcore supports multiple import methods:
 1. **Seed Phrase (Mnemonic)** - 12, 18, or 24 words
 2. **Private Key** - WIF or hex format
 3. **Hardware Wallet** - Ledger or Trezor devices (Zelcore desktop only)
-4. **WalletConnect** - Connect mobile wallet to dApps
+
+WalletConnect is not an import method: it connects a wallet you already have to dApps.
 
 ## Import from Seed Phrase
 
@@ -80,55 +81,11 @@ Only import private keys on devices you trust. Never import private keys on shar
 
 ## Connect Hardware Wallet
 
-Integrate your Ledger or Trezor hardware wallet with Zelcore desktop for enhanced security.
+Ledger and Trezor work with Zelcore desktop only (USB); the mobile app and the browser extension can't pair a hardware wallet. In Zelcore desktop, open the wallet selector in **Portfolio**, choose **Import a Wallet** > **Hardware Wallet** and follow the wizard; Trezor (desktop) needs **Experimental Features** turned on first. For the full steps, the coins each device supports and hardware wallet errors, see [Ledger and Trezor on Zelcore Desktop](../guides/hardware-wallets.md).
 
-### Supported Devices
+## Connecting to dApps with WalletConnect
 
-- **Ledger** (desktop): Nano S, Nano S Plus, Nano X
-- **Trezor** (desktop): One, Model T
-
-### Connection Steps
-
-#### Desktop
-1. Connect your hardware wallet to your computer via USB
-2. Unlock the device and open the appropriate blockchain app
-3. In Zelcore, go to **Settings** → **Hardware Wallets**
-4. Select your device type (Ledger or Trezor; desktop only)
-5. Follow the on-screen pairing instructions
-6. Approve the connection on your hardware device
-
-#### Mobile and Browser Extension
-Ledger and Trezor work with Zelcore desktop only (USB). The mobile app and the browser extension can't pair a hardware wallet.
-
-:::info
-Hardware wallet transactions require physical confirmation on the device, providing an additional security layer.
-:::
-
-### Changes in Zelcore 8.39.0
-
-- **Hardware Wallet** appears in the import menu without the **Experimental** label.
-- **Trezor** on Zelcore desktop still needs experimental features turned on in Zelcore before you can use it.
-- **Kaspa** can now be imported from a Ledger device on Zelcore desktop. You can send KAS from it. KRC-20 tokens on Ledger are not supported yet.
-- Actions a hardware wallet cannot sign, such as Swap, Sell, Earn, WalletConnect and Sign Message, are hidden or refused with a clear message. Before this version they could fail part-way or create an exchange order first. If you see such a message, choose a wallet that uses a software key for that action.
-
-## Import via WalletConnect
-
-Connect your Zelcore mobile wallet to desktop dApps or vice versa.
-
-### Desktop to Mobile
-
-1. On the desktop dApp, click the WalletConnect QR code
-2. Open Zelcore mobile app
-3. Tap **WalletConnect** icon
-4. Scan the QR code
-5. Approve the connection
-
-### Mobile to Desktop
-
-1. Open Zelcore browser extension
-2. Click **WalletConnect**
-3. Select **Mobile Connection**
-4. Scan the QR code with your mobile Zelcore app
+WalletConnect connects your Zelcore wallet to a dApp; it doesn't import a wallet. See [Connect Zelcore to dApps with WalletConnect](../guides/walletconnect.md).
 
 ## Troubleshooting
 
@@ -197,6 +154,9 @@ After successfully importing your wallet, you can start managing your crypto ass
 
 - [Create a New Wallet](/docs/getting-started/create-wallet)
 - [Migrating from Legacy to Seed Phrase](/docs/guides/migrating-legacy-to-seed-phrase)
+- [Move Funds from Another Wallet to Zelcore](/docs/guides/moving-funds-from-other-wallets)
+- [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets)
+- [Connect Zelcore to dApps with WalletConnect](/docs/guides/walletconnect)
 - [Understanding Zelcore Accounts](/docs/getting-started/understanding-zelcore-accounts)
 - [Account Access FAQ](/docs/faq/account-access-faq)
 - [Security Best Practices](/docs/security/best-practices)
