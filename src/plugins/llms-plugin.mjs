@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { docUrlFromPath, parseFrontmatter, mdxToMarkdown, buildLlmsTxt, buildDocPage, buildFullTxt, safeOutPath } from '../../scripts/lib/llms.mjs';
+import { docUrlFromPath, isFolderIndex, parseFrontmatter, mdxToMarkdown, buildLlmsTxt, buildDocPage, buildFullTxt, safeOutPath } from '../../scripts/lib/llms.mjs';
 
 export default function llmsPlugin(context) {
   return {
@@ -31,7 +31,7 @@ export default function llmsPlugin(context) {
               title: String(data.title || rel),
               description: String(data.description || ''),
               section: rel.includes('/') ? rel.split('/')[0] : '',
-              markdown: mdxToMarkdown(body, `${site}${url}`),
+              markdown: mdxToMarkdown(body, `${site}${url}`, { folderIndex: isFolderIndex(rel) }),
               position: Number(data.sidebar_position ?? 999),
             });
           }

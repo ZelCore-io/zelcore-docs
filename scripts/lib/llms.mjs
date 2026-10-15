@@ -2,11 +2,24 @@ import path from 'node:path';
 import yaml from 'js-yaml';
 
 // Pure helpers for /llms.txt, /llms-full.txt and per-doc Markdown copies.
+// A folder-index doc is x/index.md, x/README.md or x/x.md: its page URL is the folder.
+export function isFolderIndex(rel) {
+  const parts = rel.replace(/\.(md|mdx)$/, '').split('/');
+  const last = parts[parts.length - 1];
+  return parts.length > 1 && (last === 'index' || last === 'README' || last === parts[parts.length - 2]);
+}
+
 export function docUrlFromPath(rel, slug) {
   if (slug && slug.startsWith('/')) return `/docs${slug.replace(/\/$/, '')}/`;
   const parts = rel.replace(/\.(md|mdx)$/, '').split('/');
-  const last = parts[parts.length - 1];
-  if (parts.length > 1 && (last === 'index' || last === 'README' || last === parts[parts.length - 2])) parts.pop();
+  const dir = parts.slice(0, -1);
+  if (slug) {
+    // Docusaurus resolves a relative slug against the doc's source folder
+    // (resolvePathname(slug, dirSlug)), so it replaces the last path segment.
+    const resolved = new URL(slug, `http://x/docs/${dir.map((d) => `${d}/`).join('')}`).pathname;
+    return `${resolved.replace(/\/$/, '')}/`;
+  }
+  if (isFolderIndex(rel)) parts.pop();
   return `/docs/${parts.join('/')}/`;
 }
 
@@ -20,21 +33,22 @@ export function parseFrontmatter(src) {
 
 const SCHEME = /^[a-z][a-z0-9+.-]*:/i;
 
-function absolutizeHref(href, pageUrl) {
+function absolutizeHref(href, pageUrl, folderIndex) {
   if (!pageUrl || !href || href.startsWith('#') || href.startsWith('//') || SCHEME.test(href)) return href;
   const isDocFile = /\.mdx?(?=[#?]|$)/.test(href);
   const cleaned = href.replace(/\.mdx?(?=[#?]|$)/, '');
-  // A .md link is relative to the source file (a sibling of the page folder);
-  // any other link is relative to the page URL itself.
-  const base = isDocFile ? pageUrl.replace(/\/$/, '') : pageUrl;
+  // A .md link is relative to the source file's folder. For a normal doc that
+  // is the parent of the page URL; for a folder-index doc (x/index.md) the
+  // page URL is the folder itself. Any other link is relative to the page URL.
+  const base = isDocFile && !folderIndex ? pageUrl.replace(/\/$/, '') : pageUrl;
   const url = new URL(cleaned, base);
   const last = url.pathname.split('/').pop();
   if (last && !last.includes('.')) url.pathname += '/';
   return url.href;
 }
 
-function rewriteLinks(line, pageUrl) {
-  return line.replace(/(\]\()([^)\s]+)((?:\s+"[^"]*")?\))/g, (_, open, href, close) => `${open}${absolutizeHref(href, pageUrl)}${close}`);
+function rewriteLinks(line, pageUrl, folderIndex) {
+  return line.replace(/(\]\()([^)\s]+)((?:\s+"[^"]*")?\))/g, (_, open, href, close) => `${open}${absolutizeHref(href, pageUrl, folderIndex)}${close}`);
 }
 
 function convertAdmonitions(lines) {
@@ -66,7 +80,7 @@ function convertAdmonitions(lines) {
   return out;
 }
 
-export function mdxToMarkdown(body, pageUrl) {
+export function mdxToMarkdown(body, pageUrl, { folderIndex = false } = {}) {
   const kept = body
     .split('\n')
     .filter((l) => !/^(import|export)\s/.test(l))
@@ -75,7 +89,7 @@ export function mdxToMarkdown(body, pageUrl) {
   const rewritten = convertAdmonitions(kept).map((line) => {
     if (/^\s*(```|~~~)/.test(line)) inFence = !inFence;
     if (inFence || /^\s*(```|~~~)/.test(line)) return line;
-    return rewriteLinks(line.replace(/!\[([^\]]*)\]\([^)]*\)/g, (_, alt) => `[Screenshot: ${alt}]`), pageUrl);
+    return rewriteLinks(line.replace(/!\[([^\]]*)\]\([^)]*\)/g, (_, alt) => `[Screenshot: ${alt}]`), pageUrl, folderIndex);
   });
   return rewritten.join('\n').replace(/\n{3,}/g, '\n\n').trim();
 }

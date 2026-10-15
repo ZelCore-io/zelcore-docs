@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { docUrlFromPath, parseFrontmatter, mdxToMarkdown, buildLlmsTxt, buildDocPage, buildFullTxt, safeOutPath } from '../lib/llms.mjs';
+import { docUrlFromPath, isFolderIndex, parseFrontmatter, mdxToMarkdown, buildLlmsTxt, buildDocPage, buildFullTxt, safeOutPath } from '../lib/llms.mjs';
 
 test('docUrlFromPath handles files, folder index docs and slugs', () => {
   assert.equal(docUrlFromPath('intro.md'), '/docs/intro/');
@@ -101,4 +101,31 @@ test('mdxToMarkdown converts admonitions to blockquotes', () => {
   assert.ok(out.includes('> **Tip \u2014 Pro Tip:**\n> Use a seed.\n>\n> Second para.'));
   assert.ok(out.includes('> **Warning:**\n> Careful.'));
   assert.ok(!out.includes(':::'));
+});
+
+test('docUrlFromPath resolves relative slugs against the source folder', () => {
+  assert.equal(docUrlFromPath('guides/bar.md', 'foo'), '/docs/guides/foo/');
+  assert.equal(docUrlFromPath('guides/bar.md', './foo/'), '/docs/guides/foo/');
+  assert.equal(docUrlFromPath('guides/sub/bar.md', '../foo'), '/docs/guides/foo/');
+  assert.equal(docUrlFromPath('bar.md', 'foo'), '/docs/foo/');
+  assert.equal(docUrlFromPath('walkthroughs/x/index.md', 'foo'), '/docs/walkthroughs/x/foo/');
+  assert.equal(docUrlFromPath('guides/bar.md', '/abs/path'), '/docs/abs/path/');
+});
+
+test('isFolderIndex recognises index, README and folder-named docs', () => {
+  assert.equal(isFolderIndex('walkthroughs/kaspa/index.md'), true);
+  assert.equal(isFolderIndex('walkthroughs/kaspa/README.mdx'), true);
+  assert.equal(isFolderIndex('walkthroughs/kaspa/kaspa.md'), true);
+  assert.equal(isFolderIndex('walkthroughs/kaspa/other.md'), false);
+  assert.equal(isFolderIndex('intro.md'), false);
+});
+
+test('mdxToMarkdown resolves .md links in folder-index docs against the folder', () => {
+  const page = 'https://docs.zelcore.io/docs/walkthroughs/kaspa/';
+  const out = mdxToMarkdown('Next: [Send](./send.md) and [Up](../other.md).', page, { folderIndex: true });
+  assert.ok(out.includes('[Send](https://docs.zelcore.io/docs/walkthroughs/kaspa/send/)'));
+  assert.ok(out.includes('[Up](https://docs.zelcore.io/docs/walkthroughs/other/)'));
+  // Non-index docs keep resolving against the source file's folder.
+  const g = mdxToMarkdown('[Bar](./bar.md)', 'https://docs.zelcore.io/docs/guides/foo/');
+  assert.ok(g.includes('[Bar](https://docs.zelcore.io/docs/guides/bar/)'));
 });
