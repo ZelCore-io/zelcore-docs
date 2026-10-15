@@ -7,22 +7,22 @@ keywords: [buy crypto zelcore, zelcore purchase, fiat on-ramp, buy crypto with c
 
 # Buy Crypto with Fiat in Zelcore
 
-To buy crypto with a card or bank account, open **Purchase** in the Zelcore main menu, enter an amount, pick a provider from the offers and finish the payment on the provider's checkout page. The coins arrive at a wallet address you choose in your own Zelcore wallet.
+To buy crypto with a card or bank account, open **Purchase** in the Zelcore main menu, enter an amount, choose a provider from the offers and finish the payment on the provider's checkout page. The coins arrive at a wallet address you choose in your own Zelcore wallet.
 
 :::info Applies to Zelcore 8.39
-Written for Zelcore 8.39.0 (October 2026). The steps follow the desktop app. Screens on mobile can differ in layout.
+Written for Zelcore 8.39.0 (October 2026). The steps follow the desktop app.
 :::
 
 Background: [how Zelcore's swap aggregator and on-ramps fit together](https://zelcore.io/academy/defi/zelcore-fusion-swap-aggregator).
 
 ## What Purchase does
 
-The **Purchase** screen is titled **Purchase Crypto with Fiat**. You enter how much fiat you want to spend and which crypto you want. Zelcore then shows offers from third-party fiat providers. Each offer is a card with the provider's name and the amounts it quotes.
+The **Purchase** screen is titled **Purchase Crypto with Fiat**. You enter how much fiat you want to spend and which crypto you want. Zelcore then shows offers from third-party fiat providers on a **Select Provider** screen. Each offer is a card with the provider's name, the amounts it quotes, an **Includes Fee** amount and the rate. The first card is tagged **Best Value**.
 
-The payment itself happens on the provider's checkout page, not inside Zelcore. The provider sells you the crypto and sends it to the wallet address you picked.
+The payment itself happens on the provider's checkout, which opens in a separate browser window, not inside Zelcore.
 
 - **Providers, countries and payment methods.** The available providers depend on your country and are shown in the app. The list can change, so this page does not name them.
-- **Fees and limits.** The rate on each offer is labelled **Includes Fee**. Fees, limits and payment methods are shown in the app before you confirm.
+- **Fees and limits.** Each offer shows an **Includes Fee** amount. Hover over it to see the network fee and the transaction fee. The rate is a separate line on the card. Fees, limits and payment methods are shown in the app before you confirm.
 - **Where the coins go.** You choose one of your own Zelcore wallet addresses, and the coins go there.
 - **Availability.** Purchase can vary by platform and region, and the app shows what is available on your device.
 
@@ -33,22 +33,23 @@ To sell crypto back to fiat, use the separate **Sell** item in the main menu ins
 <!-- screenshot: buying-crypto-01-purchase-screen -->
 
 1. Open **Purchase** from the left menu.
-2. Choose the fiat currency and enter the amount you want to spend.
+2. Choose the fiat currency and enter the amount you want to spend. Zelcore shows an **Includes Fee** amount under it once it has a quote.
 3. Choose the crypto you want to buy.
 
 <!-- screenshot: buying-crypto-02-wallet-address-selector -->
 
-4. When Zelcore asks you to **Select a wallet address to place the currency**, pick the address that should receive the coins.
-
-<!-- screenshot: buying-crypto-03-provider-offers -->
-
-5. Review the offers and choose one with **Select Provider**. Each rate shows **Includes Fee**, so compare the amount you would receive, not only the headline price.
+4. Under **Select a wallet address to place the currency**, pick the address that should receive the coins.
 
 <!-- screenshot: buying-crypto-04-disclaimer -->
 
-6. Read and agree to the Zelcore Disclaimer. The PDF is linked in the app and also available at [OnrampDisclaimer.pdf](https://cdn.zelcore.workers.dev/OnrampDisclaimer.pdf). You must agree before you can continue.
-7. Continue to the provider's checkout and complete the payment there.
-8. Track the order under **Purchase History**, or use **Track Purchase** on the order.
+5. Tick the checkbox for **I agree with Zelcore Disclaimer**. The PDF is linked in the app and also available at [OnrampDisclaimer.pdf](https://cdn.zelcore.workers.dev/OnrampDisclaimer.pdf). Zelcore will not continue without it.
+6. Click **Proceed**. If no provider can fill your amount, Zelcore says so and stays on this screen.
+
+<!-- screenshot: buying-crypto-03-provider-offers -->
+
+7. On the **Select Provider** screen, click the offer you want. Compare the **Includes Fee** amounts and the amounts you would receive, not only the rate. Use **Back** to change your amount.
+8. Click **Proceed**. The provider's checkout opens in a browser window. Complete the payment there.
+9. Track the order under **Purchase History**, or use **Track Purchase** on the order.
 
 ## Track a purchase
 
@@ -66,7 +67,7 @@ An older flow is still reachable as **Legacy Purchase**.
 
 ### No available fiat provider found. Please adjust amount
 
-No provider can serve that amount for the currency pair you chose. Change the amount, or try a different fiat currency or crypto, then check the offers again.
+The providers could not fill an order of that size for the pair you chose. Try a different amount, fiat currency or crypto, then check the offers again.
 
 ### Under minimum of (amount)
 
@@ -78,19 +79,15 @@ Your amount is above that provider's maximum. The message shows the maximum in p
 
 ### Please select fiat provider
 
-You tried to continue without choosing an offer. Choose a provider with **Select Provider**, then continue.
+You clicked **Proceed** on the **Select Provider** screen without choosing an offer. Click an offer card, then click **Proceed** again.
 
 ### Please agree with Zelcore Disclaimer
 
-You must agree to the Zelcore Disclaimer before you can continue to the provider's checkout. Agree to it, then continue.
+The disclaimer checkbox is not ticked. Tick it, then click **Proceed** again.
 
 ### Purchase of this asset is currently not available
 
 Buying that asset is not offered right now. Pick another asset, or try again later.
-
-### Purchase history is unavailable
-
-Zelcore could not load your orders. Check your internet connection and open **Purchase History** again. If the order was paid, the provider's confirmation is the record to keep.
 
 ## Related
 

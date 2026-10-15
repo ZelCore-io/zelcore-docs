@@ -25,7 +25,7 @@ The gallery has these views and filters:
 - **All**: every NFT, together.
 - **By Collection** and **Collections**: NFTs grouped by the collection they belong to.
 - **All Blockchains**: a filter to show one blockchain at a time.
-- **Spam**: a view for spam NFTs.
+- **Spam**: a switch, on by default, that shows or hides NFTs flagged as spam.
 - **Load More**: loads more NFTs when your list is long.
 
 ## Browse your NFTs
@@ -61,8 +61,9 @@ Check the recipient address and the details Zelcore shows before you confirm. A 
 
 ## Receive an NFT
 
-1. Open **NFTs** and choose **Receive**.
-2. Share the address Zelcore shows with the sender. Use an address on the same blockchain as the NFT.
+1. Open **NFTs** and click **Receive an NFT**.
+2. In the dialog, choose the wallet you want to receive into, then the blockchain.
+3. Zelcore shows the address screen. Share that address with the sender.
 
 ## Troubleshooting
 
