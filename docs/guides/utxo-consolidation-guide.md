@@ -7,11 +7,19 @@ keywords: [utxo consolidation, bitcoin transaction fees, zelcore utxo, consolida
 
 # UTXO Consolidation Guide for Miners
 
+Errors such as "not enough spendables", "insufficient funds for gas+price" and HTTP 413 come from UTXO fragmentation: your balance is split across too many small unspent outputs. Sending part of your balance to your own receiving address combines many small UTXOs into fewer large ones, and you repeat it until the errors stop.
+
+## Quick fix
+
+1. Open the affected coin (for example RTM or RVN) in Zelcore and copy your own address from the **Receive** tab.
+2. In the **Send** tab, paste that address as the recipient and send 25-50% of your balance to yourself.
+3. Wait for the transaction to confirm. Most UTXO coins need 1-6 confirmations (5-60 minutes).
+4. Repeat the process: light fragmentation needs 2-3 rounds, heavy fragmentation 6-10 or more.
+5. Finish by sending 70-90% of your balance to yourself, which creates one large UTXO. Keep a small amount separate for fees.
+
 ## Overview
 
-If you're a miner or frequently receive micro-payments, you may encounter errors like "not enough spendables," "insufficient funds for gas+price," or HTTP 413 errors when trying to send cryptocurrency. These issues are caused by UTXO fragmentation - having too many small, unspent transaction outputs in your wallet.
-
-This comprehensive guide explains what UTXOs are, why they cause problems for miners, and provides step-by-step instructions for consolidating them to restore normal wallet functionality.
+Miners and people who frequently receive micro-payments can hit these errors when trying to send cryptocurrency. They are caused by UTXO fragmentation - having too many small, unspent transaction outputs in your wallet.
 
 **Affected Coins:** This issue commonly affects UTXO-based cryptocurrencies including:
 - Raptoreum (RTM)

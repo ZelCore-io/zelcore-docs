@@ -7,13 +7,21 @@ keywords: [zelcore install problem, crypto wallet installation, zelcore update]
 
 # Troubleshooting Zelcore App Installation and Updates
 
+Many Zelcore installation and update problems come from a connection problem, an incomplete download or a system that does not meet the requirements. Back up your wallet first, work through the quick fix below, then use the section for your platform (Windows, macOS, Linux, iOS or Android) for the exact error.
+
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
-## Overview
+## Quick fix
 
-This guide addresses common problems users encounter when installing, updating, or auto-updating Zelcore wallet applications across different platforms (Windows, macOS, Linux, iOS, Android). Whether you're experiencing installation failures, update errors, or auto-update issues, this guide provides systematic solutions for each platform.
+1. Back up your wallet (seed phrase) before you uninstall, clear app data or reinstall.
+2. Check your internet connection: load zelcore.io, turn off any VPN and try another network if needed.
+3. Check that your system meets the requirements for your platform (see Solution 5 below).
+4. If the installer file is incomplete or damaged, delete it and download a fresh copy from the official sources only.
+5. Still stuck? Open your platform's section below (Windows, macOS, Linux, iOS or Android) and find your error.
+
+## Overview
 
 Zelcore releases regular updates to improve security, add features, and fix bugs. Keeping your app updated is critical for security and functionality, so resolving installation and update issues promptly is important.
 

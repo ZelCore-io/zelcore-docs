@@ -7,9 +7,9 @@ keywords: [wallet compromised, crypto stolen, wallet hacked response, emergency 
 
 # Responding to Wallet Compromise
 
-## Overview
+If you suspect your wallet is compromised, confirm the unauthorized transactions on a blockchain explorer, stop using the compromised device, and move any remaining funds from a clean device to a new wallet with a new seed phrase. Never reuse the old seed phrase: changing your Zelcore password does not secure a compromised wallet, and Zelcore cannot reverse or recover stolen funds.
 
-This guide provides immediate action steps if you suspect or confirm that your Zelcore wallet has been compromised. Time is critical when responding to a security incident.
+## Overview
 
 **Critical Information:**
 

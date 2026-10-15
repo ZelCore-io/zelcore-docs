@@ -7,15 +7,25 @@ keywords: [flux node offline, node status issues, flux node troubleshooting]
 
 # Troubleshooting Flux Node Status Issues
 
+A Flux node in the DOS, EXPIRED or "Flux not confirmed" state usually has a port-forwarding or firewall problem, a daemon that is out of sync or an expired confirmation transaction. Work through the quick fix below in order, starting with the multitoolbox diagnostic.
+
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
+## Quick fix
+
+1. Run the multitoolbox diagnostic on your node (Step 1).
+2. Check that the Flux daemon is fully synchronized (Step 2).
+3. Verify the required ports are open and forwarded, by UPnP or manually (Steps 3 and 4).
+4. Resolve any failing benchmarks and check for post-update issues (Steps 6 and 7).
+5. If the status is EXPIRED or Not Confirmed, re-confirm the node (Step 8).
+
 ## Overview
 
-This comprehensive guide addresses the most common Flux Node operational issues, including DOS (Denial of Service), EXPIRED, and "Flux not confirmed" states. Despite nodes sometimes passing benchmarks, these status problems can prevent your node from participating in the Flux network and earning rewards.
+These status problems can prevent your node from participating in the Flux network and earning rewards, even when the node passes benchmarks.
 
-This guide covers systematic troubleshooting for all node tiers (Cumulus, Nimbus, and Stratus) and helps you diagnose and resolve network configuration, daemon synchronization, and post-update issues.
+The steps apply to all node tiers (Cumulus, Nimbus, and Stratus) and cover network configuration, daemon synchronization, and post-update issues.
 
 ## Prerequisites
 

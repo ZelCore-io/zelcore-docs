@@ -7,7 +7,9 @@ keywords: [wallet core, zelcore architecture, multi chain wallet, how crypto wal
 
 # Zelcore Architecture
 
-This page explains how Zelcore handles your keys: how they are created from your seed phrase, where they are stored, how transactions are signed and what Zelcore's servers do. For general background on seed phrases, see [Seed phrases explained](https://zelcore.io/academy/basics/seed-phrases-explained) on zelcore.io.
+Zelcore derives every key on your device from a BIP-39 seed phrase using BIP-44, stores the keys encrypted on your device and signs each transaction locally, so only the signed transaction is broadcast and your private keys and seed phrase never leave the device. Zelcore's backend connects the app to blockchain nodes to query balances, broadcast signed transactions, retrieve history and estimate fees.
+
+For general background on seed phrases, see [Seed phrases explained](https://zelcore.io/academy/basics/seed-phrases-explained) on zelcore.io.
 
 ## Seed Phrase and Key Derivation
 

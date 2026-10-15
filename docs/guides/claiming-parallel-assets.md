@@ -7,9 +7,9 @@ keywords: [parallel assets, claim parallel tokens, zelcore parallel assets]
 
 # Claiming Flux Parallel Assets: Complete Guide
 
-## Overview
+Claim Flux Parallel Assets (PA) in the Fusion section of Zelcore: open Fusion, go to the Parallel Assets (PA Claims) section, pick a PA type and claim it, or use "Claim All" to consolidate everything into native FLUX. Each claim needs gas on the chain you claim to (native FLUX for "Claim All"), and first-time or large claims may need whitelisting.
 
-This guide explains how to claim Flux Parallel Assets (PA) earned through Flux parallel mining. Users frequently encounter issues when claiming PA rewards, including "claiming amount exceeds maximum allowable" errors, whitelisting requirements, and confusion about the "claim all" functionality that consolidates rewards into native Flux.
+## Overview
 
 Parallel Assets are rewards distributed to FluxNode operators for participating in the Flux parallel mining ecosystem. These assets must be claimed through the Fusion interface in Zelcore, and understanding the claiming process, requirements, and potential issues will help you successfully claim your PA rewards.
 

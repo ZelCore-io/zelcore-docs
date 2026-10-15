@@ -7,9 +7,9 @@ keywords: [tron wallet, trx wallet, tron crypto wallet, manage trx, trc20 wallet
 
 # How to Use TRON (TRX) in Zelcore
 
-## Overview
+In Zelcore you can send, receive and manage TRX and TRC-20 tokens (such as USDT on TRON) alongside 100,000+ other assets on 80+ blockchains (as of October 2026). A simple TRX transfer is often free within your daily free bandwidth; TRC-20 transfers cost more because they also use energy.
 
-In Zelcore you can send, receive and manage TRX and TRC-20 tokens (such as USDT on TRON) alongside 100,000+ other assets on 80+ blockchains (as of October 2026). This guide covers everything from initial setup to TRC-20 token management, troubleshooting, and TRON's energy and bandwidth resource model.
+## Overview
 
 ## What Is TRON?
 

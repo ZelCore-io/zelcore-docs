@@ -7,15 +7,23 @@ keywords: [zelcore balance not showing, wallet sync issues, crypto balance fix, 
 
 # Troubleshooting Balance and Sync Issues
 
+If your assets show on a blockchain explorer but not in Zelcore, run Smartify first. It refreshes your wallet's connection to backend nodes and resyncs your balances, which resolves most balance display issues. If that does not help, change the backend, update Zelcore, then clear the cache and resync.
+
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
+## Quick fix
+
+1. Run **Smartify** from **Settings** (desktop: scroll to the **Smartify** button; mobile: **Menu** then **Settings** then **Smartify**) and wait for it to finish.
+2. Still wrong? In **Settings**, choose a different **Backend** or **Proxy**, save, and run Smartify again.
+3. Update Zelcore to the latest version.
+4. Confirm on a block explorer that the funds really are at your address.
+5. As an advanced step, clear the cache and resync (Solution 4 below), or contact support.
+
 ## Overview
 
-If your assets are showing on blockchain explorers but not displaying correctly in Zelcore, this guide will help you resolve the issue. Balance display problems can occur due to backend node synchronization issues, outdated app versions, or local client sync problems.
-
-This guide covers the most effective solutions for resolving balance visibility and wallet synchronization problems across both desktop and mobile versions of Zelcore.
+Balance display problems can occur due to backend node synchronization issues, outdated app versions, or local client sync problems.
 
 ## Prerequisites
 

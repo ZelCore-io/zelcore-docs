@@ -7,9 +7,11 @@ keywords: [flux node setup, install flux node, zelcore flux node, run flux node]
 
 # Flux Node Installation Guide
 
+The recommended way to install a Flux node is the multitoolbox installer: on a fresh Ubuntu 20.04 or 22.04 LTS server, update the system packages, download `multitoolbox.sh`, make it executable and run it. Manual installation is also covered, and ArcaneOS is a pre-configured node operating system that reduces dependency issues.
+
 ## Overview
 
-This guide helps you successfully install and configure Flux nodes using the multitoolbox installer or manual installation methods. Based on common support issues, we focus on preventing and resolving the most frequent installation problems on Ubuntu and Docker environments.
+You can install a Flux node with the multitoolbox installer or manually. The most frequent installation problems occur on Ubuntu and Docker environments.
 
 ## Prerequisites
 
