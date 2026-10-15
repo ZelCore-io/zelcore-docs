@@ -175,6 +175,20 @@ test('page: flags links to zelcore.io/support', () => {
   assert.ok(p.some((m) => m.includes('zelcore.io/support')));
 });
 
+test('page: flags zelcore.io/support sub-paths and single-quoted hrefs', () => {
+  for (const a of ["<a href=\"https://zelcore.io/support/solutions\">x</a>", "<a href='https://zelcore.io/support'>x</a>"]) {
+    const p = pageProblems(html({ head: '' }).replace('<body>', `<body>${a}`), 'a/index.html');
+    assert.ok(p.some((m) => m.includes('zelcore.io/support')), a);
+  }
+});
+
+test('page: does not flag look-alike zelcore.io/support URLs', () => {
+  for (const a of ['<a href="https://zelcore.io/supported-assets">x</a>', '<a href="https://support.zelcore.io">x</a>']) {
+    const p = pageProblems(html({ head: '' }).replace('<body>', `<body>${a}`), 'a/index.html');
+    assert.ok(!p.some((m) => m.includes('zelcore.io/support')), a);
+  }
+});
+
 test('page: accepts support.zelcore.io', () => {
   const p = pageProblems(html({ head: '' }).replace('<body>', '<body><a href="https://support.zelcore.io">x</a>'), 'a/index.html');
   assert.ok(!p.some((m) => m.includes('zelcore.io/support')));

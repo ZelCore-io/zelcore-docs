@@ -93,7 +93,7 @@ export function pageProblems(html, relPath) {
     at('search page lacks <meta name="robots" content="noindex, ...">');
   }
 
-  if (/href="https?:\/\/(www\.)?zelcore\.io\/support\/?["#?]/.test(html)) at('links to zelcore.io/support (404); use https://support.zelcore.io');
+  if (/href=["']https?:\/\/(?:www\.)?zelcore\.io\/support(?:[\/?#"'])/i.test(html)) at('links to zelcore.io/support (404); use https://support.zelcore.io');
 
   for (const raw of jsonLdBlocks(html)) {
     let parsed;
