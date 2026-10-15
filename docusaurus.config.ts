@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import {jsonLdString} from './src/lib/json-ld';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -54,7 +55,7 @@ const config: Config = {
       attributes: {
         type: 'application/ld+json',
       },
-      innerHTML: JSON.stringify({
+      innerHTML: jsonLdString({
         '@context': 'https://schema.org',
         '@type': 'Organization',
         '@id': 'https://zelcore.io/#organization',

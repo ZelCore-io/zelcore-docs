@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from '@docusaurus/Head';
+import {jsonLdString} from '@site/src/lib/json-ld';
 import Metadata from '@theme-original/DocItem/Metadata';
 import type MetadataType from '@theme/DocItem/Metadata';
 import type {WrapperProps} from '@docusaurus/types';
@@ -27,7 +28,7 @@ export default function MetadataWrapper(props: Props): React.ReactNode {
         {jsonLd.dateModified ? (
           <meta property="article:modified_time" content={String(jsonLd.dateModified)} />
         ) : null}
-        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+        <script type="application/ld+json">{jsonLdString(jsonLd)}</script>
       </Head>
       <Metadata {...props} />
     </>

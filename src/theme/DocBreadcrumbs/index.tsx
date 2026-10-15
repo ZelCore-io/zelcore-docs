@@ -5,6 +5,7 @@ import type DocBreadcrumbsType from '@theme/DocBreadcrumbs';
 import { useSidebarBreadcrumbs } from '@docusaurus/plugin-content-docs/client';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Head from '@docusaurus/Head';
+import {jsonLdString} from '@site/src/lib/json-ld';
 
 type Props = WrapperProps<typeof DocBreadcrumbsType>;
 
@@ -36,7 +37,7 @@ export default function DocBreadcrumbsWrapper(props: Props): React.ReactNode {
     <>
       {jsonLd && (
         <Head>
-          <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+          <script type="application/ld+json">{jsonLdString(jsonLd)}</script>
         </Head>
       )}
       <DocBreadcrumbs {...props} />

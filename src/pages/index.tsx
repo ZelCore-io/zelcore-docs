@@ -1,5 +1,6 @@
 import type {ReactNode} from 'react';
 import Head from '@docusaurus/Head';
+import {jsonLdString} from '@site/src/lib/json-ld';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
@@ -204,7 +205,7 @@ export default function Home(): ReactNode {
       <Head>
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
-          {JSON.stringify({
+          {jsonLdString({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Zelcore Docs',
