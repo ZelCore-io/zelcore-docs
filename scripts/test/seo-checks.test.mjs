@@ -132,3 +132,19 @@ test('page: property="robots" is accepted when a name="robots" tag is also prese
   const only = '<meta property="robots" content="noindex, follow">';
   assert.ok(pageProblems(html({ head: only }), 'x/index.html').some((m) => m.includes('property="robots"')));
 });
+
+test('brand: flags ZelCore in visible text but not in URLs or handles', () => {
+  const page = (body) => `<html><head><title>T | Zelcore Docs</title></head><body>${body}</body></html>`;
+  assert.ok(pageProblems(page('<p>Open ZelCore and…</p>'), 'a/index.html').some((m) => m.includes('ZelCore')));
+  assert.deepEqual(pageProblems(page('<a href="https://github.com/ZelCore-io/x">GitHub</a>'), 'a/index.html'), []);
+  assert.deepEqual(pageProblems(page('<p>github.com/ZelCore-io and @zelcore_io</p>'), 'a/index.html'), []);
+  assert.deepEqual(pageProblems(page('<p>Zelcore is fine</p>'), 'a/index.html'), []);
+});
+
+test('brand: flags ZelCore in the title and in JSON-LD name and headline', () => {
+  assert.ok(pageProblems(html({ title: 'ZelCore guide | Zelcore Docs' }), 'a/index.html').some((m) => m.includes('ZelCore')));
+  const bad = ld({ '@type': 'FAQPage', name: 'About ZelCore', headline: 'ZelCore', mainEntity: [{ '@type': 'Question', name: 'What is ZelCore?', acceptedAnswer: { '@type': 'Answer', text: 'ZelCore is a wallet' } }] });
+  assert.ok(pageProblems(html({ head: bad }), 'a/index.html').filter((m) => m.includes('JSON-LD')).length >= 1);
+  const ok = ld({ '@type': 'Article', name: 'About Zelcore', headline: 'Zelcore', url: 'https://github.com/ZelCore-io/x' });
+  assert.deepEqual(pageProblems(html({ head: ok }), 'a/index.html'), []);
+});

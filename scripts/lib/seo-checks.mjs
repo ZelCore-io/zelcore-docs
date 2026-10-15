@@ -54,6 +54,16 @@ function nodes(obj) {
   return obj ? [obj] : [];
 }
 
+// "ZelCore-io" is the GitHub org and may appear as visible text; any other "ZelCore" is a misspelled brand.
+const BAD_BRAND = /\bZelCore\b(?!-io)/;
+const BRAND_KEYS = new Set(['name', 'headline', 'text', 'description', 'alternateName']);
+
+function brandInJsonLd(value, key = '') {
+  if (Array.isArray(value)) return value.some((v) => brandInJsonLd(v, key));
+  if (value && typeof value === 'object') return Object.entries(value).some(([k, v]) => brandInJsonLd(v, k));
+  return typeof value === 'string' && BRAND_KEYS.has(key) && BAD_BRAND.test(value);
+}
+
 export function pageProblems(html, relPath) {
   const problems = [];
   const at = (msg) => problems.push(`${relPath}: ${msg}`);
@@ -74,6 +84,7 @@ export function pageProblems(html, relPath) {
       at('JSON-LD does not parse');
       continue;
     }
+    if (brandInJsonLd(parsed)) at('JSON-LD says "ZelCore"; brand is "Zelcore"');
     for (const node of nodes(parsed)) {
       if (node['@type'] !== 'BreadcrumbList') continue;
       const items = node.itemListElement || [];
@@ -88,6 +99,16 @@ export function pageProblems(html, relPath) {
   if (title) {
     const text = decodeEntities(title[1]).trim();
     if ([...text].length > MAX_TITLE) at(`title is ${[...text].length} chars (max ${MAX_TITLE}): ${text}`);
+  }
+
+  const visibleText = decodeEntities(
+    html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, '').replace(/<[^>]*>/g, ' '),
+  );
+  if (BAD_BRAND.test(visibleText)) at('visible text says "ZelCore"; brand is "Zelcore"');
+  for (const tag of html.match(/<meta\b[^>]*>/g) || []) {
+    const m = tag.match(/\b(?:name|property)="(description|keywords|og:title|og:description|twitter:title|twitter:description)"/);
+    const c = tag.match(/\bcontent="([^"]*)"/);
+    if (m && c && BAD_BRAND.test(decodeEntities(c[1]))) at(`meta ${m[1]} says "ZelCore"; brand is "Zelcore"`);
   }
 
   const ogTypes = html.match(/<meta[^>]*property="og:type"/g) || [];
