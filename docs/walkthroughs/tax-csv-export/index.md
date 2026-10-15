@@ -112,7 +112,7 @@ If your tax tool is not listed, or you only need the data for your accountant, u
 
 See [Supported tax tools](#supported-tax-tools) for the full list.
 
-**Zelcore+:** Zelcore classic and Koinly layouts are free. On mobile and the browser extension, other tax-tool layouts, fiat values and custom column mappings need Zelcore+. In desktop 8.39.0 all layouts are free.
+**Zelcore+:** Zelcore classic and Koinly layouts are free. Other tax-tool layouts, fiat values and custom column mappings need Zelcore+, on desktop, mobile and the browser extension.
 
 ![The format list, grouped into Zelcore and accountant formats and tax tools](./images/06-format-list.webp)
 
