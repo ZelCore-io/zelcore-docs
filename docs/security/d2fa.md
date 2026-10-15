@@ -28,7 +28,7 @@ The same Flux ID screens are in the desktop app, the mobile app and the browser 
 3. Under **Actions**, choose **Flux ID d2FA**. The status panel shows **d2FA hasn't been setup yet**.
    <!-- screenshot: d2fa-2 (Security Area with the status panel and the Flux ID d2FA action) -->
 4. Type a PIN in **New PIN** and the same PIN again in **Verify PIN**. The PIN is digits only.
-5. Tick when Zelcore should ask for the PIN. Tick at least one:
+5. Choose when Zelcore should ask for the PIN. Both options are ticked by default; untick any you don't want, but keep at least one:
    - **Used for logging into Zelcore**
    - **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**
 6. Tick **Yes, I have a backed up my d2FA PIN number.** (this is the app's wording).
@@ -58,7 +58,7 @@ With the secure-tasks option on, Zelcore asks every time, whatever the amount, o
 - FIO Crypto Handle, the FluxNodes dashboard, FluxDrive plans and the Zelcore+ subscription
 - Kaspa UTXO consolidation and KRC-20 recovery, the Igra bridge and Ergo storage-rent actions
 
-**Easy Login needs d2FA.** The app says: "Easy Login requires d2FA to be activated on your account and can only be activated for one account per device." Turning d2FA off also turns Easy Login off.
+**Easy Login needs d2FA.** The app says: "Easy Login requires d2FA to be activated on your account and can only be activated for one account per device."
 
 ## Change or disable d2FA
 
@@ -74,9 +74,7 @@ To turn d2FA off:
 1. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**.
 2. Move the switch to **Disable d2FA**.
 3. Type your current PIN in **Verify PIN**.
-4. Select **Disable d2FA** and confirm. The app warns: "d2FA adds another layer of protection and security. Disabling d2FA will also disable Easy Login. Are you sure you want to disable d2FA?"
-
-<!-- screenshot: d2fa-6 (Disable d2FA confirmation dialog) -->
+4. Select **Disable d2FA**. There is no confirmation step: Zelcore sends a small FLUX transaction to turn d2FA off as soon as you select it.
 
 ## d2FA error messages
 
@@ -138,8 +136,6 @@ Try again. If it keeps happening, contact [Zelcore support](https://support.zelc
 
 ## Related
 
-- [Security Best Practices](./best-practices.md)
-- [Account Access FAQ](../faq/account-access-faq.mdx)
 - [Connect Zelcore to dApps with WalletConnect](../guides/walletconnect.md)
 - [Zelcore Browser Extension](../guides/browser-extension.md)
 - [Zelcore support](https://support.zelcore.io)

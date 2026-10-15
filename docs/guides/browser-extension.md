@@ -14,7 +14,7 @@ Written for Zelcore 8.39.0 (October 2026).
 
 ## Install the extension
 
-1. Open the official [Zelcore listing on the Chrome Web Store](https://chromewebstore.google.com/detail/zelcore/khpdakhaigcopakcondjleibgpdjpmck). Install only from this listing. Brave and Edge use the same listing; Edge asks once to allow extensions from the Chrome Web Store.
+1. Open the official [Zelcore listing on the Chrome Web Store](https://chromewebstore.google.com/detail/zelcore/khpdakhaigcopakcondjleibgpdjpmck). Install only from this listing. Brave and Edge use the same listing.
    <!-- screenshot: browser-extension-1 (Chrome Web Store listing with Add to Chrome) -->
 2. Select **Add to Chrome** and confirm.
 3. Pin Zelcore to the browser toolbar from the browser's extensions menu, so it is one click away.

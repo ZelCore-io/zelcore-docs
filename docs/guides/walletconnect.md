@@ -49,6 +49,8 @@ You can also open a `wc:` link directly, and Zelcore opens the same proposal.
 
 <!-- screenshot: walletconnect-4 (a flagged-dApp scam warning, only if a safe example is available) -->
 
+Screening only catches sites and addresses on known lists. No warning does not mean a dApp is safe; check every request before you approve.
+
 Screening is on by default. You can turn it off with **Screen transactions for scams** in **Settings** > **Security**.
 
 ## Approve or reject a request

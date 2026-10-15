@@ -44,7 +44,7 @@ Written for Zelcore 8.39.0 (October 2026).
 
 **Ledger on desktop, import:** Ethereum and EVM networks, Bitcoin, Algorand, Polkadot, Solana, Stellar, Tron, XRP, NEO, EOS, Kusama, Ontology and Kaspa.
 
-**Ledger on desktop, send from Zelcore:** Ethereum, Ethereum Classic, BNB Smart Chain, Polygon and native KAS. KRC-20 tokens on a Ledger aren't supported yet (desktop). Other imported Ledger accounts can't send from Zelcore desktop.
+**Ledger on desktop, send from Zelcore:** Ethereum, Ethereum Classic, BNB Smart Chain, Polygon and native KAS. KRC-20 tokens on a Ledger aren't supported yet (desktop). Zelcore desktop lists only these for sending from a Ledger (desktop). Before you receive funds on an imported Ledger (desktop) account for any other coin, make sure you can spend from it with the vendor's software.
 
 **Trezor on desktop, import and send:** Bitcoin, Bitcoin Cash, Bitcoin Gold, Dash, Litecoin, Ethereum and Ethereum Classic.
 
