@@ -11,6 +11,8 @@ Keep your seed phrase offline on paper or metal, never share it with anyone (Zel
 
 **Important:** Cryptocurrency transactions are irreversible by design. Once funds are sent from your wallet, they cannot be recovered, reversed, or traced back by Zelcore or any centralized authority. Prevention is your only protection.
 
+Background: [Crypto Scams: Red Flags and Safe Habits Guide](https://zelcore.io/academy/basics/crypto-safety-scams-and-safe-habits)
+
 ## How Zelcore Wallets Work
 
 - **Private keys control your funds** - Your seed phrase/private keys are the only way to access and move your cryptocurrency

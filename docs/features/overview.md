@@ -9,6 +9,8 @@ keywords: [zelcore features, multi crypto wallet, crypto software wallet, wallet
 
 Zelcore offers a comprehensive suite of features designed to give you complete control over your crypto assets. From basic wallet functions to advanced trading and node management, Zelcore has everything you need.
 
+Background: [Zelcore Pro Features Most Users Miss](https://zelcore.io/academy/how-to/pro-moves-zelcore-features)
+
 ## Core Wallet Features
 
 ### Multi-Chain Support

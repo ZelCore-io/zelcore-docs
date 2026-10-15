@@ -16,6 +16,8 @@ The steps apply to Zelcore desktop 8.39.0 (October 2026). Some screenshots come 
 
 If you are new to bStocks, read [bStocks in Zelcore](/docs/guides/bstocks-tokenized-stocks-guide) first. It covers what the tokens are, dividends and splits, fees, risks and the country restrictions.
 
+Background: [How to Buy Tokenized Stocks in Zelcore (bStocks Guide)](https://zelcore.io/academy/defi/buying-selling-bstocks-zelcore)
+
 ---
 
 ## Prerequisites

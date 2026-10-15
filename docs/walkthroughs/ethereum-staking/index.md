@@ -14,6 +14,8 @@ To stake ETH in Zelcore, open **Earn** from the left sidebar, click **Stake**, e
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
+Background: [Ethereum Staking: Validators, Beacon Chain & LSTs](https://zelcore.io/academy/coin-guides/ethereum-staking-validators-lsts)
+
 ---
 
 ## Prerequisites

@@ -13,6 +13,8 @@ A Flux node in the DOS, EXPIRED or "Flux not confirmed" state usually has a port
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
+Background: [Blockchain Nodes and Decentralisation Explained](https://zelcore.io/academy/basics/blockchain-nodes-and-decentralisation)
+
 ## Quick fix
 
 1. Run the multitoolbox diagnostic on your node (Step 1).

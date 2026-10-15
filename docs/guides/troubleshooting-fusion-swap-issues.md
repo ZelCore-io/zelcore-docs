@@ -13,6 +13,8 @@ Most stuck Fusion swaps are caused by provider-side processing, KYC requirements
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
+Background: [Zelcore Fusion Swap: Aggregator, Slippage, and On-Ramps](https://zelcore.io/academy/defi/zelcore-fusion-swap-aggregator)
+
 ## Quick fix
 
 1. In Zelcore, open **Fusion** and find your order in the swap history. Note the provider and the **Order ID**.

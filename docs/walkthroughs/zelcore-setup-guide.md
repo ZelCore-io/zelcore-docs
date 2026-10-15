@@ -16,6 +16,8 @@ The steps apply to Zelcore 8.39.0 (October 2026). The screenshots on this page c
 
 Screenshots show each step. For the same steps as a text-only checklist, including d2FA setup, see [Create a New Wallet](/docs/getting-started/create-wallet).
 
+Background: [Zelcore Setup: First-Time Wallet Guide (2026)](https://zelcore.io/academy/how-to/setting-up-zelcore-first-time)
+
 ## Overview
 
 Zelcore is a multi-currency cryptocurrency wallet that supports 100,000+ assets on 80+ blockchains (as of October 2026). All user data is stored locally on your device, ensuring no personal information is transmitted to centralized servers.

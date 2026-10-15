@@ -9,6 +9,8 @@ keywords: [erc20 wallet, erc20 tokens, ethereum token wallet, manage erc20]
 
 In Zelcore, ERC-20 tokens use your Ethereum address: add a token to your ETH wallet, receive it on the Ethereum (ERC-20) network and send it from the same address. Every ERC-20 transfer pays gas in ETH, so keep ETH in the wallet; Layer 2 networks can lower fees for frequent transfers.
 
+Background: [Holding ETH in Zelcore: Gas, L2, Pectra and Fusaka](https://zelcore.io/academy/coin-guides/holding-ethereum-in-zelcore)
+
 ## Overview
 
 Zelcore holds your Ethereum-based (ERC-20) tokens alongside 100,000+ other assets on 80+ blockchains (as of October 2026). ERC-20 tokens represent the largest and most diverse token ecosystem in crypto, powering everything from stablecoins and DeFi governance to utility tokens and digital collectibles.

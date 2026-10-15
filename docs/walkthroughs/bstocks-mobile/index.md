@@ -16,6 +16,8 @@ The steps apply to Zelcore mobile 8.39.0 (October 2026). Some screenshots come f
 
 For background on what bStocks are, dividends, fees, risks and country restrictions, read [bStocks in Zelcore](/docs/guides/bstocks-tokenized-stocks-guide).
 
+Background: [How to Buy Tokenized Stocks in Zelcore (bStocks Guide)](https://zelcore.io/academy/defi/buying-selling-bstocks-zelcore)
+
 ---
 
 ## Prerequisites

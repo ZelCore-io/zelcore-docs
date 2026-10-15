@@ -13,6 +13,8 @@ Zelcore has two account types: modern seed phrase (BIP44) accounts, which work o
 Legacy (username and password) login is deprecated and will be phased out. It still works in Zelcore 8.39, but migrate to a seed-phrase wallet now. See the [official migration page](https://zelcore.io/legacy-login-deprecated).
 :::
 
+Background: [Zelcore Sync Devices: Add Zelcore to a New Device](https://zelcore.io/academy/how-to/syncing-zelcore-across-devices)
+
 ## Introduction
 
 Zelcore has evolved significantly over the years, and understanding the difference between legacy and modern account types is crucial for a smooth experience. This guide will help you understand:

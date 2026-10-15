@@ -13,6 +13,8 @@ Written for Zelcore desktop 8.39.0 (October 2026).
 
 Zelcore desktop runs on Windows 10 and Windows 11. This page covers the Windows-specific parts: downloading and installing, antivirus prompts, updates and troubleshooting. To create your wallet after installing, follow [Create a New Wallet](/docs/getting-started/create-wallet).
 
+Background: [Zelcore Setup: First-Time Wallet Guide (2026)](https://zelcore.io/academy/how-to/setting-up-zelcore-first-time)
+
 ## System Requirements
 
 Before downloading Zelcore, verify that your Windows system meets the following requirements:

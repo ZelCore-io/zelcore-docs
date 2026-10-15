@@ -9,6 +9,8 @@ keywords: [titan nodes, flux shared nodes, fractional node ownership, zelcore ti
 
 Titan Shared Nodes let you earn Flux node rewards by buying a fractional share of a node in Zelcore, without the technical knowledge, hardware or full collateral that a complete Flux node needs.
 
+Background: [Blockchain Nodes and Decentralisation Explained](https://zelcore.io/academy/basics/blockchain-nodes-and-decentralisation)
+
 ## Overview
 
 Titan is a fractional node ownership service that pools contributions from multiple users to run professional Flux nodes, distributing rewards proportionally to share ownership.

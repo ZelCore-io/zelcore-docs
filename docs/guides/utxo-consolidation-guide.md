@@ -9,6 +9,8 @@ keywords: [utxo consolidation, bitcoin transaction fees, zelcore utxo, consolida
 
 Errors such as "not enough spendables", "insufficient funds for gas+price" and HTTP 413 come from UTXO fragmentation: your balance is split across too many small unspent outputs. Sending part of your balance to your own receiving address combines many small UTXOs into fewer large ones, and you repeat it until the errors stop.
 
+Background: [Bitcoin UTXO Model Explained: How BTC Tracks Balances](https://zelcore.io/academy/coin-guides/bitcoin-utxo-model-explained)
+
 ## Quick fix
 
 1. Open the affected coin (for example RTM or RVN) in Zelcore and copy your own address from the **Receive** tab.

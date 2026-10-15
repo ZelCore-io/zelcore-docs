@@ -13,6 +13,8 @@ You can import a Zelcore wallet from a seed phrase (12, 18 or 24 words), a priva
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
+Background: [Backing Up and Recovering Your Zelcore Wallet](https://zelcore.io/academy/how-to/backing-up-recovering-wallet)
+
 ## Import Methods
 
 Zelcore supports multiple import methods:

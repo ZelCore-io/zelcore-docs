@@ -14,6 +14,8 @@ To stake SOL in Zelcore, open **Earn**, select Solana as the staking chain, ente
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
+Background: [Zelcore Staking & Earn: Native Yield, No LSTs](https://zelcore.io/academy/defi/zelcore-staking-earn-yield)
+
 ---
 
 ## Prerequisites

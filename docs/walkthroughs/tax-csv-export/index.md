@@ -14,6 +14,8 @@ To export your transactions for taxes in Zelcore desktop, open **Tax & CSV expor
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
+Background: [Zelcore Tax Export: Get Your Crypto History Filed](https://zelcore.io/academy/how-to/exporting-transaction-history-taxes)
+
 ---
 
 ## How it works and what it sends

@@ -17,6 +17,8 @@ System requirements match Zelcore 8.39.0 on desktop, mobile and the extension (O
 Use the links below or go to [zelcore.io/wallet](https://zelcore.io/wallet). Do not install Zelcore from search results, ads, social media posts, messages, or third-party download sites. Fake wallet apps exist, and they are built to steal your seed phrase.
 :::
 
+Background: [Zelcore Setup: First-Time Wallet Guide (2026)](https://zelcore.io/academy/how-to/setting-up-zelcore-first-time)
+
 ## How to spot an impostor
 
 - **A real Zelcore app never needs your seed phrase to install or open.** Enter a seed phrase only when you create or import a wallet inside the app you installed from an official source. If an installer, a website or a support agent asks for it, stop.

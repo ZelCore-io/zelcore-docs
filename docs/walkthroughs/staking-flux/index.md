@@ -14,6 +14,8 @@ To stake FLUX in Zelcore, open **Earn**, select your wallet and the Flux chain, 
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
+Background: [Zelcore Staking & Earn: Native Yield, No LSTs](https://zelcore.io/academy/defi/zelcore-staking-earn-yield)
+
 ---
 
 ## Prerequisites

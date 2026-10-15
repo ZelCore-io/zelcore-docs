@@ -16,6 +16,8 @@ For click-by-click instructions see the walkthroughs:
 - [Buy and manage bStocks on Zelcore Desktop](/docs/walkthroughs/bstocks-desktop)
 - [Buy and manage bStocks on Zelcore Mobile](/docs/walkthroughs/bstocks-mobile)
 
+Background: [bStocks Tokenized Stocks: What They Are and Who Issues Them](https://zelcore.io/academy/defi/bstocks-what-they-are-btech-adgm)
+
 ---
 
 ## What is a bStock?
