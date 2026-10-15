@@ -22,7 +22,9 @@ export default function fontPreloadPlugin(context: LoadContext): Plugin {
     name: 'font-preload-plugin',
     async postBuild({outDir}) {
       const fontsDir = path.join(outDir, 'assets', 'fonts');
-      if (!fs.existsSync(fontsDir)) return;
+      if (!fs.existsSync(fontsDir)) {
+        throw new Error(`font-preload-plugin: fonts directory not found at ${fontsDir}`);
+      }
       const files = fs.readdirSync(fontsDir);
       const tags = PRELOAD.flatMap((re) => files.filter((f) => re.test(f))).map(
         (f) =>
