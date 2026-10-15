@@ -7,7 +7,7 @@ keywords: [fusion swap stuck, zelcore swap failed, crypto exchange troubleshooti
 
 # Troubleshooting Fusion Swap Issues
 
-Most stuck Fusion swaps are caused by provider-side processing, KYC requirements or blockchain confirmation delays, not by Zelcore. Find your provider and Order ID in the Fusion swap history, check confirmations and the expected time, then contact the provider directly with your Order ID.
+Most stuck Fusion swaps are caused by provider-side processing, KYC requirements or blockchain confirmation delays, not by Zelcore. Find your provider and Order ID in your swap history (**Swap** > **View Transaction History** > **Track Exchange**), check confirmations and the expected time, then contact the provider directly with your Order ID.
 
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
@@ -19,7 +19,7 @@ For how to make a swap, what it costs, the min/max limits and the error messages
 
 ## Quick fix
 
-1. In Zelcore, open **Fusion** and find your order in the swap history. Note the provider and the **Order ID**.
+1. In Zelcore, open **Swap** in the left menu, select **View Transaction History** and find your order. Select **Track Exchange** to see its status. Note the provider and the **Order ID**.
 2. Check that your sending transaction has its blockchain confirmations.
 3. Compare the elapsed time with the typical processing times in Step 3 before you escalate. A "Hold" status can take 12-48 hours for provider review.
 4. Contact the provider directly with your Order ID and transaction hash, and complete KYC if the provider asks for it.
@@ -74,8 +74,8 @@ A successful swap typically goes through these stages:
 First, determine which third-party provider is handling your swap:
 
 1. Open Zelcore
-2. Navigate to **Fusion** (or **FusionX** / **SSP**)
-3. Find your order in the swap history
+2. Open **Swap** in the left menu and select **View Transaction History**
+3. Find your order and select **Track Exchange**
 4. Note the provider name (for example ChangeNOW, Changelly, Exolix, XOSwap, Rango, Binance Web3 or InstaSwap)
 5. Record your **Order ID** (you'll need this for support)
 
@@ -219,7 +219,7 @@ Keep records of your swap for support purposes:
 
 **Essential information to save:**
 
-- Order ID from Zelcore Fusion
+- Order ID from your Zelcore swap history
 - Source transaction hash (sending blockchain)
 - Source wallet address (where you sent from)
 - Destination wallet address (where you should receive)
@@ -294,7 +294,7 @@ This documentation will speed up support resolution significantly.
 **Cause:** Transaction sent to wrong address or order creation failed.
 
 **Solution:**
-1. Verify you sent to provider's deposit address (from Zelcore Fusion order)
+1. Verify you sent to provider's deposit address (from your Zelcore swap order)
 2. Check if you have an order ID in Zelcore
 3. If order exists in Zelcore:
    - Contact provider with order ID
@@ -519,7 +519,7 @@ Best practice workflow:
 1. **Check your destination wallet:** Do you already have gas tokens?
 2. **If not, acquire gas first:**
    - Option A: Buy small amount of native token on exchange, send to wallet
-   - Option B: Use Fusion to swap small amount to native token first
+   - Option B: Use **Swap** to swap a small amount to native token first
    - Option C: Use faucets (for testnets) or on-ramps
 3. **Verify gas is in wallet** before executing main swap
 4. **Then proceed with your main swap**
