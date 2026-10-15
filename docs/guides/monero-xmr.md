@@ -38,9 +38,10 @@ Incoming XMR shows in your balance first and becomes spendable once it is older 
 1. Open **Portfolio** and select **Monero**.
 2. Select **Send**.
 3. Enter the recipient's XMR address or OpenAlias name. If the OpenAlias record is not DNSSEC-authenticated, Zelcore warns you to double-check the address.
-4. Enter the amount, or select **Max**.
-5. Read the fee. Zelcore shows an approximate fee; the exact fee is known only when the transaction is built, which takes a few seconds.
-6. Confirm. With d2FA on, the button reads **Verify PIN and Send**.
+4. If the recipient gave a payment ID, enter it in the **Payment ID** field.
+5. Enter the amount, or select **Max**.
+6. Read the fee. Zelcore shows an approximate fee; the exact fee is known only when the transaction is built, which takes a few seconds.
+7. Confirm. With d2FA on, the button reads **Verify PIN and Send**.
 
 A transaction you just sent may not show correctly in the transaction table, or in your balance, until it confirms.
 
@@ -57,9 +58,9 @@ Monero can only use outputs that are older than 10 blocks (about 30 minutes) to 
 If you think your address received XMR before the point the backend started scanning from, start a rescan from an earlier block.
 
 1. Open **Portfolio** and select **Monero**.
-2. In the action row, select the scan status button. It reads **Start Block:** or **Start Trans.:** followed by a number, depending on the backend.
-3. The **Rescan Monero** dialog shows the scan progress. Enter the block height to scan from in **Scanning Start height**. (On some backends the field asks for the **Number of Blocks to rescan** instead.)
-4. Confirm.
+2. In the action row, select the scan status button. It reads **Start Block:** or **Start Trans.:** followed by a number, depending on the backend. After **Start Trans.:** the number is a transaction number, not a block height.
+3. The **Rescan Monero** dialog shows the scan progress. Enter the block height to scan from in **Scanning Start height**. On backends where a rescan needs approval from the Zelcore team, the dialog has no field and says so.
+4. Select **Rescan**.
 
 A rescan can take a couple of hours. On some backends a rescan must first be approved by the Zelcore team and can take up to a week; the dialog says so when this applies. For help with a rescan, contact [Zelcore support](https://support.zelcore.io).
 
@@ -77,7 +78,7 @@ The rescan dialog needs a block height. Enter the height to scan from.
 
 ### "Entered Number of Blocks to rescan is bigger than current blockchain height"
 
-The number you entered is higher than the current Monero block height. Enter a smaller number.
+The **Scanning Start height** you entered is higher than the current Monero block height. Enter a lower block height.
 
 ### "Not a valid Monero secret view key"
 

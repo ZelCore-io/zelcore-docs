@@ -82,13 +82,13 @@ On the **Swap Tokens** screen, select **View Transaction History**. Pick the swa
 
 ## Where swaps are available
 
-Swap availability can vary by platform and region. If **Swap** does not appear in your menu, it is not available for your device or region; the app shows what you can use.
+Swap availability can change and is shown in the app. If **Swap** does not appear in your menu, it is not available to you at the moment.
 
 ## Swap error messages
 
 ### "We haven't found any providers for this pair"
 
-No provider currently offers this pair. Try another buying asset, or swap through a common asset in two steps.
+No provider currently offers this pair. Try another buying asset.
 
 ### "No providers available to swap an amount this low"
 

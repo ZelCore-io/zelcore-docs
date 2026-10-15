@@ -26,7 +26,7 @@ Desktop, mobile and the browser extension use the same send and receive screens.
 3. Under **Where would you like to send your [coin]?**, enter the recipient (see [who you can send to](#who-you-can-send-to)).
 4. Under **How much [coin] would you like to send?**, enter the amount, or select **Max** to send the **Total Spendable Amount**.
 5. Under **Select Speed**, choose **Economy**, **Normal** or **Fast**. On some chains the fee is set for you: the form says "Fee is calculated automatically by the network." On EVM chains you may also see a **Priority Fee**.
-6. If the chain uses a memo, tag or payment ID, fill it in (see [memos, tags and payment IDs](#memos-tags-and-payment-ids)).
+6. If the send form shows a memo, tag, payment ID or note field for this chain, fill it in when the recipient asks for one (see [memos, tags and payment IDs](#memos-tags-and-payment-ids)).
 7. Confirm. With d2FA on, the button reads **Verify PIN and Send** and asks for your PIN; otherwise Zelcore asks "Proceed with transaction?".
 8. Zelcore shows **Transaction Sent!** when the transaction is broadcast.
 
@@ -53,7 +53,19 @@ The fee goes to the blockchain network, not to the recipient. A faster speed cos
 
 ### Memos, tags and payment IDs
 
-Select **Attach a memo/note to payment** to add a **Note (Memo)**. Some chains and services use their own field, such as a memo, a destination tag or a payment ID. If an exchange gives you one for a deposit, enter it exactly; a deposit without it may not be credited to your account there.
+On chains that support one, the send form shows an extra field below the amount. Its label depends on the chain:
+
+| Chain | Field on the send form |
+| --- | --- |
+| Stellar, EOS, BNB, Terra, Avalanche X-Chain | **Memo** |
+| TON and Cosmos chains | **Note**, with a **Memo** box |
+| XRP | **TAG** |
+| Monero | **Payment ID** (**Insert Payment ID**) |
+| Native coins on EVM chains, Bitcoin-type coins, Algorand | **Note**, with a **Payment note (Memo)** box |
+
+:::warning Exchange deposits
+When an exchange or service gives you a memo, tag or payment ID for a deposit, enter it exactly as given. A deposit sent without it may not be credited to your account there.
+:::
 
 ### Safety checks before you sign
 
