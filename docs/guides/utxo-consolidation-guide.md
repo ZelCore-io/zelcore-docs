@@ -8,13 +8,13 @@ keywords: [utxo consolidation, bitcoin transaction fees, zelcore utxo, consolida
 
 # UTXO Consolidation Guide for Miners
 
-Errors such as "not enough spendables", "insufficient funds for gas+price" and HTTP 413 come from UTXO fragmentation: your balance is split across too many small unspent outputs. Sending part of your balance to your own receiving address combines many small UTXOs into fewer large ones, and you repeat it until the errors stop.
+Errors such as "not enough spendables", "insufficient funds for gas+price" and HTTP 413 come from UTXO fragmentation: your balance is split across too many small unspent outputs. Sending part of your balance to your own receiving address combines many small UTXOs into fewer large ones, and you repeat it for 2-3 rounds (light fragmentation) or 6-10+ (heavy).
 
 Background: [Bitcoin UTXO Model Explained: How BTC Tracks Balances](https://zelcore.io/academy/coin-guides/bitcoin-utxo-model-explained)
 
 ## Quick fix
 
-1. Open the affected coin (for example RTM or RVN) in Zelcore and copy your own address from the **Receive** tab.
+1. Open the affected coin (for example RTM or RVN) in Zelcore and copy your own address from the **Receive** tab. (Kaspa: use the built-in UTXO tool instead.)
 2. In the **Send** tab, paste that address as the recipient and send 25-50% of your balance to yourself.
 3. Wait for the transaction to confirm. Most UTXO coins need 1-6 confirmations (5-60 minutes).
 4. Repeat the process: light fragmentation needs 2-3 rounds, heavy fragmentation 6-10 or more.

@@ -7,7 +7,7 @@ keywords: [flux wallet, flux crypto wallet, manage flux, flux staking]
 
 # How to Use FLUX in Zelcore
 
-FLUX is the native cryptocurrency of the Flux decentralized cloud. This guide covers managing FLUX in Zelcore: sending and receiving, staking, node operation and cross-chain transfers with Flux Fusion.
+FLUX is the native cryptocurrency of the Flux decentralized cloud. FLUX is typically enabled by default in new Zelcore wallets; if it is missing, search for "FLUX" in the asset list and enable it, then send, receive, stake, run nodes or move FLUX across chains with Flux Fusion.
 
 ## What Is FLUX?
 

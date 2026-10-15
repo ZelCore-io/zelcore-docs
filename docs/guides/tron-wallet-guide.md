@@ -11,8 +11,6 @@ In Zelcore you can send, receive and manage TRX and TRC-20 tokens (such as USDT 
 
 Background: [Tron Explained: TRX, DPoS, and the Energy Model](https://zelcore.io/academy/coin-guides/tron-trx-dpos-energy-model-explained)
 
-## Overview
-
 ## What Is TRON?
 
 TRON is a high-performance blockchain platform designed for decentralized applications and high-throughput token transfers. Founded in 2017, the TRON blockchain has grown into one of the most actively used networks in the cryptocurrency space, processing millions of transactions daily.

@@ -7,7 +7,7 @@ keywords: [mobile crypto wallet, zelcore ios, zelcore android, crypto wallet app
 
 # Zelcore Mobile: iOS and Android
 
-Zelcore is available on iOS and Android. This page covers the mobile-specific parts: installing the app, biometric login and fixing common mobile issues. To create your wallet after installing, follow [Create a New Wallet](/docs/getting-started/create-wallet).
+Zelcore is available on iOS and Android. Install it from the App Store (iOS 15 or later) or the Android listing below, then set up biometric login and use the troubleshooting section for common mobile issues. To create your wallet after installing, follow [Create a New Wallet](/docs/getting-started/create-wallet).
 
 Background: [Zelcore Setup: First-Time Wallet Guide (2026)](https://zelcore.io/academy/how-to/setting-up-zelcore-first-time)
 

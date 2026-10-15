@@ -7,7 +7,7 @@ keywords: [zelcore download, install zelcore, official zelcore download, zelcore
 
 # Installation
 
-Zelcore is available as a desktop app, a mobile app and a browser extension. This page lists the official download for each, with the system requirements.
+Zelcore is available as a desktop app, a mobile app and a browser extension. Install each one from its official link below, after checking the system requirements.
 
 :::info Applies to Zelcore 8.39
 System requirements match Zelcore 8.39.0 on desktop, mobile and the extension (October 2026).

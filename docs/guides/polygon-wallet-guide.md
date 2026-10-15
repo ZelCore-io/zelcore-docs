@@ -7,7 +7,7 @@ keywords: [polygon wallet, matic wallet, polygon crypto wallet, polygon layer 2]
 
 # How to Use Polygon in Zelcore
 
-Polygon is a scaling network for Ethereum. This guide covers holding, sending and receiving POL (formerly MATIC) and Polygon tokens in Zelcore.
+Polygon is a scaling network for Ethereum. To hold POL (formerly MATIC) or Polygon tokens in Zelcore, search for "Polygon" in the asset list and toggle it on, then send and receive on the Polygon network.
 
 ## What Is Polygon and Why Does It Matter?
 

@@ -14,7 +14,7 @@ To bridge KAS to Igra L2, open the Kaspa (Igra L2) asset in your portfolio, open
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
-This walkthrough also gives a brief look at the ZAP Auction feature available on Igra L2.
+The Igra L2 side also has a ZAP Auction feature, covered at the end.
 
 ---
 
