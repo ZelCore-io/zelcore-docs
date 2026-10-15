@@ -36,7 +36,7 @@ const FeatureList: FeatureItem[] = [
     svgPath: 'img/privacy-protection.svg',
     description: (
       <>
-        Your data stays private. No tracking, no data collection, no third parties.
+        Your data stays private. The Zelcore wallet doesn't track you, collect your data or share it with third parties.
         Complete control over your financial privacy.
       </>
     ),

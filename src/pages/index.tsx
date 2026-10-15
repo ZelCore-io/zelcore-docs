@@ -19,7 +19,7 @@ const features = [
   {
     title: 'Privacy Protection',
     icon: 'img/privacy-protection.svg',
-    description: 'No tracking, no data collection. Complete control over your privacy.',
+    description: "The wallet app doesn't track you or collect your data.",
   },
   {
     title: 'Secure Login',
@@ -116,7 +116,7 @@ function FeatureCard({title, icon, description}: (typeof features)[number]): Rea
       <div className={styles.featureIconWrap}>
         <img src={iconUrl} alt="" aria-hidden="true" className={styles.featureIcon} />
       </div>
-      <h3 className={styles.featureTitle}>{title}</h3>
+      <h2 className={styles.featureTitle}>{title}</h2>
       <p className={styles.featureText}>{description}</p>
     </div>
   );
@@ -213,10 +213,12 @@ export default function Home(): ReactNode {
           })}
         </script>
       </Head>
-      <Hero />
-      <Features />
-      <DocCategories />
-      <Help />
+      <main>
+        <Hero />
+        <Features />
+        <DocCategories />
+        <Help />
+      </main>
     </Layout>
   );
 }

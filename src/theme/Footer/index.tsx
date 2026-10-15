@@ -41,7 +41,7 @@ export default function Footer(): ReactNode {
           {/* Link columns */}
           {links?.map((column: any) => (
             <div key={column.title} className={styles.column}>
-              <h4 className={styles.columnTitle}>{column.title}</h4>
+              <h2 className={styles.columnTitle}>{column.title}</h2>
               <ul className={styles.columnList}>
                 {column.items?.map((item: any) => (
                   <li key={item.label}>

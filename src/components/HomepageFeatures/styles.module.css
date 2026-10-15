@@ -14,7 +14,7 @@
 }
 
 .features h3 {
-  font-family: 'Inter', -apple-system, sans-serif;
+  font-family: 'Inter Variable', 'Inter', -apple-system, sans-serif;
   color: var(--zel-text, #F8FAFC);
 }
 

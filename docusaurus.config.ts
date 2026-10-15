@@ -45,23 +45,8 @@ const config: Config = {
     {
       tagName: 'link',
       attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.googleapis.com',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-        crossorigin: 'anonymous',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap',
+        rel: 'apple-touch-icon',
+        href: '/img/apple-touch-icon.png',
       },
     },
     {
@@ -85,8 +70,12 @@ const config: Config = {
     },
   ],
 
+  // GA4 is set up in a client module so the gtag.js library loads after idle.
+  clientModules: ['./src/clientModules/analytics.ts'],
+
   plugins: [
     './src/plugins/seo-validation-plugin.ts',
+    './src/plugins/font-preload-plugin.ts',
     [
       '@docusaurus/plugin-client-redirects',
       {
@@ -125,7 +114,7 @@ const config: Config = {
       'data-title': 'Ask Zelcore AI',
       'data-subject': 'Zelcore',
       'data-launcher-label': 'Ask AI',
-      'data-accent': '#3786fa',
+      'data-accent': '#1b63ef',
       'data-logo': 'https://zelcore.io/assets/brand/icon/icon-dark.svg',
       'data-logo-light': 'https://zelcore.io/assets/brand/icon/icon-light.svg',
       'data-suggestions': 'What is Zelcore?|How do I restore my Zelcore wallet?|Which assets does Zelcore support?|How do I use Zelcore with Flux?',
@@ -143,10 +132,6 @@ const config: Config = {
           showLastUpdateTime: true,
         },
         blog: false,
-        gtag: {
-          trackingID: 'G-ZTCBXNFDHJ',
-          anonymizeIP: true,
-        },
         sitemap: {
           lastmod: 'date',
           changefreq: null,
