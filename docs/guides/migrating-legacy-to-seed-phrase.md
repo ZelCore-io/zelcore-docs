@@ -1,22 +1,26 @@
 ---
 sidebar_position: 20
 title: Migrating from Legacy to Seed Phrase
-description: "Migrate your ZelCore legacy account to a modern seed phrase account. Step-by-step guide for upgrading your wallet security."
+description: "Migrate your Zelcore legacy account to a modern seed phrase account. Step-by-step guide for upgrading your wallet security."
 keywords: [migrate legacy wallet, seed phrase migration, upgrade zelcore account, legacy to seed phrase]
 ---
 
 # Migrating from Legacy to Seed Phrase Account
 
-A comprehensive guide to safely migrating your ZelCore legacy username/password account to a modern seed phrase (BIP44) account.
+A comprehensive guide to safely migrating your Zelcore legacy username/password account to a modern seed phrase (BIP44) account.
+
+:::warning Legacy login is deprecated
+Legacy (username and password) login is deprecated and will be phased out. It still works in Zelcore 8.39, but migrate to a seed-phrase wallet now. See the [official migration page](https://zelcore.io/legacy-login-deprecated).
+:::
 
 ## Overview
 
-ZelCore is transitioning from legacy username/password accounts to modern seed phrase (BIP44) accounts. This migration provides:
+Zelcore is transitioning from legacy username/password accounts to modern seed phrase (BIP44) accounts. This migration provides:
 
 - **Better security:** Industry-standard BIP44 protocol
-- **Full ownership:** Complete control of your funds without reliance on ZelCore servers
+- **Full ownership:** Complete control of your funds without reliance on Zelcore servers
 - **Portability:** Use your seed phrase with any BIP44-compatible wallet
-- **Future compatibility:** Legacy accounts are being phased out
+- **Future compatibility:** Legacy login is deprecated and will be phased out
 - **Modern FluxID:** Access to the latest Flux ecosystem features
 
 **Time required:** 30-60 minutes (depending on number of assets)
@@ -28,7 +32,7 @@ ZelCore is transitioning from legacy username/password accounts to modern seed p
 ### Important Warnings
 
 :::danger Critical Security Notes
-1. **Never share your seed phrase with anyone** - not even ZelCore support
+1. **Never share your seed phrase with anyone** - not even Zelcore support
 2. **Write down your new seed phrase immediately** - losing it means losing access to your funds
 3. **Keep both accounts until migration is complete and verified**
 4. **This process does NOT happen automatically** - you must manually transfer funds
@@ -42,7 +46,7 @@ ZelCore is transitioning from legacy username/password accounts to modern seed p
 - ✅ Paper and pen to write down your new seed phrase
 - ✅ 30-60 minutes of uninterrupted time
 - ✅ Stable internet connection
-- ✅ Updated version of ZelCore
+- ✅ Updated version of Zelcore
 
 **Optional but recommended:**
 - ✅ Second device to verify addresses
@@ -62,7 +66,7 @@ Migration involves:
 
 ## Prerequisites
 
-### Step 1: Update ZelCore
+### Step 1: Update Zelcore
 
 Ensure you have the latest version:
 
@@ -73,12 +77,12 @@ Ensure you have the latest version:
 
 **Mobile:**
 1. Open your app store (iOS App Store or Google Play)
-2. Search for "ZelCore"
+2. Search for "Zelcore"
 3. Tap "Update" if available
 
 ### Step 2: Verify Legacy Account Access
 
-1. Open ZelCore
+1. Open Zelcore
 2. Log in with your username and password
 3. Verify you can see all your assets
 4. Write down all cryptocurrencies you hold (you'll need to transfer each one)
@@ -115,13 +119,13 @@ You'll need small amounts of each cryptocurrency for transaction fees:
 #### Step 1: Access Account Creation
 
 **Option A: Using Account Switcher (Recommended)**
-1. In your current ZelCore, look for account/profile menu
+1. In your current Zelcore, look for account/profile menu
 2. Select "Add Account" or "Create New Account"
 3. Choose "Create New Wallet" or "Register"
 
 **Option B: On a Different Device**
-1. Install ZelCore on another device
-2. Open ZelCore
+1. Install Zelcore on another device
+2. Open Zelcore
 3. Choose "Create New Wallet" or "Register"
 
 **Option C: In Same App (Advanced)**
@@ -140,13 +144,13 @@ Use Option A (account switcher) if available - it's easiest to manage both accou
    - PIN code (numeric)
    - Password (alphanumeric)
    - Biometric (if available)
-3. ZelCore will generate your seed phrase
+3. Zelcore will generate your seed phrase
 
 #### Step 3: Write Down Your Seed Phrase
 
 **This is the most critical step:**
 
-1. ZelCore displays 12 or 24 words
+1. Zelcore displays 12 or 24 words
 2. Write ALL words on paper in exact order
 3. **Number each word** (1-12 or 1-24)
 4. **Double-check spelling** of each word
@@ -164,14 +168,14 @@ Use Option A (account switcher) if available - it's easiest to manage both accou
 
 #### Step 4: Verify Your Seed Phrase
 
-1. ZelCore will ask you to confirm words
+1. Zelcore will ask you to confirm words
 2. Select words in the correct order
 3. Verify all words match what you wrote down
 4. If prompted, write the phrase down again for additional verification
 
 #### Step 5: Complete New Account Setup
 
-1. Enable D2FA (recommended for security)
+1. Enable d2FA (recommended for security)
 2. Note your new account is empty (this is expected)
 3. You now have TWO accounts:
    - **Legacy account:** Has your current funds
@@ -252,16 +256,16 @@ For each cryptocurrency in your list:
 
 ### Phase 3: Handle Special Cases
 
-#### D2FA Migration
+#### d2FA Migration
 
-If you have D2FA enabled on your legacy account:
+If you have d2FA enabled on your legacy account:
 
-1. **New account D2FA:**
-   - Set up fresh D2FA in your new account
-   - Create a new D2FA PIN
-   - This is separate from legacy D2FA
+1. **New account d2FA:**
+   - Set up fresh d2FA in your new account
+   - Create a new d2FA PIN
+   - This is separate from legacy d2FA
 
-2. **Legacy D2FA:**
+2. **Legacy d2FA:**
    - Keep enabled until all transfers complete
    - Can disable after confirming migration success
 
@@ -387,7 +391,7 @@ If you have D2FA enabled on your legacy account:
 **Do NOT:**
 - ❌ Delete username/password credentials yet
 - ❌ Share that you're no longer using legacy account
-- ❌ Close or delete the account (ZelCore may need to deprecate it officially)
+- ❌ Close or delete the account (Zelcore may need to deprecate it officially)
 
 ## Common Migration Issues
 
@@ -397,7 +401,7 @@ If you have D2FA enabled on your legacy account:
 1. Try password recovery (if available in legacy system)
 2. Check for password hints or documentation
 3. Try common variations you might have used
-4. Contact ZelCore support for account recovery options
+4. Contact Zelcore support for account recovery options
 
 **Prevention for future:**
 - Set up new account immediately if you can't access legacy
@@ -460,7 +464,7 @@ If you have D2FA enabled on your legacy account:
 
 **If you lost access:**
 - If no funds transferred yet, create new account
-- If funds already transferred, contact ZelCore support immediately
+- If funds already transferred, contact Zelcore support immediately
 - This is why test transfers are recommended
 
 ### "I accidentally sent to the wrong address"
@@ -494,19 +498,19 @@ If you have D2FA enabled on your legacy account:
 - Take a break, resume later
 - Migration can happen over several days
 - Keep both accounts until complete
-- No rush - legacy accounts still function
+- Legacy login is deprecated and will be phased out, so finish the migration soon
 
-### "D2FA issues after migration"
+### "d2FA issues after migration"
 
 **Common problems:**
 
-**D2FA PIN not working in new account:**
-- New account has separate D2FA
-- Create new D2FA PIN for new account
+**d2FA PIN not working in new account:**
+- New account has separate d2FA
+- Create new d2FA PIN for new account
 - Old PIN was for legacy account only
 
-**Can't set up D2FA:**
-- Update ZelCore to latest version
+**Can't set up d2FA:**
+- Update Zelcore to latest version
 - Check internet connection
 - Try disabling and re-enabling
 - Contact support if persistent
@@ -516,7 +520,7 @@ If you have D2FA enabled on your legacy account:
 Use this checklist to track your progress:
 
 ### Pre-Migration
-- [ ] Updated ZelCore to latest version
+- [ ] Updated Zelcore to latest version
 - [ ] Verified legacy account access
 - [ ] Created list of all holdings
 - [ ] Confirmed sufficient funds for transaction fees
@@ -528,7 +532,7 @@ Use this checklist to track your progress:
 - [ ] Verified seed phrase
 - [ ] Stored seed phrase securely
 - [ ] Set up device authentication
-- [ ] Enabled D2FA (optional)
+- [ ] Enabled d2FA (optional)
 
 ### Asset Transfer
 For EACH asset:
@@ -642,7 +646,7 @@ For EACH asset:
 
 4. **Regular maintenance:**
    - Run Smartify weekly
-   - Keep ZelCore updated
+   - Keep Zelcore updated
    - Verify seed phrase annually (check you can still read it)
 
 ### Using Your New Seed Phrase Account
@@ -659,7 +663,7 @@ For EACH asset:
 - Never share seed phrase with anyone
 - Store seed phrase offline only
 - Use Smartify regularly for balance refresh
-- Keep ZelCore updated
+- Keep Zelcore updated
 - Review security settings periodically
 
 ## Getting Help
@@ -676,12 +680,12 @@ For EACH asset:
    - [Wallet FAQ](../../faq/wallet-faq/)
 
 3. **Contact support:**
-   - ZelCore support: support@zel.network
+   - Zelcore support: open a ticket at [support.zelcore.io](https://support.zelcore.io)
    - Discord: discord.gg/runonflux
    - Remember: Support will NEVER ask for your seed phrase
 
 4. **Community resources:**
-   - Official ZelCore Discord
+   - Official Zelcore Discord
    - Community forums
    - Social media channels
 
@@ -713,15 +717,15 @@ No, cryptocurrency transactions are irreversible. However, you can:
 
 ### Will I lose my transaction history?
 
-Transaction history is stored on the blockchain, not in ZelCore:
+Transaction history is stored on the blockchain, not in Zelcore:
 - All transactions remain visible on blockchain explorers
 - New account starts with blank in-app history
 - Historical data isn't migrated, but transactions are permanent on blockchain
 
 ### Do I have to migrate?
 
-Not immediately, but:
-- Legacy accounts are being phased out
+Legacy login still works in Zelcore 8.39, but it is deprecated and will be phased out. You should migrate now:
+- Legacy login is deprecated and will be phased out
 - Future updates may not support legacy accounts
 - Migration is recommended for security and compatibility
 - Delay may limit future features
@@ -738,7 +742,7 @@ Yes:
 
 - Remains accessible
 - You can leave minimal funds if desired
-- May eventually be deprecated by ZelCore
+- Legacy login is already deprecated and will be phased out
 - Keep credentials secure even if inactive
 
 ### Will migration affect my tax records?
@@ -755,7 +759,7 @@ Migrating from a legacy account to a seed phrase account:
 
 ✅ **Improves security** with industry-standard BIP44
 ✅ **Increases portability** across wallets
-✅ **Ensures future compatibility** with ZelCore updates
+✅ **Ensures future compatibility** with Zelcore updates
 ✅ **Provides full ownership** of your funds
 
 **Remember:**
@@ -765,11 +769,11 @@ Migrating from a legacy account to a seed phrase account:
 - Store seed phrase securely offline
 - Keep both accounts until verified
 
-With careful attention to detail, migration is straightforward and significantly improves your ZelCore experience.
+With careful attention to detail, migration is straightforward and significantly improves your Zelcore experience.
 
 ## Related Documentation
 
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 - [Account Access FAQ](../../faq/account-access-faq/)
 - [Security Best Practices](../../security/best-practices/)
 - [UTXO Consolidation Guide](../../guides/utxo-consolidation-guide/)

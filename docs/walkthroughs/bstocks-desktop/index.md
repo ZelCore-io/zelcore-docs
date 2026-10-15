@@ -1,22 +1,26 @@
 ---
 sidebar_position: 6
-title: Buy bStocks on ZelCore Desktop
-description: "Step-by-step walkthrough for adding tokenized US stocks (bStocks) to ZelCore Desktop and buying them with USDT through the Binance Web3 swap provider."
+title: Buy bStocks on Zelcore Desktop
+description: "Step-by-step walkthrough for adding tokenized US stocks (bStocks) to Zelcore Desktop and buying them with USDT through the Binance Web3 swap provider."
 keywords: [zelcore, bstocks, tokenized stocks, buy stocks with usdt, binance web3 swap, bnb smart chain, msftb, desktop walkthrough]
 image: ./images/06-microsoft-bstock-card-chart.webp
 ---
 
-# Buy bStocks on ZelCore Desktop
+# Buy bStocks on Zelcore Desktop
 
-This walkthrough shows how to add tokenized US stocks (bStocks) to your ZelCore Desktop portfolio and buy one with USDT on BNB Smart Chain using the built-in swap. The example buys Microsoft (MSFTB) with 10 USDT.
+:::info Applies to Zelcore 8.39
+The steps apply to Zelcore desktop 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
+:::
 
-If you are new to bStocks, read [bStocks in ZelCore](/docs/guides/bstocks-tokenized-stocks-guide) first. It covers what the tokens are, dividends and splits, fees, risks and the country restrictions.
+This walkthrough shows how to add tokenized US stocks (bStocks) to your Zelcore Desktop portfolio and buy one with USDT on BNB Smart Chain using the built-in swap. The example buys Microsoft (MSFTB) with 10 USDT.
+
+If you are new to bStocks, read [bStocks in Zelcore](/docs/guides/bstocks-tokenized-stocks-guide) first. It covers what the tokens are, dividends and splits, fees, risks and the country restrictions.
 
 ---
 
 ## Prerequisites
 
-- ZelCore Desktop 8.36 or later, logged in
+- Zelcore Desktop 8.37 or later (we recommend the current release), logged in
 - Your connection located in a country where bStocks are available (the app hides them otherwise)
 - USDT (BSC) or BNB in the wallet you want to buy from
 - A small amount of BNB in the same wallet for gas (the example swap cost about 0.0003 BNB)
@@ -25,7 +29,7 @@ If you are new to bStocks, read [bStocks in ZelCore](/docs/guides/bstocks-tokeni
 
 ## Step 1: The bStocks intro banner
 
-The first time you open a portfolio where bStocks are available, ZelCore shows a one-time banner: **US stocks, now in your wallet**.
+The first time you open a portfolio where bStocks are available, Zelcore shows a one-time banner: **US stocks, now in your wallet**.
 
 ![bStocks intro banner over the Portfolio Overview](./images/01-bstocks-intro-banner.webp)
 
@@ -111,7 +115,7 @@ Only BSC assets can be swapped directly into a bStock. If your USDT is on anothe
 
 ## Step 8: Enter the amount
 
-Type the USDT amount, or click **Max**. The example uses 10 USDT. ZelCore fetches quotes while the spinner is showing, then enables **Next step**.
+Type the USDT amount, or click **Max**. The example uses 10 USDT. Zelcore fetches quotes while the spinner is showing, then enables **Next step**.
 
 ![10 USDT entered on the sell side](./images/09-enter-usdt-amount.webp)
 
@@ -144,7 +148,7 @@ Check everything before you sign.
 | **Fee** | BSC gas paid in BNB (0.000326 BNB here) |
 | **You'll Receive** | Estimated amount, prefixed with ~ because the rate floats |
 
-Click **Swap Now**. If this wallet has never swapped USDT through this router, ZelCore first sends a one-time token approval, then the swap itself. The button shows a spinner and the top bar reads **Executing swap…** while the transactions are signed and broadcast.
+Click **Swap Now**. If this wallet has never swapped USDT through this router, Zelcore first sends a one-time token approval, then the swap itself. The button shows a spinner and the top bar reads **Executing swap…** while the transactions are signed and broadcast.
 
 ---
 
@@ -180,6 +184,6 @@ You added bStocks to a wallet through the Add bStocks dialog, opened the stock c
 
 Related:
 
-- [bStocks in ZelCore: what they are, restrictions and risks](/docs/guides/bstocks-tokenized-stocks-guide)
-- [Buy bStocks on ZelCore Mobile](/docs/walkthroughs/bstocks-mobile)
+- [bStocks in Zelcore: what they are, restrictions and risks](/docs/guides/bstocks-tokenized-stocks-guide)
+- [Buy bStocks on Zelcore Mobile](/docs/walkthroughs/bstocks-mobile)
 - [Troubleshooting swap issues](/docs/guides/troubleshooting-fusion-swap-issues)

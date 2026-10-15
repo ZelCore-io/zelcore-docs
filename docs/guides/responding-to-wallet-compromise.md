@@ -9,13 +9,13 @@ keywords: [wallet compromised, crypto stolen, wallet hacked response, emergency 
 
 ## Overview
 
-This guide provides immediate action steps if you suspect or confirm that your ZelCore wallet has been compromised. Time is critical when responding to a security incident.
+This guide provides immediate action steps if you suspect or confirm that your Zelcore wallet has been compromised. Time is critical when responding to a security incident.
 
 **Critical Information:**
 
 - Cryptocurrency transactions are permanent and irreversible
 - Once funds leave your wallet and are confirmed on the blockchain, they cannot be recovered
-- ZelCore cannot reverse, freeze, or retrieve stolen funds
+- Zelcore cannot reverse, freeze, or retrieve stolen funds
 - Law enforcement has very limited ability to recover cryptocurrency
 - Your immediate priority is protecting any remaining assets
 
@@ -29,13 +29,13 @@ This guide provides immediate action steps if you suspect or confirm that your Z
    - Go to the appropriate blockchain explorer (see list below)
    - Enter your wallet address
    - Confirm unauthorized transactions actually occurred
-   - Sometimes display issues in ZelCore can be mistaken for theft
+   - Sometimes display issues in Zelcore can be mistaken for theft
 
 2. **Common blockchain explorers:**
    - **Bitcoin:** blockchain.com or blockchair.com
    - **Ethereum:** etherscan.io
    - **Flux:** explorer.runonflux.io
-   - **Kadena:** explorer.chainweb.com
+   - **Kadena:** kdabox.com
    - **Ravencoin:** ravencoin.network
    - **Other chains:** Search "[blockchain name] explorer"
 
@@ -63,7 +63,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
 **DO:**
 
 - Disconnect the compromised device from the internet if possible
-- Close ZelCore on all devices
+- Close Zelcore on all devices
 - Remain calm - you need clear judgment for next steps
 
 ### Step 3: Secure Remaining Funds (If Any)
@@ -79,7 +79,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
    - Use a trusted, secure network (not public WiFi)
 
 2. **Create a NEW wallet with a NEW seed phrase:**
-   - Install ZelCore from official sources only (https://zelcore.io)
+   - Install Zelcore from official sources only (https://zelcore.io)
    - Generate a completely new wallet
    - Write down the new seed phrase on paper
    - Verify you wrote it correctly
@@ -110,7 +110,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
 - You cannot "reclaim" or "fix" a compromised wallet
 - You must create a new wallet with a new seed phrase
 
-**Important:** Changing your ZelCore account password does NOT secure a compromised wallet. The attacker has your private keys, which are independent of your account password.
+**Important:** Changing your Zelcore account password does NOT secure a compromised wallet. The attacker has your private keys, which are independent of your account password.
 
 ## Detailed Investigation (Hours 1-24)
 
@@ -123,7 +123,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
 1. **Phishing:**
    - Did you enter your seed phrase on any website recently?
    - Did you click links in emails about your wallet?
-   - Did you download ZelCore from an unofficial source?
+   - Did you download Zelcore from an unofficial source?
    - Did you interact with anyone claiming to be support?
 
 2. **Malware/Keyloggers:**
@@ -186,7 +186,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
 **Assume related accounts may also be compromised:**
 
 1. **Change passwords for:**
-   - Your ZelCore account
+   - Your Zelcore account
    - Email accounts
    - Any cryptocurrency exchanges
    - Financial accounts
@@ -224,27 +224,27 @@ This guide provides immediate action steps if you suspect or confirm that your Z
 - Useful for community warnings to prevent others from falling victim
 - May be required for insurance claims (if you have crypto insurance)
 
-## What ZelCore Can and Cannot Do
+## What Zelcore Can and Cannot Do
 
-### What ZelCore CANNOT Do
+### What Zelcore CANNOT Do
 
 **It's critical to understand the limitations:**
 
 1. **Cannot reverse transactions:**
    - Blockchain transactions are permanent by design
    - Once confirmed, they cannot be undone
-   - ZelCore does not control any blockchain network
+   - Zelcore does not control any blockchain network
    - No one can "cancel" or "charge back" cryptocurrency transactions
 
 2. **Cannot recover stolen funds:**
-   - ZelCore is a non-custodial wallet (you control the keys, not ZelCore)
-   - ZelCore does not have access to your private keys
+   - Zelcore is a non-custodial wallet (you control the keys, not Zelcore)
+   - Zelcore does not have access to your private keys
    - There is no central vault or insurance fund
    - Stolen cryptocurrency cannot be "refunded"
 
 3. **Cannot trace or freeze funds:**
    - While transactions are public on explorers, wallets are pseudonymous
-   - ZelCore cannot identify who controls a wallet address
+   - Zelcore cannot identify who controls a wallet address
    - Cannot freeze or seize funds in any wallet
    - Cannot force recipients to return funds
 
@@ -254,7 +254,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
    - Technical tracing requires law enforcement with blockchain analysis firms
    - Most cryptocurrency theft goes unsolved
 
-### What ZelCore CAN Do
+### What Zelcore CAN Do
 
 **Limited support options available:**
 
@@ -426,7 +426,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
 
 **Learn and connect safely:**
 
-- Official ZelCore Discord (support channels)
+- Official Zelcore Discord (support channels)
 - r/zelcoreio on Reddit
 - Cryptocurrency security communities
 - Local cryptocurrency meetups (be cautious about discussing losses)

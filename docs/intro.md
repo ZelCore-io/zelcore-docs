@@ -29,7 +29,7 @@ Your private keys are never stored or shared—only you have complete access to 
 Access your wallet seamlessly across:
 - **Desktop**: Windows, macOS, Linux
 - **Mobile**: iOS and Android
-- **Browser**: Chrome, Firefox, Edge, Brave
+- **Browser**: Chrome, Edge, Brave (Firefox is not available yet)
 
 ### Security Features
 - 24-word seed phrase for maximum recovery security
@@ -39,8 +39,8 @@ Access your wallet seamlessly across:
 - Independently audited by Cure53
 
 ### Extensive Blockchain Support
-- 80+ blockchains including Bitcoin, Ethereum, Solana, and more
-- 100,000+ [supported assets](https://zelcore.io/ecosystem/assets) across all major networks
+- 80+ blockchains (as of October 2026) including Bitcoin, Ethereum, Solana, and more
+- 100,000+ [supported assets](https://zelcore.io/ecosystem/assets) across all major networks (as of October 2026)
 - 100M+ NFTs across major networks
 
 ## Trusted by 500K+ Users

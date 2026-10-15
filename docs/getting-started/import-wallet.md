@@ -1,11 +1,15 @@
 ---
 sidebar_position: 3
 title: Import an Existing Wallet
-description: "Import your existing cryptocurrency wallet into ZelCore using a seed phrase, private key, or legacy account migration."
+description: "Import your existing cryptocurrency wallet into Zelcore using a seed phrase, private key, or legacy account migration."
 keywords: [import wallet, restore crypto wallet, seed phrase recovery, migrate wallet]
 ---
 
 # Import Existing Wallet
+
+:::info Applies to Zelcore 8.39
+Written for Zelcore 8.39.0 (October 2026).
+:::
 
 Already have a Zelcore wallet or want to import from another wallet? Learn how to restore or import your existing crypto wallet.
 
@@ -15,7 +19,7 @@ Zelcore supports multiple import methods:
 
 1. **Seed Phrase (Mnemonic)** - 12, 18, or 24 words
 2. **Private Key** - WIF or hex format
-3. **Hardware Wallet** - Ledger or Trezor devices
+3. **Hardware Wallet** - Ledger or Trezor devices (Zelcore desktop only)
 4. **WalletConnect** - Connect mobile wallet to dApps
 
 ## Import from Seed Phrase
@@ -73,12 +77,12 @@ Only import private keys on devices you trust. Never import private keys on shar
 
 ## Connect Hardware Wallet
 
-Integrate your Ledger or Trezor hardware wallet for enhanced security.
+Integrate your Ledger or Trezor hardware wallet with Zelcore desktop for enhanced security.
 
 ### Supported Devices
 
-- **Ledger**: Nano S, Nano S Plus, Nano X
-- **Trezor**: One, Model T
+- **Ledger** (desktop): Nano S, Nano S Plus, Nano X
+- **Trezor** (desktop): One, Model T
 
 ### Connection Steps
 
@@ -86,27 +90,22 @@ Integrate your Ledger or Trezor hardware wallet for enhanced security.
 1. Connect your hardware wallet to your computer via USB
 2. Unlock the device and open the appropriate blockchain app
 3. In Zelcore, go to **Settings** → **Hardware Wallets**
-4. Select your device type (Ledger or Trezor)
+4. Select your device type (Ledger or Trezor; desktop only)
 5. Follow the on-screen pairing instructions
 6. Approve the connection on your hardware device
 
-#### Mobile
-1. Ensure your hardware wallet supports Bluetooth (Ledger Nano X only)
-2. Enable Bluetooth on your mobile device
-3. In Zelcore, go to **Settings** → **Hardware Wallets**
-4. Select **Ledger Nano X**
-5. Follow the pairing process
-6. Approve the connection on both devices
+#### Mobile and Browser Extension
+Ledger and Trezor work with Zelcore desktop only (USB). The mobile app and the browser extension can't pair a hardware wallet.
 
 :::info
 Hardware wallet transactions require physical confirmation on the device, providing an additional security layer.
 :::
 
-### Changes in ZelCore 8.39.0
+### Changes in Zelcore 8.39.0
 
 - **Hardware Wallet** appears in the import menu without the **Experimental** label.
-- **Trezor** still needs experimental features turned on in ZelCore before you can use it.
-- **Kaspa** can now be imported from a Ledger device. You can send KAS from it. KRC-20 tokens on Ledger are not supported yet.
+- **Trezor** on Zelcore desktop still needs experimental features turned on in Zelcore before you can use it.
+- **Kaspa** can now be imported from a Ledger device on Zelcore desktop. You can send KAS from it. KRC-20 tokens on Ledger are not supported yet.
 - Actions a hardware wallet cannot sign, such as Swap, Sell, Earn, WalletConnect and Sign Message, are hidden or refused with a clear message. Before this version they could fail part-way or create an exchange order first. If you see such a message, choose a wallet that uses a software key for that action.
 
 ## Import via WalletConnect
@@ -187,6 +186,6 @@ After successfully importing your wallet, you can start managing your crypto ass
 
 ## Need Help?
 
-- [Support Center](https://zelcore.io/support)
+- [Support Center](https://support.zelcore.io)
 - [Discord Community](https://discord.gg/runonflux)
-- [Contact Support](https://zelcore.io/support) via the app
+- [Contact Support](https://support.zelcore.io) via the app

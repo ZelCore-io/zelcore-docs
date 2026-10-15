@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Flux Node Installation Guide
-description: "Complete guide to installing and running a Flux node through ZelCore. Hardware requirements, setup steps, and node management."
+description: "Complete guide to installing and running a Flux node through Zelcore. Hardware requirements, setup steps, and node management."
 keywords: [flux node setup, install flux node, zelcore flux node, run flux node]
 ---
 
@@ -402,11 +402,11 @@ Should show FluxOS dashboard.
 
 ## Post-Installation Steps
 
-### 1. Complete Node Setup on ZelCore
+### 1. Complete Node Setup on Zelcore
 
 After installation succeeds on your server:
 
-1. Open ZelCore wallet
+1. Open Zelcore wallet
 2. Go to Apps > FluxNodes
 3. Add your node with:
    - IP address
@@ -416,7 +416,7 @@ After installation succeeds on your server:
 ### 2. Monitor Node Health
 
 **Regular checks:**
-- Node status in ZelCore
+- Node status in Zelcore
 - FluxOS dashboard
 - Benchmark status
 - Uptime percentage
@@ -508,10 +508,10 @@ If you continue experiencing installation issues:
 - Flux Telegram: Official Flux support groups
 - Flux Documentation: https://docs.runonflux.io
 
-**ZelCore Support:**
-- For node management within ZelCore app
-- Discord: Official ZelCore channels
-- Email: support@zel.network
+**Zelcore Support:**
+- For node management within Zelcore app
+- Discord: Official Zelcore channels
+- Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
 
 **What to include in support requests:**
 - Operating system and version

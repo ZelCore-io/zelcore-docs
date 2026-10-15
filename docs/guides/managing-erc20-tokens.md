@@ -1,15 +1,15 @@
 ---
 sidebar_position: 17
-title: Managing ERC-20 Tokens in ZelCore
-description: "How to send, receive, and manage ERC-20 tokens on Ethereum in your ZelCore wallet. Complete guide to ERC-20 token management and gas fees."
+title: Managing ERC-20 Tokens in Zelcore
+description: "How to send, receive, and manage ERC-20 tokens on Ethereum in your Zelcore wallet. Complete guide to ERC-20 token management and gas fees."
 keywords: [erc20 wallet, erc20 tokens, ethereum token wallet, manage erc20]
 ---
 
-# Managing ERC-20 Tokens in Your ZelCore ERC20 Wallet
+# Managing ERC-20 Tokens in Your Zelcore ERC20 Wallet
 
 ## Overview
 
-ZelCore functions as a comprehensive ERC20 wallet, giving you full control over your Ethereum-based tokens alongside hundreds of other cryptocurrencies. ERC-20 tokens represent the largest and most diverse token ecosystem in crypto, powering everything from stablecoins and DeFi governance to utility tokens and digital collectibles. This guide walks you through managing ERC-20 tokens in ZelCore, understanding Ethereum gas fees, and navigating the broader Ethereum token landscape — including Layer 2 alternatives that can save you money on transactions.
+Zelcore functions as a comprehensive ERC20 wallet, giving you full control over your Ethereum-based tokens alongside 100,000+ other assets on 80+ blockchains (as of October 2026). ERC-20 tokens represent the largest and most diverse token ecosystem in crypto, powering everything from stablecoins and DeFi governance to utility tokens and digital collectibles. This guide walks you through managing ERC-20 tokens in Zelcore, understanding Ethereum gas fees, and navigating the broader Ethereum token landscape — including Layer 2 alternatives that can save you money on transactions.
 
 ## What Are ERC-20 Tokens?
 
@@ -41,16 +41,16 @@ Key technical points:
 | Lido Staked Ether | stETH | Liquid Staking | Represents staked ETH in the Lido protocol |
 
 :::info
-There are thousands of ERC-20 tokens in existence. ZelCore supports a curated list of the most popular and legitimate tokens. If a specific token is not listed, it may be available through custom token addition features.
+There are thousands of ERC-20 tokens in existence. Zelcore supports a curated list of the most popular and legitimate tokens. If a specific token is not listed, it may be available through custom token addition features.
 :::
 
-## Adding ERC-20 Tokens to ZelCore
+## Adding ERC-20 Tokens to Zelcore
 
 ### Step 1: Ensure Ethereum (ETH) Is in Your Portfolio
 
-Before managing ERC-20 tokens, add Ethereum to your ZelCore portfolio:
+Before managing ERC-20 tokens, add Ethereum to your Zelcore portfolio:
 
-1. Open ZelCore and go to the **Portfolio** screen.
+1. Open Zelcore and go to the **Portfolio** screen.
 2. Tap **+** to add an asset.
 3. Search for **Ethereum** or **ETH**.
 4. Select Ethereum and add it to your portfolio.
@@ -70,11 +70,11 @@ To add specific ERC-20 tokens:
 Many popular tokens like USDT, USDC, and LINK exist on multiple blockchains (Ethereum, TRON, BSC, Polygon, etc.). Always verify you are adding the ERC-20 version if you intend to transact on the Ethereum network. Sending tokens to the wrong network can result in lost funds.
 :::
 
-For detailed installation instructions if you are new to ZelCore, refer to the [installation guide](/docs/getting-started/installation/).
+For detailed installation instructions if you are new to Zelcore, refer to the [installation guide](/docs/getting-started/installation/).
 
 ## Receiving ERC-20 Tokens
 
-To receive ERC-20 tokens in ZelCore:
+To receive ERC-20 tokens in Zelcore:
 
 1. Select the ERC-20 token (or ETH — the address is identical) from your portfolio.
 2. Tap **Receive** to display your Ethereum address and QR code.
@@ -88,7 +88,7 @@ To receive ERC-20 tokens in ZelCore:
 
 ## Sending ERC-20 Tokens
 
-To send ERC-20 tokens from ZelCore:
+To send ERC-20 tokens from Zelcore:
 
 1. Select the ERC-20 token in your portfolio.
 2. Tap **Send**.
@@ -138,7 +138,7 @@ Layer 2 networks process transactions off the main Ethereum chain (Layer 1) and 
 - **Faster confirmations:** Sub-second transaction finality in many cases.
 - **Ethereum security:** Transactions are ultimately secured by the Ethereum network.
 
-### Popular Layer 2 Networks Supported by ZelCore
+### Popular Layer 2 Networks Supported by Zelcore
 
 | Network | Type | Typical Transfer Cost | Notes |
 |---|---|---|---|
@@ -153,15 +153,15 @@ If you frequently transfer stablecoins or other tokens and want to minimize fees
 
 ### Bridging Between Layer 1 and Layer 2
 
-To move tokens from Ethereum Layer 1 to a Layer 2 network, you need to use a bridge. Bridging involves locking your tokens on Layer 1 and receiving equivalent tokens on the Layer 2 network. ZelCore supports multiple networks, so you can manage both your Layer 1 and Layer 2 token balances from the same wallet.
+To move tokens from Ethereum Layer 1 to a Layer 2 network, you need to use a bridge. Bridging involves locking your tokens on Layer 1 and receiving equivalent tokens on the Layer 2 network. Zelcore supports multiple networks, so you can manage both your Layer 1 and Layer 2 token balances from the same wallet.
 
 ## Troubleshooting ERC-20 Token Issues
 
 ### Token Balance Not Showing
 
-If you have received ERC-20 tokens but they are not visible in ZelCore:
+If you have received ERC-20 tokens but they are not visible in Zelcore:
 
-1. **Add the token to your portfolio.** ZelCore does not automatically display every ERC-20 token. You must manually add the specific token to your asset list.
+1. **Add the token to your portfolio.** Zelcore does not automatically display every ERC-20 token. You must manually add the specific token to your asset list.
 2. **Check the network.** Confirm you are looking at the ERC-20 version, not a version on another chain.
 3. **Refresh your portfolio.** Pull down on the portfolio screen to force a balance update.
 4. **Verify on Etherscan.** Search your Ethereum address on [Etherscan](https://etherscan.io/) to confirm the tokens are in your wallet on-chain.
@@ -188,7 +188,7 @@ Common reasons for failed ERC-20 transactions:
 If you see unfamiliar tokens in your Ethereum address on a block explorer:
 
 - **Do not interact with them.** Scam tokens are commonly "airdropped" to active addresses. Attempting to sell or transfer these tokens may trigger a malicious smart contract.
-- **Ignore them.** If the token does not appear in ZelCore's curated list, it is likely not legitimate.
+- **Ignore them.** If the token does not appear in Zelcore's curated list, it is likely not legitimate.
 - **Never visit URLs in token names.** Some scam tokens encode phishing URLs directly in their token name or symbol.
 
 For staking-related questions about Ethereum, see the [Ethereum staking walkthrough](/docs/walkthroughs/ethereum-staking/). For general wallet questions, visit the [wallet FAQ](/docs/faq/wallet-faq/).
@@ -205,11 +205,11 @@ If you are deciding which network to use for a token that exists on multiple cha
 | **Security** | Highest | High | High | Inherits Ethereum security |
 | **Exchange support** | Universal | Wide | Wide | Expanding |
 
-For more information about ZelCore's Ethereum integration, visit [zelcore.io/ecosystem/projects/ethereum](https://zelcore.io/ecosystem/projects/ethereum).
+For more information about Zelcore's Ethereum integration, visit [zelcore.io/ecosystem/projects/ethereum](https://zelcore.io/ecosystem/projects/ethereum).
 
 ## Summary
 
-ZelCore's ERC20 wallet capabilities make it straightforward to manage the full range of Ethereum-based tokens in a self-custodial environment. The essential points to remember are:
+Zelcore's ERC20 wallet capabilities make it straightforward to manage the full range of Ethereum-based tokens in a self-custodial environment. The essential points to remember are:
 
 1. **Always hold ETH** in your wallet to pay for gas fees on ERC-20 transactions.
 2. **Select the correct network** when adding tokens or receiving from exchanges — ERC-20 for Ethereum.
@@ -217,4 +217,4 @@ ZelCore's ERC20 wallet capabilities make it straightforward to manage the full r
 4. **Consider Layer 2 networks** for frequent, cost-sensitive transfers.
 5. **Be cautious of unknown tokens** — never interact with tokens you did not intentionally acquire.
 
-By understanding how ERC-20 tokens work and how gas fees affect your transactions, you can effectively manage your Ethereum token portfolio in ZelCore with confidence.
+By understanding how ERC-20 tokens work and how gas fees affect your transactions, you can effectively manage your Ethereum token portfolio in Zelcore with confidence.

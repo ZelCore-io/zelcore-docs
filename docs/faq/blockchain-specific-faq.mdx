@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Blockchain-Specific FAQ
-description: "Answers to blockchain-specific questions in ZelCore — chain differences, token standards, network fees, and cross-chain functionality."
+description: "Answers to blockchain-specific questions in Zelcore — chain differences, token standards, network fees, and cross-chain functionality."
 keywords: [blockchain faq, crypto chain differences, token standards, erc20 trc20]
 ---
 
@@ -11,6 +11,10 @@ import faqItems from '@site/src/components/FAQ/schema-items/blockchain_specific_
 <FAQJsonLd items={faqItems} />
 
 # Blockchain-Specific FAQ
+
+:::info Applies to Zelcore 8.39
+Written for Zelcore 8.39.0 (October 2026). Where an answer names an earlier version, it says so.
+:::
 
 ## Kadena (KDA) Questions
 
@@ -67,14 +71,14 @@ Kadena uses a unique blockchain design called "Chainweb" with 20 parallel chains
 
 There are three ways to check which chain holds your KDA:
 
-**Method 1: Check ZelCore**
-1. Open ZelCore and select Kadena (KDA)
+**Method 1: Check Zelcore**
+1. Open Zelcore and select Kadena (KDA)
 2. Look for chain information displayed with your balance
 3. May show "KDA - Chain 0" or similar
 4. Check transaction history for chain details
 
 **Method 2: Use Kadena Block Explorer**
-1. Visit https://explorer.chainweb.com or https://kdabox.com
+1. Visit https://kdabox.com
 2. Search for your KDA address (k:...)
 3. Explorer will show your balance on each chain
 4. You may have KDA on multiple chains
@@ -95,7 +99,7 @@ There are three ways to check which chain holds your KDA:
 
 **Answer:**
 
-`ERR_BAD_REQUEST` means ZelCore or the Kadena network rejected your transaction because something is wrong with the transaction details.
+`ERR_BAD_REQUEST` means Zelcore or the Kadena network rejected your transaction because something is wrong with the transaction details.
 
 **Most common causes:**
 
@@ -103,7 +107,7 @@ There are three ways to check which chain holds your KDA:
 2. **Wrong address format:** Missing "k:" prefix or invalid characters
 3. **KDA on different chain:** You have KDA but not on the chain you're trying to send from
 4. **Insufficient gas:** Not enough KDA left for transaction fees
-5. **Sync issues:** ZelCore not properly synced with Kadena network
+5. **Sync issues:** Zelcore not properly synced with Kadena network
 
 **Quick fixes:**
 
@@ -121,7 +125,7 @@ There are three ways to check which chain holds your KDA:
    - Go to Settings > Smartify
    - Refreshes network connections
 
-4. **Update ZelCore:**
+4. **Update Zelcore:**
    - Download latest version from zelcore.io
    - Fixes many compatibility issues
 
@@ -159,8 +163,8 @@ Exchanges are strict about which Kadena chain they accept. Sending to the wrong 
    - Verify it has the "k:" prefix
    - Double-check you copied it completely
 
-**4. Send from ZelCore:**
-   - Go to KDA in ZelCore
+**4. Send from Zelcore:**
+   - Go to KDA in Zelcore
    - Select **Send** tab
    - Paste exchange address
    - **Verify chain is correct**
@@ -199,13 +203,13 @@ Exchanges are strict about which Kadena chain they accept. Sending to the wrong 
 
 Moving KDA between Kadena chains (e.g., from Chain 1 to Chain 0) requires a special transaction called a "cross-chain transfer."
 
-**In ZelCore:**
+**In Zelcore:**
 
 **Step 1: Access Cross-Chain Transfer**
-1. Open ZelCore
+1. Open Zelcore
 2. Go to Kadena (KDA)
 3. Look for **Cross-Chain Transfer** or **Bridge** option
-4. (Location varies by ZelCore version)
+4. (Location varies by Zelcore version)
 
 **Step 2: Configure Transfer**
 1. **Source Chain:** Select where your KDA currently is (e.g., Chain 1)
@@ -233,8 +237,8 @@ Moving KDA between Kadena chains (e.g., from Chain 1 to Chain 0) requires a spec
 **If cross-chain transfer seems stuck:**
 - Wait at least 30 minutes before worrying
 - Check both source and destination chains on block explorer
-- Run Smartify in ZelCore
-- Update ZelCore to latest version
+- Run Smartify in Zelcore
+- Update Zelcore to latest version
 - Check Kadena network status
 
 **Alternative method:**
@@ -274,14 +278,14 @@ A "legacy address" refers to older Kadena address formats that may not be clearl
 
 **What to do if you have a legacy address:**
 
-1. **Update ZelCore:** Latest versions handle both legacy and modern formats
+1. **Update Zelcore:** Latest versions handle both legacy and modern formats
 2. **Check which chain your KDA is on:** Use block explorer
 3. **For new transactions:** Use clear chain-specific addressing
 4. **If having issues:**
    - Run Smartify
-   - Update ZelCore
+   - Update Zelcore
    - Consider exporting/importing to regenerate addresses
-   - Use EckoWallet to view/manage if ZelCore has issues
+   - Use EckoWallet to view/manage if Zelcore has issues
 
 **Best practice:** Always specify the chain explicitly when sharing your KDA address. Say "Chain 0: k:address123" instead of just "k:address123".
 
@@ -291,11 +295,11 @@ A "legacy address" refers to older Kadena address formats that may not be clearl
 
 ---
 
-### Can I use EckoWallet with ZelCore for Kadena?
+### Can I use EckoWallet with Zelcore for Kadena?
 
 **Answer:**
 
-Yes! EckoWallet and ZelCore can be used together or as alternatives for managing Kadena (KDA). Each has different strengths.
+Yes! EckoWallet and Zelcore can be used together or as alternatives for managing Kadena (KDA). Each has different strengths.
 
 **Using both wallets:**
 
@@ -308,11 +312,11 @@ Yes! EckoWallet and ZelCore can be used together or as alternatives for managing
 
 1. **Better multi-chain visibility:** Shows all 20 chains clearly
 2. **Clearer cross-chain transfers:** More intuitive interface
-3. **ZelCore issues:** If ZelCore has sync problems with KDA
+3. **Zelcore issues:** If Zelcore has sync problems with KDA
 4. **Kadena-specific features:** Built specifically for Kadena
 5. **Troubleshooting:** Verify which chain has your KDA
 
-**When to use ZelCore:**
+**When to use Zelcore:**
 
 1. **Multi-asset wallet:** Manage many cryptocurrencies in one place
 2. **Integrated exchange:** Built-in swap features
@@ -322,17 +326,17 @@ Yes! EckoWallet and ZelCore can be used together or as alternatives for managing
 **How to use both:**
 
 **Method 1: Same wallet, two interfaces**
-1. Export private key from ZelCore
+1. Export private key from Zelcore
 2. Import into EckoWallet
 3. Both wallets now control same KDA
 
 **Method 2: Separate wallets**
-1. Use ZelCore as main wallet
+1. Use Zelcore as main wallet
 2. Use EckoWallet for verification or troubleshooting
 3. Keep separate addresses
 
 **Best practice:**
-- Keep ZelCore as primary multi-asset wallet
+- Keep Zelcore as primary multi-asset wallet
 - Install EckoWallet as backup for Kadena-specific operations
 - Use EckoWallet when you need clear chain visibility
 - Verify transactions on both when troubleshooting
@@ -345,34 +349,34 @@ Yes! EckoWallet and ZelCore can be used together or as alternatives for managing
 
 ---
 
-### Why isn't my KDA showing in ZelCore even though I see it on the blockchain explorer?
+### Why isn't my KDA showing in Zelcore even though I see it on the blockchain explorer?
 
 **Answer:**
 
-If the Kadena block explorer shows your KDA balance but ZelCore doesn't, this is a display/sync issue, not a loss of funds.
+If the Kadena block explorer shows your KDA balance but Zelcore doesn't, this is a display/sync issue, not a loss of funds.
 
 **Common causes specific to Kadena:**
 
-1. **Wrong chain view:** ZelCore might be showing Chain 0, but your KDA is on Chain 3
-2. **Sync issues:** ZelCore not synced with Kadena network
-3. **Outdated version:** Old ZelCore version with limited chain support
+1. **Wrong chain view:** Zelcore might be showing Chain 0, but your KDA is on Chain 3
+2. **Sync issues:** Zelcore not synced with Kadena network
+3. **Outdated version:** Old Zelcore version with limited chain support
 4. **Backend node issues:** Kadena nodes not responding properly
 5. **Legacy address issues:** Old address format causing display problems
 
 **Solutions in order:**
 
 **1. Verify which chain has your KDA**
-   - Check block explorer (explorer.chainweb.com)
+   - Check a Kadena block explorer (kdabox.com)
    - Note which chain(s) show balance
-   - Compare to which chain ZelCore is displaying
+   - Compare to which chain Zelcore is displaying
 
 **2. Run Smartify**
-   - Go to Settings in ZelCore
+   - Go to Settings in Zelcore
    - Click/tap Smartify
    - Wait 1-3 minutes
    - Check if balance appears
 
-**3. Update ZelCore**
+**3. Update Zelcore**
    - Download latest version from zelcore.io
    - Newer versions have better multi-chain support
    - Restart and run Smartify
@@ -383,25 +387,25 @@ If the Kadena block explorer shows your KDA balance but ZelCore doesn't, this is
    - Run Smartify again
 
 **5. Check chain support**
-   - Some older ZelCore versions only show Chain 0
+   - Some older Zelcore versions only show Chain 0
    - Your KDA might be on a different chain
    - Use EckoWallet to view all chains if needed
 
 **6. Clear cache**
-   - Clear ZelCore cache (see Balance & Sync guide)
+   - Clear Zelcore cache (see Balance & Sync guide)
    - Restart app
    - Run Smartify
 
 **If balance still doesn't show:**
 - Verify on block explorer that KDA is truly there
 - Use EckoWallet as alternative viewer
-- Contact ZelCore support with:
+- Contact Zelcore support with:
   - Your k: address
   - Which chain has the balance
   - Transaction hash showing the deposit
-  - ZelCore version you're using
+  - Zelcore version you're using
 
-**Your KDA is safe:** If it's on the blockchain explorer, your funds are secure. This is purely a display issue with ZelCore.
+**Your KDA is safe:** If it's on the blockchain explorer, your funds are secure. This is purely a display issue with Zelcore.
 
 **Related:**
 - [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
@@ -413,25 +417,25 @@ If the Kadena block explorer shows your KDA balance but ZelCore doesn't, this is
 
 **Answer:**
 
-The Kadena Community Fork refers to protocol updates and community-led improvements to the Kadena network. If you're using a current version of ZelCore, you likely don't need to worry about this.
+The Kadena Community Fork refers to protocol updates and community-led improvements to the Kadena network. If you're using a current version of Zelcore, you likely don't need to worry about this.
 
 **Do you need to take action?**
 
 **Probably not if:**
-- Using ZelCore version from the last 6 months
+- Using Zelcore version from the last 6 months
 - Your KDA balance shows correctly
 - You can send/receive KDA without errors
 - Addresses use modern k: format
 
 **You might need attention if:**
-- Using very old ZelCore version (1+ years old)
+- Using very old Zelcore version (1+ years old)
 - KDA balance not appearing despite being on blockchain
 - Getting errors mentioning "deprecated" or "old format"
 - Having address format issues
 
 **How to ensure compatibility:**
 
-**Step 1: Update ZelCore**
+**Step 1: Update Zelcore**
 1. Download latest version from zelcore.io
 2. Install the update
 3. Your wallet data is preserved automatically
@@ -456,9 +460,9 @@ The Kadena Community Fork refers to protocol updates and community-led improveme
 
 **Technical background:**
 
-Kadena has evolved over time with protocol improvements. Modern wallets like ZelCore automatically handle these changes through updates. The "fork" terminology can sound scary, but it's just normal blockchain evolution.
+Kadena has evolved over time with protocol improvements. Modern wallets like Zelcore automatically handle these changes through updates. The "fork" terminology can sound scary, but it's just normal blockchain evolution.
 
-**Key point:** Keep ZelCore updated, and you won't have any fork-related issues.
+**Key point:** Keep Zelcore updated, and you won't have any fork-related issues.
 
 **Related:**
 - [Complete Kadena (KDA) Guide](../../guides/kadena-kda-guide/)
@@ -475,8 +479,8 @@ If an exchange says they didn't receive your KDA deposit, the most common cause 
 **Immediate troubleshooting steps:**
 
 **Step 1: Verify the transaction on blockchain**
-1. Get your transaction hash (TxID) from ZelCore
-2. Search it on https://explorer.chainweb.com
+1. Get your transaction hash (TxID) from Zelcore
+2. Search it on https://kdabox.com
 3. Confirm the transaction was successful
 4. **Check which chain it was sent on**
 
@@ -528,7 +532,7 @@ If an exchange says they didn't receive your KDA deposit, the most common cause 
 - Amount sent
 - Date and time
 - Which chain you sent on
-- Your ZelCore address (sender)
+- Your Zelcore address (sender)
 - Their deposit address (recipient)
 - Screenshot of blockchain explorer showing transaction
 
@@ -554,7 +558,7 @@ If an exchange says they didn't receive your KDA deposit, the most common cause 
 
 **Answer:**
 
-Most Kadena issues in ZelCore come from chain confusion or mismatches. Follow these best practices to avoid problems:
+Most Kadena issues in Zelcore come from chain confusion or mismatches. Follow these best practices to avoid problems:
 
 **Before Every Transaction:**
 
@@ -582,7 +586,7 @@ Most Kadena issues in ZelCore come from chain confusion or mismatches. Follow th
    - Fewer compatibility issues
    - Consolidate your KDA to Chain 0 when possible
 
-5. **Keep ZelCore updated:**
+5. **Keep Zelcore updated:**
    - Download updates from zelcore.io
    - Better chain support in newer versions
    - Bug fixes and improvements
@@ -593,7 +597,7 @@ Most Kadena issues in ZelCore come from chain confusion or mismatches. Follow th
    - When balance doesn't look right
 
 7. **Learn to use block explorers:**
-   - https://explorer.chainweb.com
+   - https://kdabox.com
    - Verify transactions independently
    - Check balances per chain
    - Confirm where your KDA actually is
@@ -631,7 +635,7 @@ Most Kadena issues in ZelCore come from chain confusion or mismatches. Follow th
 **What to always have on hand:**
 
 - Block explorer bookmarks
-- ZelCore app updated
+- Zelcore app updated
 - Basic understanding of which chains you use
 - Contact info for support
 - This guide bookmarked!
@@ -654,7 +658,7 @@ The "not enough spendable" error with Monero (XMR) occurs when your displayed ba
 
 **Why this happens:**
 
-Monero requires funds to have **10 confirmations** before they become "spendable." This is a network-level requirement for privacy and security, not a ZelCore limitation.
+Monero requires funds to have **10 confirmations** before they become "spendable." This is a network-level requirement for privacy and security, not a Zelcore limitation.
 
 **Understanding Monero balance states:**
 
@@ -701,7 +705,7 @@ Simply wait for your XMR to unlock:
 
 **2. Check your actual spendable balance**
 
-In ZelCore:
+In Zelcore:
 1. Go to Monero (XMR)
 2. Look for balance breakdown if available
 3. May show "Locked" vs "Unlocked" amounts
@@ -725,7 +729,7 @@ Refresh your wallet sync:
 **5. Rescan wallet (if persistent)**
 
 If balance seems wrong after confirmations:
-1. In ZelCore, look for Monero rescan option
+1. In Zelcore, look for Monero rescan option
 2. Or export private keys to official Monero wallet
 3. Import there and rescan
 4. Verifies actual spendable balance
@@ -769,11 +773,11 @@ Monero's 10-confirmation requirement protects privacy:
 
 **Answer:**
 
-"Error 500" or broadcast errors when sending Monero typically indicate that ZelCore's Monero node couldn't process or broadcast your transaction to the network. This is usually temporary and has several solutions.
+"Error 500" or broadcast errors when sending Monero typically indicate that Zelcore's Monero node couldn't process or broadcast your transaction to the network. This is usually temporary and has several solutions.
 
 **Common causes:**
 
-1. **Node sync issues:** ZelCore's backend Monero node is out of sync
+1. **Node sync issues:** Zelcore's backend Monero node is out of sync
 2. **Network congestion:** Monero network experiencing high load
 3. **Node connectivity:** Temporary connection issues to Monero nodes
 4. **Outdated wallet sync:** Your local wallet not fully synced
@@ -791,7 +795,7 @@ Monero's 10-confirmation requirement protects privacy:
 **Solution 2: Run Smartify**
 
 Refresh wallet connections:
-1. Go to Settings in ZelCore
+1. Go to Settings in Zelcore
 2. Click/tap Smartify
 3. Wait for completion (1-3 minutes)
 4. Try sending transaction again
@@ -808,10 +812,10 @@ Switch to different Monero node:
 
 Different nodes may have better connectivity.
 
-**Solution 4: Update ZelCore**
+**Solution 4: Update Zelcore**
 
 Ensure you're on latest version:
-1. Download latest ZelCore from zelcore.io
+1. Download latest Zelcore from zelcore.io
 2. Install update
 3. Restart application
 4. Run Smartify
@@ -819,12 +823,12 @@ Ensure you're on latest version:
 
 Newer versions have better node management.
 
-**Solution 5: Restart ZelCore**
+**Solution 5: Restart Zelcore**
 
 Simple but effective:
-1. Completely close ZelCore
+1. Completely close Zelcore
 2. Wait 30 seconds
-3. Reopen ZelCore
+3. Reopen Zelcore
 4. Run Smartify
 5. Attempt transaction
 
@@ -842,8 +846,8 @@ If network-wide, must wait for resolution.
 
 **Solution 7: Use official Monero wallet**
 
-If ZelCore consistently fails:
-1. Export your Monero private key from ZelCore
+If Zelcore consistently fails:
+1. Export your Monero private key from Zelcore
 2. Import into official Monero GUI or CLI wallet
 3. Let it sync (may take time)
 4. Send transaction from official wallet
@@ -852,7 +856,7 @@ If ZelCore consistently fails:
 **Advanced solution: Rescan wallet**
 
 If error persists and seems balance-related:
-1. Look for Monero rescan option in ZelCore
+1. Look for Monero rescan option in Zelcore
 2. Or use official wallet with rescan
 3. Rebuilds wallet state from blockchain
 4. May take 30-60 minutes
@@ -869,7 +873,7 @@ If error persists and seems balance-related:
 
 **Prevention:**
 
-1. **Keep ZelCore updated:**
+1. **Keep Zelcore updated:**
    - Latest versions have better node handling
    - Improved error recovery
    - Better Monero integration
@@ -901,7 +905,7 @@ If error persists and seems balance-related:
 - Error persists for hours
 - Happens on every transaction attempt
 - Balance seems incorrect
-- Other ZelCore functions also failing
+- Other Zelcore functions also failing
 
 **Important:** Broadcast errors don't mean you lost funds. Your XMR is safe on the blockchain. The error just means the transaction couldn't be sent to network.
 
@@ -910,11 +914,11 @@ If error persists and seems balance-related:
 
 ---
 
-### My incoming Monero transaction isn't showing in ZelCore, but the sender says it's confirmed. What should I do?
+### My incoming Monero transaction isn't showing in Zelcore, but the sender says it's confirmed. What should I do?
 
 **Answer:**
 
-If someone sent you Monero (XMR) and you can verify the transaction on blockchain explorers but it's not showing in ZelCore, this is a wallet sync issue that can usually be fixed.
+If someone sent you Monero (XMR) and you can verify the transaction on blockchain explorers but it's not showing in Zelcore, this is a wallet sync issue that can usually be fixed.
 
 **First: Verify the transaction exists**
 
@@ -932,7 +936,7 @@ Before troubleshooting, confirm the transaction is real:
    - Note the block height it was included in
 
 3. **Verify correct address:**
-   - Confirm sender used YOUR Monero address from ZelCore
+   - Confirm sender used YOUR Monero address from Zelcore
    - XMR addresses are long (start with 4 or 8)
    - Even one wrong character = wrong address
 
@@ -940,7 +944,7 @@ Before troubleshooting, confirm the transaction is real:
 
 **Solution 1: Run Smartify (try this first)**
 
-1. Open ZelCore
+1. Open Zelcore
 2. Go to Settings
 3. Click/tap Smartify
 4. Wait for completion (1-3 minutes)
@@ -958,11 +962,11 @@ This fixes most sync issues.
 
 Different backend may sync better.
 
-**Solution 3: Update ZelCore**
+**Solution 3: Update Zelcore**
 
 1. Download latest version from zelcore.io
 2. Install update
-3. Restart ZelCore
+3. Restart Zelcore
 4. Run Smartify
 5. Check for transaction
 
@@ -972,7 +976,7 @@ Newer versions have improved Monero support.
 
 Monero wallets sometimes need rescanning:
 
-**In ZelCore (if available):**
+**In Zelcore (if available):**
 1. Look for Monero-specific settings
 2. Find "Rescan" or "Restore height" option
 3. Set restore height to block before transaction
@@ -980,17 +984,17 @@ Monero wallets sometimes need rescanning:
 5. Wait for completion (10-30 minutes)
 
 **Using official Monero wallet:**
-1. Export your Monero private key from ZelCore
+1. Export your Monero private key from Zelcore
 2. Import into Monero GUI or CLI wallet
 3. Set restore height to block before transaction (check on explorer)
 4. Let wallet rescan blockchain
 5. XMR should appear
-6. Can use Monero wallet or wait for ZelCore to sync
+6. Can use Monero wallet or wait for Zelcore to sync
 
 **Solution 5: Clear cache and restart**
 
-1. Clear ZelCore cache (varies by platform)
-2. Restart ZelCore
+1. Clear Zelcore cache (varies by platform)
+2. Restart Zelcore
 3. Run Smartify
 4. Allow time to resync
 
@@ -1015,7 +1019,7 @@ Monero wallets use a "restore height" - the blockchain height from which they st
 - Wallet restore height set too high
 - Backend node out of sync
 - Local wallet cache corrupted
-- ZelCore didn't scan the specific block
+- Zelcore didn't scan the specific block
 - Node connectivity issues during that timeframe
 
 **Prevention:**
@@ -1025,7 +1029,7 @@ Monero wallets use a "restore height" - the blockchain height from which they st
    - Keeps wallet synced
    - Catches transactions promptly
 
-2. **Keep ZelCore updated:**
+2. **Keep Zelcore updated:**
    - Better Monero node support
    - Improved scanning
    - Bug fixes
@@ -1052,11 +1056,11 @@ This makes Monero more private but requires proper sync.
 
 **Your XMR is safe:**
 
-Important to understand: If the transaction is confirmed on blockchain explorers and was sent to your correct address, your XMR is safe. It's not lost, just not displayed in ZelCore yet. Rescanning or using official Monero wallet will reveal it.
+Important to understand: If the transaction is confirmed on blockchain explorers and was sent to your correct address, your XMR is safe. It's not lost, just not displayed in Zelcore yet. Rescanning or using official Monero wallet will reveal it.
 
 **When to contact support:**
 
-Contact ZelCore support if:
+Contact Zelcore support if:
 - Tried all solutions above
 - Transaction confirmed 24+ hours ago
 - Rescan doesn't help
@@ -1109,11 +1113,11 @@ Unlike transparent blockchains (Bitcoin, Ethereum) where any wallet can see all 
 - Missing transaction history
 - Strange behavior
 
-**How to rescan in ZelCore:**
+**How to rescan in Zelcore:**
 
-**Method 1: If ZelCore has rescan option**
+**Method 1: If Zelcore has rescan option**
 
-1. Open ZelCore
+1. Open Zelcore
 2. Go to Monero (XMR) settings
 3. Look for "Rescan" or "Restore from height" option
 4. Enter restore height (block number to scan from)
@@ -1132,18 +1136,18 @@ Unlike transparent blockchains (Bitcoin, Ethereum) where any wallet can see all 
 
 **Method 3: Update and rescan**
 
-1. Update ZelCore to latest version
+1. Update Zelcore to latest version
 2. Latest version may have better Monero backend
 3. Run Smartify after updating
 4. May automatically rescan
 
 **How to rescan using official Monero wallet:**
 
-If ZelCore rescan doesn't work or isn't available:
+If Zelcore rescan doesn't work or isn't available:
 
-**Step 1: Export your keys from ZelCore**
+**Step 1: Export your keys from Zelcore**
 
-1. In ZelCore, find Monero private key export option
+1. In Zelcore, find Monero private key export option
 2. Safely note your:
    - Mnemonic seed (25 words), OR
    - Private spend key and private view key
@@ -1182,10 +1186,10 @@ If ZelCore rescan doesn't work or isn't available:
 3. Transaction history should be complete
 4. Can send from Monero GUI if needed
 
-**Step 6: Return to ZelCore**
+**Step 6: Return to Zelcore**
 
 1. Your keys are same in both wallets
-2. Can continue using ZelCore
+2. Can continue using Zelcore
 3. Monero GUI remains as backup
 4. Both wallets access same XMR
 
@@ -1221,7 +1225,7 @@ If ZelCore rescan doesn't work or isn't available:
 - Minutes to hours
 - Faster and usually sufficient
 
-**In ZelCore Smartify:**
+**In Zelcore Smartify:**
 - Light refresh
 - 1-3 minutes
 - May not catch deep issues
@@ -1245,17 +1249,17 @@ If ZelCore rescan doesn't work or isn't available:
 - Anyone with keys controls your XMR
 
 **4. Both wallets work:**
-- Can use ZelCore and Monero GUI with same keys
+- Can use Zelcore and Monero GUI with same keys
 - They access same funds
 - Useful to have both options
 
 **Prevention:**
 
 1. **Run Smartify regularly:**
-   - Keeps ZelCore synced
+   - Keeps Zelcore synced
    - Reduces need for deep rescans
 
-2. **Update ZelCore:**
+2. **Update Zelcore:**
    - Better Monero support over time
    - Fewer sync issues
 
@@ -1269,11 +1273,11 @@ If ZelCore rescan doesn't work or isn't available:
 
 ---
 
-### How do I export my Monero private keys from ZelCore to use in another wallet?
+### How do I export my Monero private keys from Zelcore to use in another wallet?
 
 **Answer:**
 
-Exporting your Monero private keys from ZelCore allows you to access your XMR in the official Monero wallet or other Monero-compatible wallets. This is useful for rescanning, verifying balance, or using advanced features.
+Exporting your Monero private keys from Zelcore allows you to access your XMR in the official Monero wallet or other Monero-compatible wallets. This is useful for rescanning, verifying balance, or using advanced features.
 
 **Important security warnings:**
 
@@ -1285,11 +1289,11 @@ Exporting your Monero private keys from ZelCore allows you to access your XMR in
 - Only use official Monero wallet or trusted wallets
 - Consider your environment (no cameras, screen recording, etc.)
 
-**How to export in ZelCore:**
+**How to export in Zelcore:**
 
 **Step 1: Access Monero wallet**
 
-1. Open ZelCore
+1. Open Zelcore
 2. Go to your Monero (XMR) wallet
 3. Find settings or key export option (location varies by version)
 
@@ -1303,7 +1307,7 @@ Look for options like:
 
 **Step 3: Export keys**
 
-ZelCore should provide one or both:
+Zelcore should provide one or both:
 
 **Option A: Mnemonic seed (25 words)**
 - 25-word recovery phrase
@@ -1383,12 +1387,12 @@ ZelCore should provide one or both:
 
 **Common issues when exporting:**
 
-**Issue 1: Can't find export option in ZelCore**
+**Issue 1: Can't find export option in Zelcore**
 
-- Check ZelCore documentation for your version
+- Check Zelcore documentation for your version
 - Try Settings > Security > Private keys
-- Update to latest ZelCore version
-- Contact ZelCore support for guidance
+- Update to latest Zelcore version
+- Contact Zelcore support for guidance
 
 **Issue 2: Only seeing public address**
 
@@ -1412,7 +1416,7 @@ ZelCore should provide one or both:
    - More advanced features
 
 2. **Verify balance independently:**
-   - Check if ZelCore showing correct balance
+   - Check if Zelcore showing correct balance
    - Monero GUI shows definitive balance
 
 3. **Perform deep rescan:**
@@ -1420,15 +1424,15 @@ ZelCore should provide one or both:
    - Finds all transactions
    - Fixes sync issues
 
-4. **Send XMR if ZelCore has issues:**
-   - If ZelCore broadcast failing
+4. **Send XMR if Zelcore has issues:**
+   - If Zelcore broadcast failing
    - Use Monero GUI to send
    - Direct node connection
 
 **Important: Same keys = same wallet**
 
 Understanding the concept:
-- ZelCore and Monero GUI with same keys access SAME XMR
+- Zelcore and Monero GUI with same keys access SAME XMR
 - Not two separate wallets
 - Just different interfaces to same blockchain account
 - Sending from one affects the other
@@ -1464,12 +1468,12 @@ Understanding the concept:
 **Good reasons:**
 - Need to rescan with Monero GUI
 - Want backup in official wallet
-- ZelCore has persistent issues
+- Zelcore has persistent issues
 - Want to verify balance independently
 - Preparing for device change
 
 **Not necessary:**
-- Normal ZelCore usage works fine
+- Normal Zelcore usage works fine
 - Just to check balance (use explorer)
 - Someone asks for keys (NEVER share)
 
@@ -1487,7 +1491,7 @@ Understanding the concept:
 
 **Answer:**
 
-Solana transaction failures, especially after network upgrades or during periods of network congestion, are often caused by the blockchain's unique architecture and ZelCore's interaction with Solana RPC nodes.
+Solana transaction failures, especially after network upgrades or during periods of network congestion, are often caused by the blockchain's unique architecture and Zelcore's interaction with Solana RPC nodes.
 
 **Common error messages:**
 
@@ -1513,10 +1517,10 @@ Solana transaction failures, especially after network upgrades or during periods
 - Network upgrades can temporarily increase failures
 
 **3. RPC node issues:**
-- ZelCore connects to Solana through RPC nodes
+- Zelcore connects to Solana through RPC nodes
 - Node may be out of sync or overloaded
 - Node might not have latest blockhash
-- Connection issues between ZelCore and node
+- Connection issues between Zelcore and node
 
 **4. After network upgrades:**
 - Solana has frequent network upgrades
@@ -1535,20 +1539,20 @@ Solana transaction failures, especially after network upgrades or during periods
 
 **Solution 2: Run Smartify**
 
-Refresh ZelCore's connection to Solana network:
+Refresh Zelcore's connection to Solana network:
 
-1. Go to Settings in ZelCore
+1. Go to Settings in Zelcore
 2. Click/tap Smartify
 3. Wait for completion (1-3 minutes)
 4. Try transaction again
 5. Forces reconnection to RPC nodes with fresh state
 
-**Solution 3: Update ZelCore**
+**Solution 3: Update Zelcore**
 
-1. Check if newer ZelCore version is available
+1. Check if newer Zelcore version is available
 2. Download from zelcore.io
 3. Install update
-4. Restart ZelCore
+4. Restart Zelcore
 5. Run Smartify
 6. Retry transaction
 
@@ -1584,20 +1588,20 @@ During network congestion:
 3. Higher priority = faster processing
 4. Helps avoid blockhash expiration
 
-Note: ZelCore may not expose priority fee controls. If not available, timing and retry is your best strategy.
+Note: Zelcore may not expose priority fee controls. If not available, timing and retry is your best strategy.
 
 **Solution 7: Use Phantom or Solflare wallet temporarily**
 
-If ZelCore consistently fails:
+If Zelcore consistently fails:
 
-1. Export your Solana private key from ZelCore
+1. Export your Solana private key from Zelcore
 2. Import into Phantom or Solflare wallet
 3. Send transaction from native Solana wallet
 4. They often have better Solana RPC connectivity
-5. Return to ZelCore after urgent transaction
+5. Return to Zelcore after urgent transaction
 
-**How to export Solana key from ZelCore:**
-1. Go to Solana in ZelCore
+**How to export Solana key from Zelcore:**
+1. Go to Solana in Zelcore
 2. Find private key export option
 3. Safely note your private key or seed phrase
 4. Import into Phantom/Solflare using their import function
@@ -1628,11 +1632,11 @@ If ZelCore consistently fails:
    - Search "Solana transaction issues" on Twitter
    - Check Solana subreddit
    - If many users reporting, likely network-wide
-   - If just you, likely ZelCore/RPC specific
+   - If just you, likely Zelcore/RPC specific
 
 3. **Timeline:**
    - Network-wide issues resolve in hours to 1-2 days
-   - ZelCore-specific issues need wallet update or workaround
+   - Zelcore-specific issues need wallet update or workaround
 
 **Prevention tips:**
 
@@ -1642,7 +1646,7 @@ If ZelCore consistently fails:
 - If urgent, increase priority fee
 - Patience during network upgrades
 
-**2. Keep ZelCore updated:**
+**2. Keep Zelcore updated:**
 - Updates include Solana compatibility improvements
 - Better RPC node handling
 - Bug fixes for transaction construction
@@ -1663,7 +1667,7 @@ If ZelCore consistently fails:
 **5. Have backup wallet:**
 - Keep Phantom or Solflare installed
 - Import same keys
-- Use if ZelCore has issues
+- Use if Zelcore has issues
 - Multiple access points to your SOL
 
 **When to worry vs. when to wait:**
@@ -1672,7 +1676,7 @@ If ZelCore consistently fails:
 - Error happens once or twice
 - Resolves with retry
 - Solana network upgrade just happened
-- Other ZelCore functions working fine
+- Other Zelcore functions working fine
 
 **Do investigate if:**
 - Fails repeatedly over hours
@@ -1703,11 +1707,11 @@ If ZelCore consistently fails:
 - Transaction may have been sent but confirmation uncertain
 - Check Solana explorer (solscan.io or explorer.solana.com)
 - Search your address to see if transaction appeared
-- If confirmed on chain, just display issue in ZelCore
+- If confirmed on chain, just display issue in Zelcore
 
 **Checking transaction status on blockchain:**
 
-1. Get your Solana address from ZelCore
+1. Get your Solana address from Zelcore
 2. Visit solscan.io
 3. Search your address
 4. Check recent transactions
@@ -1763,9 +1767,9 @@ Unlike Bitcoin/Ethereum:
 - For network processing
 - Don't worry about losing significant SOL to fees
 
-**ZelCore vs. Solana:**
+**Zelcore vs. Solana:**
 - Most issues are Solana network behavior
-- Not ZelCore bugs
+- Not Zelcore bugs
 - All wallets experience similar issues during congestion
 - Native Solana wallets may handle slightly better
 
@@ -1776,23 +1780,23 @@ Unlike Bitcoin/Ethereum:
 
 ## Horizen (ZEN) Questions
 
-### Why can't I send ZEN from my Horizen wallet in ZelCore?
+### Why can't I send ZEN from my Horizen wallet in Zelcore?
 
 **Answer:**
 
-Horizen's mainchain stopped at block 1,807,300 when ZEN moved to Base. Because that chain no longer produces blocks, **Send** is disabled for mainchain ZEN in ZelCore 8.39.0 and later.
+Horizen's mainchain stopped at block 1,807,300 when ZEN moved to Base. Because that chain no longer produces blocks, **Send** is disabled for mainchain ZEN in Zelcore 8.39.0 and later.
 
 **What you can still do:**
 
-- Your mainchain ZEN balance and history stay visible in ZelCore
-- ZEN on Base is available in ZelCore as **Horizen BASE Token**
+- Your mainchain ZEN balance and history stay visible in Zelcore
+- ZEN on Base is available in Zelcore as **Horizen BASE Token**
 
 **Why was my ZEN balance or history empty for a while?**
 
-The old ZEN explorers now show the Base network, so ZelCore could no longer load the mainchain balance and history. In 8.39.0 ZelCore loads them again from Horizen's legacy explorer.
+The old ZEN explorers now show the Base network, so Zelcore could no longer load the mainchain balance and history. In 8.39.0 Zelcore loads them again from Horizen's legacy explorer.
 
 :::note
-The Horizen mainchain may be removed from ZelCore in a future version. Click the notification in the app to read more.
+The Horizen mainchain may be removed from Zelcore in a future version. Click the notification in the app to read more.
 :::
 
 ---
@@ -1803,16 +1807,16 @@ The Horizen mainchain may be removed from ZelCore in a future version. Click the
 
 **Answer:**
 
-ZelCore pauses KRC-20 transfers while the Kasplex indexer is unavailable. Kasplex asked all wallets to do this, and transfers resume when the indexer is back.
+Zelcore pauses KRC-20 transfers while the Kasplex indexer is unavailable. Kasplex asked all wallets to do this, and transfers resume when the indexer is back.
 
 **What this means for you:**
 
 - Your tokens are safe. Try the transfer again later.
-- While the indexer is down, ZelCore shows the last known token balance with its date, or says the balance cannot be loaded until the indexer returns.
+- While the indexer is down, Zelcore shows the last known token balance with its date, or says the balance cannot be loaded until the indexer returns.
 - Token history cannot be loaded either during that time.
 - Your KAS is not affected. Sending KAS continues to work.
 
-KRC-20 balances and history come from the Kasplex indexer, and ZelCore is not responsible for the accuracy of indexer data.
+KRC-20 balances and history come from the Kasplex indexer, and Zelcore is not responsible for the accuracy of indexer data.
 
 **Related:**
 - [Kaspa walkthrough](/docs/walkthroughs/kaspa-wallet/)
@@ -1825,7 +1829,7 @@ KRC-20 balances and history come from the Kasplex indexer, and ZelCore is not re
 
 **Answer:**
 
-Before ZelCore 8.39.0, Polkadot and Kusama transaction history could fail to load with the error "Error while obtaining Polkadot transactions". This is fixed in 8.39.0, and the history loads again. Update ZelCore to the latest version if you still see the error.
+Before Zelcore 8.39.0, Polkadot and Kusama transaction history could fail to load with the error "Error while obtaining Polkadot transactions". This is fixed in 8.39.0, and the history loads again. Update Zelcore to the latest version if you still see the error.
 
 **Related:**
 - [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)

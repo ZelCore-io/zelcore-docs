@@ -1,11 +1,15 @@
 ---
 sidebar_position: 5
 title: Troubleshooting Flux Node Status Issues
-description: "Resolve Flux node status problems in ZelCore — node offline, maintenance mode, confirmation issues, and benchmark failures."
+description: "Resolve Flux node status problems in Zelcore — node offline, maintenance mode, confirmation issues, and benchmark failures."
 keywords: [flux node offline, node status issues, flux node troubleshooting]
 ---
 
 # Troubleshooting Flux Node Status Issues
+
+:::info Applies to Zelcore 8.39
+Written for Zelcore 8.39.0 (October 2026).
+:::
 
 ## Overview
 
@@ -19,7 +23,7 @@ This guide covers systematic troubleshooting for all node tiers (Cumulus, Nimbus
 - SSH access to your node
 - Basic command-line knowledge
 - Access to your router's admin panel (for network troubleshooting)
-- ZelCore wallet with FluxNodes app installed
+- Zelcore wallet with FluxNodes app installed
 
 ## Understanding Node States
 
@@ -56,10 +60,10 @@ This guide covers systematic troubleshooting for all node tiers (Cumulus, Nimbus
 - Recent node setup where confirmation is still pending
 - Daemon not fully synced when confirmation was attempted
 - Network propagation delays
-- Incorrect node configuration in ZelCore
+- Incorrect node configuration in Zelcore
 - Blockchain reorganization affecting confirmation transaction
 
-**Impact:** Node appears in your ZelCore but isn't active on the network.
+**Impact:** Node appears in your Zelcore but isn't active on the network.
 
 ## Node Tier Requirements
 
@@ -763,7 +767,7 @@ If your node is EXPIRED or stuck in "Not Confirmed" state, you need to re-confir
 
 #### Re-confirmation Process:
 
-1. **In ZelCore (Desktop or Mobile):**
+1. **In Zelcore (Desktop or Mobile):**
    - Open the **FluxNodes** app
    - Select your node
    - Click **"Confirm Node"**
@@ -779,7 +783,7 @@ If your node is EXPIRED or stuck in "Not Confirmed" state, you need to re-confir
 
 4. **Wait for confirmations:**
    - Transaction needs blockchain confirmations (typically 6-10 minutes)
-   - Monitor in ZelCore FluxNodes app
+   - Monitor in Zelcore FluxNodes app
 
 5. **Verify on node:**
    ```bash
@@ -928,7 +932,7 @@ sudo netplan apply
 1. Verify daemon is synced (Step 2)
 2. Verify all ports are forwarded correctly (router reset may clear rules) (Steps 3-5)
 3. Run multitoolbox to confirm everything is healthy
-4. Re-confirm node through ZelCore (Step 8)
+4. Re-confirm node through Zelcore (Step 8)
 5. Monitor for 24-48 hours to ensure stability
 
 **Prevention:**
@@ -954,13 +958,13 @@ sudo netplan apply
    Compare blocks to https://explorer.runonflux.io
 
 2. Check confirmation transaction on blockchain:
-   - In ZelCore, find your node's confirmation transaction
+   - In Zelcore, find your node's confirmation transaction
    - Check on explorer.runonflux.io
    - Verify it has 10+ confirmations
 
 3. If daemon was not synced during confirmation:
    - Wait for daemon to fully sync
-   - Re-confirm through ZelCore (Step 8)
+   - Re-confirm through Zelcore (Step 8)
 
 4. If transaction is confirmed but node still not recognized:
    - Wait 30-60 minutes for network propagation
@@ -1540,7 +1544,7 @@ curl ifconfig.me
 **If IPs don't match:**
 
 1. **Update node IP:**
-   - In ZelCore FluxNodes app
+   - In Zelcore FluxNodes app
    - Edit node configuration
    - Enter correct public IP
    - Re-confirm node
@@ -1995,7 +1999,7 @@ If node state is EXPIRED after corruption recovery:
 1. Follow Step 8 in main guide (Re-confirming Your Node)
 2. Ensure daemon fully synced first
 3. Benchmark passing
-4. Then re-confirm through ZelCore FluxNodes app
+4. Then re-confirm through Zelcore FluxNodes app
 
 **Prevention:**
 
@@ -2239,20 +2243,20 @@ Compare to actual resources.
 ### Scenario 12: Deleted a FluxNode and Collateral Handling
 
 **Symptoms:**
-- You deleted a node in ZelCore, but the collateral still appeared locked after a refresh (ZelCore 8.38.0 and earlier)
+- You deleted a node in Zelcore, but the collateral still appeared locked after a refresh (Zelcore 8.38.0 and earlier)
 - You want to spend, lock again, or move the collateral of a deleted node
 - Adding a node shows that its collateral is already on the list
 
-**How it works in ZelCore 8.39.0 and later:**
+**How it works in Zelcore 8.39.0 and later:**
 
 1. Deleting a node frees its collateral at once, with no transaction. The node stays deleted after restarts and logins.
 2. The unspent collateral is listed under **Available to lock** in the FluxNodes app, with a **Lock** button. **Lock** turns it back into a node on this device and moves no funds.
 3. **Release** sends the collateral back to your own address, minus the network fee, and frees it on all your devices. Hardware wallets cannot release in the app. Send the collateral to yourself from your Flux wallet instead.
 4. Delete only frees the collateral on the device where you deleted the node. Other devices keep locking it until it is released.
-5. If you add a node whose collateral is already on the list, ZelCore points you to **Edit**. Open the node with Edit and set its name and IP there.
+5. If you add a node whose collateral is already on the list, Zelcore points you to **Edit**. Open the node with Edit and set its name and IP there.
 
 :::note
-A node that is running stops when you spend its collateral. ZelCore warns you before you delete a running node.
+A node that is running stops when you spend its collateral. Zelcore warns you before you delete a running node.
 :::
 
 **Related:** [Flux Nodes FAQ: How do I delete a FluxNode and free its collateral?](../../faq/flux-nodes-faq/#how-do-i-delete-a-fluxnode-in-zelcore-and-free-its-collateral)
@@ -2264,7 +2268,7 @@ A node that is running stops when you spend its collateral. ZelCore warns you be
 - Your own node is missing from the map
 
 **What to check:**
-1. Update to ZelCore 8.39.0 or later. It fixes the tier filter, finds your own nodes when their saved IP has no port, and no longer draws nodes with an unknown location in the Gulf of Guinea.
+1. Update to Zelcore 8.39.0 or later. It fixes the tier filter, finds your own nodes when their saved IP has no port, and no longer draws nodes with an unknown location in the Gulf of Guinea.
 2. Turn on **Only my nodes** in the **Map Filter**. It also shows your new nodes that the network list does not show yet.
 3. If the map says none of your nodes are on the network map yet, wait. New or unconfirmed nodes appear once the network lists them.
 4. The map opens from saved data and refreshes in the background, so give it a moment to update.
@@ -2312,7 +2316,7 @@ Shows your node's collateral transaction. Verify the exact amount (1000, 12500, 
 
 ### Daily Monitoring Checklist:
 
-- [ ] Check node status in ZelCore FluxNodes app
+- [ ] Check node status in Zelcore FluxNodes app
 - [ ] Verify daemon is synced: `flux-cli getinfo`
 - [ ] Check benchmark status: `flux-cli getbenchstatus`
 - [ ] Monitor resource usage: `htop` and `df -h`
@@ -2383,7 +2387,7 @@ Contact Flux community support if:
 - [Flux Node Setup Guide](../../guides/flux-node-installation-guide/) (if available)
 - [Flux Nodes FAQ](../../faq/flux-nodes-faq/)
 - [Network Security Best Practices](../../guides/security-best-practices/)
-- [ZelCore FluxNodes App Guide](../../features/overview/) (if available)
+- [Zelcore FluxNodes App Guide](../../features/overview/) (if available)
 
 ## Additional Resources
 

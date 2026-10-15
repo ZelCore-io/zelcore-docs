@@ -53,7 +53,7 @@ export default function NotFoundContent({className}: Props): ReactNode {
         <p className={styles.help}>
           Still stuck? Ask on{' '}
           <Link href="https://discord.gg/runonflux">Discord</Link> or{' '}
-          <Link href="https://support.runonflux.io">contact support</Link>.
+          <Link href="https://support.zelcore.io">contact support</Link>.
         </p>
       </div>
     </main>

@@ -1,21 +1,25 @@
 ---
 sidebar_position: 2
 title: Troubleshooting Fusion Swap Issues
-description: "Fix common ZelCore Fusion swap problems — stuck swaps, failed exchanges, hold status, and how to resolve pending transactions."
+description: "Fix common Zelcore Fusion swap problems — stuck swaps, failed exchanges, hold status, and how to resolve pending transactions."
 keywords: [fusion swap stuck, zelcore swap failed, crypto exchange troubleshooting]
 ---
 
 # Troubleshooting Fusion Swap Issues
 
+:::info Applies to Zelcore 8.39
+Written for Zelcore 8.39.0 (October 2026).
+:::
+
 ## Overview
 
 If your Fusion swap order is showing as "Hold", "Awaiting blockchain confirmation", stuck in processing, or you've sent funds but haven't received them on the destination chain, this guide will help you understand and resolve the issue.
 
-Fusion swaps in ZelCore are powered by third-party exchange providers (ChangeHero, ChangeNow, SimpleSwap, Changelly). Most stuck swaps are due to provider-side processing issues, KYC requirements, or blockchain confirmation delays - not ZelCore itself. This guide will help you diagnose the problem and take the right steps to resolve it.
+Fusion swaps in Zelcore are powered by third-party exchange providers (for example ChangeNOW, Changelly, Exolix, SimpleSwap or ChangeHero). The providers shown depend on the pair and your country. Most stuck swaps are due to provider-side processing issues, KYC requirements, or blockchain confirmation delays - not Zelcore itself. This guide will help you diagnose the problem and take the right steps to resolve it.
 
 ## Prerequisites
 
-- Access to your ZelCore wallet
+- Access to your Zelcore wallet
 - Your Fusion swap order ID or transaction hash
 - The email or contact information used for the swap (if any)
 - Your source and destination wallet addresses
@@ -30,7 +34,7 @@ You may be experiencing a Fusion swap issue if you notice:
 - Order showing "Finished" but no receiving transaction
 - Swap requiring unexpected KYC (Know Your Customer) verification
 - No status updates after initial transaction confirmation
-- Provider showing different status than ZelCore displays
+- Provider showing different status than Zelcore displays
 
 ## Understanding Fusion Swap Statuses
 
@@ -57,10 +61,10 @@ A successful swap typically goes through these stages:
 
 First, determine which third-party provider is handling your swap:
 
-1. Open ZelCore
+1. Open Zelcore
 2. Navigate to **Fusion** (or **FusionX** / **SSP**)
 3. Find your order in the swap history
-4. Note the provider name: ChangeHero, ChangeNow, SimpleSwap, or Changelly
+4. Note the provider name (for example ChangeNOW, Changelly, Exolix, XOSwap, Rango, Binance Web3 or InstaSwap)
 5. Record your **Order ID** (you'll need this for support)
 
 **Why this matters:** Each provider has different processing times, policies, and support channels. You'll need to contact them directly for most issues.
@@ -69,7 +73,7 @@ First, determine which third-party provider is handling your swap:
 
 Confirm your source transaction is actually on the blockchain:
 
-1. **Copy your source transaction hash** from ZelCore
+1. **Copy your source transaction hash** from Zelcore
 2. **Visit the appropriate blockchain explorer:**
    - **FLUX:** explorer.runonflux.io
    - **Ethereum (ETH):** etherscan.io
@@ -109,7 +113,7 @@ If your swap is within these timeframes, wait a bit longer before escalating.
 
 ### Step 4: Contact the Provider Directly
 
-Most stuck swaps must be resolved by the exchange provider, not ZelCore. Here's how to contact each provider:
+Most stuck swaps must be resolved by the exchange provider, not Zelcore. Here's how to contact each provider:
 
 #### ChangeHero Support
 
@@ -178,7 +182,7 @@ Some swaps may be flagged for KYC (Know Your Customer) verification, especially:
 3. **After approval:** Swap will be processed normally
 4. **If denied:** Provider will initiate refund to source address
 
-**Important:** ZelCore does not control KYC requirements. These are mandated by the exchange providers based on their compliance policies.
+**Important:** Zelcore does not control KYC requirements. These are mandated by the exchange providers based on their compliance policies.
 
 ### Step 6: Check for Provider Maintenance or Issues
 
@@ -190,10 +194,10 @@ Sometimes providers experience technical issues or maintenance:
    - SimpleSwap: Check their Telegram community
    - Changelly: changelly.com (status updates)
 
-2. **Check ZelCore official channels:**
-   - Discord: Official ZelCore server
-   - Twitter: @zelcore
-   - Telegram: ZelCore community
+2. **Check Zelcore official channels:**
+   - Discord: Official Zelcore server
+   - X: [@zelcore_io](https://x.com/zelcore_io)
+   - Telegram: Zelcore community
 
 **If provider maintenance is ongoing:** Wait for service restoration, then contact provider support if issue persists.
 
@@ -203,11 +207,11 @@ Keep records of your swap for support purposes:
 
 **Essential information to save:**
 
-- Order ID from ZelCore Fusion
+- Order ID from Zelcore Fusion
 - Source transaction hash (sending blockchain)
 - Source wallet address (where you sent from)
 - Destination wallet address (where you should receive)
-- Screenshots of order status in ZelCore
+- Screenshots of order status in Zelcore
 - Screenshots of blockchain confirmations
 - Any emails or communications from provider
 - Dates and times of each status change
@@ -266,7 +270,7 @@ This documentation will speed up support resolution significantly.
 
 **Solution:**
 1. Review the exchange rate locked at order creation
-2. Check provider's fee structure (usually 0.5-2%)
+2. Check the provider fee: fees vary, and the app shows the rate and network fee before you confirm
 3. Network fees on destination chain also deducted
 4. If amount is significantly wrong (>5% from expected):
    - Contact provider with calculation showing discrepancy
@@ -278,9 +282,9 @@ This documentation will speed up support resolution significantly.
 **Cause:** Transaction sent to wrong address or order creation failed.
 
 **Solution:**
-1. Verify you sent to provider's deposit address (from ZelCore Fusion order)
-2. Check if you have an order ID in ZelCore
-3. If order exists in ZelCore:
+1. Verify you sent to provider's deposit address (from Zelcore Fusion order)
+2. Check if you have an order ID in Zelcore
+3. If order exists in Zelcore:
    - Contact provider with order ID
    - Transaction should be linked to order
 4. If no order exists but transaction sent:
@@ -312,15 +316,15 @@ This error indicates the provider cannot automatically process your swap and nee
 1. **Do NOT create a new swap** - This won't resolve the issue and creates more confusion
 2. **Screenshot the error** - Capture the exact message and order ID
 3. **Note all transaction details:**
-   - Order ID from ZelCore
+   - Order ID from Zelcore
    - Source transaction hash (blockchain confirmation)
-   - Provider name (ChangeHero, ChangeNow, SimpleSwap, or Changelly)
+   - Provider name (for example ChangeNOW, Changelly, Exolix, XOSwap, Rango, Binance Web3 or InstaSwap)
    - Amount sent and expected to receive
    - Time when swap was initiated
 
 **Contact the provider immediately:**
 
-The error message specifically indicates provider-side intervention is required. ZelCore cannot resolve this - you must contact the exchange provider directly.
+The error message specifically indicates provider-side intervention is required. Zelcore cannot resolve this - you must contact the exchange provider directly.
 
 **For ChangeHero orders:**
 - Email: support@changehero.io
@@ -394,13 +398,13 @@ After 48 hours with no response:
 1. Follow up with the same provider through alternative channel
 2. Reference your original support ticket or email
 3. Escalate through provider's social media if available
-4. After 5+ days, contact ZelCore support for guidance
+4. After 5+ days, contact Zelcore support for guidance
 
 **Important notes:**
 
 - **Your funds are not lost** - Provider has received them and must either complete swap or refund
-- **ZelCore cannot access provider systems** - Only the provider can resolve this
-- **This is a provider issue, not ZelCore bug** - Error message correctly directs you to contact them
+- **Zelcore cannot access provider systems** - Only the provider can resolve this
+- **This is a provider issue, not Zelcore bug** - Error message correctly directs you to contact them
 - **Document everything** - Save all communications, screenshots, and transaction hashes
 - **Be patient but persistent** - Provider must resolve, but may take several days
 
@@ -593,7 +597,7 @@ Best practice for new chains:
 
 **Provider-specific gas handling:**
 
-**ChangeHero, ChangeNow, SimpleSwap, Changelly:**
+**Exchange-style providers (for example ChangeNOW and Changelly):**
 - Provider pays gas for outgoing transaction (to send you tokens)
 - Gas is included in their fee/spread
 - You don't pay gas for receiving
@@ -711,50 +715,50 @@ To minimize Fusion swap issues in the future:
 - **Save order details immediately:** Screenshot or record order ID right away
 - **Check provider status:** Look for maintenance announcements before swapping
 - **Be aware of limits:** Large swaps more likely to trigger KYC
-- **Use established providers:** Stick to ChangeHero, ChangeNow, SimpleSwap, Changelly
+- **Use established providers:** Stick to the providers Zelcore shows you in Swap
 - **Monitor blockchain confirmations:** Check explorer for confirmation status
-- **Keep ZelCore updated:** Latest version may have improved provider integrations
+- **Keep Zelcore updated:** Latest version may have improved provider integrations
 
-## When to Contact ZelCore Support
+## When to Contact Zelcore Support
 
-Contact ZelCore support (not provider support) if:
+Contact Zelcore support (not provider support) if:
 
 - You cannot determine which provider handled your swap
-- ZelCore app is not showing your order at all
-- You suspect a ZelCore app bug (not provider issue)
+- Zelcore app is not showing your order at all
+- You suspect a Zelcore app bug (not provider issue)
 - Provider support is unresponsive for 5+ days
 - You need help interpreting provider responses
 - Multiple users reporting same issue (possible systemic problem)
 
-**Important:** For stuck swaps, orders on "Hold", or missing funds, you MUST contact the provider first. ZelCore cannot access provider systems or expedite their processing.
+**Important:** For stuck swaps, orders on "Hold", or missing funds, you MUST contact the provider first. Zelcore cannot access provider systems or expedite their processing.
 
-**ZelCore Support Resources:**
-- Discord: Official ZelCore Discord server (best for community help)
-- Email: support@zel.network
-- Twitter: @zelcore (for status updates and announcements)
+**Zelcore Support Resources:**
+- Discord: Official Zelcore Discord server (best for community help)
+- Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
+- X: [@zelcore_io](https://x.com/zelcore_io) (for status updates and announcements)
 
 ## Understanding Fusion Architecture
 
 **How Fusion works:**
 
-ZelCore Fusion is an aggregator that connects you to third-party exchange providers. When you create a swap:
+Zelcore Fusion is an aggregator that connects you to third-party exchange providers. When you create a swap:
 
-1. ZelCore shows you rates from multiple providers
+1. Zelcore shows you rates from multiple providers
 2. You select the best rate
-3. ZelCore creates an order with that provider on your behalf
+3. Zelcore creates an order with that provider on your behalf
 4. You send crypto to the provider's deposit address
 5. Provider processes the exchange
 6. Provider sends swapped crypto to your destination address
-7. ZelCore displays the status updates from provider
+7. Zelcore displays the status updates from provider
 
-**Key point:** ZelCore does not hold, process, or control your funds during a swap. The third-party provider is responsible for the actual exchange, including KYC, fraud prevention, and payout processing.
+**Key point:** Zelcore does not hold, process, or control your funds during a swap. The third-party provider is responsible for the actual exchange, including KYC, fraud prevention, and payout processing.
 
 **This means:**
-- Provider policies apply (not ZelCore policies)
+- Provider policies apply (not Zelcore policies)
 - Provider support must resolve most issues
 - KYC requirements come from providers
 - Processing times depend on provider operations
-- ZelCore cannot override provider holds or decisions
+- Zelcore cannot override provider holds or decisions
 
 ## Refunds and Failed Swaps
 
@@ -782,9 +786,9 @@ ZelCore Fusion is an aggregator that connects you to third-party exchange provid
 
 ## Related Documentation
 
-- [Using ZelCore Fusion for Crypto Swaps](../../features/overview/)
+- [Using Zelcore Fusion for Crypto Swaps](../../features/overview/)
 - Understanding Blockchain Confirmations
-- [ZelCore Security Best Practices](../../security/best-practices/)
+- [Zelcore Security Best Practices](../../security/best-practices/)
 - [Fusion FAQ](../../faq/fusion-faq/)
 
 ## Technical Background
@@ -808,12 +812,12 @@ Any of these steps can experience delays:
 
 **Is my crypto safe during issues?**
 
-Generally yes, but the risk profile differs from using ZelCore's wallet directly:
+Generally yes, but the risk profile differs from using Zelcore's wallet directly:
 
 - Once sent to provider, they control the funds (not you)
-- Reputable providers (ChangeHero, ChangeNow, etc.) are established services
+- Reputable providers (for example ChangeNOW or Changelly) are established services
 - Funds are eventually processed, refunded, or require KYC
 - Very few swaps result in permanent loss with established providers
-- Always verify you're using legitimate provider addresses from ZelCore
+- Always verify you're using legitimate provider addresses from Zelcore
 
 **Best practice:** Only swap amounts you're comfortable having in a third party's control for 24-48 hours during processing.

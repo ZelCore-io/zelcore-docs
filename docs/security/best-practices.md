@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Security Best Practices
-description: "Protect your crypto assets with ZelCore security best practices. Learn about seed phrase safety, 2FA setup, and self-custodial wallet security."
+description: "Protect your crypto assets with Zelcore security best practices. Learn about seed phrase safety, 2FA setup, and self-custodial wallet security."
 keywords: [crypto wallet security, self custodial wallet, private cryptocurrency wallet, seed phrase security]
 ---
 
@@ -150,8 +150,8 @@ For maximum security, especially with large holdings:
 
 ### Supported Devices
 
-- **Ledger**: Nano S, Nano S Plus, Nano X
-- **Trezor**: One, Model T
+- **Ledger** (Zelcore desktop only): Nano S, Nano S Plus, Nano X
+- **Trezor** (Zelcore desktop only): One, Model T
 
 ### Hardware Wallet Best Practices
 
@@ -171,14 +171,14 @@ For maximum security, especially with large holdings:
 - Asking for seed phrases or private keys
 - Offering to "fix" wallet issues
 
-**Protection**: Only contact support through [official channels](https://support.runonflux.io).
+**Protection**: Only contact support through [official channels](https://support.zelcore.io).
 
 #### 2. Phishing Websites
 - Fake Zelcore websites (zelc0re.io, ze1core.io, etc.)
 - Lookalike domains
 - Typosquatting
 
-**Protection**: Always download ZelCore from the official website at [zelcore.io](https://zelcore.io) and bookmark the URL.
+**Protection**: Always download Zelcore from the official website at [zelcore.io](https://zelcore.io) and bookmark the URL.
 
 #### 3. Fake Giveaways
 - "Send 1 ETH, get 2 ETH back" scams
@@ -281,7 +281,7 @@ If you believe your wallet is compromised:
 ### Official Channels
 
 - **Website**: [zelcore.io](https://zelcore.io)
-- **Support**: [zelcore.io/support](https://zelcore.io/support)
+- **Support**: [support.zelcore.io](https://support.zelcore.io)
 - **Discord**: [discord.gg/runonflux](https://discord.gg/runonflux)
 - **Twitter**: [@zelcore_io](https://twitter.com/zelcore_io)
 - **GitHub**: [github.com/zelcore-io](https://github.com/zelcore-io)

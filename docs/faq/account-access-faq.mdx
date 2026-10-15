@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Account Access FAQ
-description: "Questions about ZelCore account access — login, multi-device sync, seed phrase recovery, legacy vs seed phrase accounts, and wallet migration."
+description: "Questions about Zelcore account access — login, multi-device sync, seed phrase recovery, legacy vs seed phrase accounts, and wallet migration."
 keywords: [zelcore login, wallet recovery, seed phrase restore, multi device wallet]
 ---
 
@@ -12,7 +12,7 @@ import faqItems from '@site/src/components/FAQ/schema-items/account_access_faq';
 
 # Account Access FAQ
 
-Common questions about logging in, syncing, recovering, and accessing your ZelCore account across devices.
+Common questions about logging in, syncing, recovering, and accessing your Zelcore account across devices.
 
 ## Account Types and Login
 
@@ -20,14 +20,14 @@ Common questions about logging in, syncing, recovering, and accessing your ZelCo
 
 **Answer:**
 
-ZelCore has two account types with different login methods:
+Zelcore has two account types with different login methods:
 
 **Legacy Account (Old System):**
 - Uses username and password to log in
 - Created before 2022
 - Centralized account system
-- Being phased out
-- Still works but migration recommended
+- Deprecated, will be phased out
+- Still works in Zelcore 8.39, but migrate now
 
 **Seed Phrase Account (Modern System):**
 - Uses 12 or 24-word seed phrase
@@ -41,7 +41,7 @@ ZelCore has two account types with different login methods:
 - If you have a 12/24-word seed phrase → Modern account
 
 **Related:**
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 - [Migrating to Seed Phrase Account](../../guides/migrating-legacy-to-seed-phrase/)
 
 ---
@@ -50,25 +50,26 @@ ZelCore has two account types with different login methods:
 
 **Answer:**
 
-**Yes, migration is strongly recommended.** Here's why:
+**Yes, migration is strongly recommended.** Legacy (username and password) login is deprecated and will be phased out. It still works in Zelcore 8.39, but migrate to a seed-phrase wallet now. See the [official migration page](https://zelcore.io/legacy-login-deprecated). Here's why:
 
 **Benefits of migrating:**
 - Better security with BIP44 standard
-- Full ownership without reliance on ZelCore servers
+- Full ownership without reliance on Zelcore servers
 - Works with other BIP44-compatible wallets
 - Access to latest features and updates
-- Future-proof as legacy accounts are being deprecated
+- Future-proof, because legacy login is deprecated and will be phased out
 
 **When to migrate:**
 - As soon as you have 30-60 minutes of free time
 - When you can carefully follow the migration process
-- After updating ZelCore to the latest version
+- After updating Zelcore to the latest version
 
 **Legacy account status:**
-- Still functional now
-- No immediate deadline
-- But will be phased out eventually
+- Deprecated and will be phased out
+- Still works in Zelcore 8.39
+- No deadline has been announced
 - Earlier migration is better
+- See the [official migration page](https://zelcore.io/legacy-login-deprecated)
 
 **Related:**
 - [Complete Migration Guide](../../guides/migrating-legacy-to-seed-phrase/)
@@ -91,7 +92,7 @@ ZelCore has two account types with different login methods:
    - 12 or 24 common English words
    - Numbered in sequence
 
-2. **Check in ZelCore (if logged in):**
+2. **Check in Zelcore (if logged in):**
    - Go to Settings → Security → Show Seed Phrase
    - Requires authentication
    - If option doesn't exist, you may have legacy account
@@ -105,7 +106,7 @@ ZelCore has two account types with different login methods:
 - See [Migration Guide](../../guides/migrating-legacy-to-seed-phrase/)
 
 **Related:**
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -118,13 +119,13 @@ ZelCore has two account types with different login methods:
 This is one of the most common sources of confusion. Understanding the difference is critical:
 
 **"Sync" or "Import Wallet":**
-- **Use when:** You already have a ZelCore account
+- **Use when:** You already have a Zelcore account
 - **What it does:** Gives you access to your EXISTING wallet
 - **You need:** Your seed phrase or legacy credentials
 - **Result:** You see your existing funds and transaction history
 
 **"Register" or "Create New Wallet":**
-- **Use when:** You're a brand new ZelCore user
+- **Use when:** You're a brand new Zelcore user
 - **What it does:** Creates a COMPLETELY NEW wallet
 - **You need:** Nothing - generates new seed phrase
 - **Result:** Empty wallet with new addresses
@@ -140,7 +141,7 @@ This is one of the most common sources of confusion. Understanding the differenc
 - Register = Create brand new email account
 
 **Related:**
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -152,11 +153,11 @@ This is one of the most common sources of confusion. Understanding the differenc
 
 **Quick fix:**
 
-1. **Close ZelCore completely**
+1. **Close Zelcore completely**
    - Force quit the app
    - Don't just minimize it
 
-2. **Reopen ZelCore**
+2. **Reopen Zelcore**
    - Look for "Account Switcher" or "Manage Accounts"
    - Or log out and return to welcome screen
 
@@ -179,7 +180,7 @@ This is one of the most common sources of confusion. Understanding the differenc
 - Or ignore the empty wallet
 
 **Related:**
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -203,7 +204,7 @@ This is one of the most common sources of confusion. Understanding the differenc
 
 **Why the confusion:**
 - Many apps use "sync" to mean automatic cloud sync
-- ZelCore's "sync" is really "import" or "restore"
+- Zelcore's "sync" is really "import" or "restore"
 - The naming causes widespread confusion
 
 **What actually syncs automatically:**
@@ -217,19 +218,19 @@ This is one of the most common sources of confusion. Understanding the differenc
 - Cross-device access (must import on each device)
 
 **Related:**
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
 ## Accessing Account on New Device
 
-### How do I access my ZelCore account on a new phone/computer?
+### How do I access my Zelcore account on a new phone/computer?
 
 **Answer:**
 
 Follow these steps carefully to access your existing account on a new device:
 
-**Step 1: Install ZelCore**
+**Step 1: Install Zelcore**
 - Download from zelcore.io (desktop) or app store (mobile)
 - Install and open the app
 
@@ -273,7 +274,7 @@ Follow these steps carefully to access your existing account on a new device:
 - ❌ Confusing device PIN with seed phrase
 
 **Related:**
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -291,7 +292,7 @@ Follow these steps carefully to access your existing account on a new device:
 - After initial import, that device stays logged in
 
 **Subsequent use:**
-- Open ZelCore and authenticate (PIN/biometric)
+- Open Zelcore and authenticate (PIN/biometric)
 - No need to re-enter seed phrase each time
 - Balances update automatically via blockchain connection
 
@@ -304,7 +305,7 @@ Follow these steps carefully to access your existing account on a new device:
 **When you need your seed phrase again:**
 - Setting up a brand new device
 - Recovering after losing a device
-- Reinstalling ZelCore
+- Reinstalling Zelcore
 - Factory reset of device
 
 **Data that stays in sync automatically:**
@@ -318,7 +319,7 @@ Follow these steps carefully to access your existing account on a new device:
 - Custom labels or notes (device-specific)
 
 **Related:**
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -332,7 +333,7 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 
 **Immediate steps:**
 1. Get a new device (phone/computer)
-2. Install ZelCore
+2. Install Zelcore
 3. Choose "Import Wallet" or "Sync"
 4. Enter your 12 or 24-word seed phrase
 5. Your wallet will be fully restored
@@ -344,7 +345,7 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 
 **Additional security steps:**
 1. Change any passwords if phone was stolen
-2. Enable D2FA on new device
+2. Enable d2FA on new device
 3. Review security settings
 4. Consider if anyone accessed your seed phrase
 
@@ -358,7 +359,7 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 
 **For legacy accounts:**
 - Password recovery may be available
-- Contact ZelCore support
+- Contact Zelcore support
 - May require identity verification
 - Not guaranteed but possible
 
@@ -366,25 +367,25 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 - Write down seed phrase immediately
 - Store in multiple secure locations
 - Test recovery on different device
-- Keep backup device with ZelCore installed
+- Keep backup device with Zelcore installed
 
 **Related:**
 - [Security Best Practices](../../security/best-practices/)
 
 ---
 
-## D2FA and Security
+## d2FA and Security
 
-### What is D2FA and how is it different from regular 2FA?
+### What is d2FA and how is it different from regular 2FA?
 
 **Answer:**
 
-**D2FA** stands for "Decentralized Two-Factor Authentication" - ZelCore's enhanced security feature.
+**d2FA** stands for "Decentralized Two-Factor Authentication" - Zelcore's enhanced security feature.
 
-**How D2FA works:**
+**How d2FA works:**
 - Uses distributed blockchain network for verification
 - No centralized server stores your authentication data
-- Requires your D2FA PIN for high-value transactions
+- PIN stored encrypted on the Flux blockchain; Zelcore asks for it before you send, swap, view private keys or use Flux ID
 - More secure than traditional SMS or app-based 2FA
 
 **Key differences from regular 2FA:**
@@ -395,22 +396,23 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 - Can be intercepted (SMS)
 - Requires internet connection to central server
 
-**ZelCore D2FA:**
+**Zelcore d2FA:**
 - Decentralized blockchain-based
 - No central point of failure
 - Cannot be intercepted
 - Uses distributed node network
 
-**When D2FA is required:**
-- Large transaction amounts
-- Changing security settings
-- Withdrawing funds
-- Can be configured in settings
+**When d2FA is required:**
+- Sending funds
+- Swapping, including Swap Now and Fusion deposits
+- Earn (staking) actions
+- Viewing private keys
+- Flux ID operations
 
-**Setting up D2FA:**
+**Setting up d2FA:**
 1. Go to Settings → Security
-2. Enable D2FA
-3. Create D2FA PIN (6-8 digits)
+2. Enable d2FA
+3. Create d2FA PIN (6-8 digits)
 4. Confirm PIN
 5. Backup PIN securely
 
@@ -419,11 +421,11 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 
 ---
 
-### I forgot my D2FA PIN. How do I reset it?
+### I forgot my d2FA PIN. How do I reset it?
 
 **Answer:**
 
-You can reset your D2FA PIN using your seed phrase, but the process requires careful steps.
+You can reset your d2FA PIN using your seed phrase, but the process requires careful steps.
 
 **For seed phrase accounts:**
 
@@ -432,16 +434,16 @@ You can reset your D2FA PIN using your seed phrase, but the process requires car
    - In correct order
    - Spelled correctly
 
-2. **Reset D2FA:**
-   - Go to Settings → Security → D2FA
-   - Look for "Reset D2FA" or "Forgot PIN"
+2. **Reset d2FA:**
+   - Go to Settings → Security → d2FA
+   - Look for "Reset d2FA" or "Forgot PIN"
    - May need to re-import wallet
 
 3. **Re-import method (if needed):**
-   - Log out of ZelCore
+   - Log out of Zelcore
    - Choose "Import Wallet"
    - Enter your seed phrase
-   - Set up new D2FA PIN during import
+   - Set up new d2FA PIN during import
 
 4. **Set new PIN:**
    - Choose a memorable but secure PIN
@@ -450,55 +452,55 @@ You can reset your D2FA PIN using your seed phrase, but the process requires car
 
 **For legacy accounts:**
 
-- Contact ZelCore support
+- Contact Zelcore support
 - May require identity verification
 - Process may take 24-48 hours
 
 **Prevention:**
-- Write down D2FA PIN when you create it
+- Write down d2FA PIN when you create it
 - Store separately from seed phrase
 - Don't use birthdates or obvious numbers
-- Test D2FA after setting up
+- Test d2FA after setting up
 
 **Security note:**
-- Anyone with your seed phrase can reset D2FA
+- Anyone with your seed phrase can reset d2FA
 - Keep seed phrase extremely secure
-- D2FA adds security but seed phrase is ultimate key
+- d2FA adds security but seed phrase is ultimate key
 
 **Related:**
 - [Security Best Practices](../../security/best-practices/)
 
 ---
 
-### D2FA keeps failing when I try to approve transactions. What's wrong?
+### d2FA keeps failing when I try to approve transactions. What's wrong?
 
 **Answer:**
 
-D2FA failures usually relate to connectivity, incorrect PIN, or sync issues.
+d2FA failures usually relate to connectivity, incorrect PIN, or sync issues.
 
 **Common causes and solutions:**
 
 **1. Incorrect PIN:**
-- Verify you're entering the correct D2FA PIN
-- D2FA PIN is different from device PIN
+- Verify you're entering the correct d2FA PIN
+- d2FA PIN is different from device PIN
 - Check for typos or caps lock
 - Try resetting PIN if you're unsure
 
 **2. Internet connection issues:**
-- D2FA requires internet to communicate with blockchain nodes
+- d2FA requires internet to communicate with blockchain nodes
 - Check your connection is stable
 - Try switching between WiFi and mobile data
 - Disable VPN temporarily
 
 **3. App needs update:**
-- Update ZelCore to latest version
+- Update Zelcore to latest version
 - Restart app after updating
-- Try D2FA again
+- Try d2FA again
 
-**4. D2FA sync issues:**
+**4. d2FA sync issues:**
 - Go to Settings → Smartify
 - Run Smartify to refresh connections
-- Try D2FA transaction again
+- Try d2FA transaction again
 
 **5. Blockchain node problems:**
 - Specific blockchain nodes may be down
@@ -509,22 +511,22 @@ D2FA failures usually relate to connectivity, incorrect PIN, or sync issues.
 - Computer clock must be accurate
 - Set to automatic time sync
 - Correct timezone
-- D2FA uses timestamps for verification
+- d2FA uses timestamps for verification
 
 **Step-by-step troubleshooting:**
 
 1. Verify internet connection
-2. Update ZelCore
+2. Update Zelcore
 3. Run Smartify
-4. Verify D2FA PIN is correct
+4. Verify d2FA PIN is correct
 5. Check device time is accurate
 6. Try different backend server
-7. Restart ZelCore
+7. Restart Zelcore
 8. Try transaction again
 
 **If still failing:**
-- Transaction amount may be below D2FA threshold
-- Disable and re-enable D2FA
+- Transaction amount may be below d2FA threshold
+- Disable and re-enable d2FA
 - Contact support with error messages
 
 **Related:**
@@ -538,13 +540,13 @@ D2FA failures usually relate to connectivity, incorrect PIN, or sync issues.
 
 **Answer:**
 
-**FluxID** is your decentralized identity in the Flux ecosystem, integrated with ZelCore accounts.
+**FluxID** is your decentralized identity in the Flux ecosystem, integrated with Zelcore accounts.
 
 **What FluxID provides:**
 - Single sign-on for Flux ecosystem apps
 - Decentralized authentication
 - Access to Flux services and dApps
-- Integration with ZelCore wallet
+- Integration with Zelcore wallet
 
 **Modern FluxID (with seed phrase accounts):**
 - Created automatically with new seed phrase accounts
@@ -555,13 +557,13 @@ D2FA failures usually relate to connectivity, incorrect PIN, or sync issues.
 **FluxID Legacy (with old accounts):**
 - Tied to username/password accounts
 - Centralized authentication
-- Being phased out
-- Migrate to modern FluxID recommended
+- Deprecated, will be phased out
+- Migrate to modern FluxID
 
 **Do you need FluxID:**
 - **Yes, if** you use Flux ecosystem services
 - **Yes, if** you use Flux dApps
-- **No, if** you only use ZelCore for basic wallet functions
+- **No, if** you only use Zelcore for basic wallet functions
 - Automatically included with modern accounts
 
 **FluxID features:**
@@ -571,13 +573,13 @@ D2FA failures usually relate to connectivity, incorrect PIN, or sync issues.
 - Access control for dApps
 
 **How to check your FluxID:**
-1. Open ZelCore
+1. Open Zelcore
 2. Go to Settings or Profile
 3. Look for "FluxID" section
 4. Shows your FluxID identifier
 
 **Related:**
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -605,10 +607,9 @@ FluxID migration happens automatically when you migrate from a legacy account to
 - May need to re-authenticate services
 
 **What happens to old FluxID Legacy:**
-- Remains accessible (for now)
-- Being phased out
+- Remains accessible in Zelcore 8.39
+- Deprecated, will be phased out
 - Migrate services to new FluxID
-- Eventually will be deprecated
 
 **Benefits of modern FluxID:**
 - Better security (decentralized)
@@ -620,11 +621,11 @@ FluxID migration happens automatically when you migrate from a legacy account to
 - Can't migrate FluxID separately from account
 - Must migrate entire account to seed phrase
 - Both FluxIDs can coexist during transition
-- Old FluxID will eventually be unsupported
+- Old FluxID goes away with legacy login, which will be phased out
 
 **Related:**
 - [Migrating to Seed Phrase Account](../../guides/migrating-legacy-to-seed-phrase/)
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -650,7 +651,7 @@ Legacy account login issues usually involve credentials, account status, or app 
 - Check for "Legacy Account" button
 - May be under "More Login Options"
 
-**3. Update ZelCore:**
+**3. Update Zelcore:**
 - Download latest version from zelcore.io
 - Legacy support may require recent version
 - Install and restart
@@ -664,13 +665,13 @@ Legacy account login issues usually involve credentials, account status, or app 
 
 **5. Check account status:**
 - Verify account hasn't been locked
-- Check email for notifications from ZelCore
+- Check email for notifications from Zelcore
 - May need to contact support for unlocking
 
 **6. Clear app cache:**
-- **Mobile:** Settings → Apps → ZelCore → Clear Cache
+- **Mobile:** Settings → Apps → Zelcore → Clear Cache
 - **Desktop:** Delete cache folders in data directory
-- Restart ZelCore
+- Restart Zelcore
 - Try logging in
 
 **7. Network issues:**
@@ -681,12 +682,12 @@ Legacy account login issues usually involve credentials, account status, or app 
 
 **If still unable to log in:**
 
-**Contact ZelCore Support:**
-- Email: support@zel.network
+**Contact Zelcore Support:**
+- Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
 - Discord: discord.gg/runonflux
 - Provide username (NOT password)
 - Describe error messages
-- Include ZelCore version
+- Include Zelcore version
 
 **Prevention for future:**
 - Migrate to seed phrase account as soon as access is restored
@@ -698,7 +699,7 @@ Legacy account login issues usually involve credentials, account status, or app 
 
 ---
 
-### I entered my seed phrase but ZelCore says it's invalid. What's wrong?
+### I entered my seed phrase but Zelcore says it's invalid. What's wrong?
 
 **Answer:**
 
@@ -767,7 +768,7 @@ Seed phrase errors usually involve typos, wrong words, incorrect order, or wrong
 **Try import on different device:**
 - Sometimes app-specific issues
 - Try desktop vs mobile
-- Try different version of ZelCore
+- Try different version of Zelcore
 - Rules out device-specific problems
 
 **If seed phrase is definitely correct but still failing:**
@@ -779,7 +780,7 @@ Seed phrase errors usually involve typos, wrong words, incorrect order, or wrong
 
 2. **Verify seed phrase elsewhere:**
    - Try importing in another BIP44 wallet (MetaMask, Trust Wallet)
-   - If works there, issue is ZelCore-specific
+   - If works there, issue is Zelcore-specific
    - If fails everywhere, seed phrase is wrong
 
 3. **Check for variant seed phrases:**
@@ -847,8 +848,8 @@ Seed phrase errors usually involve typos, wrong words, incorrect order, or wrong
 
 **Method 3: Delete and Reinstall (Not recommended)**
 
-1. Delete ZelCore app
-2. Reinstall ZelCore
+1. Delete Zelcore app
+2. Reinstall Zelcore
 3. Choose "Import" or "Sync"
 4. Enter original credentials
 
@@ -876,15 +877,15 @@ Seed phrase errors usually involve typos, wrong words, incorrect order, or wrong
 - Read options carefully before selecting
 
 **Related:**
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
-### Can I have multiple ZelCore accounts?
+### Can I have multiple Zelcore accounts?
 
 **Answer:**
 
-**Yes, ZelCore supports multiple accounts**, and you can switch between them easily.
+**Yes, Zelcore supports multiple accounts**, and you can switch between them easily.
 
 **How to use multiple accounts:**
 
@@ -1011,11 +1012,11 @@ This error usually means incorrect credentials or account type mismatch.
 **Solutions:**
 - Verify username is exact
 - Check for migration emails
-- Update ZelCore to latest version
+- Update Zelcore to latest version
 - Contact support for account status
 
 **Related:**
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -1023,7 +1024,7 @@ This error usually means incorrect credentials or account type mismatch.
 
 **Answer:**
 
-Server connection errors prevent ZelCore from syncing your account data and balances.
+Server connection errors prevent Zelcore from syncing your account data and balances.
 
 **Quick fixes:**
 
@@ -1033,7 +1034,7 @@ Server connection errors prevent ZelCore from syncing your account data and bala
 - Try different network (WiFi vs mobile data)
 - Restart router if needed
 
-**2. Update ZelCore:**
+**2. Update Zelcore:**
 - Download latest version
 - Server endpoints may have changed
 - Older versions may not work
@@ -1041,7 +1042,7 @@ Server connection errors prevent ZelCore from syncing your account data and bala
 **3. Change backend server:**
 - Go to Settings → Backend or Proxy
 - Select different server (try different region)
-- Save and restart ZelCore
+- Save and restart Zelcore
 - Try syncing again
 
 **4. Disable VPN:**
@@ -1051,8 +1052,8 @@ Server connection errors prevent ZelCore from syncing your account data and bala
 - Re-enable after successful sync
 
 **5. Firewall/Antivirus:**
-- May be blocking ZelCore
-- Add ZelCore to allowed applications
+- May be blocking Zelcore
+- Add Zelcore to allowed applications
 - Temporarily disable to test
 - Re-enable after confirming that's the issue
 
@@ -1064,18 +1065,18 @@ Server connection errors prevent ZelCore from syncing your account data and bala
 **Advanced troubleshooting:**
 
 **Check server status:**
-- Visit ZelCore Discord or Twitter
+- Visit Zelcore Discord or Twitter
 - Check for service announcements
 - Other users may report issues
 - Confirms if problem is widespread
 
 **Clear cache:**
-- Settings → Apps → ZelCore → Clear Cache (mobile)
+- Settings → Apps → Zelcore → Clear Cache (mobile)
 - Delete cache folders (desktop)
-- Restart ZelCore
+- Restart Zelcore
 - Try connecting again
 
-**Reinstall ZelCore:**
+**Reinstall Zelcore:**
 - Uninstall app
 - Reinstall latest version
 - Import account again
@@ -1096,19 +1097,19 @@ Server connection errors prevent ZelCore from syncing your account data and bala
 
 **Answer:**
 
-This message indicates you have a legacy account that needs to be migrated to a modern seed phrase account.
+This message indicates you have a legacy account that needs to be migrated to a modern seed phrase account. Legacy (username and password) login is deprecated and will be phased out. It still works in Zelcore 8.39, but migrate to a seed-phrase wallet now.
 
 **What it means:**
 
 **Your account type:**
 - You have a legacy username/password account
-- Legacy accounts are being phased out
-- Migration to seed phrase recommended
-- Not an immediate emergency but important
+- Legacy login is deprecated and will be phased out
+- Migrate to a seed-phrase wallet now
+- Your funds are not at risk, but the migration should not wait
 
 **Why you see this:**
-- ZelCore is updating account infrastructure
-- Legacy system being deprecated
+- Zelcore is updating account infrastructure
+- Legacy login is deprecated
 - Modern accounts have better security
 - Encourages users to upgrade
 
@@ -1122,7 +1123,7 @@ This message indicates you have a legacy account that needs to be migrated to a 
 **Long term:**
 - Future updates may not support legacy accounts
 - New features may require modern accounts
-- Eventually legacy system will be sunset
+- Legacy login will be phased out
 - Migration will become required
 
 **How to respond:**
@@ -1141,7 +1142,7 @@ This message indicates you have a legacy account that needs to be migrated to a 
 
 **Option 3: Ignore (not recommended)**
 - Message will keep appearing
-- Eventually migration may be required
+- Legacy login will be phased out
 - Earlier migration is easier
 
 **Migration benefits:**
@@ -1165,7 +1166,7 @@ This message indicates you have a legacy account that needs to be migrated to a 
 
 **Related:**
 - [Complete Migration Guide](../../guides/migrating-legacy-to-seed-phrase/)
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -1221,7 +1222,7 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 
 **What to include with seed phrase:**
 - Date created
-- "ZelCore seed phrase" label
+- "Zelcore seed phrase" label
 - Recovery instructions for family
 - DO NOT include account balances or values
 
@@ -1348,7 +1349,7 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 **Essential pre-replacement checklist:**
 
 **1. Verify seed phrase access:**
-- Open ZelCore on current device
+- Open Zelcore on current device
 - Go to Settings → Security → Show Seed Phrase
 - Verify it matches your written backup
 - If no backup, write it down NOW
@@ -1361,7 +1362,7 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 - Note any special configurations
 
 **3. Test recovery (recommended):**
-- Install ZelCore on a different device
+- Install Zelcore on a different device
 - Import using seed phrase
 - Verify all assets appear
 - Then remove from test device
@@ -1375,7 +1376,7 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 **After getting new device:**
 
 **Setup process:**
-1. Install ZelCore on new device
+1. Install Zelcore on new device
 2. Choose "Sync" or "Import Wallet"
 3. Enter your seed phrase
 4. Set up device authentication
@@ -1391,8 +1392,8 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 - Keep old device functional for a week (backup)
 
 **When ready to wipe:**
-- Log out of ZelCore on old device
-- Uninstall ZelCore
+- Log out of Zelcore on old device
+- Uninstall Zelcore
 - Factory reset device
 - Seed phrase remains safe (on paper)
 
@@ -1405,7 +1406,7 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 **Emergency scenarios:**
 
 **Old device died/broken:**
-- Install ZelCore on new device
+- Install Zelcore on new device
 - Import using seed phrase
 - Your funds are safe on blockchain
 - Seed phrase is all you need
@@ -1424,7 +1425,7 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 - Document setup
 
 **Day of upgrade:**
-- Set up ZelCore on new device
+- Set up Zelcore on new device
 - Verify everything works
 - Keep old device active
 
@@ -1434,7 +1435,7 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 
 **Related:**
 - [Security Best Practices](../../security/best-practices/)
-- [Understanding ZelCore Accounts](../../getting-started/understanding-zelcore-accounts/)
+- [Understanding Zelcore Accounts](../../getting-started/understanding-zelcore-accounts/)
 
 ---
 
@@ -1444,15 +1445,15 @@ Your seed phrase is the key to your funds. Proper storage is critical.
 
 **Answer:**
 
-Multiple support channels are available for ZelCore assistance.
+Multiple support channels are available for Zelcore assistance.
 
-**Official ZelCore Support:**
+**Official Zelcore Support:**
 
-**Email:**
-- support@zel.network
+**Help desk:**
+- Open a ticket at [support.zelcore.io](https://support.zelcore.io)
 - Include detailed description
 - Screenshots (never of seed phrase!)
-- ZelCore version
+- Zelcore version
 - Operating system
 
 **Discord (Recommended):**
@@ -1480,14 +1481,14 @@ Multiple support channels are available for ZelCore assistance.
 - What you were trying to do
 - What actually happened
 - Error messages (exact text)
-- ZelCore version
+- Zelcore version
 - Device type (phone/desktop, OS)
 - Steps you've already tried
 
 **Never include:**
 - ❌ Your seed phrase
 - ❌ Your private keys
-- ❌ Your D2FA PIN
+- ❌ Your d2FA PIN
 - ❌ Your passwords
 - ❌ Exact wallet balances (for privacy)
 
@@ -1516,13 +1517,13 @@ Multiple support channels are available for ZelCore assistance.
 **Community resources:**
 
 **Reddit:**
-- r/ZelCore
+- r/Zelcore
 - Community discussions
 - User experiences
 - Not official support
 
 **Telegram:**
-- Official ZelCore group
+- Official Zelcore group
 - Community help
 - Announcements
 

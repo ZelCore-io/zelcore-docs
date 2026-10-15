@@ -8,11 +8,15 @@ image: ./images/zelcore-setup/01-welcome-screen.webp
 
 # Zelcore Wallet Setup Guide
 
+:::info Applies to Zelcore 8.39
+The steps apply to Zelcore 8.39.0 (October 2026). The screenshots on this page come from an earlier version (8.24.1), so some screens may look slightly different.
+:::
+
 This guide walks you through setting up a new Zelcore wallet account, from initial registration to accessing your portfolio.
 
 ## Overview
 
-Zelcore is a multi-currency cryptocurrency wallet that supports thousands of tokens across more than 70 different crypto networks. All user data is stored locally on your device, ensuring no personal information is transmitted to centralized servers.
+Zelcore is a multi-currency cryptocurrency wallet that supports 100,000+ assets on 80+ blockchains (as of October 2026). All user data is stored locally on your device, ensuring no personal information is transmitted to centralized servers.
 
 **Version shown:** v8.24.1
 
@@ -26,7 +30,7 @@ When you open Zelcore for the first time, you'll see the Welcome screen with the
 
 - **Get Started** — Begin the registration process
 - **Sync/Register** — BIP44 Seed Phrase Account (Recommended)
-- **Login using legacy mode** — For existing legacy accounts
+- **Login using legacy mode** (deprecated) — For existing legacy accounts; migrate to a seed-phrase wallet
 - **Chat with FluxAI** — Access AI assistance
 
 ![Welcome Screen](./images/zelcore-setup/01-welcome-screen.webp)

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-title: ZelCore Features Overview
-description: "Explore ZelCore features including multi-chain support, built-in swaps, staking, decentralized 2FA, and self-custodial security."
+title: Zelcore Features Overview
+description: "Explore Zelcore features including multi-chain support, built-in swaps, staking, decentralized 2FA, and self-custodial security."
 keywords: [zelcore features, multi crypto wallet, crypto software wallet, wallet features]
 ---
 
@@ -13,7 +13,7 @@ Zelcore offers a comprehensive suite of features designed to give you complete c
 
 ### Multi-Chain Support
 
-Manage assets across 80+ blockchains from a single interface:
+Manage assets across 80+ blockchains (as of October 2026) from a single interface:
 
 - **Bitcoin** and Bitcoin-like chains (BCH, LTC, DOGE, etc.)
 - **Ethereum** and EVM-compatible chains (Polygon, BSC, Avalanche, etc.)
@@ -36,7 +36,7 @@ Access your wallet seamlessly across devices:
 
 - [Desktop](https://zelcore.io/wallet) (Windows, macOS, Linux)
 - [Mobile](https://zelcore.io/mobile-wallet) (iOS, Android)
-- [Browser Extension](https://zelcore.io/browser-extension) (Chrome, Firefox, Edge, Brave)
+- [Browser Extension](https://zelcore.io/browser-extension) (Chrome, Edge, Brave; Firefox is not available yet)
 
 ## Trading & Exchange
 
@@ -79,7 +79,6 @@ Stay informed with real-time market data:
 - Live price updates
 - 24h price changes
 - Market cap information
-- Price alerts (coming soon)
 
 ## Security Features
 
@@ -114,8 +113,8 @@ Convenient and secure access:
 
 Maximum security for large holdings:
 
-- Ledger support (Nano S, S Plus, X), including Kaspa
-- Trezor support (One, Model T)
+- Ledger support on desktop (Nano S, S Plus, X), including Kaspa
+- Trezor support on desktop (One, Model T)
 - Sign transactions on hardware device
 - View-only mode for cold storage
 
@@ -163,11 +162,11 @@ Export your transaction history for tax tools or your accountant:
 
 ### Kaspa
 
-Use Kaspa and its ecosystem from ZelCore:
+Use Kaspa and its ecosystem from Zelcore:
 
 - Send KAS or KRC-20 tokens to a KNS name such as `alice.kas`
 - Find your KRC-20 tokens, and consolidate UTXOs when an address holds many small ones
-- Import a Kaspa address from a Ledger device and send KAS
+- Import a Kaspa address from a Ledger device on Zelcore desktop and send KAS
 - View Kaspa covenant tokens (KRON and KCC-20) at your address
 - Sign messages with Kaspa addresses
 - Bridge KAS to Igra L2 and iKAS back to KAS
@@ -211,16 +210,6 @@ Save frequently used addresses:
 - Reduce errors in transactions
 - Import/export address lists
 
-## Coming Soon
-
-Zelcore is constantly evolving with weekly updates. Upcoming features include:
-
-- Price alerts and notifications
-- Advanced charting tools
-- Staking for more protocols
-- Enhanced NFT features
-- Mobile hardware wallet support expansion
-
 ## Platform Comparison
 
 | Feature | Desktop | Mobile | Browser Extension |
@@ -229,15 +218,17 @@ Zelcore is constantly evolving with weekly updates. Upcoming features include:
 | Token swaps | ✅ | ✅ | ✅ |
 | NFT gallery | ✅ | ✅ | ✅ |
 | WalletConnect | ✅ | ✅ | ✅ |
-| Hardware wallet | ✅ | Limited | ✅ |
+| Hardware wallet¹ | ✅ | ❌ | ❌ |
 | FluxNodes | ✅ | ✅ | ❌ |
 | Fusion | ✅ | ✅ | ❌ |
 | Buy crypto | ✅ | ✅ | ✅ |
 
+¹ Ledger and Trezor: desktop only.
+
 ## Need More Details?
 
-More detailed guides for specific features will be added soon. Visit the [full feature list](https://zelcore.io/ecosystem/features) for a complete overview of everything Zelcore offers. Stay tuned for comprehensive tutorials on trading, NFTs, WalletConnect, and more.
+See the [guides](/docs/category/guides) and the [full feature list](https://zelcore.io/ecosystem/features) for a complete overview of everything Zelcore offers.
 
 ## Questions?
 
-Join our [Discord community](https://discord.gg/runonflux) or visit the [Support Center](https://zelcore.io/support) for help.
+Join our [Discord community](https://discord.gg/runonflux) or visit the [Support Center](https://support.zelcore.io) for help.

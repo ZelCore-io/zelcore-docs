@@ -1,33 +1,37 @@
 ---
 sidebar_position: 8
 title: "Export Transactions for Taxes (CSV)"
-description: Export your full ZelCore transaction history as CSV, XLSX or JSON for Koinly, CoinTracker, CoinLedger, 15 other tax tools or your accountant.
+description: Export your full Zelcore transaction history as CSV, XLSX or JSON for Koinly, CoinTracker, CoinLedger, 15 other tax tools or your accountant.
 keywords: [zelcore, tax, tax export, csv export, transaction history, koinly, cointracker, coinledger, cointracking, blockpit, zenledger, tokentax, crypto tax, custom mapping, address list]
 image: ./images/03-scope-step.webp
 ---
 
-# How to Export Your Transactions for Taxes with ZelCore Tax & CSV Export
+# How to Export Your Transactions for Taxes with Zelcore Tax & CSV Export
 
-This guide shows you how to use ZelCore's Tax & CSV Export. It reads your transaction history for the wallets and coins you choose and saves it as a file that your tax tool or accountant can use. You can pick the period, add fiat values, and choose a layout made for a specific tax tool.
+:::info Applies to Zelcore 8.39
+The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
+:::
+
+This guide shows you how to use Zelcore's Tax & CSV Export. It reads your transaction history for the wallets and coins you choose and saves it as a file that your tax tool or accountant can use. You can pick the period, add fiat values, and choose a layout made for a specific tax tool.
 
 ---
 
 ## How it works and what it sends
 
-The export runs on your device. ZelCore reads your history from public blockchain services, builds the file itself, and saves it to your computer.
+The export runs on your device. Zelcore reads your history from public blockchain services, builds the file itself, and saves it to your computer.
 
 - Only your **public addresses** are sent to those services. Private keys, seed phrases and view keys never leave your device.
 - Before you start, the **Services this export contacts** list shows every server the export will ask, coin by coin. If you use a proxy, the list says that every request goes through it.
-- ZelCore keeps an **encrypted copy** of the history it has read on your device. A repeat export only reads what is new, so it is much faster.
-- Deleting an account in ZelCore also clears that account's export cache.
+- Zelcore keeps an **encrypted copy** of the history it has read on your device. A repeat export only reads what is new, so it is much faster.
+- Deleting an account in Zelcore also clears that account's export cache.
 
 ---
 
 ## Prerequisites
 
-- ZelCore desktop application installed and logged in
+- Zelcore desktop application installed and logged in
 - The coins you want to export are **activated** in the wallets you select. A coin that is not activated in a selected wallet is not exported.
-- A tax tool account, if you plan to import the file. You do not need one to use the **ZelCore** or **Accountant** formats.
+- A tax tool account, if you plan to import the file. You do not need one to use the **Zelcore** or **Accountant** formats.
 
 ---
 
@@ -99,14 +103,14 @@ Open the **Format** list and pick your tax tool. The list is grouped by region, 
 
 If your tax tool is not listed, or you only need the data for your accountant, use one of the neutral formats:
 
-- **ZelCore standard (CSV)**: every field as a documented column
-- **ZelCore standard (JSON)**: the full transaction ledger
+- **Zelcore standard (CSV)**: every field as a documented column
+- **Zelcore standard (JSON)**: the full transaction ledger
 - **Accountant (XLSX)** or **Accountant (CSV)**: a per-asset summary plus a ledger with a running balance
-- **ZelCore classic**: the layout of ZelCore's previous export, for tools that already read it
+- **Zelcore classic**: the layout of Zelcore's previous export, for tools that already read it
 
 See [Supported tax tools](#supported-tax-tools) for the full list.
 
-![The format list, grouped into ZelCore and accountant formats and tax tools](./images/06-format-list.webp)
+![The format list, grouped into Zelcore and accountant formats and tax tools](./images/06-format-list.webp)
 
 ![Format step with Koinly selected, fiat values on and the Files options](./images/05-format-step.webp)
 
@@ -121,7 +125,7 @@ Some formats decide this for you. In that case the choice is locked and a note s
 
 ### Add fiat values
 
-Switch on **Add fiat values** to add a price to every row, then choose the **Currency**. Prices come from ZelCore's price service, or from CoinGecko when the first does not answer. CoinGecko only covers the last 365 days.
+Switch on **Add fiat values** to add a price to every row, then choose the **Currency**. Prices come from Zelcore's price service, or from CoinGecko when the first does not answer. CoinGecko only covers the last 365 days.
 
 ### Rebuild from scratch
 
@@ -146,7 +150,7 @@ The **Export** step lists each coin with its progress: **Waiting**, **Checking s
 - **Hide** closes the window while the export keeps running. Open **Tax & CSV export** again to come back to it.
 - **Cancel export** stops it. Nothing is saved.
 
-When it finishes, ZelCore saves the file to your **Downloads** folder and shows **Export saved** with the file path. Click **Open folder** to see the file.
+When it finishes, Zelcore saves the file to your **Downloads** folder and shows **Export saved** with the file path. Click **Open folder** to see the file.
 
 Below the result you get numbered steps for importing the file into your tax tool, and a link to that tool's own import guide. The buttons at the bottom let you run it again (**Export again**) or go back and change the options (**Change settings**).
 
@@ -156,20 +160,20 @@ Below the result you get numbered steps for importing the file into your tax too
 
 After the export, a **Worth checking** section lists anything that needs your attention. Each flagged transaction also has a note in the file's `flags` column, so you can find it after importing.
 
-How ZelCore treats the hard cases:
+How Zelcore treats the hard cases:
 
-- **Nothing is dropped.** A row that ZelCore cannot price or classify is flagged. It is never removed and never given a value of 0. A row with no price shows **No price**.
-- **Fees are rows of their own.** In the ZelCore classic layout, each fee is a separate row.
-- **Moving funds between your own addresses.** The ZelCore classic layout shows only the fee for such a transfer. The ZelCore standard layout lists both sides, marked as a transfer to the same address, and only the fee counts as a cost.
+- **Nothing is dropped.** A row that Zelcore cannot price or classify is flagged. It is never removed and never given a value of 0. A row with no price shows **No price**.
+- **Fees are rows of their own.** In the Zelcore classic layout, each fee is a separate row.
+- **Moving funds between your own addresses.** The Zelcore classic layout shows only the fee for such a transfer. The Zelcore standard layout lists both sides, marked as a transfer to the same address, and only the fee counts as a cost.
 - **Failed transactions keep their fee.** The fee is counted for the wallet that paid it, and the row shows no amount.
 - **Contract calls, internal transfers and swaps are written out.** A swap appears with both of its sides.
 - **The whole history is read.** The export reads each address's history to the end, instead of stopping after one page.
 
 :::tip
-Open the result in your tax tool and check the flagged rows first. A flag tells you what to look at, for example a token that ZelCore does not list, or a transaction whose outcome the node could not confirm.
+Open the result in your tax tool and check the flagged rows first. A flag tells you what to look at, for example a token that Zelcore does not list, or a transaction whose outcome the node could not confirm.
 :::
 
-If your coins have no transactions in the period, the file is saved with its column headers only. If a format has no rows for your kind of transactions, ZelCore says so and suggests another format such as **ZelCore standard**.
+If your coins have no transactions in the period, the file is saved with its column headers only. If a format has no rows for your kind of transactions, Zelcore says so and suggests another format such as **Zelcore standard**.
 
 ---
 
@@ -202,14 +206,14 @@ Neutral formats:
 
 | Format | File type |
 |--------|-----------|
-| ZelCore standard (CSV) | CSV |
-| ZelCore standard (JSON) | JSON |
+| Zelcore standard (CSV) | CSV |
+| Zelcore standard (JSON) | JSON |
 | Accountant (XLSX) | XLSX (two sheets: summary and ledger) |
 | Accountant (CSV) | Two CSV files in one zip |
-| ZelCore classic | CSV, one file per coin |
+| Zelcore classic | CSV, one file per coin |
 
 :::info
-Cryptact and Recap only accept a single combined file, and ZelCore classic is always one file per coin. The **Files** choice is locked for these formats.
+Cryptact and Recap only accept a single combined file, and Zelcore classic is always one file per coin. The **Files** choice is locked for these formats.
 :::
 
 ---
@@ -233,7 +237,7 @@ The editor lets you set:
   - **Time zone**: **UTC** or **Local time**
 - **Columns**: use **Add column** to add one, the arrows to reorder, and **Remove column** to delete one. For each column you set:
   - **Header**: the column name in the file
-  - **Value**: a ZelCore field, **Fixed text** that is written in every row, or **Type label**
+  - **Value**: a Zelcore field, **Fixed text** that is written in every row, or **Type label**
   - **Format**: for date columns a **Date format** (for example ISO 8601, or Unix time in seconds or milliseconds), for amount columns the number of decimals, and for asset columns how the asset is written (ticker, ticker with contract, contract only, and others)
   - A column can override the time zone, decimal mark or sign from the file settings
 - **Type labels**: the text a **Type label** column writes for each kind of row, such as **Received**, **Sent**, **Swap** or **Fee row**
@@ -267,7 +271,7 @@ Some tax tools read your history themselves. For those, you give the tool your a
 
 The list holds **public addresses only**. It never contains private keys, view keys or seed phrases.
 
-ZelCore uses one address per coin in each wallet, so add that exact address in your tax tool. No xpub is needed.
+Zelcore uses one address per coin in each wallet, so add that exact address in your tax tool. No xpub is needed.
 
 If a wallet and coin pair has no address, it is left out and the dialog says how many. The address may not have been created yet, or the wallet may not support the coin, as with a hardware wallet.
 
@@ -282,13 +286,13 @@ To remove the saved export history, open the **Extras** section of your account 
 ## Troubleshooting and FAQ
 
 **Why does my coin say it cannot be exported?**
-Some coins have no public history source left, so there is nothing to read. Examples are Fantom Opera, whose history service no longer exists, and VeriBlock, which was shut down. Their coin screen explains why. ZelCore does not guess or leave a partial file for them.
+Some coins have no public history source left, so there is nothing to read. Examples are Fantom Opera, whose history service no longer exists, and VeriBlock, which was shut down. Their coin screen explains why. Zelcore does not guess or leave a partial file for them.
 
 **Which coins are new in this version?**
 Cosmos Hub, Osmosis, Cardano, Sui and BNB Beacon Chain can now be exported.
 
 **The first export is slow. Is that normal?**
-Yes. The first export reads each coin's full history, which can take a while for coins with many transactions. ZelCore then keeps an encrypted copy on your device, so the next export only reads what is new. Use **Rebuild from scratch** only if you need to read everything again.
+Yes. The first export reads each coin's full history, which can take a while for coins with many transactions. Zelcore then keeps an encrypted copy on your device, so the next export only reads what is new. Use **Rebuild from scratch** only if you need to read everything again.
 
 **The Start export button is not available.**
 Another export task is running, such as an export, a preview or clearing the cache. Wait until it finishes.
@@ -297,10 +301,10 @@ Another export task is running, such as an export, a preview or clearing the cac
 After the run, **Coins that weren't exported** lists each coin with the reason. A coin that is not activated in any selected wallet is skipped. A service with a daily request limit can also run out. The list shows the limit, so you can try again the next day.
 
 **A row has no fiat value.**
-ZelCore found no price for that asset at that time, usually for a token it does not list. The row is flagged **No price** and the value is left empty, never set to 0.
+Zelcore found no price for that asset at that time, usually for a token it does not list. The row is flagged **No price** and the value is left empty, never set to 0.
 
 **My file has headers but no rows.**
-There were no transactions in the period, or the format has no rows for the kinds of transactions you made. Try another period or **ZelCore standard**.
+There were no transactions in the period, or the format has no rows for the kinds of transactions you made. Try another period or **Zelcore standard**.
 
 **What happens to my export cache when I delete an account?**
 It is cleared along with the account.

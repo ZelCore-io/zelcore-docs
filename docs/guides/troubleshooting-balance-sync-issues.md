@@ -1,21 +1,25 @@
 ---
 sidebar_position: 1
 title: Troubleshooting Balance and Sync Issues
-description: "Fix ZelCore balance display and sync issues. Step-by-step troubleshooting for missing balances, stuck syncing, and backend problems."
+description: "Fix Zelcore balance display and sync issues. Step-by-step troubleshooting for missing balances, stuck syncing, and backend problems."
 keywords: [zelcore balance not showing, wallet sync issues, crypto balance fix, smartify]
 ---
 
 # Troubleshooting Balance and Sync Issues
 
+:::info Applies to Zelcore 8.39
+Written for Zelcore 8.39.0 (October 2026).
+:::
+
 ## Overview
 
-If your assets are showing on blockchain explorers but not displaying correctly in ZelCore, this guide will help you resolve the issue. Balance display problems can occur due to backend node synchronization issues, outdated app versions, or local client sync problems.
+If your assets are showing on blockchain explorers but not displaying correctly in Zelcore, this guide will help you resolve the issue. Balance display problems can occur due to backend node synchronization issues, outdated app versions, or local client sync problems.
 
-This guide covers the most effective solutions for resolving balance visibility and wallet synchronization problems across both desktop and mobile versions of ZelCore.
+This guide covers the most effective solutions for resolving balance visibility and wallet synchronization problems across both desktop and mobile versions of Zelcore.
 
 ## Prerequisites
 
-- ZelCore wallet installed (desktop or mobile)
+- Zelcore wallet installed (desktop or mobile)
 - Your wallet credentials and access
 - Internet connection
 - Basic knowledge of your wallet's asset addresses
@@ -24,7 +28,7 @@ This guide covers the most effective solutions for resolving balance visibility 
 
 You may be experiencing balance sync issues if you notice:
 
-- Assets visible on blockchain explorers but showing zero balance in ZelCore
+- Assets visible on blockchain explorers but showing zero balance in Zelcore
 - Transactions confirmed on-chain but not reflected in your wallet
 - Missing tokens or assets that you know you own
 - Wallet balance stuck at an old value
@@ -34,11 +38,11 @@ You may be experiencing balance sync issues if you notice:
 
 ### Solution 1: Run Smartify (Recommended First Step)
 
-Smartify is ZelCore's built-in tool that refreshes your wallet's connection to backend nodes and resyncs your balances. This resolves most balance display issues.
+Smartify is Zelcore's built-in tool that refreshes your wallet's connection to backend nodes and resyncs your balances. This resolves most balance display issues.
 
 #### On Desktop:
 
-1. Open ZelCore wallet
+1. Open Zelcore wallet
 2. Navigate to **Settings** (gear icon in the top right)
 3. Scroll down to find the **Smartify** button
 4. Click **Smartify**
@@ -47,7 +51,7 @@ Smartify is ZelCore's built-in tool that refreshes your wallet's connection to b
 
 #### On Mobile:
 
-1. Open ZelCore app
+1. Open Zelcore app
 2. Tap the **Menu** icon (three horizontal lines)
 3. Go to **Settings**
 4. Scroll down and tap **Smartify**
@@ -66,7 +70,7 @@ If Smartify doesn't resolve the issue, the problem may be with the specific back
 
 #### Desktop:
 
-1. Open ZelCore
+1. Open Zelcore
 2. Go to **Settings** (gear icon)
 3. Find **Backend** or **Proxy** settings
 4. Select a different backend server from the dropdown menu
@@ -78,7 +82,7 @@ If Smartify doesn't resolve the issue, the problem may be with the specific back
 
 #### Mobile:
 
-1. Open ZelCore app
+1. Open Zelcore app
 2. Go to **Settings**
 3. Look for **Backend** or **Network Settings**
 4. Change to a different backend server
@@ -86,42 +90,42 @@ If Smartify doesn't resolve the issue, the problem may be with the specific back
 6. Run Smartify
 7. Verify your balances
 
-**Note:** Backend options may vary depending on your ZelCore version and the specific blockchain experiencing issues.
+**Note:** Backend options may vary depending on your Zelcore version and the specific blockchain experiencing issues.
 
-### Solution 3: Update ZelCore
+### Solution 3: Update Zelcore
 
-Outdated versions of ZelCore may have compatibility issues with blockchain networks or lack important bug fixes. Keeping your app updated is essential.
+Outdated versions of Zelcore may have compatibility issues with blockchain networks or lack important bug fixes. Keeping your app updated is essential.
 
 #### Desktop:
 
-1. Visit the official ZelCore website: [https://zelcore.io](https://zelcore.io)
+1. Visit the official Zelcore website: [https://zelcore.io](https://zelcore.io)
 2. Download the latest version for your operating system
 3. Install the update (your wallet data will be preserved)
-4. Open the updated ZelCore
+4. Open the updated Zelcore
 5. Run Smartify
 6. Check your balances
 
 #### Mobile (iOS):
 
 1. Open the **App Store**
-2. Search for "ZelCore"
+2. Search for "Zelcore"
 3. If an update is available, tap **Update**
 4. Wait for installation to complete
-5. Open ZelCore
+5. Open Zelcore
 6. Run Smartify
 
 #### Mobile (Android):
 
 1. Open **Google Play Store**
-2. Search for "ZelCore"
+2. Search for "Zelcore"
 3. If an update is available, tap **Update**
 4. Wait for installation to complete
-5. Open ZelCore
+5. Open Zelcore
 6. Run Smartify
 
 ### Solution 4: Clear Cache and Resync (Advanced)
 
-If the above solutions don't work, you may need to clear your local cache. This forces ZelCore to completely resync with the blockchain.
+If the above solutions don't work, you may need to clear your local cache. This forces Zelcore to completely resync with the blockchain.
 
 **Warning:** Before proceeding, ensure you have:
 - Your recovery phrase/seed phrase written down and stored securely
@@ -130,15 +134,15 @@ If the above solutions don't work, you may need to clear your local cache. This 
 
 #### Desktop:
 
-1. Close ZelCore completely
-2. Navigate to your ZelCore data directory:
+1. Close Zelcore completely
+2. Navigate to your Zelcore data directory:
    - **Windows:** `%APPDATA%/ZelCore`
    - **macOS:** `~/Library/Application Support/ZelCore`
    - **Linux:** `~/.config/ZelCore`
 3. Locate and delete (or rename) the cache folders:
    - `cache` folder
    - `Local Storage` folder (if present)
-4. Restart ZelCore
+4. Restart Zelcore
 5. Log back into your wallet
 6. Run Smartify
 7. Allow time for complete resync (may take several minutes)
@@ -147,10 +151,10 @@ If the above solutions don't work, you may need to clear your local cache. This 
 
 1. Go to your device's **Settings**
 2. Find **Apps** or **Application Manager**
-3. Locate **ZelCore**
+3. Locate **Zelcore**
 4. Tap **Storage**
 5. Tap **Clear Cache** (NOT "Clear Data" - this will erase your wallet)
-6. Open ZelCore
+6. Open Zelcore
 7. Run Smartify
 
 ### Solution 5: Verify on Block Explorer
@@ -158,7 +162,7 @@ If the above solutions don't work, you may need to clear your local cache. This 
 To confirm your assets are actually on the blockchain before troubleshooting further:
 
 1. Locate your wallet address for the specific asset:
-   - In ZelCore, select the asset
+   - In Zelcore, select the asset
    - Tap/click on the address to copy it
 2. Visit the appropriate block explorer:
    - Bitcoin: blockchain.com or blockchair.com
@@ -168,7 +172,7 @@ To confirm your assets are actually on the blockchain before troubleshooting fur
 3. Paste your address in the search bar
 4. Verify your balance and recent transactions
 
-If the balance shows correctly on the explorer but not in ZelCore, proceed with the solutions above.
+If the balance shows correctly on the explorer but not in Zelcore, proceed with the solutions above.
 
 ## Common Issues and Additional Troubleshooting
 
@@ -177,7 +181,7 @@ If the balance shows correctly on the explorer but not in ZelCore, proceed with 
 **Solution:**
 1. Wait 5-10 minutes and check again (blockchain sync can have delays)
 2. Try changing backend server (Solution 2)
-3. Update to the latest ZelCore version (Solution 3)
+3. Update to the latest Zelcore version (Solution 3)
 4. If the issue persists for more than 24 hours, contact support
 
 ### Issue: Only Some Assets Are Missing
@@ -185,7 +189,7 @@ If the balance shows correctly on the explorer but not in ZelCore, proceed with 
 **Solution:**
 1. The issue may be specific to that blockchain's nodes
 2. Check if the blockchain is undergoing maintenance
-3. Try removing and re-adding the specific asset in ZelCore
+3. Try removing and re-adding the specific asset in Zelcore
 4. Run Smartify after re-adding
 
 ### Issue: Balance Shows Correctly After Smartify but Disappears Again
@@ -194,7 +198,7 @@ If the balance shows correctly on the explorer but not in ZelCore, proceed with 
 1. This indicates a persistent backend connection issue
 2. Change your backend/proxy settings permanently
 3. Check your internet connection stability
-4. Ensure your firewall isn't blocking ZelCore
+4. Ensure your firewall isn't blocking Zelcore
 
 ### Issue: Mobile App Won't Complete Smartify
 
@@ -217,38 +221,38 @@ If the balance shows correctly on the explorer but not in ZelCore, proceed with 
 
 To minimize balance sync issues in the future:
 
-- **Keep ZelCore updated:** Enable automatic updates or check regularly
+- **Keep Zelcore updated:** Enable automatic updates or check regularly
 - **Regular Smartify:** Run Smartify weekly as preventive maintenance
 - **Stable internet:** Use reliable internet connections when checking balances
-- **Monitor updates:** Follow ZelCore announcements for known issues
+- **Monitor updates:** Follow Zelcore announcements for known issues
 - **Backup regularly:** Always maintain secure backups of your wallet
 
 ## When to Contact Support
 
-Contact ZelCore support if:
+Contact Zelcore support if:
 
 - Solutions above don't resolve the issue after 24-48 hours
-- You've verified assets on blockchain but they never appear in ZelCore
+- You've verified assets on blockchain but they never appear in Zelcore
 - You encounter error messages during Smartify
 - The issue affects multiple different blockchains simultaneously
 - You suspect a security issue or unauthorized access
 
 **Support Resources:**
-- Discord: Official ZelCore Discord server
-- Email: support@zel.network
-- Twitter: @zelcore for status updates
+- Discord: Official Zelcore Discord server
+- Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
+- X: [@zelcore_io](https://x.com/zelcore_io) for status updates
 
 ## Related Documentation
 
 - [Wallet Security Best Practices](../../security/best-practices/)
 - Understanding Blockchain Explorers (if available)
-- [ZelCore Features Overview](../../features/overview/)
+- [Zelcore Features Overview](../../features/overview/)
 
 ## Technical Background
 
 **Why do sync issues occur?**
 
-ZelCore relies on backend nodes to query blockchain data. When these nodes:
+Zelcore relies on backend nodes to query blockchain data. When these nodes:
 - Fall out of sync with the blockchain
 - Experience high load or downtime
 - Have network connectivity issues
@@ -257,4 +261,4 @@ ZelCore relies on backend nodes to query blockchain data. When these nodes:
 
 **Is my crypto safe during sync issues?**
 
-Yes. Your cryptocurrency remains secure on the blockchain. Balance display issues are purely cosmetic - they affect what you see in ZelCore's interface, not the actual blockchain state. Your assets are always controlled by your private keys, regardless of what the wallet displays.
+Yes. Your cryptocurrency remains secure on the blockchain. Balance display issues are purely cosmetic - they affect what you see in Zelcore's interface, not the actual blockchain state. Your assets are always controlled by your private keys, regardless of what the wallet displays.

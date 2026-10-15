@@ -1,22 +1,26 @@
 ---
 sidebar_position: 7
-title: Buy bStocks on ZelCore Mobile
-description: "Step-by-step walkthrough for adding tokenized US stocks (bStocks) in the ZelCore mobile app and buying them with USDT on BNB Smart Chain via Binance Web3."
+title: Buy bStocks on Zelcore Mobile
+description: "Step-by-step walkthrough for adding tokenized US stocks (bStocks) in the Zelcore mobile app and buying them with USDT on BNB Smart Chain via Binance Web3."
 keywords: [zelcore mobile, bstocks, tokenized stocks, buy stocks with usdt, binance web3 swap, bnb smart chain, msftb, android, ios]
 image: ./images/03-microsoft-bstock-details.webp
 ---
 
-# Buy bStocks on ZelCore Mobile
+# Buy bStocks on Zelcore Mobile
 
-This walkthrough shows how to add tokenized US stocks (bStocks) in the ZelCore mobile app and buy one with USDT on BNB Smart Chain. The screens are the same on Android and iOS. The example buys Microsoft (MSFTB) with 10 USDT.
+:::info Applies to Zelcore mobile 8.39
+The steps apply to Zelcore mobile 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
+:::
 
-For background on what bStocks are, dividends, fees, risks and country restrictions, read [bStocks in ZelCore](/docs/guides/bstocks-tokenized-stocks-guide).
+This walkthrough shows how to add tokenized US stocks (bStocks) in the Zelcore mobile app and buy one with USDT on BNB Smart Chain. The screens are the same on Android and iOS. The example buys Microsoft (MSFTB) with 10 USDT.
+
+For background on what bStocks are, dividends, fees, risks and country restrictions, read [bStocks in Zelcore](/docs/guides/bstocks-tokenized-stocks-guide).
 
 ---
 
 ## Prerequisites
 
-- ZelCore mobile 8.36 or later, logged in
+- Zelcore mobile 8.37 or later (we recommend the current release), logged in
 - Your connection located in a country where bStocks are available (the app hides them otherwise)
 - USDT (BSC) or BNB in the wallet you want to buy from
 - A little BNB in the same wallet for gas (the example swap cost about 0.0003 BNB)
@@ -125,10 +129,10 @@ Use the same Swap screen with the bStock in the upper box and **USDT (BSC)** in 
 
 ## Summary
 
-You added a bStock from the Add bStocks screen, checked its page and the Tokenized US equity chip, and bought Microsoft (MSFTB) with 10 USDT through Binance Web3. The tokens are held in your own BSC address in ZelCore, with no Binance account or KYC involved.
+You added a bStock from the Add bStocks screen, checked its page and the Tokenized US equity chip, and bought Microsoft (MSFTB) with 10 USDT through Binance Web3. The tokens are held in your own BSC address in Zelcore, with no Binance account or KYC involved.
 
 Related:
 
-- [bStocks in ZelCore: what they are, restrictions and risks](/docs/guides/bstocks-tokenized-stocks-guide)
-- [Buy bStocks on ZelCore Desktop](/docs/walkthroughs/bstocks-desktop)
-- [ZelCore mobile guide](/docs/guides/zelcore-mobile-guide)
+- [bStocks in Zelcore: what they are, restrictions and risks](/docs/guides/bstocks-tokenized-stocks-guide)
+- [Buy bStocks on Zelcore Desktop](/docs/walkthroughs/bstocks-desktop)
+- [Zelcore mobile guide](/docs/guides/zelcore-mobile-guide)

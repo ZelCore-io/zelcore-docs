@@ -1,17 +1,21 @@
 ---
 sidebar_position: 6
 title: Troubleshooting App Installation
-description: "Fix ZelCore app installation issues on desktop and mobile — download failures, permission errors, and update problems."
+description: "Fix Zelcore app installation issues on desktop and mobile — download failures, permission errors, and update problems."
 keywords: [zelcore install problem, crypto wallet installation, zelcore update]
 ---
 
-# Troubleshooting ZelCore App Installation and Updates
+# Troubleshooting Zelcore App Installation and Updates
+
+:::info Applies to Zelcore 8.39
+Written for Zelcore 8.39.0 (October 2026).
+:::
 
 ## Overview
 
-This guide addresses common problems users encounter when installing, updating, or auto-updating ZelCore wallet applications across different platforms (Windows, macOS, Linux, iOS, Android). Whether you're experiencing installation failures, update errors, or auto-update issues, this guide provides systematic solutions for each platform.
+This guide addresses common problems users encounter when installing, updating, or auto-updating Zelcore wallet applications across different platforms (Windows, macOS, Linux, iOS, Android). Whether you're experiencing installation failures, update errors, or auto-update issues, this guide provides systematic solutions for each platform.
 
-ZelCore releases regular updates to improve security, add features, and fix bugs. Keeping your app updated is critical for security and functionality, so resolving installation and update issues promptly is important.
+Zelcore releases regular updates to improve security, add features, and fix bugs. Keeping your app updated is critical for security and functionality, so resolving installation and update issues promptly is important.
 
 ## Prerequisites
 
@@ -46,7 +50,7 @@ You may be experiencing installation or update issues if you notice:
 
 **Step 1: Verify installer authenticity**
 
-Always download ZelCore from official sources:
+Always download Zelcore from official sources:
 - Official website: https://zelcore.io
 - Official GitHub releases: https://github.com/zelcash/zelcore/releases
 
@@ -54,7 +58,7 @@ Always download ZelCore from official sources:
 1. Right-click the installer file
 2. Select **Properties**
 3. Go to **Digital Signatures** tab
-4. Verify signer is legitimate ZelCore/Zel Technologies
+4. Verify signer is legitimate Zelcore/Zel Technologies
 
 **Step 2: Allow installation through SmartScreen**
 
@@ -70,7 +74,7 @@ Always download ZelCore from official sources:
 4. Scroll to **Exclusions**
 5. Click **Add or remove exclusions**
 6. Click **Add an exclusion** > **File**
-7. Browse to the ZelCore installer and select it
+7. Browse to the Zelcore installer and select it
 8. Run installer again
 
 **Prevention:**
@@ -87,18 +91,18 @@ Always download ZelCore from official sources:
 
 **Solution:**
 
-**Step 1: Close ZelCore completely**
+**Step 1: Close Zelcore completely**
 
-1. Right-click ZelCore icon in system tray (bottom right)
+1. Right-click Zelcore icon in system tray (bottom right)
 2. Select **Quit** or **Exit**
 3. Wait 10 seconds
 
 **Step 2: Force close if still running**
 
 1. Press **Ctrl + Shift + Esc** to open Task Manager
-2. Look for **ZelCore** or **zelcore.exe** in Processes
+2. Look for **Zelcore** or **zelcore.exe** in Processes
 3. Select it and click **End Task**
-4. Also end any related processes (ZelCore Helper, etc.)
+4. Also end any related processes (Zelcore Helper, etc.)
 
 **Step 3: Retry installation**
 
@@ -113,7 +117,7 @@ Restart your computer and attempt installation immediately after login
 ### Issue 3: Auto-Update Downloads But Doesn't Apply
 
 **Symptoms:**
-- ZelCore shows "Update downloaded"
+- Zelcore shows "Update downloaded"
 - Notification says to restart app to apply
 - After restart, still on old version
 - Update notification keeps reappearing
@@ -127,23 +131,23 @@ Instead of relying on auto-update:
 1. Visit https://zelcore.io
 2. Download latest version manually
 3. Run installer (will upgrade existing installation)
-4. Launch ZelCore
+4. Launch Zelcore
 5. Verify version number in Settings
 
 **Step 2: Clear update cache**
 
-1. Close ZelCore completely
+1. Close Zelcore completely
 2. Navigate to: `%APPDATA%\ZelCore`
 3. Delete the **pending-update** folder (if exists)
 4. Delete **update-cache** folder (if exists)
-5. Restart ZelCore
+5. Restart Zelcore
 6. Allow auto-update to download fresh
 
 **Step 3: Check permissions**
 
-Updates may fail if ZelCore lacks write permissions:
+Updates may fail if Zelcore lacks write permissions:
 
-1. Navigate to ZelCore installation folder (usually `C:\Program Files\ZelCore`)
+1. Navigate to Zelcore installation folder (usually `C:\Program Files\ZelCore`)
 2. Right-click the folder > **Properties**
 3. Go to **Security** tab
 4. Click **Edit**
@@ -151,12 +155,12 @@ Updates may fail if ZelCore lacks write permissions:
 6. Ensure **Full control** is checked
 7. Click **OK** and **Apply**
 
-**Step 4: Reinstall ZelCore**
+**Step 4: Reinstall Zelcore**
 
 If updates continue failing:
 
 1. **BACKUP YOUR WALLET** (write down seed phrase)
-2. Uninstall ZelCore via Windows Settings > Apps
+2. Uninstall Zelcore via Windows Settings > Apps
 3. Delete folder: `C:\Program Files\ZelCore` (if remains)
 4. Delete folder: `%APPDATA%\ZelCore`
 5. Download fresh installer from zelcore.io
@@ -206,17 +210,9 @@ Previous download may be corrupted:
 4. Verify download completed (check file size)
 5. Run new installer
 
-**Step 5: Use compatibility mode**
+**Step 5: Check your Windows version**
 
-For older Windows versions:
-
-1. Right-click installer
-2. Select **Properties**
-3. Go to **Compatibility** tab
-4. Check **Run this program in compatibility mode for:**
-5. Select **Windows 8** or **Windows 7**
-6. Click **Apply** and **OK**
-7. Run installer
+The Zelcore desktop app (8.39.0) is built on Electron 40, which supports Windows 10 and later only. It does not run on Windows 7 or 8, and compatibility mode does not change that. Update Windows or use Zelcore on another device.
 
 ## macOS Installation and Update Issues
 
@@ -233,11 +229,11 @@ For older Windows versions:
 
 **For macOS Ventura (13.0+):**
 
-1. Download ZelCore from zelcore.io
+1. Download Zelcore from zelcore.io
 2. Try to open the app
 3. When blocked, go to **System Settings** > **Privacy & Security**
 4. Scroll down to **Security** section
-5. You'll see message about ZelCore being blocked
+5. You'll see message about Zelcore being blocked
 6. Click **Open Anyway**
 7. Confirm by clicking **Open**
 
@@ -246,13 +242,13 @@ For older Windows versions:
 1. Go to **System Preferences** > **Security & Privacy**
 2. Click **General** tab
 3. Click the lock icon and enter password
-4. Find message about ZelCore being blocked
+4. Find message about Zelcore being blocked
 5. Click **Open Anyway**
 6. Confirm when prompted
 
 **Step 2: Alternative method - Control + Click**
 
-1. Locate ZelCore app in Applications folder
+1. Locate Zelcore app in Applications folder
 2. Hold **Control** key and click the app
 3. Select **Open** from menu
 4. Click **Open** in dialog box
@@ -321,34 +317,34 @@ If using Safari, try Chrome or Firefox, or vice versa.
 1. Go to https://zelcore.io
 2. Download latest macOS version
 3. Open DMG file
-4. Drag ZelCore to Applications (replace existing)
+4. Drag Zelcore to Applications (replace existing)
 5. Launch app
 6. Verify version in Settings
 
 **Step 2: Check app permissions**
 
 1. Go to **System Settings** > **Privacy & Security**
-2. Check **Full Disk Access** - ensure ZelCore is listed and enabled
-3. Check **Accessibility** - ensure ZelCore is listed and enabled
-4. Restart ZelCore
+2. Check **Full Disk Access** - ensure Zelcore is listed and enabled
+3. Check **Accessibility** - ensure Zelcore is listed and enabled
+4. Restart Zelcore
 
 **Step 3: Clear update cache**
 
 ```bash
-# Close ZelCore first
+# Close Zelcore first
 # Then in Terminal:
 rm -rf ~/Library/Application\ Support/ZelCore/pending-update
 rm -rf ~/Library/Application\ Support/ZelCore/update-cache
 ```
 
-Restart ZelCore and allow update to download again.
+Restart Zelcore and allow update to download again.
 
 **Step 4: Reinstall cleanly**
 
 ```bash
 # BACKUP YOUR WALLET FIRST
 
-# Close ZelCore, then:
+# Close Zelcore, then:
 rm -rf /Applications/ZelCore.app
 rm -rf ~/Library/Application\ Support/ZelCore
 rm -rf ~/Library/Caches/ZelCore
@@ -360,7 +356,7 @@ rm -rf ~/Library/Caches/ZelCore
 ### Issue 4: App Crashes After Update
 
 **Symptoms:**
-- ZelCore opens then immediately crashes
+- Zelcore opens then immediately crashes
 - Crash reporter appears
 - Can't access wallet after updating
 
@@ -370,18 +366,18 @@ rm -rf ~/Library/Caches/ZelCore
 
 1. Open **Console** app (in Applications > Utilities)
 2. Select your Mac in sidebar
-3. Search for "ZelCore"
+3. Search for "Zelcore"
 4. Look for crash logs or error messages
 5. Note any errors mentioning missing files or permissions
 
 **Step 2: Reset app preferences**
 
 ```bash
-# Close ZelCore
+# Close Zelcore
 rm ~/Library/Preferences/io.zelcore.wallet.plist
 ```
 
-Launch ZelCore again. Settings will reset but wallet remains.
+Launch Zelcore again. Settings will reset but wallet remains.
 
 **Step 3: Clear cache only** (preserves wallet)
 
@@ -404,8 +400,8 @@ rm -rf /Applications/ZelCore.app
 **Step 5: Check macOS version compatibility**
 
 Ensure your macOS version is supported:
-- macOS 10.13 (High Sierra) or later typically required
-- Check ZelCore release notes for minimum version
+- macOS 12 (Monterey) or later required (Apple Silicon or Intel)
+- Check Zelcore release notes for minimum version
 
 ## Linux Installation and Update Issues
 
@@ -459,7 +455,7 @@ cd squashfs-root
 ./zelcore
 ```
 
-### Issue 2: DEB/RPM Package Installation Fails
+### Issue 2: DEB Package Installation Fails
 
 **Symptoms:**
 - Package manager errors
@@ -475,36 +471,22 @@ cd squashfs-root
 sudo apt update
 sudo apt install -f
 
-# Install ZelCore
+# Install Zelcore
 sudo dpkg -i zelcore_*.deb
 
 # If dependency errors:
 sudo apt --fix-broken install
 ```
 
-**For RPM (Fedora/CentOS):**
+**Fedora and other non-Debian distributions:**
 
-```bash
-# Fedora
-sudo dnf install zelcore-*.rpm
-
-# CentOS
-sudo yum install zelcore-*.rpm
-
-# If dependency errors:
-sudo dnf install -y [missing-package]
-```
+Zelcore doesn't ship an RPM package. On Fedora and other non-Debian distributions, use the .AppImage.
 
 **Step 3: Use package manager GUI**
 
 **Ubuntu:**
 - Double-click .deb file
 - Opens in Ubuntu Software
-- Click Install
-
-**Fedora:**
-- Double-click .rpm file
-- Opens in Software
 - Click Install
 
 ### Issue 3: Auto-Update Not Working on Linux
@@ -522,7 +504,7 @@ AppImage doesn't auto-update. Manual update required:
 3. Replace old AppImage
 4. Run new version
 
-**For DEB/RPM users:**
+**For DEB users:**
 
 Updates may come through system package manager if repository was added.
 
@@ -532,14 +514,11 @@ Updates may come through system package manager if repository was added.
 # Ubuntu/Debian
 sudo apt update
 sudo apt upgrade zelcore
-
-# Fedora
-sudo dnf upgrade zelcore
 ```
 
 **Manual update:**
 
-Download new DEB/RPM and install over existing.
+Download the new .deb and install it over the existing one.
 
 ### Issue 4: Missing Dependencies
 
@@ -604,7 +583,7 @@ Install any libraries shown as "not found".
 
 1. Go to Settings > General > About
 2. Check iOS version
-3. ZelCore typically requires iOS 12.0 or later
+3. Zelcore requires iOS 15 or later
 4. Update iOS if needed: Settings > General > Software Update
 
 **Step 2: Check storage space**
@@ -633,7 +612,7 @@ Install any libraries shown as "not found".
 1. Open App Store
 2. Tap your profile icon (top right)
 3. Scroll down and pull to refresh
-4. Search for ZelCore again
+4. Search for Zelcore again
 5. Download
 
 ### Issue 2: App Update Fails or Hangs
@@ -658,9 +637,9 @@ Install any libraries shown as "not found".
 
 1. **Write down your 12/24-word seed phrase**
 2. **Verify you have backup phrase before proceeding**
-3. Delete ZelCore app (long-press icon > Remove App)
+3. Delete Zelcore app (long-press icon > Remove App)
 4. Go to App Store
-5. Re-download ZelCore
+5. Re-download Zelcore
 6. Restore wallet from seed phrase
 
 **Step 3: Check network connection**
@@ -681,7 +660,7 @@ Sometimes app updates require newer iOS:
 ### Issue 3: Auto-Update Disabled
 
 **Symptoms:**
-- ZelCore doesn't update automatically
+- Zelcore doesn't update automatically
 - Always on old version
 - Manual updates required
 
@@ -691,14 +670,14 @@ Sometimes app updates require newer iOS:
 
 1. Go to Settings > App Store
 2. Turn on **App Updates** toggle
-3. ZelCore will now auto-update when connected to Wi-Fi
+3. Zelcore will now auto-update when connected to Wi-Fi
 
 **Or update manually:**
 
 1. Open App Store
 2. Tap profile icon (top right)
 3. Scroll down to **Available Updates**
-4. Find ZelCore
+4. Find Zelcore
 5. Tap **Update**
 
 ## Android Installation and Update Issues
@@ -729,7 +708,7 @@ Sometimes app updates require newer iOS:
 **Step 2: Download from official source only**
 
 - Google Play Store (recommended)
-- Official ZelCore website: zelcore.io
+- Official Zelcore website: zelcore.io
 
 Do not install from third-party APK sites.
 
@@ -757,13 +736,13 @@ Do not install from third-party APK sites.
 **CRITICAL: BACKUP WALLET FIRST**
 
 **Step 1: Backup wallet**
-1. Open ZelCore (if accessible)
+1. Open Zelcore (if accessible)
 2. Write down 12/24-word seed phrase
 3. Verify backup phrase is correct
 
 **Step 2: Uninstall existing version**
 1. Go to Settings > Apps
-2. Find ZelCore
+2. Find Zelcore
 3. Tap **Uninstall**
 4. Confirm
 
@@ -819,9 +798,9 @@ Incorrect date/time can cause Play Store errors:
 **BACKUP WALLET FIRST**
 
 1. Backup seed phrase
-2. Uninstall ZelCore
+2. Uninstall Zelcore
 3. Open Play Store
-4. Search for ZelCore
+4. Search for Zelcore
 5. Install
 6. Restore wallet
 
@@ -844,7 +823,7 @@ Only download APK from official zelcore.io - never from third-party sites.
 2. Tap profile icon > Play Protect
 3. Tap gear icon (settings)
 4. Disable **Scan apps with Play Protect**
-5. Install ZelCore APK
+5. Install Zelcore APK
 6. Re-enable Play Protect after installation
 
 **Step 3: Use Play Store instead**
@@ -892,7 +871,7 @@ Many installation/update issues stem from connectivity:
 - Major troubleshooting
 
 **Backup process:**
-1. Open ZelCore (if accessible)
+1. Open Zelcore (if accessible)
 2. Go to Settings
 3. Find your wallet's seed phrase or backup option
 4. Write down 12 or 24-word seed phrase
@@ -918,23 +897,23 @@ Many installation/update issues stem from connectivity:
 **Minimum requirements vary by platform:**
 
 **Windows:**
-- Windows 7 or later (Windows 10/11 recommended)
+- Windows 10 or later (Zelcore desktop 8.39.0 does not support Windows 7 or 8)
 - 2GB RAM minimum (4GB recommended)
 - 500MB free disk space
 
 **macOS:**
-- macOS 10.13 (High Sierra) or later
+- macOS 12 (Monterey) or later, Apple Silicon or Intel
 - 2GB RAM minimum
 - 500MB free disk space
 
 **Linux:**
-- Ubuntu 18.04+ / Debian 9+ / Fedora 30+
+- .deb (Ubuntu/Debian) or .AppImage (other distributions)
 - 2GB RAM minimum
 - 500MB free disk space
 - FUSE support (for AppImage)
 
 **iOS:**
-- iOS 12.0 or later
+- iOS 15 or later
 - 200MB free storage
 
 **Android:**
@@ -948,7 +927,7 @@ Many installation/update issues stem from connectivity:
 **Enable auto-updates:**
 
 **Windows/macOS/Linux:**
-- ZelCore checks for updates automatically
+- Zelcore checks for updates automatically
 - Apply updates when notified
 
 **iOS:**
@@ -981,7 +960,7 @@ Many installation/update issues stem from connectivity:
 
 ## When to Seek Additional Help
 
-Contact ZelCore support if:
+Contact Zelcore support if:
 
 - Installation fails after trying all platform-specific solutions
 - Updates consistently fail despite troubleshooting
@@ -991,22 +970,22 @@ Contact ZelCore support if:
 
 ### Where to Get Help
 
-**Official ZelCore Discord:**
+**Official Zelcore Discord:**
 - #zelcore-support channel
-- Provide: Platform, ZelCore version, specific error messages, steps tried
+- Provide: Platform, Zelcore version, specific error messages, steps tried
 
-**ZelCore Telegram:**
+**Zelcore Telegram:**
 - Active community support
 - Share screenshots of errors (but NEVER share seed phrases)
 
-**ZelCore Website:**
-- https://zelcore.io/support
+**Zelcore Website:**
+- https://support.zelcore.io
 - Submit support tickets
 - Check FAQs
 
 **When asking for help, include:**
 1. Operating system and version (Windows 11, macOS 14.2, Android 13, etc.)
-2. ZelCore version you're trying to install/update to
+2. Zelcore version you're trying to install/update to
 3. Exact error message (screenshot if possible)
 4. Steps you've already tried from this guide
 5. Whether this is fresh install or update
@@ -1019,14 +998,14 @@ Contact ZelCore support if:
 
 ## Related Documentation
 
-- [ZelCore Installation Guide](../../getting-started/installation/) (if available)
+- [Zelcore Installation Guide](../../getting-started/installation/) (if available)
 - [Troubleshooting Balance and Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
 - [Security Best Practices](../../guides/security-best-practices/)
 - [Wallet Backup and Recovery](../../getting-started/create-wallet/) (if available)
 
 ## Conclusion
 
-Most ZelCore installation and update issues can be resolved through:
+Most Zelcore installation and update issues can be resolved through:
 
 1. **Platform-specific troubleshooting** - Follow the section for your OS
 2. **Clean reinstallation** - Often the most reliable fix (always backup first)

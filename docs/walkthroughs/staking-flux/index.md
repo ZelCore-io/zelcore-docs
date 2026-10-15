@@ -1,21 +1,25 @@
 ---
 sidebar_position: 2
-title: How to Stake FLUX with ZelCore Earn
-description: Step-by-step guide to staking FLUX using the ZelCore Earn feature, including wallet selection, lockup tiers, and Auto-Reinvest.
+title: How to Stake FLUX with Zelcore Earn
+description: Step-by-step guide to staking FLUX using the Zelcore Earn feature, including wallet selection, lockup tiers, and Auto-Reinvest.
 keywords: [zelcore, flux, staking, earn, apy, lockup, auto-reinvest]
 image: ./images/01-earn-dashboard.webp
 ---
 
-# How to Stake FLUX with ZelCore Earn
+# How to Stake FLUX with Zelcore Earn
 
-This guide walks you through staking FLUX using ZelCore's Earn feature. You'll learn how to navigate to Earn, select a wallet and chain, choose a lockup tier, and confirm your stake.
+:::info Applies to Zelcore 8.39
+The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
+:::
+
+This guide walks you through staking FLUX using Zelcore's Earn feature. You'll learn how to navigate to Earn, select a wallet and chain, choose a lockup tier, and confirm your stake.
 
 ---
 
 ## Prerequisites
 
-- A ZelCore wallet with FLUX tokens (minimum 50 FLUX to stake)
-- ZelCore desktop application installed and logged in
+- A Zelcore wallet with FLUX tokens (minimum 50 FLUX to stake)
+- Zelcore desktop application installed and logged in
 
 ---
 
@@ -58,7 +62,7 @@ Click on the **Selected Chain** dropdown to view supported chains.
 
 ![Supported Chains dialog showing Solana, Ethereum, and Flux](./images/03-supported-chains.webp)
 
-ZelCore Earn currently supports staking on the following chains:
+Zelcore Earn currently supports staking on the following chains:
 
 | Chain | Status |
 |-------|--------|
@@ -92,11 +96,13 @@ Choose your preferred lockup period. Longer lockup periods offer lower fees and 
 
 ![Lockup tier options showing 3 months, 6 months, and 1 year](./images/05-lockup-tiers.webp)
 
-| Lockup Period | Fee % | Est. APY |
-|---------------|-------|----------|
-| 3 months | 20% | ~12.10% |
-| 6 months | 15% | ~12.90% |
-| 1 year | 10% | ~13.70% |
+The fee and estimated APY for each lock-up are shown in the app before you confirm. As of October 2026 the fees were:
+
+| Lockup Period | Fee % (share of rewards) |
+|---------------|--------------------------|
+| 3 months | 50% |
+| 6 months | 40% |
+| 1 year | 30% |
 
 Select your preferred tier. In this example, we select **1 year** for the lowest fee and highest APY.
 
@@ -124,8 +130,8 @@ Review the summary of your staking configuration before confirming.
 |---------|-------|
 | Staked | 75 FLUX |
 | Lockup | 1 year |
-| Transaction Fee | 10% |
-| Est. APY | ~13.70% |
+| Transaction Fee | 30% (as of October 2026) |
+| Est. APY | Shown in the app before you confirm |
 | Auto-Reinvest | Yes |
 
 :::warning
@@ -169,7 +175,7 @@ After returning to the dashboard, you can see your new staking position in the l
 
 ## Summary
 
-To stake FLUX with ZelCore Earn:
+To stake FLUX with Zelcore Earn:
 
 1. **Navigate** to the Earn section from the side panel
 2. **Select** your wallet and the Flux chain

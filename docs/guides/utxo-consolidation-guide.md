@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: UTXO Consolidation Guide
-description: "Learn how to consolidate UTXOs in ZelCore to reduce transaction fees and improve wallet performance for Bitcoin-based assets."
+description: "Learn how to consolidate UTXOs in Zelcore to reduce transaction fees and improve wallet performance for Bitcoin-based assets."
 keywords: [utxo consolidation, bitcoin transaction fees, zelcore utxo, consolidate crypto]
 ---
 
@@ -25,9 +25,9 @@ This comprehensive guide explains what UTXOs are, why they cause problems for mi
 
 ## Prerequisites
 
-- ZelCore wallet with the affected cryptocurrency
+- Zelcore wallet with the affected cryptocurrency
 - Some cryptocurrency available to pay transaction fees
-- Basic understanding of sending transactions in ZelCore
+- Basic understanding of sending transactions in Zelcore
 - Patience (consolidation may require multiple transactions)
 
 ## Understanding UTXOs (For Non-Technical Users)
@@ -96,7 +96,7 @@ This method involves sending cryptocurrency to yourself, which combines multiple
 
 #### Step 1: Determine Your UTXO Count
 
-Unfortunately, ZelCore doesn't display your UTXO count directly. However, if you're experiencing the errors mentioned above, you likely need consolidation.
+Unfortunately, Zelcore doesn't display your UTXO count directly. However, if you're experiencing the errors mentioned above, you likely need consolidation.
 
 **Signs you need consolidation:**
 - Mining for more than 2-3 weeks continuously
@@ -106,7 +106,7 @@ Unfortunately, ZelCore doesn't display your UTXO count directly. However, if you
 
 #### Step 2: Get Your Receiving Address
 
-1. Open ZelCore wallet
+1. Open Zelcore wallet
 2. Select the cryptocurrency you want to consolidate (e.g., RTM, RVN)
 3. Navigate to the **Receive** tab
 4. **Copy your receiving address** (tap/click to copy)
@@ -136,7 +136,7 @@ Start with a small test transaction to consolidate some UTXOs:
 
 1. Wait for the transaction to be confirmed on the blockchain
    - Most UTXO coins: 1-6 confirmations (5-60 minutes)
-   - Check the transaction status in ZelCore's transaction history
+   - Check the transaction status in Zelcore's transaction history
 2. The consolidated funds will appear back in your wallet
 
 #### Step 5: Repeat the Process
@@ -168,7 +168,7 @@ Once you've done multiple consolidations:
 
 If self-sending doesn't work or you prefer a different approach:
 
-1. Create a new wallet address (in ZelCore or another wallet)
+1. Create a new wallet address (in Zelcore or another wallet)
 2. Send your entire balance to the new address in 2-3 transactions
 3. Each transaction consolidates the UTXOs used to create it
 4. The receiving address will have fewer, larger UTXOs
@@ -209,7 +209,7 @@ Kaspa has a built-in tool, so you do not need to send to yourself by hand. When 
 1. Open the KAS screen and select **Consolidate UTXOs**.
 2. Choose a **Fee priority** (Economy, Normal or Fast). The default is Economy.
 3. Review the estimate before anything is signed. It lists the UTXOs at the address, how many will be merged, the number of transactions, the network fee, and how many UTXOs you will have afterwards.
-4. Select **Consolidate UTXOs** again and confirm. The confirmation repeats the merge count and the total network fee. If d2FA is enabled, ZelCore asks for your PIN before signing.
+4. Select **Consolidate UTXOs** again and confirm. The confirmation repeats the merge count and the total network fee. If d2FA is enabled, Zelcore asks for your PIN before signing.
 5. The transactions are sent one after another and a progress bar shows how far along they are. Your balance and UTXO count update once the network accepts them.
 
 Things to know:
@@ -217,7 +217,7 @@ Things to know:
 - Each transaction merges up to 88 UTXOs and pays back to the same address. Only the network fee leaves your wallet.
 - At most 4,400 UTXOs are merged per run. If more remain, run it again later.
 - Newly mined UTXOs that cannot be spent yet, and UTXOs worth less than the fee to move them, are left alone. The dialog tells you how many.
-- If the UTXOs at the address change after the estimate, ZelCore asks you to review the new fee and confirm again.
+- If the UTXOs at the address change after the estimate, Zelcore asks you to review the new fee and confirm again.
 - Consolidation needs a software key. It is not available for a Kaspa address imported from a hardware wallet.
 
 ## Common Issues During Consolidation
@@ -266,8 +266,8 @@ Things to know:
 **Solution:**
 1. Send much smaller amounts (try 5-10% of balance)
 2. Consolidate in very small increments
-3. Try changing backend server in ZelCore settings
-4. Update ZelCore to the latest version
+3. Try changing backend server in Zelcore settings
+4. Update Zelcore to the latest version
 
 ## Technical Details and Limits
 
@@ -280,7 +280,7 @@ Different blockchains have different maximum transaction sizes:
 - Recommended max inputs: ~200-300 UTXOs per transaction
 - Block size: 1-4 MB depending on SegWit usage
 
-**Practical limits in ZelCore:**
+**Practical limits in Zelcore:**
 - Backend server limits may be lower than protocol limits
 - ~100-150 UTXOs per transaction typically works reliably
 - Larger transactions may trigger 413 errors
@@ -361,7 +361,7 @@ Some mining pools offer better UTXO management:
 
 ### How do I know how many UTXOs I have?
 
-ZelCore doesn't display UTXO counts directly. However:
+Zelcore doesn't display UTXO counts directly. However:
 - If you've been mining for weeks/months, you likely have many UTXOs
 - Encountering send errors is a strong indicator
 - Some blockchain explorers show UTXO count for addresses
@@ -429,7 +429,7 @@ Does NOT apply to:
 
 ## When to Contact Support
 
-Contact ZelCore support if:
+Contact Zelcore support if:
 
 - Consolidation attempts fail repeatedly
 - You get errors even when sending very small amounts
@@ -438,9 +438,9 @@ Contact ZelCore support if:
 - The issue persists after following all steps in this guide
 
 **Support Resources:**
-- Discord: Official ZelCore Discord server
-- Email: support@zel.network
-- Community: ZelCore community forums
+- Discord: Official Zelcore Discord server
+- Help desk: Open a ticket at [support.zelcore.io](https://support.zelcore.io)
+- Community: Zelcore community forums
 
 ## Conclusion
 

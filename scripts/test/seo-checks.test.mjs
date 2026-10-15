@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  sitemapProblems, pageProblems, faqParityProblems, decodeEntities, headingText,
+  sitemapProblems, sitemapWarnings, shallowCloneProblem, pageProblems, faqParityProblems, decodeEntities, headingText,
 } from '../lib/seo-checks.mjs';
 
 const url = (loc, lastmod) => `<url><loc>${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}</url>`;
@@ -17,9 +17,25 @@ test('sitemap: flags search and template pages', () => {
   assert.ok(p.some((m) => m.includes('/markdown-page/')));
 });
 
-test('sitemap: flags identical lastmod on every URL when there are more than 10', () => {
+test('sitemap: identical lastmod on every URL is a warning, not a problem', () => {
   const urls = Array.from({ length: 12 }, (_, i) => url(`https://docs.zelcore.io/docs/p${i}/`, '2026-10-12'));
-  assert.ok(sitemapProblems(sitemap(...urls)).some((m) => m.includes('lastmod')));
+  const xml = sitemap(...urls);
+  assert.deepEqual(sitemapProblems(xml), []);
+  assert.ok(sitemapWarnings(xml).some((m) => m.includes('2026-10-12')));
+});
+
+test('sitemap: varied lastmod gives no warning', () => {
+  const urls = Array.from({ length: 12 }, (_, i) => url(`https://docs.zelcore.io/docs/p${i}/`, `2026-0${(i % 3) + 1}-1${i % 9}`));
+  assert.deepEqual(sitemapWarnings(sitemap(...urls)), []);
+});
+
+test('shallow clone: git output "true" is a problem', () => {
+  assert.ok(shallowCloneProblem('true\n').includes('fetch-depth: 0'));
+});
+
+test('shallow clone: "false" and unavailable git are silent', () => {
+  assert.equal(shallowCloneProblem('false\n'), null);
+  assert.equal(shallowCloneProblem(null), null);
 });
 
 test('sitemap: accepts varied lastmod', () => {
@@ -131,4 +147,49 @@ test('page: property="robots" is accepted when a name="robots" tag is also prese
   assert.deepEqual(pageProblems(html({ head: both }), 'search/index.html'), []);
   const only = '<meta property="robots" content="noindex, follow">';
   assert.ok(pageProblems(html({ head: only }), 'x/index.html').some((m) => m.includes('property="robots"')));
+});
+
+test('brand: flags ZelCore in visible text but not in URLs or handles', () => {
+  const page = (body) => `<html><head><title>T | Zelcore Docs</title></head><body>${body}</body></html>`;
+  assert.ok(pageProblems(page('<p>Open ZelCore and…</p>'), 'a/index.html').some((m) => m.includes('ZelCore')));
+  assert.deepEqual(pageProblems(page('<a href="https://github.com/ZelCore-io/x">GitHub</a>'), 'a/index.html'), []);
+  assert.deepEqual(pageProblems(page('<p>github.com/ZelCore-io and @zelcore_io</p>'), 'a/index.html'), []);
+  assert.deepEqual(pageProblems(page('<p>Zelcore is fine</p>'), 'a/index.html'), []);
+});
+
+test('brand: flags ZelCore in the title and in JSON-LD name and headline', () => {
+  assert.ok(pageProblems(html({ title: 'ZelCore guide | Zelcore Docs' }), 'a/index.html').some((m) => m.includes('ZelCore')));
+  const bad = ld({ '@type': 'FAQPage', name: 'About ZelCore', headline: 'ZelCore', mainEntity: [{ '@type': 'Question', name: 'What is ZelCore?', acceptedAnswer: { '@type': 'Answer', text: 'ZelCore is a wallet' } }] });
+  assert.ok(pageProblems(html({ head: bad }), 'a/index.html').filter((m) => m.includes('JSON-LD')).length >= 1);
+  const ok = ld({ '@type': 'Article', name: 'About Zelcore', headline: 'Zelcore', url: 'https://github.com/ZelCore-io/x' });
+  assert.deepEqual(pageProblems(html({ head: ok }), 'a/index.html'), []);
+});
+
+test('brand: literal paths inside <code> and <pre> are exempt', () => {
+  const page = (body) => `<html><head><title>T | Zelcore Docs</title></head><body>${body}</body></html>`;
+  assert.deepEqual(pageProblems(page('<p>Delete <code>~/Library/Caches/ZelCore</code></p><pre><code>rm -rf /Applications/ZelCore.app</code></pre>'), 'a/index.html'), []);
+});
+
+test('page: flags links to zelcore.io/support', () => {
+  const p = pageProblems(html({ head: '' }).replace('<body>', '<body><a href="https://zelcore.io/support">x</a>'), 'a/index.html');
+  assert.ok(p.some((m) => m.includes('zelcore.io/support')));
+});
+
+test('page: flags zelcore.io/support sub-paths and single-quoted hrefs', () => {
+  for (const a of ["<a href=\"https://zelcore.io/support/solutions\">x</a>", "<a href='https://zelcore.io/support'>x</a>"]) {
+    const p = pageProblems(html({ head: '' }).replace('<body>', `<body>${a}`), 'a/index.html');
+    assert.ok(p.some((m) => m.includes('zelcore.io/support')), a);
+  }
+});
+
+test('page: does not flag look-alike zelcore.io/support URLs', () => {
+  for (const a of ['<a href="https://zelcore.io/supported-assets">x</a>', '<a href="https://support.zelcore.io">x</a>']) {
+    const p = pageProblems(html({ head: '' }).replace('<body>', `<body>${a}`), 'a/index.html');
+    assert.ok(!p.some((m) => m.includes('zelcore.io/support')), a);
+  }
+});
+
+test('page: accepts support.zelcore.io', () => {
+  const p = pageProblems(html({ head: '' }).replace('<body>', '<body><a href="https://support.zelcore.io">x</a>'), 'a/index.html');
+  assert.ok(!p.some((m) => m.includes('zelcore.io/support')));
 });

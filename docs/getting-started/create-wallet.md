@@ -1,11 +1,15 @@
 ---
 sidebar_position: 2
 title: Create a New Wallet
-description: "Create a new ZelCore wallet with a secure seed phrase. Learn how to set up your self-custodial crypto wallet from scratch."
+description: "Create a new Zelcore wallet with a secure seed phrase. Learn how to set up your self-custodial crypto wallet from scratch."
 keywords: [create crypto wallet, zelcore setup, seed phrase wallet, new wallet setup]
 ---
 
 # Create a New Wallet
+
+:::info Applies to Zelcore 8.39
+Written for Zelcore 8.39.0 (October 2026).
+:::
 
 Learn how to create your first Zelcore wallet and secure your crypto assets.
 
@@ -97,7 +101,7 @@ Your wallet is now ready to use. You can:
 - Set up d2FA for transaction verification
 - Use address whitelisting for frequent recipients
 - Enable transaction confirmations
-- Consider connecting a hardware wallet (Ledger or Trezor)
+- Consider connecting a hardware wallet (Ledger or Trezor, used with Zelcore desktop)
 
 ## Next Steps
 
@@ -109,8 +113,8 @@ Now that you've created your wallet, you can start using Zelcore to manage your 
 Go to **Settings** → **Security** → **Show Seed Phrase** (requires authentication). Write it down immediately.
 
 ### I want to create multiple wallets
-Zelcore supports multiple wallet profiles. Go to **Settings** → **Wallets** → **Add New Wallet**.
+Zelcore supports multiple wallets. Use **Add Wallet** in the app to create another one.
 
 ### Need more help?
-- Visit the [Support Center](https://zelcore.io/support)
+- Visit the [Support Center](https://support.zelcore.io)
 - Join the [Discord community](https://discord.gg/runonflux)

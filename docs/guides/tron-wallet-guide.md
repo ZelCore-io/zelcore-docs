@@ -1,15 +1,15 @@
 ---
 sidebar_position: 16
-title: How to Use TRON (TRX) in ZelCore
-description: "Complete guide to managing TRON (TRX) in your ZelCore wallet. Send, receive, and manage TRX and TRC-20 tokens with ZelCore's multi-chain support."
+title: How to Use TRON (TRX) in Zelcore
+description: "Complete guide to managing TRON (TRX) in your Zelcore wallet. Send, receive, and manage TRX and TRC-20 tokens with Zelcore's multi-chain support."
 keywords: [tron wallet, trx wallet, tron crypto wallet, manage trx]
 ---
 
-# How to Use TRON (TRX) in Your ZelCore Tron Wallet
+# How to Use TRON (TRX) in Your Zelcore Tron Wallet
 
 ## Overview
 
-ZelCore provides full-featured tron wallet support, allowing you to send, receive, and manage TRX alongside hundreds of other cryptocurrencies in a single application. As a TRX wallet integrated into a multi-chain environment, ZelCore makes it easy to work with the TRON blockchain whether you are transferring TRX, interacting with TRC-20 tokens, or exploring the broader TRON crypto ecosystem. This guide covers everything from initial setup to advanced topics like TRON's energy and bandwidth resource model.
+Zelcore provides full-featured tron wallet support, allowing you to send, receive, and manage TRX alongside 100,000+ other assets on 80+ blockchains (as of October 2026) in a single application. As a TRX wallet integrated into a multi-chain environment, Zelcore makes it easy to work with the TRON blockchain whether you are transferring TRX, interacting with TRC-20 tokens, or exploring the broader TRON crypto ecosystem. This guide covers everything from initial setup to advanced topics like TRON's energy and bandwidth resource model.
 
 ## What Is TRON?
 
@@ -33,11 +33,11 @@ TRX is the native cryptocurrency of the TRON network. It serves several purposes
 - **Governance:** TRX holders can vote for Super Representatives who govern the network.
 - **Medium of exchange:** TRX is traded on virtually every major cryptocurrency exchange.
 
-## Adding TRON (TRX) to ZelCore
+## Adding TRON (TRX) to Zelcore
 
-### Step 1: Create or Log In to Your ZelCore Account
+### Step 1: Create or Log In to Your Zelcore Account
 
-If you are new to ZelCore, follow the [wallet creation guide](/docs/getting-started/create-wallet/) to set up your account. If you already have an account, simply log in.
+If you are new to Zelcore, follow the [wallet creation guide](/docs/getting-started/create-wallet/) to set up your account. If you already have an account, simply log in.
 
 ### Step 2: Add TRX to Your Portfolio
 
@@ -46,11 +46,11 @@ If you are new to ZelCore, follow the [wallet creation guide](/docs/getting-star
 3. Select **TRON (TRX)** from the results.
 4. TRX now appears in your portfolio with your unique TRON address.
 
-Your TRON address in ZelCore begins with the letter **T** followed by a string of alphanumeric characters (for example, `TXyz...abc`). This same address is used for receiving both TRX and any TRC-20 tokens.
+Your TRON address in Zelcore begins with the letter **T** followed by a string of alphanumeric characters (for example, `TXyz...abc`). This same address is used for receiving both TRX and any TRC-20 tokens.
 
 ## Sending TRX
 
-To send TRX from ZelCore:
+To send TRX from Zelcore:
 
 1. Select **TRX** from your portfolio.
 2. Tap **Send**.
@@ -71,7 +71,7 @@ Simple TRX-to-TRX transfers are the cheapest transactions on the TRON network. I
 
 ## Receiving TRX
 
-To receive TRX in ZelCore:
+To receive TRX in Zelcore:
 
 1. Select **TRX** from your portfolio.
 2. Tap **Receive**.
@@ -115,9 +115,9 @@ TRON has a unique resource model that differs from most blockchains. Instead of 
 Staking TRX for energy is the most cost-effective strategy if you frequently send TRC-20 tokens. The staked TRX is not spent — it remains yours and can be unstaked after a waiting period (typically 14 days).
 :::
 
-## Managing TRC-20 Tokens in ZelCore
+## Managing TRC-20 Tokens in Zelcore
 
-Your ZelCore TRON wallet supports all TRC-20 tokens. Once you have added TRX to your portfolio, you can add any TRC-20 token using the same process:
+Your Zelcore TRON wallet supports all TRC-20 tokens. Once you have added TRX to your portfolio, you can add any TRC-20 token using the same process:
 
 1. Tap **+** on the Portfolio screen.
 2. Search for the token name (for example, USDT).
@@ -134,7 +134,7 @@ The TRON blockchain hosts a growing decentralized finance ecosystem. Some notabl
 - **JustStable (USDJ):** A decentralized stablecoin system built on TRON.
 - **APENFT:** An NFT marketplace and platform on TRON.
 
-While ZelCore does not directly integrate all DeFi platforms, you can use ZelCore as your primary TRON wallet to hold and manage the tokens used across these ecosystems. Transfer TRX and TRC-20 tokens from ZelCore to interact with TRON DeFi applications as needed.
+While Zelcore does not directly integrate all DeFi platforms, you can use Zelcore as your primary TRON wallet to hold and manage the tokens used across these ecosystems. Transfer TRX and TRC-20 tokens from Zelcore to interact with TRON DeFi applications as needed.
 
 ## Troubleshooting Common TRON Issues
 
@@ -156,29 +156,29 @@ While ZelCore does not directly integrate all DeFi platforms, you can use ZelCor
 Exchanges may impose minimum withdrawal amounts and charge their own withdrawal fees (separate from TRON network fees). Common tips:
 
 - Select **TRX** or **TRON** as the withdrawal network on the exchange.
-- Double-check your ZelCore TRON address before confirming.
+- Double-check your Zelcore TRON address before confirming.
 - Allow a few minutes for the exchange to process and broadcast the withdrawal.
 
 ### Account Not Activated
 
-New TRON addresses must be "activated" by receiving at least 0.1 TRX (or any transaction) before they can send transactions. If your ZelCore TRON wallet is brand new, you need to receive TRX before you can send anything.
+New TRON addresses must be "activated" by receiving at least 0.1 TRX (or any transaction) before they can send transactions. If your Zelcore TRON wallet is brand new, you need to receive TRX before you can send anything.
 
 :::warning
 Do not confuse TRON's TRX with tokens on other networks. If someone sends you "TRX" via Ethereum or another chain, it is a wrapped version and will not appear in your TRON wallet. Always confirm the sender is using the native TRON network.
 :::
 
-## Why Choose TRON in ZelCore
+## Why Choose TRON in Zelcore
 
-ZelCore's TRON wallet integration offers several advantages:
+Zelcore's TRON wallet integration offers several advantages:
 
-- **Unified portfolio:** Manage TRX alongside Bitcoin, Ethereum, and hundreds of other assets in one application.
+- **Unified portfolio:** Manage TRX alongside Bitcoin, Ethereum, and 100,000+ other assets on 80+ blockchains in one application.
 - **Full TRC-20 support:** Access all major TRC-20 tokens without needing a separate TRON-specific wallet.
 - **Cross-platform:** Use the same TRON wallet on desktop, iOS, and Android.
-- **Self-custodial:** Your TRON private keys are generated and stored locally on your device. ZelCore never has access to your funds.
-- **No additional setup:** Adding TRX to ZelCore takes seconds. No special TRON wallet configuration is required.
+- **Self-custodial:** Your TRON private keys are generated and stored locally on your device. Zelcore never has access to your funds.
+- **No additional setup:** Adding TRX to Zelcore takes seconds. No special TRON wallet configuration is required.
 
-For more information about TRON support and ZelCore's broader ecosystem integration, visit [zelcore.io/ecosystem/projects/tron](https://zelcore.io/ecosystem/projects/tron).
+For more information about TRON support and Zelcore's broader ecosystem integration, visit [zelcore.io/ecosystem/projects/tron](https://zelcore.io/ecosystem/projects/tron).
 
 ## Summary
 
-TRON is one of the most actively used blockchains in crypto, and ZelCore provides a complete tron crypto wallet experience for managing TRX and TRC-20 tokens. Remember to keep TRX in your wallet for transaction fees, understand the difference between bandwidth and energy, and always verify addresses and networks before sending or receiving. With ZelCore's multi-chain support, you can manage your entire crypto portfolio — including TRON — from a single, self-custodial application.
+TRON is one of the most actively used blockchains in crypto, and Zelcore provides a complete tron crypto wallet experience for managing TRX and TRC-20 tokens. Remember to keep TRX in your wallet for transaction fees, understand the difference between bandwidth and energy, and always verify addresses and networks before sending or receiving. With Zelcore's multi-chain support, you can manage your entire crypto portfolio — including TRON — from a single, self-custodial application.
