@@ -166,3 +166,4 @@ data/
 
 # Generated files from ticket parsing
 data/output/
+!scripts/lib/
