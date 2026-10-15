@@ -7,7 +7,7 @@ keywords: [zelcore accounts, seed phrase account, legacy account, multi wallet c
 
 # Understanding Zelcore Accounts
 
-Learn about Zelcore's account system, the transition from legacy to modern accounts, and how to access your wallet on different devices.
+Zelcore has two account types: modern seed phrase (BIP44) accounts, which work on every device and are recommended for all new users, and legacy username and password accounts, which are deprecated and can no longer be created. On a new device choose **Sync** to open an existing wallet with your seed phrase or legacy login, and **Register** only to create a brand-new wallet; choosing Register by mistake creates an empty wallet, and your existing funds stay safe on the blockchain.
 
 :::warning Legacy login is deprecated
 Legacy (username and password) login is deprecated and will be phased out. It still works in Zelcore 8.39, but migrate to a seed-phrase wallet now. See the [official migration page](https://zelcore.io/legacy-login-deprecated).

@@ -7,11 +7,11 @@ keywords: [import wallet, restore crypto wallet, seed phrase recovery, migrate w
 
 # Import Existing Wallet
 
+You can import a Zelcore wallet from a seed phrase (12, 18 or 24 words), a private key (WIF or hex), a Ledger or Trezor hardware wallet (Zelcore desktop only) or WalletConnect. A seed phrase is the most common method and restores the whole wallet; a private key imports a single address.
+
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
 :::
-
-Already have a Zelcore wallet or want to import from another wallet? Learn how to restore or import your existing crypto wallet.
 
 ## Import Methods
 

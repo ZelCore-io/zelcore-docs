@@ -7,11 +7,13 @@ keywords: [create crypto wallet, zelcore setup, seed phrase wallet, new wallet s
 
 # Create a New Wallet
 
+To create a Zelcore wallet, open the app, click **Get Started**, generate a 12, 18 or 24-word seed phrase (24 is the default), write it down and verify it, then name the wallet and set an Easy Login passphrase. Setting up d2FA afterwards is optional but recommended.
+
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
-This page is the complete text procedure for creating a seed phrase wallet in Zelcore. For the same steps with screenshots, see the [Zelcore Wallet Setup Guide](/docs/walkthroughs/zelcore-setup-guide). For background on seed phrases, see [Seed phrases explained](https://zelcore.io/academy/basics/seed-phrases-explained) on zelcore.io.
+This page is the complete text procedure. For the same steps with screenshots, see the [Zelcore Wallet Setup Guide](/docs/walkthroughs/zelcore-setup-guide). For background on seed phrases, see [Seed phrases explained](https://zelcore.io/academy/basics/seed-phrases-explained) on zelcore.io.
 
 ## Before You Start
 
