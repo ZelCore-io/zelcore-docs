@@ -72,7 +72,8 @@ const config: Config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        name: 'ZelCore',
+        '@id': 'https://zelcore.io/#organization',
+        name: 'Zelcore',
         url: 'https://zelcore.io',
         logo: 'https://docs.zelcore.io/img/logo.svg',
         sameAs: [
@@ -164,7 +165,6 @@ const config: Config = {
     metadata: [
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@zelcore_io' },
-      { property: 'og:type', content: 'website' },
       { property: 'og:site_name', content: 'Zelcore Docs' },
     ],
     image: 'img/og-default.png',

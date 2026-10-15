@@ -1,4 +1,5 @@
 import type {ReactNode} from 'react';
+import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
@@ -200,6 +201,18 @@ export default function Home(): ReactNode {
     <Layout
       title="Wallet Guides, FAQs and Walkthroughs"
       description="Secure and simple multi-chain cryptocurrency wallet documentation.">
+      <Head>
+        <meta property="og:type" content="website" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'Zelcore Docs',
+            url: 'https://docs.zelcore.io/',
+            publisher: {'@id': 'https://zelcore.io/#organization'},
+          })}
+        </script>
+      </Head>
       <Hero />
       <Features />
       <DocCategories />
