@@ -9,7 +9,7 @@ keywords: [trc20 wallet, trc20 tokens, usdt tron wallet, manage trc20]
 
 ## Overview
 
-Zelcore serves as a full-featured TRC20 wallet, allowing you to send, receive, and manage TRC-20 tokens seamlessly alongside 100,000+ other assets on 80+ blockchains. TRC-20 tokens — including the widely used USDT on TRON — benefit from extremely low transaction fees and fast confirmation times, making the TRON network one of the most popular choices for everyday token transfers. This guide covers everything you need to know about TRC-20 token management in Zelcore, from initial setup to advanced troubleshooting.
+Zelcore serves as a full-featured TRC20 wallet, allowing you to send, receive, and manage TRC-20 tokens seamlessly alongside 100,000+ other assets on 80+ blockchains (as of October 2026). TRC-20 tokens — including the widely used USDT on TRON — benefit from extremely low transaction fees and fast confirmation times, making the TRON network one of the most popular choices for everyday token transfers. This guide covers everything you need to know about TRC-20 token management in Zelcore, from initial setup to advanced troubleshooting.
 
 ## What Are TRC-20 Tokens?
 

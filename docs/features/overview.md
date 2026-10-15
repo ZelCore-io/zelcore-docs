@@ -13,12 +13,12 @@ Zelcore offers a comprehensive suite of features designed to give you complete c
 
 ### Multi-Chain Support
 
-Manage assets across 80+ blockchains from a single interface:
+Manage assets across 80+ blockchains (as of October 2026) from a single interface:
 
 - **Bitcoin** and Bitcoin-like chains (BCH, LTC, DOGE, etc.)
 - **Ethereum** and EVM-compatible chains (Polygon, BSC, Avalanche, etc.)
 - **Solana, Tron, Cardano, XRP, Cosmos**, and many more
-- Support for 100,000+ tokens across all chains
+- Support for 100,000+ tokens across all chains (as of October 2026)
 
 ### Portfolio Management
 
@@ -79,7 +79,6 @@ Stay informed with real-time market data:
 - Live price updates
 - 24h price changes
 - Market cap information
-- Price alerts (coming soon)
 
 ## Security Features
 
@@ -211,16 +210,6 @@ Save frequently used addresses:
 - Reduce errors in transactions
 - Import/export address lists
 
-## Coming Soon
-
-Zelcore is constantly evolving with weekly updates. Upcoming features include:
-
-- Price alerts and notifications
-- Advanced charting tools
-- Staking for more protocols
-- Enhanced NFT features
-- Mobile hardware wallet support expansion
-
 ## Platform Comparison
 
 | Feature | Desktop | Mobile | Browser Extension |
@@ -238,7 +227,7 @@ Zelcore is constantly evolving with weekly updates. Upcoming features include:
 
 ## Need More Details?
 
-More detailed guides for specific features will be added soon. Visit the [full feature list](https://zelcore.io/ecosystem/features) for a complete overview of everything Zelcore offers. Stay tuned for comprehensive tutorials on trading, NFTs, WalletConnect, and more.
+See the [guides](/docs/category/guides) and the [full feature list](https://zelcore.io/ecosystem/features) for a complete overview of everything Zelcore offers.
 
 ## Questions?
 

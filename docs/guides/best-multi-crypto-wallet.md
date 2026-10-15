@@ -61,7 +61,7 @@ Modern wallets differentiate themselves through integrated features that reduce 
 
 ### Zelcore
 
-Zelcore is a self-custodial multi-chain wallet that supports 80+ blockchains and 100,000+ assets. It is available on Windows, macOS, Linux, iOS, and Android.
+Zelcore is a self-custodial multi-chain wallet that supports 80+ blockchains and 100,000+ assets (as of October 2026). It is available on Windows, macOS, Linux, iOS, and Android.
 
 **Strengths:**
 

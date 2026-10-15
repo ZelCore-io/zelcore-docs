@@ -39,8 +39,8 @@ Access your wallet seamlessly across:
 - Independently audited by Cure53
 
 ### Extensive Blockchain Support
-- 80+ blockchains including Bitcoin, Ethereum, Solana, and more
-- 100,000+ [supported assets](https://zelcore.io/ecosystem/assets) across all major networks
+- 80+ blockchains (as of October 2026) including Bitcoin, Ethereum, Solana, and more
+- 100,000+ [supported assets](https://zelcore.io/ecosystem/assets) across all major networks (as of October 2026)
 - 100M+ NFTs across major networks
 
 ## Trusted by 500K+ Users

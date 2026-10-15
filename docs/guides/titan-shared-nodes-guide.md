@@ -18,7 +18,7 @@ Titan is a fractional node ownership service that pools contributions from multi
 ### Core Concept
 
 Traditional Flux nodes require:
-- **Significant collateral:** 1,000 FLUX (Cumulus), 12,500 FLUX (Nimbus), or 40,000 FLUX (Stratus)
+- **Significant collateral:** 1,000 FLUX (Cumulus), 12,500 FLUX (Nimbus), or 40,000 FLUX (Stratus), as of October 2026
 - **Technical expertise:** Server management, networking, troubleshooting
 - **Infrastructure:** VPS or dedicated server with specific requirements
 - **Time commitment:** Monitoring, updates, maintenance
@@ -48,7 +48,7 @@ Titan pools stakes from many users to run Stratus nodes. You stake any amount fr
 
 | Aspect | Titan Shared Node | Self-Managed Flux Node |
 |--------|-------------------|------------------------|
-| **Collateral Required** | Flexible (buy shares of any size) | 1,000 / 12,500 / 40,000 FLUX |
+| **Collateral Required** | Flexible (buy shares of any size) | 1,000 / 12,500 / 40,000 FLUX (as of October 2026) |
 | **Technical Skills** | None needed | Linux, networking, troubleshooting |
 | **Hardware** | Not needed (Titan provides) | VPS or dedicated server required |
 | **Setup Time** | Minutes (purchase in Zelcore) | Hours to days (initial setup) |

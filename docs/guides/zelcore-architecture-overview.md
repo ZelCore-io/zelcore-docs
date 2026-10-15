@@ -56,7 +56,7 @@ The practical implications of this **crypto wallet architecture** are significan
 
 ### How Zelcore Supports 100,000+ Assets
 
-Supporting 80+ blockchains and 100,000+ assets from a single application requires careful architectural planning. Zelcore achieves this through several layers:
+Supporting 80+ blockchains (as of October 2026) and 100,000+ assets from a single application requires careful architectural planning. Zelcore achieves this through several layers:
 
 **Chain-specific modules:** Each supported blockchain has a dedicated module within Zelcore that understands the network's transaction format, address encoding, signing algorithm, and consensus rules. For example:
 
