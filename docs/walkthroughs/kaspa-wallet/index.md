@@ -3,6 +3,7 @@ sidebar_position: 9
 title: "Kaspa (KAS) in Zelcore: KNS and KRC-20"
 description: Kaspa in ZelCore 8.39.0 - send to .kas names, import and verify KRC-20 tokens, consolidate UTXOs, view KCC tokens, use a Ledger and sign messages.
 keywords: [zelcore, kaspa, kas, kns, kaspa names, krc-20, krc20, kasplex, kcc, kron, ledger, utxo consolidation, sign message, kaspa ng, kasware]
+image: ./images/01-kns-send-resolved.webp
 ---
 
 # Kaspa (KAS) in ZelCore: Names, KRC-20 Tokens and Ledger
@@ -23,7 +24,7 @@ KNS is the Kaspa Name Service. A name such as `alice.kas` points to a Kaspa addr
 4. Compare that address with the one you expect.
 5. Enter the amount and send as usual.
 
-![Send form with a .kas name typed in the recipient field and the resolved address shown under it](./images/01-kns-send-resolved.jpg)
+![Send form with a .kas name typed in the recipient field and the resolved address shown under it](./images/01-kns-send-resolved.webp)
 
 **Send stays disabled until the name resolves.** While ZelCore looks it up, you see "Looking up alice.kas on KNS…".
 
@@ -60,7 +61,7 @@ When ZelCore finds tokens, it shows a **"KRC-20 tokens found"** notice. It tells
 2. Find the list called **Imported Kaspa Tokens**.
 3. Add the tokens you want to your portfolio.
 
-![Add Assets window showing the Imported Kaspa Tokens list](./images/02-imported-kaspa-tokens.jpg)
+![Add Assets window showing the Imported Kaspa Tokens list](./images/02-imported-kaspa-tokens.webp)
 
 ### Add a token by ticker and check it with Verify
 
@@ -74,7 +75,7 @@ Verify shows the token's logo, ticker, decimals, max supply, how much is minted,
 
 If the details look right, click **Import**.
 
-![Import Kaspa Token window after Verify, showing logo, ticker, decimals, max supply, minted and state](./images/03-verify-krc20-token.jpg)
+![Import Kaspa Token window after Verify, showing logo, ticker, decimals, max supply, minted and state](./images/03-verify-krc20-token.webp)
 
 ### Send a KRC-20 token
 
@@ -110,7 +111,7 @@ When your address holds more than 80 UTXOs, the Kaspa screen shows the count and
 - The network fee, with a choice of fee priority
 - UTXOs afterwards
 
-![Consolidate UTXOs window with the Economy, Normal and Fast fee priorities and the estimate](./images/05-consolidate-utxos.jpg)
+![Consolidate UTXOs window with the Economy, Normal and Fast fee priorities and the estimate](./images/05-consolidate-utxos.webp)
 
 Only the network fee leaves your wallet. The merged coins are paid back to the same address.
 
@@ -125,7 +126,7 @@ Consolidation needs a key that ZelCore holds. It is not available for hardware w
 - **Pending and failed.** A transaction the network has not accepted yet shows as pending. If the network still has not accepted it after about 10 minutes, it shows as an error instead of a success. Earlier versions showed these as successful.
 - **KRC-20 history.** Token screens now list transfers, mints, and marketplace trades. They used to be empty. Your KAS balance updates right after a KRC-20 send.
 
-![Kaspa transaction list with the Load More button at the bottom](./images/06-load-more-history.jpg)
+![Kaspa transaction list with the Load More button at the bottom](./images/06-load-more-history.webp)
 
 Token history and balances come from the Kasplex indexer. ZelCore is not responsible for the accuracy of indexer data.
 
@@ -139,7 +140,7 @@ For each token you see the balance, supply, and history. The information window 
 
 **You cannot send KCC tokens yet.** If you click **Send**, ZelCore says: "Viewing and receiving only. Sending this token is not supported yet."
 
-![KCC token information window showing the view-only note, covenant ID and format](./images/07-kcc-token-view-only.jpg)
+![KCC token information window showing the view-only note, covenant ID and format](./images/07-kcc-token-view-only.webp)
 
 If the token indexer or the Kaspa network is unavailable, ZelCore shows the last checked balance and the date.
 
@@ -154,7 +155,7 @@ You can import a Kaspa address from a Ledger device and send KAS from it.
 3. Follow the steps: **Select Coin**, **Open App on Device**, **Select Address**, **Confirm & Import**, then **Summary**.
 4. The address is shown on your Ledger. Check it and confirm.
 
-![Set up a hardware wallet: choose Ledger, then follow the steps to import Kaspa](./images/08-ledger-import-kaspa.jpg)
+![Set up a hardware wallet: choose Ledger, then follow the steps to import Kaspa](./images/08-ledger-import-kaspa.webp)
 
 To send, use **Send** as usual and approve the transaction on the device. Nothing is sent until you approve on the device.
 

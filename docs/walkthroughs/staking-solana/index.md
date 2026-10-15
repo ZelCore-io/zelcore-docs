@@ -3,6 +3,7 @@ sidebar_position: 3
 title: How to Stake Solana (SOL) with ZelCore Earn
 description: Step-by-step guide to staking Solana using the ZelCore Earn feature via the Chorus One staking provider.
 keywords: [zelcore, solana, sol, staking, earn, apy, chorus one, validator]
+image: ./images/03-earn-solana-dashboard.webp
 ---
 
 # How to Stake Solana (SOL) with ZelCore Earn
@@ -22,9 +23,9 @@ This guide walks you through staking Solana (SOL) using ZelCore's Earn feature. 
 
 From your **Portfolio** overview, open the Earn section. The staking function is available from the left side panel through the **Earn** tab, or through the top icon in the navigation bar.
 
-![Portfolio overview showing wallet holdings including Solana](./images/01-portfolio-overview.jpg)
+![Portfolio overview showing wallet holdings including Solana](./images/01-portfolio-overview.webp)
 
-![Sidebar navigation showing Earn option in the left panel](./images/02-sidebar-earn-navigation.jpg)
+![Sidebar navigation showing Earn option in the left panel](./images/02-sidebar-earn-navigation.webp)
 
 Click **Earn** in the left sidebar to open the staking dashboard.
 
@@ -34,7 +35,7 @@ Click **Earn** in the left sidebar to open the staking dashboard.
 
 On the Earn dashboard, use the **Selected Chain** selector to choose **Solana**. The dashboard displays an overview of your Solana staking activity:
 
-![Earn dashboard with Solana selected showing zero staking positions](./images/03-earn-solana-dashboard.jpg)
+![Earn dashboard with Solana selected showing zero staking positions](./images/03-earn-solana-dashboard.webp)
 
 - **Total Staked** — The total amount of SOL currently staked (0 SOL if no positions exist)
 - **Total Rewards** — Accumulated staking rewards
@@ -59,7 +60,7 @@ You can change the selected wallet or chain at any time to view or manage stakes
 
 Click the **Stake** button to begin. The staking process follows a two-step wizard: **Enter Amount** and **Confirm Stake**.
 
-![Enter amount to stake form with Stake Amount field and MAX button](./images/04-enter-stake-amount.jpg)
+![Enter amount to stake form with Stake Amount field and MAX button](./images/04-enter-stake-amount.webp)
 
 The staking form displays:
 
@@ -78,7 +79,7 @@ A small amount of SOL (0.00228288 SOL) must remain in your wallet for rent. This
 
 Enter the amount of SOL you want to stake. In this example, we stake **0.1 SOL** through the Chorus One staking provider. Once a valid amount is entered, the **Continue** button becomes active.
 
-![Stake amount field showing 0.1 SOL entered with Continue button active](./images/05-amount-entered.jpg)
+![Stake amount field showing 0.1 SOL entered with Continue button active](./images/05-amount-entered.webp)
 
 Click **Continue** to proceed to the confirmation step.
 
@@ -88,7 +89,7 @@ Click **Continue** to proceed to the confirmation step.
 
 The confirmation screen displays a summary of your staking details, including the validator, the staked amount, and the estimated APY. Review the information carefully before confirming.
 
-![Confirm Stake screen showing validator, staked amount, estimated APY, and commission](./images/06-confirm-stake.jpg)
+![Confirm Stake screen showing validator, staked amount, estimated APY, and commission](./images/06-confirm-stake.webp)
 
 | Detail | Value |
 |--------|-------|
@@ -113,7 +114,7 @@ Click **Confirm Stake** to submit the staking transaction.
 
 After confirming, you are returned to the Earn dashboard. Your new staking position appears with an **Activating** status. It should be activated in the next epoch.
 
-![Earn dashboard showing 0.1000 SOL staked with Activating status under Chorus One validator](./images/07-stake-activating.jpg)
+![Earn dashboard showing 0.1000 SOL staked with Activating status under Chorus One validator](./images/07-stake-activating.webp)
 
 The dashboard now reflects your updated staking summary:
 

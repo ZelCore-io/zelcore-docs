@@ -3,6 +3,7 @@ sidebar_position: 8
 title: "Export Transactions for Taxes (CSV)"
 description: Export your full ZelCore transaction history as CSV, XLSX or JSON for Koinly, CoinTracker, CoinLedger, 15 other tax tools or your accountant.
 keywords: [zelcore, tax, tax export, csv export, transaction history, koinly, cointracker, coinledger, cointracking, blockpit, zenledger, tokentax, crypto tax, custom mapping, address list]
+image: ./images/03-scope-step.webp
 ---
 
 # How to Export Your Transactions for Taxes with ZelCore Tax & CSV Export
@@ -36,11 +37,11 @@ There are two ways to open the export.
 
 **From the wallet menu.** On the Portfolio, open **See More Wallets** and choose **Tax & CSV export** at the bottom of the menu, under **Edit Wallet**. This opens the export for all your wallets and coins.
 
-![Wallet menu with the Tax & CSV export item](./images/01-wallet-menu-tax-export.jpg)
+![Wallet menu with the Tax & CSV export item](./images/01-wallet-menu-tax-export.webp)
 
 **From a coin screen.** Open a coin and click **Export CSV** in the coin's **All Actions** list. The export opens with that coin already selected.
 
-![Coin screen with the Export CSV link](./images/02-coin-screen-export-csv.jpg)
+![Coin screen with the Export CSV link](./images/02-coin-screen-export-csv.webp)
 
 :::note
 If a coin cannot be exported, **Export CSV** shows a message that explains why instead of opening the dialog. See [Troubleshooting](#troubleshooting-and-faq).
@@ -58,7 +59,7 @@ The **Coins** step is the first one.
 2. Under **Coins**, pick the coins. Use **Search coins** to find one, **All** and **Selected** to switch the list, **Select all available** to tick every coin that can be exported, and **Clear** to start over. You need at least one coin.
 3. Click **Next**.
 
-![Coins step with wallets ticked and several coins selected](./images/03-scope-step.jpg)
+![Coins step with wallets ticked and several coins selected](./images/03-scope-step.webp)
 
 Coins that cannot be exported are greyed out and show a short note, such as **Not available**.
 
@@ -82,7 +83,7 @@ On the **Period** step, pick one option:
 
 Then choose the **Time zone**: **UTC** or **Local time**. Days start at midnight in that zone, and both the first and the last day are included. A line under the options shows the exact dates, for example **From 2025-01-01 to 2025-12-31**.
 
-![Period step with a tax year selected and the resolved dates shown](./images/04-period-step.jpg)
+![Period step with a tax year selected and the resolved dates shown](./images/04-period-step.webp)
 
 Click **Next**.
 
@@ -105,9 +106,9 @@ If your tax tool is not listed, or you only need the data for your accountant, u
 
 See [Supported tax tools](#supported-tax-tools) for the full list.
 
-![The format list, grouped into ZelCore and accountant formats and tax tools](./images/06-format-list.jpg)
+![The format list, grouped into ZelCore and accountant formats and tax tools](./images/06-format-list.webp)
 
-![Format step with Koinly selected, fiat values on and the Files options](./images/05-format-step.jpg)
+![Format step with Koinly selected, fiat values on and the Files options](./images/05-format-step.webp)
 
 ### Files
 
@@ -140,7 +141,7 @@ Click **Start export**.
 
 The **Export** step lists each coin with its progress: **Waiting**, **Checking saved history**, **Fetching**, **Processing** and **Done**. It also shows the number of transactions and requests for each coin.
 
-![Finished export with the saved file path, import steps for the chosen tool and per-coin results](./images/09-export-result.jpg)
+![Finished export with the saved file path, import steps for the chosen tool and per-coin results](./images/09-export-result.webp)
 
 - **Hide** closes the window while the export keeps running. Open **Tax & CSV export** again to come back to it.
 - **Cancel export** stops it. Nothing is saved.
@@ -217,7 +218,7 @@ Cryptact and Recap only accept a single combined file, and ZelCore classic is al
 
 If no built-in format fits, build your own. On the **Format** step, click **New custom mapping…**. To change one you already saved, select it and click **Edit this mapping**.
 
-![Custom mapping editor with columns and preview](./images/07-custom-mapping-editor.jpg)
+![Custom mapping editor with columns and preview](./images/07-custom-mapping-editor.webp)
 
 The editor lets you set:
 
@@ -262,7 +263,7 @@ Some tax tools read your history themselves. For those, you give the tool your a
 3. Check the table. It shows the **Wallet**, **Coin**, **Chain** and **Address** for each row.
 4. Click **Copy list** to copy it, or **Save as CSV** to save a file named `zelcore-addresses-<date>.csv`.
 
-![Wallet addresses list with Copy list and Save as CSV buttons (addresses masked)](./images/08-address-list.jpg)
+![Wallet addresses list with Copy list and Save as CSV buttons (addresses masked)](./images/08-address-list.webp)
 
 The list holds **public addresses only**. It never contains private keys, view keys or seed phrases.
 
