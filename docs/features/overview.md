@@ -102,9 +102,9 @@ Your keys, your crypto:
 
 Next-generation authentication:
 
-- Authentication keys distributed across decentralized nodes
-- No single point of failure
-- Enhanced security without centralized servers
+- A numeric PIN you create in the Flux ID app, stored encrypted on the Flux blockchain rather than on a Zelcore server
+- Asked at login, before secure tasks such as sending and swapping, or both
+- Zelcore can't reset a lost PIN, so back it up
 - Optional but highly recommended
 - Setup, PIN prompts and errors: see [Set Up d2FA in Zelcore](/docs/security/d2fa)
 

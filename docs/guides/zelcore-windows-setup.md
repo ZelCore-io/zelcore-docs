@@ -107,7 +107,7 @@ When you launch Zelcore for the first time, the welcome screen's **Get Started**
 
 ## Configuring Zelcore on Windows
 
-To set up d2FA after creating your wallet, see step 8 of [Create a New Wallet](/docs/getting-started/create-wallet).
+To set up d2FA after creating your wallet, see [Set Up d2FA in Zelcore](/docs/security/d2fa).
 
 ### Windows-Specific Settings
 

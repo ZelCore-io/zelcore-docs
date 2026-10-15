@@ -383,43 +383,19 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 
 **Answer:**
 
-**d2FA** stands for "Decentralized Two-Factor Authentication" - Zelcore's enhanced security feature.
+d2FA (decentralized two-factor authentication) is a numeric PIN of up to 10 digits that you create in the **Flux ID** app. Zelcore encrypts the PIN and your d2FA options and stores them on the Flux blockchain, in a small FLUX transaction from the first Flux address in your account to your Flux ID address. No Zelcore server holds your PIN.
 
-**How d2FA works:**
-- Uses distributed blockchain network for verification
-- No centralized server stores your authentication data
-- PIN stored encrypted on the Flux blockchain; Zelcore asks for it before you send, swap, view private keys or use Flux ID
-- More secure than traditional SMS or app-based 2FA
+**How it differs from regular 2FA:**
+- Regular 2FA sends you a code by SMS or shows one in an authenticator app. d2FA is a PIN you choose and write down.
+- Zelcore reads your d2FA settings from the Flux blockchain each time you log in, so they follow your account to any device where you restore it.
+- Nobody at Zelcore can reset the PIN for you.
 
-**Key differences from regular 2FA:**
+**When Zelcore asks for the PIN:** depending on the options you tick, at login, before secure tasks (sending, swapping, viewing private keys, Flux ID operations and more), or both.
 
-**Traditional 2FA:**
-- Centralized servers (Google, SMS)
-- Vulnerable to server hacks
-- Can be intercepted (SMS)
-- Requires internet connection to central server
-
-**Zelcore d2FA:**
-- Decentralized blockchain-based
-- No central point of failure
-- Cannot be intercepted
-- Uses distributed node network
-
-**When d2FA is required:**
-- Sending funds
-- Swapping, including Swap Now and Fusion deposits
-- Earn (staking) actions
-- Viewing private keys
-- Flux ID operations
-
-**Setting up d2FA:**
-1. Go to Settings → Security
-2. Enable d2FA
-3. Create d2FA PIN (6-8 digits)
-4. Confirm PIN
-5. Backup PIN securely
+**Setting up d2FA:** open **Apps** → **Flux ID** → **Next** → **Flux ID d2FA**, not Settings. You need a small amount of confirmed FLUX (about 0.0002 as of October 2026) in the first Flux address of your account. See [Set Up d2FA in Zelcore](../../security/d2fa/) for the steps.
 
 **Related:**
+- [Set Up d2FA in Zelcore](../../security/d2fa/)
 - [Security Best Practices](../../security/best-practices/)
 
 ---
@@ -428,49 +404,20 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 
 **Answer:**
 
-You can reset your d2FA PIN using your seed phrase, but the process requires careful steps.
+Zelcore can't reset or recover a d2FA PIN, and the app has no "forgot PIN" option. Restoring your seed phrase doesn't reset it either: your d2FA settings are stored on the Flux blockchain, and Zelcore asks for the same PIN after you restore the account. What you can do depends on the options you ticked:
 
-**For seed phrase accounts:**
+**If the PIN is used only for secure tasks:** you can still log in. Open **Apps** → **Flux ID** → **Next** → **Flux ID d2FA**, keep the switch on **Change d2FA**, type a new PIN in **New PIN** and **Verify PIN**, choose the options, tick the backup checkbox, enter your password and select **Change d2FA**. Changing d2FA asks for your account password, not the old PIN. The new PIN works after the transaction is confirmed on the Flux blockchain and you log in again.
 
-1. **Have your seed phrase ready:**
-   - All 12, 18 or 24 words
-   - In correct order
-   - Spelled correctly
+**If the PIN is used for logging in:** Zelcore asks for the PIN before it opens your account, so you can't use the account in Zelcore without it. The app warns about this when you create the PIN: "If you lost the PIN you won't be able to use/access your account."
 
-2. **Reset d2FA:**
-   - Go to Settings → Security → d2FA
-   - Look for "Reset d2FA" or "Forgot PIN"
-   - May need to re-import wallet
-
-3. **Re-import method (if needed):**
-   - Log out of Zelcore
-   - Choose "Import Wallet"
-   - Enter your seed phrase
-   - Set up new d2FA PIN during import
-
-4. **Set new PIN:**
-   - Choose a memorable but secure PIN
-   - Write it down in secure location
-   - Don't use same PIN as device authentication
-
-**For legacy accounts:**
-
-- Contact Zelcore support
-- May require identity verification
-- Process may take 24-48 hours
+d2FA is a check in the Zelcore app and doesn't change your keys. Your seed phrase still controls your funds, so keep it as safe as ever.
 
 **Prevention:**
-- Write down d2FA PIN when you create it
-- Store separately from seed phrase
-- Don't use birthdates or obvious numbers
-- Test d2FA after setting up
-
-**Security note:**
-- Anyone with your seed phrase can reset d2FA
-- Keep seed phrase extremely secure
-- d2FA adds security but seed phrase is ultimate key
+- Write the PIN down when you create it and keep it offline, apart from your seed phrase
+- Don't use birthdates or other obvious numbers
 
 **Related:**
+- [Set Up d2FA in Zelcore](../../security/d2fa/#if-you-forget-your-pin)
 - [Security Best Practices](../../security/best-practices/)
 
 ---
@@ -479,60 +426,20 @@ You can reset your d2FA PIN using your seed phrase, but the process requires car
 
 **Answer:**
 
-d2FA failures usually relate to connectivity, incorrect PIN, or sync issues.
+Usually the PIN is wrong, or a recent change hasn't taken effect yet.
 
-**Common causes and solutions:**
+**"Wrong PIN - Access denied":** the PIN you typed doesn't match. Type it again carefully. The d2FA PIN is digits only (up to 10) and is not your device PIN or your account password.
 
-**1. Incorrect PIN:**
-- Verify you're entering the correct d2FA PIN
-- d2FA PIN is different from device PIN
-- Check for typos or caps lock
-- Try resetting PIN if you're unsure
+**You changed the PIN recently:** a new PIN works only after the change transaction is confirmed on the Flux blockchain and you log in again. Until then, Zelcore asks for your previous PIN.
 
-**2. Internet connection issues:**
-- d2FA requires internet to communicate with blockchain nodes
-- Check your connection is stable
-- Try switching between WiFi and mobile data
-- Disable VPN temporarily
+**At login, "Error while checking d2FA. Unable to log in at this time. Check your internet connection.":** Zelcore couldn't read your d2FA settings from the Flux network. Check your connection and try again.
 
-**3. App needs update:**
-- Update Zelcore to latest version
-- Restart app after updating
-- Try d2FA again
+Zelcore asks for the PIN on every secure task when that option is on, whatever the amount. If you no longer know the PIN, see the question above.
 
-**4. d2FA sync issues:**
-- Go to Settings → Smartify
-- Run Smartify to refresh connections
-- Try d2FA transaction again
-
-**5. Blockchain node problems:**
-- Specific blockchain nodes may be down
-- Try changing backend server (Settings → Backend)
-- Wait a few minutes and retry
-
-**6. Time sync issues (desktop):**
-- Computer clock must be accurate
-- Set to automatic time sync
-- Correct timezone
-- d2FA uses timestamps for verification
-
-**Step-by-step troubleshooting:**
-
-1. Verify internet connection
-2. Update Zelcore
-3. Run Smartify
-4. Verify d2FA PIN is correct
-5. Check device time is accurate
-6. Try different backend server
-7. Restart Zelcore
-8. Try transaction again
-
-**If still failing:**
-- Transaction amount may be below d2FA threshold
-- Disable and re-enable d2FA
-- Contact support with error messages
+For every d2FA message and what it means, see [d2FA error messages](../../security/d2fa/#d2fa-error-messages). If a message keeps coming back, contact [Zelcore support](https://support.zelcore.io).
 
 **Related:**
+- [Set Up d2FA in Zelcore](../../security/d2fa/)
 - [Security Best Practices](../../security/best-practices/)
 
 ---

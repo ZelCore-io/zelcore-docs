@@ -173,22 +173,21 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 **d2FA** stands for "Decentralized Two-Factor Authentication" - an additional security layer for Zelcore transactions.
 
 **How it works:**
-- Uses a distributed network to verify transactions
-- More secure than traditional 2FA
-- No reliance on a single centralized service
-- Protected by blockchain technology
+- You create a numeric PIN in the **Flux ID** app
+- Zelcore stores the PIN and your d2FA options encrypted on the Flux blockchain, not on a Zelcore server
+- Zelcore reads them each time you log in, on any device where you restore your account
 
 ### What is d2FA PIN?
 
 **d2FA PIN** is a personal identification number you set up for your d2FA.
 
 **Purpose:**
-- Asked before you send, swap, view private keys or use Flux ID
-- Prevents unauthorized sends
+- Asked at login, before secure tasks (sending, swapping, viewing private keys, Flux ID operations), or both, depending on the options you tick
+- Digits only, up to 10 digits
 - Stored encrypted on the Flux blockchain
 
 **Common issues:**
-- **Forgot d2FA PIN:** Can be reset using your seed phrase
+- **Forgot d2FA PIN:** Zelcore can't reset or recover it, and restoring your seed phrase doesn't reset it. If the PIN is used only for secure tasks, you can log in and set a new one with **Change d2FA** and your password. See [If you forget your PIN](/docs/security/d2fa#if-you-forget-your-pin)
 - **d2FA not working:** Check that you're connected to the internet
 - **d2FA setup failed:** Try updating Zelcore to the latest version
 
@@ -215,6 +214,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 - Different from your seed phrase
 
 **Step 5: Verify**
+- If d2FA is on for your account, Zelcore asks for your existing d2FA PIN. Restoring doesn't reset it (see [d2FA on a new device](/docs/security/d2fa#d2fa-on-a-new-device))
 - Wait for the wallet to sync (may take a few minutes)
 - Run Smartify to refresh balances
 - Check that your funds appear

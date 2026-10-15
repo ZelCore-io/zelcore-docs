@@ -6,7 +6,7 @@ keywords: [zelcore d2fa, decentralized two-factor authentication, d2fa pin, flux
 
 # Set Up d2FA in Zelcore
 
-d2FA is Zelcore's decentralized two-factor authentication: a numeric PIN that you create in the **Flux ID** app, not in Settings. Zelcore stores the PIN encrypted on the Flux blockchain by sending a small FLUX transaction from your Flux ID address to itself. Depending on the options you tick, Zelcore asks for the PIN when you log in, before secure tasks such as sending, swapping, viewing private keys and Flux ID operations, or both.
+d2FA is Zelcore's decentralized two-factor authentication: a numeric PIN that you create in the **Flux ID** app, not in Settings. Zelcore stores the PIN encrypted on the Flux blockchain by sending a small FLUX transaction from the first Flux address in your account to your Flux ID address. Depending on the options you tick, Zelcore asks for the PIN when you log in, before secure tasks such as sending, swapping, viewing private keys and Flux ID operations, or both.
 
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
@@ -16,7 +16,7 @@ Written for Zelcore 8.39.0 (October 2026).
 
 - **Hold a little confirmed FLUX.** The setup transaction is paid from the first Flux address in your account. The app says: "d2FA requires a small amount of FLUX (~0.0002) to be present in your wallet to broadcast a d2FA 'enable' transaction." That figure is as of October 2026.
 - **Decide how you will back up the PIN.** Write it down and keep it offline, the same way you keep your seed phrase.
-- **Know what happens if you lose it.** The app's own warning: "You will not be able to sign or perform security tasks without this PIN number. The PIN number is stored fully encrypted on the blockchain. No one except you can modify your d2FA signature. If you lost the PIN you won't be able to use/access your account. Make sure you backup the PIN." Zelcore can't reset it for you.
+- **Know what happens if you lose it.** The app's own warning: "You will not be able to sign or perform security tasks without this PIN number. The PIN number is stored fully encrypted on the blockchain. No one except you can modify your d2FA signature. If you lost the PIN you won't be able to use/access your account. Make sure you backup the PIN." Zelcore can't reset or recover the PIN, and restoring your seed phrase doesn't remove d2FA. See [If you forget your PIN](#if-you-forget-your-pin).
 
 ## Set up d2FA
 
@@ -27,7 +27,7 @@ The same Flux ID screens are in the desktop app, the mobile app and the browser 
 2. On the **Security Area** screen, select **Next**.
 3. Under **Actions**, choose **Flux ID d2FA**. The status panel shows **d2FA hasn't been setup yet**.
    <!-- screenshot: d2fa-2 (Security Area with the status panel and the Flux ID d2FA action) -->
-4. Type a PIN in **New PIN** and the same PIN again in **Verify PIN**. The PIN is digits only.
+4. Type a PIN in **New PIN** and the same PIN again in **Verify PIN**. The PIN is digits only, up to 10 digits.
 5. Choose when Zelcore should ask for the PIN. Both options are ticked by default; untick any you don't want, but keep at least one:
    - **Used for logging into Zelcore**
    - **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**
@@ -66,7 +66,7 @@ To change the PIN or the options:
 
 1. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**.
 2. Keep the switch on **Change d2FA**.
-3. Fill in **New PIN**, **Verify PIN**, the options and the backup checkbox, then your password.
+3. Fill in **New PIN**, **Verify PIN**, the options and the backup checkbox, then your password. Changing d2FA asks for your account password, not your current PIN.
 4. Select **Change d2FA**. As with setup, the new settings apply after the transaction is confirmed and you log in again. Until then, log in with your previous settings.
 
 To turn d2FA off:
@@ -74,7 +74,20 @@ To turn d2FA off:
 1. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**.
 2. Move the switch to **Disable d2FA**.
 3. Type your current PIN in **Verify PIN**.
-4. Select **Disable d2FA**. There is no confirmation step: Zelcore sends a small FLUX transaction to turn d2FA off as soon as you select it.
+4. Select **Disable d2FA**. Turning d2FA off needs your current PIN. There is no confirmation step: Zelcore sends a small FLUX transaction to turn d2FA off as soon as you select it.
+
+## If you forget your PIN
+
+Zelcore has no reset or "forgot PIN" option, and nobody at Zelcore can see or reset your PIN. What you can do depends on the options you ticked:
+
+- **PIN used only for secure tasks.** You can still log in. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**, keep the switch on **Change d2FA** and set a new PIN with your account password, as in [Change or disable d2FA](#change-or-disable-d2fa). The new PIN works after the transaction is confirmed and you log in again.
+- **PIN used for logging in.** Zelcore asks for the PIN before it opens your account, so without it you can't use the account in Zelcore. The app warns about this when you create the PIN.
+
+d2FA is a check in the Zelcore app. It doesn't change your keys, so your seed phrase still controls your funds.
+
+## d2FA on a new device
+
+Your d2FA settings live on the Flux blockchain, not on your device. When you restore your account on another device, Zelcore reads them when you log in and asks for the same PIN as before. Restoring the seed phrase doesn't set up a new PIN or turn d2FA off.
 
 ## d2FA error messages
 
@@ -84,15 +97,11 @@ The first Flux address in your account doesn't hold enough confirmed FLUX for th
 
 ### Your PIN is too long
 
-The PIN is longer than the app allows. Choose a shorter numeric PIN.
+The PIN can have at most 10 digits. Choose a shorter numeric PIN.
 
 ### PIN must be a number
 
-Use digits only.
-
-### Please enter a PIN
-
-A PIN field is empty. Type the PIN in both **New PIN** and **Verify PIN**.
+Use digits only. Zelcore also shows this message when **New PIN** is empty.
 
 ### The PINs do not match
 
@@ -112,7 +121,7 @@ The PIN you typed before a secure task is wrong. Type it again carefully.
 
 ### Wrong d2FA PIN. One attempt remaining!
 
-At login, Zelcore counts down your remaining attempts ("Three attempts remaining!", "Two attempts remaining!", "One attempt remaining!"). Check your PIN backup before you try again.
+At login, Zelcore counts down your remaining attempts ("Three attempts remaining!", "Two attempts remaining!", "One attempt remaining!"). Check your PIN backup before you try again. After the last attempt Zelcore shows "Wrong d2FA PIN", closes the prompt and returns to the login screen, where you can start again.
 
 ### Your d2FA is not yet confirmed by the network. It will be activated soon.
 
@@ -141,4 +150,5 @@ Try again. If it keeps happening, contact [Zelcore support](https://support.zelc
 - [Connect Zelcore to dApps with WalletConnect](../guides/walletconnect.md)
 - [Zelcore Browser Extension](../guides/browser-extension.md)
 - [Security Best Practices](./best-practices.md)
+- [Account access FAQ: d2FA questions](../faq/account-access-faq.mdx#d2fa-and-security)
 - [Zelcore support](https://support.zelcore.io)
