@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { docUrlFromPath, parseFrontmatter, mdxToMarkdown, buildLlmsTxt } from '../lib/llms.mjs';
+import { docUrlFromPath, parseFrontmatter, mdxToMarkdown, buildLlmsTxt, buildDocPage, buildFullTxt, safeOutPath } from '../lib/llms.mjs';
 
 test('docUrlFromPath handles files, folder index docs and slugs', () => {
   assert.equal(docUrlFromPath('intro.md'), '/docs/intro/');
@@ -45,4 +45,60 @@ test('buildLlmsTxt groups docs by section and links the Markdown copies', () => 
   );
   assert.ok(txt.startsWith('# Zelcore Docs\n'));
   assert.ok(txt.includes('## FAQ\n\n- [Wallet FAQ](https://docs.zelcore.io/docs/faq/wallet-faq.md): Balances.'));
+});
+
+const INTRO = 'https://docs.zelcore.io/docs/intro/';
+const GUIDE = 'https://docs.zelcore.io/docs/guides/some-guide/';
+
+test('mdxToMarkdown rewrites relative links to absolute URLs', () => {
+  const out = mdxToMarkdown('See [install](../getting-started/installation) and [faq](/docs/faq/wallet-faq/).', INTRO);
+  assert.ok(out.includes('[install](https://docs.zelcore.io/docs/getting-started/installation/)'));
+  assert.ok(out.includes('[faq](https://docs.zelcore.io/docs/faq/wallet-faq/)'));
+  const g = mdxToMarkdown('Next: [Tron](./tron-wallet-guide.md#send) and [Bar](./bar.mdx).', GUIDE);
+  assert.ok(g.includes('[Tron](https://docs.zelcore.io/docs/guides/tron-wallet-guide/#send)'));
+  assert.ok(g.includes('[Bar](https://docs.zelcore.io/docs/guides/bar/)'));
+});
+
+test('mdxToMarkdown leaves absolute, mailto and anchor links alone', () => {
+  const out = mdxToMarkdown('[a](#anchor) [b](https://zelcore.io/wallet) [c](mailto:x@y.z) [d](http://e.io/p)', INTRO);
+  assert.equal(out, '[a](#anchor) [b](https://zelcore.io/wallet) [c](mailto:x@y.z) [d](http://e.io/p)');
+});
+
+test('mdxToMarkdown does not rewrite links inside code fences', () => {
+  const out = mdxToMarkdown('```\n[x](../y)\n```', INTRO);
+  assert.ok(out.includes('[x](../y)'));
+});
+
+test('safeOutPath rejects slugs that escape the output directory', () => {
+  assert.equal(safeOutPath('/out', '/docs/a.md'), '/out/docs/a.md');
+  assert.throws(() => safeOutPath('/out', '/docs/../../etc/x.md'), /outside/);
+});
+
+test('buildDocPage does not duplicate an H1 already in the body', () => {
+  const withH1 = buildDocPage({ title: 'T', description: 'D', url: 'u', markdown: '\n# T\n\nbody' });
+  assert.equal(withH1.match(/^# /gm).length, 1);
+  const without = buildDocPage({ title: 'T', description: '', url: 'u', markdown: '## Sub\n\nbody' });
+  assert.ok(without.startsWith('# T\n'));
+});
+
+test('buildFullTxt separates docs with a doc comment, not a rule', () => {
+  const txt = buildFullTxt([{ title: 'A', description: '', url: 'https://x/a/', markdown: 'one' }, { title: 'B', description: '', url: 'https://x/b/', markdown: 'two' }]);
+  assert.ok(txt.includes('<!-- doc: https://x/a/ -->\n# A'));
+  assert.ok(txt.includes('<!-- doc: https://x/b/ -->\n# B'));
+  assert.ok(!/^---$/m.test(txt));
+});
+
+test('parseFrontmatter handles escaped quotes, arrays and booleans via YAML', () => {
+  const { data } = parseFrontmatter('---\ntitle: "Say \\"hi\\""\ndescription: \'It\'\'s fine\'\ndraft: true\ntags: [a, b]\n---\nbody');
+  assert.equal(data.title, 'Say "hi"');
+  assert.equal(data.description, "It's fine");
+  assert.equal(data.draft, true);
+  assert.deepEqual(data.tags, ['a', 'b']);
+});
+
+test('mdxToMarkdown converts admonitions to blockquotes', () => {
+  const out = mdxToMarkdown(':::tip Pro Tip\nUse a seed.\n\nSecond para.\n:::\n\n:::warning\nCareful.\n:::', INTRO);
+  assert.ok(out.includes('> **Tip \u2014 Pro Tip:**\n> Use a seed.\n>\n> Second para.'));
+  assert.ok(out.includes('> **Warning:**\n> Careful.'));
+  assert.ok(!out.includes(':::'));
 });

@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { docUrlFromPath, parseFrontmatter, mdxToMarkdown, buildLlmsTxt } from '../../scripts/lib/llms.mjs';
+import { docUrlFromPath, parseFrontmatter, mdxToMarkdown, buildLlmsTxt, buildDocPage, buildFullTxt, safeOutPath } from '../../scripts/lib/llms.mjs';
 
 export default function llmsPlugin(context) {
   return {
@@ -21,17 +21,17 @@ export default function llmsPlugin(context) {
           } else if (/\.(md|mdx)$/.test(e.name) && !e.name.startsWith('_')) {
             const rel = path.relative(docsDir, p).split(path.sep).join('/');
             const { data, body } = parseFrontmatter(fs.readFileSync(p, 'utf8'));
-            if (data.draft === 'true' || data.unlisted === 'true') continue;
-            const url = docUrlFromPath(rel, data.slug);
+            if (String(data.draft) === 'true' || String(data.unlisted) === 'true') continue;
+            const url = docUrlFromPath(rel, data.slug ? String(data.slug) : undefined);
             docs.push({
               rel,
               url: `${site}${url}`,
               mdPath: `${url.replace(/\/$/, '')}.md`,
               mdUrl: `${site}${url.replace(/\/$/, '')}.md`,
-              title: data.title || rel,
-              description: data.description || '',
+              title: String(data.title || rel),
+              description: String(data.description || ''),
               section: rel.includes('/') ? rel.split('/')[0] : '',
-              markdown: mdxToMarkdown(body),
+              markdown: mdxToMarkdown(body, `${site}${url}`),
               position: Number(data.sidebar_position ?? 999),
             });
           }
@@ -43,16 +43,13 @@ export default function llmsPlugin(context) {
       const keys = [...new Set([...order, ...docs.map((d) => d.section)])];
       const sections = keys.map((key) => ({ key, label: sectionLabels.get(key) || key }));
 
-      const full = [];
       for (const d of docs) {
-        const page = `# ${d.title}\n\n${d.description ? `> ${d.description}\n\n` : ''}Source: ${d.url}\n\n${d.markdown}\n`;
-        const target = path.join(outDir, d.mdPath);
+        const target = safeOutPath(outDir, d.mdPath);
         fs.mkdirSync(path.dirname(target), { recursive: true });
-        fs.writeFileSync(target, page);
-        full.push(page);
+        fs.writeFileSync(target, buildDocPage(d));
       }
       fs.writeFileSync(path.join(outDir, 'llms.txt'), buildLlmsTxt(docs, sections));
-      fs.writeFileSync(path.join(outDir, 'llms-full.txt'), full.join('\n---\n\n'));
+      fs.writeFileSync(path.join(outDir, 'llms-full.txt'), buildFullTxt(docs));
     },
   };
 }
