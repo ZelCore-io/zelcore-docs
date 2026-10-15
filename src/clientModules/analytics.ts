@@ -20,7 +20,15 @@ if (ExecutionEnvironment.canUseDOM) {
     window.dataLayer.push(arguments);
   };
   window.gtag('js', new Date());
-  window.gtag('config', GA_ID, {anonymize_ip: true});
+  // send_page_view is off so gtag.js cannot read the URL after it loads (by
+  // then the user may have navigated). Queue the first page_view here with the
+  // URL and title as they are at module load.
+  window.gtag('config', GA_ID, {anonymize_ip: true, send_page_view: false});
+  window.gtag('event', 'page_view', {
+    page_path: location.pathname + location.search + location.hash,
+    page_title: document.title,
+    page_location: window.location.href,
+  });
 
   const inject = () => {
     const s = document.createElement('script');
@@ -38,7 +46,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 const clientModule: ClientModule = {
   onRouteDidUpdate({location, previousLocation}) {
-    // The initial page_view comes from the config call above.
+    // The initial page_view is queued at module load above.
     if (!previousLocation || location.pathname === previousLocation.pathname) return;
     window.gtag?.('event', 'page_view', {
       page_path: location.pathname + location.search + location.hash,
