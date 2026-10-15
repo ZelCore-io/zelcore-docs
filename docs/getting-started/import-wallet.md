@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: "Restore or Import a Zelcore Wallet"
 sidebar_label: "Import an Existing Wallet"
-description: "Restore or import a Zelcore wallet from a seed phrase, private key, hardware wallet or WalletConnect, or migrate a legacy account."
+description: "Restore or import a Zelcore wallet from a seed phrase, private key, WalletConnect or a hardware wallet (desktop), or migrate a legacy account."
 keywords: [import wallet, restore crypto wallet, seed phrase recovery, migrate wallet]
 ---
 

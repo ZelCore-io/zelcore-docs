@@ -189,7 +189,7 @@ Operate nodes for the Flux ecosystem:
 
 ### Earn (Staking)
 
-Stake from the **Earn** screen without leaving the wallet. The walkthroughs cover the supported chains:
+Stake from the **Earn** screen. Walkthroughs are available for these chains:
 
 - [Stake Ethereum](/docs/walkthroughs/ethereum-staking/) through the Chorus One Max Vault
 - [Stake Solana (SOL)](/docs/walkthroughs/staking-solana/) with the Chorus One staking provider
