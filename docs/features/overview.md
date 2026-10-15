@@ -229,10 +229,12 @@ Zelcore is constantly evolving with weekly updates. Upcoming features include:
 | Token swaps | ✅ | ✅ | ✅ |
 | NFT gallery | ✅ | ✅ | ✅ |
 | WalletConnect | ✅ | ✅ | ✅ |
-| Hardware wallet | ✅ | Limited | ✅ |
+| Hardware wallet¹ | ✅ | ❌ | ❌ |
 | FluxNodes | ✅ | ✅ | ❌ |
 | Fusion | ✅ | ✅ | ❌ |
 | Buy crypto | ✅ | ✅ | ✅ |
+
+¹ Ledger and Trezor: desktop only.
 
 ## Need More Details?
 

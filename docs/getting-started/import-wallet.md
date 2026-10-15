@@ -90,13 +90,8 @@ Integrate your Ledger or Trezor hardware wallet for enhanced security.
 5. Follow the on-screen pairing instructions
 6. Approve the connection on your hardware device
 
-#### Mobile
-1. Ensure your hardware wallet supports Bluetooth (Ledger Nano X only)
-2. Enable Bluetooth on your mobile device
-3. In Zelcore, go to **Settings** → **Hardware Wallets**
-4. Select **Ledger Nano X**
-5. Follow the pairing process
-6. Approve the connection on both devices
+#### Mobile and Browser Extension
+Ledger and Trezor work with Zelcore desktop only (USB). The mobile app and the browser extension can't pair a hardware wallet.
 
 :::info
 Hardware wallet transactions require physical confirmation on the device, providing an additional security layer.
