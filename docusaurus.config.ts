@@ -75,6 +75,7 @@ const config: Config = {
 
   plugins: [
     './src/plugins/seo-validation-plugin.ts',
+    './src/plugins/llms-plugin.mjs',
     './src/plugins/font-preload-plugin.ts',
     [
       '@docusaurus/plugin-client-redirects',
