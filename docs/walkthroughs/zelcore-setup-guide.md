@@ -26,7 +26,7 @@ When you open Zelcore for the first time, you'll see the Welcome screen with the
 
 - **Get Started** — Begin the registration process
 - **Sync/Register** — BIP44 Seed Phrase Account (Recommended)
-- **Login using legacy mode** — For existing legacy accounts
+- **Login using legacy mode** (deprecated) — For existing legacy accounts; migrate to a seed-phrase wallet
 - **Chat with FluxAI** — Access AI assistance
 
 ![Welcome Screen](./images/zelcore-setup/01-welcome-screen.webp)

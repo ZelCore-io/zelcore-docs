@@ -9,6 +9,10 @@ keywords: [migrate legacy wallet, seed phrase migration, upgrade zelcore account
 
 A comprehensive guide to safely migrating your Zelcore legacy username/password account to a modern seed phrase (BIP44) account.
 
+:::warning Legacy login is deprecated
+Legacy (username and password) login is deprecated and will be phased out. It still works in Zelcore 8.39, but migrate to a seed-phrase wallet now. See the [official migration page](https://zelcore.io/legacy-login-deprecated).
+:::
+
 ## Overview
 
 Zelcore is transitioning from legacy username/password accounts to modern seed phrase (BIP44) accounts. This migration provides:
@@ -16,7 +20,7 @@ Zelcore is transitioning from legacy username/password accounts to modern seed p
 - **Better security:** Industry-standard BIP44 protocol
 - **Full ownership:** Complete control of your funds without reliance on Zelcore servers
 - **Portability:** Use your seed phrase with any BIP44-compatible wallet
-- **Future compatibility:** Legacy accounts are being phased out
+- **Future compatibility:** Legacy login is deprecated and will be phased out
 - **Modern FluxID:** Access to the latest Flux ecosystem features
 
 **Time required:** 30-60 minutes (depending on number of assets)
@@ -494,7 +498,7 @@ If you have D2FA enabled on your legacy account:
 - Take a break, resume later
 - Migration can happen over several days
 - Keep both accounts until complete
-- No rush - legacy accounts still function
+- Legacy login is deprecated and will be phased out, so finish the migration soon
 
 ### "D2FA issues after migration"
 
@@ -720,8 +724,8 @@ Transaction history is stored on the blockchain, not in Zelcore:
 
 ### Do I have to migrate?
 
-Not immediately, but:
-- Legacy accounts are being phased out
+Legacy login still works in Zelcore 8.39, but it is deprecated and will be phased out. You should migrate now:
+- Legacy login is deprecated and will be phased out
 - Future updates may not support legacy accounts
 - Migration is recommended for security and compatibility
 - Delay may limit future features
@@ -738,7 +742,7 @@ Yes:
 
 - Remains accessible
 - You can leave minimal funds if desired
-- May eventually be deprecated by Zelcore
+- Legacy login is already deprecated and will be phased out
 - Keep credentials secure even if inactive
 
 ### Will migration affect my tax records?

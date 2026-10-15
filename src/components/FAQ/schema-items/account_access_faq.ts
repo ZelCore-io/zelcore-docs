@@ -1,6 +1,6 @@
 const items = [
   { question: `What's the difference between a legacy account and a seed phrase account?`, answer: `Zelcore has two account types with different login methods:` },
-  { question: `Should I migrate from legacy to seed phrase?`, answer: `Yes, migration is strongly recommended. Here's why:` },
+  { question: `Should I migrate from legacy to seed phrase?`, answer: `Yes, migration is strongly recommended. Legacy (username and password) login is deprecated and will be phased out. It still works in Zelcore 8.39, but migrate to a seed-phrase wallet now. Official migration page: https://zelcore.io/legacy-login-deprecated` },
   { question: `How do I know if I have a seed phrase?`, answer: `If you have a modern account:
 - You wrote down 12 or 24 words when creating your wallet
 - These words are in a specific order
@@ -20,7 +20,7 @@ const items = [
   { question: `I entered my seed phrase but Zelcore says it's invalid. What's wrong?`, answer: `Seed phrase errors usually involve typos, wrong words, incorrect order, or wrong word count.` },
   { question: `I accidentally created a new account instead of accessing my old one. Can I switch?`, answer: `Yes, you can easily switch between accounts. Creating an extra account doesn't affect your original one.` },
   { question: `Can I have multiple Zelcore accounts?`, answer: `Yes, Zelcore supports multiple accounts, and you can switch between them easily.` },
-  { question: `"Migration required" message - what does this mean?`, answer: `This message indicates you have a legacy account that needs to be migrated to a modern seed phrase account.` },
+  { question: `"Migration required" message - what does this mean?`, answer: `This message indicates you have a legacy account that needs to be migrated to a modern seed phrase account. Legacy (username and password) login is deprecated and will be phased out. It still works in Zelcore 8.39, but migrate to a seed-phrase wallet now.` },
   { question: `How should I securely store my seed phrase?`, answer: `Your seed phrase is the key to your funds. Proper storage is critical.` },
   { question: `Should I use the same seed phrase on multiple devices?`, answer: `Yes, that's how it's designed to work. Your seed phrase gives access to your wallet on any device.` },
   { question: `What should I do before getting a new phone or computer?`, answer: `Critical: Verify you have your seed phrase BEFORE replacing your device.` },

@@ -9,6 +9,10 @@ keywords: [zelcore accounts, seed phrase account, legacy account, multi wallet c
 
 Learn about Zelcore's account system, the transition from legacy to modern accounts, and how to access your wallet on different devices.
 
+:::warning Legacy login is deprecated
+Legacy (username and password) login is deprecated and will be phased out. It still works in Zelcore 8.39, but migrate to a seed-phrase wallet now. See the [official migration page](https://zelcore.io/legacy-login-deprecated).
+:::
+
 ## Introduction
 
 Zelcore has evolved significantly over the years, and understanding the difference between legacy and modern account types is crucial for a smooth experience. This guide will help you understand:
@@ -47,11 +51,11 @@ Older Zelcore accounts created before the BIP44 migration used a username and pa
 - Required username and password login
 - Used Zelcore's proprietary account system
 - Synced across devices through Zelcore servers
-- Being phased out in favor of seed phrase accounts
+- Will be phased out in favor of seed phrase accounts
 
 **Status:**
-- **Legacy accounts are being deprecated**
-- You can still access existing legacy accounts
+- **Legacy login is deprecated and will be phased out**
+- It still works in Zelcore 8.39 for existing legacy accounts
 - **You should migrate to a seed phrase account**
 - New legacy accounts cannot be created
 
@@ -155,7 +159,7 @@ The older FluxID system used with legacy username/password accounts.
 **Features:**
 - Tied to username/password accounts
 - Centralized authentication
-- Being phased out
+- Deprecated, will be phased out
 
 **Recommendation:**
 If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to a seed phrase account.
@@ -233,7 +237,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 - May take a few minutes
 
 **Step 5: Consider Migration**
-- Legacy accounts are being deprecated
+- Legacy login is deprecated and will be phased out
 - Follow our [Migration Guide](../../guides/migrating-legacy-to-seed-phrase/)
 - Migrate to a seed phrase account for better security and future compatibility
 
@@ -246,7 +250,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 | **Portability** | Zelcore only | Any BIP44 wallet |
 | **Security** | Username/password | Seed phrase (12-24 words) |
 | **Recovery** | Password reset available | Seed phrase only - no reset |
-| **Future Support** | Being phased out | Fully supported |
+| **Future Support** | Deprecated, will be phased out | Fully supported |
 | **Recommended** | No - migrate | Yes |
 | **FluxID Type** | FluxID Legacy | FluxID (modern) |
 
@@ -264,7 +268,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 - Choosing wrong option won't lose funds, but will cause confusion
 
 ### Legacy Account Users
-- Legacy accounts still work but are being deprecated
+- Legacy login is deprecated and will be phased out; it still works in Zelcore 8.39
 - Migrate to a seed phrase account as soon as possible
 - See our [Migration Guide](../../guides/migrating-legacy-to-seed-phrase/)
 
