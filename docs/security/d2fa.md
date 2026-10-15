@@ -66,7 +66,7 @@ To change the PIN or the options:
 
 1. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**.
 2. Keep the switch on **Change d2FA**.
-3. Fill in **New PIN**, **Verify PIN**, the options and the backup checkbox, then your password. Changing d2FA asks for your account password, not your current PIN.
+3. Fill in **New PIN**, **Verify PIN**, the options and the backup checkbox, then your password. Changing d2FA asks for your account password (or your biometric check if you use biometric Easy Login), not your current PIN.
 4. Select **Change d2FA**. As with setup, the new settings apply after the transaction is confirmed and you log in again. Until then, log in with your previous settings.
 
 To turn d2FA off:
@@ -74,7 +74,7 @@ To turn d2FA off:
 1. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**.
 2. Move the switch to **Disable d2FA**.
 3. Type your current PIN in **Verify PIN**.
-4. Select **Disable d2FA**. Turning d2FA off needs your current PIN. There is no confirmation step: Zelcore sends a small FLUX transaction to turn d2FA off as soon as you select it.
+4. Select **Disable d2FA**. Turning d2FA off needs your current PIN (or your biometric check if you use biometric Easy Login). There is no confirmation step: Zelcore sends a small FLUX transaction to turn d2FA off as soon as you select it.
 
 ## If you forget your PIN
 

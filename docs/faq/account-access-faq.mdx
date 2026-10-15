@@ -348,7 +348,7 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 
 **Additional security steps:**
 1. Change any passwords if phone was stolen
-2. Enable d2FA on new device
+2. Log in with your existing d2FA PIN if d2FA is on (it carries over from the Flux blockchain)
 3. Review security settings
 4. Consider if anyone accessed your seed phrase
 
@@ -406,7 +406,7 @@ d2FA (decentralized two-factor authentication) is a numeric PIN of up to 10 digi
 
 Zelcore can't reset or recover a d2FA PIN, and the app has no "forgot PIN" option. Restoring your seed phrase doesn't reset it either: your d2FA settings are stored on the Flux blockchain, and Zelcore asks for the same PIN after you restore the account. What you can do depends on the options you ticked:
 
-**If the PIN is used only for secure tasks:** you can still log in. Open **Apps** → **Flux ID** → **Next** → **Flux ID d2FA**, keep the switch on **Change d2FA**, type a new PIN in **New PIN** and **Verify PIN**, choose the options, tick the backup checkbox, enter your password and select **Change d2FA**. Changing d2FA asks for your account password, not the old PIN. The new PIN works after the transaction is confirmed on the Flux blockchain and you log in again.
+**If the PIN is used only for secure tasks:** you can still log in. Open **Apps** → **Flux ID** → **Next** → **Flux ID d2FA**, keep the switch on **Change d2FA**, type a new PIN in **New PIN** and **Verify PIN**, choose the options, tick the backup checkbox, enter your password and select **Change d2FA**. Changing d2FA asks for your account password (or your biometric check if you use biometric Easy Login), not the old PIN. The new PIN works after the transaction is confirmed on the Flux blockchain and you log in again.
 
 **If the PIN is used for logging in:** Zelcore asks for the PIN before it opens your account, so you can't use the account in Zelcore without it. The app warns about this when you create the PIN: "If you lost the PIN you won't be able to use/access your account."
 
