@@ -86,6 +86,14 @@ const config: Config = {
 
   plugins: [
     './src/plugins/seo-validation-plugin.ts',
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // GitHub Pages cannot send a 301. These pages carry a canonical and a
+        // meta refresh; the owner mirrors each row as a Cloudflare 301.
+        redirects: [{from: '/docs', to: '/docs/intro/'}],
+      },
+    ],
   ],
 
   // Offline full-text search. Builds a lunr index at build time and serves it
@@ -131,6 +139,7 @@ const config: Config = {
           routeBasePath: '/docs',
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/ZelCore-io/zelcore-docs/tree/main/',
+          showLastUpdateTime: true,
         },
         blog: false,
         gtag: {
@@ -142,6 +151,7 @@ const config: Config = {
           changefreq: null,
           priority: null,
           filename: 'sitemap.xml',
+          ignorePatterns: ['/search/**', '/markdown-page/**'],
         },
         theme: {
           customCss: './src/css/custom.css',
