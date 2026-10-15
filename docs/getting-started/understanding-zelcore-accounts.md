@@ -177,9 +177,9 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 **D2FA PIN** is a personal identification number you set up for your D2FA.
 
 **Purpose:**
-- Confirms high-value transactions
+- Asked before you send, swap, view private keys or use Flux ID
 - Prevents unauthorized sends
-- Adds an extra security layer beyond device authentication
+- Stored encrypted on the Flux blockchain
 
 **Common issues:**
 - **Forgot D2FA PIN:** Can be reset using your seed phrase

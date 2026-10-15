@@ -97,7 +97,7 @@ Once enabled, you can unlock Zelcore with a quick fingerprint scan or face recog
 
 Zelcore's D2FA system works seamlessly on mobile. D2FA uses the Flux blockchain to provide decentralized two-factor authentication that does not depend on a centralized server. This is especially valuable on mobile, where devices are more likely to be lost or stolen than desktop computers.
 
-When D2FA is enabled, any login attempt or sensitive action requires approval from your registered 2FA device, adding a strong layer of protection even if someone obtains your username and password.
+d2FA protects your account with a PIN that is stored encrypted on the Flux blockchain. Zelcore asks for it before you send, swap, view private keys or use Flux ID.
 
 ### Push Notifications
 
@@ -175,7 +175,7 @@ Zelcore is designed for multi-device use. Here is how syncing works:
 
 1. **Use the same account** on all devices for a consistent experience.
 2. **Keep all devices updated** to the latest Zelcore version to avoid compatibility issues.
-3. **Enable D2FA** for security across all devices — if one device is compromised, the attacker still cannot access your wallet without the second factor.
+3. **Enable D2FA** for security across all devices — if one device is compromised, the attacker still cannot send, swap or view private keys without your d2FA PIN.
 
 For questions about accessing your account across devices, see the [account access FAQ](/docs/faq/account-access-faq/).
 

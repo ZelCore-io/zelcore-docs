@@ -384,7 +384,7 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 **How D2FA works:**
 - Uses distributed blockchain network for verification
 - No centralized server stores your authentication data
-- Requires your D2FA PIN for high-value transactions
+- PIN stored encrypted on the Flux blockchain; Zelcore asks for it before you send, swap, view private keys or use Flux ID
 - More secure than traditional SMS or app-based 2FA
 
 **Key differences from regular 2FA:**
@@ -402,10 +402,11 @@ If you have your seed phrase, recovery is straightforward. If not, recovery may 
 - Uses distributed node network
 
 **When D2FA is required:**
-- Large transaction amounts
-- Changing security settings
-- Withdrawing funds
-- Can be configured in settings
+- Sending funds
+- Swapping, including Swap Now and Fusion deposits
+- Earn (staking) actions
+- Viewing private keys
+- Flux ID operations
 
 **Setting up D2FA:**
 1. Go to Settings → Security

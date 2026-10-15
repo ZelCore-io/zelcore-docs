@@ -126,7 +126,7 @@ For detailed information about the installation process across all platforms, se
 Once Zelcore is installed and your wallet is created, take a few minutes to configure it for optimal use:
 
 **Enable D2FA (Decentralized Two-Factor Authentication):**
-D2FA adds a second layer of security by requiring confirmation from another device (such as your phone) for sensitive operations. This is especially important on a desktop computer that may be shared with others.
+d2FA protects your account with a PIN that is stored encrypted on the Flux blockchain. Zelcore asks for it before you send, swap, view private keys or use Flux ID. This is especially important on a desktop computer that may be shared with others.
 
 **Set up biometric or PIN login (if supported):**
 Windows Hello-compatible devices may support biometric login for faster access without typing your full password.

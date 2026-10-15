@@ -129,11 +129,10 @@ When Zelcore is not actively in use, all sensitive data — including derived pr
 
 ### D2FA — Decentralized Two-Factor Authentication
 
-Zelcore offers a unique security feature called D2FA (Decentralized Two-Factor Authentication). Unlike traditional 2FA that relies on a centralized service, D2FA uses cryptographic signatures from a second device to authorize sensitive operations. This means:
+Zelcore offers a unique security feature called D2FA (Decentralized Two-Factor Authentication). Unlike traditional 2FA that relies on a centralized service, d2FA protects your account with a PIN that is stored encrypted on the Flux blockchain. Zelcore asks for it before you send, swap, view private keys or use Flux ID. This means:
 
 - No reliance on SMS or email, which are vulnerable to SIM-swapping and phishing.
 - No centralized 2FA server that could be compromised.
-- Authentication is handled entirely between your devices using public-key cryptography.
 
 For details on setting up D2FA and other security measures, see the [account access FAQ](/docs/faq/account-access-faq/).
 

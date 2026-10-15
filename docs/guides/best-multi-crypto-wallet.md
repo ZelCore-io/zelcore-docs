@@ -67,7 +67,7 @@ Zelcore is a self-custodial multi-chain wallet that supports over 275 assets acr
 
 - **275+ supported assets** across a wide range of blockchains, all managed from a single seed phrase.
 - **Full self-custody:** Private keys never leave your device.
-- **D2FA (Decentralized Two-Factor Authentication):** A unique security feature that uses cryptographic signatures between your devices rather than relying on centralized 2FA services.
+- **D2FA (Decentralized Two-Factor Authentication):** A PIN that is stored encrypted on the Flux blockchain rather than with a centralized 2FA service. Zelcore asks for it before you send, swap, view private keys or use Flux ID.
 - **Cross-platform sync:** Access the same wallet seamlessly across desktop and mobile.
 - **Built-in swaps and exchanges:** Trade assets directly within the wallet.
 - **Staking support:** Earn rewards on supported assets without leaving the app.
@@ -139,7 +139,7 @@ Asset counts can be misleading. Some wallets count every custom ERC-20 token as 
 
 ### Decentralized Two-Factor Authentication
 
-Zelcore is one of the few wallets that offers D2FA — a two-factor authentication system that does not depend on centralized services. Traditional 2FA methods like SMS or Google Authenticator introduce centralized failure points. D2FA uses cryptographic verification between your own devices, providing a stronger security model that aligns with the decentralized ethos of cryptocurrency.
+Zelcore is one of the few wallets that offers D2FA — a two-factor authentication system that does not depend on centralized services. Traditional 2FA methods like SMS or Google Authenticator introduce centralized failure points. D2FA protects your account with a PIN that is stored encrypted on the Flux blockchain, providing a stronger security model that aligns with the decentralized ethos of cryptocurrency.
 
 ### Flux Ecosystem Integration
 
