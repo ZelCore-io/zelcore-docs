@@ -35,7 +35,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
    - **Bitcoin:** blockchain.com or blockchair.com
    - **Ethereum:** etherscan.io
    - **Flux:** explorer.runonflux.io
-   - **Kadena:** explorer.chainweb.com
+   - **Kadena:** kdabox.com
    - **Ravencoin:** ravencoin.network
    - **Other chains:** Search "[blockchain name] explorer"
 

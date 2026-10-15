@@ -206,17 +206,9 @@ Previous download may be corrupted:
 4. Verify download completed (check file size)
 5. Run new installer
 
-**Step 5: Use compatibility mode**
+**Step 5: Check your Windows version**
 
-For older Windows versions:
-
-1. Right-click installer
-2. Select **Properties**
-3. Go to **Compatibility** tab
-4. Check **Run this program in compatibility mode for:**
-5. Select **Windows 8** or **Windows 7**
-6. Click **Apply** and **OK**
-7. Run installer
+The Zelcore desktop app (8.39.0) is built on Electron 40, which supports Windows 10 and later only. It does not run on Windows 7 or 8, and compatibility mode does not change that. Update Windows or use Zelcore on another device.
 
 ## macOS Installation and Update Issues
 
@@ -901,7 +893,7 @@ Many installation/update issues stem from connectivity:
 **Minimum requirements vary by platform:**
 
 **Windows:**
-- Windows 7 or later (Windows 10/11 recommended)
+- Windows 10 or later (Zelcore desktop 8.39.0 does not support Windows 7 or 8)
 - 2GB RAM minimum (4GB recommended)
 - 500MB free disk space
 

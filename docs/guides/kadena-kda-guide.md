@@ -84,9 +84,7 @@ Modern Kadena addresses are explicitly tied to a specific chain:
 Visit a Kadena block explorer and search for your address:
 
 **Recommended Explorers:**
-- **Kadena Explorer:** https://explorer.chainweb.com
 - **KDABox:** https://kdabox.com
-- **Kadena Mainnet Explorer:** https://mainnet.chainweb.com
 
 **How to use:**
 1. Copy your KDA address from Zelcore
@@ -659,7 +657,6 @@ Yes. KDA has the same value regardless of which chain it's on. The chain is just
    - Include: Transaction hash, chain info, error messages
 
 **Kadena-specific resources:**
-- Kadena Official Discord: https://discord.io/kadena
 - Kadena Documentation: https://docs.kadena.io
 - EckoWallet: https://www.eckowallet.com
 
