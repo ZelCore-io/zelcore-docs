@@ -1,0 +1,8 @@
+{
+  "label": "Release Notes",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "What changed in each Zelcore release, with links to the pages that explain it."
+  }
+}
