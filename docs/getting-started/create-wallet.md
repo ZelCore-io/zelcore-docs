@@ -112,5 +112,5 @@ Go to **Settings** → **Security** → **Show Seed Phrase** (requires authentic
 Zelcore supports multiple wallet profiles. Go to **Settings** → **Wallets** → **Add New Wallet**.
 
 ### Need more help?
-- Visit the [Support Center](https://zelcore.io/support)
+- Visit the [Support Center](https://support.zelcore.io)
 - Join the [Discord community](https://discord.gg/runonflux)

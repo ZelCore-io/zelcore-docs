@@ -286,7 +286,7 @@ const config: Config = {
             },
             {
               label: 'Support',
-              href: 'https://support.runonflux.io',
+              href: 'https://support.zelcore.io',
             },
           ],
         },

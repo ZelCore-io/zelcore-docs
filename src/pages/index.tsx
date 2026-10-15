@@ -187,7 +187,7 @@ function Help(): ReactNode {
             <Link className={styles.btnPrimary} href="https://discord.gg/runonflux">
               Join Discord
             </Link>
-            <Link className={styles.btnSecondary} href="https://support.runonflux.io">
+            <Link className={styles.btnSecondary} href="https://support.zelcore.io">
               Contact support
             </Link>
           </div>

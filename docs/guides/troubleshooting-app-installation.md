@@ -983,7 +983,7 @@ Contact Zelcore support if:
 - Share screenshots of errors (but NEVER share seed phrases)
 
 **Zelcore Website:**
-- https://zelcore.io/support
+- https://support.zelcore.io
 - Submit support tickets
 - Check FAQs
 

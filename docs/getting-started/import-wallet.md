@@ -182,6 +182,6 @@ After successfully importing your wallet, you can start managing your crypto ass
 
 ## Need Help?
 
-- [Support Center](https://zelcore.io/support)
+- [Support Center](https://support.zelcore.io)
 - [Discord Community](https://discord.gg/runonflux)
-- [Contact Support](https://zelcore.io/support) via the app
+- [Contact Support](https://support.zelcore.io) via the app

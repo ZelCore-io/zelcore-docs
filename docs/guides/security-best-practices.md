@@ -130,7 +130,7 @@ Based on extensive analysis of wallet compromises, attackers typically gain acce
 - Check URLs carefully (zelcore.io is official, ze1core.io is fake)
 - Never click links in unsolicited emails about your wallet
 - Zelcore will never email you asking for your seed phrase or private keys
-- Contact support only through official channels (https://zelcore.io/support)
+- Contact support only through the official help desk (https://support.zelcore.io)
 
 ### Rule 7: Use Strong Passwords and 2FA
 

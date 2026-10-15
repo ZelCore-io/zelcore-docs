@@ -242,4 +242,4 @@ More detailed guides for specific features will be added soon. Visit the [full f
 
 ## Questions?
 
-Join our [Discord community](https://discord.gg/runonflux) or visit the [Support Center](https://zelcore.io/support) for help.
+Join our [Discord community](https://discord.gg/runonflux) or visit the [Support Center](https://support.zelcore.io) for help.

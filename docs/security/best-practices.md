@@ -281,7 +281,7 @@ If you believe your wallet is compromised:
 ### Official Channels
 
 - **Website**: [zelcore.io](https://zelcore.io)
-- **Support**: [zelcore.io/support](https://zelcore.io/support)
+- **Support**: [support.zelcore.io](https://support.zelcore.io)
 - **Discord**: [discord.gg/runonflux](https://discord.gg/runonflux)
 - **Twitter**: [@zelcore_io](https://twitter.com/zelcore_io)
 - **GitHub**: [github.com/zelcore-io](https://github.com/zelcore-io)

@@ -89,6 +89,6 @@ Once you've installed Zelcore, proceed to:
 ## Need Help?
 
 If you encounter any issues during installation:
-- Visit the [Support Center](https://zelcore.io/support)
+- Visit the [Support Center](https://support.zelcore.io)
 - Join the [Discord community](https://discord.gg/runonflux)
 - Contact support via the app's help section
