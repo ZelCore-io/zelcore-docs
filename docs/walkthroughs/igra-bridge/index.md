@@ -231,3 +231,10 @@ With iKAS on Igra L2, you can now:
 - Participate in **ZAP Auctions** for fair token launches
 - Explore the growing Igra L2 ecosystem directly from Zelcore
 - Bridge iKAS back to KAS at any time (see [Bridging iKAS Back to KAS](#bridging-ikas-back-to-kas))
+
+## Related
+
+- [Kaspa (KAS) in Zelcore: KNS and KRC-20](/docs/walkthroughs/kaspa-wallet/)
+- [Zelcore Features Overview](/docs/features/overview)
+- [Troubleshooting Balance and Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+- [Blockchain-Specific FAQ](/docs/faq/blockchain-specific-faq)

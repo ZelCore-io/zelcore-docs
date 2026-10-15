@@ -191,3 +191,11 @@ After successfully importing your wallet, you can start managing your crypto ass
 - [Support Center](https://support.zelcore.io)
 - [Discord Community](https://discord.gg/runonflux)
 - [Contact Support](https://support.zelcore.io) via the app
+
+## Related
+
+- [Create a New Wallet](/docs/getting-started/create-wallet)
+- [Migrating from Legacy to Seed Phrase](/docs/guides/migrating-legacy-to-seed-phrase)
+- [Understanding Zelcore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Account Access FAQ](/docs/faq/account-access-faq)
+- [Security Best Practices](/docs/security/best-practices)

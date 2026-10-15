@@ -270,6 +270,14 @@ Setting up Zelcore involves:
 
 Your Zelcore wallet is now ready to manage cryptocurrencies across multiple blockchain networks!
 
+## Related
+
+- [Create a New Wallet (text steps)](/docs/getting-started/create-wallet)
+- [Import an Existing Wallet](/docs/getting-started/import-wallet)
+- [Install Zelcore](/docs/getting-started/installation)
+- [Understanding Zelcore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Security Best Practices](/docs/security/best-practices)
+
 ---
 
 *Powered by Flux*

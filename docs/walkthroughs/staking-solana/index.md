@@ -136,3 +136,10 @@ Once activated, you will begin earning staking rewards. You can stake again or g
 ## Summary
 
 You have successfully staked SOL using Zelcore's Earn feature. Your stake will activate in the next Solana epoch and begin generating rewards shortly after. Return to the Earn dashboard at any time to monitor your staking positions, view accumulated rewards, or create additional stakes.
+
+## Related
+
+- [Stake Ethereum with Zelcore](/docs/walkthroughs/ethereum-staking/)
+- [How to Stake FLUX with Zelcore Earn](/docs/walkthroughs/staking-flux/)
+- [Zelcore Features Overview](/docs/features/overview)
+- [Export Transactions for Taxes (CSV)](/docs/walkthroughs/tax-csv-export/)

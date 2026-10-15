@@ -316,3 +316,10 @@ No. Only public addresses are sent to the services listed in **Services this exp
 
 **Where is my file?**
 In your Downloads folder. Click **Open folder** on the result screen to go there.
+
+## Related
+
+- [Zelcore Features Overview](/docs/features/overview)
+- [Understanding Zelcore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Troubleshooting Balance and Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+- [Wallet FAQ](/docs/faq/wallet-faq)

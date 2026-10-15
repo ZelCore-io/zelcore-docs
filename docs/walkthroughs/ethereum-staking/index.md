@@ -134,3 +134,10 @@ Your position status shows as **Active**, and you can track your accumulated rew
 ## Summary
 
 You have successfully staked ETH using Zelcore's Earn function. Your ETH is now staked in the Chorus One Max Vault, earning the estimated APY shown in the app. Rewards are distributed automatically by Chorus One to all pool participants and will appear in your Rewards balance over time.
+
+## Related
+
+- [How to Stake Solana (SOL) with Zelcore Earn](/docs/walkthroughs/staking-solana/)
+- [How to Stake FLUX with Zelcore Earn](/docs/walkthroughs/staking-flux/)
+- [Managing ERC-20 Tokens in Zelcore](/docs/guides/managing-erc20-tokens)
+- [Export Transactions for Taxes (CSV)](/docs/walkthroughs/tax-csv-export/)

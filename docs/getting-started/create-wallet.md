@@ -120,3 +120,11 @@ Zelcore supports multiple wallets. Use **Add Wallet** in the app to create anoth
 ### Need more help?
 - Visit the [Support Center](https://support.zelcore.io)
 - Join the [Discord community](https://discord.gg/runonflux)
+
+## Related
+
+- [Import an Existing Wallet](/docs/getting-started/import-wallet)
+- [Zelcore Wallet Setup Guide (with screenshots)](/docs/walkthroughs/zelcore-setup-guide)
+- [Understanding Zelcore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Security Best Practices](/docs/security/best-practices)
+- [Install Zelcore](/docs/getting-started/installation)

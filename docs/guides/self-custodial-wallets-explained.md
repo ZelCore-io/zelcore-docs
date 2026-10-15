@@ -7,7 +7,7 @@ keywords: [self custodial crypto wallet, private cryptocurrency wallet, non cust
 
 # Self-Custodial Wallets Explained
 
-A self-custodial wallet is one where you, and only you, hold the private keys that control your crypto. Zelcore is self-custodial. This page explains what that means in Zelcore: where your keys live, what Zelcore stores, and what you are responsible for. For general background on wallet types, see [What is a crypto wallet?](https://zelcore.io/academy/basics/what-is-a-crypto-wallet) on zelcore.io.
+A self-custodial wallet is one where you, and only you, hold the private keys that control your crypto. Zelcore is self-custodial. This page explains what that means in Zelcore: where your keys live, what Zelcore stores, and what you are responsible for. For general background on wallet types, see [What is a crypto wallet?](https://zelcore.io/academy/basics/what-is-a-crypto-wallet) on zelcore.io. For how Zelcore derives keys and talks to its backend, see [Zelcore Architecture](/docs/guides/zelcore-architecture-overview).
 
 ## Custodial vs. Self-Custodial
 

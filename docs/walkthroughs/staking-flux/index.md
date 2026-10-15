@@ -187,6 +187,14 @@ To stake FLUX with Zelcore Earn:
 6. **Confirm** and submit your stake
 7. **Monitor** your position on the Earn dashboard
 
+## Related
+
+- [Stake Ethereum with Zelcore](/docs/walkthroughs/ethereum-staking/)
+- [How to Stake Solana (SOL) with Zelcore Earn](/docs/walkthroughs/staking-solana/)
+- [How to Use FLUX in Zelcore](/docs/guides/flux-wallet-guide)
+- [Titan Shared Nodes Guide](/docs/guides/titan-shared-nodes-guide)
+- [Export Transactions for Taxes (CSV)](/docs/walkthroughs/tax-csv-export/)
+
 ---
 
 *Powered by Flux*

@@ -488,3 +488,10 @@ Security is an ongoing process, not a one-time setup. Stay vigilant, keep learni
 :::tip Remember
 The most secure wallet is worthless if you lose access to your seed phrase. Balance security with accessibility, and always maintain proper backups.
 :::
+
+## Related
+
+- [Responding to a Wallet Compromise](/docs/guides/responding-to-wallet-compromise)
+- [Self-Custodial Wallets Explained](/docs/guides/self-custodial-wallets-explained)
+- [Security FAQ](/docs/faq/security-faq)
+- [Create a New Wallet](/docs/getting-started/create-wallet)
