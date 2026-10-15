@@ -56,7 +56,7 @@ An imported private key is not created from your Zelcore seed phrase, so do not 
 
 ## Restore a seed phrase from another wallet
 
-At login, **Import Seed Phrase** restores a Zelcore account from a seed phrase. Use a BIP-39 seed phrase of 12 or 24 words. Other wallets can derive addresses differently, so check that your balances appear after the restore. If an address you expect is missing, move those funds with [Send funds to Zelcore](#send-funds-to-zelcore) instead.
+At login, **Import Seed Phrase** restores a Zelcore account from a seed phrase. Use a BIP-39 seed phrase of 12, 18 or 24 words: set the length under **Select the word count of the seed phrase** before you select **Import Seed Phrase**. Other wallets can derive addresses differently, so check that your balances appear after the restore. If an address you expect is missing, move those funds with [Send funds to Zelcore](#send-funds-to-zelcore) instead.
 
 Full steps are in [Import an Existing Wallet](../getting-started/import-wallet.md).
 
