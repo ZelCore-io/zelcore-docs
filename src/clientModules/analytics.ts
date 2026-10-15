@@ -12,7 +12,9 @@ declare global {
   }
 }
 
-if (ExecutionEnvironment.canUseDOM) {
+// Production builds only: Docusaurus replaces process.env.NODE_ENV at build
+// time, so dev and test sessions never load GA or pollute the property.
+if (ExecutionEnvironment.canUseDOM && process.env.NODE_ENV === 'production') {
   window.dataLayer = window.dataLayer || [];
   window.gtag = function gtag() {
     // gtag.js requires the Arguments object itself, not an array.
@@ -48,10 +50,14 @@ const clientModule: ClientModule = {
   onRouteDidUpdate({location, previousLocation}) {
     // The initial page_view is queued at module load above.
     if (!previousLocation || location.pathname === previousLocation.pathname) return;
-    window.gtag?.('event', 'page_view', {
-      page_path: location.pathname + location.search + location.hash,
-      page_title: document.title,
-      page_location: window.location.href,
+    // Wait a tick: react-helmet updates document.title after this hook runs
+    // (same approach as Docusaurus' own gtag module, facebook/docusaurus#7420).
+    setTimeout(() => {
+      window.gtag?.('event', 'page_view', {
+        page_path: location.pathname + location.search + location.hash,
+        page_title: document.title,
+        page_location: window.location.href,
+      });
     });
   },
 };
