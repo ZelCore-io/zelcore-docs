@@ -168,6 +168,7 @@ Export your transaction history for tax tools or your accountant:
 - Pick the wallets, coins and period, then save one combined file or one file per coin
 - Fiat values and layouts for Koinly, CoinTracker, CoinLedger, CoinTracking, Blockpit, ZenLedger, TokenTax and more, plus neutral and accountant layouts
 - Save as CSV, XLSX or JSON, with custom column mappings and an address list for tax tools that sync by address
+- Zelcore classic and Koinly layouts are free. On mobile and the browser extension, other tax-tool layouts, fiat values and custom column mappings need Zelcore+. In desktop 8.39.0 all layouts are free.
 - See the [Tax & CSV Export walkthrough](/docs/walkthroughs/tax-csv-export/)
 
 ### Kaspa

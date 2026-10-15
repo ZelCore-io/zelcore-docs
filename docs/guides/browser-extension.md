@@ -40,13 +40,13 @@ The extension has the same wallet features as the desktop and mobile apps: the s
 - **Swap** (see [Swap Crypto in Zelcore: Fees and Limits](./swaps-fees-and-limits.md))
 - **Apps**, with tiles such as **Flux ID** (for [d2FA](../security/d2fa.md)), **Purchase Crypto**, **Sell Crypto**, **Earn**, **Fusion**, **FluxNodes**, **NFTs**, **FIO Crypto Handle** and **Zelcore+**. Tiles appear when the service is available to you, so your **Apps** screen shows what you can use.
 - **WalletConnect**, from the icon in the top bar, to connect to dApps (see [Connect Zelcore to dApps with WalletConnect](./walletconnect.md))
-- Tax & CSV export, which saves files through your browser's downloads. Most tax-tool layouts come with Zelcore+.
+- Tax & CSV export, which saves files through your browser's downloads. Zelcore classic and Koinly layouts are free; other tax-tool layouts, fiat values and custom column mappings need Zelcore+.
 
 <!-- screenshot: browser-extension-4 (popup portfolio with a few assets) -->
 
 ## Use the extension as a dApp wallet
 
-The extension also works as a dApp wallet. Websites that support EIP-6963 or Solana wallets list it as "ZelCore", and you approve every connection and signature in the extension. For other dApps, you can still connect with [WalletConnect](./walletconnect.md).
+The extension also works as a dApp wallet. Websites that support EIP-6963 or Solana wallets list it as a Zelcore wallet, and you approve every connection and signature in the extension. For other dApps, you can still connect with [WalletConnect](./walletconnect.md).
 
 ## What the extension doesn't do
 

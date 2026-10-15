@@ -35,7 +35,7 @@ Access your wallet seamlessly across:
 - **Browser**: Chrome, Edge, Brave (Firefox is not available yet)
 
 ### Security Features
-- 24-word seed phrase for maximum recovery security
+- Standard 12, 18 or 24-word BIP-39 seed phrase (24 words by default) for recovery
 - Decentralized 2FA (d2FA), a PIN stored encrypted on the Flux blockchain ([set up d2FA](/docs/security/d2fa))
 - Ledger and Trezor hardware wallets on Zelcore desktop ([hardware wallets](/docs/guides/hardware-wallets))
 - Biometric login support

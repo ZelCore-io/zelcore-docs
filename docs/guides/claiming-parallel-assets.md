@@ -8,11 +8,11 @@ keywords: [parallel assets, claim parallel tokens, zelcore parallel assets]
 
 # Claiming Flux Parallel Assets: Complete Guide
 
-Claim Flux Parallel Assets (PA) in the Fusion section of Zelcore: open Fusion, go to the Parallel Assets (PA Claims) section, pick a PA type and claim it, or use "Claim All" to consolidate everything into native FLUX. Each claim needs gas on the chain you claim to (native FLUX for "Claim All"), and first-time or large claims may need whitelisting.
+FluxNode operators still earn Parallel Assets (PA): each node payout adds to the amount you can claim on each parallel chain. Claim them in the Fusion section of Zelcore: open Fusion, go to **Parallel Mining Claim**, pick a PA type and claim it, or use "Claim All" to consolidate everything into native FLUX. Each claim needs gas on the chain you claim to (native FLUX for "Claim All"), and first-time or large claims may need whitelisting.
 
 ## Overview
 
-Parallel Assets are rewards distributed to FluxNode operators for participating in the Flux parallel mining ecosystem. These assets must be claimed through the Fusion interface in Zelcore, and understanding the claiming process, requirements, and potential issues will help you successfully claim your PA rewards.
+Parallel Assets are rewards distributed to FluxNode operators for participating in the Flux parallel mining ecosystem. These assets must be claimed through the Fusion interface in Zelcore, under **Parallel Mining Claim**. FluxNode operators still earn new Parallel Assets, and each node payout adds to the amount you can claim on each parallel chain. Flux on Ergo is the exception: it's discontinued, and Ergo claims are paid as FLUX on the Flux main chain. Understanding the claiming process, requirements, and potential issues will help you successfully claim your PA rewards.
 
 ## Understanding Parallel Assets
 
@@ -39,7 +39,7 @@ Parallel Assets (PA) are a reward mechanism within the Flux ecosystem:
 
 1. Open Zelcore
 2. Navigate to Fusion (or FusionX/SSP)
-3. Look for "Parallel Assets" or "PA Claims" section
+3. Open **Parallel Mining Claim**
 4. Available credits will be displayed by parallel chain type
 
 ### Parallel Asset Types Available for Claiming
@@ -112,7 +112,7 @@ This method allows you to claim specific PA types to their respective parallel c
 
 1. Open Zelcore
 2. Navigate to **Fusion** (or FusionX/SSP)
-3. Look for **Parallel Assets**, **PA Claims**, or similar section
+3. Open **Parallel Mining Claim**
 4. Your available PA credits should be displayed
 
 **Step 2: Select PA Type to Claim**
@@ -694,9 +694,8 @@ Understanding the costs associated with claiming PA rewards:
 
 **Are there PA claim fees beyond gas?**
 
-- **No additional platform fees:** Zelcore doesn't charge extra for PA claiming
-- **Only blockchain gas fees:** You pay standard transaction fees for the blockchain
-- **No percentage taken:** Full PA credit amount goes to you minus only gas
+- **A small FLUX fee per claim:** Each claim charges a small FLUX fee that depends on the chain. Fusion shows it before you confirm.
+- **Blockchain gas fees:** You also pay standard transaction fees for the blockchain you claim on
 - **Claim all vs individual:** Same gas model, but "Claim All" is one transaction vs multiple
 
 ### Cost Optimization Strategies
