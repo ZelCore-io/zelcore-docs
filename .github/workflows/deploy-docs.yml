@@ -34,6 +34,12 @@ jobs:
       - name: Build Docusaurus site
         run: npm run build
 
+      - name: Script tests
+        run: npm test
+
+      - name: SEO checks
+        run: npm run check:seo
+
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
