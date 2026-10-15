@@ -125,3 +125,10 @@ test('faq parity: headings inside fenced code are ignored; only \\` \\" \\\' \\\
   const quoteTs = "const i = [{ question: 'Isn\\'t \"it\" ok?', answer: 'x' }];";
   assert.deepEqual(faqParityProblems(quote, quoteTs, 'demo'), []);
 });
+
+test('page: property="robots" is accepted when a name="robots" tag is also present', () => {
+  const both = '<meta name="robots" content="noindex, follow"><meta property="robots" content="noindex, follow">';
+  assert.deepEqual(pageProblems(html({ head: both }), 'search/index.html'), []);
+  const only = '<meta property="robots" content="noindex, follow">';
+  assert.ok(pageProblems(html({ head: only }), 'x/index.html').some((m) => m.includes('property="robots"')));
+});

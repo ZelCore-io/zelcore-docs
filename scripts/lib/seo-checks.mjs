@@ -58,7 +58,9 @@ export function pageProblems(html, relPath) {
   const problems = [];
   const at = (msg) => problems.push(`${relPath}: ${msg}`);
 
-  if (/<meta[^>]*\sproperty="robots"/.test(html)) at('uses property="robots" (search engines ignore it); use name="robots"');
+  // The search plugin hard-codes an extra property="robots" tag; it is harmless once a real name="robots" tag exists.
+  const hasNameRobots = /<meta[^>]*\sname="robots"/.test(html);
+  if (!hasNameRobots && /<meta[^>]*\sproperty="robots"/.test(html)) at('uses property="robots" (search engines ignore it); use name="robots"');
   const hasNoindex = (html.match(/<meta\b[^>]*>/g) || []).some((tag) => /\bname="robots"/.test(tag) && /\bcontent="noindex/.test(tag));
   if (relPath === 'search/index.html' && !hasNoindex) {
     at('search page lacks <meta name="robots" content="noindex, ...">');
