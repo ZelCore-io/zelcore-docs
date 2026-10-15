@@ -11,18 +11,24 @@ type Props = WrapperProps<typeof DocBreadcrumbsType>;
 export default function DocBreadcrumbsWrapper(props: Props): React.ReactNode {
   const breadcrumbs = useSidebarBreadcrumbs();
   const { siteConfig } = useDocusaurusContext();
-  const baseUrl = siteConfig.url + siteConfig.baseUrl;
+  const withSlash = (href: string) => (href.endsWith('/') ? href : `${href}/`);
+  const home = `${siteConfig.url}${siteConfig.baseUrl}`;
 
   const jsonLd = breadcrumbs
     ? {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
-        itemListElement: breadcrumbs.map((item, index) => ({
-          '@type': 'ListItem',
-          position: index + 1,
-          name: item.label,
-          ...(item.href ? { item: `${baseUrl}${item.href.replace(/^\//, '')}` } : {}),
-        })),
+        itemListElement: [
+          {'@type': 'ListItem', position: 1, name: 'Zelcore Docs', item: home},
+          ...breadcrumbs.map((item, index) => ({
+            '@type': 'ListItem',
+            position: index + 2,
+            name: item.label,
+            // Sidebar hrefs include baseUrl and omit the trailing slash; the
+            // site uses trailingSlash: true, so match the canonical URL.
+            ...(item.href ? {item: `${siteConfig.url}${withSlash(item.href)}`} : {}),
+          })),
+        ],
       }
     : null;
 
