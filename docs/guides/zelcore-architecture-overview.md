@@ -127,14 +127,14 @@ For security reasons, certain data never leaves your device:
 
 When Zelcore is not actively in use, all sensitive data — including derived private keys — is encrypted on your device. The encryption key is derived from your login credentials, meaning that without your username and password, the data on disk is unreadable.
 
-### D2FA — Decentralized Two-Factor Authentication
+### d2FA — Decentralized Two-Factor Authentication
 
-Zelcore offers a unique security feature called D2FA (Decentralized Two-Factor Authentication). Unlike traditional 2FA that relies on a centralized service, d2FA protects your account with a PIN that is stored encrypted on the Flux blockchain. Zelcore asks for it before you send, swap, view private keys or use Flux ID. This means:
+Zelcore offers a unique security feature called d2FA (Decentralized Two-Factor Authentication). Unlike traditional 2FA that relies on a centralized service, d2FA protects your account with a PIN that is stored encrypted on the Flux blockchain. Zelcore asks for it before you send, swap, view private keys or use Flux ID. This means:
 
 - No reliance on SMS or email, which are vulnerable to SIM-swapping and phishing.
 - No centralized 2FA server that could be compromised.
 
-For details on setting up D2FA and other security measures, see the [account access FAQ](/docs/faq/account-access-faq/).
+For details on setting up d2FA and other security measures, see the [account access FAQ](/docs/faq/account-access-faq/).
 
 ### Transaction Signing
 

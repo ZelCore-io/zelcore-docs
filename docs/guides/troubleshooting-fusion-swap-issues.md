@@ -11,7 +11,7 @@ keywords: [fusion swap stuck, zelcore swap failed, crypto exchange troubleshooti
 
 If your Fusion swap order is showing as "Hold", "Awaiting blockchain confirmation", stuck in processing, or you've sent funds but haven't received them on the destination chain, this guide will help you understand and resolve the issue.
 
-Fusion swaps in Zelcore are powered by third-party exchange providers (for example ChangeNOW, Changelly, Exolix, XOSwap, Rango, Binance Web3 or InstaSwap). The providers shown depend on the pair and your country. Most stuck swaps are due to provider-side processing issues, KYC requirements, or blockchain confirmation delays - not Zelcore itself. This guide will help you diagnose the problem and take the right steps to resolve it.
+Fusion swaps in Zelcore are powered by third-party exchange providers (for example ChangeNOW, Changelly, Exolix, SimpleSwap or ChangeHero). The providers shown depend on the pair and your country. Most stuck swaps are due to provider-side processing issues, KYC requirements, or blockchain confirmation delays - not Zelcore itself. This guide will help you diagnose the problem and take the right steps to resolve it.
 
 ## Prerequisites
 

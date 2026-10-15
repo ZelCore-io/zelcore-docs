@@ -97,12 +97,12 @@ Your Zelcore account password encrypts your wallet data on your device. Use a st
 Zelcore offers several security features that you should enable:
 
 - **Two-Factor Authentication (2FA):** Adds a time-based one-time password requirement to wallet access.
-- **D2FA (Decentralized Two-Factor Authentication):** Zelcore's advanced 2FA system that does not rely on centralized servers.
+- **d2FA (Decentralized Two-Factor Authentication):** Zelcore's advanced 2FA system that does not rely on centralized servers.
 - **Biometric authentication:** On supported mobile devices, use fingerprint or face recognition for quick but secure access.
 - **PIN protection:** Set a PIN for an additional authentication barrier.
 
 :::tip
-Enable D2FA for the strongest protection available in Zelcore. Unlike traditional 2FA, D2FA is decentralized and does not depend on a single server for verification.
+Enable d2FA for the strongest protection available in Zelcore. Unlike traditional 2FA, d2FA is decentralized and does not depend on a single server for verification.
 :::
 
 ### Keep Your Software Updated

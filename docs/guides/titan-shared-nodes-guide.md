@@ -39,7 +39,7 @@ Titan pools stakes from many users to run Stratus nodes. You stake any amount fr
 
 1. **You stake FLUX** (minimum 50 FLUX, maximum 100,000 FLUX per stake, as of October 2026)
 2. **You choose a lock-up** of 3, 6 or 12 months
-3. **Titan pools the stakes** to run Stratus nodes on its own infrastructure
+3. **Titan pools the stakes** to run Stratus nodes
 4. **The nodes earn Flux rewards** from the network
 5. **Titan deducts its fee**, which depends on the lock-up and is shown before you confirm
 6. **You receive your share** of the rewards in your Zelcore wallet
@@ -896,8 +896,8 @@ If immediate exit isn't critical:
 
 **Example:**
 - Stake 500 FLUX
-- Earn ~8% annually = 40 FLUX/year
-- After ~12.5 years, rewards = initial stake
+- Earn rewards at the rate shown in Titan
+- Over time, accumulated rewards add up to your initial stake
 - But you still own the shares for future rewards
 
 **What NOT to do:**

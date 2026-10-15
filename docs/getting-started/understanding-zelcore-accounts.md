@@ -164,11 +164,11 @@ The older FluxID system used with legacy username/password accounts.
 **Recommendation:**
 If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to a seed phrase account.
 
-## D2FA and D2FA PIN
+## d2FA and d2FA PIN
 
-### What is D2FA?
+### What is d2FA?
 
-**D2FA** stands for "Decentralized Two-Factor Authentication" - an additional security layer for Zelcore transactions.
+**d2FA** stands for "Decentralized Two-Factor Authentication" - an additional security layer for Zelcore transactions.
 
 **How it works:**
 - Uses a distributed network to verify transactions
@@ -176,9 +176,9 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 - No reliance on a single centralized service
 - Protected by blockchain technology
 
-### What is D2FA PIN?
+### What is d2FA PIN?
 
-**D2FA PIN** is a personal identification number you set up for your D2FA.
+**d2FA PIN** is a personal identification number you set up for your d2FA.
 
 **Purpose:**
 - Asked before you send, swap, view private keys or use Flux ID
@@ -186,9 +186,9 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 - Stored encrypted on the Flux blockchain
 
 **Common issues:**
-- **Forgot D2FA PIN:** Can be reset using your seed phrase
-- **D2FA not working:** Check that you're connected to the internet
-- **D2FA setup failed:** Try updating Zelcore to the latest version
+- **Forgot d2FA PIN:** Can be reset using your seed phrase
+- **d2FA not working:** Check that you're connected to the internet
+- **d2FA setup failed:** Try updating Zelcore to the latest version
 
 ## How to Access Your Account on a New Device
 

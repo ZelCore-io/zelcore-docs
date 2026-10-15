@@ -175,7 +175,7 @@ Use Option A (account switcher) if available - it's easiest to manage both accou
 
 #### Step 5: Complete New Account Setup
 
-1. Enable D2FA (recommended for security)
+1. Enable d2FA (recommended for security)
 2. Note your new account is empty (this is expected)
 3. You now have TWO accounts:
    - **Legacy account:** Has your current funds
@@ -256,16 +256,16 @@ For each cryptocurrency in your list:
 
 ### Phase 3: Handle Special Cases
 
-#### D2FA Migration
+#### d2FA Migration
 
-If you have D2FA enabled on your legacy account:
+If you have d2FA enabled on your legacy account:
 
-1. **New account D2FA:**
-   - Set up fresh D2FA in your new account
-   - Create a new D2FA PIN
-   - This is separate from legacy D2FA
+1. **New account d2FA:**
+   - Set up fresh d2FA in your new account
+   - Create a new d2FA PIN
+   - This is separate from legacy d2FA
 
-2. **Legacy D2FA:**
+2. **Legacy d2FA:**
    - Keep enabled until all transfers complete
    - Can disable after confirming migration success
 
@@ -500,16 +500,16 @@ If you have D2FA enabled on your legacy account:
 - Keep both accounts until complete
 - Legacy login is deprecated and will be phased out, so finish the migration soon
 
-### "D2FA issues after migration"
+### "d2FA issues after migration"
 
 **Common problems:**
 
-**D2FA PIN not working in new account:**
-- New account has separate D2FA
-- Create new D2FA PIN for new account
+**d2FA PIN not working in new account:**
+- New account has separate d2FA
+- Create new d2FA PIN for new account
 - Old PIN was for legacy account only
 
-**Can't set up D2FA:**
+**Can't set up d2FA:**
 - Update Zelcore to latest version
 - Check internet connection
 - Try disabling and re-enabling
@@ -532,7 +532,7 @@ Use this checklist to track your progress:
 - [ ] Verified seed phrase
 - [ ] Stored seed phrase securely
 - [ ] Set up device authentication
-- [ ] Enabled D2FA (optional)
+- [ ] Enabled d2FA (optional)
 
 ### Asset Transfer
 For EACH asset:

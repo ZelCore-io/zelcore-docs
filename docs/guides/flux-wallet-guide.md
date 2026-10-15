@@ -195,7 +195,7 @@ If your FLUX balance does not display correctly:
 
 ### Keeping FLUX Secure
 
-- Enable D2FA on your Zelcore account for an additional layer of security.
+- Enable d2FA on your Zelcore account for an additional layer of security.
 - Never share your seed phrase, even with people claiming to be Flux or Zelcore support.
 - Use a dedicated device or profile for managing significant FLUX holdings.
 

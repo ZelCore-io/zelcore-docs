@@ -125,7 +125,7 @@ For detailed information about the installation process across all platforms, se
 
 Once Zelcore is installed and your wallet is created, take a few minutes to configure it for optimal use:
 
-**Enable D2FA (Decentralized Two-Factor Authentication):**
+**Enable d2FA (Decentralized Two-Factor Authentication):**
 d2FA protects your account with a PIN that is stored encrypted on the Flux blockchain. Zelcore asks for it before you send, swap, view private keys or use Flux ID. This is especially important on a desktop computer that may be shared with others.
 
 **Set up biometric or PIN login (if supported):**
@@ -211,4 +211,4 @@ For additional help with wallet creation, see the [create wallet guide](/docs/ge
 
 ## Summary
 
-Setting up Zelcore as your Windows crypto wallet is a straightforward process that takes just a few minutes. Download from the official source, install with default settings, create or import your wallet, and configure security features like D2FA for protection. Keep the application updated, be mindful of antivirus false positives, and store your seed phrase securely offline. With Zelcore running on your Windows desktop, you have access to 100,000+ assets on 80+ blockchains (as of October 2026), built-in swaps, staking, and the full Flux ecosystem — all from a single, self-custodial application.
+Setting up Zelcore as your Windows crypto wallet is a straightforward process that takes just a few minutes. Download from the official source, install with default settings, create or import your wallet, and configure security features like d2FA for protection. Keep the application updated, be mindful of antivirus false positives, and store your seed phrase securely offline. With Zelcore running on your Windows desktop, you have access to 100,000+ assets on 80+ blockchains (as of October 2026), built-in swaps, staking, and the full Flux ecosystem — all from a single, self-custodial application.

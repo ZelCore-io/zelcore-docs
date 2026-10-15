@@ -68,7 +68,7 @@ If you already use Zelcore on another device:
 
 1. Open the app and tap **Log In**.
 2. Enter your Zelcore username and password.
-3. If you have two-factor authentication (2FA) or D2FA enabled, complete the verification step.
+3. If you have two-factor authentication (2FA) or d2FA enabled, complete the verification step.
 4. Your portfolio and settings will sync automatically.
 
 :::info
@@ -93,9 +93,9 @@ To enable biometrics:
 
 Once enabled, you can unlock Zelcore with a quick fingerprint scan or face recognition instead of typing your password each time. This strikes a balance between security and convenience for day-to-day mobile use.
 
-### D2FA (Decentralized Two-Factor Authentication)
+### d2FA (Decentralized Two-Factor Authentication)
 
-Zelcore's D2FA system works seamlessly on mobile. D2FA uses the Flux blockchain to provide decentralized two-factor authentication that does not depend on a centralized server. This is especially valuable on mobile, where devices are more likely to be lost or stolen than desktop computers.
+Zelcore's d2FA system works seamlessly on mobile. d2FA uses the Flux blockchain to provide decentralized two-factor authentication that does not depend on a centralized server. This is especially valuable on mobile, where devices are more likely to be lost or stolen than desktop computers.
 
 d2FA protects your account with a PIN that is stored encrypted on the Flux blockchain. Zelcore asks for it before you send, swap, view private keys or use Flux ID.
 
@@ -132,7 +132,7 @@ While Zelcore aims to provide a consistent experience across platforms, there ar
 | Multi-asset portfolio | Full support | Full support |
 | Biometric authentication | Face ID / Touch ID | Fingerprint / Face Unlock |
 | In-app token swaps | Limited (Apple restrictions) | Full support |
-| D2FA | Full support | Full support |
+| d2FA | Full support | Full support |
 | Fusion (cross-chain swaps) | Limited availability | Full support |
 | Direct APK updates | Not available | Available from zelcore.io |
 | Background sync | Limited by iOS | More flexible |
@@ -175,7 +175,7 @@ Zelcore is designed for multi-device use. Here is how syncing works:
 
 1. **Use the same account** on all devices for a consistent experience.
 2. **Keep all devices updated** to the latest Zelcore version to avoid compatibility issues.
-3. **Enable D2FA** for security across all devices — if one device is compromised, the attacker still cannot send, swap or view private keys without your d2FA PIN.
+3. **Enable d2FA** for security across all devices — if one device is compromised, the attacker still cannot send, swap or view private keys without your d2FA PIN.
 
 For questions about accessing your account across devices, see the [account access FAQ](/docs/faq/account-access-faq/).
 
@@ -193,7 +193,7 @@ Using a crypto wallet on a mobile device requires extra vigilance. Your phone is
 ### App-Level Security
 
 - **Enable biometric authentication** so that even if someone gains access to your unlocked phone, they still need your biometric to open Zelcore.
-- **Enable D2FA** for login and transaction authorization.
+- **Enable d2FA** for login and transaction authorization.
 - **Log out when not in use** if you are in a high-risk environment.
 - **Do not store your seed phrase on your phone** — no notes app, no photos, no cloud documents.
 
@@ -228,4 +228,4 @@ For platform-specific troubleshooting, consult the [platform-specific FAQ](/docs
 
 ## Summary
 
-Zelcore's mobile crypto wallet app delivers a comprehensive cryptocurrency management experience on both iOS and Android. While there are minor platform differences — particularly around swap availability on iOS — the core functionality of sending, receiving, and managing 100,000+ assets on 80+ blockchains (as of October 2026) is fully available on both platforms. By enabling biometric authentication and D2FA, keeping your device and app updated, and following mobile security best practices, you can confidently manage your crypto portfolio from anywhere.
+Zelcore's mobile crypto wallet app delivers a comprehensive cryptocurrency management experience on both iOS and Android. While there are minor platform differences — particularly around swap availability on iOS — the core functionality of sending, receiving, and managing 100,000+ assets on 80+ blockchains (as of October 2026) is fully available on both platforms. By enabling biometric authentication and d2FA, keeping your device and app updated, and following mobile security best practices, you can confidently manage your crypto portfolio from anywhere.
