@@ -64,7 +64,9 @@ Zelcore asks you to import the seed phrase again to check that you wrote it down
 
 ### 6. Name the Wallet and Set an Easy Login Passphrase
 
-Enter a **Seed Label** (a name for this seed phrase; Zelcore fills in a default) and an **Easy Login Passphrase** of at least 8 characters, then confirm the passphrase. Use a passphrase you don't use anywhere else.
+Enter a **Seed Label** (a name for this seed phrase; Zelcore fills in a default) and an **Easy Login Passphrase** of at least 8 characters that includes at least two of: uppercase letter, lowercase letter, number, symbol. Then confirm the passphrase. Use a passphrase you don't use anywhere else.
+
+On devices with biometrics, Zelcore asks whether to use biometrics for Easy Login; if you accept, you don't set a passphrase.
 
 Click **Register**. You can now log in with your Easy Login passphrase.
 

@@ -27,7 +27,7 @@ Zelcore has evolved significantly over the years, and understanding the differen
 ### Modern Accounts (Seed Phrase / BIP44)
 
 **What it is:**
-Modern Zelcore accounts use a **seed phrase** (also called a recovery phrase or mnemonic phrase) - typically 12 or 24 words that serve as the master key to your wallet.
+Modern Zelcore accounts use a **seed phrase** (also called a recovery phrase or mnemonic phrase) - typically 12, 18 or 24 words that serve as the master key to your wallet.
 
 **Key features:**
 - Industry-standard BIP44 protocol
@@ -38,7 +38,7 @@ Modern Zelcore accounts use a **seed phrase** (also called a recovery phrase or 
 - Recommended for all new users
 
 **How to identify:**
-- You have a 12 or 24-word seed phrase
+- You have a 12, 18 or 24-word seed phrase
 - You don't use a username/password to log in
 - You use a PIN, password, or biometric authentication on each device
 
@@ -203,7 +203,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 - Look for "Sync," "Import," or "Restore from Seed Phrase"
 
 **Step 3: Enter Your Seed Phrase**
-- Enter all 12 or 24 words in the exact order
+- Enter all 12, 18 or 24 words in the exact order
 - Double-check for typos
 - Words are usually lowercase
 
@@ -289,7 +289,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 - You don't have a seed phrase written down
 
 **You have a modern account if:**
-- You have a 12 or 24-word seed phrase
+- You have a 12, 18 or 24-word seed phrase
 - You use PIN/biometric/password on each device (not username)
 - You created your account after 2022
 

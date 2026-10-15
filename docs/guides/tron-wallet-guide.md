@@ -268,7 +268,7 @@ Exchanges may impose minimum withdrawal amounts and charge their own withdrawal 
 
 ### Account Not Activated
 
-A new TRON address is activated by its first incoming transfer, and it can't send transactions before that. If your Zelcore TRON wallet is brand new, receive some TRX first. Sending TRX to an address that isn't activated yet costs the sender a 1 TRX account creation fee (as of October 2026).
+A new TRON address is activated when it first receives TRX (or a TRC-10 token); receiving TRC-20 tokens such as USDT does not activate it. It can't send transactions before that. If your Zelcore TRON wallet is brand new, receive some TRX first. Sending TRX to an address that isn't activated yet costs the sender a 1 TRX account creation fee (as of October 2026).
 
 ### Sent Tokens to the Wrong Network
 

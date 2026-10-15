@@ -643,7 +643,7 @@ Install any libraries shown as "not found".
 
 **CRITICAL: BACKUP WALLET FIRST**
 
-1. **Write down your 12/24-word seed phrase**
+1. **Write down your 12/18/24-word seed phrase**
 2. **Verify you have backup phrase before proceeding**
 3. Delete Zelcore app (long-press icon > Remove App)
 4. Go to App Store
@@ -745,7 +745,7 @@ Do not install from third-party APK sites.
 
 **Step 1: Backup wallet**
 1. Open Zelcore (if accessible)
-2. Write down 12/24-word seed phrase
+2. Write down 12/18/24-word seed phrase
 3. Verify backup phrase is correct
 
 **Step 2: Uninstall existing version**
@@ -882,7 +882,7 @@ Many installation/update issues stem from connectivity:
 1. Open Zelcore (if accessible)
 2. Go to Settings
 3. Find your wallet's seed phrase or backup option
-4. Write down 12 or 24-word seed phrase
+4. Write down 12, 18 or 24-word seed phrase
 5. Store securely offline
 6. Verify you can read all words clearly
 

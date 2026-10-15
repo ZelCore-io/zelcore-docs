@@ -98,7 +98,7 @@ If you are uncertain whether a flagged file is legitimate, re-download Zelcore f
 
 ## First Launch and Wallet Creation
 
-When you launch Zelcore for the first time, the welcome screen offers to create a new wallet or import an existing one. The steps are the same on every platform:
+When you launch Zelcore for the first time, the welcome screen's **Get Started** button opens the Register screen, where you generate a new seed phrase or import an existing one. The steps are the same on every platform:
 
 - New wallet: [Create a New Wallet](/docs/getting-started/create-wallet) (text) or the [Zelcore Wallet Setup Guide](/docs/walkthroughs/zelcore-setup-guide) (screenshots)
 - Existing seed phrase: [Import an Existing Wallet](/docs/getting-started/import-wallet)

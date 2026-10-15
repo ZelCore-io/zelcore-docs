@@ -150,7 +150,7 @@ Use Option A (account switcher) if available - it's easiest to manage both accou
 
 **This is the most critical step:**
 
-1. Zelcore displays 12 or 24 words
+1. Zelcore displays 12, 18 or 24 words
 2. Write ALL words on paper in exact order
 3. **Number each word** (1-12 or 1-24)
 4. **Double-check spelling** of each word

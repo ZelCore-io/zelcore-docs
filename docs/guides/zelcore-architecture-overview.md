@@ -74,7 +74,7 @@ Sensitive data on your device, including derived private keys, is stored encrypt
 
 ### d2FA
 
-d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. Zelcore asks for it before you send, swap, view private keys or use Flux ID. It doesn't use SMS, email or a central 2FA server. To set it up, see step 8 of [Create a New Wallet](/docs/getting-started/create-wallet).
+d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. If you turn on its secure-tasks option, Zelcore asks for it before you send, swap, view private keys or use Flux ID. It doesn't use SMS, email or a central 2FA server. To set it up, see step 8 of [Create a New Wallet](/docs/getting-started/create-wallet).
 
 ### Transaction Signing
 

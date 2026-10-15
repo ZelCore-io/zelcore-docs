@@ -45,7 +45,7 @@ Zelcore encrypts your wallet data with your password. Someone with access to you
 
 ### d2FA
 
-d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. Zelcore asks for it before you send, swap, view private keys or use Flux ID. See step 8 of [Create a New Wallet](/docs/getting-started/create-wallet) to set it up.
+d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. If you turn on its secure-tasks option, Zelcore asks for it before you send, swap, view private keys or use Flux ID. See step 8 of [Create a New Wallet](/docs/getting-started/create-wallet) to set it up.
 
 ### No Server-Side Dependency for Funds
 

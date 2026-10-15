@@ -33,7 +33,7 @@ Based on extensive analysis of wallet compromises, attackers typically gain acce
 
 ## Seed Phrase Security
 
-Your 12 or 24-word seed phrase is the master key to your wallet. Lose it, and you lose access to your funds forever. Compromise it, and someone else gains full access.
+Your 12, 18 or 24-word seed phrase is the master key to your wallet. Lose it, and you lose access to your funds forever. Compromise it, and someone else gains full access.
 
 ### Do's ✅
 
