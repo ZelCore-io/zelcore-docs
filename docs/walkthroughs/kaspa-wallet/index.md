@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: "Kaspa (KAS) in Zelcore: KNS and KRC-20"
-description: Kaspa in Zelcore 8.39.0 - send to .kas names, import and verify KRC-20 tokens, consolidate UTXOs, view KCC tokens, use a Ledger on desktop and sign messages.
+description: "Kaspa in Zelcore 8.39.0: send to .kas names, import and verify KRC-20 tokens, consolidate UTXOs, view KCC tokens and use a Ledger on desktop."
 keywords: [zelcore, kaspa, kas, kns, kaspa names, krc-20, krc20, kasplex, kcc, kron, ledger, utxo consolidation, sign message, kaspa ng, kasware]
 image: ./images/01-kns-send-resolved.webp
 ---

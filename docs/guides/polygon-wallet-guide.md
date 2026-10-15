@@ -1,7 +1,7 @@
 ---
 sidebar_position: 18
 title: How to Use Polygon (MATIC/POL) in Zelcore
-description: "Complete guide to managing Polygon in your Zelcore wallet. Send, receive, and use MATIC/POL with low fees on Polygon's Layer 2 network."
+description: "Add Polygon to Zelcore, send and receive MATIC/POL, bridge assets from Ethereum and fix common issues on the low-fee Layer 2 network."
 keywords: [polygon wallet, matic wallet, polygon crypto wallet, polygon layer 2]
 ---
 

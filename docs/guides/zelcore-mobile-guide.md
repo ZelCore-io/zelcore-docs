@@ -1,7 +1,7 @@
 ---
 sidebar_position: 15
 title: Zelcore Mobile Wallet — iOS and Android Guide
-description: "Complete guide to using Zelcore mobile crypto wallet on iOS and Android. Setup, features, platform differences, and mobile-specific tips."
+description: "Install Zelcore on iOS and Android, set up your mobile wallet, secure it and fix mobile-specific problems. Differences from desktop explained."
 keywords: [mobile crypto wallet, zelcore ios, zelcore android, crypto wallet app]
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Troubleshooting App Installation
-description: "Fix Zelcore app installation issues on desktop and mobile — download failures, permission errors, and update problems."
+description: "Fix Zelcore app installation issues on desktop and mobile: download failures, permission errors, antivirus blocks and update problems."
 keywords: [zelcore install problem, crypto wallet installation, zelcore update]
 ---
 

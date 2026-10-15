@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Install Zelcore
-description: "Download and install Zelcore from the official sources: desktop for Windows, macOS and Linux, the iOS and Android apps, and the browser extension for Chrome, Brave and Edge."
+description: "Download and install Zelcore from official sources: desktop for Windows, macOS and Linux, iOS and Android, and the browser extension."
 keywords: [zelcore download, install zelcore, official zelcore download, zelcore windows macos linux, zelcore ios android, zelcore browser extension]
 ---
 

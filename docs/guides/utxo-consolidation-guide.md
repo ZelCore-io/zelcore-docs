@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
-title: UTXO Consolidation Guide
+title: "Zelcore UTXO Consolidation Guide"
+sidebar_label: "UTXO Consolidation Guide"
 description: "Learn how to consolidate UTXOs in Zelcore to reduce transaction fees and improve wallet performance for Bitcoin-based assets."
 keywords: [utxo consolidation, bitcoin transaction fees, zelcore utxo, consolidate crypto]
 ---

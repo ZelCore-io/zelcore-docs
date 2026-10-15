@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Stake Ethereum with Zelcore
-description: How to stake ETH using the Zelcore Earn function with Chorus One Max Vault
+description: "Stake ETH in Zelcore Earn with the Chorus One Max Vault: minimum 0.01 ETH, step-by-step screenshots and how to check your position."
 keywords: [ethereum, staking, earn, chorus one, ETH, APY]
 image: ./images/03-earn-dashboard.webp
 ---

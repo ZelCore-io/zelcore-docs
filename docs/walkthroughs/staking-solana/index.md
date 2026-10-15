@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: How to Stake Solana (SOL) with Zelcore Earn
-description: Step-by-step guide to staking Solana using the Zelcore Earn feature via the Chorus One staking provider.
+description: "Stake SOL with Zelcore Earn and the Chorus One staking provider: enter an amount, confirm the stake and follow activation and rewards."
 keywords: [zelcore, solana, sol, staking, earn, apy, chorus one, validator]
 image: ./images/03-earn-solana-dashboard.webp
 ---

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 21
 title: How to Use FLUX in Zelcore
-description: "Complete guide to managing FLUX cryptocurrency in Zelcore. Send, receive, stake FLUX, run nodes, and use Flux Fusion for cross-chain transfers."
+description: "Send, receive and stake FLUX in Zelcore, run Flux nodes and move FLUX across chains with Fusion. Covers wallets, Earn and node setup."
 keywords: [flux wallet, flux crypto wallet, manage flux, flux staking]
 ---
 
