@@ -404,7 +404,7 @@ rm -rf /Applications/ZelCore.app
 **Step 5: Check macOS version compatibility**
 
 Ensure your macOS version is supported:
-- macOS 10.13 (High Sierra) or later typically required
+- macOS 12 (Monterey) or later required (Apple Silicon or Intel)
 - Check Zelcore release notes for minimum version
 
 ## Linux Installation and Update Issues
@@ -459,7 +459,7 @@ cd squashfs-root
 ./zelcore
 ```
 
-### Issue 2: DEB/RPM Package Installation Fails
+### Issue 2: DEB Package Installation Fails
 
 **Symptoms:**
 - Package manager errors
@@ -482,29 +482,15 @@ sudo dpkg -i zelcore_*.deb
 sudo apt --fix-broken install
 ```
 
-**For RPM (Fedora/CentOS):**
+**Fedora and other non-Debian distributions:**
 
-```bash
-# Fedora
-sudo dnf install zelcore-*.rpm
-
-# CentOS
-sudo yum install zelcore-*.rpm
-
-# If dependency errors:
-sudo dnf install -y [missing-package]
-```
+Zelcore doesn't ship an RPM package. On Fedora and other non-Debian distributions, use the .AppImage.
 
 **Step 3: Use package manager GUI**
 
 **Ubuntu:**
 - Double-click .deb file
 - Opens in Ubuntu Software
-- Click Install
-
-**Fedora:**
-- Double-click .rpm file
-- Opens in Software
 - Click Install
 
 ### Issue 3: Auto-Update Not Working on Linux
@@ -522,7 +508,7 @@ AppImage doesn't auto-update. Manual update required:
 3. Replace old AppImage
 4. Run new version
 
-**For DEB/RPM users:**
+**For DEB users:**
 
 Updates may come through system package manager if repository was added.
 
@@ -532,14 +518,11 @@ Updates may come through system package manager if repository was added.
 # Ubuntu/Debian
 sudo apt update
 sudo apt upgrade zelcore
-
-# Fedora
-sudo dnf upgrade zelcore
 ```
 
 **Manual update:**
 
-Download new DEB/RPM and install over existing.
+Download the new .deb and install it over the existing one.
 
 ### Issue 4: Missing Dependencies
 
@@ -604,7 +587,7 @@ Install any libraries shown as "not found".
 
 1. Go to Settings > General > About
 2. Check iOS version
-3. Zelcore typically requires iOS 12.0 or later
+3. Zelcore requires iOS 15 or later
 4. Update iOS if needed: Settings > General > Software Update
 
 **Step 2: Check storage space**
@@ -923,18 +906,18 @@ Many installation/update issues stem from connectivity:
 - 500MB free disk space
 
 **macOS:**
-- macOS 10.13 (High Sierra) or later
+- macOS 12 (Monterey) or later, Apple Silicon or Intel
 - 2GB RAM minimum
 - 500MB free disk space
 
 **Linux:**
-- Ubuntu 18.04+ / Debian 9+ / Fedora 30+
+- .deb (Ubuntu/Debian) or .AppImage (other distributions)
 - 2GB RAM minimum
 - 500MB free disk space
 - FUSE support (for AppImage)
 
 **iOS:**
-- iOS 12.0 or later
+- iOS 15 or later
 - 200MB free storage
 
 **Android:**

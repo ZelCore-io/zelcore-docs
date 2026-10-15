@@ -29,7 +29,7 @@ Your private keys are never stored or shared—only you have complete access to 
 Access your wallet seamlessly across:
 - **Desktop**: Windows, macOS, Linux
 - **Mobile**: iOS and Android
-- **Browser**: Chrome, Firefox, Edge, Brave
+- **Browser**: Chrome, Edge, Brave (Firefox is not available yet)
 
 ### Security Features
 - 24-word seed phrase for maximum recovery security

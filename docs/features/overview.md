@@ -36,7 +36,7 @@ Access your wallet seamlessly across devices:
 
 - [Desktop](https://zelcore.io/wallet) (Windows, macOS, Linux)
 - [Mobile](https://zelcore.io/mobile-wallet) (iOS, Android)
-- [Browser Extension](https://zelcore.io/browser-extension) (Chrome, Firefox, Edge, Brave)
+- [Browser Extension](https://zelcore.io/browser-extension) (Chrome, Edge, Brave; Firefox is not available yet)
 
 ## Trading & Exchange
 

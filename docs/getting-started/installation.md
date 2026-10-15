@@ -16,8 +16,8 @@ Zelcore Desktop is available for Windows, macOS, and Linux.
 ### System Requirements
 
 - **Windows**: Windows 10 or later (64-bit)
-- **macOS**: macOS 10.13 (High Sierra) or later
-- **Linux**: Ubuntu 18.04 or later, Fedora 32 or later
+- **macOS**: macOS 12 (Monterey) or later, Apple Silicon or Intel
+- **Linux**: .deb (Ubuntu/Debian) or .AppImage (other distributions)
 
 ### Download Desktop
 
@@ -36,7 +36,7 @@ Access Zelcore on the go with the [Zelcore mobile wallet](https://zelcore.io/mob
 
 ### iOS
 
-**Requirements**: iOS 13.0 or later
+**Requirements**: iOS 15 or later
 
 1. Open the **App Store** on your iPhone or iPad
 2. Search for **"Zelcore"**
@@ -63,13 +63,14 @@ Use the [Zelcore browser extension](https://zelcore.io/browser-extension) direct
 ### Supported Browsers
 
 - Chrome
-- Firefox
 - Edge
 - Brave
 
+Install the extension from the Chrome Web Store. The same listing works in Chrome, Brave and Edge. Firefox is not available yet.
+
 ### Installation Steps
 
-1. Visit the Chrome Web Store or your browser's extension marketplace
+1. Visit the Chrome Web Store
 2. Search for **"Zelcore"**
 3. Click **Add to [Browser Name]**
 4. Confirm the installation

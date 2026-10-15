@@ -25,7 +25,7 @@ To install Zelcore on your iPhone or iPad:
 4. Open Zelcore and either create a new account or log in with your existing credentials.
 
 **Requirements:**
-- iOS 14.0 or later
+- iOS 15 or later
 - Compatible with iPhone and iPad
 - Approximately 150 MB of storage space
 
