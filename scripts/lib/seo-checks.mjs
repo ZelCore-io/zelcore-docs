@@ -38,10 +38,26 @@ export function sitemapProblems(xml) {
   }
   const lastmods = urls.map((u) => (u.match(/<lastmod>([^<]*)<\/lastmod>/) || [])[1]).filter(Boolean);
   if (urls.length > 10 && lastmods.length === 0) problems.push('sitemap has no lastmod');
-  if (lastmods.length > 10 && new Set(lastmods).size === 1) {
-    problems.push(`sitemap lastmod is ${lastmods[0]} on all ${lastmods.length} URLs (shallow clone?)`);
-  }
   return problems;
+}
+
+// Identical lastmod everywhere is legitimate after a sitewide edit, so it only warns.
+// A shallow clone is detected directly by shallowCloneProblem().
+export function sitemapWarnings(xml) {
+  const urls = xml.match(/<url>[\s\S]*?<\/url>/g) || [];
+  const lastmods = urls.map((u) => (u.match(/<lastmod>([^<]*)<\/lastmod>/) || [])[1]).filter(Boolean);
+  if (lastmods.length > 10 && new Set(lastmods).size === 1) {
+    return [`sitemap lastmod is ${lastmods[0]} on all ${lastmods.length} URLs (fine after a sitewide edit)`];
+  }
+  return [];
+}
+
+// gitOutput is the stdout of `git rev-parse --is-shallow-repository`, or null when git is unavailable.
+export function shallowCloneProblem(gitOutput) {
+  if (gitOutput && gitOutput.trim() === 'true') {
+    return 'build ran in a shallow clone; lastmod would be wrong (use fetch-depth: 0)';
+  }
+  return null;
 }
 
 function jsonLdBlocks(html) {
@@ -76,6 +92,8 @@ export function pageProblems(html, relPath) {
   if (relPath === 'search/index.html' && !hasNoindex) {
     at('search page lacks <meta name="robots" content="noindex, ...">');
   }
+
+  if (/href="https?:\/\/(www\.)?zelcore\.io\/support\/?["#?]/.test(html)) at('links to zelcore.io/support (404); use https://support.zelcore.io');
 
   for (const raw of jsonLdBlocks(html)) {
     let parsed;

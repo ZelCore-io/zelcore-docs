@@ -3,7 +3,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { sitemapProblems, pageProblems, faqParityProblems, decodeEntities } from './lib/seo-checks.mjs';
+import { execFileSync } from 'node:child_process';
+import { sitemapProblems, sitemapWarnings, shallowCloneProblem, pageProblems, faqParityProblems, decodeEntities } from './lib/seo-checks.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const buildDir = path.join(root, 'build');
@@ -22,7 +23,17 @@ function walk(dir, out = []) {
 }
 
 const problems = [];
-problems.push(...sitemapProblems(fs.readFileSync(path.join(buildDir, 'sitemap.xml'), 'utf8')));
+const sitemapXml = fs.readFileSync(path.join(buildDir, 'sitemap.xml'), 'utf8');
+problems.push(...sitemapProblems(sitemapXml));
+for (const w of sitemapWarnings(sitemapXml)) console.warn(`warning: ${w}`);
+let shallowOutput = null;
+try {
+  shallowOutput = execFileSync('git', ['rev-parse', '--is-shallow-repository'], { cwd: root, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+} catch {
+  // git is not available or this is not a repository: skip silently
+}
+const shallow = shallowCloneProblem(shallowOutput);
+if (shallow) problems.push(shallow);
 const pages = walk(buildDir);
 for (const file of pages) {
   problems.push(...pageProblems(fs.readFileSync(file, 'utf8'), path.relative(buildDir, file)));
