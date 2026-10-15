@@ -14,7 +14,7 @@ This guide walks you through staking Solana (SOL) using Zelcore's Earn feature. 
 
 ## Prerequisites
 
-- A Zelcore wallet with SOL tokens (minimum 0.01 SOL to stake)
+- A Zelcore wallet with SOL tokens (minimum 1.0023 SOL to stake: Solana's 1 SOL minimum plus the stake-account rent)
 - Zelcore desktop application installed and logged in
 
 ---
@@ -67,7 +67,7 @@ The staking form displays:
 - **Stake Amount** — Input field for the amount of SOL to stake
 - **MAX** button — Automatically fills the maximum available amount
 - **Available to Stake** — Shows your available SOL balance (e.g., 0.2034 SOL)
-- **Min** — The minimum staking amount (0.01 SOL)
+- **Min** — The minimum staking amount: 1.0023 SOL (Solana's 1 SOL minimum plus the stake-account rent)
 
 :::info
 A small amount of SOL (0.00228288 SOL) must remain in your wallet for rent. This is automatically reserved and cannot be staked.

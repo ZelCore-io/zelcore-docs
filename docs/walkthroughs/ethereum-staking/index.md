@@ -46,7 +46,7 @@ Key information shown:
 | **Available to Stake** | ETH balance available for staking |
 | **Staking Provider** | Chorus One |
 | **Vault** | Chorus One Max Vault |
-| **Est. APY** | ~2.34% (variable based on network conditions) |
+| **Est. APY** | Shown in the app before you confirm (variable; about 2.3% when these screenshots were taken) |
 | **TVL** | Total value locked in the vault |
 
 :::info
@@ -89,7 +89,7 @@ Review the staking details before confirming.
 |--------|-------|
 | **Vault** | Chorus One Max Vault |
 | **Staked** | 0.01 ETH |
-| **Est. APY** | ~2.34% |
+| **Est. APY** | Shown in the app before you confirm (about 2.3% when these screenshots were taken) |
 
 Chorus One's MEV research ensures high yields with top-tier security and enterprise-level infrastructure.
 
@@ -127,4 +127,4 @@ Your position status shows as **Active**, and you can track your accumulated rew
 
 ## Summary
 
-You have successfully staked ETH using Zelcore's Earn function. Your ETH is now staked in the Chorus One Max Vault, earning an estimated ~2.34% APY. Rewards are distributed automatically by Chorus One to all pool participants and will appear in your Rewards balance over time.
+You have successfully staked ETH using Zelcore's Earn function. Your ETH is now staked in the Chorus One Max Vault, earning the estimated APY shown in the app. Rewards are distributed automatically by Chorus One to all pool participants and will appear in your Rewards balance over time.

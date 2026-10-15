@@ -92,11 +92,13 @@ Choose your preferred lockup period. Longer lockup periods offer lower fees and 
 
 ![Lockup tier options showing 3 months, 6 months, and 1 year](./images/05-lockup-tiers.webp)
 
-| Lockup Period | Fee % | Est. APY |
-|---------------|-------|----------|
-| 3 months | 20% | ~12.10% |
-| 6 months | 15% | ~12.90% |
-| 1 year | 10% | ~13.70% |
+The fee and estimated APY for each lock-up are shown in the app before you confirm. As of October 2026 the fees were:
+
+| Lockup Period | Fee % (share of rewards) |
+|---------------|--------------------------|
+| 3 months | 50% |
+| 6 months | 40% |
+| 1 year | 30% |
 
 Select your preferred tier. In this example, we select **1 year** for the lowest fee and highest APY.
 
@@ -124,8 +126,8 @@ Review the summary of your staking configuration before confirming.
 |---------|-------|
 | Staked | 75 FLUX |
 | Lockup | 1 year |
-| Transaction Fee | 10% |
-| Est. APY | ~13.70% |
+| Transaction Fee | 30% (as of October 2026) |
+| Est. APY | Shown in the app before you confirm |
 | Auto-Reinvest | Yes |
 
 :::warning
