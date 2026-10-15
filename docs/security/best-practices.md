@@ -201,7 +201,7 @@ For maximum security, especially with large holdings:
 
 ### Supported Devices
 
-- **Ledger** and **Trezor**, in Zelcore desktop only. For the models, the coins you can import and send, and the steps, see [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets).
+- **Ledger** and **Trezor**, in Zelcore desktop only. For the coins you can import and send, and the steps, see [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets).
 
 ### Hardware Wallet Best Practices
 
