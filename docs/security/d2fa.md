@@ -1,0 +1,145 @@
+---
+title: Set Up d2FA (Decentralized 2FA) in Zelcore
+description: "Set up d2FA in Zelcore: create a numeric PIN in Flux ID, choose when it is asked, change or disable it, and fix common d2FA PIN errors."
+keywords: [zelcore d2fa, decentralized two-factor authentication, d2fa pin, flux id d2fa, zelcore 2fa, wrong d2fa pin]
+---
+
+# Set Up d2FA in Zelcore
+
+d2FA is Zelcore's decentralized two-factor authentication: a numeric PIN that you create in the **Flux ID** app, not in Settings. Zelcore stores the PIN encrypted on the Flux blockchain by sending a small FLUX transaction from your Flux ID address to itself. Depending on the options you tick, Zelcore asks for the PIN when you log in, before secure tasks such as sending, swapping, viewing private keys and Flux ID operations, or both.
+
+:::info Applies to Zelcore 8.39
+Written for Zelcore 8.39.0 (October 2026).
+:::
+
+## Before you start
+
+- **Hold a little confirmed FLUX.** The setup transaction is paid from the first Flux address in your account. The app says: "d2FA requires a small amount of FLUX (~0.0002) to be present in your wallet to broadcast a d2FA 'enable' transaction." That figure is as of October 2026.
+- **Decide how you will back up the PIN.** Write it down and keep it offline, the same way you keep your seed phrase.
+- **Know what happens if you lose it.** The app's own warning: "You will not be able to sign or perform security tasks without this PIN number. The PIN number is stored fully encrypted on the blockchain. No one except you can modify your d2FA signature. If you lost the PIN you won't be able to use/access your account. Make sure you backup the PIN." Zelcore can't reset it for you.
+
+## Set up d2FA
+
+The same Flux ID screens are in the desktop app, the mobile app and the browser extension.
+
+1. Open **Apps** and choose the **Flux ID** tile.
+   <!-- screenshot: d2fa-1 (Apps screen with the Flux ID tile and its description) -->
+2. On the **Security Area** screen, select **Next**.
+3. Under **Actions**, choose **Flux ID d2FA**. The status panel shows **d2FA hasn't been setup yet**.
+   <!-- screenshot: d2fa-2 (Security Area with the status panel and the Flux ID d2FA action) -->
+4. Type a PIN in **New PIN** and the same PIN again in **Verify PIN**. The PIN is digits only.
+5. Tick when Zelcore should ask for the PIN. Tick at least one:
+   - **Used for logging into Zelcore**
+   - **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**
+6. Tick **Yes, I have a backed up my d2FA PIN number.** (this is the app's wording).
+7. Enter your account password in **Enter your password**. On seed-phrase accounts this field is labelled **Easy Login Passphrase**.
+   <!-- screenshot: d2fa-3 (Create d2FA form with New PIN, Verify PIN, both option checkboxes, the backup checkbox and the FLUX note) -->
+8. Select **Create d2FA**. Zelcore broadcasts the setup transaction.
+9. Wait until the transaction is confirmed on the Flux blockchain, then log out and log back in. The app says: "Your d2FA PIN will be set after the transaction is confirmed on the blockchain and you have re-logged in."
+10. Open **Apps** > **Flux ID** again. The status panel now shows **d2FA is active**.
+    <!-- screenshot: d2fa-4 (status panel showing d2FA is active) -->
+
+## When Zelcore asks for your PIN
+
+**At login.** If you ticked **Used for logging into Zelcore**, the login screen also asks for your d2FA PIN.
+
+**Before secure tasks.** If you ticked **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**, a **d2FA** dialog opens with "Please authenticate your account using your PIN." Type the PIN in **PIN** and confirm. The button reads **Verify PIN and Send** on a send, **Verify PIN and Swap** on a swap and **Verify PIN** elsewhere. If you didn't tick this option, these screens don't ask for the PIN.
+
+<!-- screenshot: d2fa-5 (d2FA PIN prompt on the Send screen) -->
+
+With the secure-tasks option on, Zelcore asks every time, whatever the amount, on these screens:
+
+- Send, including sending an NFT
+- Swaps, including **Swap Now** and the Fusion deposit (asked before signing since 8.39.0)
+- Earn staking
+- WalletConnect connection proposals and dApp requests (see [Connect Zelcore to dApps with WalletConnect](../guides/walletconnect.md))
+- Showing a private key or seed phrase, and deleting a wallet
+- Sign Message and other Flux ID operations
+- FIO Crypto Handle, the FluxNodes dashboard, FluxDrive plans and the Zelcore+ subscription
+- Kaspa UTXO consolidation and KRC-20 recovery, the Igra bridge and Ergo storage-rent actions
+
+**Easy Login needs d2FA.** The app says: "Easy Login requires d2FA to be activated on your account and can only be activated for one account per device." Turning d2FA off also turns Easy Login off.
+
+## Change or disable d2FA
+
+To change the PIN or the options:
+
+1. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**.
+2. Keep the switch on **Change d2FA**.
+3. Fill in **New PIN**, **Verify PIN**, the options and the backup checkbox, then your password.
+4. Select **Change d2FA**. As with setup, the new settings apply after the transaction is confirmed and you log in again. Until then, log in with your previous settings.
+
+To turn d2FA off:
+
+1. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**.
+2. Move the switch to **Disable d2FA**.
+3. Type your current PIN in **Verify PIN**.
+4. Select **Disable d2FA** and confirm. The app warns: "d2FA adds another layer of protection and security. Disabling d2FA will also disable Easy Login. Are you sure you want to disable d2FA?"
+
+<!-- screenshot: d2fa-6 (Disable d2FA confirmation dialog) -->
+
+## d2FA error messages
+
+### Not enough confirmed FLUX to setup d2FA
+
+The first Flux address in your account doesn't hold enough confirmed FLUX for the setup transaction. Receive a small amount of FLUX to that address (the app asks for about 0.0002 FLUX as of October 2026), wait until it is confirmed, then try again.
+
+### Your PIN is too long
+
+The PIN is longer than the app allows. Choose a shorter numeric PIN.
+
+### PIN must be a number
+
+Use digits only.
+
+### Please enter a PIN
+
+A PIN field is empty. Type the PIN in both **New PIN** and **Verify PIN**.
+
+### The PINs do not match
+
+**New PIN** and **Verify PIN** are different. Type the same PIN in both.
+
+### Please select at least one security option
+
+Tick **Used for logging into Zelcore**, **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**, or both.
+
+### Check that you backed up your d2FA PIN
+
+Tick **Yes, I have a backed up my d2FA PIN number.** after you have written the PIN down.
+
+### Wrong PIN - Access denied
+
+The PIN you typed before a secure task is wrong. Type it again carefully.
+
+### Wrong d2FA PIN. One attempt remaining!
+
+At login, Zelcore counts down your remaining attempts ("Three attempts remaining!", "Two attempts remaining!", "One attempt remaining!"). Check your PIN backup before you try again.
+
+### Your d2FA is not yet confirmed by the network. It will be activated soon.
+
+The setup transaction hasn't been confirmed yet. Wait for confirmation, then log in again.
+
+### Your d2FA is processing your recent request. To login you must use your previous settings.
+
+A change is still waiting for confirmation. Log in with the PIN and options you had before the change.
+
+### Spam transactions have been detected, please resend d2FA transaction.
+
+Resend the d2FA transaction: open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA** and submit the form again. If it keeps happening, contact [Zelcore support](https://support.zelcore.io).
+
+### Error while checking d2FA. Unable to log in at this time. Check your internet connection.
+
+Zelcore couldn't read your d2FA status from the Flux network. Check your connection and try again.
+
+### Error in d2FA certificate. Try again or contact the Zelcore team.
+
+Try again. If it keeps happening, contact [Zelcore support](https://support.zelcore.io).
+
+## Related
+
+- [Security Best Practices](./best-practices.md)
+- [Account Access FAQ](../faq/account-access-faq.mdx)
+- [Connect Zelcore to dApps with WalletConnect](../guides/walletconnect.md)
+- [Zelcore Browser Extension](../guides/browser-extension.md)
+- [Zelcore support](https://support.zelcore.io)
