@@ -18,7 +18,7 @@ TRON is a high-performance blockchain platform designed for decentralized applic
 ### Key Features of the TRON Blockchain
 
 - **High throughput:** TRON can process approximately 2,000 transactions per second, far exceeding many competing blockchains.
-- **Low fees:** Transaction costs on TRON are a fraction of a cent in most cases, making it one of the most economical networks for everyday use.
+- **Low fees:** A simple TRX transfer is often free within your daily free bandwidth. TRC-20 transfers cost more because they also use energy (see [Resource Cost Summary](#resource-cost-summary)).
 - **Fast finality:** Blocks are produced every 3 seconds, and transactions reach finality quickly.
 - **Delegated Proof of Stake (DPoS):** TRON uses a DPoS consensus mechanism where 27 elected Super Representatives produce blocks and validate transactions.
 - **Smart contract support:** TRON supports Solidity-based smart contracts, making it compatible with many Ethereum-developed tools and patterns.
@@ -67,7 +67,7 @@ To send TRX from Zelcore:
 
 - Sending TRX is a simple transfer that consumes only **bandwidth**, not energy.
 - If you have available bandwidth (from staking or the free daily allocation), the transfer may cost zero TRX.
-- If you have no available bandwidth, a small TRX fee (typically less than 1 TRX) will be charged.
+- If you have no available bandwidth, a small TRX fee is charged (about 0.3 TRX as of October 2026; the exact fee is shown in the app before you confirm).
 
 :::tip
 Simple TRX-to-TRX transfers are the cheapest transactions on the TRON network. If you have any staked bandwidth, these transfers are often completely free.
@@ -95,7 +95,7 @@ TRON has a unique resource model that differs from most blockchains. Instead of 
 ### Bandwidth
 
 - **What it is:** A resource consumed by every TRON transaction to cover the data transmitted to the network.
-- **Free daily allocation:** Every TRON account receives a small amount of free bandwidth each day (approximately 1,500 bandwidth points).
+- **Free daily allocation:** Every activated TRON account can use up to 600 free bandwidth points in a rolling 24-hour window (as of October 2026; TRON can change this value).
 - **How to get more:** Stake TRX for bandwidth.
 - **What consumes it:** All transactions, including simple TRX transfers and TRC-20 token transfers.
 
@@ -108,17 +108,19 @@ TRON has a unique resource model that differs from most blockchains. Instead of 
 
 ### Resource Cost Summary
 
-| Transaction Type | Bandwidth Required | Energy Required | Typical TRX Cost |
-|---|---|---|---|
-| TRX transfer | Yes | No | Free to ~0.3 TRX |
-| TRC-20 token transfer | Yes | Yes | 5-15 TRX |
-| Smart contract interaction | Yes | Yes | Varies |
-| Account activation (first tx) | Yes | No | ~1 TRX |
+Approximate costs when you have not staked TRX for resources, as of October 2026. Network prices can change; the exact fee is shown in the app before you confirm.
+
+| Transaction | Resources used | Approximate TRX cost |
+|---|---|---|
+| TRX transfer | Bandwidth | Free within your daily free bandwidth, otherwise about 0.3 TRX |
+| TRX transfer to an address that isn't activated yet | Bandwidth, plus the account creation fee | About 1 TRX more than a normal transfer |
+| TRC-20 token transfer (such as USDT) | Bandwidth and energy | 5-15 TRX (0 TRX if your staked energy and bandwidth cover it) |
+| Other smart contract interaction | Bandwidth and energy | Varies |
 
 The exact fee for a transaction is shown in the app before you confirm.
 
 :::info
-Staking TRX for energy is the most cost-effective strategy if you frequently send TRC-20 tokens: it can significantly reduce or eliminate your per-transaction fees. The staked TRX is not spent — it remains yours and can be unstaked after a waiting period (typically 14 days).
+Staking TRX for energy is the most cost-effective strategy if you frequently send TRC-20 tokens: it can significantly reduce or eliminate your per-transaction fees. The staked TRX is not spent — it remains yours and can be unstaked after a waiting period (14 days as of October 2026).
 :::
 
 ## Managing TRC-20 Tokens in Zelcore
@@ -134,7 +136,7 @@ Key characteristics of TRC-20 tokens:
 - **Built on TRON:** Every TRC-20 token exists on the TRON blockchain and follows its consensus rules.
 - **Low transaction fees:** TRC-20 transfers are significantly cheaper than equivalent ERC-20 transfers on Ethereum.
 - **Fast confirmations:** TRON produces blocks approximately every 3 seconds, so TRC-20 token transfers confirm quickly.
-- **Requires TRX for gas:** Every TRC-20 token transaction requires a small amount of TRX to pay for network resources. Without TRX in your wallet, you cannot send TRC-20 tokens.
+- **Requires TRX for gas:** Every TRC-20 token transaction requires a small amount of TRX to pay for network resources. Without TRX in your wallet, you cannot send TRC-20 tokens unless you have staked enough energy and bandwidth.
 - **Wide adoption:** Major stablecoins like USDT and USDC are available as TRC-20 tokens, and billions of dollars in value flow through the TRC-20 standard daily.
 
 #### Popular TRC-20 Tokens
@@ -196,21 +198,12 @@ This is the most common source of confusion for TRC-20 token users. Every TRC-20
 If you do not have enough TRX in your wallet, the transaction will fail. As a rule of thumb, keep at least **10-20 TRX** in your wallet at all times to cover transaction fees for TRC-20 transfers.
 
 :::warning
-A common mistake is having USDT (TRC-20) in your wallet but no TRX. Without TRX, you cannot send your USDT or any other TRC-20 token. Always ensure you have a small TRX balance for fees.
+A common mistake is having USDT (TRC-20) in your wallet but no TRX. Without TRX, you cannot send your USDT or any other TRC-20 token unless you have staked enough energy and bandwidth. Always ensure you have a small TRX balance for fees.
 :::
 
 ### How Much TRX Do You Need for Fees?
 
-TRC-20 transfer costs vary depending on network conditions and your account's resource allocation:
-
-| Scenario | Approximate TRX Cost |
-|---|---|
-| Simple TRC-20 transfer (with bandwidth/energy) | 0 TRX (free if resources are staked) |
-| Simple TRC-20 transfer (without staked resources) | 5-15 TRX |
-| Transfer to a new address (first-time activation) | 15-30 TRX |
-| Complex smart contract interaction | Varies |
-
-Most casual users who do not stake for resources should expect to pay between 5 and 15 TRX per TRC-20 transfer. The exact fee is shown in the app before you confirm.
+See the [Resource Cost Summary](#resource-cost-summary) above. Most users who do not stake for resources should expect to pay 5-15 TRX per TRC-20 transfer (as of October 2026). The exact fee is shown in the app before you confirm.
 
 ### TRC-20 vs. ERC-20: Which Should You Use?
 
@@ -218,7 +211,7 @@ Many popular tokens exist on both TRON (TRC-20) and Ethereum (ERC-20):
 
 | Factor | TRC-20 (TRON) | ERC-20 (Ethereum) |
 |---|---|---|
-| **Transaction fee** | Very low (cents or free) | High (several dollars or more) |
+| **Transaction fee** | Free with staked resources, otherwise 5-15 TRX (as of October 2026) | Depends on Ethereum gas prices; shown in the app before you confirm |
 | **Confirmation speed** | ~3 seconds | ~12 seconds (plus finality time) |
 | **Ecosystem size** | Large, growing | Largest in crypto |
 | **DeFi availability** | Moderate | Extensive |
@@ -275,7 +268,7 @@ Exchanges may impose minimum withdrawal amounts and charge their own withdrawal 
 
 ### Account Not Activated
 
-New TRON addresses must be "activated" by receiving at least 0.1 TRX (or any transaction) before they can send transactions. If your Zelcore TRON wallet is brand new, you need to receive TRX before you can send anything.
+A new TRON address is activated by its first incoming transfer, and it can't send transactions before that. If your Zelcore TRON wallet is brand new, receive some TRX first. Sending TRX to an address that isn't activated yet costs the sender a 1 TRX account creation fee (as of October 2026).
 
 ### Sent Tokens to the Wrong Network
 
