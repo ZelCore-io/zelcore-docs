@@ -1,6 +1,6 @@
 ---
 sidebar_position: 23
-title: bStocks in ZelCore - Tokenized US Stocks Guide
+title: "bStocks: Tokenized US Stocks in Zelcore"
 description: "What bStocks are, how tokenized US stocks work in ZelCore on BNB Smart Chain, which countries are restricted, fees, risks, and where to learn more."
 keywords: [bstocks, tokenized stocks, tokenized us equities, binance bstocks, bnb smart chain stocks, zelcore stocks, buy stocks with crypto, tokenized securities]
 ---

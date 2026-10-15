@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: How to Bridge KAS to Igra L2 Using the Igra Bridge
+title: "Bridge KAS to Igra L2 with the Igra Bridge"
 description: Bridge KAS to Igra L2 (iKAS) and iKAS back to KAS with the Igra Bridge built into ZelCore, plus an overview of the ZAP Auction feature.
 keywords: [zelcore, kaspa, igra, igra l2, ikas, bridge, igra bridge, ikas to kas, zap auction]
 ---

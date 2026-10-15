@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-title: Export Your Transactions for Taxes with ZelCore
+title: "Export Transactions for Taxes (CSV)"
 description: Export your full ZelCore transaction history as CSV, XLSX or JSON for Koinly, CoinTracker, CoinLedger, 15 other tax tools or your accountant.
 keywords: [zelcore, tax, tax export, csv export, transaction history, koinly, cointracker, coinledger, cointracking, blockpit, zenledger, tokentax, crypto tax, custom mapping, address list]
 ---

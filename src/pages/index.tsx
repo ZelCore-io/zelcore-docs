@@ -1,6 +1,5 @@
 import type {ReactNode} from 'react';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
@@ -75,7 +74,6 @@ const docCategories = [
 ];
 
 function Hero(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <header className={styles.hero}>
       <div className={styles.heroBg} aria-hidden="true" />
@@ -83,7 +81,7 @@ function Hero(): ReactNode {
       <div className={styles.container}>
         <div className={styles.heroContent}>
           <p className={styles.heroEyebrow}>Documentation</p>
-          <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
+          <h1 className={styles.heroTitle}>Zelcore Documentation</h1>
           <p className={styles.heroSubtitle}>
             Everything you need to set up, secure and get the most out of Zelcore —
             the self-custodial multi-chain wallet for desktop, mobile and browser.
@@ -198,10 +196,9 @@ function Help(): ReactNode {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={siteConfig.title}
+      title="Wallet Guides, FAQs and Walkthroughs"
       description="Secure and simple multi-chain cryptocurrency wallet documentation.">
       <Hero />
       <Features />

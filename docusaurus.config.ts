@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Zelcore Documentation',
+  title: 'Zelcore Docs',
   tagline: 'Your Secure, Simple Crypto Wallet for All Devices - Multichain & Self-Custodial',
   favicon: 'img/favicon.ico',
 
@@ -165,7 +165,7 @@ const config: Config = {
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@zelcore_io' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:site_name', content: 'Zelcore Documentation' },
+      { property: 'og:site_name', content: 'Zelcore Docs' },
     ],
     image: 'img/og-default.png',
     // Keep the table of contents useful on long walkthroughs.
