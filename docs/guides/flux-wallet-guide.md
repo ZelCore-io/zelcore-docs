@@ -1,13 +1,13 @@
 ---
 sidebar_position: 21
 title: How to Use FLUX in Zelcore
-description: "Complete guide to managing FLUX cryptocurrency in Zelcore. Send, receive, stake FLUX, run nodes, and use Flux Fusion for cross-chain transfers."
+description: "Send, receive and stake FLUX in Zelcore, run Flux nodes and move FLUX across chains with Fusion. Covers wallets, Earn and node setup."
 keywords: [flux wallet, flux crypto wallet, manage flux, flux staking]
 ---
 
-# How to Use FLUX in Your Zelcore Wallet
+# How to Use FLUX in Zelcore
 
-FLUX is the native cryptocurrency of the Flux decentralized cloud infrastructure ecosystem, and Zelcore serves as the premier **flux wallet** for managing every aspect of your FLUX holdings. From basic sending and receiving to **FLUX staking**, node operation, and cross-chain transfers via Flux Fusion, Zelcore provides the deepest integration with the Flux ecosystem of any wallet available. This guide covers everything you need to know about managing **flux crypto** within Zelcore.
+FLUX is the native cryptocurrency of the Flux decentralized cloud. FLUX is typically enabled by default in new Zelcore wallets; if it is missing, search for "FLUX" in the asset list and enable it, then send, receive, stake, run nodes or move FLUX across chains with Flux Fusion.
 
 ## What Is FLUX?
 
@@ -79,7 +79,7 @@ If you notice that transactions are taking longer to build or that fees seem hig
 
 ### How FLUX Staking Works
 
-Zelcore offers staking functionality through its Earn feature, allowing you to put your FLUX to work earning rewards. **FLUX staking** through Zelcore is designed to be accessible even for users who do not want to run their own infrastructure nodes.
+Zelcore offers staking functionality through its Earn feature, allowing you to put your FLUX to work earning rewards. FLUX staking through Zelcore is designed to be accessible even for users who do not want to run their own infrastructure nodes.
 
 ### Getting Started with Staking
 

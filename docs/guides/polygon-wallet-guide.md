@@ -1,13 +1,13 @@
 ---
 sidebar_position: 18
 title: How to Use Polygon (MATIC/POL) in Zelcore
-description: "Complete guide to managing Polygon in your Zelcore wallet. Send, receive, and use MATIC/POL with low fees on Polygon's Layer 2 network."
+description: "Add Polygon to Zelcore, send and receive MATIC/POL, bridge assets from Ethereum and fix common issues on the low-fee Layer 2 network."
 keywords: [polygon wallet, matic wallet, polygon crypto wallet, polygon layer 2]
 ---
 
-# How to Use Polygon in Your Zelcore Wallet
+# How to Use Polygon in Zelcore
 
-Polygon is one of the most widely adopted Layer 2 scaling solutions for Ethereum, and Zelcore provides a fully featured **polygon wallet** experience that makes it straightforward to manage your MATIC and POL tokens. Whether you are a DeFi participant, an NFT collector, or simply someone looking for a reliable **MATIC wallet** to handle everyday transactions, this guide covers everything you need to know about using Polygon within Zelcore.
+Polygon is a scaling network for Ethereum. To hold POL (formerly MATIC) or Polygon tokens in Zelcore, search for "Polygon" in the asset list and toggle it on, then send and receive on the Polygon network.
 
 ## What Is Polygon and Why Does It Matter?
 
@@ -161,4 +161,4 @@ For additional help with wallet-related questions, consult the [wallet FAQ](/doc
 
 ## Summary
 
-Polygon offers one of the best combinations of speed, cost, and ecosystem support among Ethereum scaling solutions. With Zelcore's native Polygon wallet support, you get a secure and intuitive interface for managing MATIC/POL tokens, bridging assets, and participating in the Polygon DeFi ecosystem. Low fees make it accessible for users of all sizes, and Zelcore's multi-chain architecture means your Polygon assets sit alongside all of your other crypto holdings in one place.
+Polygon offers one of the best combinations of speed, cost, and ecosystem support among Ethereum scaling solutions. In Zelcore, you get a secure and intuitive interface for managing MATIC/POL tokens, bridging assets, and participating in the Polygon DeFi ecosystem. Low fees make it accessible for users of all sizes, and Zelcore's multi-chain architecture means your Polygon assets sit alongside all of your other crypto holdings in one place.

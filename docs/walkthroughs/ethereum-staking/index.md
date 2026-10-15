@@ -1,18 +1,20 @@
 ---
 sidebar_position: 4
 title: Stake Ethereum with Zelcore
-description: How to stake ETH using the Zelcore Earn function with Chorus One Max Vault
+description: "Stake ETH in Zelcore Earn with the Chorus One Max Vault: minimum 0.01 ETH, step-by-step screenshots and how to check your position."
 keywords: [ethereum, staking, earn, chorus one, ETH, APY]
 image: ./images/03-earn-dashboard.webp
 ---
 
 # Stake Ethereum with Zelcore
 
+To stake ETH in Zelcore, open **Earn** from the left sidebar, click **Stake**, enter an amount (minimum 0.01 ETH) and confirm. Staking runs through the **Chorus One Max Vault**, a pooled staking solution where Chorus One distributes rewards to participants.
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
-This guide walks you through staking Ethereum using the **Earn** function in Zelcore. Staking is done through the **Chorus One Max Vault**, a pooled staking solution where Chorus One distributes rewards to participants.
+Background: [Ethereum Staking: Validators, Beacon Chain & LSTs](https://zelcore.io/academy/coin-guides/ethereum-staking-validators-lsts)
 
 ---
 
@@ -132,3 +134,10 @@ Your position status shows as **Active**, and you can track your accumulated rew
 ## Summary
 
 You have successfully staked ETH using Zelcore's Earn function. Your ETH is now staked in the Chorus One Max Vault, earning the estimated APY shown in the app. Rewards are distributed automatically by Chorus One to all pool participants and will appear in your Rewards balance over time.
+
+## Related
+
+- [How to Stake Solana (SOL) with Zelcore Earn](/docs/walkthroughs/staking-solana/)
+- [How to Stake FLUX with Zelcore Earn](/docs/walkthroughs/staking-flux/)
+- [Managing ERC-20 Tokens in Zelcore](/docs/guides/managing-erc20-tokens)
+- [Export Transactions for Taxes (CSV)](/docs/walkthroughs/tax-csv-export/)

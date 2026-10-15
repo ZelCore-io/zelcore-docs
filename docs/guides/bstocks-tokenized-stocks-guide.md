@@ -16,6 +16,8 @@ For click-by-click instructions see the walkthroughs:
 - [Buy and manage bStocks on Zelcore Desktop](/docs/walkthroughs/bstocks-desktop)
 - [Buy and manage bStocks on Zelcore Mobile](/docs/walkthroughs/bstocks-mobile)
 
+Background: [bStocks Tokenized Stocks: What They Are and Who Issues Them](https://zelcore.io/academy/defi/bstocks-what-they-are-btech-adgm)
+
 ---
 
 ## What is a bStock?
@@ -194,7 +196,7 @@ Related Zelcore guides:
 
 - [Managing ERC-20 and BEP-20 tokens](/docs/guides/managing-erc20-tokens)
 - [Troubleshooting Fusion swap issues](/docs/guides/troubleshooting-fusion-swap-issues)
-- [Security best practices](/docs/guides/security-best-practices)
+- [Security best practices](/docs/security/best-practices/)
 
 :::info Disclaimer
 This guide is for information only and is not investment, legal or tax advice. bStocks are issued by BTech Holdings Ltd, not by Zelcore. Availability, fees and terms are set by the issuer and can change. Always check the official documentation linked above.

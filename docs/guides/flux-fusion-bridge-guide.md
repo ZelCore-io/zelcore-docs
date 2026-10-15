@@ -1,15 +1,15 @@
 ---
 sidebar_position: 9
 title: Flux Fusion Bridge Guide
-description: "Bridge FLUX tokens across chains using Zelcore Fusion feature. Step-by-step guide for cross-chain FLUX transfers."
+description: "Bridge FLUX parallel assets across chains with Zelcore Fusion: gas requirements, a pre-bridge checklist, step-by-step bridging and common errors."
 keywords: [flux bridge, fusion bridge, cross chain flux, zelcore flux bridge]
 ---
 
 # Flux Fusion Bridge Guide: Bridging Between Flux Parallel Chains
 
-## Overview
+Bridging Flux parallel assets between chains such as Flux-BASE, Flux-BSC and Flux-ETH is a Fusion swap handled by third-party providers, not a native bridge transfer. Have the native gas token ready on both the source and destination chains before you start, select the From and To assets in Fusion, and allow 2-4 hours for a normal swap.
 
-The Flux Fusion Bridge enables users to bridge FLUX tokens between different blockchain networks through Flux's parallel asset system. This guide explains how Flux parallel chains work, the gas requirements for each chain, and how to troubleshoot common bridging issues.
+## Overview
 
 Flux has deployed wrapped versions of FLUX on multiple blockchains (Flux-BASE, Flux-BSC, Flux-ETH, Flux-SOL, Flux-TRX, Flux-AVAX), creating a multi-chain ecosystem. When bridging between these chains using Fusion, users frequently encounter issues related to gas fees, provider availability, and KYC requirements.
 

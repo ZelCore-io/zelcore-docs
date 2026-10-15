@@ -7,7 +7,7 @@ keywords: [migrate legacy wallet, seed phrase migration, upgrade zelcore account
 
 # Migrating from Legacy to Seed Phrase Account
 
-A comprehensive guide to safely migrating your Zelcore legacy username/password account to a modern seed phrase (BIP44) account.
+To migrate from a legacy username and password account, create a new seed phrase (BIP44) account, write down the new seed phrase, then manually transfer your assets from the legacy account to the new one and verify every transfer. Migration is not an automatic conversion, so keep both accounts until it is complete and verified.
 
 :::warning Legacy login is deprecated
 Legacy (username and password) login is deprecated and will be phased out. It still works in Zelcore 8.39, but migrate to a seed-phrase wallet now. See the [official migration page](https://zelcore.io/legacy-login-deprecated).
@@ -150,7 +150,7 @@ Use Option A (account switcher) if available - it's easiest to manage both accou
 
 **This is the most critical step:**
 
-1. Zelcore displays 12 or 24 words
+1. Zelcore displays 12, 18 or 24 words
 2. Write ALL words on paper in exact order
 3. **Number each word** (1-12 or 1-24)
 4. **Double-check spelling** of each word

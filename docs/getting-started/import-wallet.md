@@ -1,17 +1,20 @@
 ---
 sidebar_position: 3
-title: Import an Existing Wallet
-description: "Import your existing cryptocurrency wallet into Zelcore using a seed phrase, private key, or legacy account migration."
+title: "Restore or Import a Zelcore Wallet"
+sidebar_label: "Import an Existing Wallet"
+description: "Restore or import a Zelcore wallet from a seed phrase, private key, WalletConnect or a hardware wallet (desktop), or migrate a legacy account."
 keywords: [import wallet, restore crypto wallet, seed phrase recovery, migrate wallet]
 ---
 
 # Import Existing Wallet
 
+You can import a Zelcore wallet from a seed phrase (12, 18 or 24 words), a private key (WIF or hex), a Ledger or Trezor hardware wallet (Zelcore desktop only) or WalletConnect. A seed phrase is the most common method and restores the whole wallet; a private key imports a single address.
+
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
-Already have a Zelcore wallet or want to import from another wallet? Learn how to restore or import your existing crypto wallet.
+Background: [Backing Up and Recovering Your Zelcore Wallet](https://zelcore.io/academy/how-to/backing-up-recovering-wallet)
 
 ## Import Methods
 
@@ -189,3 +192,11 @@ After successfully importing your wallet, you can start managing your crypto ass
 - [Support Center](https://support.zelcore.io)
 - [Discord Community](https://discord.gg/runonflux)
 - [Contact Support](https://support.zelcore.io) via the app
+
+## Related
+
+- [Create a New Wallet](/docs/getting-started/create-wallet)
+- [Migrating from Legacy to Seed Phrase](/docs/guides/migrating-legacy-to-seed-phrase)
+- [Understanding Zelcore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Account Access FAQ](/docs/faq/account-access-faq)
+- [Security Best Practices](/docs/security/best-practices)

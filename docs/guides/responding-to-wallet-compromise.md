@@ -7,9 +7,11 @@ keywords: [wallet compromised, crypto stolen, wallet hacked response, emergency 
 
 # Responding to Wallet Compromise
 
-## Overview
+If you suspect your wallet is compromised, confirm the unauthorized transactions on a blockchain explorer, stop using the compromised device, and move any remaining funds from a clean device to a new wallet with a new seed phrase. Never reuse the old seed phrase: changing your Zelcore password does not secure a compromised wallet, and Zelcore cannot reverse or recover stolen funds.
 
-This guide provides immediate action steps if you suspect or confirm that your Zelcore wallet has been compromised. Time is critical when responding to a security incident.
+Background: [Crypto Scams: Red Flags and Safe Habits Guide](https://zelcore.io/academy/basics/crypto-safety-scams-and-safe-habits)
+
+## Overview
 
 **Critical Information:**
 
@@ -378,7 +380,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
    - Only then send funds to the new wallet
 
 5. **Implement security best practices:**
-   - See [Security Best Practices Guide](../../guides/security-best-practices/)
+   - See [Security Best Practices Guide](../../security/best-practices/)
    - Use strong, unique passwords
    - Enable all available security features
    - Keep software updated
@@ -432,7 +434,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
 - Local cryptocurrency meetups (be cautious about discussing losses)
 
 **Educational resources:**
-- [Security Best Practices](../../guides/security-best-practices/)
+- [Security Best Practices](../../security/best-practices/)
 - [Security FAQ](../../faq/security-faq/)
 - Cryptocurrency security courses
 - Blockchain security blogs and newsletters
@@ -467,7 +469,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
 
 ## Related Documentation
 
-- [Security Best Practices](../../guides/security-best-practices/) - Comprehensive security guide
+- [Security Best Practices](../../security/best-practices/) - Comprehensive security guide
 - [Security FAQ](../../faq/security-faq/) - Common security questions
 - [Wallet FAQ](../../faq/wallet-faq/) - General wallet information
 - [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/) - Display vs. actual theft

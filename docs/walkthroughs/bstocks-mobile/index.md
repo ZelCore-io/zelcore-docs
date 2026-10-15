@@ -8,13 +8,15 @@ image: ./images/03-microsoft-bstock-details.webp
 
 # Buy bStocks on Zelcore Mobile
 
+To buy a bStock in the Zelcore mobile app, add stocks from the intro banner, open the stock page, set up the swap, choose a provider, then review and confirm. The example buys Microsoft (MSFTB) with 10 USDT on BNB Smart Chain, and the screens are the same on Android and iOS.
+
 :::info Applies to Zelcore mobile 8.39
 The steps apply to Zelcore mobile 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
-This walkthrough shows how to add tokenized US stocks (bStocks) in the Zelcore mobile app and buy one with USDT on BNB Smart Chain. The screens are the same on Android and iOS. The example buys Microsoft (MSFTB) with 10 USDT.
-
 For background on what bStocks are, dividends, fees, risks and country restrictions, read [bStocks in Zelcore](/docs/guides/bstocks-tokenized-stocks-guide).
+
+Background: [How to Buy Tokenized Stocks in Zelcore (bStocks Guide)](https://zelcore.io/academy/defi/buying-selling-bstocks-zelcore)
 
 ---
 

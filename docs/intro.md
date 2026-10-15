@@ -9,6 +9,8 @@ keywords: [zelcore, multi chain wallet, self custodial crypto wallet, crypto wal
 
 Zelcore is your **secure and simple** [multi-chain crypto wallet](https://zelcore.io) for desktop, mobile, and browser. Take complete control of your digital assets with true self-custody across 80+ blockchains and 100,000+ tokens.
 
+Background: [Zelcore Essentials](https://zelcore.io/academy/series/zelcore-essentials)
+
 ## What is Zelcore?
 
 Zelcore is a non-custodial, multi-asset wallet that empowers you to:

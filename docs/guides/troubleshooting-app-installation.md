@@ -1,19 +1,27 @@
 ---
 sidebar_position: 6
 title: Troubleshooting App Installation
-description: "Fix Zelcore app installation issues on desktop and mobile — download failures, permission errors, and update problems."
+description: "Fix Zelcore app installation issues on desktop and mobile: download failures, permission errors, antivirus blocks and update problems."
 keywords: [zelcore install problem, crypto wallet installation, zelcore update]
 ---
 
 # Troubleshooting Zelcore App Installation and Updates
 
+Many Zelcore installation and update problems come from a connection problem, an incomplete download or a system that does not meet the requirements. Back up your wallet first, work through the quick fix below, then use the section for your platform (Windows, macOS, Linux, iOS or Android) for the exact error.
+
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
-## Overview
+## Quick fix
 
-This guide addresses common problems users encounter when installing, updating, or auto-updating Zelcore wallet applications across different platforms (Windows, macOS, Linux, iOS, Android). Whether you're experiencing installation failures, update errors, or auto-update issues, this guide provides systematic solutions for each platform.
+1. Back up your wallet (seed phrase) before you uninstall, clear app data or reinstall.
+2. Check your internet connection: load zelcore.io, turn off any VPN and try another network if needed.
+3. Check that your system meets the requirements for your platform (see Solution 5 below).
+4. If the installer file is incomplete or damaged, delete it and download a fresh copy from the official sources only.
+5. Still stuck? Open your platform's section below (Windows, macOS, Linux, iOS or Android) and find your error.
+
+## Overview
 
 Zelcore releases regular updates to improve security, add features, and fix bugs. Keeping your app updated is critical for security and functionality, so resolving installation and update issues promptly is important.
 
@@ -635,7 +643,7 @@ Install any libraries shown as "not found".
 
 **CRITICAL: BACKUP WALLET FIRST**
 
-1. **Write down your 12/24-word seed phrase**
+1. **Write down your 12/18/24-word seed phrase**
 2. **Verify you have backup phrase before proceeding**
 3. Delete Zelcore app (long-press icon > Remove App)
 4. Go to App Store
@@ -737,7 +745,7 @@ Do not install from third-party APK sites.
 
 **Step 1: Backup wallet**
 1. Open Zelcore (if accessible)
-2. Write down 12/24-word seed phrase
+2. Write down 12/18/24-word seed phrase
 3. Verify backup phrase is correct
 
 **Step 2: Uninstall existing version**
@@ -874,7 +882,7 @@ Many installation/update issues stem from connectivity:
 1. Open Zelcore (if accessible)
 2. Go to Settings
 3. Find your wallet's seed phrase or backup option
-4. Write down 12 or 24-word seed phrase
+4. Write down 12, 18 or 24-word seed phrase
 5. Store securely offline
 6. Verify you can read all words clearly
 
@@ -1000,7 +1008,7 @@ Contact Zelcore support if:
 
 - [Zelcore Installation Guide](../../getting-started/installation/) (if available)
 - [Troubleshooting Balance and Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
-- [Security Best Practices](../../guides/security-best-practices/)
+- [Security Best Practices](../../security/best-practices/)
 - [Wallet Backup and Recovery](../../getting-started/create-wallet/) (if available)
 
 ## Conclusion

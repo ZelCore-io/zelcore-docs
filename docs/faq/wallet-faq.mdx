@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
-title: Wallet FAQ
+title: "Zelcore Wallet FAQ: Balances, Smartify, Sync"
+sidebar_label: "Wallet FAQ"
 description: "Answers to common Zelcore wallet questions — balance display issues, Smartify usage, backend settings, and wallet sync troubleshooting."
 keywords: [zelcore wallet faq, crypto wallet help, balance not showing, smartify]
 ---
@@ -16,31 +17,13 @@ import faqItems from '@site/src/components/FAQ/schema-items/wallet_faq';
 Written for Zelcore 8.39.0 (October 2026). Where an answer names an earlier version, it says so.
 :::
 
+Background: [Using Custom RPC Endpoints in Zelcore](https://zelcore.io/academy/how-to/using-custom-rpc-endpoints-zelcore)
+
 ## Why aren't my balances showing in Zelcore even though they appear on the blockchain explorer?
 
 **Answer:**
 
-Balance display issues typically occur due to backend node synchronization problems, outdated app versions, or local client sync issues. Your cryptocurrency is safe on the blockchain - this is purely a display issue in the wallet interface.
-
-**Quick Fix:**
-
-The fastest solution is to run **Smartify**, which refreshes your wallet's connection to blockchain nodes:
-
-1. Open Zelcore (desktop or mobile)
-2. Go to **Settings**
-3. Tap/click **Smartify**
-4. Wait for the process to complete (1-3 minutes)
-5. Check your balances
-
-**If Smartify doesn't work:**
-
-Try these additional solutions in order:
-1. **Change Backend/Proxy Settings** - Switch to a different backend server in Settings
-2. **Update Zelcore** - Download the latest version from zelcore.io or your app store
-3. **Clear Cache** - Clear the app cache (mobile) or local cache folder (desktop)
-
-**Related:**
-- [Comprehensive Troubleshooting Guide for Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
+Your crypto is safe on the blockchain; this is a display problem in the app, usually caused by an out-of-sync backend node, an outdated app version or stale local data. Run **Smartify** to resync your balances. If that doesn't help, switch to a different backend server in Settings, update Zelcore, or clear the app cache. For step-by-step fixes, see [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/).
 
 ---
 
@@ -71,25 +54,7 @@ Go to **Settings** in Zelcore (available on both desktop and mobile) and click/t
 
 **Answer:**
 
-Don't panic - your crypto is safe on the blockchain. This is almost always a temporary sync issue, not a loss of funds.
-
-**Immediate steps:**
-
-1. **Verify on blockchain explorer** - Check your wallet address on the appropriate block explorer to confirm your funds are still there
-2. **Run Smartify** - Go to Settings and run Smartify to resync your wallet
-3. **Check your internet connection** - Ensure you have a stable connection
-4. **Try a different backend** - Change your backend/proxy settings in Settings
-
-If your funds are visible on the blockchain explorer, they're safe. The issue is with Zelcore's display, not with the blockchain itself.
-
-**Prevention:**
-
-- Keep Zelcore updated to the latest version
-- Run Smartify regularly (weekly recommended)
-- Use stable internet connections
-
-**Related:**
-- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
+Don't panic: this is almost always a temporary sync issue, not a loss of funds. Check your address on a block explorer to confirm the funds are still there, then run Smartify, check your internet connection and try a different backend server in Settings. If the explorer shows your funds, they're safe and the problem is only in Zelcore's display. For step-by-step fixes, see [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/).
 
 ---
 
@@ -129,20 +94,7 @@ Changing your backend or proxy settings can resolve connection issues by switchi
 
 **Answer:**
 
-Yes, this is normal and temporary. After updating Zelcore, the app needs to resync with the blockchain networks to fetch your current balances.
-
-**What to do:**
-
-1. **Wait 2-5 minutes** - Give the app time to automatically sync
-2. **Run Smartify** - Speed up the process by manually running Smartify in Settings
-3. **Check internet connection** - Ensure you have a stable connection
-4. **Restart the app** - If balances still don't appear after 5 minutes, close and reopen Zelcore
-
-Your cryptocurrency is secure on the blockchain. The update doesn't affect your actual funds, only the wallet interface that displays them.
-
-**Related:**
-- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
-- [Zelcore Installation & Updates](../../getting-started/installation/)
+Yes, this is normal and temporary. After an update, Zelcore needs to resync with the blockchain networks. Wait a few minutes or run Smartify to speed it up; if balances still don't appear after about 5 minutes, check your connection and restart the app. The update doesn't affect your funds. For step-by-step fixes, see [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/). For updates, see [Zelcore Installation & Updates](../../getting-started/installation/).
 
 ---
 
@@ -150,27 +102,7 @@ Your cryptocurrency is secure on the blockchain. The update doesn't affect your 
 
 **Answer:**
 
-This usually indicates that specific blockchain nodes are experiencing sync issues, while others are working fine.
-
-**Solutions:**
-
-1. **Run Smartify** - This resyncs all blockchain connections
-2. **Check blockchain status** - The specific blockchain may be undergoing maintenance or experiencing network issues
-3. **Remove and re-add the asset:**
-   - Go to your asset list
-   - Remove the missing asset
-   - Re-add it from the available assets
-   - Run Smartify again
-4. **Verify on block explorer** - Confirm the assets exist at your wallet address on the blockchain explorer
-
-**If one specific blockchain consistently has issues:**
-
-- Try changing your backend server
-- Check Zelcore's official channels (Discord, Twitter) for announced maintenance
-- The blockchain network itself may be experiencing high load
-
-**Related:**
-- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
+This usually means the nodes for those blockchains are out of sync while others work. Run Smartify, check Zelcore's official channels for announced maintenance on that chain, or remove and re-add the asset and run Smartify again. If one chain keeps failing, try a different backend server, and confirm on a block explorer that the assets are at your address. For step-by-step fixes, see [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/).
 
 ---
 
@@ -178,33 +110,7 @@ This usually indicates that specific blockchain nodes are experiencing sync issu
 
 **Answer:**
 
-Blockchain explorers are independent websites that show the true state of the blockchain, regardless of what your wallet displays.
-
-**Steps:**
-
-1. **Get your wallet address:**
-   - In Zelcore, select the asset you want to verify
-   - Tap/click on the wallet address to copy it
-
-2. **Visit the appropriate explorer:**
-   - **Bitcoin:** blockchain.com or blockchair.com
-   - **Ethereum:** etherscan.io
-   - **Flux:** explorer.runonflux.io
-   - **Other chains:** Search "[blockchain name] explorer"
-
-3. **Search your address:**
-   - Paste your wallet address in the explorer's search bar
-   - Press Enter/Search
-
-4. **Verify:**
-   - Check the balance displayed
-   - Review recent transactions
-   - Confirm transaction confirmations
-
-If your balance shows correctly on the explorer but not in Zelcore, the issue is with wallet sync, not your actual funds.
-
-**Related:**
-- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
+Copy the asset's address in Zelcore, open that blockchain's explorer (for example blockchair.com for Bitcoin, etherscan.io for Ethereum or explorer.runonflux.io for Flux; for other chains, search "[blockchain name] explorer") and paste the address into its search bar. The explorer shows the authoritative balance and recent transactions. If the balance is right there but wrong in Zelcore, the problem is wallet sync, not your funds. For step-by-step fixes, see [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/).
 
 ---
 
@@ -252,33 +158,7 @@ Contact Zelcore support with details about when the error occurs and any error m
 
 **Answer:**
 
-**Yes, your cryptocurrency is completely safe.** Balance display issues are purely cosmetic and only affect the wallet interface, not the blockchain itself.
-
-**Understanding the issue:**
-
-- Your crypto is stored on the blockchain, not in Zelcore
-- Zelcore is a display interface that shows blockchain data
-- When Zelcore shows incorrect balances, it's a sync issue with how the app is reading the blockchain
-- Your private keys still control your assets, regardless of what displays
-
-**To verify your funds are safe:**
-
-1. Check your wallet address on a blockchain explorer
-2. Your balance on the explorer is the true, authoritative balance
-3. If it shows correctly there, your funds are secure
-
-**What causes display issues:**
-
-- Backend nodes falling out of sync
-- Local cache containing outdated data
-- Network connectivity problems
-- App needing updates
-
-All of these are temporary and fixable through Smartify, backend changes, or updates.
-
-**Related:**
-- [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
-- [Wallet Security Best Practices](../../security/best-practices/)
+Yes. Your crypto is stored on the blockchain, not in Zelcore, and your private keys control it whatever the app displays. Wrong balances come from out-of-sync backend nodes, stale cache, connectivity problems or an outdated app, and Smartify, a backend change or an update fixes them. To confirm, check your address on a block explorer, which shows the authoritative balance. For step-by-step fixes, see [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/). See also [Wallet Security Best Practices](../../security/best-practices/).
 
 ---
 

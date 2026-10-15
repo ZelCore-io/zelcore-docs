@@ -5,13 +5,15 @@ description: "How to download, install, and set up Zelcore crypto wallet on Wind
 keywords: [windows wallet, zelcore windows, crypto wallet desktop, zelcore download windows]
 ---
 
-# Zelcore for Windows — Complete Desktop Wallet Setup Guide
+# Zelcore for Windows: Download and Setup
+
+Zelcore desktop runs on Windows 10 and Windows 11. Download the installer from [zelcore.io/wallet](https://zelcore.io/wallet), run it, and use this page for antivirus prompts, updates and troubleshooting. To create your wallet after installing, follow [Create a New Wallet](/docs/getting-started/create-wallet).
 
 :::info Applies to Zelcore 8.39
 Written for Zelcore desktop 8.39.0 (October 2026).
 :::
 
-If you are looking for a reliable **windows wallet** for managing cryptocurrency on your PC, Zelcore provides a full-featured **crypto wallet desktop** application that runs natively on Windows 10 and Windows 11. This guide walks you through every step of the process — from downloading the installer to creating your wallet, importing an existing one, and configuring Windows-specific settings for the best experience.
+Background: [Zelcore Setup: First-Time Wallet Guide (2026)](https://zelcore.io/academy/how-to/setting-up-zelcore-first-time)
 
 ## System Requirements
 
@@ -98,48 +100,14 @@ If you are uncertain whether a flagged file is legitimate, re-download Zelcore f
 
 ## First Launch and Wallet Creation
 
-### Creating a New Wallet
+When you launch Zelcore for the first time, the welcome screen's **Get Started** button opens the Register screen, where you generate a new seed phrase or import an existing one. The steps are the same on every platform:
 
-When you launch **Zelcore on Windows** for the first time, you will be presented with options to create a new wallet or import an existing one. To create a new wallet:
-
-1. **Select "Create New Wallet"** on the welcome screen.
-2. **Choose a strong username and password.** These credentials encrypt your wallet data on your local machine. Use a unique password that you do not use for any other service.
-3. **Write down your seed phrase.** Zelcore will display a 24-word recovery phrase. Write this down on paper (not digitally) and store it in a secure location. This phrase is the master key to your wallet.
-4. **Verify your seed phrase.** Zelcore will ask you to confirm several words from your seed phrase to ensure you have recorded it correctly.
-5. **Complete the setup.** Once verified, your wallet is created and you will be taken to the main portfolio screen.
-
-For a more detailed walkthrough with tips on each step, see the [Zelcore setup guide](/docs/walkthroughs/zelcore-setup-guide/).
-
-### Importing an Existing Wallet
-
-If you already have a Zelcore wallet (for example, on your phone or another computer), you can import it on your Windows machine:
-
-1. **Select "Import Wallet"** or **"Restore Wallet"** on the welcome screen.
-2. **Enter your seed phrase** — the 24 words in the correct order.
-3. **Set your username and password** for this device (these can be different from your other devices).
-4. **Wait for the wallet to sync.** Zelcore will derive your keys and retrieve your balances from the blockchain networks.
-
-Your portfolio preferences and enabled assets will sync automatically if you use the same account credentials.
-
-For detailed information about the installation process across all platforms, see the [installation guide](/docs/getting-started/installation/).
+- New wallet: [Create a New Wallet](/docs/getting-started/create-wallet) (text) or the [Zelcore Wallet Setup Guide](/docs/walkthroughs/zelcore-setup-guide) (screenshots)
+- Existing seed phrase: [Import an Existing Wallet](/docs/getting-started/import-wallet)
 
 ## Configuring Zelcore on Windows
 
-### Desktop Wallet Setup Best Practices
-
-Once Zelcore is installed and your wallet is created, take a few minutes to configure it for optimal use:
-
-**Enable d2FA (Decentralized Two-Factor Authentication):**
-d2FA protects your account with a PIN that is stored encrypted on the Flux blockchain. Zelcore asks for it before you send, swap, view private keys or use Flux ID. This is especially important on a desktop computer that may be shared with others.
-
-**Set up biometric or PIN login (if supported):**
-Windows Hello-compatible devices may support biometric login for faster access without typing your full password.
-
-**Configure auto-lock:**
-Set Zelcore to automatically lock after a period of inactivity. This prevents unauthorized access if you step away from your computer.
-
-**Manage your asset list:**
-Add the cryptocurrencies you use to your portfolio and remove any you do not need. A streamlined portfolio loads faster and is easier to navigate.
+To set up d2FA after creating your wallet, see step 8 of [Create a New Wallet](/docs/getting-started/create-wallet).
 
 ### Windows-Specific Settings
 
@@ -154,14 +122,7 @@ Zelcore needs outbound internet access to communicate with blockchain nodes. Win
 
 ## Keeping Zelcore Updated on Windows
 
-### Why Updates Matter
-
-Regular updates are essential for security and functionality:
-
-- **Security patches** address discovered vulnerabilities.
-- **New asset support** adds recently launched tokens and blockchains.
-- **Bug fixes** resolve issues reported by the community.
-- **Feature additions** expand what you can do within the wallet.
+Updates bring security patches, new asset support and bug fixes, so install them when offered.
 
 ### How to Update
 
@@ -204,15 +165,12 @@ If Zelcore feels sluggish on Windows:
 
 ### Wallet Not Syncing Balances
 
-If balances appear stuck or incorrect:
-
-- Pull down on the portfolio to force a refresh.
 - Check your internet connection.
 - Verify that your firewall or VPN is not blocking Zelcore's network connections.
 - Restart the application.
 
-For additional help with wallet creation, see the [create wallet guide](/docs/getting-started/create-wallet/).
+For more steps, see [Troubleshooting Balance Sync Issues](/docs/guides/troubleshooting-balance-sync-issues).
 
 ## Summary
 
-Setting up Zelcore as your Windows crypto wallet is a straightforward process that takes just a few minutes. Download from the official source, install with default settings, create or import your wallet, and configure security features like d2FA for protection. Keep the application updated, be mindful of antivirus false positives, and store your seed phrase securely offline. With Zelcore running on your Windows desktop, you have access to 100,000+ assets on 80+ blockchains (as of October 2026), built-in swaps, staking, and the full Flux ecosystem — all from a single, self-custodial application.
+Download Zelcore only from [zelcore.io/wallet](https://zelcore.io/wallet), install with the default settings, then [create](/docs/getting-started/create-wallet) or [import](/docs/getting-started/import-wallet) your wallet. Keep the app updated and store your seed phrase offline.

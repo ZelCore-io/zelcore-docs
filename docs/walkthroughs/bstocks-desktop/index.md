@@ -8,13 +8,15 @@ image: ./images/06-microsoft-bstock-card-chart.webp
 
 # Buy bStocks on Zelcore Desktop
 
+To buy a bStock on Zelcore Desktop, add it with the Add bStocks dialog, open its stock card, then swap USDT on BNB Smart Chain for it with the built-in swap and the Binance Web3 provider. The example buys Microsoft (MSFTB) with 10 USDT.
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore desktop 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
-This walkthrough shows how to add tokenized US stocks (bStocks) to your Zelcore Desktop portfolio and buy one with USDT on BNB Smart Chain using the built-in swap. The example buys Microsoft (MSFTB) with 10 USDT.
-
 If you are new to bStocks, read [bStocks in Zelcore](/docs/guides/bstocks-tokenized-stocks-guide) first. It covers what the tokens are, dividends and splits, fees, risks and the country restrictions.
+
+Background: [How to Buy Tokenized Stocks in Zelcore (bStocks Guide)](https://zelcore.io/academy/defi/buying-selling-bstocks-zelcore)
 
 ---
 

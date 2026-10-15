@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
 title: Install Zelcore
-description: "Download and install Zelcore from the official sources: desktop for Windows, macOS and Linux, the iOS and Android apps, and the browser extension for Chrome, Brave and Edge."
+description: "Download and install Zelcore from official sources: desktop for Windows, macOS and Linux, iOS and Android, and the browser extension."
 keywords: [zelcore download, install zelcore, official zelcore download, zelcore windows macos linux, zelcore ios android, zelcore browser extension]
 ---
 
 # Installation
 
-Zelcore is available as a desktop app, a mobile app and a browser extension. This page lists the official download for each, with the system requirements.
+Zelcore is available as a desktop app, a mobile app and a browser extension. Install each one from its official link below, after checking the system requirements.
 
 :::info Applies to Zelcore 8.39
 System requirements match Zelcore 8.39.0 on desktop, mobile and the extension (October 2026).
@@ -16,6 +16,8 @@ System requirements match Zelcore 8.39.0 on desktop, mobile and the extension (O
 :::warning Install only from the official links on this page
 Use the links below or go to [zelcore.io/wallet](https://zelcore.io/wallet). Do not install Zelcore from search results, ads, social media posts, messages, or third-party download sites. Fake wallet apps exist, and they are built to steal your seed phrase.
 :::
+
+Background: [Zelcore Setup: First-Time Wallet Guide (2026)](https://zelcore.io/academy/how-to/setting-up-zelcore-first-time)
 
 ## How to spot an impostor
 

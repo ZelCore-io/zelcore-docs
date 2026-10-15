@@ -9,6 +9,8 @@ keywords: [zelcore features, multi crypto wallet, crypto software wallet, wallet
 
 Zelcore offers a comprehensive suite of features designed to give you complete control over your crypto assets. From basic wallet functions to advanced trading and node management, Zelcore has everything you need.
 
+Background: [Zelcore Pro Features Most Users Miss](https://zelcore.io/academy/how-to/pro-moves-zelcore-features)
+
 ## Core Wallet Features
 
 ### Multi-Chain Support
@@ -18,6 +20,7 @@ Manage assets across 80+ blockchains (as of October 2026) from a single interfac
 - **Bitcoin** and Bitcoin-like chains (BCH, LTC, DOGE, etc.)
 - **Ethereum** and EVM-compatible chains (Polygon, BSC, Avalanche, etc.)
 - **Solana, Tron, Cardano, XRP, Cosmos**, and many more
+- Chain guides: [TRON and TRC-20](/docs/guides/tron-wallet-guide), [Polygon](/docs/guides/polygon-wallet-guide), [FLUX](/docs/guides/flux-wallet-guide), [Kadena](/docs/guides/kadena-kda-guide) and [ERC-20 tokens](/docs/guides/managing-erc20-tokens)
 - Support for 100,000+ tokens across all chains
 
 ### Portfolio Management
@@ -183,6 +186,14 @@ Operate nodes for the Flux ecosystem:
 - Earnings tracking
 - One-click setup tools
 - Comprehensive node analytics
+
+### Earn (Staking)
+
+Stake from the **Earn** screen. Walkthroughs are available for these chains:
+
+- [Stake Ethereum](/docs/walkthroughs/ethereum-staking/) through the Chorus One Max Vault
+- [Stake Solana (SOL)](/docs/walkthroughs/staking-solana/) with the Chorus One staking provider
+- [Stake FLUX](/docs/walkthroughs/staking-flux/) with lockup tiers and Auto-Reinvest
 
 ### Fusion Technology
 

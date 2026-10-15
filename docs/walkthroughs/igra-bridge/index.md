@@ -8,11 +8,13 @@ image: ./images/03-igra-bridge-modal.webp
 
 # How to Bridge KAS to Igra L2 Using the Igra Bridge
 
+To bridge KAS to Igra L2, open the Kaspa (Igra L2) asset in your portfolio, open the **Igra Bridge**, enter an amount (minimum 10 KAS) and confirm. The bridge locks your KAS on L1 and mints iKAS on Igra L2 at a 1:1 ratio. The same dialog bridges iKAS back to KAS, which typically arrives within 48-72 hours.
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
-This guide walks you through bridging your Kaspa (KAS) tokens to Igra L2 (iKAS) using Zelcore's built-in Igra Bridge. The bridge locks your KAS on L1 and mints iKAS on Igra L2 at a 1:1 ratio. You'll also get a brief look at the ZAP Auction feature available on Igra L2.
+The Igra L2 side also has a ZAP Auction feature, covered at the end.
 
 ---
 
@@ -229,3 +231,10 @@ With iKAS on Igra L2, you can now:
 - Participate in **ZAP Auctions** for fair token launches
 - Explore the growing Igra L2 ecosystem directly from Zelcore
 - Bridge iKAS back to KAS at any time (see [Bridging iKAS Back to KAS](#bridging-ikas-back-to-kas))
+
+## Related
+
+- [Kaspa (KAS) in Zelcore: KNS and KRC-20](/docs/walkthroughs/kaspa-wallet/)
+- [Zelcore Features Overview](/docs/features/overview)
+- [Troubleshooting Balance and Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+- [Blockchain-Specific FAQ](/docs/faq/blockchain-specific-faq)

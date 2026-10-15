@@ -8,11 +8,13 @@ image: ./images/03-scope-step.webp
 
 # How to Export Your Transactions for Taxes with Zelcore Tax & CSV Export
 
+To export your transactions for taxes in Zelcore desktop, open **Tax & CSV export** from the wallet menu (or **Export CSV** on a coin), choose wallets and coins, a period and a format, then run the export and save the file. Zelcore builds the file on your device from public blockchain services and sends only your public addresses.
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
-This guide shows you how to use Zelcore's Tax & CSV Export. It reads your transaction history for the wallets and coins you choose and saves it as a file that your tax tool or accountant can use. You can pick the period, add fiat values, and choose a layout made for a specific tax tool.
+Background: [Zelcore Tax Export: Get Your Crypto History Filed](https://zelcore.io/academy/how-to/exporting-transaction-history-taxes)
 
 ---
 
@@ -314,3 +316,10 @@ No. Only public addresses are sent to the services listed in **Services this exp
 
 **Where is my file?**
 In your Downloads folder. Click **Open folder** on the result screen to go there.
+
+## Related
+
+- [Zelcore Features Overview](/docs/features/overview)
+- [Understanding Zelcore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Troubleshooting Balance and Sync Issues](/docs/guides/troubleshooting-balance-sync-issues)
+- [Wallet FAQ](/docs/faq/wallet-faq)

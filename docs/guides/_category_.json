@@ -3,6 +3,6 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Step-by-step guides for using Zelcore's features, troubleshooting issues, and best practices."
+    "description": "Step-by-step Zelcore guides: send and receive on TRON, Polygon, FLUX and Kadena, run Flux nodes, and fix balance, sync and swap problems."
   }
 }

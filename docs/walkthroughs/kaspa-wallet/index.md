@@ -1,20 +1,18 @@
 ---
 sidebar_position: 9
 title: "Kaspa (KAS) in Zelcore: KNS and KRC-20"
-description: Kaspa in Zelcore 8.39.0 - send to .kas names, import and verify KRC-20 tokens, consolidate UTXOs, view KCC tokens, use a Ledger on desktop and sign messages.
+description: "Kaspa in Zelcore 8.39.0: send to .kas names, import and verify KRC-20 tokens, consolidate UTXOs, view KCC tokens and use a Ledger on desktop."
 keywords: [zelcore, kaspa, kas, kns, kaspa names, krc-20, krc20, kasplex, kcc, kron, ledger, utxo consolidation, sign message, kaspa ng, kasware]
 image: ./images/01-kns-send-resolved.webp
 ---
 
 # Kaspa (KAS) in Zelcore: Names, KRC-20 Tokens and Ledger (Desktop)
 
+Zelcore 8.39.0 adds several tools for Kaspa. You can send to a `.kas` name, find and import KRC-20 tokens, merge many small coins into a few, load older history, use a Ledger on Zelcore desktop, and sign messages. Bridging KAS to Igra L2 is covered in the [Igra Bridge walkthrough](../igra-bridge).
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore desktop 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
-
-Zelcore 8.39.0 adds several tools for Kaspa. You can send to a `.kas` name, find and import KRC-20 tokens, merge many small coins into a few, load older history, use a Ledger on Zelcore desktop, and sign messages.
-
-This guide covers each one. Bridging KAS to Igra L2 is covered in the [Igra Bridge walkthrough](../igra-bridge).
 
 ---
 

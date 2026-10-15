@@ -1,18 +1,22 @@
 ---
 sidebar_position: 1
 title: Zelcore Wallet Setup Guide
-description: Complete guide to setting up a new Zelcore wallet account, from initial registration to accessing your portfolio.
+description: "Set up a new Zelcore wallet with screenshots: seed phrase backup and check, Easy Login, and your first look at the portfolio overview."
 keywords: [zelcore setup, wallet setup guide, multi coin wallet setup, crypto wallet getting started]
 image: ./images/zelcore-setup/01-welcome-screen.webp
 ---
 
 # Zelcore Wallet Setup Guide
 
+To set up a new Zelcore wallet, open the app, click **Get Started**, choose a seed phrase length (24 words is recommended), generate and save your seed phrase, then register and log in to reach your portfolio.
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore 8.39.0 (October 2026). The screenshots on this page come from an earlier version (8.24.1), so some screens may look slightly different.
 :::
 
-This guide walks you through setting up a new Zelcore wallet account, from initial registration to accessing your portfolio.
+Screenshots show each step. For the same steps as a text-only checklist, including d2FA setup, see [Create a New Wallet](/docs/getting-started/create-wallet).
+
+Background: [Zelcore Setup: First-Time Wallet Guide (2026)](https://zelcore.io/academy/how-to/setting-up-zelcore-first-time)
 
 ## Overview
 
@@ -265,6 +269,14 @@ Setting up Zelcore involves:
 6. **Enable** d2FA for enhanced security
 
 Your Zelcore wallet is now ready to manage cryptocurrencies across multiple blockchain networks!
+
+## Related
+
+- [Create a New Wallet (text steps)](/docs/getting-started/create-wallet)
+- [Import an Existing Wallet](/docs/getting-started/import-wallet)
+- [Install Zelcore](/docs/getting-started/installation)
+- [Understanding Zelcore Accounts](/docs/getting-started/understanding-zelcore-accounts)
+- [Security Best Practices](/docs/security/best-practices)
 
 ---
 

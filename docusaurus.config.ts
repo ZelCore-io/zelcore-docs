@@ -83,7 +83,11 @@ const config: Config = {
       {
         // GitHub Pages cannot send a 301. These pages carry a canonical and a
         // meta refresh; the owner mirrors each row as a Cloudflare 301.
-        redirects: [{from: '/docs', to: '/docs/intro/'}],
+        redirects: [
+          {from: '/docs', to: '/docs/intro/'},
+          {from: '/docs/guides/security-best-practices', to: '/docs/security/best-practices/'},
+          {from: '/docs/guides/managing-trc20-tokens', to: '/docs/guides/tron-wallet-guide/'},
+        ],
       },
     ],
   ],

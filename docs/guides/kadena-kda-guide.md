@@ -1,15 +1,22 @@
 ---
 sidebar_position: 8
-title: Kadena (KDA) Guide
-description: "Complete guide to managing Kadena (KDA) in Zelcore — chain transfers, multi-chain architecture, and KDA wallet features."
+title: "Kadena (KDA) in Zelcore: Chain Transfers"
+sidebar_label: "Kadena (KDA) Guide"
+description: "Send KDA to the correct chain in Zelcore: Kadena's multi-chain design, chain-specific addresses, exchange deposits and chain mismatch fixes."
 keywords: [kadena wallet, kda guide, kadena chain transfer, zelcore kadena]
 ---
 
 # Kadena (KDA) Complete Guide
 
+Kadena runs 20 parallel chains (Chain 0 to Chain 19), and your KDA balance and address are separate on each one. To send KDA in Zelcore, confirm which chain the recipient expects, make sure your KDA is on that chain (do a cross-chain transfer first if it is not), then select that chain in the **Send** tab.
+
+:::warning Kadena organization wound down (October 2025)
+On 21 October 2025 the Kadena organization announced that it was ceasing business operations and active maintenance of the Kadena blockchain. It said the network is run by independent miners and maintainers and would stay online while they support it. Several exchanges, including OKX, removed KDA trading afterwards ([Decrypt, 21 Oct 2025](https://decrypt.co/345276/kadena-token-crashes-company-behind-network-closing); [Decrypt, 22 Oct 2025](https://decrypt.co/345392/crypto-exchanges-delisting-kadena-65-price-plunge-shutdown-plans)). Before you send KDA to an exchange, check that it still supports KDA deposits. The steps below still apply to KDA in Zelcore.
+:::
+
 ## Overview
 
-Kadena is unique among blockchain networks because it uses a multi-chain architecture called "Chainweb." Unlike most blockchains that have a single chain, Kadena has multiple parallel chains (Chain 0, Chain 1, Chain 2, etc.) that work together. This guide explains how Kadena's chain system works, how to manage KDA in Zelcore, and how to resolve common issues related to chain selection and transfers.
+Kadena is unique among blockchain networks because it uses a multi-chain architecture called "Chainweb." Unlike most blockchains that have a single chain, Kadena has multiple parallel chains (Chain 0, Chain 1, Chain 2, etc.) that work together.
 
 Understanding Kadena's chain architecture is essential for successfully sending, receiving, and managing KDA tokens, especially when interacting with exchanges, wallets like EckoWallet, or the Kadena Community Fork.
 
@@ -663,7 +670,7 @@ Yes. KDA has the same value regardless of which chain it's on. The chain is just
 ## Related Documentation
 
 - [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
-- [Wallet Security Best Practices](../../guides/security-best-practices/)
+- [Wallet Security Best Practices](../../security/best-practices/)
 - [Understanding Blockchain Explorers](#) (if available)
 
 ---

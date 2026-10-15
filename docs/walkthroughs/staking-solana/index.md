@@ -1,18 +1,20 @@
 ---
 sidebar_position: 3
 title: How to Stake Solana (SOL) with Zelcore Earn
-description: Step-by-step guide to staking Solana using the Zelcore Earn feature via the Chorus One staking provider.
+description: "Stake SOL with Zelcore Earn and the Chorus One staking provider: enter an amount, confirm the stake and follow activation and rewards."
 keywords: [zelcore, solana, sol, staking, earn, apy, chorus one, validator]
 image: ./images/03-earn-solana-dashboard.webp
 ---
 
 # How to Stake Solana (SOL) with Zelcore Earn
 
+To stake SOL in Zelcore, open **Earn**, select Solana as the staking chain, enter an amount (minimum 1.0023 SOL: Solana's 1 SOL minimum plus the stake-account rent) and confirm. The stake goes through the Chorus One staking provider and activates in the next Solana epoch.
+
 :::info Applies to Zelcore 8.39
 The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
-This guide walks you through staking Solana (SOL) using Zelcore's Earn feature. You'll learn how to navigate to Earn, select Solana as the staking chain, enter a stake amount, and confirm your stake through the Chorus One staking provider.
+Background: [Zelcore Staking & Earn: Native Yield, No LSTs](https://zelcore.io/academy/defi/zelcore-staking-earn-yield)
 
 ---
 
@@ -134,3 +136,10 @@ Once activated, you will begin earning staking rewards. You can stake again or g
 ## Summary
 
 You have successfully staked SOL using Zelcore's Earn feature. Your stake will activate in the next Solana epoch and begin generating rewards shortly after. Return to the Earn dashboard at any time to monitor your staking positions, view accumulated rewards, or create additional stakes.
+
+## Related
+
+- [Stake Ethereum with Zelcore](/docs/walkthroughs/ethereum-staking/)
+- [How to Stake FLUX with Zelcore Earn](/docs/walkthroughs/staking-flux/)
+- [Zelcore Features Overview](/docs/features/overview)
+- [Export Transactions for Taxes (CSV)](/docs/walkthroughs/tax-csv-export/)
