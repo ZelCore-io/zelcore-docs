@@ -7,11 +7,11 @@ keywords: [windows wallet, zelcore windows, crypto wallet desktop, zelcore downl
 
 # Zelcore for Windows: Download and Setup
 
+Zelcore desktop runs on Windows 10 and Windows 11. Download the installer from [zelcore.io/wallet](https://zelcore.io/wallet), run it, and use this page for antivirus prompts, updates and troubleshooting. To create your wallet after installing, follow [Create a New Wallet](/docs/getting-started/create-wallet).
+
 :::info Applies to Zelcore 8.39
 Written for Zelcore desktop 8.39.0 (October 2026).
 :::
-
-Zelcore desktop runs on Windows 10 and Windows 11. Download the installer from [zelcore.io/wallet](https://zelcore.io/wallet), run it, and use this page for antivirus prompts, updates and troubleshooting. To create your wallet after installing, follow [Create a New Wallet](/docs/getting-started/create-wallet).
 
 Background: [Zelcore Setup: First-Time Wallet Guide (2026)](https://zelcore.io/academy/how-to/setting-up-zelcore-first-time)
 

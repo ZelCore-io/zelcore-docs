@@ -9,8 +9,6 @@ keywords: [crypto wallet security, self custodial wallet, private cryptocurrency
 
 Keep your seed phrase offline on paper or metal, never share it with anyone (Zelcore staff will never ask for it) and never store it digitally. Transactions are irreversible and Zelcore cannot recover stolen funds, so also protect your device, use a strong password and authentication, check every address before you send and learn to recognize scams.
 
-**Important:** Cryptocurrency transactions are irreversible by design. Once funds are sent from your wallet, they cannot be recovered, reversed, or traced back by Zelcore or any centralized authority. Prevention is your only protection.
-
 Background: [Crypto Scams: Red Flags and Safe Habits Guide](https://zelcore.io/academy/basics/crypto-safety-scams-and-safe-habits)
 
 ## How Zelcore Wallets Work
@@ -22,7 +20,7 @@ Background: [Crypto Scams: Red Flags and Safe Habits Guide](https://zelcore.io/a
 
 ### Common Attack Vectors
 
-Based on extensive analysis of wallet compromises, attackers typically gain access through:
+Attackers typically gain access through:
 
 1. **Phishing attacks** - Fake websites, emails, or apps that steal your seed phrase or private keys
 2. **Malware and keyloggers** - Software that records your keystrokes or screenshots your screen
@@ -45,7 +43,6 @@ Your 12, 18 or 24-word seed phrase is the master key to your wallet. Lose it, an
 - **Use metal seed phrase storage** for protection against fire and water damage
 - **Verify you've written it correctly** before storing
 - **Keep it private** - treat it like your bank PIN
-- **Consider splitting storage** across different secure locations (advanced users)
 
 ### Don'ts ❌
 
@@ -374,7 +371,7 @@ Perform these checks regularly:
 - [ ] Check for Zelcore updates
 - [ ] Review recent transactions
 - [ ] Update device passwords
-- [ ] Verify 2FA is enabled
+- [ ] Verify d2FA is enabled
 - [ ] Review address book entries
 - [ ] Check connected dApps (WalletConnect)
 
@@ -387,13 +384,7 @@ Also:
 
 ### Security Settings Review
 
-Go to **Settings** → **Security** and verify:
-
-- d2FA is enabled
-- Biometric authentication is active
-- Auto-lock timeout is appropriate
-- Transaction confirmations are enabled
-- Address validation is on
+Open **Apps** → **Flux ID** → **Flux ID d2FA** and check that d2FA is active.
 
 ## Emergency Procedures
 
@@ -472,13 +463,6 @@ Found a security vulnerability?
 - Report through official channels
 - Responsible disclosure is appreciated
 
-### Related Documentation
-
-- [Responding to Wallet Compromise](../../guides/responding-to-wallet-compromise/) - Immediate actions if your wallet is compromised
-- [Security FAQ](../../faq/security-faq/) - Common security questions and answers
-- [Wallet FAQ](../../faq/wallet-faq/) - General wallet questions
-- [Getting Started with Zelcore](../../getting-started/installation/) - Initial setup and installation
-
 ## Conclusion
 
 **You are your own bank.** With the power and freedom of cryptocurrency comes complete responsibility for security. There is no customer service to call if you lose your funds, no FDIC insurance, no chargebacks, and no account recovery.
@@ -495,3 +479,5 @@ The most secure wallet is worthless if you lose access to your seed phrase. Bala
 - [Self-Custodial Wallets Explained](/docs/guides/self-custodial-wallets-explained)
 - [Security FAQ](/docs/faq/security-faq)
 - [Create a New Wallet](/docs/getting-started/create-wallet)
+- [Wallet FAQ](/docs/faq/wallet-faq)
+- [Install Zelcore](/docs/getting-started/installation)

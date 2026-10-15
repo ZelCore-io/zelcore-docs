@@ -1,7 +1,7 @@
 ---
 sidebar_position: 17
 title: Managing ERC-20 Tokens in Zelcore
-description: "How to send, receive, and manage ERC-20 tokens on Ethereum in your Zelcore wallet. Complete guide to ERC-20 token management and gas fees."
+description: "How to add, receive, send and manage ERC-20 tokens on Ethereum in Zelcore, with troubleshooting tips and gas fees explained."
 keywords: [erc20 wallet, erc20 tokens, ethereum token wallet, manage erc20]
 ---
 
