@@ -1,29 +1,29 @@
 ---
 sidebar_position: 4
-title: Stake Ethereum with ZelCore
-description: How to stake ETH using the ZelCore Earn function with Chorus One Max Vault
+title: Stake Ethereum with Zelcore
+description: How to stake ETH using the Zelcore Earn function with Chorus One Max Vault
 keywords: [ethereum, staking, earn, chorus one, ETH, APY]
 image: ./images/03-earn-dashboard.webp
 ---
 
-# Stake Ethereum with ZelCore
+# Stake Ethereum with Zelcore
 
-This guide walks you through staking Ethereum using the **Earn** function in ZelCore. Staking is done through the **Chorus One Max Vault**, a pooled staking solution where Chorus One distributes rewards to participants.
+This guide walks you through staking Ethereum using the **Earn** function in Zelcore. Staking is done through the **Chorus One Max Vault**, a pooled staking solution where Chorus One distributes rewards to participants.
 
 ---
 
 ## Prerequisites
 
-- ZelCore wallet with ETH available (minimum 0.01 ETH to stake)
-- An active Ethereum wallet selected in ZelCore
+- Zelcore wallet with ETH available (minimum 0.01 ETH to stake)
+- An active Ethereum wallet selected in Zelcore
 
 ---
 
 ## Step 1: Open the Earn Section
 
-From the ZelCore **Portfolio** dashboard, expand the left sidebar and click **Earn**.
+From the Zelcore **Portfolio** dashboard, expand the left sidebar and click **Earn**.
 
-![ZelCore Portfolio dashboard](./images/01-portfolio-dashboard.webp)
+![Zelcore Portfolio dashboard](./images/01-portfolio-dashboard.webp)
 
 You can also access Earn through the top navigation icon, but the left panel is the most direct route.
 
@@ -127,4 +127,4 @@ Your position status shows as **Active**, and you can track your accumulated rew
 
 ## Summary
 
-You have successfully staked ETH using ZelCore's Earn function. Your ETH is now staked in the Chorus One Max Vault, earning an estimated ~2.34% APY. Rewards are distributed automatically by Chorus One to all pool participants and will appear in your Rewards balance over time.
+You have successfully staked ETH using Zelcore's Earn function. Your ETH is now staked in the Chorus One Max Vault, earning an estimated ~2.34% APY. Rewards are distributed automatically by Chorus One to all pool participants and will appear in your Rewards balance over time.

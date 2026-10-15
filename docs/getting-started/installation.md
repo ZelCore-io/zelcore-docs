@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-title: Install ZelCore
-description: "Download and install ZelCore wallet on Windows, macOS, Linux, iOS, Android, or as a browser extension. Step-by-step installation guide."
+title: Install Zelcore
+description: "Download and install Zelcore wallet on Windows, macOS, Linux, iOS, Android, or as a browser extension. Step-by-step installation guide."
 keywords: [zelcore download, install zelcore, windows wallet, crypto wallet desktop, mobile crypto wallet]
 ---
 
@@ -21,7 +21,7 @@ Zelcore Desktop is available for Windows, macOS, and Linux.
 
 ### Download Desktop
 
-1. Visit the [ZelCore desktop wallet](https://zelcore.io/wallet) download page
+1. Visit the [Zelcore desktop wallet](https://zelcore.io/wallet) download page
 2. Select your operating system (Windows, macOS, or Linux)
 3. Run the installer once downloaded
 4. Follow the installation prompts
@@ -32,7 +32,7 @@ The desktop version offers the most comprehensive feature set, including FluxNod
 
 ## Mobile
 
-Access Zelcore on the go with the [ZelCore mobile wallet](https://zelcore.io/mobile-wallet) for iOS and Android.
+Access Zelcore on the go with the [Zelcore mobile wallet](https://zelcore.io/mobile-wallet) for iOS and Android.
 
 ### iOS
 
@@ -58,7 +58,7 @@ Access Zelcore on the go with the [ZelCore mobile wallet](https://zelcore.io/mob
 
 ## Browser Extension
 
-Use the [ZelCore browser extension](https://zelcore.io/browser-extension) directly in your web browser for seamless Web3 integration.
+Use the [Zelcore browser extension](https://zelcore.io/browser-extension) directly in your web browser for seamless Web3 integration.
 
 ### Supported Browsers
 

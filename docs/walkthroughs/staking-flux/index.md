@@ -1,21 +1,21 @@
 ---
 sidebar_position: 2
-title: How to Stake FLUX with ZelCore Earn
-description: Step-by-step guide to staking FLUX using the ZelCore Earn feature, including wallet selection, lockup tiers, and Auto-Reinvest.
+title: How to Stake FLUX with Zelcore Earn
+description: Step-by-step guide to staking FLUX using the Zelcore Earn feature, including wallet selection, lockup tiers, and Auto-Reinvest.
 keywords: [zelcore, flux, staking, earn, apy, lockup, auto-reinvest]
 image: ./images/01-earn-dashboard.webp
 ---
 
-# How to Stake FLUX with ZelCore Earn
+# How to Stake FLUX with Zelcore Earn
 
-This guide walks you through staking FLUX using ZelCore's Earn feature. You'll learn how to navigate to Earn, select a wallet and chain, choose a lockup tier, and confirm your stake.
+This guide walks you through staking FLUX using Zelcore's Earn feature. You'll learn how to navigate to Earn, select a wallet and chain, choose a lockup tier, and confirm your stake.
 
 ---
 
 ## Prerequisites
 
-- A ZelCore wallet with FLUX tokens (minimum 50 FLUX to stake)
-- ZelCore desktop application installed and logged in
+- A Zelcore wallet with FLUX tokens (minimum 50 FLUX to stake)
+- Zelcore desktop application installed and logged in
 
 ---
 
@@ -58,7 +58,7 @@ Click on the **Selected Chain** dropdown to view supported chains.
 
 ![Supported Chains dialog showing Solana, Ethereum, and Flux](./images/03-supported-chains.webp)
 
-ZelCore Earn currently supports staking on the following chains:
+Zelcore Earn currently supports staking on the following chains:
 
 | Chain | Status |
 |-------|--------|
@@ -169,7 +169,7 @@ After returning to the dashboard, you can see your new staking position in the l
 
 ## Summary
 
-To stake FLUX with ZelCore Earn:
+To stake FLUX with Zelcore Earn:
 
 1. **Navigate** to the Earn section from the side panel
 2. **Select** your wallet and the Flux chain

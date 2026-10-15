@@ -1,21 +1,21 @@
 ---
 sidebar_position: 3
-title: How to Stake Solana (SOL) with ZelCore Earn
-description: Step-by-step guide to staking Solana using the ZelCore Earn feature via the Chorus One staking provider.
+title: How to Stake Solana (SOL) with Zelcore Earn
+description: Step-by-step guide to staking Solana using the Zelcore Earn feature via the Chorus One staking provider.
 keywords: [zelcore, solana, sol, staking, earn, apy, chorus one, validator]
 image: ./images/03-earn-solana-dashboard.webp
 ---
 
-# How to Stake Solana (SOL) with ZelCore Earn
+# How to Stake Solana (SOL) with Zelcore Earn
 
-This guide walks you through staking Solana (SOL) using ZelCore's Earn feature. You'll learn how to navigate to Earn, select Solana as the staking chain, enter a stake amount, and confirm your stake through the Chorus One staking provider.
+This guide walks you through staking Solana (SOL) using Zelcore's Earn feature. You'll learn how to navigate to Earn, select Solana as the staking chain, enter a stake amount, and confirm your stake through the Chorus One staking provider.
 
 ---
 
 ## Prerequisites
 
-- A ZelCore wallet with SOL tokens (minimum 0.01 SOL to stake)
-- ZelCore desktop application installed and logged in
+- A Zelcore wallet with SOL tokens (minimum 0.01 SOL to stake)
+- Zelcore desktop application installed and logged in
 
 ---
 
@@ -129,4 +129,4 @@ Once activated, you will begin earning staking rewards. You can stake again or g
 
 ## Summary
 
-You have successfully staked SOL using ZelCore's Earn feature. Your stake will activate in the next Solana epoch and begin generating rewards shortly after. Return to the Earn dashboard at any time to monitor your staking positions, view accumulated rewards, or create additional stakes.
+You have successfully staked SOL using Zelcore's Earn feature. Your stake will activate in the next Solana epoch and begin generating rewards shortly after. Return to the Earn dashboard at any time to monitor your staking positions, view accumulated rewards, or create additional stakes.

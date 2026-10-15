@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Create a New Wallet
-description: "Create a new ZelCore wallet with a secure seed phrase. Learn how to set up your self-custodial crypto wallet from scratch."
+description: "Create a new Zelcore wallet with a secure seed phrase. Learn how to set up your self-custodial crypto wallet from scratch."
 keywords: [create crypto wallet, zelcore setup, seed phrase wallet, new wallet setup]
 ---
 

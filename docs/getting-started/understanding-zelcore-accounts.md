@@ -1,29 +1,29 @@
 ---
 sidebar_position: 1
-title: Understanding ZelCore Accounts
-description: "Learn the difference between ZelCore legacy accounts and seed phrase accounts, and how the multi-wallet system works."
+title: Understanding Zelcore Accounts
+description: "Learn the difference between Zelcore legacy accounts and seed phrase accounts, and how the multi-wallet system works."
 keywords: [zelcore accounts, seed phrase account, legacy account, multi wallet crypto]
 ---
 
-# Understanding ZelCore Accounts
+# Understanding Zelcore Accounts
 
-Learn about ZelCore's account system, the transition from legacy to modern accounts, and how to access your wallet on different devices.
+Learn about Zelcore's account system, the transition from legacy to modern accounts, and how to access your wallet on different devices.
 
 ## Introduction
 
-ZelCore has evolved significantly over the years, and understanding the difference between legacy and modern account types is crucial for a smooth experience. This guide will help you understand:
+Zelcore has evolved significantly over the years, and understanding the difference between legacy and modern account types is crucial for a smooth experience. This guide will help you understand:
 
 - The difference between legacy username/password accounts and modern seed phrase accounts
 - What "sync" and "register" mean on new devices
 - How to access your wallet on a new device without accidentally creating a new account
 - The role of FluxID in your account
 
-## Account Types in ZelCore
+## Account Types in Zelcore
 
 ### Modern Accounts (Seed Phrase / BIP44)
 
 **What it is:**
-Modern ZelCore accounts use a **seed phrase** (also called a recovery phrase or mnemonic phrase) - typically 12 or 24 words that serve as the master key to your wallet.
+Modern Zelcore accounts use a **seed phrase** (also called a recovery phrase or mnemonic phrase) - typically 12 or 24 words that serve as the master key to your wallet.
 
 **Key features:**
 - Industry-standard BIP44 protocol
@@ -41,12 +41,12 @@ Modern ZelCore accounts use a **seed phrase** (also called a recovery phrase or 
 ### Legacy Accounts (Username/Password)
 
 **What it is:**
-Older ZelCore accounts created before the BIP44 migration used a username and password system.
+Older Zelcore accounts created before the BIP44 migration used a username and password system.
 
 **Key features:**
 - Required username and password login
-- Used ZelCore's proprietary account system
-- Synced across devices through ZelCore servers
+- Used Zelcore's proprietary account system
+- Synced across devices through Zelcore servers
 - Being phased out in favor of seed phrase accounts
 
 **Status:**
@@ -62,12 +62,12 @@ Older ZelCore accounts created before the BIP44 migration used a username and pa
 
 ## Understanding "Sync" vs "Register" on New Devices
 
-When you open ZelCore on a new device, you'll see these options. Many users get confused here and accidentally create new accounts.
+When you open Zelcore on a new device, you'll see these options. Many users get confused here and accidentally create new accounts.
 
 ### "Sync" - Access Existing Account
 
 **Use "Sync" when:**
-- You already have a ZelCore account
+- You already have a Zelcore account
 - You want to access your existing wallet on this new device
 - You have your seed phrase or legacy login credentials
 
@@ -81,9 +81,9 @@ When you open ZelCore on a new device, you'll see these options. Many users get 
 ### "Register" - Create New Account
 
 **Use "Register" when:**
-- You are a completely new ZelCore user
+- You are a completely new Zelcore user
 - You want to create a brand new wallet
-- You don't have any existing ZelCore accounts
+- You don't have any existing Zelcore accounts
 
 **What it does:**
 - Creates a completely new wallet with a new seed phrase
@@ -101,7 +101,7 @@ You likely chose "Register" (create new account) instead of "Sync" (access exist
 
 **Solution:**
 1. You didn't lose your funds - they're still on the blockchain
-2. Close ZelCore completely
+2. Close Zelcore completely
 3. Reopen it and choose "Sync" this time
 4. Enter your seed phrase or legacy credentials
 5. Your funds will appear
@@ -134,7 +134,7 @@ You chose "Register" when you meant "Sync."
 ### FluxID (Modern)
 
 **What it is:**
-FluxID is a decentralized identity system integrated with modern ZelCore accounts.
+FluxID is a decentralized identity system integrated with modern Zelcore accounts.
 
 **Features:**
 - Linked to your seed phrase account
@@ -164,7 +164,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 
 ### What is D2FA?
 
-**D2FA** stands for "Decentralized Two-Factor Authentication" - an additional security layer for ZelCore transactions.
+**D2FA** stands for "Decentralized Two-Factor Authentication" - an additional security layer for Zelcore transactions.
 
 **How it works:**
 - Uses a distributed network to verify transactions
@@ -184,14 +184,14 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 **Common issues:**
 - **Forgot D2FA PIN:** Can be reset using your seed phrase
 - **D2FA not working:** Check that you're connected to the internet
-- **D2FA setup failed:** Try updating ZelCore to the latest version
+- **D2FA setup failed:** Try updating Zelcore to the latest version
 
 ## How to Access Your Account on a New Device
 
 ### For Modern Seed Phrase Accounts
 
-**Step 1: Install ZelCore**
-- Download ZelCore on your new device
+**Step 1: Install Zelcore**
+- Download Zelcore on your new device
 - Open the app
 
 **Step 2: Choose "Sync" or "Import Wallet"**
@@ -215,8 +215,8 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 
 ### For Legacy Username/Password Accounts
 
-**Step 1: Install ZelCore**
-- Download ZelCore on your new device
+**Step 1: Install Zelcore**
+- Download Zelcore on your new device
 - Open the app
 
 **Step 2: Look for Legacy Login Option**
@@ -229,7 +229,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 - Case-sensitive
 
 **Step 4: Syncing**
-- Your account will sync from ZelCore servers
+- Your account will sync from Zelcore servers
 - May take a few minutes
 
 **Step 5: Consider Migration**
@@ -243,7 +243,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 |---------|---------------|----------------------------|
 | **Login Method** | Username + Password | Seed Phrase |
 | **Account Type** | Centralized | Decentralized (BIP44) |
-| **Portability** | ZelCore only | Any BIP44 wallet |
+| **Portability** | Zelcore only | Any BIP44 wallet |
 | **Security** | Username/password | Seed phrase (12-24 words) |
 | **Recovery** | Password reset available | Seed phrase only - no reset |
 | **Future Support** | Being phased out | Fully supported |
@@ -254,7 +254,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 
 ### Never Share Your Seed Phrase
 - Your seed phrase is the key to your funds
-- ZelCore support will NEVER ask for your seed phrase
+- Zelcore support will NEVER ask for your seed phrase
 - Anyone with your seed phrase can steal all your cryptocurrency
 - Store it offline in a secure location
 
@@ -292,7 +292,7 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 ### I can't find my seed phrase
 
 **For modern accounts:**
-- Open ZelCore on a device where you're logged in
+- Open Zelcore on a device where you're logged in
 - Go to Settings → Security → Show Seed Phrase
 - Requires authentication
 - **Write it down immediately**
@@ -305,17 +305,17 @@ If you have a FluxID Legacy account, migrate to a modern FluxID by migrating to 
 ### I accidentally created a new account
 
 **Don't panic - your funds are safe:**
-1. Close ZelCore
+1. Close Zelcore
 2. Reopen and look for account switcher or "Manage Accounts"
 3. Choose "Add Account" or "Import Account"
 4. Select "Sync" or "Import from Seed Phrase"
 5. Enter your original seed phrase or legacy credentials
 6. Both accounts will be accessible
 
-### ZelCore keeps asking me to migrate
+### Zelcore keeps asking me to migrate
 
 **This is normal:**
-- ZelCore is transitioning away from legacy accounts
+- Zelcore is transitioning away from legacy accounts
 - Migration is highly recommended
 - Follow our [Migration Guide](../../guides/migrating-legacy-to-seed-phrase/)
 - Your funds will be safe during migration

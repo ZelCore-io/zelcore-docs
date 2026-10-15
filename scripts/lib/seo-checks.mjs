@@ -54,6 +54,7 @@ function nodes(obj) {
   return obj ? [obj] : [];
 }
 
+// Text inside <code> and <pre> is exempt: it quotes literal file paths and identifiers (for example ~/Library/Caches/ZelCore).
 // "ZelCore-io" is the GitHub org and may appear as visible text; any other "ZelCore" is a misspelled brand.
 const BAD_BRAND = /\bZelCore\b(?!-io)/;
 const BRAND_KEYS = new Set(['name', 'headline', 'text', 'description', 'alternateName']);
@@ -102,7 +103,7 @@ export function pageProblems(html, relPath) {
   }
 
   const visibleText = decodeEntities(
-    html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, '').replace(/<[^>]*>/g, ' '),
+    html.replace(/<(script|style|pre|code)\b[\s\S]*?<\/\1>/g, '').replace(/<[^>]*>/g, ' '),
   );
   if (BAD_BRAND.test(visibleText)) at('visible text says "ZelCore"; brand is "Zelcore"');
   for (const tag of html.match(/<meta\b[^>]*>/g) || []) {

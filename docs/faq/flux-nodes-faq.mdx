@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Flux Nodes FAQ
-description: "Common questions about running Flux nodes through ZelCore — node setup, status issues, rewards, and Titan shared nodes."
+description: "Common questions about running Flux nodes through Zelcore — node setup, status issues, rewards, and Titan shared nodes."
 keywords: [flux nodes, flux node setup, zelcore flux, flux node rewards]
 ---
 
@@ -65,14 +65,14 @@ EXPIRED status indicates your node's confirmation transaction has expired on the
    - Run multitoolbox to verify everything is working
 
 2. **Re-confirm your node:**
-   - Open ZelCore FluxNodes app
+   - Open Zelcore FluxNodes app
    - Select your node
    - Click "Confirm Node"
    - Send confirmation transaction (costs 1 FLUX fee)
    - Wait for blockchain confirmations (6-10 minutes)
 
 3. **Verify confirmation:**
-   - Check node status in ZelCore
+   - Check node status in Zelcore
    - Run `flux-cli getzelnodestatus` on your node
    - Should show "CONFIRMED" status
 
@@ -103,7 +103,7 @@ EXPIRED status indicates your node's confirmation transaction has expired on the
    Compare block height with https://explorer.runonflux.io
 
 2. **Check your confirmation transaction:**
-   - In ZelCore, find the transaction hash
+   - In Zelcore, find the transaction hash
    - Verify on blockchain explorer
    - Must have 10+ confirmations
 
@@ -115,7 +115,7 @@ EXPIRED status indicates your node's confirmation transaction has expired on the
 
 4. **Solution if daemon wasn't synced:**
    - Wait for full daemon synchronization
-   - Re-confirm through ZelCore FluxNodes app
+   - Re-confirm through Zelcore FluxNodes app
    - Monitor for 30 minutes
 
 **Prevention:** Always ensure daemon is 100% synced before confirming or re-confirming your node.
@@ -696,7 +696,7 @@ Power outages and router resets commonly cause DOS states due to extended downti
    - Ensure no new issues develop
 
 6. **If EXPIRED instead of DOS:**
-   - Re-confirm node through ZelCore
+   - Re-confirm node through Zelcore
    - Only after fixing all issues
 
 **Prevention strategies:**
@@ -843,7 +843,7 @@ Regular monitoring prevents issues before they cause DOS or EXPIRED states. Here
 
 **Daily Monitoring (5 minutes):**
 
-**Check in ZelCore FluxNodes app:**
+**Check in Zelcore FluxNodes app:**
 - Node status (CONFIRMED = good)
 - Last reward payment
 - Overall health indicator
@@ -986,7 +986,7 @@ fi
 
 ```
 Daily (5 min):
-[ ] ZelCore status check
+[ ] Zelcore status check
 [ ] flux-cli getinfo
 
 Weekly (20 min):
@@ -1028,7 +1028,7 @@ Node IP address issues typically occur when your public IP changes (dynamic IP) 
 **Common symptoms:**
 
 - Node shows 192.168.x.x or 10.x.x.x (private IP) instead of public IP
-- IP address in ZelCore doesn't match your actual public IP
+- IP address in Zelcore doesn't match your actual public IP
 - Node status shows incorrect IP after router reboot or ISP change
 - Cannot re-confirm node because IP is wrong
 - Ports show as accessible but node still has connectivity issues
@@ -1142,7 +1142,7 @@ If your public IP changed:
    ```
    Compare block height with https://explorer.runonflux.io
 
-3. **Open ZelCore FluxNodes app**
+3. **Open Zelcore FluxNodes app**
 
 4. **Select your node**
 
@@ -1246,7 +1246,7 @@ After fixing IP detection:
    - Test ports 16125, 16127, 16224, 16225
    - All should show "open"
 
-3. **Check in ZelCore FluxNodes app:**
+3. **Check in Zelcore FluxNodes app:**
    - Node should show correct public IP
    - Status should be CONFIRMED
    - No connectivity warnings
@@ -1334,9 +1334,9 @@ flux-cli getzelnodestatus
 
 Look for the "ip" field in the output. This should match your public IP from Method 1.
 
-**Method 3: Check in ZelCore FluxNodes app**
+**Method 3: Check in Zelcore FluxNodes app**
 
-1. Open ZelCore
+1. Open Zelcore
 2. Go to FluxNodes app
 3. Select your node
 4. IP address is displayed in node details
@@ -1395,16 +1395,16 @@ Both should show the same IP address. If they don't, you have an IP detection is
 
 ---
 
-## How do I delete a FluxNode in ZelCore and free its collateral?
+## How do I delete a FluxNode in Zelcore and free its collateral?
 
 **Answer:**
 
-Since ZelCore 8.39.0, deleting a FluxNode in ZelCore frees its collateral at once, with no transaction and no fee. Before this version, a deleted node came back at the next refresh and locked the collateral again.
+Since Zelcore 8.39.0, deleting a FluxNode in Zelcore frees its collateral at once, with no transaction and no fee. Before this version, a deleted node came back at the next refresh and locked the collateral again.
 
 **What happens when you delete a node:**
 
-- ZelCore asks you to confirm. The prompt reminds you that the collateral becomes spendable on this device right away.
-- The node stays deleted after you restart ZelCore or log in again.
+- Zelcore asks you to confirm. The prompt reminds you that the collateral becomes spendable on this device right away.
+- The node stays deleted after you restart Zelcore or log in again.
 - If the node is running, the prompt warns you that spending its collateral will stop it.
 
 **Where the collateral goes:**
@@ -1418,18 +1418,18 @@ Delete only frees the collateral on the device where you deleted the node. Your 
 
 **If you add a node whose collateral is already listed:**
 
-ZelCore tells you the collateral is already on the list and points you to **Edit**. Use Edit to set the node's name and IP instead of adding it again.
+Zelcore tells you the collateral is already on the list and points you to **Edit**. Use Edit to set the node's name and IP instead of adding it again.
 
 **Related:**
 - [Troubleshooting Flux Node Status Issues](../../guides/troubleshooting-flux-node-status-issues/#scenario-12-deleted-a-fluxnode-and-collateral-handling)
 
 ---
 
-## How do I use the FluxNodes map in ZelCore?
+## How do I use the FluxNodes map in Zelcore?
 
 **Answer:**
 
-The Fluxnodes and Firo maps were rebuilt in ZelCore 8.39.0.
+The Fluxnodes and Firo maps were rebuilt in Zelcore 8.39.0.
 
 - **Hover** over a location to see its nodes.
 - **Click a country** to filter the list to that country.
@@ -1455,7 +1455,7 @@ The Flux community offers multiple support channels. Here's where to get help an
 
 **Best channels:**
 - **#node-support** - For FluxOS, daemon, and node operation issues
-- **#general-support** - For ZelCore and account questions
+- **#general-support** - For Zelcore and account questions
 - **#technical-discussion** - For in-depth technical issues
 
 **Join:** https://discord.gg/runonflux

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Kadena (KDA) Guide
-description: "Complete guide to managing Kadena (KDA) in ZelCore — chain transfers, multi-chain architecture, and KDA wallet features."
+description: "Complete guide to managing Kadena (KDA) in Zelcore — chain transfers, multi-chain architecture, and KDA wallet features."
 keywords: [kadena wallet, kda guide, kadena chain transfer, zelcore kadena]
 ---
 
@@ -9,7 +9,7 @@ keywords: [kadena wallet, kda guide, kadena chain transfer, zelcore kadena]
 
 ## Overview
 
-Kadena is unique among blockchain networks because it uses a multi-chain architecture called "Chainweb." Unlike most blockchains that have a single chain, Kadena has multiple parallel chains (Chain 0, Chain 1, Chain 2, etc.) that work together. This guide explains how Kadena's chain system works, how to manage KDA in ZelCore, and how to resolve common issues related to chain selection and transfers.
+Kadena is unique among blockchain networks because it uses a multi-chain architecture called "Chainweb." Unlike most blockchains that have a single chain, Kadena has multiple parallel chains (Chain 0, Chain 1, Chain 2, etc.) that work together. This guide explains how Kadena's chain system works, how to manage KDA in Zelcore, and how to resolve common issues related to chain selection and transfers.
 
 Understanding Kadena's chain architecture is essential for successfully sending, receiving, and managing KDA tokens, especially when interacting with exchanges, wallets like EckoWallet, or the Kadena Community Fork.
 
@@ -69,9 +69,9 @@ Modern Kadena addresses are explicitly tied to a specific chain:
 
 ## How to Check Which Chain Your KDA Is On
 
-### Method 1: Using ZelCore
+### Method 1: Using Zelcore
 
-1. Open ZelCore
+1. Open Zelcore
 2. Select **Kadena (KDA)** from your assets
 3. Look at your wallet information:
    - The chain number should be displayed with your address
@@ -89,7 +89,7 @@ Visit a Kadena block explorer and search for your address:
 - **Kadena Mainnet Explorer:** https://mainnet.chainweb.com
 
 **How to use:**
-1. Copy your KDA address from ZelCore
+1. Copy your KDA address from Zelcore
 2. Paste it into the explorer search
 3. Look for "Chain" information in the results
 4. Check balances per chain - you may have KDA on multiple chains
@@ -120,15 +120,15 @@ If you're expecting KDA from someone:
    - Ensure you have the recipient's full k: address
    - Verify the chain number
 
-### Sending KDA in ZelCore
+### Sending KDA in Zelcore
 
 #### Step 1: Select the Correct Chain
 
-1. Open ZelCore
+1. Open Zelcore
 2. Go to **Kadena (KDA)**
 3. Navigate to the **Send** tab
 4. **Look for chain selection options:**
-   - Some ZelCore versions show chain selector dropdown
+   - Some Zelcore versions show chain selector dropdown
    - May display "Chain 0", "Chain 1", etc.
    - Ensure you're on the correct chain
 
@@ -160,7 +160,7 @@ If you're expecting KDA from someone:
 
 If your KDA is on Chain 1 but you need to send it on Chain 0, you must perform a cross-chain transfer first.
 
-**In ZelCore:**
+**In Zelcore:**
 
 1. Go to Kadena (KDA)
 2. Look for **Cross-Chain Transfer** or **Bridge** option
@@ -190,7 +190,7 @@ If your KDA is on Chain 1 but you need to send it on Chain 0, you must perform a
    - **THIS IS CRITICAL** - sending to wrong chain may lose funds
 4. **Copy the deposit address**
 5. **Note any memo/tag requirements**
-6. **In ZelCore:**
+6. **In Zelcore:**
    - Verify you have KDA on the required chain
    - If not, do a cross-chain transfer first
    - Send to the exchange address on the CORRECT chain
@@ -204,19 +204,19 @@ If your KDA is on Chain 1 but you need to send it on Chain 0, you must perform a
 
 ### Withdrawing KDA from Exchanges
 
-**When withdrawing from exchanges to ZelCore:**
+**When withdrawing from exchanges to Zelcore:**
 
-1. **In ZelCore:**
+1. **In Zelcore:**
    - Go to Kadena (KDA)
    - Go to **Receive** tab
    - Copy your receiving address
-   - **Note which chain** ZelCore is using (usually Chain 0)
+   - **Note which chain** Zelcore is using (usually Chain 0)
 
 2. **In the exchange:**
    - Go to KDA withdrawal section
-   - Paste your ZelCore address
+   - Paste your Zelcore address
    - **Select the chain** (if option available)
-   - Match the chain to your ZelCore chain
+   - Match the chain to your Zelcore chain
    - Enter amount
    - Complete 2FA/verification
 
@@ -224,7 +224,7 @@ If your KDA is on Chain 1 but you need to send it on Chain 0, you must perform a
    - Exchange processing time: varies (5 min - 24 hours)
    - Blockchain confirmations: 5-15 minutes
 
-4. **Verify in ZelCore:**
+4. **Verify in Zelcore:**
    - Check your KDA balance
    - Run **Smartify** if balance doesn't appear
    - Check transaction history
@@ -232,14 +232,14 @@ If your KDA is on Chain 1 but you need to send it on Chain 0, you must perform a
 **If withdrawal doesn't appear:**
 - Verify transaction on blockchain explorer using TxID
 - Check if exchange sent to correct chain
-- Run Smartify in ZelCore
+- Run Smartify in Zelcore
 - Wait for sufficient confirmations
 
 ## ERR_BAD_REQUEST Troubleshooting
 
 ### What Is ERR_BAD_REQUEST?
 
-`ERR_BAD_REQUEST` is an error that occurs when ZelCore (or Kadena network) rejects your transaction request due to invalid parameters or formatting issues.
+`ERR_BAD_REQUEST` is an error that occurs when Zelcore (or Kadena network) rejects your transaction request due to invalid parameters or formatting issues.
 
 ### Common Causes
 
@@ -264,7 +264,7 @@ If your KDA is on Chain 1 but you need to send it on Chain 0, you must perform a
    - Backend nodes not synced
    - Temporary Kadena network problems
 
-6. **Outdated ZelCore version:**
+6. **Outdated Zelcore version:**
    - Old app version with bugs or incompatibilities
 
 ### Troubleshooting Steps
@@ -282,7 +282,7 @@ If your KDA is on Chain 1 but you need to send it on Chain 0, you must perform a
 4. Test with small amount first
 
 **Step 3: Check Balance on Specific Chain**
-1. In ZelCore, verify your KDA balance for the specific chain
+1. In Zelcore, verify your KDA balance for the specific chain
 2. Use block explorer to confirm balance per chain
 3. If KDA is on wrong chain, transfer it first
 
@@ -291,10 +291,10 @@ If your KDA is on Chain 1 but you need to send it on Chain 0, you must perform a
 2. Don't try to send your entire balance (leave room for fees)
 
 **Step 5: Update and Refresh**
-1. Update ZelCore to latest version
+1. Update Zelcore to latest version
 2. Run **Smartify** in Settings
 3. Change backend server if needed
-4. Restart ZelCore
+4. Restart Zelcore
 
 **Step 6: Try Alternative Methods**
 1. Use smaller transaction amount (test with 0.1 KDA)
@@ -303,10 +303,10 @@ If your KDA is on Chain 1 but you need to send it on Chain 0, you must perform a
 4. Consider using EckoWallet or other Kadena wallet as alternative
 
 **Step 7: Advanced Troubleshooting**
-1. Clear ZelCore cache (see Balance & Sync guide)
+1. Clear Zelcore cache (see Balance & Sync guide)
 2. Check Kadena network status on official channels
 3. Verify no ongoing Kadena network maintenance
-4. Contact ZelCore support with error details
+4. Contact Zelcore support with error details
 
 ### Error Message Variations
 
@@ -320,20 +320,20 @@ If your KDA is on Chain 1 but you need to send it on Chain 0, you must perform a
 - Solution: Check balance on specific chain, ensure gas coverage
 
 **"ERR_BAD_REQUEST: Gas estimation failed"**
-- Solution: Update ZelCore, run Smartify, change backend
+- Solution: Update Zelcore, run Smartify, change backend
 
 ## EckoWallet Integration
 
 ### What Is EckoWallet?
 
-EckoWallet (formerly Chainweaver) is a popular Kadena-specific wallet that can be used alongside or as an alternative to ZelCore for managing KDA.
+EckoWallet (formerly Chainweaver) is a popular Kadena-specific wallet that can be used alongside or as an alternative to Zelcore for managing KDA.
 
-### Using ZelCore with EckoWallet
+### Using Zelcore with EckoWallet
 
 **Common scenarios:**
 
 1. **Receiving from EckoWallet users:**
-   - Get your ZelCore KDA receive address
+   - Get your Zelcore KDA receive address
    - Tell the sender which chain (usually Chain 0)
    - Wait for transaction confirmation
 
@@ -359,7 +359,7 @@ EckoWallet (formerly Chainweaver) is a popular Kadena-specific wallet that can b
 - Same account name can exist on multiple chains
 - Always verify chain when transacting
 
-**If having issues with ZelCore:**
+**If having issues with Zelcore:**
 - Try viewing/sending KDA via EckoWallet as backup
 - EckoWallet can help diagnose chain-specific issues
 - Both wallets read from same blockchain source
@@ -370,21 +370,21 @@ EckoWallet (formerly Chainweaver) is a popular Kadena-specific wallet that can b
 
 In Kadena's history, there were updates to the network protocol and community-led improvements. Some older wallets or services needed migration to remain compatible.
 
-### Do I Need to Migrate in ZelCore?
+### Do I Need to Migrate in Zelcore?
 
-**If you're using the latest ZelCore version:**
+**If you're using the latest Zelcore version:**
 - No manual migration usually needed
-- ZelCore handles protocol updates automatically
+- Zelcore handles protocol updates automatically
 - Keep app updated for best compatibility
 
 **Signs you might need attention:**
-- Using very old ZelCore version (1+ years old)
+- Using very old Zelcore version (1+ years old)
 - KDA balance not appearing despite being on blockchain
 - Transaction errors mentioning "deprecated" or "old format"
 
 ### How to Ensure Compatibility
 
-1. **Update ZelCore:**
+1. **Update Zelcore:**
    - Download latest version from zelcore.io
    - Install update
    - Run Smartify after updating
@@ -399,7 +399,7 @@ In Kadena's history, there were updates to the network protocol and community-le
 
 4. **If issues persist:**
    - Consider importing your private keys to EckoWallet temporarily
-   - Contact ZelCore support mentioning "Kadena fork compatibility"
+   - Contact Zelcore support mentioning "Kadena fork compatibility"
 
 ## Chain Mismatch Issues and Solutions
 
@@ -411,8 +411,8 @@ In Kadena's history, there were updates to the network protocol and community-le
 
 **Solution:**
 1. Contact exchange support immediately with transaction hash
-2. In ZelCore, check if you can access multiple chains
-3. The KDA may be accessible on Chain 1 in ZelCore
+2. In Zelcore, check if you can access multiple chains
+3. The KDA may be accessible on Chain 1 in Zelcore
 4. If not visible, you may need to add Chain 1 view
 5. Perform cross-chain transfer to move it to correct chain
 
@@ -421,7 +421,7 @@ In Kadena's history, there were updates to the network protocol and community-le
 **Problem:** You have KDA on Chain 2, need to deposit to exchange accepting only Chain 0
 
 **Solution:**
-1. In ZelCore, perform cross-chain transfer
+1. In Zelcore, perform cross-chain transfer
 2. Source: Chain 2
 3. Destination: Chain 0
 4. Amount: Total you want to deposit (minus fees)
@@ -434,7 +434,7 @@ In Kadena's history, there were updates to the network protocol and community-le
 
 **Solution:**
 1. Verify the KDA arrived using block explorer
-2. In ZelCore, access the correct chain view (Chain 8)
+2. In Zelcore, access the correct chain view (Chain 8)
 3. You can either:
    - Keep it on Chain 8 for future use
    - Cross-chain transfer to Chain 0 or your preferred chain
@@ -442,15 +442,15 @@ In Kadena's history, there were updates to the network protocol and community-le
 
 #### Scenario 4: Cannot See KDA That Explorer Shows
 
-**Problem:** Block explorer shows KDA on Chain 3, but ZelCore shows zero balance
+**Problem:** Block explorer shows KDA on Chain 3, but Zelcore shows zero balance
 
 **Solution:**
-1. Run Smartify in ZelCore
-2. Verify ZelCore is showing the correct chain view
-3. Update ZelCore to latest version
+1. Run Smartify in Zelcore
+2. Verify Zelcore is showing the correct chain view
+3. Update Zelcore to latest version
 4. Change backend server
-5. Check if ZelCore supports all chains (some older versions only showed Chain 0)
-6. Consider using EckoWallet to view if ZelCore doesn't support the chain
+5. Check if Zelcore supports all chains (some older versions only showed Chain 0)
+6. Consider using EckoWallet to view if Zelcore doesn't support the chain
 
 ### How to Avoid Chain Mismatches
 
@@ -481,17 +481,17 @@ In Kadena's history, there were updates to the network protocol and community-le
 
 ## Common Issues and Solutions
 
-### Issue: Missing KDA Balance in ZelCore
+### Issue: Missing KDA Balance in Zelcore
 
 **Symptoms:**
 - Block explorer shows KDA balance
-- ZelCore shows zero or incorrect amount
+- Zelcore shows zero or incorrect amount
 
 **Solutions:**
 1. Run Smartify
 2. Verify which chain the KDA is on (explorer)
-3. Check if ZelCore is displaying correct chain
-4. Update ZelCore
+3. Check if Zelcore is displaying correct chain
+4. Update Zelcore
 5. Change backend server
 6. Clear cache and resync
 
@@ -509,7 +509,7 @@ In Kadena's history, there were updates to the network protocol and community-le
 2. Check address format (k: prefix)
 3. Ensure sufficient balance on specific chain
 4. Leave extra KDA for gas fees
-5. Update ZelCore
+5. Update Zelcore
 6. Run Smartify
 7. Try smaller amount first
 
@@ -556,7 +556,7 @@ In Kadena's history, there were updates to the network protocol and community-le
 **Solutions:**
 1. Use block explorer to search your address
 2. Explorer will show balances per chain
-3. In ZelCore, check transaction history for chain info
+3. In Zelcore, check transaction history for chain info
 4. Create a spreadsheet tracking your KDA by chain
 5. Use EckoWallet for clearer multi-chain view
 
@@ -621,9 +621,9 @@ Chain 0 is recommended as the default for most users. It's the most widely suppo
 
 No. You must first perform a cross-chain transfer to move your KDA from Chain 0 to Chain 1, then send it to the final recipient on Chain 1.
 
-### Why doesn't ZelCore show all 20 chains?
+### Why doesn't Zelcore show all 20 chains?
 
-Some older ZelCore versions have limited chain support. Update to the latest version for best multi-chain support. If you need access to a specific chain that ZelCore doesn't show clearly, consider using EckoWallet.
+Some older Zelcore versions have limited chain support. Update to the latest version for best multi-chain support. If you need access to a specific chain that Zelcore doesn't show clearly, consider using EckoWallet.
 
 ### Is KDA on Chain 0 worth the same as KDA on Chain 5?
 
@@ -635,7 +635,7 @@ Yes. KDA has the same value regardless of which chain it's on. The chain is just
 
 1. **Always verify chain before transacting**
 2. **Use Chain 0 as default when possible**
-3. **Keep ZelCore updated**
+3. **Keep Zelcore updated**
 4. **Double-check exchange deposit requirements**
 5. **Test with small amounts first**
 6. **Document which chains you use**
@@ -646,15 +646,15 @@ Yes. KDA has the same value regardless of which chain it's on. The chain is just
 
 ## Getting Help
 
-**If you encounter Kadena-specific issues in ZelCore:**
+**If you encounter Kadena-specific issues in Zelcore:**
 
 1. **Check this guide first** for common solutions
 2. **Run Smartify** as first troubleshooting step
 3. **Use block explorers** to verify blockchain state
-4. **Update ZelCore** to latest version
+4. **Update Zelcore** to latest version
 5. **Try EckoWallet** as backup/verification tool
-6. **Contact ZelCore Support:**
-   - Discord: Official ZelCore server
+6. **Contact Zelcore Support:**
+   - Discord: Official Zelcore server
    - Email: support@zel.network
    - Include: Transaction hash, chain info, error messages
 

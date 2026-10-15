@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Flux Fusion Bridge Guide
-description: "Bridge FLUX tokens across chains using ZelCore Fusion feature. Step-by-step guide for cross-chain FLUX transfers."
+description: "Bridge FLUX tokens across chains using Zelcore Fusion feature. Step-by-step guide for cross-chain FLUX transfers."
 keywords: [flux bridge, fusion bridge, cross chain flux, zelcore flux bridge]
 ---
 
@@ -153,7 +153,7 @@ Before initiating a Flux Fusion bridge swap, verify the following:
 
 ### 3. Wallet Setup
 
-- [ ] You have the destination chain added in ZelCore
+- [ ] You have the destination chain added in Zelcore
 - [ ] You've verified the destination address is correct
 - [ ] You have access to your private keys or seed phrase (for security)
 
@@ -195,7 +195,7 @@ Before initiating a Flux Fusion bridge swap, verify the following:
    - Recommended: $2-$5 worth for multiple transactions
 
 3. **Verify you have Base ETH:**
-   - Open ZelCore
+   - Open Zelcore
    - Navigate to ETH (Ethereum)
    - Check that your Base network wallet shows an ETH balance
    - If zero, you need to acquire Base ETH first
@@ -216,7 +216,7 @@ Before initiating a Flux Fusion bridge swap, verify the following:
 
 1. **Wait 15-30 minutes and try again** - Often resolves automatically
 2. **Try a different provider:**
-   - ZelCore Fusion shows multiple providers
+   - Zelcore Fusion shows multiple providers
    - Switch to ChangeNow, ChangeHero, or SimpleSwap
 3. **Check if the route is supported:**
    - Not all providers support all Flux parallel chain pairs
@@ -226,7 +226,7 @@ Before initiating a Flux Fusion bridge swap, verify the following:
    - Try a smaller amount to test
 5. **Check provider status:**
    - Visit provider websites for maintenance announcements
-   - Check ZelCore Discord for known issues
+   - Check Zelcore Discord for known issues
 
 **Prevention:** Use well-established routes (Flux-BSC and Flux-ETH are most liquid).
 
@@ -256,9 +256,9 @@ Before initiating a Flux Fusion bridge swap, verify the following:
    - Go through a centralized exchange (CEX route):
      - Send to exchange
      - Withdraw on desired chain
-   - Use a different DEX or bridge service outside ZelCore
+   - Use a different DEX or bridge service outside Zelcore
 
-4. **Check ZelCore official channels:**
+4. **Check Zelcore official channels:**
    - Discord: May have announcements about provider issues
    - Twitter: @zelcore for service updates
 
@@ -306,7 +306,7 @@ Before initiating a Flux Fusion bridge swap, verify the following:
    - Your account may have higher limits for future swaps
    - KYC is typically valid for future swaps with same provider
 
-**Important:** KYC requirements come from exchange providers, not ZelCore or Flux. ZelCore cannot bypass or expedite KYC processes.
+**Important:** KYC requirements come from exchange providers, not Zelcore or Flux. Zelcore cannot bypass or expedite KYC processes.
 
 ### Issue: Swap Taking Longer Than Expected
 
@@ -355,26 +355,26 @@ Before initiating a Flux Fusion bridge swap, verify the following:
 This example demonstrates the complete process and highlights common pitfalls:
 
 **Prerequisites:**
-- [ ] Flux-BASE tokens in your ZelCore wallet
+- [ ] Flux-BASE tokens in your Zelcore wallet
 - [ ] ETH on Base network for gas (source chain)
 - [ ] BNB on BSC for gas (destination chain)
-- [ ] Both chains activated in ZelCore
+- [ ] Both chains activated in Zelcore
 
 **Step 1: Prepare Gas Tokens**
 
 1. **Check your Base ETH balance:**
-   - Open ZelCore → Ethereum → Base network
+   - Open Zelcore → Ethereum → Base network
    - Verify you have at least $1-2 worth of ETH on Base
    - If zero, bridge ETH to Base first using bridge.base.org
 
 2. **Check your BSC BNB balance:**
-   - Open ZelCore → BNB → Smart Chain
+   - Open Zelcore → BNB → Smart Chain
    - Verify you have at least $1-2 worth of BNB
    - If zero, withdraw BNB from an exchange (BEP-20 network) or use Fusion to acquire BNB
 
 **Step 2: Initiate the Swap**
 
-1. Open ZelCore
+1. Open Zelcore
 2. Navigate to **Fusion** (or FusionX/SSP)
 3. Select **From:** Flux-BASE
 4. Select **To:** Flux-BSC
@@ -400,20 +400,20 @@ This example demonstrates the complete process and highlights common pitfalls:
 
 **Step 4: Complete the Transaction**
 
-1. ZelCore will prompt you to send Flux-BASE to the provider's address
+1. Zelcore will prompt you to send Flux-BASE to the provider's address
 2. Confirm the transaction in your wallet
 3. **Critical:** Make sure you have sufficient ETH on Base for the transaction fee
 4. Transaction will be broadcast to Base network
-5. **Save your Order ID** displayed in ZelCore
+5. **Save your Order ID** displayed in Zelcore
 
 **Step 5: Monitor Progress**
 
-1. Check Fusion history in ZelCore for status updates
+1. Check Fusion history in Zelcore for status updates
 2. Copy your transaction hash
 3. Verify on Base blockchain explorer (basescan.org):
    - Confirm transaction was successful
    - Check number of confirmations (need 10-15 typically)
-4. Status will update in ZelCore as provider processes:
+4. Status will update in Zelcore as provider processes:
    - "Confirming" - Waiting for blockchain confirmations
    - "Exchanging" - Provider is processing the swap
    - "Sending" - Provider is sending to your BSC address
@@ -421,7 +421,7 @@ This example demonstrates the complete process and highlights common pitfalls:
 
 **Step 6: Verify Receipt**
 
-1. Once status shows "Finished", check your BSC Flux balance in ZelCore
+1. Once status shows "Finished", check your BSC Flux balance in Zelcore
 2. May take a few minutes for balance to update in app
 3. Verify on BSC blockchain explorer (bscscan.com):
    - Search your BSC address
@@ -456,7 +456,7 @@ This example demonstrates the complete process and highlights common pitfalls:
 
 ## Flux on Ergo: Migrating to the Flux Main Chain
 
-The Flux-Ergo bridge has ended, so Flux on Ergo (FLUX-ERG) is not one of the parallel chains you can bridge between. Since ZelCore 8.39.0, Fusion has a migration option for FLUX-ERG holders.
+The Flux-Ergo bridge has ended, so Flux on Ergo (FLUX-ERG) is not one of the parallel chains you can bridge between. Since Zelcore 8.39.0, Fusion has a migration option for FLUX-ERG holders.
 
 **Who can claim:**
 - Holders of FLUX-ERG at Ergo block 1,878,291 (September 21, 2026, 22:54:55 UTC)
@@ -474,7 +474,7 @@ The Flux-Ergo bridge has ended, so Flux on Ergo (FLUX-ERG) is not one of the par
 4. Choose the Flux wallet that should receive the FLUX.
 5. Review the claim details and confirm.
 
-ZelCore checks that the private key belongs to the Ergo address you chose. If it does not match, the claim is refused before anything is sent.
+Zelcore checks that the private key belongs to the Ergo address you chose. If it does not match, the claim is refused before anything is sent.
 
 **Existing claims:** The Flux on Ergo snapshot claim and the Flux on Ergo mining claim now pay out on the Flux main chain too, to one of your Flux wallets. They no longer pay out as FLUX on Ergo.
 
@@ -497,7 +497,7 @@ If Fusion bridge swaps are unavailable or unsuitable, consider these alternative
 **Disadvantages:**
 - May have different chains supported
 - Requires understanding of bridge mechanics
-- Separate interface from ZelCore
+- Separate interface from Zelcore
 
 **Access:** Visit the official Flux bridge documentation or dApp
 
@@ -550,9 +550,9 @@ If Fusion bridge swaps are unavailable or unsuitable, consider these alternative
 
 **Solutions:**
 1. Bridge ETH from mainnet to Base using official Base bridge
-2. Verify you're on Base network, not Ethereum mainnet in ZelCore
+2. Verify you're on Base network, not Ethereum mainnet in Zelcore
 3. Check Base network status: status.base.org
-4. Ensure ZelCore is updated (older versions may have Base integration issues)
+4. Ensure Zelcore is updated (older versions may have Base integration issues)
 
 ### BSC Network Issues
 
@@ -639,7 +639,7 @@ Withdraw gas tokens directly to the correct network:
 1. Check which networks your exchange supports for withdrawals
 2. Select the correct network (e.g., "Base" for Base ETH, "BSC" for BNB)
 3. Withdraw small amount of gas token (e.g., $5-10 worth)
-4. Verify it arrives on correct chain in ZelCore
+4. Verify it arrives on correct chain in Zelcore
 5. Use for your bridge swaps
 
 **Tip:** Coinbase has excellent Base network support for ETH withdrawals.
@@ -752,10 +752,10 @@ Before bridging Flux parallel assets, bridge gas tokens:
 
 ### Provider Legitimacy
 
-**Only use swaps created through ZelCore:**
+**Only use swaps created through Zelcore:**
 - Ensures provider addresses are legitimate
 - Protects against phishing sites
-- ZelCore integration is verified
+- Zelcore integration is verified
 
 **Never:**
 - Use provider websites found through search engines
@@ -768,7 +768,7 @@ Before bridging Flux parallel assets, bridge gas tokens:
 - Never share private keys or seed phrases
 - Providers will NEVER ask for your keys
 - KYC is separate from key custody
-- Only ZelCore (your wallet) needs your keys to sign transactions
+- Only Zelcore (your wallet) needs your keys to sign transactions
 
 ### Amount Limits
 
@@ -812,7 +812,7 @@ Or use a centralized exchange route.
 The native Flux bridge and Fusion bridge are different systems:
 
 - **Native Flux bridge:** Official Flux ecosystem bridge, connects native FLUX to parallel assets
-- **Fusion bridge:** ZelCore's swap aggregator using third-party providers
+- **Fusion bridge:** Zelcore's swap aggregator using third-party providers
 
 Check Flux official documentation for native bridge capabilities. Some users prefer native bridge for larger amounts to avoid KYC.
 
@@ -856,7 +856,7 @@ One of the most common issues Flux users encounter is confusion when depositing 
 
 **Common mistake scenario:**
 
-1. User has native FLUX in ZelCore
+1. User has native FLUX in Zelcore
 2. Exchange supports "FLUX (ERC20)" or "FLUX-BSC"
 3. User sends native FLUX to the exchange's deposit address
 4. Funds arrive on wrong blockchain
@@ -886,7 +886,7 @@ Different exchanges support different Flux parallel chains:
 
 **Step 2: Verify you have FLUX on a supported network**
 
-In ZelCore, check which Flux parallel asset you own:
+In Zelcore, check which Flux parallel asset you own:
 
 - **FLUX (native)** - Native Flux blockchain
 - **Flux-ETH** - FLUX on Ethereum (ERC20)
@@ -898,7 +898,7 @@ In ZelCore, check which Flux parallel asset you own:
 
 **Step 3: Match your asset to exchange's supported network**
 
-| You Have in ZelCore | Exchange Shows | Can Deposit? |
+| You Have in Zelcore | Exchange Shows | Can Deposit? |
 |---------------------|----------------|--------------|
 | FLUX (native) | "FLUX" or "FLUX (Native)" | Yes |
 | Flux-ETH | "FLUX (ERC20)" or "FLUX-ETH" | Yes |
@@ -934,18 +934,18 @@ In ZelCore, check which Flux parallel asset you own:
    - The selected network
    - Any warnings or requirements
 
-**Step 3: Verify in ZelCore you have native FLUX**
+**Step 3: Verify in Zelcore you have native FLUX**
 
-1. Open ZelCore
+1. Open Zelcore
 2. Find "FLUX" (not Flux-ETH, Flux-BSC, etc.)
 3. Confirm you have sufficient balance
 4. Ensure you have enough for:
    - Amount to deposit
    - Network transaction fees (usually small for native FLUX)
 
-**Step 4: Send from ZelCore**
+**Step 4: Send from Zelcore**
 
-1. In ZelCore, select FLUX (native)
+1. In Zelcore, select FLUX (native)
 2. Click "Send"
 3. Paste the exchange deposit address
 4. **Double-check the address** character by character
@@ -955,7 +955,7 @@ In ZelCore, check which Flux parallel asset you own:
 
 **Step 5: Monitor transaction**
 
-1. Copy transaction hash from ZelCore
+1. Copy transaction hash from Zelcore
 2. Check on Flux explorer: explorer.runonflux.io
 3. Wait for confirmations (typically 10-20 confirmations)
 4. Exchange will credit after required confirmations
@@ -1051,7 +1051,7 @@ In ZelCore, check which Flux parallel asset you own:
 2. **Verify the transaction** on appropriate blockchain explorer
 3. **Gather all information:**
    - Transaction hash
-   - Sending address (your ZelCore address)
+   - Sending address (your Zelcore address)
    - Receiving address (exchange address)
    - Network you sent on
    - Network exchange expected
@@ -1099,7 +1099,7 @@ If you have FLUX on a network your exchange doesn't support, bridge first:
 
 **Option 1: Use Fusion to bridge (via swap providers)**
 
-1. In ZelCore, go to Fusion
+1. In Zelcore, go to Fusion
 2. Swap Flux-BASE → FLUX (native)
 3. Wait for swap to complete (1-3 hours typically)
 4. Then deposit native FLUX to exchange
@@ -1159,12 +1159,12 @@ If you have FLUX on a network your exchange doesn't support, bridge first:
 2. **Screenshot everything**
    - Exchange deposit page with network selected
    - Address being copied
-   - ZelCore send confirmation
+   - Zelcore send confirmation
    - Transaction hash
    - Useful if support needed
 
 3. **Verify network matches exactly**
-   - Check ZelCore asset name
+   - Check Zelcore asset name
    - Check exchange network selection
    - Confirm they're the same chain
    - Don't assume based on address format
@@ -1195,14 +1195,14 @@ If you have FLUX on a network your exchange doesn't support, bridge first:
    - Don't expect instant credit
 
 8. **Use address book**
-   - Save exchange deposit address in ZelCore
+   - Save exchange deposit address in Zelcore
    - Label clearly with exchange name and network
    - Example: "Binance FLUX Native Deposit"
    - Reduces risk of using wrong address
 
 ### Withdrawing FLUX from Exchanges
 
-**Equally important:** When withdrawing from exchange to ZelCore, same network matching applies.
+**Equally important:** When withdrawing from exchange to Zelcore, same network matching applies.
 
 **Before withdrawing:**
 
@@ -1211,15 +1211,15 @@ If you have FLUX on a network your exchange doesn't support, bridge first:
    - Consider fees (BSC usually cheaper than Ethereum)
    - Consider speed (BSC, BASE usually faster)
 
-2. **Get correct receiving address from ZelCore**
-   - In ZelCore, select the matching Flux asset
+2. **Get correct receiving address from Zelcore**
+   - In Zelcore, select the matching Flux asset
    - For BSC withdrawal: Use Flux-BSC address
    - For native: Use FLUX (native) address
    - Go to Receive tab
    - Copy address
 
 3. **Paste address in exchange withdrawal**
-   - Verify network selection matches ZelCore asset
+   - Verify network selection matches Zelcore asset
    - Double-check address
    - Enter amount
    - Confirm withdrawal
@@ -1227,7 +1227,7 @@ If you have FLUX on a network your exchange doesn't support, bridge first:
 4. **Wait for arrival**
    - Exchange processes withdrawal (varies by exchange)
    - Blockchain confirmations
-   - Should appear in ZelCore after confirmations
+   - Should appear in Zelcore after confirmations
 
 **Expected withdrawal times:**
 - Exchange processing: 5 minutes - 2 hours (varies widely)
@@ -1248,9 +1248,9 @@ Check the deposit page on the exchange. It will show a network dropdown or netwo
 
 Continue following up with exchange support every 2-3 days. Include ticket number in follow-ups. Recovery can take 1-4 weeks. If no response after 2 weeks, escalate through exchange's official channels (social media, community forums).
 
-**Q: Does ZelCore charge fees for depositing to exchanges?**
+**Q: Does Zelcore charge fees for depositing to exchanges?**
 
-ZelCore doesn't charge fees. You only pay the blockchain network transaction fee, which goes to miners/validators, not to ZelCore.
+Zelcore doesn't charge fees. You only pay the blockchain network transaction fee, which goes to miners/validators, not to Zelcore.
 
 **Q: Why does my exchange require 20 confirmations for FLUX deposits?**
 
@@ -1298,19 +1298,19 @@ Contact the swap provider (ChangeHero, ChangeNow, SimpleSwap, Changelly) if:
 - Clear description of issue
 - How long you've been waiting
 
-### Contact ZelCore Support
+### Contact Zelcore Support
 
-Contact ZelCore support if:
+Contact Zelcore support if:
 
 - Cannot find your order ID in app
-- ZelCore not showing status updates
+- Zelcore not showing status updates
 - App crashes when trying to access Fusion
 - Need help determining which provider to contact
 - Provider unresponsive for 5+ business days
-- Suspect ZelCore app issue (not provider issue)
+- Suspect Zelcore app issue (not provider issue)
 
-**ZelCore Support:**
-- Discord: Official ZelCore Discord server
+**Zelcore Support:**
+- Discord: Official Zelcore Discord server
 - Email: support@zel.network
 - Twitter: @zelcore
 
@@ -1334,7 +1334,7 @@ Contact Flux team if:
 - [Fusion FAQ](../../faq/fusion-faq/) - Common Fusion questions
 - [Fusion FAQ: Flux on Ergo migration](../../faq/fusion-faq/#how-do-i-claim-my-flux-on-ergo-flux-erg-on-the-flux-main-chain) - Claiming FLUX-ERG on the Flux main chain
 - Understanding Blockchain Confirmations - Learn about confirmations
-- [ZelCore Security Best Practices](../../security/best-practices/) - Keep your assets secure
+- [Zelcore Security Best Practices](../../security/best-practices/) - Keep your assets secure
 
 ## Summary and Best Practices
 

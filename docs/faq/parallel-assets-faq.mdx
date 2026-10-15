@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Parallel Assets FAQ
-description: "Common questions about ZelCore parallel assets — what they are, how to claim them, and managing multi-chain token representations."
+description: "Common questions about Zelcore parallel assets — what they are, how to claim them, and managing multi-chain token representations."
 keywords: [parallel assets, zelcore parallel, multi chain tokens, claiming parallel assets]
 ---
 
@@ -23,7 +23,7 @@ Flux Parallel Assets (PA) are rewards distributed to FluxNode operators who part
 - **Earned by:** FluxNode operators participating in parallel mining
 - **Types:** Various Flux parallel assets (Flux-BASE, Flux-BSC, Flux-ETH, Flux-SOL, Flux-TRX, Flux-AVAX)
 - **Accumulation:** PA credits build up over time based on node activity
-- **Claiming:** Must be manually claimed through Fusion interface in ZelCore
+- **Claiming:** Must be manually claimed through Fusion interface in Zelcore
 - **Distribution:** Can claim to specific parallel chains or use "Claim All" to consolidate to native FLUX
 
 **Related:**
@@ -35,11 +35,11 @@ Flux Parallel Assets (PA) are rewards distributed to FluxNode operators who part
 
 **Answer:**
 
-PA rewards are claimed through the Fusion interface in ZelCore. There are two main methods:
+PA rewards are claimed through the Fusion interface in Zelcore. There are two main methods:
 
 **Method 1: Claim specific parallel assets**
 
-1. Open ZelCore and navigate to Fusion (or FusionX/SSP)
+1. Open Zelcore and navigate to Fusion (or FusionX/SSP)
 2. Find the Parallel Assets or PA Claims section
 3. Select the parallel asset type you want to claim (Flux-BASE, Flux-BSC, etc.)
 4. Enter the amount to claim
@@ -49,7 +49,7 @@ PA rewards are claimed through the Fusion interface in ZelCore. There are two ma
 
 **Method 2: Use "Claim All" to consolidate to native FLUX**
 
-1. Open Fusion in ZelCore
+1. Open Fusion in Zelcore
 2. Find the Parallel Assets section
 3. Click "Claim All" button
 4. Review that ALL PA credits will be converted to native FLUX
@@ -107,7 +107,7 @@ This error indicates you're attempting to claim more PA credits than allowed in 
 
 ---
 
-## Why are my PA claims not appearing in ZelCore?
+## Why are my PA claims not appearing in Zelcore?
 
 **Answer:**
 
@@ -131,8 +131,8 @@ Several reasons can cause PA credits to not display in the Fusion interface:
 - New credits take time to accumulate after claiming
 - Check your Fusion transaction history to verify recent claims
 
-**4. ZelCore sync issue:**
-- Close and completely restart ZelCore
+**4. Zelcore sync issue:**
+- Close and completely restart Zelcore
 - Navigate to Settings → Sync or Refresh
 - Manually sync all wallets
 - Return to Fusion PA Claims section
@@ -145,9 +145,9 @@ Several reasons can cause PA credits to not display in the Fusion interface:
 
 **Verification steps:**
 
-1. Check FluxNode status in ZelCore FluxNodes app (should be CONFIRMED)
+1. Check FluxNode status in Zelcore FluxNodes app (should be CONFIRMED)
 2. Verify node has been active and CONFIRMED for sufficient time
-3. Restart ZelCore and manually sync
+3. Restart Zelcore and manually sync
 4. Check Fusion transaction history for recent claims
 5. Contact Flux support if node is eligible but credits still missing
 
@@ -196,7 +196,7 @@ Claim individually if you want:
 **If you wanted parallel assets but used "Claim All":**
 
 You can bridge your native FLUX to parallel assets:
-1. Use Fusion bridge in ZelCore
+1. Use Fusion bridge in Zelcore
 2. Bridge native FLUX to desired parallel chain (Flux-BASE, Flux-BSC, etc.)
 3. Follow [Flux Fusion Bridge Guide](../../guides/flux-fusion-bridge-guide/)
 4. Result: Same end goal, just requires additional bridging step
@@ -234,7 +234,7 @@ Gas requirements depend on which parallel asset you're claiming (or if using "Cl
 **Option 1: Exchange withdrawals**
 - Withdraw gas token from centralized exchange
 - **Critical:** Select correct network (Base for Flux-BASE, BSC for Flux-BSC, etc.)
-- Send to your ZelCore wallet address for that network
+- Send to your Zelcore wallet address for that network
 
 **Option 2: Bridge between chains**
 - Example: Bridge ETH from Ethereum mainnet to Base using bridge.base.org
@@ -401,7 +401,7 @@ This balances gas costs, convenience, and avoiding accumulation issues.
 - PA accumulation stops when node expires
 - Cannot earn new PA credits until node re-confirmed
 - Existing PA credits from before expiration should still be claimable
-- Must re-confirm node through ZelCore
+- Must re-confirm node through Zelcore
 
 **Steps to resume PA accumulation:**
 
@@ -414,7 +414,7 @@ This balances gas costs, convenience, and avoiding accumulation issues.
 
 **For EXPIRED status:**
 1. Ensure node is healthy (daemon synced, benchmark passing, ports accessible)
-2. Re-confirm node through ZelCore FluxNodes app
+2. Re-confirm node through Zelcore FluxNodes app
 3. Wait for confirmation transaction (6-10 minutes)
 4. Node returns to CONFIRMED status
 5. PA accumulation resumes
@@ -547,7 +547,7 @@ Many users prefer "Claim All" for:
 **How to verify your node is earning PA:**
 
 **Check 1: Node status**
-- Open ZelCore FluxNodes app
+- Open Zelcore FluxNodes app
 - Verify node shows CONFIRMED status
 - DOS or EXPIRED nodes don't accumulate PA
 
@@ -557,7 +557,7 @@ Many users prefer "Claim All" for:
 - May require specific configuration or opt-in
 
 **Check 3: PA credits accumulation**
-- Open Fusion in ZelCore
+- Open Fusion in Zelcore
 - Navigate to Parallel Assets or PA Claims section
 - After 2-4 weeks of eligible operation, should see PA credits
 - If zero after sufficient time, node may not be participating
@@ -611,15 +611,15 @@ Many users prefer "Claim All" for:
 
 **Answer:**
 
-**Generally no, PA claims are designed to go to your ZelCore wallet addresses associated with your FluxNode account.**
+**Generally no, PA claims are designed to go to your Zelcore wallet addresses associated with your FluxNode account.**
 
 **How PA claiming addresses work:**
 
 **Default behavior:**
-- PA claims are sent to your ZelCore wallet addresses for the corresponding blockchain
-- Claiming Flux-BASE → Your Base wallet address in ZelCore
-- Claiming Flux-BSC → Your BSC wallet address in ZelCore
-- "Claim All" → Your native Flux wallet address in ZelCore
+- PA claims are sent to your Zelcore wallet addresses for the corresponding blockchain
+- Claiming Flux-BASE → Your Base wallet address in Zelcore
+- Claiming Flux-BSC → Your BSC wallet address in Zelcore
+- "Claim All" → Your native Flux wallet address in Zelcore
 - These addresses are tied to your FluxNode registration
 
 **Why custom addresses aren't supported:**
@@ -632,14 +632,14 @@ Many users prefer "Claim All" for:
 **If you need rewards in different address:**
 
 **Option 1: Transfer after claiming (Recommended)**
-1. Claim PA rewards to your ZelCore wallets (standard process)
+1. Claim PA rewards to your Zelcore wallets (standard process)
 2. Wait for claim confirmations
-3. Transfer from ZelCore to your desired external address
-4. Use ZelCore's send function or bridge if needed
+3. Transfer from Zelcore to your desired external address
+4. Use Zelcore's send function or bridge if needed
 5. Full control, maintains security
 
-**Option 2: Change ZelCore wallet (Not recommended for active nodes)**
-- Could potentially change wallet addresses in ZelCore
+**Option 2: Change Zelcore wallet (Not recommended for active nodes)**
+- Could potentially change wallet addresses in Zelcore
 - May disrupt FluxNode association
 - Risk of complications with node registration
 - Not recommended unless necessary
@@ -650,14 +650,14 @@ Many users prefer "Claim All" for:
 - PA claim interface doesn't support direct exchange deposits
 - Exchange addresses have specific requirements (memo, destination tag, etc.)
 - Risk of loss if claim process incompatible with exchange
-- Better approach: Claim to ZelCore, then transfer to exchange
+- Better approach: Claim to Zelcore, then transfer to exchange
 
 **Best practice:**
 
-1. Always claim PA rewards to your ZelCore wallets
-2. Verify rewards received in ZelCore
+1. Always claim PA rewards to your Zelcore wallets
+2. Verify rewards received in Zelcore
 3. Transfer to external addresses or exchanges if needed
-4. Maintain clean separation: Claiming → ZelCore, Transfers → External destinations
+4. Maintain clean separation: Claiming → Zelcore, Transfers → External destinations
 5. Reduces risk of errors or lost funds
 
 **Related:**
@@ -830,14 +830,14 @@ If gas exceeds PA claim value:
    - Ensure all rewards collected
 
 4. **Maintain wallet access:**
-   - Keep ZelCore wallet and seed phrase secure
+   - Keep Zelcore wallet and seed phrase secure
    - Even without active node, wallet contains your claimed rewards
    - Access needed if claiming old PA in future
 
 **What if you forgot to claim before stopping?**
 
 1. **PA credits should still exist** associated with your Flux address
-2. **Reopen ZelCore** and check Fusion PA Claims section
+2. **Reopen Zelcore** and check Fusion PA Claims section
 3. **Attempt to claim** even without active node
 4. **If claim fails:**
    - Contact Flux support with your node details
@@ -984,14 +984,14 @@ PA claims broken help!!
 - Claim transaction succeeded but balance never appeared
 - Need clarification on PA mechanics
 
-**Contact ZelCore support for:**
-- ZelCore app crashes when accessing Fusion
+**Contact Zelcore support for:**
+- Zelcore app crashes when accessing Fusion
 - App not displaying PA claims section
 - Wallet sync issues
-- ZelCore interface problems
+- Zelcore interface problems
 
-**ZelCore Support:**
-- **Discord:** Official ZelCore Discord
+**Zelcore Support:**
+- **Discord:** Official Zelcore Discord
 - **Email:** support@zel.network
 - **Twitter:** @zelcore
 
@@ -1008,7 +1008,7 @@ PA claims broken help!!
 - **Flux website:** runonflux.io
 - **Flux documentation:** docs.runonflux.io
 - **Twitter:** @RunOnFlux
-- **ZelCore Discord:** For wallet issues
+- **Zelcore Discord:** For wallet issues
 - **GitHub:** For bug reports (if applicable)
 
 **Community guidelines:**

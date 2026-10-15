@@ -1,15 +1,15 @@
 ---
 sidebar_position: 14
-title: Managing TRC-20 Tokens in ZelCore
-description: "How to send, receive, and manage TRC-20 tokens like USDT on TRON in your ZelCore wallet. Complete guide to TRC-20 token management."
+title: Managing TRC-20 Tokens in Zelcore
+description: "How to send, receive, and manage TRC-20 tokens like USDT on TRON in your Zelcore wallet. Complete guide to TRC-20 token management."
 keywords: [trc20 wallet, trc20 tokens, usdt tron wallet, manage trc20]
 ---
 
-# Managing TRC-20 Tokens in Your ZelCore TRC20 Wallet
+# Managing TRC-20 Tokens in Your Zelcore TRC20 Wallet
 
 ## Overview
 
-ZelCore serves as a full-featured TRC20 wallet, allowing you to send, receive, and manage TRC-20 tokens seamlessly alongside hundreds of other cryptocurrencies. TRC-20 tokens — including the widely used USDT on TRON — benefit from extremely low transaction fees and fast confirmation times, making the TRON network one of the most popular choices for everyday token transfers. This guide covers everything you need to know about TRC-20 token management in ZelCore, from initial setup to advanced troubleshooting.
+Zelcore serves as a full-featured TRC20 wallet, allowing you to send, receive, and manage TRC-20 tokens seamlessly alongside hundreds of other cryptocurrencies. TRC-20 tokens — including the widely used USDT on TRON — benefit from extremely low transaction fees and fast confirmation times, making the TRON network one of the most popular choices for everyday token transfers. This guide covers everything you need to know about TRC-20 token management in Zelcore, from initial setup to advanced troubleshooting.
 
 ## What Are TRC-20 Tokens?
 
@@ -38,22 +38,22 @@ TRC-20 is a technical standard for tokens built on the TRON blockchain. Similar 
 USDT on TRON (TRC-20) accounts for a significant portion of all USDT transfers globally. Many users prefer the TRC-20 version over the ERC-20 version specifically because of its lower fees.
 :::
 
-## Setting Up Your ZelCore Wallet for TRC-20 Tokens
+## Setting Up Your Zelcore Wallet for TRC-20 Tokens
 
-### Step 1: Install ZelCore
+### Step 1: Install Zelcore
 
-If you have not already installed ZelCore, download it from the [official website](https://zelcore.io/ecosystem/projects/tron) or follow the detailed [installation guide](/docs/getting-started/installation/). ZelCore is available on Windows, macOS, Linux, iOS, and Android.
+If you have not already installed Zelcore, download it from the [official website](https://zelcore.io/ecosystem/projects/tron) or follow the detailed [installation guide](/docs/getting-started/installation/). Zelcore is available on Windows, macOS, Linux, iOS, and Android.
 
 ### Step 2: Add TRON (TRX) to Your Portfolio
 
-Before you can manage TRC-20 tokens, you need to add the TRON asset to your ZelCore portfolio:
+Before you can manage TRC-20 tokens, you need to add the TRON asset to your Zelcore portfolio:
 
-1. Open ZelCore and navigate to the **Portfolio** screen.
+1. Open Zelcore and navigate to the **Portfolio** screen.
 2. Tap the **+** button to add a new asset.
 3. Search for **TRON** or **TRX**.
 4. Select TRON and add it to your portfolio.
 
-Adding TRX is essential because TRC-20 token transactions require TRX for energy and bandwidth fees. Your TRON address in ZelCore is the same address you will use to receive any TRC-20 token.
+Adding TRX is essential because TRC-20 token transactions require TRX for energy and bandwidth fees. Your TRON address in Zelcore is the same address you will use to receive any TRC-20 token.
 
 ### Step 3: Add Specific TRC-20 Tokens
 
@@ -70,21 +70,21 @@ When searching for USDT, you may see multiple versions (ERC-20, TRC-20, BEP-20, 
 
 ## Receiving TRC-20 Tokens
 
-To receive TRC-20 tokens in ZelCore:
+To receive TRC-20 tokens in Zelcore:
 
-1. Open ZelCore and select the TRC-20 token you want to receive (or TRX — the address is the same).
+1. Open Zelcore and select the TRC-20 token you want to receive (or TRX — the address is the same).
 2. Tap **Receive** to display your TRON address and QR code.
 3. Share this address with the sender.
 
 **Important considerations:**
 
 - Your TRON address works for all TRC-20 tokens. You do not need a different address for each token.
-- Always verify the address carefully before sharing it. Copy-paste directly from ZelCore rather than typing it manually.
+- Always verify the address carefully before sharing it. Copy-paste directly from Zelcore rather than typing it manually.
 - If you are receiving from an exchange, make sure the exchange supports TRC-20 withdrawals and that you select the TRON network during withdrawal.
 
 ## Sending TRC-20 Tokens
 
-To send TRC-20 tokens from ZelCore:
+To send TRC-20 tokens from Zelcore:
 
 1. Select the TRC-20 token in your portfolio.
 2. Tap **Send**.
@@ -123,11 +123,11 @@ Most casual users who do not stake for resources should expect to pay between 5 
 
 ### TRC-20 Token Balance Not Showing
 
-If you have received TRC-20 tokens but they do not appear in ZelCore:
+If you have received TRC-20 tokens but they do not appear in Zelcore:
 
-1. **Verify the token is added to your portfolio.** ZelCore will not display a token balance unless the specific token is added to your asset list.
+1. **Verify the token is added to your portfolio.** Zelcore will not display a token balance unless the specific token is added to your asset list.
 2. **Check the correct network.** Ensure you are looking at the TRC-20 version of the token, not the ERC-20 or BEP-20 version.
-3. **Allow time for sync.** ZelCore periodically refreshes balances. Pull down to refresh or wait a few moments.
+3. **Allow time for sync.** Zelcore periodically refreshes balances. Pull down to refresh or wait a few moments.
 4. **Verify on a block explorer.** Visit [Tronscan](https://tronscan.org/) and search your TRON address to independently verify that the tokens arrived.
 
 For persistent balance issues, consult the [troubleshooting balance sync guide](/docs/guides/troubleshooting-balance-sync-issues/).
@@ -170,11 +170,11 @@ For a deeper dive into TRON's resource system and other TRON-specific topics, se
 
 ## Summary
 
-ZelCore provides a robust TRC20 wallet experience, supporting the full range of TRC-20 token management including sending, receiving, and monitoring your token balances. The key points to remember are:
+Zelcore provides a robust TRC20 wallet experience, supporting the full range of TRC-20 token management including sending, receiving, and monitoring your token balances. The key points to remember are:
 
 1. Always keep TRX in your wallet to cover transaction fees for TRC-20 transfers.
 2. When adding tokens, select the correct network version (TRC-20 for TRON).
-3. Your TRON address in ZelCore works for all TRC-20 tokens.
+3. Your TRON address in Zelcore works for all TRC-20 tokens.
 4. Verify transactions independently on Tronscan if balances do not update immediately.
 
 By following these guidelines, you can take full advantage of TRON's low fees and fast confirmations for your day-to-day token transfers.

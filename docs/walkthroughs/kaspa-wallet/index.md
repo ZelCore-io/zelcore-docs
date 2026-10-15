@@ -1,14 +1,14 @@
 ---
 sidebar_position: 9
 title: "Kaspa (KAS) in Zelcore: KNS and KRC-20"
-description: Kaspa in ZelCore 8.39.0 - send to .kas names, import and verify KRC-20 tokens, consolidate UTXOs, view KCC tokens, use a Ledger and sign messages.
+description: Kaspa in Zelcore 8.39.0 - send to .kas names, import and verify KRC-20 tokens, consolidate UTXOs, view KCC tokens, use a Ledger and sign messages.
 keywords: [zelcore, kaspa, kas, kns, kaspa names, krc-20, krc20, kasplex, kcc, kron, ledger, utxo consolidation, sign message, kaspa ng, kasware]
 image: ./images/01-kns-send-resolved.webp
 ---
 
-# Kaspa (KAS) in ZelCore: Names, KRC-20 Tokens and Ledger
+# Kaspa (KAS) in Zelcore: Names, KRC-20 Tokens and Ledger
 
-ZelCore 8.39.0 adds several tools for Kaspa. You can send to a `.kas` name, find and import KRC-20 tokens, merge many small coins into a few, load older history, use a Ledger, and sign messages.
+Zelcore 8.39.0 adds several tools for Kaspa. You can send to a `.kas` name, find and import KRC-20 tokens, merge many small coins into a few, load older history, use a Ledger, and sign messages.
 
 This guide covers each one. Bridging KAS to Igra L2 is covered in the [Igra Bridge walkthrough](../igra-bridge).
 
@@ -20,19 +20,19 @@ KNS is the Kaspa Name Service. A name such as `alice.kas` points to a Kaspa addr
 
 1. Open **Kaspa** in your portfolio and click **Send**.
 2. In the recipient field, type the name, for example `alice.kas`.
-3. ZelCore looks the name up. It shows **"alice.kas (KNS) belongs to:"** and the address underneath.
+3. Zelcore looks the name up. It shows **"alice.kas (KNS) belongs to:"** and the address underneath.
 4. Compare that address with the one you expect.
 5. Enter the amount and send as usual.
 
 ![Send form with a .kas name typed in the recipient field and the resolved address shown under it](./images/01-kns-send-resolved.webp)
 
-**Send stays disabled until the name resolves.** While ZelCore looks it up, you see "Looking up alice.kas on KNS…".
+**Send stays disabled until the name resolves.** While Zelcore looks it up, you see "Looking up alice.kas on KNS…".
 
 :::warning
-Check the address under the name before you send. A name can change owner, and a payment cannot be reversed. ZelCore looks the name up again just before it signs. If the owner has changed since you last saw it, nothing is sent. ZelCore shows the new address, and you need to check it and send again.
+Check the address under the name before you send. A name can change owner, and a payment cannot be reversed. Zelcore looks the name up again just before it signs. If the owner has changed since you last saw it, nothing is sent. Zelcore shows the new address, and you need to check it and send again.
 :::
 
-If a name does not resolve, ZelCore tells you why:
+If a name does not resolve, Zelcore tells you why:
 
 | Message | What it means |
 |---------|---------------|
@@ -41,19 +41,19 @@ If a name does not resolve, ZelCore tells you why:
 | "... is not a verified KNS domain." | Enter the address instead. |
 | "Could not look up ... on KNS." | The lookup failed. Try again, or enter the address. |
 
-Kaspa addresses are also checked as you type. ZelCore flags a missing `kaspa:` prefix, a wrong network, uppercase letters, or a typo (checksum mismatch).
+Kaspa addresses are also checked as you type. Zelcore flags a missing `kaspa:` prefix, a wrong network, uppercase letters, or a typo (checksum mismatch).
 
 ---
 
 ## KRC-20 tokens
 
-KRC-20 tokens live on Kaspa and are handled by the Kasplex indexer. ZelCore finds the ones your address holds, but you decide which to add.
+KRC-20 tokens live on Kaspa and are handled by the Kasplex indexer. Zelcore finds the ones your address holds, but you decide which to add.
 
 ### Why tokens are not added automatically
 
-Anyone can send a token to any address. If ZelCore added every token it found, spam tokens would fill your portfolio. So ZelCore lists them and waits for you.
+Anyone can send a token to any address. If Zelcore added every token it found, spam tokens would fill your portfolio. So Zelcore lists them and waits for you.
 
-When ZelCore finds tokens, it shows a **"KRC-20 tokens found"** notice. It tells you to add only tokens you recognise.
+When Zelcore finds tokens, it shows a **"KRC-20 tokens found"** notice. It tells you to add only tokens you recognise.
 
 ### Add a token you hold
 
@@ -71,7 +71,7 @@ If a token is not in the list, you can import it yourself. Click **Manage Assets
 2. Optionally enter a name.
 3. Click **Verify**.
 
-Verify shows the token's logo, ticker, decimals, max supply, how much is minted, and its state (**Minting open** or **Fully minted**). If no token with that ticker was ever deployed, ZelCore says so and does not let you import it.
+Verify shows the token's logo, ticker, decimals, max supply, how much is minted, and its state (**Minting open** or **Fully minted**). If no token with that ticker was ever deployed, Zelcore says so and does not let you import it.
 
 If the details look right, click **Import**.
 
@@ -79,22 +79,22 @@ If the details look right, click **Import**.
 
 ### Send a KRC-20 token
 
-Sending works like sending KAS. A token transfer needs a little extra KAS in the same wallet. ZelCore shows the amount on the send screen (0.3 KAS). Part of it comes back to you. You cannot send a token to the address it is sent from.
+Sending works like sending KAS. A token transfer needs a little extra KAS in the same wallet. Zelcore shows the amount on the send screen (0.3 KAS). Part of it comes back to you. You cannot send a token to the address it is sent from.
 
 ### Recover an interrupted token transfer
 
 A token transfer happens in two steps on the network. First it sets aside a small KAS deposit (0.3 KAS). Then it completes the transfer. If the app closes or the connection drops between the two steps, the deposit stays on chain and the transfer is unfinished.
 
-ZelCore finds these for you. On the **Kaspa** screen, and on the token's own screen, you see a card called **Unfinished token transfer**. It names the amount, the token, the receiving address, and the KAS held.
+Zelcore finds these for you. On the **Kaspa** screen, and on the token's own screen, you see a card called **Unfinished token transfer**. It names the amount, the token, the receiving address, and the KAS held.
 
 1. Click **Complete transfer**.
 2. Confirm with **Yes, Send**. If d2FA is on, enter your PIN as for a normal send.
-3. ZelCore completes the transfer. The KAS deposit returns to your wallet, less a small network fee.
+3. Zelcore completes the transfer. The KAS deposit returns to your wallet, less a small network fee.
 
 Things to know:
 
 - **View deposit** opens the deposit in the explorer.
-- ZelCore only completes a deposit that is still there. It cannot send the same transfer twice.
+- Zelcore only completes a deposit that is still there. It cannot send the same transfer twice.
 - You cannot cancel it. Any spend of the deposit completes the same transfer.
 - Kasplex applies the transfer when its indexer processes it. If your wallet no longer holds that amount by then, Kasplex rejects the transfer. The KAS comes back either way.
 
@@ -115,34 +115,34 @@ When your address holds more than 80 UTXOs, the Kaspa screen shows the count and
 
 Only the network fee leaves your wallet. The merged coins are paid back to the same address.
 
-Consolidation needs a key that ZelCore holds. It is not available for hardware wallets. For the full explanation, see the [UTXO consolidation guide](../../guides/utxo-consolidation-guide).
+Consolidation needs a key that Zelcore holds. It is not available for hardware wallets. For the full explanation, see the [UTXO consolidation guide](../../guides/utxo-consolidation-guide).
 
 ---
 
 ## Transaction history
 
 - **Load More.** Click **Load More** at the bottom of the list to fetch older transactions.
-- **Live incoming payments.** While a Kaspa or KRC-20 screen is open, incoming payments show up within seconds. An incoming KRC-20 token transfer can take until the next regular refresh. If you route ZelCore through a proxy server, live updates do not apply and the regular refresh is used.
+- **Live incoming payments.** While a Kaspa or KRC-20 screen is open, incoming payments show up within seconds. An incoming KRC-20 token transfer can take until the next regular refresh. If you route Zelcore through a proxy server, live updates do not apply and the regular refresh is used.
 - **Pending and failed.** A transaction the network has not accepted yet shows as pending. If the network still has not accepted it after about 10 minutes, it shows as an error instead of a success. Earlier versions showed these as successful.
 - **KRC-20 history.** Token screens now list transfers, mints, and marketplace trades. They used to be empty. Your KAS balance updates right after a KRC-20 send.
 
 ![Kaspa transaction list with the Load More button at the bottom](./images/06-load-more-history.webp)
 
-Token history and balances come from the Kasplex indexer. ZelCore is not responsible for the accuracy of indexer data.
+Token history and balances come from the Kasplex indexer. Zelcore is not responsible for the accuracy of indexer data.
 
 ---
 
 ## KCC tokens (view only)
 
-KCC tokens are Kaspa covenant tokens, such as KRON and KCC-20 tokens. ZelCore finds the ones at your address, checks them against ZelCore's own Kaspa node, and lists them under **Imported Kaspa Tokens**, like KRC-20 tokens. You add them to your portfolio yourself.
+KCC tokens are Kaspa covenant tokens, such as KRON and KCC-20 tokens. Zelcore finds the ones at your address, checks them against Zelcore's own Kaspa node, and lists them under **Imported Kaspa Tokens**, like KRC-20 tokens. You add them to your portfolio yourself.
 
 For each token you see the balance, supply, and history. The information window also shows the covenant ID, the token format, and where its name comes from.
 
-**You cannot send KCC tokens yet.** If you click **Send**, ZelCore says: "Viewing and receiving only. Sending this token is not supported yet."
+**You cannot send KCC tokens yet.** If you click **Send**, Zelcore says: "Viewing and receiving only. Sending this token is not supported yet."
 
 ![KCC token information window showing the view-only note, covenant ID and format](./images/07-kcc-token-view-only.webp)
 
-If the token indexer or the Kaspa network is unavailable, ZelCore shows the last checked balance and the date.
+If the token indexer or the Kaspa network is unavailable, Zelcore shows the last checked balance and the date.
 
 ---
 
@@ -151,7 +151,7 @@ If the token indexer or the Kaspa network is unavailable, ZelCore shows the last
 You can import a Kaspa address from a Ledger device and send KAS from it.
 
 1. Connect your Ledger, unlock it, and open the **Kaspa** app on it.
-2. In ZelCore, open **See More Wallets**, click **Import a Wallet** and choose **Hardware Wallet**.
+2. In Zelcore, open **See More Wallets**, click **Import a Wallet** and choose **Hardware Wallet**.
 3. Follow the steps: **Select Coin**, **Open App on Device**, **Select Address**, **Confirm & Import**, then **Summary**.
 4. The address is shown on your Ledger. Check it and confirm.
 
@@ -159,7 +159,7 @@ You can import a Kaspa address from a Ledger device and send KAS from it.
 
 To send, use **Send** as usual and approve the transaction on the device. Nothing is sent until you approve on the device.
 
-- A send that has to combine many small coins first needs more than one approval on the Ledger. ZelCore tells you how many.
+- A send that has to combine many small coins first needs more than one approval on the Ledger. Zelcore tells you how many.
 - You cannot attach a message when you send from a Ledger.
 - Part of a balance can be locked in outputs the Ledger Kaspa app cannot spend. These come from transactions with more than 256 outputs, such as some pool payouts. If you see this message, try a smaller amount.
 - **KRC-20 tokens on Ledger are not supported yet.**
@@ -188,8 +188,8 @@ Kasplex asked all wallets to pause KRC-20 transfers while its indexer is down. Y
 **The fee on the send screen: is it exact?**
 The fee shown is the fee charged.
 
-**ZelCore says the network did not confirm my send in time.**
-The send may still have gone through. ZelCore checks the outcome before it reports a result, so you are not led to pay twice. If it asks you to check the explorer, do that first and only send again if the transaction is not there.
+**Zelcore says the network did not confirm my send in time.**
+The send may still have gone through. Zelcore checks the outcome before it reports a result, so you are not led to pay twice. If it asks you to check the explorer, do that first and only send again if the transaction is not there.
 
 **I cannot send a small amount.**
 Kaspa has a minimum send of 0.3 KAS. Change below 0.3 KAS is used as fee.

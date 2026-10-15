@@ -1,28 +1,28 @@
 ---
 sidebar_position: 5
 title: "Bridge KAS to Igra L2 with the Igra Bridge"
-description: Bridge KAS to Igra L2 (iKAS) and iKAS back to KAS with the Igra Bridge built into ZelCore, plus an overview of the ZAP Auction feature.
+description: Bridge KAS to Igra L2 (iKAS) and iKAS back to KAS with the Igra Bridge built into Zelcore, plus an overview of the ZAP Auction feature.
 keywords: [zelcore, kaspa, igra, igra l2, ikas, bridge, igra bridge, ikas to kas, zap auction]
 image: ./images/03-igra-bridge-modal.webp
 ---
 
 # How to Bridge KAS to Igra L2 Using the Igra Bridge
 
-This guide walks you through bridging your Kaspa (KAS) tokens to Igra L2 (iKAS) using ZelCore's built-in Igra Bridge. The bridge locks your KAS on L1 and mints iKAS on Igra L2 at a 1:1 ratio. You'll also get a brief look at the ZAP Auction feature available on Igra L2.
+This guide walks you through bridging your Kaspa (KAS) tokens to Igra L2 (iKAS) using Zelcore's built-in Igra Bridge. The bridge locks your KAS on L1 and mints iKAS on Igra L2 at a 1:1 ratio. You'll also get a brief look at the ZAP Auction feature available on Igra L2.
 
 ---
 
 ## Prerequisites
 
-- A ZelCore wallet with KAS tokens
-- ZelCore desktop application installed and logged in
+- A Zelcore wallet with KAS tokens
+- Zelcore desktop application installed and logged in
 - Kaspa (Igra L2) asset added to your portfolio
 
 ---
 
 ## Step 1: Open Your Portfolio
 
-Start from the **Portfolio Overview** in ZelCore. Your wallet displays all added assets along with their current balances, 24-hour price changes, and 7-day trends.
+Start from the **Portfolio Overview** in Zelcore. Your wallet displays all added assets along with their current balances, 24-hour price changes, and 7-day trends.
 
 ![Portfolio overview showing Kaspa assets and total balance](./images/01-portfolio-overview.webp)
 
@@ -157,7 +157,7 @@ The **From** field now shows iKAS with your available balance, and the **To** fi
 ### Fill in the exit
 
 1. Enter the amount of iKAS to bridge, or select **MAX**. MAX fills in the largest amount the bridge currently allows: your balance minus a small amount kept for the Igra network fee, limited by the per-exit maximum and by the remaining bridge capacity.
-2. Under **Receive KAS at**, enter the Kaspa address that should receive the KAS. Select **Use my Kaspa address** to fill in your own Kaspa address. Only Kaspa mainnet addresses (starting with `kaspa:q` or `kaspa:p`) are accepted, and ZelCore refuses the Igra bridge's own address.
+2. Under **Receive KAS at**, enter the Kaspa address that should receive the KAS. Select **Use my Kaspa address** to fill in your own Kaspa address. Only Kaspa mainnet addresses (starting with `kaspa:q` or `kaspa:p`) are accepted, and Zelcore refuses the Igra bridge's own address.
 3. Review the details that appear under the address:
 
 | Row | Meaning |
@@ -167,7 +167,7 @@ The **From** field now shows iKAS with your available balance, and the **To** fi
 | **Per exit** | The minimum and maximum amount for one exit |
 | **Bridge capacity (all users)** | How many exits and how much iKAS are left in the current window, and when it resets |
 
-Limits and fees are read live from the bridge, so they can change. If the fees change after you reviewed them, ZelCore asks you to check the new amounts and confirm again. If the bridge is paused, or the capacity for the current window is used up, the dialog says so and you can try again later.
+Limits and fees are read live from the bridge, so they can change. If the fees change after you reviewed them, Zelcore asks you to check the new amounts and confirm again. If the bridge is paused, or the capacity for the current window is used up, the dialog says so and you can try again later.
 
 ### Confirm the exit
 
@@ -179,7 +179,7 @@ The exit is not available for hardware wallet accounts.
 
 ### Track your exits
 
-Exits made from your Igra address are listed under **Your exits** in the dialog, and the list is kept after you restart ZelCore. Each entry shows the amount, the receiving address and one of these statuses:
+Exits made from your Igra address are listed under **Your exits** in the dialog, and the list is kept after you restart Zelcore. Each entry shows the amount, the receiving address and one of these statuses:
 
 | Status | Meaning |
 |--------|---------|
@@ -206,22 +206,22 @@ To participate:
 
 1. Click **Open ZAP Auction** to open the auction site in your browser
 2. On the ZAP site, click **Connect Wallet** and choose **WalletConnect**
-3. Scan the QR code or paste the connection URI in ZelCore to connect your Igra wallet
-4. Place your bid — transaction signing requests will appear in ZelCore for approval
+3. Scan the QR code or paste the connection URI in Zelcore to connect your Igra wallet
+4. Place your bid — transaction signing requests will appear in Zelcore for approval
 
 :::info
-ZelCore connects to ZAP via WalletConnect. Every transaction requires your explicit approval inside ZelCore before it is signed and submitted.
+Zelcore connects to ZAP via WalletConnect. Every transaction requires your explicit approval inside Zelcore before it is signed and submitted.
 :::
 
 ---
 
 ## Summary
 
-You've successfully bridged KAS from Kaspa Layer 1 to iKAS on Igra Layer 2 using ZelCore's built-in Igra Bridge. Your KAS is locked on L1 and an equivalent amount of iKAS is minted on Igra L2 at a 1:1 ratio.
+You've successfully bridged KAS from Kaspa Layer 1 to iKAS on Igra Layer 2 using Zelcore's built-in Igra Bridge. Your KAS is locked on L1 and an equivalent amount of iKAS is minted on Igra L2 at a 1:1 ratio.
 
 With iKAS on Igra L2, you can now:
 
 - **Send** and **Receive** iKAS on the Igra network
 - Participate in **ZAP Auctions** for fair token launches
-- Explore the growing Igra L2 ecosystem directly from ZelCore
+- Explore the growing Igra L2 ecosystem directly from Zelcore
 - Bridge iKAS back to KAS at any time (see [Bridging iKAS Back to KAS](#bridging-ikas-back-to-kas))

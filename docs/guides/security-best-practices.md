@@ -1,24 +1,24 @@
 ---
 sidebar_position: 10
 title: Security Best Practices Guide
-description: "Essential security practices for protecting your ZelCore wallet — seed phrase storage, 2FA setup, phishing prevention, and device security."
+description: "Essential security practices for protecting your Zelcore wallet — seed phrase storage, 2FA setup, phishing prevention, and device security."
 keywords: [crypto security best practices, wallet security, seed phrase safety, self custodial security]
 ---
 
-# Security Best Practices for ZelCore Wallet
+# Security Best Practices for Zelcore Wallet
 
 ## Overview
 
-This guide provides essential security practices to protect your ZelCore wallet and cryptocurrency assets. Following these guidelines significantly reduces the risk of unauthorized access, theft, and compromise of your funds.
+This guide provides essential security practices to protect your Zelcore wallet and cryptocurrency assets. Following these guidelines significantly reduces the risk of unauthorized access, theft, and compromise of your funds.
 
-**Important:** Cryptocurrency transactions are irreversible by design. Once funds are sent from your wallet, they cannot be recovered, reversed, or traced back by ZelCore or any centralized authority. Prevention is your only protection.
+**Important:** Cryptocurrency transactions are irreversible by design. Once funds are sent from your wallet, they cannot be recovered, reversed, or traced back by Zelcore or any centralized authority. Prevention is your only protection.
 
 ## Understanding Wallet Security
 
-### How ZelCore Wallets Work
+### How Zelcore Wallets Work
 
 - **Private keys control your funds** - Your seed phrase/private keys are the only way to access and move your cryptocurrency
-- **Keys are stored locally** - ZelCore is a non-custodial wallet, meaning you (and only you) control your private keys
+- **Keys are stored locally** - Zelcore is a non-custodial wallet, meaning you (and only you) control your private keys
 - **No central recovery** - Unlike bank accounts, there is no customer service that can reverse transactions or recover stolen funds
 - **Blockchain finality** - Transactions on the blockchain are permanent and cannot be undone
 
@@ -41,8 +41,8 @@ Based on extensive analysis of wallet compromises, attackers typically gain acce
 
 **Your 12 or 24-word seed phrase is the master key to all your funds.**
 
-- Never share it with anyone, including ZelCore support, family, or friends
-- ZelCore staff will NEVER ask for your seed phrase
+- Never share it with anyone, including Zelcore support, family, or friends
+- Zelcore staff will NEVER ask for your seed phrase
 - No legitimate support personnel from any cryptocurrency service will ever need your seed phrase
 - If someone asks for your seed phrase, it is a scam - no exceptions
 
@@ -90,21 +90,21 @@ Based on extensive analysis of wallet compromises, attackers typically gain acce
 - Use strong, unique passwords for your device
 
 **Mobile Security:**
-- Only download ZelCore from official app stores (Apple App Store, Google Play)
+- Only download Zelcore from official app stores (Apple App Store, Google Play)
 - Keep your phone's OS updated
 - Use device encryption and biometric locks
 - Avoid jailbroken (iOS) or rooted (Android) devices for wallets
 - Don't install apps from unknown sources
 - Use a PIN/password, not just biometrics (biometrics can be compelled)
 
-### Rule 5: Download ZelCore from Official Sources Only
+### Rule 5: Download Zelcore from Official Sources Only
 
 **Fake wallet apps are a common attack vector.**
 
 **Official sources:**
 - Website: https://zelcore.io
-- Apple App Store: Search "ZelCore" (verify publisher)
-- Google Play Store: Search "ZelCore" (verify publisher)
+- Apple App Store: Search "Zelcore" (verify publisher)
+- Google Play Store: Search "Zelcore" (verify publisher)
 - Official GitHub releases (for advanced users)
 
 **Warning signs of fake apps:**
@@ -122,21 +122,21 @@ Based on extensive analysis of wallet compromises, attackers typically gain acce
 - Fake emails claiming your wallet needs "verification" or "security updates"
 - Messages about unauthorized transactions requiring you to "confirm your seed phrase"
 - Fake customer support on social media (Twitter, Telegram, Discord)
-- Websites that look like ZelCore but have slightly different URLs
+- Websites that look like Zelcore but have slightly different URLs
 - Pop-ups or notifications claiming you need to "re-enter your recovery phrase"
 
 **How to protect yourself:**
-- Bookmark the official ZelCore website and always use the bookmark
+- Bookmark the official Zelcore website and always use the bookmark
 - Check URLs carefully (zelcore.io is official, ze1core.io is fake)
 - Never click links in unsolicited emails about your wallet
-- ZelCore will never email you asking for your seed phrase or private keys
+- Zelcore will never email you asking for your seed phrase or private keys
 - Contact support only through official channels (https://zelcore.io/support)
 
 ### Rule 7: Use Strong Passwords and 2FA
 
-**Even though ZelCore is non-custodial, account security still matters.**
+**Even though Zelcore is non-custodial, account security still matters.**
 
-- Use a unique, strong password for your ZelCore account
+- Use a unique, strong password for your Zelcore account
 - Never reuse passwords across services
 - Enable two-factor authentication (2FA) where available
 - Use authenticator apps (Google Authenticator, Authy), not SMS when possible
@@ -179,10 +179,10 @@ If you hold significant cryptocurrency value:
 **Security is an ongoing process:**
 
 - Review your security practices quarterly
-- Update all software regularly (OS, ZelCore, antivirus)
+- Update all software regularly (OS, Zelcore, antivirus)
 - Check for any unauthorized wallet activity weekly
 - Test your backup recovery process annually (with a small test wallet)
-- Stay informed about new threats through official ZelCore channels
+- Stay informed about new threats through official Zelcore channels
 
 ## Red Flags and Warning Signs
 
@@ -276,7 +276,7 @@ See our dedicated guide: [Responding to Wallet Compromise](../../guides/respondi
 
 - Blockchain transactions are designed to be irreversible
 - There is no central authority to reverse transactions
-- ZelCore does not control the blockchain networks
+- Zelcore does not control the blockchain networks
 - Even with transaction IDs, funds cannot be frozen or reversed
 - Law enforcement has limited capability to trace or recover crypto
 - Smart contracts and DeFi protocols cannot reverse confirmed transactions
@@ -287,7 +287,7 @@ This is by design - it's what makes cryptocurrency trustless and censorship-resi
 
 **Keep up with security threats:**
 
-- Follow official ZelCore channels (Twitter, Discord, website)
+- Follow official Zelcore channels (Twitter, Discord, website)
 - Read security advisories when published
 - Join cryptocurrency security communities
 - Stay informed about new attack vectors
@@ -298,7 +298,7 @@ This is by design - it's what makes cryptocurrency trustless and censorship-resi
 - [Responding to Wallet Compromise](../../guides/responding-to-wallet-compromise/) - Immediate actions if your wallet is compromised
 - [Security FAQ](../../faq/security-faq/) - Common security questions and answers
 - [Wallet FAQ](../../faq/wallet-faq/) - General wallet questions
-- [Getting Started with ZelCore](../../getting-started/installation/) - Initial setup and installation
+- [Getting Started with Zelcore](../../getting-started/installation/) - Initial setup and installation
 
 ## Final Reminder
 

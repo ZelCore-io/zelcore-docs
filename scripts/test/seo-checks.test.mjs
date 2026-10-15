@@ -148,3 +148,8 @@ test('brand: flags ZelCore in the title and in JSON-LD name and headline', () =>
   const ok = ld({ '@type': 'Article', name: 'About Zelcore', headline: 'Zelcore', url: 'https://github.com/ZelCore-io/x' });
   assert.deepEqual(pageProblems(html({ head: ok }), 'a/index.html'), []);
 });
+
+test('brand: literal paths inside <code> and <pre> are exempt', () => {
+  const page = (body) => `<html><head><title>T | Zelcore Docs</title></head><body>${body}</body></html>`;
+  assert.deepEqual(pageProblems(page('<p>Delete <code>~/Library/Caches/ZelCore</code></p><pre><code>rm -rf /Applications/ZelCore.app</code></pre>'), 'a/index.html'), []);
+});

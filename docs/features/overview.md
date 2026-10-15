@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-title: ZelCore Features Overview
-description: "Explore ZelCore features including multi-chain support, built-in swaps, staking, decentralized 2FA, and self-custodial security."
+title: Zelcore Features Overview
+description: "Explore Zelcore features including multi-chain support, built-in swaps, staking, decentralized 2FA, and self-custodial security."
 keywords: [zelcore features, multi crypto wallet, crypto software wallet, wallet features]
 ---
 
@@ -163,7 +163,7 @@ Export your transaction history for tax tools or your accountant:
 
 ### Kaspa
 
-Use Kaspa and its ecosystem from ZelCore:
+Use Kaspa and its ecosystem from Zelcore:
 
 - Send KAS or KRC-20 tokens to a KNS name such as `alice.kas`
 - Find your KRC-20 tokens, and consolidate UTXOs when an address holds many small ones

@@ -1,20 +1,20 @@
 ---
 sidebar_position: 23
 title: "bStocks: Tokenized US Stocks in Zelcore"
-description: "What bStocks are, how tokenized US stocks work in ZelCore on BNB Smart Chain, which countries are restricted, fees, risks, and where to learn more."
+description: "What bStocks are, how tokenized US stocks work in Zelcore on BNB Smart Chain, which countries are restricted, fees, risks, and where to learn more."
 keywords: [bstocks, tokenized stocks, tokenized us equities, binance bstocks, bnb smart chain stocks, zelcore stocks, buy stocks with crypto, tokenized securities]
 ---
 
-# bStocks in ZelCore: Tokenized US Stocks Guide
+# bStocks in Zelcore: Tokenized US Stocks Guide
 
-bStocks are tokenized US equities that trade as BEP-20 tokens on BNB Smart Chain (BSC). ZelCore lists them alongside your other assets, so you can hold Microsoft, Nvidia, Apple, Tesla and dozens of other names in the same self-custodial wallet as your crypto, buy them with USDT or BNB through the built-in swap, and track them with live prices and charts.
+bStocks are tokenized US equities that trade as BEP-20 tokens on BNB Smart Chain (BSC). Zelcore lists them alongside your other assets, so you can hold Microsoft, Nvidia, Apple, Tesla and dozens of other names in the same self-custodial wallet as your crypto, buy them with USDT or BNB through the built-in swap, and track them with live prices and charts.
 
-This guide explains what a bStock actually is, how ZelCore integrates it, which regions are excluded and how ZelCore enforces that, and what to watch out for before you buy.
+This guide explains what a bStock actually is, how Zelcore integrates it, which regions are excluded and how Zelcore enforces that, and what to watch out for before you buy.
 
 For click-by-click instructions see the walkthroughs:
 
-- [Buy and manage bStocks on ZelCore Desktop](/docs/walkthroughs/bstocks-desktop)
-- [Buy and manage bStocks on ZelCore Mobile](/docs/walkthroughs/bstocks-mobile)
+- [Buy and manage bStocks on Zelcore Desktop](/docs/walkthroughs/bstocks-desktop)
+- [Buy and manage bStocks on Zelcore Mobile](/docs/walkthroughs/bstocks-mobile)
 
 ---
 
@@ -45,9 +45,9 @@ bStocks use a **share multiplier** (BNB Chain standard BEP-677) instead of minti
 - **Dividends** are not paid out. The net dividend, after a flat 30% US withholding tax, is reinvested into the underlying stock and reflected by increasing the multiplier. Your token count stays the same, but each token now represents slightly more than one share.
 - **Stock splits** adjust the multiplier in the same way.
 
-ZelCore reads the multiplier from the token contract and shows the adjusted balance. On the coin page, hover or tap the **Tokenized US equity** chip to see the current ratio, for example `1 token = 1.002349 shares`. When the ratio is exactly 1 the line is hidden.
+Zelcore reads the multiplier from the token contract and shows the adjusted balance. On the coin page, hover or tap the **Tokenized US equity** chip to see the current ratio, for example `1 token = 1.002349 shares`. When the ratio is exactly 1 the line is hidden.
 
-During dividend processing Binance pauses deposits, withdrawals and conversions of the affected stock; during a split all services for that stock pause. Prices in ZelCore keep showing the last known value until trading resumes.
+During dividend processing Binance pauses deposits, withdrawals and conversions of the affected stock; during a split all services for that stock pause. Prices in Zelcore keep showing the last known value until trading resumes.
 
 ### Prices outside US market hours
 
@@ -55,7 +55,7 @@ bStocks trade around the clock, but the underlying shares only trade during US m
 
 ---
 
-## How bStocks work inside ZelCore
+## How bStocks work inside Zelcore
 
 ### Where they live
 
@@ -65,15 +65,15 @@ bStocks are BSC tokens, so they use the same BSC address as your BNB and USDT (B
 
 There are three ways in:
 
-1. **The intro banner.** The first time you log in on a device where bStocks are available, ZelCore shows a one-time "US stocks, now in your wallet" banner. **Browse bStocks** opens the Add bStocks dialog.
+1. **The intro banner.** The first time you log in on a device where bStocks are available, Zelcore shows a one-time "US stocks, now in your wallet" banner. **Browse bStocks** opens the Add bStocks dialog.
 2. **Manage Assets → Add bStocks.** A dedicated dialog with a search box, live price and 24h change for every listed stock, and an **Add** button per row.
 3. **Manage Assets → Add Assets.** The regular asset dialog has a **Tokenized Stocks (bStocks)** section.
 
-The list is served by ZelCore's API from Binance's current bStocks catalogue, so new listings appear without an app update. At the time of writing there are around 65 stocks and ETFs; the exact set changes as Binance lists more.
+The list is served by Zelcore's API from Binance's current bStocks catalogue, so new listings appear without an app update. At the time of writing there are around 65 stocks and ETFs; the exact set changes as Binance lists more.
 
 ### Buying and selling
 
-You buy a bStock by swapping into it, and sell by swapping out, using ZelCore's built-in **Swap Tokens** screen. The dedicated provider is **Binance Web3**, which routes the trade through Binance's on-chain liquidity. Other DEX aggregators (for example Rango) may also quote the pair, and ZelCore marks the best rate.
+You buy a bStock by swapping into it, and sell by swapping out, using Zelcore's built-in **Swap Tokens** screen. The dedicated provider is **Binance Web3**, which routes the trade through Binance's on-chain liquidity. Other DEX aggregators (for example Rango) may also quote the pair, and Zelcore marks the best rate.
 
 | | |
 |---|---|
@@ -83,15 +83,15 @@ You buy a bStock by swapping into it, and sell by swapping out, using ZelCore's 
 | Fee | BSC gas in BNB, shown before you confirm. Binance Web3 currently charges no service fee on stablecoin-to-bStock swaps; DEX pools charge their own liquidity fee |
 | Cross-chain | Not supported directly. Swap ETH, SOL or other chains into USDT on BSC first, then into the bStock |
 
-Every swap is a normal on-chain transaction signed by your wallet. ZelCore never holds your funds and there is no Binance account or KYC step inside the app.
+Every swap is a normal on-chain transaction signed by your wallet. Zelcore never holds your funds and there is no Binance account or KYC step inside the app.
 
 ### Charts and price data
 
-Spot prices, 24h change and history charts come from Binance Spot via ZelCore's rates service. The 24h, 7d, 1m, 3m, 1y and all-time ranges work exactly as they do for any other coin.
+Spot prices, 24h change and history charts come from Binance Spot via Zelcore's rates service. The 24h, 7d, 1m, 3m, 1y and all-time ranges work exactly as they do for any other coin.
 
 ### Sending and receiving
 
-bStocks can be sent to any BSC address and received on your ZelCore BSC address like any BEP-20 token. Keep a little BNB for gas.
+bStocks can be sent to any BSC address and received on your Zelcore BSC address like any BEP-20 token. Keep a little BNB for gas.
 
 :::warning Only send to wallets you control or that support bStocks
 Tokens sent to an exchange deposit address that does not support bStocks are usually lost. Check with the receiving platform first.
@@ -99,20 +99,20 @@ Tokens sent to an exchange deposit address that does not support bStocks are usu
 
 ---
 
-## Country restrictions and how ZelCore handles them
+## Country restrictions and how Zelcore handles them
 
 ### Who can hold bStocks
 
-bStocks are offered only under the ADGM prospectus, to eligible users in permitted jurisdictions. The issuer's terms explicitly exclude **US persons and anyone located in the United States**, and Binance publishes a wider restricted-country list that also covers a number of other jurisdictions. That list changes over time, so ZelCore does not hardcode it.
+bStocks are offered only under the ADGM prospectus, to eligible users in permitted jurisdictions. The issuer's terms explicitly exclude **US persons and anyone located in the United States**, and Binance publishes a wider restricted-country list that also covers a number of other jurisdictions. That list changes over time, so Zelcore does not hardcode it.
 
 Enforcement has two layers on Binance's side:
 
 - **Eligibility checks** on minting, redemption and conversion, which only happen on Binance itself.
 - **On-chain restrictions.** The token contracts can blacklist addresses. Binance states that accessing bStocks from a restricted jurisdiction, for example through a VPN, can lead to your address being blacklisted, after which you may no longer be able to transfer, trade or redeem those tokens.
 
-### What ZelCore does
+### What Zelcore does
 
-ZelCore checks availability every time you open the app, based on the country of your internet connection, using the same restricted-country data Binance publishes. The check is done by ZelCore's servers, not by your device, and it is deliberately fail-closed: if the country cannot be determined, bStocks are treated as unavailable.
+Zelcore checks availability every time you open the app, based on the country of your internet connection, using the same restricted-country data Binance publishes. The check is done by Zelcore's servers, not by your device, and it is deliberately fail-closed: if the country cannot be determined, bStocks are treated as unavailable.
 
 When your region is **allowed**, everything in this guide is visible.
 
@@ -125,15 +125,15 @@ When your region is **restricted**:
 | Swap Tokens | bStocks are removed from both sides of the pair picker and the **Swap** action is disabled on bStock coin cards. Binance Web3 also refuses the trade server-side, so it cannot be bypassed |
 | bStocks you already hold | Still visible, with the **Tokenized US equity** chip, price and chart. You can still **Send** and **Receive** them, since those are ordinary BSC transactions that do not involve Binance. You can also remove them from your portfolio through Manage Assets → Hide |
 
-ZelCore does not show a separate "not available in your region" message. If you expected to see bStocks and cannot find them, region restriction is the most likely reason.
+Zelcore does not show a separate "not available in your region" message. If you expected to see bStocks and cannot find them, region restriction is the most likely reason.
 
 :::warning Do not use a VPN to get around the restriction
-ZelCore's check is based on your connection. Circumventing it violates the issuer's terms and, more importantly, exposes your BSC address to blacklisting by the token contracts. Tokens in a blacklisted address can become permanently untradeable.
+Zelcore's check is based on your connection. Circumventing it violates the issuer's terms and, more importantly, exposes your BSC address to blacklisting by the token contracts. Tokens in a blacklisted address can become permanently untradeable.
 :::
 
 ### Travelling
 
-If you buy bStocks in an allowed country and then open ZelCore in a restricted one, the swap actions disappear but your holdings do not. They return to normal when you are back in an allowed region.
+If you buy bStocks in an allowed country and then open Zelcore in a restricted one, the swap actions disappear but your holdings do not. They return to normal when you are back in an allowed region.
 
 ---
 
@@ -145,14 +145,14 @@ If you buy bStocks in an allowed country and then open ZelCore in a restricted o
 - **Transfer restrictions.** The issuer can freeze or blacklist addresses under its terms.
 - **Tax.** Dividend reinvestment after US withholding may still be a taxable event where you live. bStocks may be treated as securities or derivatives depending on your jurisdiction.
 - **Regulatory change.** Tokenized securities are an active area of regulation in the US, EU and elsewhere. Availability can change at short notice.
-- **Self-custody.** As with everything in ZelCore, losing your seed phrase means losing the tokens. There is no issuer recovery.
+- **Self-custody.** As with everything in Zelcore, losing your seed phrase means losing the tokens. There is no issuer recovery.
 
 ---
 
 ## Frequently asked questions
 
 **Do I need a Binance account?**
-No. Buying, holding, sending and selling bStocks in ZelCore is entirely on-chain and self-custodial. A Binance account is only needed if you want to redeem a bStock for the real share, which is done on Binance, not in ZelCore.
+No. Buying, holding, sending and selling bStocks in Zelcore is entirely on-chain and self-custodial. A Binance account is only needed if you want to redeem a bStock for the real share, which is done on Binance, not in Zelcore.
 
 **Why does my bStock balance show more shares than tokens?**
 Reinvested dividends raise the share multiplier. The chip on the coin page shows the current ratio.
@@ -164,10 +164,10 @@ Supply figures are not published per bStock the way they are for crypto assets, 
 Quotes for stock-to-stock pairs depend on the router finding a path. If no provider quotes the pair, sell into USDT first and then buy the second stock.
 
 **Why do I see two providers for the same swap?**
-Binance Web3 is the dedicated bStocks route. Other DEX aggregators may also find the pair through public liquidity pools. ZelCore shows all quotes and tags the best one.
+Binance Web3 is the dedicated bStocks route. Other DEX aggregators may also find the pair through public liquidity pools. Zelcore shows all quotes and tags the best one.
 
 **I'm in an allowed country but bStocks are missing.**
-Make sure you are on ZelCore 8.36 or later, that you are not using a VPN or proxy that exits in a restricted country, and restart the app so the availability check runs again.
+Make sure you are on Zelcore 8.36 or later, that you are not using a VPN or proxy that exits in a restricted country, and restart the app so the availability check runs again.
 
 ---
 
@@ -190,12 +190,12 @@ Technical background:
 - [BEP-677: Scaled UI amounts (the share multiplier standard)](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP-677.md)
 - [Binance Web3 Wallet developer docs](https://web3.binance.com/en/dev-docs)
 
-Related ZelCore guides:
+Related Zelcore guides:
 
 - [Managing ERC-20 and BEP-20 tokens](/docs/guides/managing-erc20-tokens)
 - [Troubleshooting Fusion swap issues](/docs/guides/troubleshooting-fusion-swap-issues)
 - [Security best practices](/docs/guides/security-best-practices)
 
 :::info Disclaimer
-This guide is for information only and is not investment, legal or tax advice. bStocks are issued by BTech Holdings Ltd, not by ZelCore. Availability, fees and terms are set by the issuer and can change. Always check the official documentation linked above.
+This guide is for information only and is not investment, legal or tax advice. bStocks are issued by BTech Holdings Ltd, not by Zelcore. Availability, fees and terms are set by the issuer and can change. Always check the official documentation linked above.
 :::

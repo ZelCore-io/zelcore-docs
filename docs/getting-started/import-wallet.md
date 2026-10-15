@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Import an Existing Wallet
-description: "Import your existing cryptocurrency wallet into ZelCore using a seed phrase, private key, or legacy account migration."
+description: "Import your existing cryptocurrency wallet into Zelcore using a seed phrase, private key, or legacy account migration."
 keywords: [import wallet, restore crypto wallet, seed phrase recovery, migrate wallet]
 ---
 
@@ -102,10 +102,10 @@ Integrate your Ledger or Trezor hardware wallet for enhanced security.
 Hardware wallet transactions require physical confirmation on the device, providing an additional security layer.
 :::
 
-### Changes in ZelCore 8.39.0
+### Changes in Zelcore 8.39.0
 
 - **Hardware Wallet** appears in the import menu without the **Experimental** label.
-- **Trezor** still needs experimental features turned on in ZelCore before you can use it.
+- **Trezor** still needs experimental features turned on in Zelcore before you can use it.
 - **Kaspa** can now be imported from a Ledger device. You can send KAS from it. KRC-20 tokens on Ledger are not supported yet.
 - Actions a hardware wallet cannot sign, such as Swap, Sell, Earn, WalletConnect and Sign Message, are hidden or refused with a clear message. Before this version they could fail part-way or create an exchange order first. If you see such a message, choose a wallet that uses a software key for that action.
 
