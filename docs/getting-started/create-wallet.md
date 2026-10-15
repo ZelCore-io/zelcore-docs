@@ -11,15 +11,15 @@ keywords: [create crypto wallet, zelcore setup, seed phrase wallet, new wallet s
 Written for Zelcore 8.39.0 (October 2026).
 :::
 
-Learn how to create your first Zelcore wallet and secure your crypto assets.
+This page is the complete text procedure for creating a seed phrase wallet in Zelcore. For the same steps with screenshots, see the [Zelcore Wallet Setup Guide](/docs/walkthroughs/zelcore-setup-guide). For background on seed phrases, see [Seed phrases explained](https://zelcore.io/academy/basics/seed-phrases-explained) on zelcore.io.
 
 ## Before You Start
 
-Creating a new wallet will generate a unique **seed phrase** (recovery phrase) that serves as the master key to your wallet. This phrase is crucial for:
+Creating a wallet generates a **seed phrase** (recovery phrase). It is the master key to your wallet. You need it to:
 
-- Recovering your wallet if you lose access to your device
-- Importing your wallet on another device
-- Restoring your assets
+- Recover your wallet if you lose access to your device
+- Import your wallet on another device
+- Restore your assets
 
 :::danger Important Security Notice
 **Never share your seed phrase with anyone!** Zelcore will never ask for your seed phrase. Anyone with access to your seed phrase has full control of your funds.
@@ -29,56 +29,59 @@ Creating a new wallet will generate a unique **seed phrase** (recovery phrase) t
 
 ### 1. Launch Zelcore
 
-Open the Zelcore application on your device (desktop, mobile, or browser extension).
+Open the Zelcore application on your device (desktop, mobile, or browser extension). If you still need to install it, see [Installation](/docs/getting-started/installation).
 
-### 2. Select "Create New Wallet"
+### 2. Start Registration
 
-On the welcome screen, choose the **"Create New Wallet"** option.
+On the welcome screen, click **Get Started** to open the Register screen.
 
-### 3. Choose Authentication Method
+### 3. Choose the Seed Phrase Length
 
-Select your preferred security method:
+Select **12 Words**, **18 Words** or **24 Words**. 24 words is selected by default. Then click **Generate Seed Phrase**.
 
-- **Biometric** (if available): Use Face ID, Touch ID, or fingerprint
-- **PIN Code**: Set a numeric PIN for quick access
-- **Password**: Create a strong alphanumeric password
-
-:::tip Recommendation
-For mobile devices, biometric authentication provides the best balance of security and convenience.
-:::
+To restore a wallet you already have, click **Import Seed Phrase** instead and follow [Import an Existing Wallet](/docs/getting-started/import-wallet).
 
 ### 4. Write Down Your Seed Phrase
 
-Zelcore will generate a 12-word seed phrase.
+Zelcore shows the words numbered in order.
 
-**Important steps:**
-1. Write down all 12 words **in the exact order** on paper
-2. Store the paper in a secure location (safe, vault, etc.)
-3. Consider making multiple copies stored in different secure locations
+1. Write down every word **in the exact order** on paper
+2. Store the paper in a secure, offline location (safe, vault, etc.)
+3. Consider making more than one copy, stored in different secure locations
 4. **Never** store your seed phrase digitally (screenshots, cloud storage, etc.)
 
+Tick **I have saved my seed phrase in a secure location.** and click **Next**.
+
 :::warning
-If you lose your seed phrase, you will permanently lose access to your wallet if your device is lost or damaged. There is no way to recover it.
+If you lose your seed phrase and your device is lost or damaged, you permanently lose access to your wallet. There is no way to recover it.
 :::
 
 ### 5. Verify Your Seed Phrase
 
-To ensure you've written it down correctly, Zelcore will ask you to verify by selecting words in the correct order.
+Zelcore asks you to import the seed phrase again to check that you wrote it down correctly. Enter the words in order and click **Verify**. You will see **Seed phrase verified successfully.**
 
-### 6. Set Up Decentralized 2FA (Optional but Recommended)
+### 6. Name the Wallet and Set an Easy Login Passphrase
 
-Zelcore offers **d2FA** (decentralized two-factor authentication) for additional security:
+Enter a **Seed Label** (a name for this seed phrase; Zelcore fills in a default) and an **Easy Login Passphrase** of at least 8 characters, then confirm the passphrase. Use a passphrase you don't use anywhere else.
 
-1. Enable d2FA in settings
-2. Follow the prompts to set it up
-3. Authentication keys are distributed across decentralized nodes
+Click **Register**. You can now log in with your Easy Login passphrase.
 
-### 7. Wallet Created Successfully!
+### 7. First Login
 
-Your wallet is now ready to use. You can:
-- Receive crypto by sharing your wallet addresses
-- Add assets to track in your portfolio
-- Connect hardware wallets for added security
+On the first login on a device, Zelcore runs **Smartify**, which checks your wallets for existing balances. This is useful when you restore an existing wallet on a new device.
+
+### 8. Set Up d2FA (Optional but Recommended)
+
+d2FA (decentralized two-factor authentication) protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. To set it up:
+
+1. Keep a small amount of FLUX (about 0.0002) in your first Flux address for the activation transaction
+2. Open **Apps** → **Flux ID** → **Next** → **Flux ID d2FA**, then click **Create d2FA**
+3. Enter and verify your PIN, choose whether it is used for logging in, for secure tasks (sending, viewing private keys, Flux ID operations), or both, and confirm you have backed up the PIN
+4. Enter your password; the PIN is active after the transaction is confirmed and you log in again
+
+:::warning
+Write the d2FA PIN down when you create it and keep it apart from your seed phrase. The app warns that if you lose the PIN you won't be able to use or access your account.
+:::
 
 ## Best Practices for Wallet Security
 
@@ -91,26 +94,21 @@ Your wallet is now ready to use. You can:
 - ❌ Never take screenshots
 
 ### Device Security
-- Enable biometric authentication if available
-- Use a strong, unique password
+- Use a strong, unique Easy Login passphrase
 - Keep your device's operating system updated
 - Enable device encryption
 - Use trusted networks (avoid public WiFi for transactions)
 
-### Enable Additional Security Features
-- Set up d2FA for transaction verification
-- Use address whitelisting for frequent recipients
-- Enable transaction confirmations
+### Additional Security
+- Set up d2FA for transactions and other secure tasks
 - Consider connecting a hardware wallet (Ledger or Trezor, used with Zelcore desktop)
 
-## Next Steps
-
-Now that you've created your wallet, you can start using Zelcore to manage your crypto assets securely.
+For more, see [Security Best Practices](/docs/security/best-practices).
 
 ## Troubleshooting
 
 ### I didn't write down my seed phrase
-Go to **Settings** → **Security** → **Show Seed Phrase** (requires authentication). Write it down immediately.
+Open your account page and choose **Show Seed Phrase** (Zelcore asks you to authenticate first). Write it down immediately.
 
 ### I want to create multiple wallets
 Zelcore supports multiple wallets. Use **Add Wallet** in the app to create another one.

@@ -12,7 +12,7 @@ image: ./images/zelcore-setup/01-welcome-screen.webp
 The steps apply to Zelcore 8.39.0 (October 2026). The screenshots on this page come from an earlier version (8.24.1), so some screens may look slightly different.
 :::
 
-This guide walks you through setting up a new Zelcore wallet account, from initial registration to accessing your portfolio.
+This guide walks you through setting up a new Zelcore wallet account with screenshots, from registration to your portfolio. For the same steps as a text-only checklist, including d2FA setup, see [Create a New Wallet](/docs/getting-started/create-wallet).
 
 ## Overview
 
