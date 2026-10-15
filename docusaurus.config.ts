@@ -260,6 +260,10 @@ const config: Config = {
               href: 'https://docs.zelcore.io',
             },
             {
+              label: 'About these docs',
+              to: '/docs/about',
+            },
+            {
               label: 'Glossary',
               href: 'https://zelcore.io/learn/glossary',
             },

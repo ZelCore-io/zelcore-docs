@@ -7,6 +7,10 @@ keywords: [flux node offline, node status issues, flux node troubleshooting]
 
 # Troubleshooting Flux Node Status Issues
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore 8.39.0 (October 2026).
+:::
+
 ## Overview
 
 This comprehensive guide addresses the most common Flux Node operational issues, including DOS (Denial of Service), EXPIRED, and "Flux not confirmed" states. Despite nodes sometimes passing benchmarks, these status problems can prevent your node from participating in the Flux network and earning rewards.

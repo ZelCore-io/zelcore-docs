@@ -8,6 +8,10 @@ image: ./images/03-earn-solana-dashboard.webp
 
 # How to Stake Solana (SOL) with Zelcore Earn
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore 8.39.0 (October 2026).
+:::
+
 This guide walks you through staking Solana (SOL) using Zelcore's Earn feature. You'll learn how to navigate to Earn, select Solana as the staking chain, enter a stake amount, and confirm your stake through the Chorus One staking provider.
 
 ---

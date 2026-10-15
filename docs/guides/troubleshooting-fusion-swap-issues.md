@@ -7,6 +7,10 @@ keywords: [fusion swap stuck, zelcore swap failed, crypto exchange troubleshooti
 
 # Troubleshooting Fusion Swap Issues
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore 8.39.0 (October 2026).
+:::
+
 ## Overview
 
 If your Fusion swap order is showing as "Hold", "Awaiting blockchain confirmation", stuck in processing, or you've sent funds but haven't received them on the destination chain, this guide will help you understand and resolve the issue.

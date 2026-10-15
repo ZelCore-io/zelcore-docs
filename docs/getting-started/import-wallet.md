@@ -7,6 +7,10 @@ keywords: [import wallet, restore crypto wallet, seed phrase recovery, migrate w
 
 # Import Existing Wallet
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore 8.39.0 (October 2026).
+:::
+
 Already have a Zelcore wallet or want to import from another wallet? Learn how to restore or import your existing crypto wallet.
 
 ## Import Methods

@@ -7,6 +7,10 @@ keywords: [create crypto wallet, zelcore setup, seed phrase wallet, new wallet s
 
 # Create a New Wallet
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore 8.39.0 (October 2026).
+:::
+
 Learn how to create your first Zelcore wallet and secure your crypto assets.
 
 ## Before You Start

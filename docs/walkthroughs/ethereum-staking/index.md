@@ -8,6 +8,10 @@ image: ./images/03-earn-dashboard.webp
 
 # Stake Ethereum with Zelcore
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore 8.39.0 (October 2026).
+:::
+
 This guide walks you through staking Ethereum using the **Earn** function in Zelcore. Staking is done through the **Chorus One Max Vault**, a pooled staking solution where Chorus One distributes rewards to participants.
 
 ---

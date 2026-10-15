@@ -7,6 +7,10 @@ keywords: [zelcore install problem, crypto wallet installation, zelcore update]
 
 # Troubleshooting Zelcore App Installation and Updates
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore 8.39.0 (October 2026).
+:::
+
 ## Overview
 
 This guide addresses common problems users encounter when installing, updating, or auto-updating Zelcore wallet applications across different platforms (Windows, macOS, Linux, iOS, Android). Whether you're experiencing installation failures, update errors, or auto-update issues, this guide provides systematic solutions for each platform.

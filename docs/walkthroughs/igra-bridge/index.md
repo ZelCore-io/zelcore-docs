@@ -8,6 +8,10 @@ image: ./images/03-igra-bridge-modal.webp
 
 # How to Bridge KAS to Igra L2 Using the Igra Bridge
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore 8.39.0 (October 2026).
+:::
+
 This guide walks you through bridging your Kaspa (KAS) tokens to Igra L2 (iKAS) using Zelcore's built-in Igra Bridge. The bridge locks your KAS on L1 and mints iKAS on Igra L2 at a 1:1 ratio. You'll also get a brief look at the ZAP Auction feature available on Igra L2.
 
 ---

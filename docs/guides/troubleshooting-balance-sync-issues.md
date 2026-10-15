@@ -7,6 +7,10 @@ keywords: [zelcore balance not showing, wallet sync issues, crypto balance fix, 
 
 # Troubleshooting Balance and Sync Issues
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore 8.39.0 (October 2026).
+:::
+
 ## Overview
 
 If your assets are showing on blockchain explorers but not displaying correctly in Zelcore, this guide will help you resolve the issue. Balance display problems can occur due to backend node synchronization issues, outdated app versions, or local client sync problems.

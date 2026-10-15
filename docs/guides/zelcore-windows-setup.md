@@ -7,6 +7,10 @@ keywords: [windows wallet, zelcore windows, crypto wallet desktop, zelcore downl
 
 # Zelcore for Windows — Complete Desktop Wallet Setup Guide
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore desktop 8.39.0 (October 2026).
+:::
+
 If you are looking for a reliable **windows wallet** for managing cryptocurrency on your PC, Zelcore provides a full-featured **crypto wallet desktop** application that runs natively on Windows 10 and Windows 11. This guide walks you through every step of the process — from downloading the installer to creating your wallet, importing an existing one, and configuring Windows-specific settings for the best experience.
 
 ## System Requirements

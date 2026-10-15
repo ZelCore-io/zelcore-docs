@@ -8,6 +8,10 @@ image: ./images/01-earn-dashboard.webp
 
 # How to Stake FLUX with Zelcore Earn
 
+:::info Applies to Zelcore 8.39
+Screens and menu names match Zelcore 8.39.0 (October 2026).
+:::
+
 This guide walks you through staking FLUX using Zelcore's Earn feature. You'll learn how to navigate to Earn, select a wallet and chain, choose a lockup tier, and confirm your stake.
 
 ---
