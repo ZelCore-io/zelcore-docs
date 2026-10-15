@@ -17,7 +17,7 @@ Zelcore is a non-custodial, multi-asset wallet that empowers you to:
 
 - **Store** your crypto assets securely with self-custody
 - **Send and receive** crypto on every supported chain ([how to send and receive](/docs/guides/send-and-receive))
-- **Exchange Features** - Trade across 1,200+ currency pairs with built-in swaps ([fees and limits](/docs/guides/swaps-fees-and-limits))
+- **Exchange Features** - Swap between 800+ cryptocurrencies and tokens (October 2026) with built-in swaps ([fees and limits](/docs/guides/swaps-fees-and-limits))
 - **Advanced Features** - Manage your portfolio across multiple blockchains
 - **Connect** to DeFi applications via [WalletConnect](/docs/guides/walletconnect)
 - **Track** your NFTs on Ethereum, Solana, and Polygon in the [NFT gallery](/docs/guides/nft-gallery)
@@ -45,7 +45,7 @@ Access your wallet seamlessly across:
 ### Extensive Blockchain Support
 - 80+ blockchains (as of October 2026) including Bitcoin, Ethereum, Solana, and more
 - 100,000+ [supported assets](https://zelcore.io/ecosystem/assets) across all major networks (as of October 2026)
-- 100M+ NFTs across major networks
+- An NFT gallery for your NFTs on Ethereum, Polygon and Solana
 
 ## Trusted by 500K+ Users
 
