@@ -64,6 +64,8 @@ If you think your address received XMR before the point the backend started scan
 
 A rescan can take a couple of hours. On some backends a rescan must first be approved by the Zelcore team and can take up to a week; the dialog says so when this applies. For help with a rescan, contact [Zelcore support](https://support.zelcore.io).
 
+**Privacy note:** a rescan sends your Monero address and your secret view key to the backend server, so that the server can scan the blockchain for your transactions. This applies on every backend, including those where the Zelcore team approves the rescan. The secret view key shows your incoming transactions; it can't spend your XMR.
+
 <!-- screenshot: monero-3 Rescan dialog with Scanning Start height -->
 
 ## Monero error messages
