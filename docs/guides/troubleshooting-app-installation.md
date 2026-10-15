@@ -1000,7 +1000,7 @@ Contact Zelcore support if:
 
 - [Zelcore Installation Guide](../../getting-started/installation/) (if available)
 - [Troubleshooting Balance and Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
-- [Security Best Practices](../../guides/security-best-practices/)
+- [Security Best Practices](../../security/best-practices/)
 - [Wallet Backup and Recovery](../../getting-started/create-wallet/) (if available)
 
 ## Conclusion

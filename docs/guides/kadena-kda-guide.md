@@ -663,7 +663,7 @@ Yes. KDA has the same value regardless of which chain it's on. The chain is just
 ## Related Documentation
 
 - [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/)
-- [Wallet Security Best Practices](../../guides/security-best-practices/)
+- [Wallet Security Best Practices](../../security/best-practices/)
 - [Understanding Blockchain Explorers](#) (if available)
 
 ---

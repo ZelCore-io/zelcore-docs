@@ -86,7 +86,7 @@ Owning your keys means owning your security. Follow these practices to protect y
 
 ### Protect Your Seed Phrase
 
-Your seed phrase is the single most important piece of information in your crypto security. Anyone who obtains it gains full control of every asset in your wallet. Refer to the [security best practices guide](/docs/guides/security-best-practices/) for detailed instructions on seed phrase storage and protection.
+Your seed phrase is the single most important piece of information in your crypto security. Anyone who obtains it gains full control of every asset in your wallet. Refer to the [security best practices guide](/docs/security/best-practices/) for detailed instructions on seed phrase storage and protection.
 
 ### Use Strong, Unique Passwords
 

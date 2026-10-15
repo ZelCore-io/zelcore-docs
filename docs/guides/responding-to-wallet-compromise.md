@@ -378,7 +378,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
    - Only then send funds to the new wallet
 
 5. **Implement security best practices:**
-   - See [Security Best Practices Guide](../../guides/security-best-practices/)
+   - See [Security Best Practices Guide](../../security/best-practices/)
    - Use strong, unique passwords
    - Enable all available security features
    - Keep software updated
@@ -432,7 +432,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
 - Local cryptocurrency meetups (be cautious about discussing losses)
 
 **Educational resources:**
-- [Security Best Practices](../../guides/security-best-practices/)
+- [Security Best Practices](../../security/best-practices/)
 - [Security FAQ](../../faq/security-faq/)
 - Cryptocurrency security courses
 - Blockchain security blogs and newsletters
@@ -467,7 +467,7 @@ This guide provides immediate action steps if you suspect or confirm that your Z
 
 ## Related Documentation
 
-- [Security Best Practices](../../guides/security-best-practices/) - Comprehensive security guide
+- [Security Best Practices](../../security/best-practices/) - Comprehensive security guide
 - [Security FAQ](../../faq/security-faq/) - Common security questions
 - [Wallet FAQ](../../faq/wallet-faq/) - General wallet information
 - [Troubleshooting Balance & Sync Issues](../../guides/troubleshooting-balance-sync-issues/) - Display vs. actual theft
