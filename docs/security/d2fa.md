@@ -140,4 +140,5 @@ Try again. If it keeps happening, contact [Zelcore support](https://support.zelc
 - [Swap Crypto in Zelcore: Fees and Limits](../guides/swaps-fees-and-limits.md)
 - [Connect Zelcore to dApps with WalletConnect](../guides/walletconnect.md)
 - [Zelcore Browser Extension](../guides/browser-extension.md)
+- [Security Best Practices](./best-practices.md)
 - [Zelcore support](https://support.zelcore.io)

@@ -92,14 +92,7 @@ Also set a PIN/password on the device itself, not just biometrics (biometrics ca
 
 ### Decentralized 2FA (d2FA)
 
-d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. To enable it:
-
-1. Make sure your first Flux address holds a small amount of confirmed FLUX (about 0.0002) for the activation transaction
-2. Open **Apps** → **Flux ID** → **Next** → **Flux ID d2FA**, then click **Create d2FA**
-3. Enter your PIN in **New PIN** and **Verify PIN**
-4. Choose where the PIN is used: **Used for logging into Zelcore**, **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**, or both
-5. Tick the box confirming you have backed up your PIN, then enter your password
-6. The PIN is set after the transaction is confirmed on the blockchain and you log in again
+d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. You set it up in **Apps** → **Flux ID** → **Next** → **Flux ID d2FA**, not in Settings, and the first Flux address in your account needs a small amount of confirmed FLUX (about 0.0002 as of October 2026) for the setup transaction. For the steps, the options and the error messages, see [Set Up d2FA in Zelcore](/docs/security/d2fa).
 
 When the secure-tasks option is on, Zelcore asks for the PIN before actions such as sending, swapping, Fusion deposits, viewing private keys or your seed phrase, and WalletConnect requests. Write the PIN down when you create it and store it apart from your seed phrase.
 
@@ -208,8 +201,7 @@ For maximum security, especially with large holdings:
 
 ### Supported Devices
 
-- **Ledger** (Zelcore desktop only): Nano S, Nano S Plus, Nano X
-- **Trezor** (Zelcore desktop only): One, Model T
+- **Ledger** and **Trezor**, in Zelcore desktop only. For the models, the coins you can import and send, and the steps, see [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets).
 
 ### Hardware Wallet Best Practices
 
@@ -373,7 +365,7 @@ Perform these checks regularly:
 - [ ] Update device passwords
 - [ ] Verify d2FA is enabled
 - [ ] Review address book entries
-- [ ] Check connected dApps (WalletConnect)
+- [ ] Check connected dApps ([WalletConnect](/docs/guides/walletconnect#disconnect-a-dapp))
 
 Also:
 
@@ -384,7 +376,7 @@ Also:
 
 ### Security Settings Review
 
-Open **Apps** → **Flux ID** → **Flux ID d2FA** and check that d2FA is active.
+Open **Apps** → **Flux ID** → **Next** → **Flux ID d2FA** and check that the status panel shows **d2FA is active**.
 
 ## Emergency Procedures
 
@@ -475,6 +467,8 @@ The most secure wallet is worthless if you lose access to your seed phrase. Bala
 
 ## Related
 
+- [Set Up d2FA in Zelcore](/docs/security/d2fa)
+- [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets)
 - [Responding to a Wallet Compromise](/docs/guides/responding-to-wallet-compromise)
 - [Self-Custodial Wallets Explained](/docs/guides/self-custodial-wallets-explained)
 - [Security FAQ](/docs/faq/security-faq)

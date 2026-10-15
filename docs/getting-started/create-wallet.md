@@ -105,7 +105,7 @@ Write the d2FA PIN down when you create it and keep it apart from your seed phra
 
 ### Additional Security
 - Set up d2FA for transactions and other secure tasks
-- Consider connecting a hardware wallet (Ledger or Trezor, used with Zelcore desktop)
+- Consider connecting a hardware wallet (Ledger or Trezor, used with Zelcore desktop): see [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets)
 
 For more, see [Security Best Practices](/docs/security/best-practices).
 

@@ -20,7 +20,7 @@ Manage assets across 80+ blockchains (as of October 2026) from a single interfac
 - **Bitcoin** and Bitcoin-like chains (BCH, LTC, DOGE, etc.)
 - **Ethereum** and EVM-compatible chains (Polygon, BSC, Avalanche, etc.)
 - **Solana, Tron, Cardano, XRP, Cosmos**, and many more
-- Chain guides: [TRON and TRC-20](/docs/guides/tron-wallet-guide), [Polygon](/docs/guides/polygon-wallet-guide), [FLUX](/docs/guides/flux-wallet-guide), [Kadena](/docs/guides/kadena-kda-guide) and [ERC-20 tokens](/docs/guides/managing-erc20-tokens)
+- Chain guides: [TRON and TRC-20](/docs/guides/tron-wallet-guide), [Polygon](/docs/guides/polygon-wallet-guide), [FLUX](/docs/guides/flux-wallet-guide), [Kadena](/docs/guides/kadena-kda-guide), [Monero (XMR)](/docs/guides/monero-xmr) and [ERC-20 tokens](/docs/guides/managing-erc20-tokens)
 - Support for 100,000+ tokens across all chains
 
 ### Portfolio Management
@@ -32,6 +32,8 @@ Track your entire crypto portfolio in one place:
 - Historical performance charts
 - Asset allocation visualization
 - Automatic token discovery
+- Send and receive on every supported chain: see [Send and Receive Crypto in Zelcore](/docs/guides/send-and-receive)
+- Bring funds from another wallet: see [Move Funds from Another Wallet to Zelcore](/docs/guides/moving-funds-from-other-wallets)
 
 ### Multi-Platform Sync
 
@@ -39,7 +41,7 @@ Access your wallet seamlessly across devices:
 
 - [Desktop](https://zelcore.io/wallet) (Windows, macOS, Linux)
 - [Mobile](https://zelcore.io/mobile-wallet) (iOS, Android)
-- [Browser Extension](https://zelcore.io/browser-extension) (Chrome, Edge, Brave; Firefox is not available yet)
+- [Browser Extension](https://zelcore.io/browser-extension) (Chrome, Edge, Brave; Firefox is not available yet). See [Zelcore Browser Extension](/docs/guides/browser-extension)
 
 ## Trading & Exchange
 
@@ -52,6 +54,7 @@ Exchange cryptocurrencies directly within Zelcore:
 - Cross-chain swaps
 - No account registration required
 - Transparent fee structure
+- How to swap, fees and min/max limits: see [Swap Crypto in Zelcore: Fees and Limits](/docs/guides/swaps-fees-and-limits)
 
 ### Tokenized US Stocks (bStocks)
 
@@ -74,6 +77,7 @@ Purchase cryptocurrency using traditional payment methods:
   - Topper
   - Guardarian
 - Support for multiple fiat currencies
+- Step by step: see [Buy Crypto with Fiat in Zelcore](/docs/guides/buying-crypto)
 
 ### Price Tracking
 
@@ -102,6 +106,7 @@ Next-generation authentication:
 - No single point of failure
 - Enhanced security without centralized servers
 - Optional but highly recommended
+- Setup, PIN prompts and errors: see [Set Up d2FA in Zelcore](/docs/security/d2fa)
 
 ### Biometric Authentication
 
@@ -120,6 +125,7 @@ Maximum security for large holdings:
 - Trezor support on desktop (One, Model T)
 - Sign transactions on hardware device
 - View-only mode for cold storage
+- Setup and supported coins: see [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets)
 
 ### Security Audit
 
@@ -140,6 +146,7 @@ Connect to decentralized applications:
 - Interact with NFT marketplaces
 - Use dApps across multiple chains
 - Secure connection protocol
+- Step by step: see [Connect Zelcore to dApps with WalletConnect](/docs/guides/walletconnect)
 
 ### NFT Management
 
@@ -150,6 +157,7 @@ View and manage your digital collectibles:
 - Visual gallery view
 - Send and receive NFTs
 - Floor price and rarity data (where available)
+- Step by step: see [NFT Gallery in Zelcore](/docs/guides/nft-gallery)
 
 ## Advanced Features
 
@@ -238,7 +246,7 @@ Save frequently used addresses:
 
 ## Need More Details?
 
-See the [guides](/docs/category/guides) and the [full feature list](https://zelcore.io/ecosystem/features) for a complete overview of everything Zelcore offers.
+See the [guides](/docs/category/guides) and the [full feature list](https://zelcore.io/ecosystem/features) for a complete overview of everything Zelcore offers. For what changed in the latest version, see the [Zelcore 8.39.0 release notes](/docs/release-notes/8-39-0).
 
 ## Questions?
 
