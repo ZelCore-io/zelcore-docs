@@ -33,23 +33,16 @@ Traditional Flux nodes require:
 
 ### How Titan Works
 
+Titan pools stakes from many users to run Stratus nodes. You stake any amount from 50 FLUX, choose a 3, 6 or 12-month lock-up, and receive a share of rewards after Titan's fee.
+
 **The process:**
 
-1. **Multiple users purchase shares** of a Titan node
-2. **Shares combine to fund** one or more complete Flux nodes (Cumulus, Nimbus, or Stratus tier)
-3. **Titan operates the node(s)** using professional infrastructure
-4. **Node earns Flux rewards** from the network
-5. **Rewards are distributed** proportionally to shareholders
-6. **You receive your share** directly to your Zelcore wallet
-
-**Example:**
-
-- Titan Nimbus node requires 12,500 FLUX collateral
-- 50 users each purchase 250 FLUX worth of shares
-- Combined 12,500 FLUX funds a Nimbus node
-- Node earns 100 FLUX per month in rewards
-- Each shareholder receives 2 FLUX per month (100 ÷ 50)
-- Proportional to share size
+1. **You stake FLUX** (minimum 50 FLUX, maximum 100,000 FLUX per stake, as of October 2026)
+2. **You choose a lock-up** of 3, 6 or 12 months
+3. **Titan pools the stakes** to run Stratus nodes on its own infrastructure
+4. **The nodes earn Flux rewards** from the network
+5. **Titan deducts its fee**, which depends on the lock-up and is shown before you confirm
+6. **You receive your share** of the rewards in your Zelcore wallet
 
 ### Titan vs. Running Your Own Node
 
@@ -109,55 +102,37 @@ Before purchasing Titan shares:
 3. Select **Titan**
 4. Titan interface opens
 
-#### Step 2: Review Available Titan Nodes
+#### Step 2: Review Titan Staking Options
 
 The Titan interface shows:
 
-- **Available nodes** with share availability
-- **Node tier** (Cumulus, Nimbus, Stratus)
-- **Total node size** (collateral requirement)
-- **Shares available** for purchase
-- **Price per share** (in FLUX)
-- **Minimum and maximum** purchase amounts
-- **Expected rewards** (estimated, not guaranteed)
+- **Minimum and maximum** stake amounts
+- **Lock-up options** (3, 6 or 12 months)
+- **Fee and estimated APY** for each lock-up (estimated, not guaranteed)
 
-**Understanding node tiers:**
+There is no node tier to choose: Titan runs Stratus nodes and pools all stakes.
 
-- **Cumulus Shared Nodes:** Smallest tier, lower rewards per node, lower barrier
-- **Nimbus Shared Nodes:** Mid-tier, moderate rewards
-- **Stratus Shared Nodes:** Highest tier, best rewards per node, typically higher minimum
-
-**Choosing a node:**
+**Choosing a lock-up:**
 
 Considerations:
 - **Your budget:** How much FLUX can you commit?
-- **Reward expectations:** Higher tiers = better rewards per FLUX staked
-- **Availability:** Some tiers may be fully subscribed
-- **Diversification:** Consider spreading across multiple nodes/tiers
+- **Lock-up length:** Your FLUX is locked until the lock-up ends
+- **Fee:** Longer lock-ups have a lower fee (as of October 2026: 50%, 40% and 30% of rewards for 3, 6 and 12 months)
 
 #### Step 3: Select Purchase Amount
 
-1. **Choose node tier** you want to purchase shares in
-2. **Enter FLUX amount** you want to stake
+1. **Enter FLUX amount** you want to stake
+2. **Choose a lock-up** of 3, 6 or 12 months
 3. **System shows:**
-   - Number of shares this represents
-   - Your percentage of the node
-   - Estimated rewards (approximate, varies with network)
+   - Titan's fee for that lock-up
+   - Estimated APY (approximate, varies with network)
    - Transaction fee
 4. **Verify amount** is within your budget and acceptable
 
 **Minimum amounts:**
 
-Titan typically has minimum purchase requirements:
-- Varies by node tier
-- Usually 50-500 FLUX minimum
-- Check current requirements in Titan app
-
-**Maximum amounts:**
-
-- Limited by shares available in that specific node
-- Cannot exceed available shares
-- May be capped per user for fairness
+- Minimum 50 FLUX, maximum 100,000 FLUX per stake (as of October 2026)
+- Estimated APY is shown in Earn
 
 #### Step 4: Verify Active Wallet
 
@@ -252,7 +227,7 @@ Titan uses multisignature wallet security:
 1. Open Titan app in Zelcore
 2. Go to **"My Shares"** or **"My Nodes"** section
 3. Verify your purchase appears:
-   - Node tier and ID
+   - Lock-up period
    - Number of shares owned
    - FLUX amount staked
    - Status (should show "Active" or "Earning")
@@ -271,7 +246,7 @@ See troubleshooting section below.
 
 **Titan service fee:**
 - Titan takes a percentage of node rewards (not upfront)
-- Typically 10-20% of earned rewards (check current Titan terms)
+- Titan's fee depends on the lock-up and is shown before you confirm (as of October 2026: 30-50% of rewards)
 - Deducted automatically from rewards before distribution
 - Not paid at purchase time
 
@@ -290,7 +265,7 @@ See troubleshooting section below.
 3. **Node completes tasks** and validates transactions
 4. **Network pays rewards** in FLUX to the node's collateral address
 5. **Titan collects rewards** from all managed nodes
-6. **Titan deducts service fee** (typically 10-20%)
+6. **Titan deducts service fee** (depends on the lock-up; as of October 2026: 30-50% of rewards)
 7. **Remaining rewards distributed** proportionally to shareholders
 
 **Reward frequency:**
@@ -305,26 +280,13 @@ See troubleshooting section below.
 Rewards are **not fixed** - they fluctuate based on:
 
 - **Network activity:** More apps running = more rewards
-- **Node tier:** Stratus earns more than Nimbus, Nimbus more than Cumulus
 - **Node uptime:** Higher uptime = more rewards (Titan maintains 99%+ typically)
 - **Network reward rate:** Changes based on Flux tokenomics
 - **Your share percentage:** More shares = more rewards
 
 **Example reward calculation:**
 
-Assumptions:
-- You own 500 FLUX worth of shares in Nimbus node
-- Total Nimbus node: 12,500 FLUX
-- Your share: 500 ÷ 12,500 = 4%
-- Node earns 100 FLUX in a month
-- Titan fee: 15% (15 FLUX)
-- Remaining to distribute: 85 FLUX
-- Your share: 85 × 4% = 3.4 FLUX per month
-
-**Annual percentage:**
-- 3.4 FLUX/month × 12 = 40.8 FLUX/year
-- On 500 FLUX stake = 8.16% annual return
-- (These are example numbers, actual returns vary)
+Your rewards = your share of the pooled rewards, minus Titan's fee for your lock-up. Zelcore shows the fee and the estimated APY for each lock-up in Earn before you confirm, so use those figures rather than a fixed example.
 
 ### Monitoring Your Rewards
 
@@ -347,10 +309,8 @@ Assumptions:
 
 **Reward expectations:**
 
-Realistic expectations (approximate, not guaranteed):
-- **Cumulus shares:** 5-10% annual return on FLUX staked
-- **Nimbus shares:** 7-12% annual return
-- **Stratus shares:** 9-15% annual return
+- Minimum 50 FLUX, maximum 100,000 FLUX per stake (as of October 2026)
+- Estimated APY is shown in Earn
 - Subject to market conditions, network activity, Titan fees
 
 **These are NOT guaranteed** - returns fluctuate based on network conditions.
@@ -538,7 +498,7 @@ If shares still missing after 7 days:
    - "Purchase has been in 'Multisig requested' status for [X days]"
    - Transaction hash
    - Purchase date and amount
-   - Node tier purchased
+   - Lock-up period chosen
    - Your wallet address
 
 3. **Ask for status update:**
@@ -651,19 +611,10 @@ If multisig cannot complete due to technical issue:
 Use this formula:
 
 ```
-Your monthly reward = (Node monthly reward × (1 - Titan fee %)) × Your share %
-
-Example:
-- Nimbus node earns ~100 FLUX/month (varies)
-- Titan fee: 15% (0.15)
-- Your shares: 500 FLUX out of 12,500 total (4%)
-
-Calculation:
-= (100 × (1 - 0.15)) × 0.04
-= (100 × 0.85) × 0.04
-= 85 × 0.04
-= 3.4 FLUX/month
+Your reward = Your share of the pooled rewards × (1 - Titan fee for your lock-up)
 ```
+
+Titan's fee depends on the lock-up and is shown before you confirm (as of October 2026: 30-50% of rewards). The estimated APY for your lock-up is shown in Earn.
 
 Compare to what you've actually received.
 
@@ -1036,9 +987,8 @@ Often easier:
 
 **Plan your purchase:**
 
-- [ ] Decide which node tier (Cumulus, Nimbus, Stratus)
+- [ ] Decide which lock-up (3, 6 or 12 months)
 - [ ] Determine purchase amount (within budget)
-- [ ] Consider diversifying across multiple nodes/tiers
 - [ ] Check minimum purchase requirements
 - [ ] Calculate expected ROI timeline
 
@@ -1048,7 +998,7 @@ Often easier:
 
 - [ ] Active wallet is correct (Settings > Wallets)
 - [ ] Purchase amount is accurate
-- [ ] Node tier is as intended
+- [ ] Lock-up is as intended
 - [ ] Destination address looks correct
 - [ ] Transaction fee is reasonable
 - [ ] Read confirmation screen completely
@@ -1058,7 +1008,7 @@ Often easier:
 - [ ] Screenshot purchase confirmation
 - [ ] Save transaction hash
 - [ ] Note date, time, amount
-- [ ] Record node tier and ID if shown
+- [ ] Record the lock-up period
 - [ ] Keep for support purposes if needed
 
 ### After Purchase
@@ -1097,11 +1047,6 @@ Often easier:
 4. Consider gas fees vs compounding amount
 5. Set a threshold (e.g., every 100 FLUX earned)
 
-**Diversification:**
-
-- Spread investment across multiple node tiers
-- Don't put all FLUX into single node
-- Reduces risk if one node has issues
 - Balances reward variability
 
 **Long-term perspective:**
@@ -1159,7 +1104,7 @@ When contacting support, always include:
 - Your Zelcore wallet address (shareholder address)
 - Transaction hash of purchase
 - Date and amount of purchase
-- Node tier purchased
+- Lock-up period chosen
 - Current status (multisig requested, missing, etc.)
 - Screenshots if helpful
 - Clear description of issue
