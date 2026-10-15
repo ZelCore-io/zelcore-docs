@@ -49,7 +49,7 @@ If you're importing from another wallet (like MetaMask, Trust Wallet, etc.), mak
 
 ### Compatible Wallets
 
-Zelcore restores standard BIP-39 recovery phrases. Bitcoin and Ethereum-style addresses match the first account of most standard wallets, such as MetaMask. Some chains, Solana among them, use different addresses than wallets such as Phantom, so check each balance after restoring and move funds if an address doesn't match.
+Bitcoin and Ethereum-style addresses match the first account of most standard wallets, such as MetaMask. Some chains, Solana among them, use different addresses than wallets such as Phantom, so check each balance after restoring and move funds if an address doesn't match.
 
 A phrase from another wallet that does not use an extra BIP-39 passphrase can be restored in Zelcore, for example from:
 - MetaMask
