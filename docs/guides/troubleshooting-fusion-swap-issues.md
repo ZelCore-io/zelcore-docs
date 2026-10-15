@@ -11,7 +11,7 @@ keywords: [fusion swap stuck, zelcore swap failed, crypto exchange troubleshooti
 
 If your Fusion swap order is showing as "Hold", "Awaiting blockchain confirmation", stuck in processing, or you've sent funds but haven't received them on the destination chain, this guide will help you understand and resolve the issue.
 
-Fusion swaps in Zelcore are powered by third-party exchange providers (ChangeHero, ChangeNow, SimpleSwap, Changelly). Most stuck swaps are due to provider-side processing issues, KYC requirements, or blockchain confirmation delays - not Zelcore itself. This guide will help you diagnose the problem and take the right steps to resolve it.
+Fusion swaps in Zelcore are powered by third-party exchange providers (for example ChangeNOW, Changelly, Exolix, XOSwap, Rango, Binance Web3 or InstaSwap). The providers shown depend on the pair and your country. Most stuck swaps are due to provider-side processing issues, KYC requirements, or blockchain confirmation delays - not Zelcore itself. This guide will help you diagnose the problem and take the right steps to resolve it.
 
 ## Prerequisites
 
@@ -60,7 +60,7 @@ First, determine which third-party provider is handling your swap:
 1. Open Zelcore
 2. Navigate to **Fusion** (or **FusionX** / **SSP**)
 3. Find your order in the swap history
-4. Note the provider name: ChangeHero, ChangeNow, SimpleSwap, or Changelly
+4. Note the provider name (for example ChangeNOW, Changelly, Exolix, XOSwap, Rango, Binance Web3 or InstaSwap)
 5. Record your **Order ID** (you'll need this for support)
 
 **Why this matters:** Each provider has different processing times, policies, and support channels. You'll need to contact them directly for most issues.
@@ -266,7 +266,7 @@ This documentation will speed up support resolution significantly.
 
 **Solution:**
 1. Review the exchange rate locked at order creation
-2. Check provider's fee structure (usually 0.5-2%)
+2. Check the provider fee: fees vary, and the app shows the rate and network fee before you confirm
 3. Network fees on destination chain also deducted
 4. If amount is significantly wrong (>5% from expected):
    - Contact provider with calculation showing discrepancy
@@ -314,7 +314,7 @@ This error indicates the provider cannot automatically process your swap and nee
 3. **Note all transaction details:**
    - Order ID from Zelcore
    - Source transaction hash (blockchain confirmation)
-   - Provider name (ChangeHero, ChangeNow, SimpleSwap, or Changelly)
+   - Provider name (for example ChangeNOW, Changelly, Exolix, XOSwap, Rango, Binance Web3 or InstaSwap)
    - Amount sent and expected to receive
    - Time when swap was initiated
 
@@ -593,7 +593,7 @@ Best practice for new chains:
 
 **Provider-specific gas handling:**
 
-**ChangeHero, ChangeNow, SimpleSwap, Changelly:**
+**Exchange-style providers (for example ChangeNOW and Changelly):**
 - Provider pays gas for outgoing transaction (to send you tokens)
 - Gas is included in their fee/spread
 - You don't pay gas for receiving
@@ -711,7 +711,7 @@ To minimize Fusion swap issues in the future:
 - **Save order details immediately:** Screenshot or record order ID right away
 - **Check provider status:** Look for maintenance announcements before swapping
 - **Be aware of limits:** Large swaps more likely to trigger KYC
-- **Use established providers:** Stick to ChangeHero, ChangeNow, SimpleSwap, Changelly
+- **Use established providers:** Stick to the providers Zelcore shows you in Swap
 - **Monitor blockchain confirmations:** Check explorer for confirmation status
 - **Keep Zelcore updated:** Latest version may have improved provider integrations
 
@@ -811,7 +811,7 @@ Any of these steps can experience delays:
 Generally yes, but the risk profile differs from using Zelcore's wallet directly:
 
 - Once sent to provider, they control the funds (not you)
-- Reputable providers (ChangeHero, ChangeNow, etc.) are established services
+- Reputable providers (for example ChangeNOW or Changelly) are established services
 - Funds are eventually processed, refunded, or require KYC
 - Very few swaps result in permanent loss with established providers
 - Always verify you're using legitimate provider addresses from Zelcore

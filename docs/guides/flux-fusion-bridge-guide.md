@@ -13,7 +13,7 @@ The Flux Fusion Bridge enables users to bridge FLUX tokens between different blo
 
 Flux has deployed wrapped versions of FLUX on multiple blockchains (Flux-BASE, Flux-BSC, Flux-ETH, Flux-SOL, Flux-TRX, Flux-AVAX), creating a multi-chain ecosystem. When bridging between these chains using Fusion, users frequently encounter issues related to gas fees, provider availability, and KYC requirements.
 
-**Important:** Bridging Flux parallel assets through Fusion uses third-party exchange providers (ChangeHero, ChangeNow, SimpleSwap, Changelly), not the native Flux bridge. These are swap operations, not native bridge transfers.
+**Important:** Bridging Flux parallel assets through Fusion uses third-party exchange providers (for example ChangeNOW, Changelly, Exolix, XOSwap, Rango, Binance Web3 or InstaSwap), not the native Flux bridge. These are swap operations, not native bridge transfers. The providers shown depend on the pair and your country.
 
 ## Understanding Flux Parallel Chains
 
@@ -160,7 +160,7 @@ Before initiating a Flux Fusion bridge swap, verify the following:
 ### 4. Provider Selection
 
 - [ ] You've checked which providers support your desired route
-- [ ] You're aware of provider fees (typically 0.5-2%)
+- [ ] You know provider fees vary (the app shows the rate and network fee before you confirm)
 - [ ] You understand KYC may be required for large amounts
 
 ### 5. Amount Considerations
@@ -217,7 +217,7 @@ Before initiating a Flux Fusion bridge swap, verify the following:
 1. **Wait 15-30 minutes and try again** - Often resolves automatically
 2. **Try a different provider:**
    - Zelcore Fusion shows multiple providers
-   - Switch to ChangeNow, ChangeHero, or SimpleSwap
+   - Switch to another provider in the list
 3. **Check if the route is supported:**
    - Not all providers support all Flux parallel chain pairs
    - May need to do a two-step swap (e.g., Flux-BASE → FLUX native → Flux-BSC)
@@ -381,7 +381,7 @@ This example demonstrates the complete process and highlights common pitfalls:
 5. Enter the amount you want to bridge
 6. Review provider quotes:
    - Check exchange rate
-   - Note provider fees (usually 0.5-2%)
+   - Note the provider fee (fees vary; the app shows the rate and network fee before you confirm)
    - Compare different providers
 7. Select the provider with the best rate
 8. **Important:** Review the destination address - verify it's your BSC Flux address
@@ -446,7 +446,7 @@ This example demonstrates the complete process and highlights common pitfalls:
    - Triple-check before confirming
 
 4. **Ignoring provider fees:**
-   - Account for 0.5-2% provider fees
+   - Account for provider fees (they vary; the app shows them before you confirm)
    - You'll receive less than you send
    - Factor this into your swap amount
 
@@ -1282,7 +1282,7 @@ If blockchain shows enough confirmations but exchange still pending, contact exc
 
 ### Contact Exchange Provider Support
 
-Contact the swap provider (ChangeHero, ChangeNow, SimpleSwap, Changelly) if:
+Contact the swap provider (for example ChangeNOW, Changelly, Exolix, XOSwap, Rango, Binance Web3 or InstaSwap) if:
 
 - Swap on "Hold" for more than 48 hours
 - "Awaiting confirmation" despite 20+ confirmations
