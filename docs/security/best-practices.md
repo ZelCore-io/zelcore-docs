@@ -53,7 +53,7 @@ Your 12 or 24-word seed phrase is the master key to your wallet. Lose it, and yo
 - **Never keep it in note-taking apps** (Notes, Evernote, OneNote, etc.) or on your computer in any form (text files, documents, etc.)
 - **Never keep photos of it** on your phone
 - **Never type it into websites** claiming to "validate" your wallet
-- **Never save in password managers** (unless using encrypted, offline managers or a dedicated hardware-secured option)
+- **Never save it in a password manager** or any other online storage
 - **Don't split words** across different locations incorrectly
 
 Zelcore staff will NEVER ask for your seed phrase. No legitimate support personnel from any cryptocurrency service will ever need it. If someone asks for your seed phrase, it is a scam - no exceptions.
@@ -73,7 +73,7 @@ Create a robust password for your Zelcore wallet:
 - Include numbers and special symbols
 - Avoid dictionary words
 - Don't reuse passwords from other services
-- Consider using a password manager for generation and storage
+- Consider using a password manager to generate and store this password (never your seed phrase)
 
 ### Biometric Authentication
 
@@ -93,18 +93,16 @@ Also set a PIN/password on the device itself, not just biometrics (biometrics ca
 
 ### Decentralized 2FA (d2FA)
 
-Enable d2FA for an additional security layer:
+d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. To enable it:
 
-1. Go to **Settings** → **Security**
-2. Select **Enable d2FA**
-3. Follow the setup process
-4. Confirm with your authentication method
+1. Make sure your first Flux address holds a small amount of confirmed FLUX (about 0.0002) for the activation transaction
+2. Open **Apps** → **Flux ID** → **Next** → **Flux ID d2FA**, then click **Create d2FA**
+3. Enter your PIN in **New PIN** and **Verify PIN**
+4. Choose where the PIN is used: **Used for logging into Zelcore**, **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**, or both
+5. Tick the box confirming you have backed up your PIN, then enter your password
+6. The PIN is set after the transaction is confirmed on the blockchain and you log in again
 
-Benefits of d2FA:
-- Authentication keys distributed across decentralized nodes
-- No single point of failure
-- Required for transactions and sensitive operations
-- Protection even if device is compromised
+When the secure-tasks option is on, Zelcore asks for the PIN before actions such as sending, swapping, Fusion deposits, viewing private keys or your seed phrase, and WalletConnect requests. Write the PIN down when you create it and store it apart from your seed phrase.
 
 ### Two-Factor Authentication on Other Services
 
@@ -120,7 +118,7 @@ Your device's security is fundamental to wallet security. A compromised device m
 
 ### Keep Software Updated
 
-- Update Zelcore regularly (weekly releases)
+- Update Zelcore when a new version is released
 - Keep your operating system current
 - Update browser if using extension
 - Enable automatic security updates
@@ -320,7 +318,6 @@ Your seed phrase is your backup. Implement a robust backup strategy:
 1. **Primary backup**: Seed phrase written on paper in safe
 2. **Secondary backup**: Duplicate in different location
 3. **Tertiary backup**: Metal seed phrase storage in bank vault
-4. **Digital backup**: Encrypted, offline password manager (optional)
 
 When creating a new wallet:
 

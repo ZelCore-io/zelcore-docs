@@ -80,7 +80,7 @@ d2FA (decentralized two-factor authentication) protects your account with a nume
 4. Enter your password; the PIN is active after the transaction is confirmed and you log in again
 
 :::warning
-Write the d2FA PIN down when you create it and keep it apart from your seed phrase. The app warns that if you lose the PIN you won't be able to use or access your account.
+Write the d2FA PIN down when you create it and keep it apart from your seed phrase. Zelcore asks you to confirm that you have backed it up before it creates the PIN.
 :::
 
 ## Best Practices for Wallet Security
