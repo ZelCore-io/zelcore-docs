@@ -55,7 +55,7 @@ Open an NFT to see its detail page with its properties. If the NFT has none, Zel
 1. Open **NFTs** and select the NFT you want to move.
 2. Choose **Send**.
 3. Enter the recipient address and confirm the details.
-4. If d2FA is enabled on your account, enter your d2FA PIN when Zelcore asks for it.
+4. If d2FA is enabled on your account, enter your d2FA PIN when Zelcore asks for it (see [Set Up d2FA in Zelcore](/docs/security/d2fa/)).
 
 Check the recipient address and the details Zelcore shows before you confirm. A blockchain transfer cannot be undone.
 
@@ -92,6 +92,7 @@ The NFT gallery can vary by platform and region, and the app shows what is avail
 ## Related
 
 - [Buy crypto with fiat](/docs/guides/buying-crypto/)
+- [Send and Receive Crypto in Zelcore](/docs/guides/send-and-receive/)
 - [Zelcore features overview](/docs/features/overview/)
 - [Security best practices](/docs/security/best-practices/)
 - [Zelcore support](https://support.zelcore.io)

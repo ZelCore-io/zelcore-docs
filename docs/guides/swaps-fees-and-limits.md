@@ -68,9 +68,9 @@ Zelcore 8.39.0 added InstaSwap as a provider in all three forms. To use an Insta
 
 ## d2FA, scam screening and hardware wallets
 
-- **d2FA**: with d2FA on, **Swap Now** becomes **Verify PIN and Swap** and the swap is signed only after you enter your PIN.
+- **d2FA**: with d2FA on, **Swap Now** becomes **Verify PIN and Swap** and the swap is signed only after you enter your PIN. See [Set Up d2FA in Zelcore](../security/d2fa.md).
 - **Scam screening**: if a swap matches a known scam or drainer list, Zelcore warns you before you sign. **Swap anyway** continues; stop instead if you did not expect the warning.
-- **Hardware wallets (desktop)**: a swap cannot be paid from a hardware-wallet account. Choose a software wallet as the selling wallet.
+- **Hardware wallets (desktop)**: a swap cannot be paid from a hardware-wallet account. Choose a software wallet as the selling wallet. See [Ledger and Trezor on Zelcore Desktop](./hardware-wallets.md).
 
 <!-- screenshot: swaps-6 d2FA prompt with "Verify PIN and Swap" -->
 
@@ -126,5 +126,7 @@ InstaSwap declined this exchange. Pick an offer from another provider.
 
 - [Send and Receive Crypto in Zelcore](./send-and-receive.md)
 - [Troubleshooting Fusion Swap Issues](./troubleshooting-fusion-swap-issues.md)
+- [Buy Crypto with Fiat in Zelcore](./buying-crypto.md)
+- [Set Up d2FA in Zelcore](../security/d2fa.md)
 - [Security Best Practices](../security/best-practices.md)
 - [Zelcore support](https://support.zelcore.io)

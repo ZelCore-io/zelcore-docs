@@ -41,7 +41,7 @@ Incoming XMR shows in your balance first and becomes spendable once it is older 
 4. If the recipient gave a payment ID, enter it in the **Payment ID** field.
 5. Enter the amount, or select **Max**.
 6. Read the fee. Zelcore shows an approximate fee; the exact fee is known only when the transaction is built, which takes a few seconds.
-7. Confirm. With d2FA on, the button reads **Verify PIN and Send**.
+7. Confirm. With d2FA on, the button reads **Verify PIN and Send** (see [Set Up d2FA in Zelcore](../security/d2fa.md)).
 
 A transaction you just sent may not show correctly in the transaction table, or in your balance, until it confirms.
 

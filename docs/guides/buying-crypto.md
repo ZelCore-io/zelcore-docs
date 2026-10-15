@@ -93,6 +93,8 @@ Buying that asset is not offered right now. Pick another asset, or try again lat
 
 - [Zelcore features overview](/docs/features/overview/)
 - [NFT gallery](/docs/guides/nft-gallery/)
+- [Swap crypto: fees and limits](/docs/guides/swaps-fees-and-limits/)
+- [Send and receive crypto](/docs/guides/send-and-receive/)
 - [Fusion swap FAQ](/docs/faq/fusion-faq/)
 - [Security best practices](/docs/security/best-practices/)
 - [Zelcore support](https://support.zelcore.io)

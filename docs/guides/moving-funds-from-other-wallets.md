@@ -39,7 +39,7 @@ The old wallet or exchange charges its own network or withdrawal fee, shown ther
 ## Import a private key
 
 1. Open **Portfolio**, open the wallet selector and select **Import a Wallet**.
-2. In **Import External Wallet**, select **Wallet Private Key**. (**Hardware Wallet** also appears here in the desktop app.)
+2. In **Import External Wallet**, select **Wallet Private Key**. (**Hardware Wallet** also appears here in the desktop app; see [Ledger and Trezor on Zelcore Desktop](./hardware-wallets.md).)
 3. Choose the coin.
 4. Paste the private key and confirm.
 5. Zelcore shows "Address imported successfully!" or "Wallet imported successfully!".
@@ -83,6 +83,7 @@ The address or key does not match the coin you chose. Check that you picked the 
 
 - [Import an Existing Wallet](../getting-started/import-wallet.md)
 - [Send and Receive Crypto in Zelcore](./send-and-receive.md)
+- [Ledger and Trezor on Zelcore Desktop](./hardware-wallets.md)
 - [Self-Custodial Wallets Explained](./self-custodial-wallets-explained.md)
 - [Security Best Practices](../security/best-practices.md)
 - [Zelcore support](https://support.zelcore.io)

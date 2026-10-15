@@ -49,8 +49,8 @@ The same Flux ID screens are in the desktop app, the mobile app and the browser 
 
 With the secure-tasks option on, Zelcore asks every time, whatever the amount, on these screens:
 
-- Send, including sending an NFT
-- Swaps, including **Swap Now** and the Fusion deposit (asked before signing since 8.39.0)
+- Send, including sending an NFT (see [Send and Receive Crypto in Zelcore](../guides/send-and-receive.md))
+- Swaps, including **Swap Now** and the Fusion deposit (asked before signing since 8.39.0; see [Swap Crypto in Zelcore](../guides/swaps-fees-and-limits.md))
 - Earn staking
 - WalletConnect connection proposals and dApp requests (see [Connect Zelcore to dApps with WalletConnect](../guides/walletconnect.md))
 - Showing a private key or seed phrase, and deleting a wallet
@@ -136,6 +136,8 @@ Try again. If it keeps happening, contact [Zelcore support](https://support.zelc
 
 ## Related
 
+- [Send and Receive Crypto in Zelcore](../guides/send-and-receive.md)
+- [Swap Crypto in Zelcore: Fees and Limits](../guides/swaps-fees-and-limits.md)
 - [Connect Zelcore to dApps with WalletConnect](../guides/walletconnect.md)
 - [Zelcore Browser Extension](../guides/browser-extension.md)
 - [Zelcore support](https://support.zelcore.io)

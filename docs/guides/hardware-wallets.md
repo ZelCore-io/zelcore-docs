@@ -54,7 +54,7 @@ Written for Zelcore 8.39.0 (October 2026).
 
 1. In Zelcore desktop, open the coin on the hardware wallet account and select **Send**. The screen shows "This transaction is protected with on device signing".
    <!-- screenshot: hardware-wallets-8 (Send screen on a Ledger wallet with the on-device signing note, desktop) -->
-2. Enter the recipient and amount and confirm. The fee is shown in the app before you confirm.
+2. Enter the recipient and amount and confirm, as in [Send and Receive Crypto in Zelcore](./send-and-receive.md). The fee is shown in the app before you confirm.
 3. When Zelcore shows "Please sign transaction on device", check the details on the device screen and approve them there.
 
 **Kaspa on a Ledger (desktop):** a send that has to combine many small coins needs more than one approval. Zelcore desktop tells you how many: "This send needs (count) approvals on your Ledger: first to combine small coins, then the payment itself. Nothing is broadcast until all of them are approved." You can't attach a message to a send from a Ledger (desktop).
@@ -126,4 +126,6 @@ Background: [Why hardware wallets matter](https://zelcore.io/academy/basics/why-
 - [Import a Wallet](../getting-started/import-wallet.md)
 - [Set Up d2FA in Zelcore](../security/d2fa.md)
 - [Connect Zelcore to dApps with WalletConnect](./walletconnect.md)
+- [Send and Receive Crypto in Zelcore](./send-and-receive.md)
+- [Move Funds from Another Wallet to Zelcore](./moving-funds-from-other-wallets.md)
 - [Zelcore support](https://support.zelcore.io)

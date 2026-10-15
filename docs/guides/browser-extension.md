@@ -36,8 +36,8 @@ Clicking the Zelcore icon opens the extension in the browser's side panel. To ch
 
 The extension uses the same screens and labels as the desktop app:
 
-- **Portfolio** and coin screens, to send and receive
-- **Swap**
+- **Portfolio** and coin screens, to send and receive (see [Send and Receive Crypto in Zelcore](./send-and-receive.md))
+- **Swap** (see [Swap Crypto in Zelcore: Fees and Limits](./swaps-fees-and-limits.md))
 - **Apps**, with tiles such as **Flux ID** (for [d2FA](../security/d2fa.md)), **Purchase Crypto**, **Sell Crypto**, **Earn**, **Fusion**, **NFTs**, **FIO Crypto Handle** and **Zelcore+**. Tiles appear when the service is available to you, so your **Apps** screen shows what you can use.
 - **WalletConnect**, from the icon in the top bar, to connect to dApps (see [Connect Zelcore to dApps with WalletConnect](./walletconnect.md))
 - Tax & CSV export, which saves files through your browser's downloads. Most tax-tool layouts come with Zelcore+.

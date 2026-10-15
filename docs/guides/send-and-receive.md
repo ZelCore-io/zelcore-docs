@@ -72,7 +72,7 @@ When an exchange or service gives you a memo, tag or payment ID for a deposit, e
 - **Wrong chain**: if the address belongs to another chain, Zelcore says "This address belongs to [chain]. Send from [chain] instead."
 - **Sending to yourself**: Zelcore warns "You are about to send funds to the same wallet address as you are using to send them with."
 - **Scam screening**: Zelcore checks recipients, token spenders and dApps against known scam and drainer lists before you sign, and warns you on a match.
-- **d2FA**: with d2FA on, no send is signed until you enter your PIN.
+- **d2FA**: with d2FA on, no send is signed until you enter your PIN. See [Set Up d2FA in Zelcore](../security/d2fa.md).
 
 <!-- screenshot: send-7 Wrong-chain address warning (an ETH address on BTC) -->
 
@@ -94,7 +94,7 @@ Only send the matching asset on the matching network to this address. Funds sent
 
 ## Hardware wallets (desktop)
 
-A hardware-wallet account can only sign sends from the **Send** screen. Other actions that need a signature, such as paying for a swap, are not available from it.
+A hardware-wallet account can only sign sends from the **Send** screen. Other actions that need a signature, such as paying for a swap, are not available from it. See [Ledger and Trezor on Zelcore Desktop](./hardware-wallets.md).
 
 ## Send error messages
 
@@ -134,6 +134,10 @@ The network did not accept the transaction. Wait a moment and try again. If it k
 
 - [Kaspa (KAS) in Zelcore: KNS and KRC-20](../walkthroughs/kaspa-wallet/index.md)
 - [Managing ERC-20 Tokens in Zelcore](./managing-erc20-tokens.md)
+- [Swap Crypto in Zelcore: Fees and Limits](./swaps-fees-and-limits.md)
+- [Move Funds from Another Wallet to Zelcore](./moving-funds-from-other-wallets.md)
+- [Set Up d2FA in Zelcore](../security/d2fa.md)
+- [Ledger and Trezor on Zelcore Desktop](./hardware-wallets.md)
 - [Troubleshooting Balance and Sync Issues](./troubleshooting-balance-sync-issues.md)
 - [Security Best Practices](../security/best-practices.md)
 - [Zelcore support](https://support.zelcore.io)
