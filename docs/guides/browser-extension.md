@@ -34,21 +34,24 @@ Clicking the Zelcore icon opens the extension in the browser's side panel. To ch
 
 ## What the extension includes
 
-The extension uses the same screens and labels as the desktop app:
+The extension has the same wallet features as the desktop and mobile apps: the same assets, Buy, Sell, Swap, Earn, NFTs, Fusion, FluxNodes, d2FA and WalletConnect. It uses the same screens and labels as the desktop app:
 
 - **Portfolio** and coin screens, to send and receive (see [Send and Receive Crypto in Zelcore](./send-and-receive.md))
 - **Swap** (see [Swap Crypto in Zelcore: Fees and Limits](./swaps-fees-and-limits.md))
-- **Apps**, with tiles such as **Flux ID** (for [d2FA](../security/d2fa.md)), **Purchase Crypto**, **Sell Crypto**, **Earn**, **Fusion**, **NFTs**, **FIO Crypto Handle** and **Zelcore+**. Tiles appear when the service is available to you, so your **Apps** screen shows what you can use.
+- **Apps**, with tiles such as **Flux ID** (for [d2FA](../security/d2fa.md)), **Purchase Crypto**, **Sell Crypto**, **Earn**, **Fusion**, **FluxNodes**, **NFTs**, **FIO Crypto Handle** and **Zelcore+**. Tiles appear when the service is available to you, so your **Apps** screen shows what you can use.
 - **WalletConnect**, from the icon in the top bar, to connect to dApps (see [Connect Zelcore to dApps with WalletConnect](./walletconnect.md))
 - Tax & CSV export, which saves files through your browser's downloads. Most tax-tool layouts come with Zelcore+.
 
 <!-- screenshot: browser-extension-4 (popup portfolio with a few assets) -->
 
-zelcore.io describes the extension's assets as a curated set of major assets (Bitcoin, Ethereum, Solana, Kaspa, Kadena and more), as a companion to the desktop wallet.
+## Use the extension as a dApp wallet
+
+The extension also works as a dApp wallet. Websites that support EIP-6963 or Solana wallets list it as "ZelCore", and you approve every connection and signature in the extension. For other dApps, you can still connect with [WalletConnect](./walletconnect.md).
 
 ## What the extension doesn't do
 
 - **Hardware wallets:** not supported. Hardware wallets work only in the [Zelcore desktop app](./hardware-wallets.md).
+- **Sending Monero (XMR):** the extension can receive Monero in 8.39.0 but can't send it. Send Monero from the desktop or mobile app. See [Monero (XMR) in Zelcore](./monero-xmr.md).
 - **Firefox:** not listed as of October 2026.
 
 ## Permissions the extension asks for

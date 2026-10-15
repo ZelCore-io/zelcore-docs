@@ -120,8 +120,8 @@ Convenient and secure access:
 
 Maximum security for large holdings:
 
-- Ledger support on desktop (Nano S, S Plus, X), including Kaspa
-- Trezor support on desktop (One, Model T)
+- Ledger support on desktop over USB (no Bluetooth), including Kaspa
+- Trezor support on desktop (experimental; needs Trezor Bridge or the Trezor Suite desktop app)
 - Sign transactions on hardware device
 - View-only mode for cold storage
 - Setup and supported coins: see [Ledger and Trezor on Zelcore Desktop](/docs/guides/hardware-wallets)
@@ -237,8 +237,8 @@ Save frequently used addresses:
 | NFT gallery | ✅ | ✅ | ✅ |
 | WalletConnect | ✅ | ✅ | ✅ |
 | Hardware wallet¹ | ✅ | ❌ | ❌ |
-| FluxNodes | ✅ | ✅ | ❌ |
-| Fusion | ✅ | ✅ | ❌ |
+| FluxNodes | ✅ | ✅ | ✅ |
+| Fusion | ✅ | ✅ | ✅ |
 | Buy crypto | ✅ | ✅ | ✅ |
 
 ¹ Ledger and Trezor: desktop only.
