@@ -16,7 +16,7 @@ If you are new to bStocks, read [bStocks in Zelcore](/docs/guides/bstocks-tokeni
 
 ## Prerequisites
 
-- Zelcore Desktop 8.36 or later, logged in
+- Zelcore Desktop 8.37 or later (we recommend the current release), logged in
 - Your connection located in a country where bStocks are available (the app hides them otherwise)
 - USDT (BSC) or BNB in the wallet you want to buy from
 - A small amount of BNB in the same wallet for gas (the example swap cost about 0.0003 BNB)

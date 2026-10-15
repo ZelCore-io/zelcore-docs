@@ -16,7 +16,7 @@ For background on what bStocks are, dividends, fees, risks and country restricti
 
 ## Prerequisites
 
-- Zelcore mobile 8.36 or later, logged in
+- Zelcore mobile 8.37 or later (we recommend the current release), logged in
 - Your connection located in a country where bStocks are available (the app hides them otherwise)
 - USDT (BSC) or BNB in the wallet you want to buy from
 - A little BNB in the same wallet for gas (the example swap cost about 0.0003 BNB)

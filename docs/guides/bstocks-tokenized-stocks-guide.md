@@ -167,7 +167,7 @@ Quotes for stock-to-stock pairs depend on the router finding a path. If no provi
 Binance Web3 is the dedicated bStocks route. Other DEX aggregators may also find the pair through public liquidity pools. Zelcore shows all quotes and tags the best one.
 
 **I'm in an allowed country but bStocks are missing.**
-Make sure you are on Zelcore 8.36 or later, that you are not using a VPN or proxy that exits in a restricted country, and restart the app so the availability check runs again.
+Make sure you are on Zelcore 8.37 or later (we recommend the current release), that you are not using a VPN or proxy that exits in a restricted country, and restart the app so the availability check runs again.
 
 ---
 
