@@ -9,7 +9,7 @@ image: ./images/03-scope-step.webp
 # How to Export Your Transactions for Taxes with Zelcore Tax & CSV Export
 
 :::info Applies to Zelcore 8.39
-Screens and menu names match Zelcore 8.39.0 (October 2026).
+The steps apply to Zelcore 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
 This guide shows you how to use Zelcore's Tax & CSV Export. It reads your transaction history for the wallets and coins you choose and saves it as a file that your tax tool or accountant can use. You can pick the period, add fiat values, and choose a layout made for a specific tax tool.

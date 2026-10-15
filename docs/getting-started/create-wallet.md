@@ -8,7 +8,7 @@ keywords: [create crypto wallet, zelcore setup, seed phrase wallet, new wallet s
 # Create a New Wallet
 
 :::info Applies to Zelcore 8.39
-Screens and menu names match Zelcore 8.39.0 (October 2026).
+Written for Zelcore 8.39.0 (October 2026).
 :::
 
 Learn how to create your first Zelcore wallet and secure your crypto assets.
@@ -113,7 +113,7 @@ Now that you've created your wallet, you can start using Zelcore to manage your 
 Go to **Settings** → **Security** → **Show Seed Phrase** (requires authentication). Write it down immediately.
 
 ### I want to create multiple wallets
-Zelcore supports multiple wallet profiles. Go to **Settings** → **Wallets** → **Add New Wallet**.
+Zelcore supports multiple wallets. Use **Add Wallet** in the app to create another one.
 
 ### Need more help?
 - Visit the [Support Center](https://support.zelcore.io)

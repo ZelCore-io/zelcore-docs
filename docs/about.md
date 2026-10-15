@@ -15,7 +15,7 @@ The Zelcore team maintains these docs.
 
 ## How pages are kept accurate
 
-Pages are checked against the current app release. Each page shows a "Last updated" date. Pages whose steps or screens depend on the app version say which version they apply to, near the top of the page. At the time of writing, that is Zelcore 8.39.0 (October 2026).
+Pages are checked against the current app release. Each page shows a "Last updated" date. Pages whose steps or screens depend on the app version say which version they apply to, near the top of the page. As of October 2026, that is Zelcore 8.39.0.
 
 If a page shows screenshots from an earlier version, it says so.
 
@@ -32,4 +32,4 @@ Background explainers and release news are on the [Zelcore Academy](https://zelc
 
 ## Official downloads
 
-The only official download links are on the [Install Zelcore](/docs/getting-started/installation) page and at [zelcore.io/wallet](https://zelcore.io/wallet).
+Official download links are on the [Install Zelcore](/docs/getting-started/installation) page and on zelcore.io ([/wallet](https://zelcore.io/wallet), [/mobile-wallet](https://zelcore.io/mobile-wallet), [/browser-extension](https://zelcore.io/browser-extension)).

@@ -9,7 +9,7 @@ image: ./images/01-kns-send-resolved.webp
 # Kaspa (KAS) in Zelcore: Names, KRC-20 Tokens and Ledger (Desktop)
 
 :::info Applies to Zelcore 8.39
-Screens and menu names match Zelcore desktop 8.39.0 (October 2026).
+The steps apply to Zelcore desktop 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
 Zelcore 8.39.0 adds several tools for Kaspa. You can send to a `.kas` name, find and import KRC-20 tokens, merge many small coins into a few, load older history, use a Ledger on Zelcore desktop, and sign messages.

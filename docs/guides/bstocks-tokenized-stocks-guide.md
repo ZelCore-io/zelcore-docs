@@ -69,7 +69,7 @@ There are three ways in:
 2. **Manage Assets → Add bStocks.** A dedicated dialog with a search box, live price and 24h change for every listed stock, and an **Add** button per row.
 3. **Manage Assets → Add Assets.** The regular asset dialog has a **Tokenized Stocks (bStocks)** section.
 
-The list is served by Zelcore's API from Binance's current bStocks catalogue, so new listings appear without an app update. At the time of writing there are around 65 stocks and ETFs (as of October 2026); the exact set changes as Binance lists more.
+The list is served by Zelcore's API from Binance's current bStocks catalogue, so new listings appear without an app update. As of October 2026 there are around 65 stocks and ETFs; the exact set changes as Binance lists more.
 
 ### Buying and selling
 

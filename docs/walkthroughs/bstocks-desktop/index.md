@@ -9,7 +9,7 @@ image: ./images/06-microsoft-bstock-card-chart.webp
 # Buy bStocks on Zelcore Desktop
 
 :::info Applies to Zelcore 8.39
-Screens and menu names match Zelcore desktop 8.39.0 (October 2026).
+The steps apply to Zelcore desktop 8.39.0 (October 2026). Some screenshots come from an earlier version, so some screens may look slightly different.
 :::
 
 This walkthrough shows how to add tokenized US stocks (bStocks) to your Zelcore Desktop portfolio and buy one with USDT on BNB Smart Chain using the built-in swap. The example buys Microsoft (MSFTB) with 10 USDT.

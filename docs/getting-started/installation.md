@@ -10,7 +10,7 @@ keywords: [zelcore download, install zelcore, official zelcore download, zelcore
 Zelcore is available as a desktop app, a mobile app and a browser extension. This page lists the official download for each, with the system requirements.
 
 :::info Applies to Zelcore 8.39
-System requirements match Zelcore desktop 8.39.0 (October 2026).
+System requirements match Zelcore 8.39.0 on desktop, mobile and the extension (October 2026).
 :::
 
 :::warning Install only from the official links on this page
@@ -36,12 +36,12 @@ Download the desktop app from [zelcore.io/wallet](https://zelcore.io/wallet). It
 | --- | --- | --- |
 | Windows | Windows 10 or later | Installer or portable |
 | macOS | macOS 12 (Monterey) or later | Apple Silicon and Intel |
-| Linux | x64 or arm64 | `.deb` and `.AppImage` |
+| Linux | x64 | `.deb` and `.AppImage` |
 
 ### Install on Windows
 
 1. Download the Windows build from [zelcore.io/wallet](https://zelcore.io/wallet). Choose the installer, or the portable build if you do not want to install anything.
-2. For the installer, run it and follow the prompts. For the portable build, unzip or place it where you want it and run it from there.
+2. For the installer, run it and follow the prompts. For the portable build, save the .exe where you want it and run it.
 
 Windows 7 and 8 are not supported. For the full Windows walkthrough, see [Zelcore for Windows: Download and Setup](/docs/guides/zelcore-windows-setup).
 
@@ -54,7 +54,7 @@ To see which chip your Mac has, open the Apple menu and choose **About This Mac*
 
 ### Install on Linux
 
-1. Download the `.deb` or the `.AppImage` from [zelcore.io/wallet](https://zelcore.io/wallet), in the x64 or arm64 build that matches your computer.
+1. Download the `.deb` or the `.AppImage` from [zelcore.io/wallet](https://zelcore.io/wallet) (x64 builds).
 2. For the `.deb`, install it with your package manager, for example `sudo apt install ./<file>.deb`. For the `.AppImage`, make it executable (`chmod +x <file>.AppImage`) and run it.
 
 :::tip
@@ -73,7 +73,8 @@ The [Zelcore mobile wallet](https://zelcore.io/mobile-wallet) is available for i
 
 1. On your iPhone or iPad, open the official listing: [Zelcore on the App Store](https://apps.apple.com/app/zelcore/id1436296839).
 2. Check that the address contains `id1436296839`.
-3. Tap **Get**, then open the app after it installs.
+3. Check the developer: Influx Technologies Limited on the App Store.
+4. Tap **Get**, then open the app after it installs.
 
 ### Android
 
@@ -81,7 +82,8 @@ The [Zelcore mobile wallet](https://zelcore.io/mobile-wallet) is available for i
 
 1. On your Android device, open the official listing: [Zelcore on Google Play](https://play.google.com/store/apps/details?id=com.zelcash.zelcore).
 2. Check that the address contains `id=com.zelcash.zelcore`.
-3. Tap **Install**, then open the app after it installs.
+3. Check the developer: Influx Technologies USA on Google Play.
+4. Tap **Install**, then open the app after it installs.
 
 ## Browser extension
 

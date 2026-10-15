@@ -8,7 +8,7 @@ keywords: [fusion swap stuck, zelcore swap failed, crypto exchange troubleshooti
 # Troubleshooting Fusion Swap Issues
 
 :::info Applies to Zelcore 8.39
-Screens and menu names match Zelcore 8.39.0 (October 2026).
+Written for Zelcore 8.39.0 (October 2026).
 :::
 
 ## Overview

@@ -18,7 +18,7 @@ Manage assets across 80+ blockchains (as of October 2026) from a single interfac
 - **Bitcoin** and Bitcoin-like chains (BCH, LTC, DOGE, etc.)
 - **Ethereum** and EVM-compatible chains (Polygon, BSC, Avalanche, etc.)
 - **Solana, Tron, Cardano, XRP, Cosmos**, and many more
-- Support for 100,000+ tokens across all chains (as of October 2026)
+- Support for 100,000+ tokens across all chains
 
 ### Portfolio Management
 
