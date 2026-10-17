@@ -17,40 +17,39 @@ Background: [managing NFTs in a multi-chain wallet](https://zelcore.io/academy/n
 
 ## What the gallery shows
 
-The NFT portfolio gives you a common view for all your NFTs on Ethereum, Polygon and Solana. Zelcore reads the NFTs held by your wallets and lists them together. Check the **All Blockchains** filter in the app to see which chains your wallets have NFTs on.
+The NFT portfolio gives you a common view for all your NFTs on Ethereum, Polygon and Solana. Zelcore reads the NFTs held by your wallets and lists them together. The **All Blockchains** filter lists every supported chain, whether or not your wallets hold NFTs on it.
 
 The gallery has these views and filters:
 
 - **NFT Overview**: the grid of your NFTs.
 - **All**: every NFT, together.
-- **By Collection** and **Collections**: NFTs grouped by the collection they belong to.
+- **By Collection**: NFTs grouped by the collection they belong to.
+- **All Wallets**: a filter to show the NFTs of one wallet at a time.
 - **All Blockchains**: a filter to show one blockchain at a time.
 - **Spam**: a switch, on by default, that shows or hides NFTs flagged as spam.
-- **Load More**: loads more NFTs when your list is long.
 
 ## Browse your NFTs
 
-<!-- screenshot: nft-gallery-01-overview-blockchain-filter -->
+![NFT Overview with All and By Collection, the Spam switch, All Wallets, the All Blockchains filter open on Ethereum, Solana and Polygon, and Receive an NFT](./images/nft-gallery/nft-gallery-01-overview-blockchain-filter.webp)
 
 1. Open **NFTs** from the left menu.
 2. Use **All Blockchains** to pick a single chain, or leave it on all chains.
 
-<!-- screenshot: nft-gallery-02-by-collection -->
+![NFT gallery in the By Collection view with NFTs grouped into collection cards](./images/nft-gallery/nft-gallery-02-by-collection.webp)
 
 3. Choose **By Collection** to group NFTs by collection.
-4. Select **Load More** if the list continues.
 
 On Solana, you may see an **Unnamed Collection**. For Solana this can happen if the collection is not certified.
 
 ## View an NFT's details
 
-<!-- screenshot: nft-gallery-03-detail-properties -->
+![NFT detail page with the Info list (Contract Address, Token ID, Token Standard, Blockchain, Metadata, Creator fees) and the Properties grid](./images/nft-gallery/nft-gallery-03-detail-properties.webp)
 
 Open an NFT to see its detail page with its properties. If the NFT has none, Zelcore shows "No properties for this NFT." Where the market data source provides it, the detail page also shows the collection's floor price.
 
 ## Send an NFT
 
-<!-- screenshot: nft-gallery-04-send-form -->
+![NFT send form with the Address field, Choose Account or Contact, the fee in SOL and USD, Cancel and Send](./images/nft-gallery/nft-gallery-04-send-form.webp)
 
 1. Open **NFTs** and select the NFT you want to move.
 2. Choose **Send**.
@@ -67,7 +66,7 @@ Check the recipient address and the details Zelcore shows before you confirm. A 
 
 ## Troubleshooting
 
-<!-- screenshot: nft-gallery-05-empty-state -->
+![NFT Overview filtered to Polygon showing No NFTs found](./images/nft-gallery/nft-gallery-05-empty-state.webp)
 
 ### No NFTs found
 

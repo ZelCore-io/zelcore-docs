@@ -6,7 +6,7 @@ keywords: [zelcore d2fa, decentralized two-factor authentication, d2fa pin, flux
 
 # Set Up d2FA in Zelcore
 
-d2FA is Zelcore's decentralized two-factor authentication: a numeric PIN that you create in the **Flux ID** app, not in Settings. Zelcore stores the PIN encrypted on the Flux blockchain by sending a small FLUX transaction from the first Flux address in your account to your Flux ID address. Depending on the options you tick, Zelcore asks for the PIN when you log in, before secure tasks such as sending, swapping, viewing private keys and Flux ID operations, or both.
+d2FA is Zelcore's decentralized two-factor authentication: a numeric PIN that you create in the **Flux ID** app, not in Settings. Zelcore stores the PIN encrypted on the Flux blockchain by sending a small FLUX transaction from the first Flux address in your account to your Flux ID address. Depending on the options you turn on, Zelcore asks for the PIN when you log in, before secure tasks such as sending, swapping, viewing private keys and Flux ID operations, or both.
 
 :::info Applies to Zelcore 8.39
 Written for Zelcore 8.39.0 (October 2026).
@@ -23,27 +23,26 @@ Written for Zelcore 8.39.0 (October 2026).
 The same Flux ID screens are in the desktop app, the mobile app and the browser extension.
 
 1. Open **Apps** and choose the **Flux ID** tile.
-   <!-- screenshot: d2fa-1 (Apps screen with the Flux ID tile and its description) -->
-2. On the **Security Area** screen, select **Next**.
-3. Under **Actions**, choose **Flux ID d2FA**. The status panel shows **d2FA hasn't been setup yet**.
-   <!-- screenshot: d2fa-2 (Security Area with the status panel and the Flux ID d2FA action) -->
-4. Type a PIN in **New PIN** and the same PIN again in **Verify PIN**. The PIN is digits only, up to 10 digits.
-5. Choose when Zelcore should ask for the PIN. Both options are ticked by default; untick any you don't want, but keep at least one:
+   ![Apps screen with the Flux ID tile and its description](./images/d2fa/d2fa-1-apps-flux-id.webp)
+2. The **Security Area** screen opens. Under **Actions**, choose **Flux ID d2FA**. In the status panel, the **Flux ID d2FA** row shows **Inactive** until you set it up (hover over the row to read "d2FA hasn't been setup yet").
+   ![Flux ID Security Area with the Status panel and the Flux ID d2FA action under Actions](./images/d2fa/d2fa-2-security-area.webp)
+3. Type a PIN in **New PIN** and the same PIN again in **Verify PIN**. The PIN is digits only, up to 10 digits.
+4. Choose when Zelcore should ask for the PIN. Both option switches are on by default; turn off any you don't want, but keep at least one on:
    - **Used for logging into Zelcore**
    - **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**
-6. Tick **Yes, I have a backed up my d2FA PIN number.** (this is the app's wording).
-7. Enter your account password in **Enter your password**. On seed-phrase accounts this field is labelled **Easy Login Passphrase**.
-   <!-- screenshot: d2fa-3 (Create d2FA form with New PIN, Verify PIN, both option checkboxes, the backup checkbox and the FLUX note) -->
-8. Select **Create d2FA**. Zelcore broadcasts the setup transaction.
-9. Wait until the transaction is confirmed on the Flux blockchain, then log out and log back in. The app says: "Your d2FA PIN will be set after the transaction is confirmed on the blockchain and you have re-logged in."
-10. Open **Apps** > **Flux ID** again. The status panel now shows **d2FA is active**.
-    <!-- screenshot: d2fa-4 (status panel showing d2FA is active) -->
+5. Turn on **Yes, I have a backed up my d2FA PIN number.** (this is the app's wording).
+6. Enter your account password in **Enter your password**. On seed-phrase accounts this field is labelled **Easy Login Passphrase**.
+   ![d2FA form with New PIN, Verify PIN, the two option switches, the backup switch and the password field, shown here in Change d2FA mode](./images/d2fa/d2fa-3-d2fa-form.webp)
+7. Select **Create d2FA**. Zelcore broadcasts the setup transaction.
+8. Wait until the transaction is confirmed on the Flux blockchain, then log out and log back in. The app says: "Your d2FA PIN will be set after the transaction is confirmed on the blockchain and you have re-logged in."
+9. Open **Apps** > **Flux ID** again. In the status panel, **Flux ID d2FA** now shows **Active** (hover over the row to read "d2FA is active").
+   ![Status panel with the d2FA is active tooltip over the Flux ID d2FA row](./images/d2fa/d2fa-4-status-active.webp)
 
 ## When Zelcore asks for your PIN
 
-**At login.** If you ticked **Used for logging into Zelcore**, the login screen also asks for your d2FA PIN.
+**At login.** If you turned on **Used for logging into Zelcore**, the login screen also asks for your d2FA PIN.
 
-**Before secure tasks.** If you ticked **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**, a **d2FA** dialog opens with "Please authenticate your account using your PIN." Type the PIN in **PIN** and confirm. The button reads **Verify PIN and Send** on a send, **Verify PIN and Swap** on a swap and **Verify PIN** elsewhere. If you didn't tick this option, these screens don't ask for the PIN.
+**Before secure tasks.** If you turned on **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**, a **d2FA** dialog opens with "Please authenticate your account using your PIN." Type the PIN in **PIN** and confirm. The button reads **Verify PIN and Send** on a send, **Verify PIN and Swap** on a swap and **Verify PIN** elsewhere. If you turned this option off, these screens don't ask for the PIN.
 
 <!-- screenshot: d2fa-5 (d2FA PIN prompt on the Send screen) -->
 
@@ -64,23 +63,23 @@ With the secure-tasks option on, Zelcore asks every time, whatever the amount, o
 
 To change the PIN or the options:
 
-1. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**.
+1. Open **Apps** > **Flux ID** > **Flux ID d2FA**.
 2. Keep the switch on **Change d2FA**.
-3. Fill in **New PIN**, **Verify PIN**, the options and the backup checkbox, then your password. Changing d2FA asks for your account password (or your biometric check if you use biometric Easy Login), not your current PIN.
+3. Fill in **New PIN**, **Verify PIN**, the option switches and the backup switch, then your password. Changing d2FA asks for your account password (or your biometric check if you use biometric Easy Login), not your current PIN.
 4. Select **Change d2FA**. As with setup, the new settings apply after the transaction is confirmed and you log in again. Until then, log in with your previous settings.
 
 To turn d2FA off:
 
-1. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**.
+1. Open **Apps** > **Flux ID** > **Flux ID d2FA**.
 2. Move the switch to **Disable d2FA**.
 3. Type your current PIN in **Verify PIN**.
 4. Select **Disable d2FA**. Turning d2FA off needs your current PIN (or your biometric check if you use biometric Easy Login). There is no confirmation step: Zelcore sends a small FLUX transaction to turn d2FA off as soon as you select it.
 
 ## If you forget your PIN
 
-Zelcore has no reset or "forgot PIN" option, and nobody at Zelcore can see or reset your PIN. What you can do depends on the options you ticked:
+Zelcore has no reset or "forgot PIN" option, and nobody at Zelcore can see or reset your PIN. What you can do depends on the options you turned on:
 
-- **PIN used only for secure tasks.** You can still log in. Open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA**, keep the switch on **Change d2FA** and set a new PIN with your account password, as in [Change or disable d2FA](#change-or-disable-d2fa). The new PIN works after the transaction is confirmed and you log in again.
+- **PIN used only for secure tasks.** You can still log in. Open **Apps** > **Flux ID** > **Flux ID d2FA**, keep the switch on **Change d2FA** and set a new PIN with your account password, as in [Change or disable d2FA](#change-or-disable-d2fa). The new PIN works after the transaction is confirmed and you log in again.
 - **PIN used for logging in.** Zelcore asks for the PIN before it opens your account, so without it you can't use the account in Zelcore. The app warns about this when you create the PIN.
 
 d2FA is a check in the Zelcore app. It doesn't change your keys, so your seed phrase still controls your funds.
@@ -109,11 +108,11 @@ Use digits only. Zelcore also shows this message when **New PIN** is empty.
 
 ### Please select at least one security option
 
-Tick **Used for logging into Zelcore**, **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**, or both.
+Turn on **Used for logging into Zelcore**, **Used for secure tasks such as transacting, viewing Private Keys and Flux ID operations**, or both.
 
 ### Check that you backed up your d2FA PIN
 
-Tick **Yes, I have a backed up my d2FA PIN number.** after you have written the PIN down.
+Turn on **Yes, I have a backed up my d2FA PIN number.** after you have written the PIN down.
 
 ### Wrong PIN - Access denied
 
@@ -133,7 +132,7 @@ A change is still waiting for confirmation. Log in with the PIN and options you 
 
 ### Spam transactions have been detected, please resend d2FA transaction.
 
-Resend the d2FA transaction: open **Apps** > **Flux ID** > **Next** > **Flux ID d2FA** and submit the form again. If it keeps happening, contact [Zelcore support](https://support.zelcore.io).
+Resend the d2FA transaction: open **Apps** > **Flux ID** > **Flux ID d2FA** and submit the form again. If it keeps happening, contact [Zelcore support](https://support.zelcore.io).
 
 ### Error while checking d2FA. Unable to log in at this time. Check your internet connection.
 

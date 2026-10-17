@@ -20,16 +20,18 @@ Background: [Zelcore Fusion Swap: Aggregator, Slippage, and On-Ramps](https://ze
 The steps are the same on desktop, mobile and the browser extension, which share the same swap screen. On mobile and in the extension, open **Swap** from the app menu.
 
 1. Select **Swap** (on desktop, in the left menu). The **Swap Tokens** screen opens.
-2. Under **Choose Selling Asset**, pick the asset you want to sell and the wallet it comes from.
-3. In **Enter amount to sell**, type the amount.
-4. Under **Choose Buying Asset**, pick the asset you want to receive.
-5. Zelcore asks the swap providers for quotes. Offers appear under **Featured Provider** and **All Rates**. The best-priced offer is tagged **Best Rate**.
-6. Pick an offer and read the **Transaction Summary**: **Rate**, **Rate Type**, **Fee**, **Network Fee** (when the provider reports one) and **You'll Receive**.
-7. Select **Swap Now**. If d2FA is on, the button reads **Verify PIN and Swap** and asks for your PIN before Zelcore signs.
+2. On the first **Select token** card, pick the asset you want to sell and the wallet it comes from.
+3. Type the amount to sell in the amount field on that card, or select **Max**.
+4. On the second **Select token** card, pick the asset you want to receive.
+5. Select **Next step**. Zelcore asks the swap providers for quotes, and the **Select Provider** screen shows the offers under **Featured Provider** and **All Rates**. The best-priced offer is tagged **Best Rate**.
+6. Pick an offer and select **Next step**, then read the **Transaction Summary**: **Rate**, **Rate Type**, **Fee**, **Network Fee** (when the provider reports one) and **You'll Receive**.
+7. Select **Swap Now**. If d2FA is on, Zelcore asks for your PIN before it signs: enter it and select **Verify PIN and Swap**.
 
-<!-- screenshot: swaps-1 Swap screen empty state with selling/buying selectors -->
-<!-- screenshot: swaps-2 Quote list with Featured Provider, All Rates, a Best Rate tag and a DEX/Private/ZK badge -->
-<!-- screenshot: swaps-5 Transaction Summary with Rate, Rate Type, Fee, Network Fee tooltip and Swap Now -->
+![Swap Tokens screen with two Select token cards, Max and Available, the swap-direction button, Next step and Reset](./images/swaps-fees-and-limits/swaps-1-swap-tokens.webp)
+
+![Select Provider screen for a DOGE to BTC swap with the Featured Provider offer tagged Recommended and Best Rate, and the All Rates list](./images/swaps-fees-and-limits/swaps-2-select-provider.webp)
+
+![Transaction Summary with Provider, Rate, Rate Type, Fee, the Network Fee tooltip and Swap Now](./images/swaps-fees-and-limits/swaps-5-transaction-summary.webp)
 
 ## Fixed and float rates
 
@@ -76,11 +78,11 @@ The table sums up each provider's own terms as of October 2026. Follow the links
 
 Limits are set by each provider and differ by trading pair. Select **Show Pair Limits** to see the minimum and maximum for each provider. If your amount is below every provider's minimum, or outside the limits of the offer you picked, Zelcore shows an error (see below) and you can change the amount. You also need enough balance to cover the amount and the **Fee**.
 
-<!-- screenshot: swaps-4 Show Pair Limits expanded (Min/Max per provider) -->
+![Show Pair Limits expanded with the Min and Max amount for each provider](./images/swaps-fees-and-limits/swaps-4-pair-limits.webp)
 
 ## Provider badges: DEX, Private and ZK
 
-Some offers carry a badge. Open **What the badges mean** in the app for the legend.
+Some offers carry a badge. Below the offers, **What the badges mean** explains each badge that appears in the current list.
 
 - **DEX**: routed through on-chain liquidity such as DEXs and cross-chain protocols, not a custodial exchange account.
 - **Private**: your deposit and your payout cannot be linked on-chain. Usually completes within minutes.
@@ -88,11 +90,11 @@ Some offers carry a badge. Open **What the badges mean** in the app for the lege
 
 Zelcore 8.39.0 added InstaSwap as a provider in all three forms. To use an InstaSwap offer you agree to the InstaSwap terms in the app.
 
-<!-- screenshot: swaps-3 Badge legend open ("What the badges mean") -->
+![A Rango offer with the DEX badge and the What the badges mean legend below the offers](./images/swaps-fees-and-limits/swaps-3-badge-legend.webp)
 
 ## d2FA, scam screening and hardware wallets
 
-- **d2FA**: with d2FA on, **Swap Now** becomes **Verify PIN and Swap** and the swap is signed only after you enter your PIN. See [Set Up d2FA in Zelcore](../security/d2fa.md).
+- **d2FA**: with d2FA on, selecting **Swap Now** asks for your PIN (**Verify PIN and Swap**), and the swap is signed only after you enter it. See [Set Up d2FA in Zelcore](../security/d2fa.md).
 - **Scam screening**: if a swap matches a known scam or drainer list, Zelcore warns you before you sign. **Swap anyway** continues; stop instead if you did not expect the warning.
 - **Hardware wallets (desktop)**: a swap cannot be paid from a hardware-wallet account. Choose a software wallet as the selling wallet. See [Ledger and Trezor on Zelcore Desktop](./hardware-wallets.md).
 
@@ -102,7 +104,7 @@ Zelcore 8.39.0 added InstaSwap as a provider in all three forms. To use an Insta
 
 On the **Swap Tokens** screen, select **View Transaction History**. Pick the swap and select **Track Exchange** to follow its status with the provider. A swap that stays pending for a long time is covered in [Troubleshooting Fusion Swap Issues](./troubleshooting-fusion-swap-issues.md).
 
-<!-- screenshot: swaps-7 Transaction history / Track Exchange for a completed swap -->
+![Transaction Details for a completed swap with Status, Track Exchange and Support, Coin, From, Provider and Purchase Rate](./images/swaps-fees-and-limits/swaps-7-transaction-details.webp)
 
 ## Where swaps are available
 

@@ -92,7 +92,7 @@ Also set a PIN/password on the device itself, not just biometrics (biometrics ca
 
 ### Decentralized 2FA (d2FA)
 
-d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. You set it up in **Apps** → **Flux ID** → **Next** → **Flux ID d2FA**, not in Settings, and the first Flux address in your account needs a small amount of confirmed FLUX (about 0.0002 as of October 2026) for the setup transaction. For the steps, the options and the error messages, see [Set Up d2FA in Zelcore](/docs/security/d2fa).
+d2FA protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. You set it up in **Apps** → **Flux ID** → **Flux ID d2FA**, not in Settings, and the first Flux address in your account needs a small amount of confirmed FLUX (about 0.0002 as of October 2026) for the setup transaction. For the steps, the options and the error messages, see [Set Up d2FA in Zelcore](/docs/security/d2fa).
 
 When the secure-tasks option is on, Zelcore asks for the PIN before actions such as sending, swapping, Fusion deposits, viewing private keys or your seed phrase, and WalletConnect requests. Write the PIN down when you create it and store it apart from your seed phrase.
 
@@ -376,7 +376,7 @@ Also:
 
 ### Security Settings Review
 
-Open **Apps** → **Flux ID** → **Next** → **Flux ID d2FA** and check that the status panel shows **d2FA is active**.
+Open **Apps** → **Flux ID** → **Flux ID d2FA** and check that the status panel shows **Flux ID d2FA** as **Active**.
 
 ## Emergency Procedures
 
