@@ -21,12 +21,34 @@ The **Purchase** screen is titled **Purchase Crypto with Fiat**. You enter how m
 
 The payment itself happens on the provider's checkout, which opens in a separate browser window, not inside Zelcore.
 
-- **Providers, countries and payment methods.** Zelcore sends you to third-party providers such as MoonPay, Guardarian, Topper, Onramper and FinchPay (October 2026). The providers, payment methods and limits you see depend on your country and amount, and the list can change. Each provider runs its own identity checks.
 - **Fees and limits.** Fees are included in the quote shown before you continue. Each offer shows an **Includes Fee** amount. Hover over it to see the network fee and the transaction fee. The rate is a separate line on the card. Fees, limits and payment methods are shown in the app before you confirm.
 - **Where the coins go.** You choose one of your own Zelcore wallet addresses, and the coins go there.
 - **Availability.** Buy and Sell are available on desktop, Android and iOS. Purchase can vary by region, and the app shows what is available on your device.
 
 To sell crypto back to fiat, use the separate **Sell** item in the main menu instead.
+
+## Providers, countries and payment methods
+
+Purchase connects you to third-party providers. As of October 2026 they are MoonPay, Guardarian, Topper, Onramper and FinchPay. Selling crypto for fiat (the **Sell** menu) uses MoonPay, Guardarian, Topper and Onramper. Each provider decides which countries it serves, which payment methods it accepts and how it checks your identity. The offers you see depend on your country, amount and currency.
+
+The table sums up each provider's own pages as of October 2026. Follow the links for the current rules.
+
+| Provider | Buy / Sell | Countries | Payment methods (examples) | Identity checks | Provider fee |
+| --- | --- | --- | --- | --- | --- |
+| MoonPay | Buy and Sell | [Unsupported countries](https://support.moonpay.com/en/articles/380968-moonpay-s-unsupported-countries). Not available in, among others, China, India, Japan and Russia. | Card, Apple Pay, Google Pay, PayPal, SEPA, UK Faster Payments, PIX and more, depending on country ([payment methods](https://support.moonpay.com/en/articles/380823-moonpay-s-supported-payment-methods)) | ID check, with requirements that vary by region ([verification tiers](https://dev.moonpay.com/platform/guides/verification-tiers)) | Up to 4.5%, with a minimum fee; network fee extra ([pricing](https://www.moonpay.com/legal/pricing_disclosure)) |
+| Guardarian | Buy and Sell | [Payment methods by country](https://guardarian.com/payment-methods) | Card, Apple Pay, Revolut Pay, SEPA, PIX, SPEI and more, depending on country ([payment methods](https://guardarian.com/payment-methods)) | ID check ([AML policy](https://guardarian.com/aml-policy)) | Shown in the quote |
+| Topper | Buy and Sell | [Where Topper is available](https://support.topperpay.com/hc/en-us/articles/8926552924572-Where-is-Topper-available). Paused in the European Economic Area since 1 July 2026 ([notice](https://support.topperpay.com/hc/en-us/articles/28564092554524)). In New York, sell only ([New York](https://support.topperpay.com/hc/en-us/articles/29650900527260-Using-Topper-in-New-York)). | Card, Apple Pay, Google Pay, PayPal (US and UK), SEPA, Pix ([payment methods](https://support.topperpay.com/hc/en-us/articles/8926549139612)) | ID and selfie check ([how to verify](https://support.topperpay.com/hc/en-us/articles/8926525220636-How-to-verify-my-identity)) | Buy: 4.25% by card, Apple Pay or Google Pay, 0.99% by SEPA. Sell: 2.75% to a card. Minimum $3.99 ([fees](https://support.topperpay.com/hc/en-us/articles/8926549324444-Topper-costs-and-fees)) |
+| Onramper | Buy and Sell | Routes you to one of its partner providers, so coverage depends on that provider ([about Onramper](https://docs.onramper.com/docs/getting-started.md)) | Depends on the provider it routes you to ([payment methods](https://docs.onramper.com/docs/supported-payment-methods.md)) | Done by the provider it routes you to ([identity checks](https://knowledge.onramper.com/why-do-i-have-to-verify-my-identity)) | No fee of its own on top of the provider's ([end-user fees](https://knowledge.onramper.com/what-are-the-end-user-fees)) |
+| FinchPay | Buy only | Not available in the United States or the United Kingdom, among others ([terms](https://finchpay.io/terms-of-service)) | Card and local methods, depending on country ([FAQ](https://finchpay.io/faq)) | ID check ([FAQ](https://finchpay.io/faq)) | Shown during the purchase, all costs included ([FAQ](https://finchpay.io/faq)) |
+
+Good to know:
+
+- **You choose how to pay on the provider's checkout page.** The fee can depend on the payment method. For example, Topper charges less for SEPA than for a card.
+- **Your first purchase usually needs an ID check** with the provider, on its checkout page.
+- **Limits** are set by the provider and depend on your country, currency, payment method and verification level. The app shows a provider's minimum or maximum when your amount is outside it.
+- **Support.** For a payment problem, contact the provider whose checkout you used.
+
+Provider rules change often. Check the provider's own page if you're not sure whether it serves your country.
 
 ## Buy crypto step by step
 
