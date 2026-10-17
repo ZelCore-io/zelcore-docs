@@ -26,6 +26,8 @@ If something here is wrong or out of date, tell us in either of these ways:
 - Use the **Edit this page** link at the bottom of the page. It opens the page on GitHub.
 - Contact [Zelcore support](https://support.zelcore.io).
 
+To report a security vulnerability, email [security@zelcore.io](mailto:security@zelcore.io).
+
 ## Concepts and news
 
 Background explainers and release news are on the [Zelcore Academy](https://zelcore.io/academy). These docs focus on how to do things in the app.

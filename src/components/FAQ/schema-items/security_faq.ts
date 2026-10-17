@@ -14,6 +14,7 @@ const items = [
   { question: `How do I know if my wallet has been compromised?`, answer: `Monitor for these warning signs of wallet compromise:` },
   { question: `Are hardware wallets more secure than Zelcore?`, answer: `For large holdings, yes. Hardware wallets provide additional security layers that software wallets cannot match.` },
   { question: `What happens to my cryptocurrency if Zelcore the company disappears?`, answer: `Your cryptocurrency remains safe. This is one of the key advantages of non-custodial wallets like Zelcore.` },
+  { question: `How do I report a security vulnerability in Zelcore?`, answer: `Email security@zelcore.io. Describe the issue and the steps to reproduce it, and don't share details publicly until it has been fixed.` },
 ];
 
 export default items;

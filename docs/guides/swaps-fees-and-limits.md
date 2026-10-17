@@ -48,6 +48,30 @@ The **Transaction Summary** shows every cost before you confirm:
 
 Fees change with the network and the provider, so this page gives no figures. They are shown in the app before you confirm.
 
+## Swap providers, identity checks and refunds
+
+As of October 2026, offers come from Changelly, ChangeNOW, SimpleSwap, ChangeHero, Exolix, XOSwap, Fusion, Rango and InstaSwap. Binance Web3 also appears, for tokenized stocks (bStocks) only, and only in countries where they are allowed. The provider you pick does the exchange and pays out to your wallet.
+
+- **Most swaps need no account**, but providers screen transactions. A provider can **pause a swap and ask you to verify your identity** or explain where the funds came from. Zelcore may show "Exchange partner requires KYC. Try smaller amount" before the swap starts, or the provider may contact you while the swap is pending. Follow the provider's instructions. If you decline, the provider refunds you under its own policy.
+- **Refund times depend on the provider**, from hours to several weeks. Each provider's terms say how it handles refunds.
+- **Fixed-rate offers are valid only for a short time.** If your deposit arrives late, the provider may refund it or swap it at the current rate, depending on its terms.
+- **Country rules.** Each provider's terms list the countries it doesn't serve. Several centralized providers exclude, for example, the United States or the United Kingdom, and some require identity checks for residents of certain countries. Read the provider's terms before you swap.
+
+The table sums up each provider's own terms as of October 2026. Follow the links for the current rules.
+
+| Provider | Countries its terms exclude (examples) | Terms and policies |
+| --- | --- | --- |
+| Changelly | United States, United Kingdom, Germany, Austria, Japan, India, Turkey, Hong Kong and sanctioned countries | [Terms](https://changelly.com/terms-of-use), [AML/KYC](https://changelly.com/aml-kyc) |
+| ChangeNOW | United States, United Kingdom, India, Russia and sanctioned countries. Identity checks are required for residents of the EU, US, Japan, South Korea, Singapore, Hong Kong, UAE, Australia and Canada. | [Terms](https://changenow.io/terms-of-use/changenow-terms), [AML/KYC](https://changenow.io/terms-of-use/aml-kyc) |
+| SimpleSwap | United States, United Kingdom, India, Japan, China, most EU countries and sanctioned countries | [Terms](https://simpleswap.io/terms-of-service), [AML/KYC](https://simpleswap.io/aml-kyc) |
+| ChangeHero | See its terms | [Terms](https://changehero.io/terms-of-use) |
+| Exolix | Sanctioned persons and countries | [Terms](https://exolix.com/terms), [AML/KYC](https://exolix.com/aml-kyc) |
+| XOSwap (Exodus) | Cuba, Iran, North Korea, Syria, Crimea and other sanctioned regions | [XOSwap](https://www.xoswap.com), [Exodus terms](https://www.exodus.com/legal/exodus-tos-20260216-v37.pdf) |
+| Fusion (Flux) | See its terms | [Flux terms](https://runonflux.com/terms-of-service/) |
+| Rango | United States and prohibited territories such as Cuba, Iran, North Korea and Syria | [Terms](https://docs.rango.exchange/terms-of-use) |
+| InstaSwap | Sanctioned countries and regions | [Terms](https://instaswap.com/termsAndConditions) |
+| Binance Web3 (bStocks) | US persons and countries where bStocks aren't allowed | [bStocks](https://www.bstocks.finance/integration) |
+
 ## Minimum and maximum amounts
 
 Limits are set by each provider and differ by trading pair. Select **Show Pair Limits** to see the minimum and maximum for each provider. If your amount is below every provider's minimum, or outside the limits of the offer you picked, Zelcore shows an error (see below) and you can change the amount. You also need enough balance to cover the amount and the **Fee**.
@@ -117,6 +141,10 @@ The selling wallet is a hardware-wallet account (desktop). Pick a software walle
 ### "There was an error creating this swap"
 
 The provider did not accept the swap. Request new quotes and try again, or pick another offer. If it keeps failing, contact [Zelcore support](https://support.zelcore.io).
+
+### "Exchange partner requires KYC. Try smaller amount"
+
+The provider would need an identity check for this amount. Try a smaller amount, or pick an offer from another provider.
 
 ### "Exchange refused by InstaSwap!"
 

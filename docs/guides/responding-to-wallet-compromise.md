@@ -37,7 +37,7 @@ Background: [Crypto Scams: Red Flags and Safe Habits Guide](https://zelcore.io/a
    - **Bitcoin:** blockchain.com or blockchair.com
    - **Ethereum:** etherscan.io
    - **Flux:** explorer.runonflux.io
-   - **Kadena:** kdabox.com
+   - **Kadena:** explorer.chainweb-community.org/mainnet
    - **Ravencoin:** ravencoin.network
    - **Other chains:** Search "[blockchain name] explorer"
 

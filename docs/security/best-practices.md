@@ -434,6 +434,7 @@ This is by design - it's what makes cryptocurrency trustless and censorship-resi
 
 - **Website**: [zelcore.io](https://zelcore.io)
 - **Support**: [support.zelcore.io](https://support.zelcore.io)
+- **Security reports**: [security@zelcore.io](mailto:security@zelcore.io)
 - **Discord**: [discord.gg/runonflux](https://discord.gg/runonflux)
 - **Twitter**: [@zelcore_io](https://twitter.com/zelcore_io)
 - **GitHub**: [github.com/zelcore-io](https://github.com/zelcore-io)
@@ -450,7 +451,9 @@ This is by design - it's what makes cryptocurrency trustless and censorship-resi
 
 Found a security vulnerability?
 
-To report a security vulnerability, contact Zelcore support privately through the help center at https://support.zelcore.io, and don't share details publicly until it has been fixed.
+To report a security vulnerability, email [security@zelcore.io](mailto:security@zelcore.io). Describe the issue and the steps to reproduce it, and don't share details publicly until it has been fixed. The same contact is published in [security.txt](https://docs.zelcore.io/.well-known/security.txt).
+
+For help with your own wallet, use the help center at [support.zelcore.io](https://support.zelcore.io). Never send your seed phrase or private keys to anyone, including in a security report.
 
 ## Conclusion
 
