@@ -17,7 +17,7 @@ Written for Zelcore 8.39.0 (October 2026).
 - **Use the desktop app.** Hardware wallets need the desktop app's USB connection. Mobile and the browser extension don't offer the **Hardware Wallet** import.
 - **Ledger (desktop):** connect it over USB. Bluetooth isn't supported. Unlock the device and open the app for the coin you want to import. Keep your Ledger firmware and the coin's Ledger app up to date.
 - **Trezor (desktop):** Trezor is experimental. First turn on **Settings** > **Extras** > **Experimental Features**. It needs Trezor Bridge (or the Trezor Suite desktop app, which includes it) running on your computer. If Zelcore desktop shows "To allow a secure communication between your Trezor device and Zelcore App, please install" with a **Trezor Bridge** button, install Trezor Bridge or Trezor Suite.
-- **Models (desktop):** Zelcore desktop doesn't publish a list of supported device models. Some Trezor coins are marked in the app as available only on certain Trezor models.
+- **Tested devices (desktop):** Zelcore desktop is tested with the Ledger Nano X. Other Ledger devices that run the same Ledger coin apps are not tested with Zelcore desktop. No Trezor model is listed as tested with Zelcore desktop, and some Trezor coins are marked in the app as available only on certain Trezor models.
 
 <!-- screenshot: hardware-wallets-4 (Settings > Extras with the Experimental Features switch) -->
 
