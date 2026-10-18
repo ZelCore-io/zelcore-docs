@@ -52,36 +52,38 @@ Provider rules change often. Check the provider's own page if you're not sure wh
 
 ## Buy crypto step by step
 
-<!-- screenshot: buying-crypto-01-purchase-screen -->
+![Purchase Crypto with Fiat screen with a 100 USD amount, Includes Fee, the BTC estimate and rate, the wallet address selector, the disclaimer switch and Proceed](./images/buying-crypto/buying-crypto-01-purchase-screen.webp)
 
 1. Open **Purchase** from the left menu.
 2. Choose the fiat currency and enter the amount you want to spend. Zelcore shows an **Includes Fee** amount under it once it has a quote.
 3. Choose the crypto you want to buy.
 
-<!-- screenshot: buying-crypto-02-wallet-address-selector -->
+![Select a wallet address to place the currency dropdown open with a list of wallets](./images/buying-crypto/buying-crypto-02-wallet-address-selector.webp)
 
 4. Under **Select a wallet address to place the currency**, pick the address that should receive the coins.
 
-<!-- screenshot: buying-crypto-04-disclaimer -->
+![I agree with Zelcore Disclaimer switch, turned off, above the Proceed button](./images/buying-crypto/buying-crypto-04-disclaimer.webp)
 
-5. Tick the checkbox for **I agree with Zelcore Disclaimer**. The PDF is linked in the app and also available at [OnrampDisclaimer.pdf](https://cdn.zelcore.workers.dev/OnrampDisclaimer.pdf). Zelcore will not continue without it.
+5. Turn on the **I agree with Zelcore Disclaimer** switch. The PDF is linked in the app and also available at [OnrampDisclaimer.pdf](https://cdn.zelcore.workers.dev/OnrampDisclaimer.pdf). Zelcore will not continue without it.
 6. Click **Proceed**. If no provider can fill your amount, Zelcore says so and stays on this screen.
 
 <!-- screenshot: buying-crypto-03-provider-offers -->
 
 7. On the **Select Provider** screen, click the offer you want. Compare the **Includes Fee** amounts and the amounts you would receive, not only the rate. Use **Back** to change your amount.
 8. Click **Proceed**. The provider's checkout opens in a browser window. Complete the payment there.
-9. Track the order under **Purchase History**, or use **Track Purchase** on the order.
+9. Track the order under **Purchase History**: click the order and use **Track Purchase**.
 
 ## Track a purchase
 
-<!-- screenshot: buying-crypto-05-purchase-history -->
+![Purchase History table with Buy Asset, Amount, Date, Fiat and Status columns, showing one BTC order with the status EXPIRED](./images/buying-crypto/buying-crypto-05-purchase-history.webp)
 
-**Purchase History** lists your orders. Each one shows a status:
+**Purchase History** lists your orders. Click an order to open its **Transaction Details**, with **Track Purchase** and **Support**. Each order shows a status:
 
-- **Purchase Processing**: the order is still being handled.
-- **Purchase Completed**: the order is done.
-- **Purchase Failed**: the order did not go through. Check the provider's checkout page or contact the provider with the order details, and contact [Zelcore support](https://support.zelcore.io) if you need help with the Zelcore side.
+- **PENDING**, **SENDING**, **CONFIRMING** or **EXCHANGING**: the order is still being handled.
+- **COMPLETE**: the order is done.
+- **EXPIRED**: the order was closed before it completed. Start a new purchase if you still want to buy.
+- **FAILED**: the order did not go through. Check the provider's checkout page or contact the provider with the order details, and contact [Zelcore support](https://support.zelcore.io) if you need help with the Zelcore side.
+- **REFUNDED** or **HOLD**: the provider refunded the order or put it on hold. Contact the provider for details.
 
 An older flow is still reachable as **Legacy Purchase**.
 

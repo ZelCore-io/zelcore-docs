@@ -15,9 +15,9 @@ Written for Zelcore 8.39.0 (October 2026).
 
 Background: [Receive Crypto Safely in Zelcore: The Beginner Guide](https://zelcore.io/academy/how-to/receiving-crypto-safely-zelcore) on Zelcore Academy.
 
-Desktop, mobile and the browser extension use the same send and receive screens. On mobile and in the extension, start from the coin's action row.
+Desktop, mobile and the browser extension use the same send and receive screens. On desktop, **Send** and **Receive** are in the coin screen's **All Actions** list. On mobile and in the extension, start from the coin's action row.
 
-<!-- screenshot: send-1 Coin screen with Send and Receive buttons -->
+![Desktop coin screen for Flux with Receive and Send in the All Actions list](./images/send-and-receive/send-1-coin-screen.webp)
 
 ## Send crypto
 
@@ -27,13 +27,15 @@ Desktop, mobile and the browser extension use the same send and receive screens.
 4. Under **How much [coin] would you like to send?**, enter the amount, or select **Max** to send the **Total Spendable Amount**.
 5. Under **Select Speed**, choose **Economy**, **Normal** or **Fast**. On some chains the fee is set for you: the form says "Fee is calculated automatically by the network." On EVM chains you may also see a **Priority Fee**.
 6. If the send form shows a memo, tag, payment ID or note field for this chain, fill it in when the recipient asks for one (see [memos, tags and payment IDs](#memos-tags-and-payment-ids)).
-7. Confirm. With d2FA on, the button reads **Verify PIN and Send** and asks for your PIN; otherwise Zelcore asks "Proceed with transaction?".
+7. Select **Send**. With d2FA on, Zelcore asks for your PIN: enter it and select **Verify PIN and Send**. Otherwise Zelcore asks "Proceed with transaction?".
 8. Zelcore shows **Transaction Sent!** when the transaction is broadcast.
 
 Send a small test amount first when you use a new address.
 
-<!-- screenshot: send-2 Send form: recipient field, amount with Max, Total Spendable Amount -->
-<!-- screenshot: send-3 Select Speed with Economy/Normal/Fast and fee -->
+![Bitcoin send form with the recipient field, Choose Account or Contact, the amount with Max and the Total Spendable Amount](./images/send-and-receive/send-2-send-form.webp)
+
+![Select Speed with Economy, Normal and Fast, and the fee in BTC, sat/B and USD](./images/send-and-receive/send-3-select-speed.webp)
+
 <!-- screenshot: send-4 Confirmation / Verify PIN and Send -->
 <!-- screenshot: send-5 "Transaction Sent!" dialog -->
 
@@ -69,23 +71,23 @@ When an exchange or service gives you a memo, tag or payment ID for a deposit, e
 
 ### Safety checks before you sign
 
-- **Wrong chain**: if the address belongs to another chain, Zelcore says "This address belongs to [chain]. Send from [chain] instead."
+- **Wrong chain**: on an EVM chain, if you enter an address with another chain's prefix (for example an XDC Network address starting with `xdc` on Ethereum), Zelcore says "This address belongs to [chain]. Send from [chain] instead."
 - **Sending to yourself**: Zelcore warns "You are about to send funds to the same wallet address as you are using to send them with."
 - **Scam screening**: Zelcore checks recipients, token spenders and dApps against known scam and drainer lists before you sign, and warns you on a match.
 - **d2FA**: with d2FA on, no send is signed until you enter your PIN. See [Set Up d2FA in Zelcore](../security/d2fa.md).
 
-<!-- screenshot: send-7 Wrong-chain address warning (an ETH address on BTC) -->
+![Ethereum send form with an xdc address and the warning This address belongs to XDC Network. Send from XDC Network instead.](./images/send-and-receive/send-7-wrong-chain-warning.webp)
 
 ## Receive crypto
 
 1. Open **Portfolio** and select the coin or token you want to receive.
 2. Select **Receive**.
-3. Copy the **Wallet Address** (**Click to copy**), or let the sender scan the QR code.
+3. Copy the **Wallet Address** with **Copy**, or let the sender scan the QR code.
 4. To use another of your wallets for this coin, select **Receive from different wallet**.
 
 Only send the matching asset on the matching network to this address. Funds sent on another chain may not arrive.
 
-<!-- screenshot: send-6 Receive panel with address, QR and Click to copy -->
+![Receive panel with Receive from different wallet, the QR code, and the Link and Wallet Address fields with Copy](./images/send-and-receive/send-6-receive-panel.webp)
 
 ### Chains that need a setup step
 

@@ -17,11 +17,11 @@ Background: [Privacy Coins in 2026: Zcash, Monero, and Zelcore](https://zelcore.
 
 ## How Monero works in Zelcore
 
-- **Light wallet**: Zelcore does not run a Monero full node. A backend server keeps your address in sync with the blockchain, and the Monero screen shows how far the scan has got.
+- **Light wallet**: Zelcore does not run a Monero full node. A backend server keeps your address in sync with the blockchain. The **Rescan Monero** dialog, opened from the scan status button on the Monero screen, shows how far the scan has got.
 - **Loads on first use**: since 8.39.0, the desktop app loads its Monero code the first time you open Monero, so the first open can take a moment longer.
 - **Keys**: Zelcore can show your **View Key Public** and **View Key Secret**. The secret view key lets whoever holds it see your incoming transactions, so share it only with a service you trust.
 
-<!-- screenshot: monero-1 Monero coin screen with balance and sync status -->
+![Monero coin screen with the All Actions list, including Receive, Send and the Start Block scan status button](./images/monero-xmr/monero-1-coin-screen.webp)
 
 ## Receive XMR
 
@@ -31,7 +31,7 @@ Background: [Privacy Coins in 2026: Zcash, Monero, and Zelcore](https://zelcore.
 
 Incoming XMR shows in your balance first and becomes spendable once it is older than 10 blocks.
 
-<!-- screenshot: monero-4 Receive panel with XMR address -->
+![Monero Receive panel with the QR code, the Link and Wallet Address fields with Copy, Amount and Payment ID](./images/monero-xmr/monero-4-receive-panel.webp)
 
 ## Send XMR
 
@@ -41,13 +41,13 @@ Incoming XMR shows in your balance first and becomes spendable once it is older 
 4. If the recipient gave a payment ID, enter it in the **Payment ID** field.
 5. Enter the amount, or select **Max**.
 6. Read the fee. Zelcore shows an approximate fee; the exact fee is known only when the transaction is built, which takes a few seconds.
-7. Confirm. With d2FA on, the button reads **Verify PIN and Send** (see [Set Up d2FA in Zelcore](../security/d2fa.md)).
+7. Select **Send**. With d2FA on, enter your PIN and select **Verify PIN and Send** (see [Set Up d2FA in Zelcore](../security/d2fa.md)).
 
 A transaction you just sent may not show correctly in the transaction table, or in your balance, until it confirms.
 
 For the general send and receive screens, see [Send and Receive Crypto in Zelcore](./send-and-receive.md).
 
-<!-- screenshot: monero-2 Send form showing the fee-approximation warning -->
+![Monero send form with recipient, amount with Max, Payment ID, Select Speed, the fee and the note that the Monero fee is only an approximation](./images/monero-xmr/monero-2-send-form.webp)
 
 ## Why your spendable balance is lower than your balance
 
@@ -58,7 +58,7 @@ Monero can only use outputs that are older than 10 blocks (about 30 minutes) to 
 If you think your address received XMR before the point the backend started scanning from, start a rescan from an earlier block.
 
 1. Open **Portfolio** and select **Monero**.
-2. In the action row, select the scan status button. It reads **Start Block:** or **Start Trans.:** followed by a number, depending on the backend. After **Start Trans.:** the number is a transaction number, not a block height.
+2. In **All Actions**, select the scan status button. It reads **Start Block:** or **Start Trans.:** followed by a number, depending on the backend. After **Start Trans.:** the number is a transaction number, not a block height.
 3. The **Rescan Monero** dialog shows the scan progress. Enter the block height to scan from in **Scanning Start height**. On the default server, a rescan must be approved, and the dialog has no field and says so.
 4. Select **Rescan**.
 
@@ -66,7 +66,7 @@ A rescan on an alternative backend starts straight away and can take a couple of
 
 **Privacy note:** a rescan sends your Monero address and your secret view key to the backend server, so that the server can scan the blockchain for your transactions. This applies on every backend, including the default server, where the rescan must be approved. The secret view key shows your incoming transactions; it can't spend your XMR.
 
-<!-- screenshot: monero-3 Rescan dialog with Scanning Start height -->
+![Rescan Monero dialog on the default server with the start block, the scanning progress and the note that a rescan must be approved by the Zelcore team](./images/monero-xmr/monero-3-rescan-dialog.webp)
 
 ## Monero error messages
 

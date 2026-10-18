@@ -23,10 +23,10 @@ Written for Zelcore 8.39.0 (October 2026).
 
 ## Import a hardware wallet account
 
-1. In Zelcore desktop, open the wallet selector at the top of **Portfolio** and choose **Import a Wallet**.
-   <!-- screenshot: hardware-wallets-1 (wallet selector menu with Import a Wallet) -->
+1. In Zelcore desktop, open the wallet selector at the top of **Portfolio** (**See More Wallets**, which opens when you hover over it) and choose **Import a Wallet**.
+   ![See More Wallets menu in Portfolio with the wallet list, Import a Wallet and Configure Wallet](./images/moving-funds-from-other-wallets/moving-1-see-more-wallets.webp)
 2. In **Import External Wallet**, choose **Hardware Wallet**.
-   <!-- screenshot: hardware-wallets-2 (Import External Wallet dialog showing Hardware Wallet) -->
+   ![Import External Wallet dialog with Wallet Private Key and Hardware Wallet](./images/moving-funds-from-other-wallets/moving-2-import-external-wallet.webp)
 3. At "Select the brand of wallet you'd like to set up.", choose Ledger or Trezor (desktop). Trezor only appears when **Experimental Features** is on (desktop).
    <!-- screenshot: hardware-wallets-3 (brand picker with Ledger, and Trezor when Experimental Features is on, desktop) -->
 4. Follow the steps the wizard shows:

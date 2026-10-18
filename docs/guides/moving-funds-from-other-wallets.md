@@ -34,14 +34,14 @@ If the old wallet may be compromised, do not import its keys. Send the funds to 
 
 The old wallet or exchange charges its own network or withdrawal fee, shown there before you confirm. For the receive screen in detail, see [Send and Receive Crypto in Zelcore](./send-and-receive.md).
 
-<!-- screenshot: moving-4 Receive panel to copy a destination address -->
+![Bitcoin Native Segwit Receive panel with the QR code and the Wallet Address field with Copy](./images/moving-funds-from-other-wallets/moving-4-receive-panel.webp)
 
 ## Import a private key
 
-1. Open **Portfolio**, open the wallet selector and select **Import a Wallet**.
+1. Open **Portfolio**, open the wallet selector (**See More Wallets** on desktop, which opens when you hover over it) and select **Import a Wallet**.
 2. In **Import External Wallet**, select **Wallet Private Key**. (**Hardware Wallet** also appears here in the desktop app; see [Ledger and Trezor on Zelcore Desktop](./hardware-wallets.md).)
-3. Choose the coin.
-4. Paste the private key and confirm.
+3. Choose the coin. The form also has a **Wallet Label** field.
+4. Paste the private key in **Private Key** and select **Import**.
 5. Zelcore shows "Address imported successfully!" or "Wallet imported successfully!".
 
 **Wallet Private Key** is available on desktop, mobile and the browser extension.
@@ -50,9 +50,11 @@ The old wallet or exchange charges its own network or withdrawal fee, shown ther
 An imported private key is not created from your Zelcore seed phrase, so do not rely on that seed phrase to restore it. Keep your own backup of every private key you import.
 :::
 
-<!-- screenshot: moving-1 Wallet selector menu with Import a Wallet -->
-<!-- screenshot: moving-2 Import External Wallet dialog (Wallet Private Key, Hardware Wallet) -->
-<!-- screenshot: moving-3 Private key import form for one coin -->
+![See More Wallets menu in Portfolio with the wallet list, Import a Wallet and Configure Wallet](./images/moving-funds-from-other-wallets/moving-1-see-more-wallets.webp)
+
+![Import External Wallet dialog with Wallet Private Key and Hardware Wallet](./images/moving-funds-from-other-wallets/moving-2-import-external-wallet.webp)
+
+![Import a Wallet form for Flux with the coin selector, Wallet Label, Private Key, Cancel and Import](./images/moving-funds-from-other-wallets/moving-3-import-private-key.webp)
 
 ## Restore a seed phrase from another wallet
 

@@ -79,7 +79,7 @@ On the first login on a device, Zelcore runs **Smartify**, which checks your wal
 d2FA (decentralized two-factor authentication) protects your account with a numeric PIN that is stored encrypted on the Flux blockchain. To set it up:
 
 1. Keep a small amount of FLUX (about 0.0002) in your first Flux address for the activation transaction
-2. Open **Apps** → **Flux ID** → **Next** → **Flux ID d2FA**
+2. Open **Apps** → **Flux ID** → **Flux ID d2FA**
 3. Enter and verify your PIN (digits only, up to 10), choose whether it is used for logging in, for secure tasks (sending, viewing private keys, Flux ID operations), or both, and confirm you have backed up the PIN
 4. Enter your password and select **Create d2FA**; the PIN is active after the transaction is confirmed and you log in again
 
