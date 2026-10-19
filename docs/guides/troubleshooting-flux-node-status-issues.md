@@ -178,8 +178,10 @@ Check the `"blocks"` and `"headers"` values. They should match or be very close.
 **Option 2: Bootstrap the blockchain** (faster, 30-60 minutes):
 
 ```bash
-cd ~/ && wget https://fluxnodeservice.com/daemon_bootstrap.sh && bash daemon_bootstrap.sh
+bash -i <(curl -s https://raw.githubusercontent.com/RunOnFlux/fluxnode-multitool/master/multitoolbox.sh)
 ```
+
+Pick **Restore Flux blockchain from bootstrap** (option 5 on Ubuntu installs, option 4 on ArcaneOS). It stops the daemon, downloads the latest bootstrap from the Flux CDN and starts the daemon again.
 
 **Option 3: Restart daemon:**
 
@@ -338,15 +340,10 @@ If daemon crashes on startup mentioning database corruption:
 **Option A: Bootstrap (recommended - faster)**
 
 ```bash
-# Stop daemon
-flux-cli stop
-
-# Wait
-sleep 10
-
-# Run bootstrap
-cd ~/ && wget https://fluxnodeservice.com/daemon_bootstrap.sh && bash daemon_bootstrap.sh
+bash -i <(curl -s https://raw.githubusercontent.com/RunOnFlux/fluxnode-multitool/master/multitoolbox.sh)
 ```
+
+Pick **Restore Flux blockchain from bootstrap** (option 5 on Ubuntu installs, option 4 on ArcaneOS). It stops the daemon, downloads the latest bootstrap from the Flux CDN and starts the daemon again.
 
 **Option B: Full resync (slower)**
 
@@ -1842,8 +1839,10 @@ rm -rf blocks chainstate
 **Download and apply bootstrap:**
 
 ```bash
-cd ~/ && wget https://fluxnodeservice.com/daemon_bootstrap.sh && bash daemon_bootstrap.sh
+bash -i <(curl -s https://raw.githubusercontent.com/RunOnFlux/fluxnode-multitool/master/multitoolbox.sh)
 ```
+
+Pick **Restore Flux blockchain from bootstrap** (option 5 on Ubuntu installs, option 4 on ArcaneOS). It stops the daemon, downloads the latest bootstrap from the Flux CDN and starts the daemon again.
 
 **What bootstrap does:**
 - Downloads clean blockchain snapshot
