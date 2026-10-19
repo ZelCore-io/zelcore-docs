@@ -284,17 +284,10 @@ sudo systemctl restart zelcash
 **Method 1: Use Bootstrap (Fastest)**
 
 ```bash
-# Stop Flux daemon
-flux-cli stop
-
-# Download and extract bootstrap
-cd ~/.flux
-wget https://fluxnodeservice.com/daemon_bootstrap.tar.gz
-tar -xvf daemon_bootstrap.tar.gz
-
-# Start daemon
-sudo systemctl start zelcash
+bash -i <(curl -s https://raw.githubusercontent.com/RunOnFlux/fluxnode-multitool/master/multitoolbox.sh)
 ```
+
+Pick **Restore Flux blockchain from bootstrap** (option 5 on Ubuntu installs, option 4 on ArcaneOS). It stops the daemon, downloads the latest bootstrap from the Flux CDN and starts the daemon again.
 
 **Method 2: Force resync**
 

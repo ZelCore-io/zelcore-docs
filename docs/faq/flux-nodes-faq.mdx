@@ -545,10 +545,11 @@ Compare your block height with the network:
 
 **Option 2: Bootstrap (faster - recommended):**
 ```bash
-cd ~/ && wget https://fluxnodeservice.com/daemon_bootstrap.sh && bash daemon_bootstrap.sh
+bash -i <(curl -s https://raw.githubusercontent.com/RunOnFlux/fluxnode-multitool/master/multitoolbox.sh)
 ```
+- Pick **Restore Flux blockchain from bootstrap** (option 5 on Ubuntu installs, option 4 on ArcaneOS)
 - Takes 30-60 minutes
-- Downloads verified blockchain data
+- Downloads the latest bootstrap from the Flux CDN
 
 **Option 3: Restart daemon:**
 ```bash
